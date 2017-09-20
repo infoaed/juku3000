@@ -15,7 +15,7 @@ Lahenduseks on ehitada tänapäevastest komponentidest arvutisüsteem, mis pakub
 * Kasutajaliidese pealiskiht, mis võimaldab valida eri emulaatorite, nende mängude vahel.
 * Muuseumikiht, mis võimaldab tutvuda arvutimängude esijaloo kultuuri- ja tehnotasutaga. Öövalve arvutuskeskuses? Kalevi tänava mängude tuba? Kooli Juku-klassi võti? Zeroday kräkid hollandi BBSist 2600-baud modemiga Eesti Telefoni kulul? BBSummer ja ee.kevad? Mudamängija sokid ATI terminali klaviatuuril? Kogu see etnograafiline materjal väärib kogumist ja tulevastele põlvedele jutustamist.
 
-## Kudias selleni jõuda?
+## Kuidas selleni jõuda?
 
 Esimene samm astutakse 22.-24. septembril 2017 Tartus Garage48 häkatonil ["Elamused ja ekspositsioonid"](http://garage48.org/events/garage48-elamused-ja-ekspositsioonid). Kui sa tunned huvi, tahad anda nõu, aidata kaasa või lihtsalt jagada oma mälestusi vmt, siis võta ühendust tramm@wikimedia.ee või +372 55643754 — meile on kasu, kui saad häkatonilt läbi tulla, et meiega sel teemal lihtsalt suhelda, aga veel parem kui liitud meie tiimiga, et luua prototüüp, mis võiks leida kasutamist päris muuseumis päris näitustel. Katsenäituse plaanime läbi viia juba novembri alguses, kui ERMis toimub tänapäeva digitaalsele muuseumitööle keskenduv konverents ["Open licences, open content, open data: tools for developing digital humanities"](http://dh.org.ee/category/events/dhe2017/), kus esineb ka Soome esimese arvutimängumuuseumi üks võtmeisik Outi Penninkangas.
 
