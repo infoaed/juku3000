@@ -1,16 +1,16 @@
 ![JUKU3000](https://raw.githubusercontent.com/infoaed/juku3000/master/images/juku3000.jpg)
 # Mis on JUKU3000?
 
-''Meie eesmärk on lasta tulevatel põlvedel elavalt kogeda Eesti arvutimängude esiajalugu — 90ndate kooliarvuti JUKU peab olema kasutatav ka aastal 3000!''
+*Meie eesmärk on lasta tulevatel põlvedel elavalt kogeda Eesti arvutimängude esiajalugu — 90ndate kooliarvuti JUKU peab olema kasutatav ka aastal 3000!*
 
-Muuseumid tahaks panna välja Jukude, ZX Spctrumide, Atarite, Commodorede, Iskrate jne näitusi koos toonaste mängudega, aga sellega on üks suur probleem — kui külastajad neid arvuteid ka puudutada tohivad, siis kipuvad uunikumid purunema. Aga mis mõte on arvutitel, kui neid näppida ei või?
+Muuseumid tahaks panna välja Jukude, ZX Spectrumide, Atarite, Amigate, Commodorede, Iskrate jne näitusi koos toonaste mängudega, aga sellega on üks suur probleem — kui külastajad neid arvuteid ka puudutada tohivad, siis kipuvad uunikumid purunema. Aga mis mõte on arvutitel, kui neid näppida ei või?
 
-Lahenduseks on ehitada tänapäevastest komponentidest arvutisüsteem, mis pakub toonastele arvutitele sarnast kasutuskogemust, kuid on tänapäeva kasutajale piisavalt intuitiivne ning lollikindel, et sellest võiks igapäevaselt üle käia tänapäeva koolijütside hordid.
+Lahenduseks on ehitada tänapäevastest komponentidest arvutisüsteem, mis pakub toonastele arvutitele sarnast kasutuskogemust, kuid on tänapäeva kasutajale piisavalt intuitiivne ning lollikindel, et sellest võiks igapäevaselt üle käia koolijütside hordid.
 
 ## Mida selleks vaja on?
 
 * Emulaatoreid, palju emulaatoreid. Juku EKDOSi emuleerimine koos kõigi liidestega ei ole ühe õhtu projekt, aga enamike vanade levinud platvormide jaoks on olemas emulaatorid. Neid saab kasutada.
-* Tarkvara, palju kõvaketastele, diskettidele, kassettidele ja lintidele kinni jäänud tarkvara, eriti seda, mis on mugandatud, häkitud või lausa toodetud maarahva poolt maarahvale kasutamiseks? Kas sul on tarkvara, mis ei jookse ühelgi teadaoleval tänapäeva arvutisüsteemil? Kirjutasid ise 1990datel arvutimänge? Saada see meile, me mõtleme välja, kuidas sellele elu sisse puhuda.
+* Tarkvara, palju kõvaketastele, diskettidele, kassettidele ja lintidele kinni jäänud tarkvara, eriti seda, mis on mugandatud, häkitud või lausa toodetud maarahva poolt maarahvale kasutamiseks. Kas sul on tarkvara, mis ei jookse ühelgi teadaoleval tänapäeva arvutisüsteemil? Kirjutasid ise 1990datel arvutimänge? Saada see meile, me mõtleme välja, kuidas sellele elu sisse puhuda.
 * Riistvarakomplekt, kus on vana kooli CRT monitor, arhailise moega vastupidav klaviatuur ning legendaarne juhtpult Joystick!
 * Kasutajaliidese pealiskiht, mis võimaldab valida eri emulaatorite, nende mängude vahel.
 * Muuseumikiht, mis võimaldab tutvuda arvutimängude esijaloo kultuuri- ja tehnotasutaga. Öövalve arvutuskeskuses? Kalevi tänava mängude tuba? Kooli Juku-klassi võti? Zeroday kräkid hollandi BBSist 2600-baud modemiga Eesti Telefoni kulul? BBSummer ja ee.kevad? Mudamängija sokid ATI terminali klaviatuuril? Kogu see etnograafiline materjal väärib kogumist ja tulevastele põlvedele jutustamist.
@@ -27,3 +27,4 @@ Esimene samm astutakse 22.-24. septembril 2017 Tartus Garage48 häkatonil ["Elam
 * [Mängime?! Arvutimängud Prantsusmaalt ja Saksamaalt](https://kumu.ekm.ee/arhiiv/naitused-2013/mangime-arvutimangud-prantsusmaalt-ja-saksamaalt/) (Kumu arvutimängude näitus)
 * [RAM. Eesti varane arvutikunst](https://kumu.ekm.ee/syndmus/ram-eesti-varane-arvutikunst/) (Kumu arvutigraafika näitus)
 * [Suomen ensimmäinen pelimuseo avataan Tampereella](https://yle.fi/uutiset/3-9354287) (Arvutimängude muuseum Tamperes)
+* [Teema: Arvuti "Juku"](http://www.elfafoorum.ee/threads/63332-Arvuti-quot-Juku-quot) (Elfa foorumis)
