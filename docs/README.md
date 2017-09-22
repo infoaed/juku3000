@@ -12,3 +12,7 @@
 # Muu info #
 
 * http://dan.bmonde.net/failid/esitlused/eesti_oma_m2ngud.pdf
+
+# Eesti mängud #
+
+https://www.myabandonware.com/game/kosmonaut-2dx#download
