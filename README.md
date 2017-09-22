@@ -7,6 +7,17 @@ Muuseumid tahaks panna välja Jukude, ZX Spectrumide, Atarite, Amigate, Commodor
 
 Lahenduseks on ehitada tänapäevastest komponentidest arvutisüsteem, mis pakub toonastele arvutitele sarnast kasutuskogemust, kuid on tänapäeva kasutajale piisavalt intuitiivne ning lollikindel, et sellest võiks igapäevaselt üle käia koolijütside hordid.
 
+## Elamused ja ekspositsioonid 22.09-24.09 2017
+
+### Tiimi liikmed
+
+* Märt Põder (Wikimedia / Tartu Häkkerikoda)
+* Hain Zuppur (Võru Gümnaasium / riistvara & disain)
+* Liis Reha (Tartu Mänguasjamuuseum / teadur & kuraator)
+* Peeter Virk (Tartu Jaan Poska Gümnaasium / tarkvara & häkkimine)
+* Harald Smirnov (Tartu Kutsehariduskeskus / tehnik & õpilane)
+* Helena Grauberg (Tartu Mänguasjamuuseum / teadur & kuraator)
+
 ## Mida selleks vaja on?
 
 * Emulaatoreid, palju emulaatoreid. Juku EKDOSi emuleerimine koos kõigi liidestega ei ole ühe õhtu projekt, aga enamike vanade levinud platvormide jaoks on olemas emulaatorid. Neid saab kasutada.
