@@ -15,4 +15,6 @@
 
 # Eesti mängud #
 
-https://www.myabandonware.com/game/kosmonaut-2dx#download
+* https://kodu.ut.ee/~lipmaa/msx/
+* http://www.bluemoon.ee/history/index.html
+* https://www.myabandonware.com/game/kosmonaut-2dx#download
