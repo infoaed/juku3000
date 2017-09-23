@@ -18,3 +18,22 @@
 * https://kodu.ut.ee/~lipmaa/msx/
 * http://www.bluemoon.ee/history/index.html
 * https://www.myabandonware.com/game/kosmonaut-2dx#download
+
+
+* Valikud *
+
+Doom
+Doom2
+The Incredible Mashine
+Comnander Keen
+Prince of Persia
+Pac-Man
+Sky Roads
+Quake
+Duke Nukem
+CD-Man
+4D Boxing
+Lemmings
+Lost Vings
+Diger
+Mortal Combat
