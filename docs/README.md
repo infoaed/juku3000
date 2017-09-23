@@ -18,6 +18,8 @@
 * https://kodu.ut.ee/~lipmaa/msx/
 * http://www.bluemoon.ee/history/index.html
 * https://www.myabandonware.com/game/kosmonaut-2dx#download
+* Adventurer: King of England: https://www.msxgamesworld.com/gamecard.php?id=377
+* Phobos: https://www.msxgamesworld.com/gamecard.php?id=2191
 
 
 * Valikud *
