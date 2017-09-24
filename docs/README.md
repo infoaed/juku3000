@@ -17,25 +17,24 @@
 
 * https://kodu.ut.ee/~lipmaa/msx/
 * http://www.bluemoon.ee/history/index.html
-* https://www.myabandonware.com/game/kosmonaut-2dx#download
-* Adventurer: King of England: https://www.msxgamesworld.com/gamecard.php?id=377
-* Phobos: https://www.msxgamesworld.com/gamecard.php?id=2191
+* [Adventurer: King of England](https://www.msxgamesworld.com/gamecard.php?id=377)
+* [Phobos](https://www.msxgamesworld.com/gamecard.php?id=2191)
+* [Honiks](https://github.com/rpaat/honiks)
 
+# Valikud #
 
-* Valikud *
-
-Doom
-Doom2
-The Incredible Mashine
-Comnander Keen
-Prince of Persia
-Pac-Man
-Sky Roads
-Quake
-Duke Nukem
-CD-Man
-4D Boxing
-Lemmings
-Lost Vings
-Diger
-Mortal Combat
+* Doom
+* Doom2
+* The Incredible Mashine
+* Comnander Keen
+* Prince of Persia
+* Pac-Man
+* Sky Roads
+* Quake
+* Duke Nukem
+* CD-Man
+* 4D Boxing
+* Lemmings
+* Lost Vings
+* Diger
+* Mortal Combat
