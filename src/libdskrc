@@ -1,0 +1,8 @@
+[juku]
+description = Juku E5101 5.25" DSDD (2 x 80 x 10 * 512)
+sides = outout
+cylinders = 80
+heads = 2
+secsize = 512
+sectors = 10
+datarate = DD
