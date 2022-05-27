@@ -1,12 +1,12 @@
 # Kuidas lugeda/kirjutada Juku ketaste sisu?
 
-Juku 786/788kB kettad on kahepoolsed topelttihedusega (DSDD) kettad, millel on kummalgi pool 80 rada, millest igaüks koosneb 40 sektorist, mis koosneb 40 blokist, millest igaüks mahutab 32 baiti. See teeb kokku 2x80 = 160 rada, 40 x 40 x 32 = 5120 baiti ja kokku ketta suuruseks 160x512 = 819 200 baiti. Lugemise teeb keerukaks, et need baidid pole talletatud sisu mõttes mitte järjest, vaid "[segamini paisatud](https://www.seasip.info/Cpm/skew.html)". Seetõttu ei või seda võtta järjestikuse 819kB andmekogumina ja selle osiste olemasolu ignoreerida, vaid tuleb segadus selle eri taseme põhjusest lähtuvalt likvideerida.
+Juku 786/788 kB kettad on kahepoolsed topelttihedusega (DSDD) kettad, millel on kummalgi pool 80 rada, millest igaüks koosneb 40 sektorist, millest igaüks mahutab 128 baiti. See teeb kokku 2x80 = 160 rada, 40 x 128 = 5120 baiti ja kokku ketta suuruseks 160x512 = 819 200 baiti. Lugemise teeb keerukaks, et need baidid pole talletatud sisu mõttes mitte järjest, vaid "[segamini paisatud](https://www.seasip.info/Cpm/skew.html)". Seetõttu ei või seda võtta järjestikuse 819 kB andmekogumina ja selle osiste olemasolu ignoreerida, vaid tuleb segadus selle eri taseme põhjusest lähtuvalt likvideerida.
 
 FDMAINT             |  DEC Rainbow 100
 :-------------------------:|:-------------------------:
 ![FDMAINT ketast kontrollimas, väljast sisse ja üks pool korraga](/images/disk5.png)  |  ![DEC Rainbow 100 manuaal](/images/rainbow-logo.png)
 
-Ketta loogilise bloki suurus on 4096 ja selliseid mahub kogu ketta mahu sisse 819200/4096 = 200. Kui eeldada, et neist üks on kasutusel failide kataloogimise blokiks ja kaks reserveeritud süsteemi buutimiseks, siis jääb järgi 200-3 = 197. Seega on Juku ketta kasutatav maht 197x4096 = 806 912 baiti, mis on omakorda 806912/1024 = 788 kB.
+Ketta loogilise bloki suurus on 4096, igasse sellisesse blokki mahub 32 sektorit, loogilissi blokke mahub kogu ketta mahu sisse 819200/4096 = 200. Kui eeldada, et neist üks on kasutusel failide kataloogimise blokiks ja kaks reserveeritud süsteemi buutimiseks, siis jääb järgi 200-3 = 197. Seega on Juku ketta kasutatav maht 197x4096 = 806 912 baiti, mis on omakorda 806912/1024 = 788 kB.
 
 ## Juku ketaste spetsiifiline topeltsegadus
 
@@ -66,7 +66,7 @@ Juku algupärasele füüsilisele laotusele truuks jäädes peaksime määrama `.
 
 ```
 [juku-origin]
-description = Juku E5101 5.25" DSDD (2 x 80 x 40 * 40 * 32)
+description = Juku E5101 5.25" DSDD (2 x 80 x 40 * 128)
 sides = outout
 cylinders = 80
 heads = 2
@@ -122,7 +122,7 @@ diskdef juku
 end
 ```
 
-Teoreetiliselt võiks `libdsk` formaati ka ignoreerida, aga siis tuleks kirjeldada kõik sektorid ja nende blokid ühel rajal ning paisktabelis ära tuua need kõigi sektorite kohta, mis teeks tabeli umbes 160x10x10x4 = 60kB pikkuseks -- mis ei ole küll tänapeäva mõistes päris maailmalõpp, aga cpmtools ei pruugi vaikimisi nii pikka tabelit seedida.
+Teoreetiliselt võiks `libdsk` formaati ka ignoreerida, aga siis tuleks kirjeldada kõik sektorid ja nende blokid ühel rajal ning paisktabelis ära tuua need kõigi sektorite kohta, mis teeks tabeli umbes 160x10x4 ≈ 6 kB pikkuseks -- mis ei ole küll tänapeäva mõistes päris maailmalõpp, aga cpmtools ei pruugi vaikimisi nii pikka tabelit seedida.
 
 ## Lõppseis ja töö viljad
 
