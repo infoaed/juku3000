@@ -26,12 +26,7 @@ Lahenduseks on ehitada tänapäevastest komponentidest arvutisüsteem, mis pakub
 
 ### Tiimi liikmed
 
-* Märt Põder (Wikimedia / Tartu Häkkerikoda)
-* Hain Zuppur (Võru Gümnaasium / riistvara & disain)
-* Liis Reha (Tartu Mänguasjamuuseum / teadur & kuraator)
-* Peeter Virk (Tartu Jaan Poska Gümnaasium / tarkvara & häkkimine)
-* Harald Smirnov (Tartu Kutsehariduskeskus / tehnik & õpilane)
-* Helena Grauberg (Tartu Mänguasjamuuseum / teadur & kuraator)
+* (nimed eemaldatud)
 
 ## Mida selleks vaja on?
 
@@ -43,7 +38,7 @@ Lahenduseks on ehitada tänapäevastest komponentidest arvutisüsteem, mis pakub
 
 ## Kuidas selleni jõuda?
 
-Esimene samm astutakse 22.-24. septembril 2017 Tartus Garage48 häkatonil ["Elamused ja ekspositsioonid"](http://garage48.org/events/garage48-elamused-ja-ekspositsioonid). Kui sa tunned huvi, tahad anda nõu, aidata kaasa või lihtsalt jagada oma mälestusi vmt, siis võta ühendust tramm@wikimedia.ee või +372 55643754 — meile on kasu, kui saad häkatonilt läbi tulla, et meiega sel teemal lihtsalt suhelda, aga veel parem kui liitud meie tiimiga, et luua prototüüp, mis võiks leida kasutamist päris muuseumis päris näitustel. Katsenäituse plaanime läbi viia juba novembri alguses, kui ERMis toimub tänapäeva digitaalsele muuseumitööle keskenduv konverents ["Open licences, open content, open data: tools for developing digital humanities"](http://dh.org.ee/category/events/dhe2017/), kus esineb ka Soome esimese arvutimängumuuseumi üks võtmeisik Outi Penninkangas.
+Esimene samm astutakse 22.-24. septembril 2017 Tartus Garage48 häkatonil ["Elamused ja ekspositsioonid"](http://garage48.org/events/garage48-elamused-ja-ekspositsioonid). Kui sa tunned huvi, tahad anda nõu, aidata kaasa või lihtsalt jagada oma mälestusi vmt, siis võta ühendust tramm@infoaed.ee või +372 55643754 — meile on kasu, kui saad häkatonilt läbi tulla, et meiega sel teemal lihtsalt suhelda, aga veel parem kui liitud meie tiimiga, et luua prototüüp, mis võiks leida kasutamist päris muuseumis päris näitustel. Katsenäituse plaanime läbi viia juba novembri alguses, kui ERMis toimub tänapäeva digitaalsele muuseumitööle keskenduv konverents ["Open licences, open content, open data: tools for developing digital humanities"](http://dh.org.ee/category/events/dhe2017/), kus esineb ka Soome esimese arvutimängumuuseumi üks võtmeisik Outi Penninkangas.
 
 ## Lisamaterjali
 
