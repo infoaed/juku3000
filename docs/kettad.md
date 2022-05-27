@@ -22,7 +22,7 @@ DIRENT	EQU	128	; directory entries
 DIRCHK	EQU	20H
 ```
 
-Juba DEC Rainbow 100 on [ajalooliselt tunnustatud peavalu](https://en.wikipedia.org/wiki/Rainbow_100#Problems), sest selle paisktabel ei ühildu teiste tootjate standarditega. Juku kasutab/viitab Rainbow kettaformaati ilmselt pigem juhuslikel põhjustel või kuna selle kettalugeja ühendas kaks ühepoolset kettalugejat ning sobis seega teatud määral koodidoonoriks -- igatahes Juku paisktabel veel omal moel eksootiline ja on [samuti leitav lähtekoodist](https://github.com/infoaed/juku3000/blob/master/src/EKDOS30.ASM#L80-L93):
+Juba DEC Rainbow 100 on [ajalooliselt tunnustatud peavalu](https://en.wikipedia.org/wiki/Rainbow_100#Problems), sest selle paisktabel ei ühildu teiste tootjate standarditega. Juku kasutab/viitab Rainbow kettaformaati ilmselt pigem juhuslikel põhjustel või kuna selle kettalugeja ühendas kaks ühepoolset kettalugejat ning sobis seega teatud määral koodidoonoriks -- igatahes Juku paisktabel tundub alguses veel omal moel eksootiline ja on [samuti leitav lähtekoodist](https://github.com/infoaed/juku3000/blob/master/src/EKDOS30.ASM#L80-L93):
 
 ```
 ; *** Sector translate vectors, two 40 byte areas ***
@@ -105,7 +105,7 @@ sectors = 10
 datarate = DD
 ```
 
-Ja cpmtoolsi `diskdefs`:
+Ja cpmtoolsi `diskdefs` lühendatud paisktabeliga on lõpuks ketta poolte lugemise segaduse eemaldamise järel täiesti tavaline paiskfaktor väärtusega 2 ehk `skew 2`:
 
 ```
 # Juku E5101 \w optimized skew (DEC Rainbow 100 feat DSDD)
@@ -114,7 +114,8 @@ diskdef juku
   tracks 160
   sectrk 10
   blocksize 4096
-  skewtab 0,2,4,6,8,1,3,5,7,9
+  skew 2
+  #skewtab 0,2,4,6,8,1,3,5,7,9
   boottrk 2
   maxdir 128
   os 2.2
@@ -149,5 +150,10 @@ export CPMTOOLSFMT
 ```
 
 Ühesõnaga, on küll mõnevõrra tüütu kaevuda ajalooliste kettaformaatide iseärasustesse, kuid mõningase pusimise ja loomkatsete tulemusel saab ka maailma kõige unikaalsema CP/M kettaformaadi loetud. Juku tunnustuseks võib ütelda, et tõenäoliselt pole kunagi eksisteerinud ühtegi teist arvutisüsteemi, mis oleks ilma pusserdamiseta Juku kettaid suutnud lugeda -- seega kaksteist punkti ja ugrikrüpto eriauhind teadurile, kes selle välja mõtles!
+
+Lõpetuseks veelkord vajalikud failid:
+
+* [diskdefs](/src/diskdefs)
+* [libdskrc](/src/libdskrc)
 
 P. S. Füüsilistest ketastest tõmmiste tegemine on ka huvitav, aga eraldi kirjatükki vääriv teema.
