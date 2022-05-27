@@ -156,6 +156,6 @@ export CPMTOOLSFMT
 Lõpetuseks veelkord vajalikud failid:
 
 * [diskdefs](/src/diskdefs) (võib käia nt `/etc/cpmtools` või `/usr/local/share/`)
-* [libdskrc](/src/libdskrc) (käib tüüpiliselt kasutaja kodukataloogi kujul `.libdskrc`)
+* [libdskrc](/src/libdskrc) (võib käia nt `/usr/local/share/LibDsk/libdskrc` või kodukataloogi kujul `.libdskrc`)
 
 P. S. Füüsilistest ketastest tõmmiste tegemine on ka huvitav, aga eraldi kirjatükki vääriv teema.
