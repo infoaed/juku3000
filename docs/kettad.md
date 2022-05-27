@@ -1,6 +1,6 @@
 # Kuidas lugeda/kirjutada Juku ketaste sisu?
 
-Juku 786/788 kB kettad on kahepoolsed topelttihedusega (DSDD) kettad, millel on kummalgi pool 80 rada, millest igaüks koosneb 40 sektorist, millest igaüks mahutab 128 baiti. See teeb kokku 2x80 = 160 rada, 40 x 128 = 5120 baiti ja kokku ketta suuruseks 160x512 = 819 200 baiti. Lugemise teeb keerukaks, et need baidid pole talletatud sisu mõttes mitte järjest, vaid "[segamini paisatud](https://www.seasip.info/Cpm/skew.html)". Seetõttu ei või seda võtta järjestikuse 819 kB andmekogumina ja selle osiste olemasolu ignoreerida, vaid tuleb segadus selle eri taseme põhjusest lähtuvalt likvideerida.
+Juku 786/788 kB kettad on kahepoolsed topelttihedusega (DSDD) kettad, millel on kummalgi poolel 80 rada, millest igaüks koosneb 40 sektorist, millest igaüks mahutab 128 baiti. See teeb kokku 2x80 = 160 rada, 40 x 128 = 5120 baiti ja kokku ketta suuruseks 160x512 = 819 200 baiti. Lugemise teeb keerukaks, et need baidid pole talletatud sisu mõttes mitte järjest, vaid "[segamini paisatud](https://www.seasip.info/Cpm/skew.html)". Seetõttu ei või seda võtta järjestikuse 819 kB andmekogumina ja selle osiste olemasolu ignoreerida, vaid tuleb segadus selle eri taseme põhjusest lähtuvalt likvideerida.
 
 FDMAINT             |  DEC Rainbow 100
 :-------------------------:|:-------------------------:
@@ -22,7 +22,7 @@ DIRENT	EQU	128	; directory entries
 DIRCHK	EQU	20H
 ```
 
-Juba DEC Rainbow 100 on [ajalooliselt tunnustatud peavalu](https://en.wikipedia.org/wiki/Rainbow_100#Problems), sest selle paisktabel ei ühildu teiste tootjate standarditega. Juku kasutab/viitab Rainbow kettaformaati ilmselt pigem juhuslikel põhjustel või kuna selle kettalugeja ühendas kaks ühepoolset kettalugejat ning sobis seega teatud määral koodidoonoriks -- igatahes Juku paisktabel tundub alguses veel omal moel eksootiline ja on [samuti leitav lähtekoodist](https://github.com/infoaed/juku3000/blob/master/src/EKDOS30.ASM#L80-L93):
+Juba DEC Rainbow 100 on [ajalooliselt tunnustatud peavalu](https://en.wikipedia.org/wiki/Rainbow_100#Problems), sest selle paisktabel ei ühildu teiste tootjate standarditega. Juku kasutab/viitab Rainbow kettaformaati ilmselt pigem juhuslikel põhjustel või kuna selle kettalugeja ühendas kaks ühepoolset kettalugejat ning sobis seega teatud määral koodidoonoriks -- igatahes Juku paisktabel tundub peale vaadates veel omal moel eksootiline ja on [samuti leitav lähtekoodist](https://github.com/infoaed/juku3000/blob/master/src/EKDOS30.ASM#L80-L93):
 
 ```
 ; *** Sector translate vectors, two 40 byte areas ***
@@ -44,9 +44,11 @@ Ilmselt lähtub see formaliseering andmete tegelikust paiknemisest flopikettal, 
 
 > "Standard CP/M systems are shipped with a skew factor of 6, where six physical sectors are skipped between each logical read operation. This skew factor allows enough time between sectors for most programs to load their buffers without missing the next sector. In particular computer systems that use fast processors, memory, and disk subsystems, the skew factor might be changed to improve overall response."
 
-Ilmselgelt on tänapäeva mõistes tegu tarbetu abinõuga ning seetõttu ei tee me midagi halba, kui paisktabelit lihtsustame. Küll aga ei piisa, kui söödame selle paisktabeli [cmptoolsile](https://www.mankier.com/5/diskdefs), sest Juku kettaformaadil on veel teine standardist hälbiv iseärasus, mis tähendab, et kettal kirjutatakse ühe poole rajad täis ja siis minnakse teise poole radu kirjutama ketta teisest servast. [Tavapärane on kirjutada neid](https://www.mankier.com/5/libdskrc) kordamööda ühele ja teisele poolele või hakata rajanumbritega ühte kettaserva jõudes nendega teiselt poolelt tagasi tulema.
+Ilmselgelt on tänapäeva mõistes tegu tarbetu abinõuga ning seetõttu ei tee me midagi halba, kui paisktabelit lihtsustame. Küll aga ei piisa, kui söödame lihtsustatud või lihtsustamata paisktabeli [cmptoolsile](https://www.mankier.com/5/diskdefs), sest kuigi ketta algus loetakse enam-vähem, siis esimestest failidest edasi läheb kõik juba parajaks segapudruks.
 
-Seega on Juku ketastel tavapäraste ketaste suhtes segadus kahes mõttes, esiteks paisktabeli tõttu ja teiseks radade paigutuse tõttu kettal.
+Kui seda putru aga lähemalt vaadelda, selgub et Juku kettaformaadil veel teine standardist hälbiv iseärasus, mis ei seostu üldse paisktabelitega. Nimelt kirjutatakse ketta ühe poole rajad täis ja siis minnakse teise poole radu kirjutama uuesi algusest, st ketta teisest servast. [Tavapärane on kirjutada radu](https://www.mankier.com/5/libdskrc) kordamööda ühele ja teisele poolele või hakata rajanumbritega ühte kettaserva jõudes nendega teiselt poolelt tagasi tulema.
+
+Seega on Juku ketastel tavapäraste ketaste suhtes segadus kahes mõttes, esiteks paisktabeli tõttu ja teiseks radade paigutuse tõttu kettal. Ette rutates võib ütelda, et paisktabel osutub radade segaduse lahendamise järel õigupoolest täiesti standardseks.
 
 ## Millega ja mispidi neid siis lugeda?
 
@@ -123,7 +125,7 @@ diskdef juku
 end
 ```
 
-Teoreetiliselt võiks `libdsk` formaati ka ignoreerida, aga siis tuleks kirjeldada kõik sektorid ja nende blokid ühel rajal ning paisktabelis ära tuua need kõigi sektorite kohta, mis teeks tabeli umbes 160x10x4 ≈ 6 kB pikkuseks -- mis ei ole küll tänapeäva mõistes päris maailmalõpp, aga cpmtools ei pruugi vaikimisi nii pikka tabelit seedida.
+Teoreetiliselt võiks `libdsk` formaati ka ignoreerida, aga siis tuleks kirjeldada kõik sektorid ja nende blokid ühel rajal ning paisktabelis ära tuua need kõigi sektorite kohta, mis teeks tabeli umbes 160x10x4 ≈ 6 kB pikkuseks -- mis ei ole küll tänapeäva mõistes päris maailmalõpp, aga cpmtools ei pruugi vaikimisi nii pikka tabelit seedida. Teine võimalus on, et doonoriks sobib mõni _acorn_ libdsk formaat, mis on üks väheseid, milles `outout` lugemisviis kasutusel olla olnud.
 
 ## Lõppseis ja töö viljad
 
@@ -153,7 +155,7 @@ export CPMTOOLSFMT
 
 Lõpetuseks veelkord vajalikud failid:
 
-* [diskdefs](/src/diskdefs)
-* [libdskrc](/src/libdskrc)
+* [diskdefs](/src/diskdefs) (võib käia nt `/etc/cpmtools` või `/usr/local/share/`)
+* [libdskrc](/src/libdskrc) (käib tüüpiliselt kasutaja kodukataloogi kujul `.libdskrc`)
 
 P. S. Füüsilistest ketastest tõmmiste tegemine on ka huvitav, aga eraldi kirjatükki vääriv teema.
