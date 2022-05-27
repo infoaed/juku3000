@@ -7,7 +7,7 @@ Kui tahad lugeda Juku kettaid:
 
 * [Märt Põder kirjeldab libdsk/cpmtools meetodit](/docs/kettad.md)
 * [ELFA foorumis on oluline Juku teema](https://www.elfafoorum.eu/forum/tehnikafoorumid/tark-ja-riistvara-foorum/64851-)
-* [ZX форум lõim](https://zx-pk.ru/threads/27298-juku-e5101.html) (vene keeles)
+* [ZX форум äärmiselt kasulik Juku E5101 lõim](https://zx-pk.ru/threads/27298-juku-e5101.html) (vene keeles)
 
 Juku emulaatorid:
 
