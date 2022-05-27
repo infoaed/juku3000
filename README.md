@@ -3,11 +3,26 @@
 
 *Meie eesmärk on lasta tulevatel põlvedel elavalt kogeda Eesti arvutimängude esiajalugu — 90ndate kooliarvuti JUKU peab olema kasutatav ka aastal 3000!*
 
-Muuseumid tahaks panna välja Jukude, ZX Spectrumide, Atarite, Amigate, Commodorede, Iskrate jne näitusi koos toonaste mängudega, aga sellega on üks suur probleem — kui külastajad neid arvuteid ka puudutada tohivad, siis kipuvad uunikumid purunema. Aga mis mõte on arvutitel, kui neid näppida ei või?
+Kui tahad lugeda Juku kettaid:
 
-Lahenduseks on ehitada tänapäevastest komponentidest arvutisüsteem, mis pakub toonastele arvutitele sarnast kasutuskogemust, kuid on tänapäeva kasutajale piisavalt intuitiivne ning lollikindel, et sellest võiks igapäevaselt üle käia koolijütside hordid.
+* [Märt Põder kirjeldab libdsk/cpmtools meetodit](/docs/kettad.md)
+* [ELFA foorumis on oluline Juku teema](https://www.elfafoorum.eu/forum/tehnikafoorumid/tark-ja-riistvara-foorum/64851-)
+
+Juku emulaatorid:
+
+* [Универсальный эмулятор](http://bashkiria-2m.narod.ru/index/fajly/0-11) (emuleerib nii [Jukut](https://et.wikipedia.org/wiki/Juku_(arvuti)) kui [Iskra 1080 Tartut](https://et.wikipedia.org/wiki/Tartu_(arvuti)))
+* [MAME](http://adb.arcadeitalia.net/dettaglio_mame.php?game_name=juku) (sisaldab Juku üldkirjeldust, saab täiendatav vaba lähtekood)
+* [EMU80](https://github.com/vpyk/emu80v4) (potentsiaalne vaba lähtekoodiga kandidaat, mida lihtsalt mugandada Juku emuleerimiseks)
+
+See siin oli algselt häkatoniprojekt, mida dokumenteeritakse allpool -- praeguseks on olemas [LVLup muuseum](https://et.wikipedia.org/wiki/LVLup) ja arvutimuuseumid [Tallinnas](https://et.wikipedia.org/wiki/Arvutimuuseum) ja [Tartu Ülikooli arvutiteaduse instituudi juures](https://et.wikipedia.org/wiki/Tartu_%C3%9Clikooli_arvutimuuseum), kelle koostöös sellised asjad võiks teoks saada.
+
+_Järgneb ajalooline tekst..._
 
 ## Elamused ja ekspositsioonid 22.09-24.09 2017
+
+Muuseumid tahaks panna välja Jukude, ZX Spectrumide, Atarite, Amigate, Commodorede, Iskrate, Yamahade, Tartute, Entelite jne näitusi koos toonase tarkvara/mängudega, aga sellega on üks suur probleem — kui külastajad neid arvuteid ka puudutada tohivad, siis kipuvad uunikumid purunema. Aga mis mõte on arvutitel, kui neid näppida ei või?
+
+Lahenduseks on ehitada tänapäevastest komponentidest arvutisüsteem, mis pakub toonastele arvutitele sarnast kasutuskogemust, kuid on tänapäeva kasutajale piisavalt intuitiivne ning lollikindel, et sellest võiks igapäevaselt üle käia koolijütside hordid.
 
 ### Tiimi liikmed
 
