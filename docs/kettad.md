@@ -1,6 +1,6 @@
 # Kuidas lugeda/kirjutada Juku ketaste sisu?
 
-Juku 786/788KB kettad on kahepoolsed topelttihedusega (DSDD) kettad, millel on kummalgi pool 80 rada, millest igaüks koosneb 40 sektorist, mis koosneb 40 blokist, millest igaüks mahutab 32 baiti. See teeb kokku 2x80 = 160 rada, 40 x 40 x 32 = 5120 baiti ja kokku ketta suuruseks 160x512 = 819 200 baiti. Lugemise teeb keerukaks, kuna need baidid pole talletatud sisu mõttes mitte järjest, vaid segamini paisatud. Seetõttu ei või seda võtta järjestikuse 819kB andmekogumina ja selle osiste olemasolu ignoreerida, vaid tuleb segadus selle eri taseme põhjusest lähtuvalt likvideerida.
+Juku 786/788kB kettad on kahepoolsed topelttihedusega (DSDD) kettad, millel on kummalgi pool 80 rada, millest igaüks koosneb 40 sektorist, mis koosneb 40 blokist, millest igaüks mahutab 32 baiti. See teeb kokku 2x80 = 160 rada, 40 x 40 x 32 = 5120 baiti ja kokku ketta suuruseks 160x512 = 819 200 baiti. Lugemise teeb keerukaks, kuna need baidid pole talletatud sisu mõttes mitte järjest, vaid segamini paisatud. Seetõttu ei või seda võtta järjestikuse 819kB andmekogumina ja selle osiste olemasolu ignoreerida, vaid tuleb segadus selle eri taseme põhjusest lähtuvalt likvideerida.
 
 FDMAINT             |  DEC Rainbow 100
 :-------------------------:|:-------------------------:
@@ -62,7 +62,7 @@ STAT             |  KULT              |  DOCTOR
 :-------------------------:|:-------------------------:|:-------------------------:
 ![STAT näitab 40 sektorit raja kohta](/images/disk.png) | ![KULT näitab ka paisktabelit](/images/disk4.png) | ![Software Soulutions DISK EDITOR & DIAGNOSTICS annab kõige põhjalikuma ülevaate (aga ei erista 32 baidiseid blokke)](/images/disk2.png)
 
-Juku enda paisktabelile truuks jäädes peaksime määrama `.libdiskrc` failis parameetrid ilmselt nii:
+Juku algupärasele füüsilisele laotusele truuks jäädes peaksime määrama `.libdiskrc` failis parameetrid ilmselt nii:
 
 ```
 [juku-origin]
@@ -75,7 +75,7 @@ sectors = 40
 datarate = DD
 ```
 
-Samamoodi algupärasele füüsilisele laotusele truuks jäädes peaks olema siis `.libdiskrc` failis:
+Samamoodi austades algset paisktabelit peaks olema `diskdefs` kirje (küll tuleb tabeli väärtused muuta nullist algavaks):
 
 ```
 # Juku E5101 original (DEC Rainbow 100 feat DSDD)
@@ -121,6 +121,8 @@ diskdef juku
   libdsk:format juku
 end
 ```
+
+Teoreetiliselt võiks `libdsk` formaati ka ignoreerida, aga siis tuleks paisktabelis ära tuua kõik ketta sektorid, mis teeks tabeli umbes 160x10x4 = 6kB pikkuseks -- mis ei ole küll tänapeäva mõistes maailmalõpp, aga cpmtools ei pruugi vaikimisi nii pikka tabelit seedida.
 
 ## Lõppseis ja töö viljad
 
