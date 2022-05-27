@@ -47,7 +47,7 @@ TRANS1:	DB	1,2,3,4,9,10,11,12
 	DB	29,30,31,32,37,38,39,40	
 ```
 
-Ilmselt lähtub see formaliseering andmete tegelikust paiknemisest flopikettal, sest on näha, et paisktabel ehk _skew table_ on tegelikult viiestest blokkidest koosnev ja selle lihtsustatud väljendus oleks `1,3,5,7,9,2,4,6,8,10`. Mis on sisuliselt siis, et sektoreid loetakse üle ühe nii, et 5 paarituarvulise järjekorranumbriga ja siis sama ala kohta 5 paarisarvulise järjekorranumbriga sektorit. Sellist järjest lugemise vältimist oli omal ajal väidetavalt vaja, et arvutid kettalt tulevaid andmeid [ikka töödelda jõuaks](https://www.autometer.de/unix4fun/z80pack/cpm2/ch6.htm#Section_6.6) ja puhvrid ei hakkaks üle ajama:
+Ilmselt lähtub see formaliseering andmete tegelikust paiknemisest flopikettal, sest on näha, et paisktabel ehk _skew table_ on tegelikult neljastest blokkidest nagu `1,2,3,4` või `33,34,35,36` koosnev ja kogu tabeli lihtsustatud väljendus oleks `1,3,5,7,9,2,4,6,8,10`. Mis on sisuliselt, et sektoreid loetakse üle ühe nii, et 5 paarituarvulise järjekorranumbriga ja siis sama ala kohta 5 paarisarvulise järjekorranumbriga sektorit. Sellist järjest lugemise vältimist oli omal ajal väidetavalt vaja, et arvutid kettalt tulevaid andmeid [ikka töödelda jõuaks](https://www.autometer.de/unix4fun/z80pack/cpm2/ch6.htm#Section_6.6) ja puhvrid ei hakkaks üle ajama:
 
 > "Standard CP/M systems are shipped with a skew factor of 6, where six physical sectors are skipped between each logical read operation. This skew factor allows enough time between sectors for most programs to load their buffers without missing the next sector. In particular computer systems that use fast processors, memory, and disk subsystems, the skew factor might be changed to improve overall response."
 
