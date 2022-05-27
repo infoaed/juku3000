@@ -10,9 +10,9 @@ Kui tahad lugeda Juku kettaid:
 
 Juku emulaatorid:
 
-* [Универсальный эмулятор](http://bashkiria-2m.narod.ru/index/fajly/0-11) (emuleerib nii [Jukut](https://et.wikipedia.org/wiki/Juku_(arvuti)) kui [Iskra 1080 Tartut](https://et.wikipedia.org/wiki/Tartu_(arvuti)))
-* [MAME](http://adb.arcadeitalia.net/dettaglio_mame.php?game_name=juku) (sisaldab Juku üldkirjeldust, saab täiendatav vaba lähtekood)
-* [EMU80](https://github.com/vpyk/emu80v4) (potentsiaalne vaba lähtekoodiga kandidaat, mida lihtsalt mugandada Juku emuleerimiseks)
+* [Универсальный эмулятор](http://bashkiria-2m.narod.ru/index/fajly/0-11) (emuleerib 80% ulatuses nii [Jukut](https://et.wikipedia.org/wiki/Juku_(arvuti)) kui [Iskra 1080 Tartut](https://et.wikipedia.org/wiki/Tartu_(arvuti)), kahjuks kood suletud, sj konfifailid täiendatavad)
+* [MAME](http://adb.arcadeitalia.net/dettaglio_mame.php?game_name=juku) (sisaldab Juku üldkirjeldust, täiendatav vaba lähtekood)
+* [EMU80](https://github.com/vpyk/emu80v4) (potentsiaalne vaba lähtekoodiga kandidaat, mida mugandada Juku jm emuleerimiseks)
 
 See siin oli algselt häkatoniprojekt, mida dokumenteeritakse allpool -- praeguseks on olemas [LVLup muuseum](https://et.wikipedia.org/wiki/LVLup) ja arvutimuuseumid [Tallinnas](https://et.wikipedia.org/wiki/Arvutimuuseum) ja [Tartu Ülikooli arvutiteaduse instituudi juures](https://et.wikipedia.org/wiki/Tartu_%C3%9Clikooli_arvutimuuseum), kelle koostöös sellised asjad võiks teoks saada.
 
