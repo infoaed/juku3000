@@ -122,7 +122,7 @@ diskdef juku
 end
 ```
 
-Teoreetiliselt võiks `libdsk` formaati ka ignoreerida, aga siis tuleks kirjeldada kõik sektorid ja nende blokid ühel rajal ning paisktabelis ära tuua need kõigi sektorite kohta, mis teeks tabeli umbes 160x10x4 = 6,4 kB pikkuseks -- mis ei ole küll tänapeäva mõistes päris maailmalõpp, aga cpmtools ei pruugi vaikimisi nii pikka tabelit seedida.
+Teoreetiliselt võiks `libdsk` formaati ka ignoreerida, aga siis tuleks kirjeldada kõik sektorid ja nende blokid ühel rajal ning paisktabelis ära tuua need kõigi sektorite kohta, mis teeks tabeli umbes 160x10x4 ≈ 6 kB pikkuseks -- mis ei ole küll tänapeäva mõistes päris maailmalõpp, aga cpmtools ei pruugi vaikimisi nii pikka tabelit seedida.
 
 ## Lõppseis ja töö viljad
 
