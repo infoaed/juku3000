@@ -2,6 +2,13 @@
 
 Juku 786/788 kB kettad on kahepoolsed topelttihedusega (DSDD) kettad, millel on kummalgi poolel 80 rada, millest igaüks koosneb 40 sektorist, millest igaüks mahutab 128 baiti. See teeb kokku 2x80 = 160 rada, 40 x 128 = 5120 baiti ja kokku ketta suuruseks 160x512 = 819 200 baiti. Lugemise teeb keerukaks, et need baidid pole talletatud sisu mõttes mitte järjest, vaid "[segamini paisatud](https://www.seasip.info/Cpm/skew.html)". Seetõttu ei või seda võtta järjestikuse 819 kB andmekogumina ja selle osiste olemasolu ignoreerida, vaid tuleb segadus selle eri taseme põhjusest lähtuvalt likvideerida.
 
+Töö teevad ära [cpmtools](http://www.moria.de/~michael/cpmtools/) ja [libdsk](https://www.seasip.info/Unix/LibDsk/) käsikäes ning vajalikud konfifailid on:
+
+* [diskdefs](/src/diskdefs) (võib käia nt `/etc/cpmtools` või `/usr/local/share` alla)
+* [libdskrc](/src/libdskrc) (võib käia nt `/usr/local/share/LibDsk` alla või kodukataloogi kujul `.libdskrc`)
+
+Aga huvilistele veidi pikemalt köögipoolest...
+
 FDMAINT             |  DEC Rainbow 100
 :-------------------------:|:-------------------------:
 ![FDMAINT ketast kontrollimas, väljast sisse ja üks pool korraga](/images/disk5.png)  |  ![DEC Rainbow 100 manuaal](/images/rainbow-logo.png)
@@ -46,9 +53,7 @@ Ilmselt lähtub see formaliseering andmete tegelikust paiknemisest flopikettal, 
 
 Ilmselgelt on tänapäeva mõistes tegu tarbetu abinõuga ning seetõttu ei tee me midagi halba, kui paisktabelit lihtsustame. Küll aga ei piisa, kui söödame lihtsustatud või lihtsustamata paisktabeli [cmptoolsile](https://www.mankier.com/5/diskdefs), sest kuigi ketta algus loetakse enam-vähem, siis esimestest failidest edasi läheb kõik juba parajaks segapudruks.
 
-Kui seda putru aga lähemalt vaadelda, selgub et Juku kettaformaadil veel teine standardist hälbiv iseärasus, mis ei seostu üldse paisktabelitega. Nimelt kirjutatakse ketta ühe poole rajad täis ja siis minnakse teise poole radu kirjutama uuesi algusest, st ketta teisest servast. [Tavapärane on kirjutada radu](https://www.mankier.com/5/libdskrc) kordamööda ühele ja teisele poolele või hakata rajanumbritega ühte kettaserva jõudes nendega teiselt poolelt tagasi tulema.
-
-Seega on Juku ketastel tavapäraste ketaste suhtes segadus kahes mõttes, esiteks paisktabeli tõttu ja teiseks radade paigutuse tõttu kettal. Ette rutates võib ütelda, et paisktabel osutub radade segaduse lahendamise järel õigupoolest täiesti standardseks.
+Kui seda putru aga lähemalt vaadelda, selgub et Juku kettaformaadil veel teine standardist hälbiv iseärasus, mis ei seostu üldse paisktabelitega. Nimelt kirjutatakse ketta ühe poole rajad täis ja siis minnakse teise poole radu kirjutama uuesi algusest, st ketta teisest servast. [Tavapärane on kirjutada radu](https://www.mankier.com/5/libdskrc) kordamööda ühele ja teisele poolele või hakata rajanumbritega ühte kettaserva jõudes nendega teiselt poolelt tagasi tulema. Seega on Juku ketastel tavapäraste ketaste suhtes segadus kahes mõttes, esiteks paisktabeli tõttu ja teiseks radade paigutuse tõttu kettal. Ette rutates võib ütelda, et paisktabel osutub radade segaduse lahendamise järel õigupoolest täiesti standardseks.
 
 ## Millega ja mispidi neid siis lugeda?
 
@@ -135,7 +140,7 @@ Info (I)             |  Datamap (M)              |  Kataloogikirje (0x5000)
 :-------------------------:|:-------------------------:|:-------------------------:
 ![Juku E5101 algupärase laotuse infotabel](/images/info-origin.png) | ![Algupärase laotuse andmekaart](/images/datamap-origin.png) | ![Ketta sisu peaks aga algupärase/optimeeritud versiooni puhul juhul sama olema](/images/data.png)
 
-Ühtlasi peaks töötama kõik [cpmtoolsi käsud](http://www.moria.de/~michael/cpmtools/), millega brausida ketaste sisu ning ja teha failioperatsioone kopeerimisest kustutamiseni:
+Ühtlasi peaks töötama kõik [cpmtoolsi käsud](http://www.moria.de/~michael/cpmtools/), millega brausida ketaste sisu ning teha failioperatsioone kopeerimisest kustutamiseni:
 
 ```
 cpmls -f juku DISK.CPM
@@ -152,10 +157,5 @@ export CPMTOOLSFMT
 ```
 
 Ühesõnaga, on küll mõnevõrra tüütu kaevuda ajalooliste kettaformaatide iseärasustesse, kuid mõningase pusimise ja loomkatsete tulemusel saab ka maailma kõige unikaalsema CP/M kettaformaadi loetud. Juku tunnustuseks võib ütelda, et tõenäoliselt pole kunagi eksisteerinud ühtegi teist arvutisüsteemi, mis oleks ilma pusserdamiseta Juku kettaid suutnud lugeda -- seega kaksteist punkti ja ugrikrüpto eriauhind teadurile, kes selle välja mõtles!
-
-Lõpetuseks veelkord vajalikud failid:
-
-* [diskdefs](/src/diskdefs) (võib käia nt `/etc/cpmtools` või `/usr/local/share` alla)
-* [libdskrc](/src/libdskrc) (võib käia nt `/usr/local/share/LibDsk` alla või kodukataloogi kujul `.libdskrc`)
 
 P. S. Füüsilistest ketastest tõmmiste tegemine on ka huvitav, aga eraldi kirjatükki vääriv teema.
