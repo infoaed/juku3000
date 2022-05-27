@@ -22,7 +22,7 @@ DIRENT	EQU	128	; directory entries
 DIRCHK	EQU	20H
 ```
 
-Juba DEC Rainbow 100 on [ajalooliselt tunnustatud peavalu](https://en.wikipedia.org/wiki/Rainbow_100#Problems), sest selle paisktabel ei ühildu teiste tootjate standarditega. Juku kasutab/viitab Rainbow kettaformaati ilmselt pigem juhuslikel põhjustel või kuna selle kettalugeja ühendas kaks ühepoolset kettalugejat, igatahes Juku paisktabel veel omal moel eksootiline ja on [samuti leitav lähtekoodist](https://github.com/infoaed/juku3000/blob/master/src/EKDOS30.ASM#L80-L93):
+Juba DEC Rainbow 100 on [ajalooliselt tunnustatud peavalu](https://en.wikipedia.org/wiki/Rainbow_100#Problems), sest selle paisktabel ei ühildu teiste tootjate standarditega. Juku kasutab/viitab Rainbow kettaformaati ilmselt pigem juhuslikel põhjustel või kuna selle kettalugeja ühendas kaks ühepoolset kettalugejat ja sobis seega teatud määral koodidoonoriks -- igatahes Juku paisktabel veel omal moel eksootiline ja on [samuti leitav lähtekoodist](https://github.com/infoaed/juku3000/blob/master/src/EKDOS30.ASM#L80-L93):
 
 ```
 ; *** Sector translate vectors, two 40 byte areas ***
@@ -40,7 +40,7 @@ TRANS1:	DB	1,2,3,4,9,10,11,12
 	DB	29,30,31,32,37,38,39,40	
 ```
 
-Ilmselt lähtub see formaliseering andmete tegelikust paiknemisest flopikettal, sest on näha, et paisktabel ehk _skew table_ on tegelikult neljastest blokkidest koosnev ja selle lihtsustatud väljendus oleks `1,3,5,7,9,2,4,6,8,10`. Mis on sisuliselt siis, et sektoreid loetakse üle ühe nii, et 5 paarituarvulise järjekorranumbriga ja siis sama ala kohta 5 paarisarvulise järjekorranumbriga sektorit. Sellist järjest lugemise vältimist oli omal ajal väidetavalt vaja, et arvutid kettalt tulevaid andmeid [ikka töödelda jõuaks](https://www.autometer.de/unix4fun/z80pack/cpm2/ch6.htm#Section_6.6) ja puhvrid ei hakkaks üle ajama:
+Ilmselt lähtub see formaliseering andmete tegelikust paiknemisest flopikettal, sest on näha, et paisktabel ehk _skew table_ on tegelikult viiestest blokkidest koosnev ja selle lihtsustatud väljendus oleks `1,3,5,7,9,2,4,6,8,10`. Mis on sisuliselt siis, et sektoreid loetakse üle ühe nii, et 5 paarituarvulise järjekorranumbriga ja siis sama ala kohta 5 paarisarvulise järjekorranumbriga sektorit. Sellist järjest lugemise vältimist oli omal ajal väidetavalt vaja, et arvutid kettalt tulevaid andmeid [ikka töödelda jõuaks](https://www.autometer.de/unix4fun/z80pack/cpm2/ch6.htm#Section_6.6) ja puhvrid ei hakkaks üle ajama:
 
 > "Standard CP/M systems are shipped with a skew factor of 6, where six physical sectors are skipped between each logical read operation. This skew factor allows enough time between sectors for most programs to load their buffers without missing the next sector. In particular computer systems that use fast processors, memory, and disk subsystems, the skew factor might be changed to improve overall response."
 
