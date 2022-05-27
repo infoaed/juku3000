@@ -1,4 +1,4 @@
-# Juku E5101 (DEC Rainbow 100 feat DSDD)
+# Juku E5101 \w optimized skew (DEC Rainbow 100 feat DSDD)
 diskdef juku
   seclen 512
   tracks 160
@@ -9,4 +9,17 @@ diskdef juku
   maxdir 128
   os 2.2
   libdsk:format juku
+end
+
+# Juku E5101 original (DEC Rainbow 100 feat DSDD)
+diskdef juku-origin
+  seclen 128
+  tracks 160
+  sectrk 40
+  blocksize 4096
+  skewtab 0,1,2,3,8,9,10,11,16,17,18,19,24,25,26,27,32,33,34,35,4,5,6,7,12,13,14,15,20,21,22,23,28,29,30,31,36,37,38,39
+  boottrk 2
+  maxdir 128
+  os 2.2
+  libdsk:format juku-origin
 end
