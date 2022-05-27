@@ -4,7 +4,7 @@ Juku 786/788KB kettad on kahepoolsed topelttihedusega (DSDD) kettad, millel on k
 
 FDMAINT             |  DEC Rainbow 100
 :-------------------------:|:-------------------------:
-![FDMAINT ketast kontrollimas, väljast sisse ja üks pool korraga](images/disk5.png)  |  ![DEC Rainbow 100 manuaal](images/rainbow-logo.png)
+![FDMAINT ketast kontrollimas, väljast sisse ja üks pool korraga](/images/disk5.png)  |  ![DEC Rainbow 100 manuaal](/images/rainbow-logo.png)
 
 Ketta loogilise bloki suurus on 4096 ja selliseid mahub kogu ketta mahu sisse 819200/4096 = 200. Kui eeldada, et neist üks on kasutusel failide kateloogimise blokiks ja kaks reserveeritud süsteemi buutimiseks, siis jääb järgi 200-3 = 197. Seega on Juku ketta kasutatav maht 197x4096 = 806 912 baiti, mis on omakorda 806912/1024 = 788 kB.
 
@@ -60,7 +60,7 @@ Kui alustuseks vaadata Juku enda utiliite, siis need näitavad ketta eri paramee
 
 STAT             |  KULT              |  DOCTOR
 :-------------------------:|:-------------------------:|:-------------------------:
-![STAT näitab 40 sektorit raja kohta](images/disk.png) | ![KULT näitab ka paisktabelit](images/disk4.png) | ![Software Soulutions DISK EDITOR & DIAGNOSTICS annab kõige põhjalikuma ülevaate (aga ei erista 32 baidiseid blokke)](images/disk2.png)
+![STAT näitab 40 sektorit raja kohta](/images/disk.png) | ![KULT näitab ka paisktabelit](/images/disk4.png) | ![Software Soulutions DISK EDITOR & DIAGNOSTICS annab kõige põhjalikuma ülevaate (aga ei erista 32 baidiseid blokke)](/images/disk2.png)
 
 Juku enda paisktabelile truuks jäädes peaksime määrama `.libdiskrc` failis parameetrid ilmselt nii:
 
@@ -128,7 +128,7 @@ Lõpptulemus näeb cpmtoolsi `fsed.cpm -f juku-origin ORIG.CPM` ekraanil välja 
 
 Info (I)             |  Datamap (M)              |  Kataloogikirje (0x5000)
 :-------------------------:|:-------------------------:|:-------------------------:
-![Juku E5101 algupärase laotuse infotabel](images/info-origin.png) | ![Algupärase laotuse andmekaart](images/datamap-origin.png) | ![Ketta sisu peaks aga algupärase/optimeeritud versiooni puhul juhul sama olema](images/data.png)
+![Juku E5101 algupärase laotuse infotabel](/images/info-origin.png) | ![Algupärase laotuse andmekaart](/images/datamap-origin.png) | ![Ketta sisu peaks aga algupärase/optimeeritud versiooni puhul juhul sama olema](/images/data.png)
 
 Ühtlasi peaks töötama käsud, millega brausida ketaste sisu ja kopeerida faile sisse ja välja:
 
