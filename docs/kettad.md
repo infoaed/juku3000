@@ -132,13 +132,13 @@ Info (I)             |  Datamap (M)              |  Kataloogikirje (0x5000)
 :-------------------------:|:-------------------------:|:-------------------------:
 ![Juku E5101 algupärase laotuse infotabel](/images/info-origin.png) | ![Algupärase laotuse andmekaart](/images/datamap-origin.png) | ![Ketta sisu peaks aga algupärase/optimeeritud versiooni puhul juhul sama olema](/images/data.png)
 
-Ühtlasi peaks töötama käsud, millega brausida ketaste sisu ning kopeerida faile sisse ja välja:
+Ühtlasi peaks töötama kõik [cpmtoolsi käsud](http://www.moria.de/~michael/cpmtools/), millega brausida ketaste sisu ning ja teha failioperatsioone kopeerimisest kustutamiseni:
 
 ```
 cpmls -f juku DISK.CPM
 cpmls -f juku -licF DISK.CPM
 cpmcp -f juku GAMES.CPM 0:*.* jukugames
-cpmcp -f juku GAMESX.CPM INDY/INDY.* 0:
+cpmcp -f juku GAMESX.CPM jukugames/INDY.* 0:
 ```
 
 Kui määrata `juku` keskkonnamuutujas `CPMTOOLSFMT` vaikimisi formaadiks, siis võib `-f juku` ka ära jätta:
