@@ -15,9 +15,9 @@ Juku emulaatorid:
 
 Taustainfot:
 
+* [Arti Zirk on kogunud Juku materjale](https://arti.ee/juku/)
 * [ELFA foorumis on oluline Juku teema](https://www.elfafoorum.eu/forum/tehnikafoorumid/tark-ja-riistvara-foorum/64851-)
 * [ZX форум äärmiselt kasulik Juku E5101 lõim](https://zx-pk.ru/threads/27298-juku-e5101.html) (vene keeles)
-* [Arti Zirk on kogunud Juku materjale)(https://arti.ee/juku/)
 
 See siin oli algselt häkatoniprojekt, mida dokumenteeritakse allpool -- praeguseks on olemas [LVLup muuseum](https://et.wikipedia.org/wiki/LVLup) ja arvutimuuseumid [Tallinnas](https://et.wikipedia.org/wiki/Arvutimuuseum) ja [Tartu Ülikooli arvutiteaduse instituudi juures](https://et.wikipedia.org/wiki/Tartu_%C3%9Clikooli_arvutimuuseum), kelle koostöös sellised asjad võiks teoks saada.
 
