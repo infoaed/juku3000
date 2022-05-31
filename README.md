@@ -10,7 +10,7 @@ Kui tahad lugeda Juku kettaid:
 Juku emulaatorid:
 
 * [Универсальный эмулятор](http://bashkiria-2m.narod.ru/index/fajly/0-11) (emuleerib 80% ulatuses nii [Jukut](https://et.wikipedia.org/wiki/Juku_(arvuti)) kui [Iskra 1080 Tartut](https://et.wikipedia.org/wiki/Tartu_(arvuti)), kahjuks kood suletud, sj konfifailid täiendatavad)
-* [MAME](http://adb.arcadeitalia.net/dettaglio_mame.php?game_name=juku) (sisaldab Juku skeletti, buudib üles, aga vajab olulist täiendamist)
+* [MAME](http://adb.arcadeitalia.net/dettaglio_mame.php?game_name=juku) (Juku skelett, korrektsete [romidega](mameroms) buudib üles, aga vajab täiendamist)
 * [EMU80](https://github.com/vpyk/emu80v4) (vaba lähtekoodiga kandidaat, mida mugandada Juku jt sama pere kiipide emuleerimiseks)
 
 Taustainfot:
