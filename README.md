@@ -6,14 +6,18 @@
 Kui tahad lugeda Juku kettaid:
 
 * [Märt Põder kirjeldab libdsk/cpmtools meetodit](/docs/kettad.md)
-* [ELFA foorumis on oluline Juku teema](https://www.elfafoorum.eu/forum/tehnikafoorumid/tark-ja-riistvara-foorum/64851-)
-* [ZX форум äärmiselt kasulik Juku E5101 lõim](https://zx-pk.ru/threads/27298-juku-e5101.html) (vene keeles)
 
 Juku emulaatorid:
 
 * [Универсальный эмулятор](http://bashkiria-2m.narod.ru/index/fajly/0-11) (emuleerib 80% ulatuses nii [Jukut](https://et.wikipedia.org/wiki/Juku_(arvuti)) kui [Iskra 1080 Tartut](https://et.wikipedia.org/wiki/Tartu_(arvuti)), kahjuks kood suletud, sj konfifailid täiendatavad)
-* [MAME](http://adb.arcadeitalia.net/dettaglio_mame.php?game_name=juku) (sisaldab Juku üldkirjeldust, täiendatav vaba lähtekood)
-* [EMU80](https://github.com/vpyk/emu80v4) (potentsiaalne vaba lähtekoodiga kandidaat, mida mugandada Juku jm emuleerimiseks)
+* [MAME](http://adb.arcadeitalia.net/dettaglio_mame.php?game_name=juku) (sisaldab Juku skeletti, buudib üles, aga vajab olulist täiendamist)
+* [EMU80](https://github.com/vpyk/emu80v4) (vaba lähtekoodiga kandidaat, mida mugandada Juku jt sama pere kiipide emuleerimiseks)
+
+Taustainfot:
+
+* [ELFA foorumis on oluline Juku teema](https://www.elfafoorum.eu/forum/tehnikafoorumid/tark-ja-riistvara-foorum/64851-)
+* [ZX форум äärmiselt kasulik Juku E5101 lõim](https://zx-pk.ru/threads/27298-juku-e5101.html) (vene keeles)
+* [Arti Zirk on kogunud Juku materjale)(https://arti.ee/juku/)
 
 See siin oli algselt häkatoniprojekt, mida dokumenteeritakse allpool -- praeguseks on olemas [LVLup muuseum](https://et.wikipedia.org/wiki/LVLup) ja arvutimuuseumid [Tallinnas](https://et.wikipedia.org/wiki/Arvutimuuseum) ja [Tartu Ülikooli arvutiteaduse instituudi juures](https://et.wikipedia.org/wiki/Tartu_%C3%9Clikooli_arvutimuuseum), kelle koostöös sellised asjad võiks teoks saada.
 
