@@ -9,7 +9,7 @@ Kui tahad lugeda Juku kettaid:
 
 Juku emulaatorid:
 
-* [MAME](http://adb.arcadeitalia.net/dettaglio_mame.php?game_name=juku) (töökorras emulaator, koodi leiab esialgu [siit](https://github.com/boamaod/mame) ja käiviamiseks ROMid [siit](mameroms), mõne aja pärast eeldatavasti vaikimisi [osa MAMEst](https://github.com/mamedev/mame/pull/9946))
+* [MAME](http://adb.arcadeitalia.net/dettaglio_mame.php?game_name=juku) (töökorras emulaator, koodi leiab esialgu [siit](https://github.com/boamaod/mame) ja käivitamiseks ROMid [siit](mameroms), mõne aja pärast eeldatavasti vaikimisi [osa MAMEst](https://github.com/mamedev/mame/pull/9946))
 * [EMU80](https://github.com/vpyk/emu80v4) (vaba lähtekoodiga kergekaaluline kandidaat, mida mugandada Juku jt sama pere kiipide emuleerimiseks)
 * [Универсальный эмулятор](http://bashkiria-2m.narod.ru/index/fajly/0-11) (emuleerib 80% ulatuses nii [Jukut](https://et.wikipedia.org/wiki/Juku_(arvuti)) kui [Iskra 1080 Tartut](https://et.wikipedia.org/wiki/Tartu_(arvuti)), sj konfifailid täiendatavad, aga Jukul puuduvad täiendavad graafika- ja tekstirežiimid, audio tugi ja kahe ketta tugi, lähtekood suletud -- soovitatav kasutada üldjuhul emuleerimiseks MAMEt, aga see emulaator koos oma siluri ja seadetega on hea võrdlusmaterjal)
 
