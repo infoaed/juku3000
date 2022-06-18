@@ -15,9 +15,9 @@ Juku emulaatorid:
 
 Juku opsüsteem EKDOS:
 
-* [EKDOS 2.29](https://p6drad-teel.net/~p6der/ekdos229.zip)
 * [EKDOS 2.30](https://p6drad-teel.net/~p6der/ekdos230.zip) ([väljalasketeade](docs/ekdos230.txt))
-* [EKDOS 2.30 lähtekood](src/EKDOS30.ASM) ja CP/M 2.2 [mugandamise juhised Digital Researchilt](http://www.gaby.de/cpm/manuals/archive/cpm22htm/ch6.htm)
+  * [EKDOS 2.30 lähtekood](src/EKDOS30.ASM) ja CP/M 2.2 [mugandamise juhised Digital Researchilt](http://www.gaby.de/cpm/manuals/archive/cpm22htm/ch6.htm)
+* [EKDOS 2.29](https://p6drad-teel.net/~p6der/ekdos229.zip)
 
 Taustainfot:
 
