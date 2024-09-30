@@ -8,7 +8,8 @@ Operatsioonisüsteem hõlbustab informatsiooni säilitamist ja pakub arvuti kasu
 Seejärel tuleb valida opsüsteemi alglaadimise viis, flopikettalt laadimiseks «D», võrgust laadimiseks «N» ja lindilt laadimiseks «T». Alglaadimise käigus loetakse käsutöötlusprotsessor andmekandjalt muutmällu. Eduka laadimise lõppedes flopikettalt ilmub ekraanile sarnane tekst:
 
 ```
-52K EKDOS 2.30  
+52K EKDOS 2.30
+
 Drive assignments:  
 
 <A> — 5" 786K  
