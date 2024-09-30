@@ -5,7 +5,7 @@ Operatsioonisüsteem hõlbustab informatsiooni säilitamist ja pakub arvuti kasu
 1. sisestada lugemisseadmesse andmekandja operatsioonisüsteemiga
 2. sisestada monitori direktiiv «T»
 
-Seejärel tuleb valida opsüsteemi alglaadimise viis, flopikettalt laadimiseks «D», võrgust laadimiseks «N» ja lindilt laadimiseks «T». Alglaadimise käigus loetakse käsutöötlusprotsessor andmekandjalt muutmällu. Eduka laadimise lõppedes flopikettalt ilmub ekraanile tekst:
+Seejärel tuleb valida opsüsteemi alglaadimise viis, flopikettalt laadimiseks «D», võrgust laadimiseks «N» ja lindilt laadimiseks «T». Alglaadimise käigus loetakse käsutöötlusprotsessor andmekandjalt muutmällu. Eduka laadimise lõppedes flopikettalt ilmub ekraanile sarnane tekst:
 
 ```
 52K EKDOS 2.30  
@@ -16,11 +16,11 @@ Drive assignments:
 <C> — RAM DISK 192K
 ```
 
-Sellele järgneb süsteemi valmisoleku tähis (viip) «A>».
+Sellele järgneb süsteemi valmisoleku tähis (viip) `A>`.
 
 ## Opsüsteemi käsud
 
-Käsuprotsessor (KP) vahetab infot kasutaja ja operatsioonisüsteemi vahel. KP loeb ja töötleb klaviatuurilt sisestatud käsuridu. KP valmisolekut käsu sisestuseks näitab teade «A>». KP sisaldab sõltuvalt opsüsteemist valiku sisefunktsioone:
+Käsuprotsessor (KP) vahetab infot kasutaja ja operatsioonisüsteemi vahel. KP loeb ja töötleb klaviatuurilt sisestatud käsuridu. KP valmisolekut käsu sisestuseks näitab teade `A>`. KP sisaldab sõltuvalt opsüsteemist valiku sisefunktsioone:
 
 `DIR` — mittesüsteemsete failide kataloogi esitus  
 `DIRS` — süsteemsete failide kataloogi esitus  
@@ -57,7 +57,7 @@ Failinimi sisaldab kuni kaheksa ja laiend (`EXT`) kolm tärki ning neid eraldab 
 `COM` — käsu- ehk laadefail  
 
 
-Sisefunktsioonide `ERA`, `REST`, `DIR`, `DIRS` kasutamisel võib failinime ja laiendi sisestada kas üheselt või mitmeselt määratuna. Mitmeselt määra­miseks kasutatakse tähiseid «*» ja «?»:
+Sisefunktsioonide `ERA`, `REST`, `DIR`, `DIRS` kasutamisel võib failinime ja laiendi sisestada kas üheselt või mitmeselt määratuna. Mitmeselt määra­miseks kasutatakse tähiseid `*` ja `?`:
 
 `?` — asendab failinimes või laiendis ühte märki, tähenduses «mis tahes märk sellel kohal»
 
@@ -67,8 +67,8 @@ Vormingud `*.*` ja `????????.???` on sarnased. Järgnevates peatükkides mõelda
 
 Näide:
 
-> `ERA A??.*` — kustutamisele kuuluvad kõik failid, mille nimi on 3 märki pikk ja algab sõltumata laiendist tähega «A»
-> `ERA A*.COM` — kustutamisele kuuluvad kõik failid, mille nimi algab tähega «A» ja mille laiendiks on «COM»
+> `ERA A??.*` — kustutamisele kuuluvad kõik failid, mille nimi on 3 märki pikk ja algab sõltumata laiendist tähega `A`
+> `ERA A*.COM` — kustutamisele kuuluvad kõik failid, mille nimi algab tähega `A` ja mille laiendiks on `COM`
 
 Vastuseks süsteemi valmidusteatele (viibale) sisestatakse käsurida (3 võimalikku kuju):
 
@@ -80,9 +80,9 @@ Programminimi on sisefunktsiooni nimi või kasutaja programmi nimi. Kui käsurea
 
 > `programminimi.COM`
 
-Sellise nimega faili leidmisel laaditakse see alates TT algusest (aadres­sist 100H) mällu ja käivitatakse. Olematu laadefaili puhul väljastatakse ekraanil järgmisele reale märk «?» ning programminimi.
+Sellise nimega faili leidmisel laaditakse see alates TT algusest (aadres­sist 100H) mällu ja käivitatakse. Olematu laadefaili puhul väljastatakse ekraanil järgmisele reale märk `?` ning programminimi.
 
-Programminime järel saab sisestada ühe või kaks parameetrit (tavali­selt on parameetriks failinimi). KP moodustab nendest parameetritest ST-sse ühe või kaks faili juhtplokk!; parameetrite puudumisel täidetakse FJP-d tühikutega. Käsurea maksimaalne pikkus on 128 märki. Pärast sises­ tatud käsurea analüüsi salvestatakse 128-baidisesse OMP puhvrisse programminimele järgnevast märgist algav käsurea osa. KP puhvri esimeses baidis (aadressil 80H) on sisestatud sümbolite arv.
+Programminime järel saab sisestada ühe või kaks parameetrit (tavali­selt on parameetriks failinimi). KP moodustab nendest parameetritest ST-sse ühe või kaks faili juhtplokki; parameetrite puudumisel täidetakse FJP-d tühikutega. Käsurea maksimaalne pikkus on 128 märki. Pärast sisestatud käsurea analüüsi salvestatakse 128-baidisesse OMP puhvrisse programminimele järgnevast märgist algav käsurea osa. KP puhvri esimeses baidis (aadressil 80H) on sisestatud sümbolite arv.
 
 Käsurea sisestamisel saab kasutada järgmisi juhtkoode (klahv CTRL ja täht):
 
