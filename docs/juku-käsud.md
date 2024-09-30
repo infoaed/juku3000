@@ -18,6 +18,8 @@ Drive assignments:
 
 Sellele järgneb süsteemi valmisoleku tähis (viip) `A>`.
 
+[![EKDOS 2.30 buutimine Rombiosist 2.43m](/images/jukubuut.png)](https://github.com/infoaed/juku3000/raw/refs/heads/master/images/jukubuut.webm)
+
 ## Opsüsteemi käsud
 
 Käsuprotsessor (KP) vahetab infot kasutaja ja operatsioonisüsteemi vahel. KP loeb ja töötleb klaviatuurilt sisestatud käsuridu. KP valmisolekut käsu sisestuseks näitab teade `A>` (või sõltuvalt aktiivsest kettast `B>` või `C>`). KP sisaldab sõltuvalt opsüsteemist valiku sisefunktsioone:
