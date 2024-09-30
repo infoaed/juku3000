@@ -12,14 +12,15 @@ Seejärel tuleb valida opsüsteemi alglaadimise viis, flopikettalt laadimiseks �
 Drive assignments:  
 
 <A> — 5" 786K  
-<B> — 5" 786K  
+<B> — 5" 786K
+<C> — RAM DISK 128K
 ```
 
 Sellele järgneb süsteemi valmisoleku tähis (viip) «A>».
 
 ## Opsüsteemi käsud
 
-Käsuprotsessor (KP) vahetab infot kasutaja ja operatsioonisüsteemi vahel. KP loeb ja töötleb klaviatuurilt sisestatud käsuridu. KP valmisolekut käsu sisestuseks näitab teade «A>». KP sisaldab ka rea sisefunktsioone:
+Käsuprotsessor (KP) vahetab infot kasutaja ja operatsioonisüsteemi vahel. KP loeb ja töötleb klaviatuurilt sisestatud käsuridu. KP valmisolekut käsu sisestuseks näitab teade «A>». KP sisaldab sõltuvalt opsüsteemist valiku sisefunktsioone:
 
 `DIR` — mittesüsteemsete failide kataloogi esitus  
 `DIRS` — süsteemsete failide kataloogi esitus  
@@ -28,6 +29,7 @@ Käsuprotsessor (KP) vahetab infot kasutaja ja operatsioonisüsteemi vahel. KP l
 `REST` — kustutatud failide taastamine  
 `MEM` — üldinfo lindi kohta  
 `TYPE` — tekstifaili väljastus ekraanile  
+`USER` — kasutajanumbri valik
 `DUMP` — faili sisu väljastus 16-ndkoodis  
 `SAVE` — mälu sisu salvestamine faili  
 `OPEN` — lindi avamine  
@@ -39,16 +41,21 @@ Käsuprotsessor (KP) vahetab infot kasutaja ja operatsioonisüsteemi vahel. KP l
 
 Faile tähistatakse järgmiselt:
 
-`FAILINIMI.LAIEND`
+`FAILINIMI.EXT`
 
-Failinimi sisaldab kuni 8 ja laiend 3 tärki ning neid eraldab üksteisest punkt. Laiend võib ka puududa. Failinimes ja laiendis ei tohi esineda järgmised märgid: koma (`,`), semikoolon (`;`), koolon (`:`), küsimärk (`?`), tärn (`*`), noolsulg(`<` või `>`). Mõningad kasutatavamad laiendid:
+Failinimi sisaldab kuni kaheksa ja laiend (`EXT`) kolm tärki ning neid eraldab üksteisest punkt. Laiend võib ka puududa. Failinimes ja laiendis ei tohi esineda järgmised märgid: koma (`,`), semikoolon (`;`), koolon (`:`), küsimärk (`?`), tärn (`*`), noolsulg(`<` või `>`). Mõningad kasutatavamad laiendid:
 
 `ASM`, `MAC` — assemblerkeele lähtefail  
+`BAS` — BASIC kompilaatori lähtefail
+`PAS` — PASCAL/MT+ translaaatori lähtefail
+`FOR` — F(ORTRAN)80 kompilaatori lähtefail
+`BAK` — Tekstitoimeti varundusfail
 `PRN`, `LST` — listingufail  
 `TXT` — tekstifail  
 `HEX` — masina kood 16-ndkujul  
 `$$$` — ajutine fail  
-`COM` — laadefail  
+`COM` — käsu- ehk laadefail  
+
 
 Sisefunktsioonide `ERA`, `REST`, `DIR`, `DIRS` kasutamisel võib failinime ja laiendi sisestada kas üheselt või mitmeselt määratuna. Mitmeselt määra­miseks kasutatakse tähiseid «*» ja «?»:
 
@@ -79,10 +86,12 @@ Programminime järel saab sisestada ühe või kaks parameetrit (tavali­selt on 
 
 Käsurea sisestamisel saab kasutada järgmisi juhtkoode (klahv CTRL ja täht):
 
-CTRL J — (= reavahetus) lõpetab sisestuse  
-CTRL M — (=tagastus) lõpetab sisestuse  
-CTRL X — rea kustutus ja kursor rea algusesse  
+CTRL S — kuva ajutine peatamine  
+CTRL Z — sisendi lõpp (`PIP` ja `SED`)
 CTRL H — kursori tagasilüke, märgi kustutusega  
+CTRL X — rea kustutus ja kursor rea algusesse  
+CTRL M — (= tagastus) lõpetab sisestuse  
+CTRL J — (= reavahetus) lõpetab sisestuse  
 `<RETURN>` — tagastusklahv lõpetab sisestuse  
 
 _Koostatud "[Mikroarvuti «JUKU» kasutamisjuhendi](https://arti.ee/juku/Mikroarvuti%20Juku%20E5101%20kasutamisjuhend%201988%20%28168lk%2C%20eesti%20k%29.pdf)" lk 24jj põhjal._
