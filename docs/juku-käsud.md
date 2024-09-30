@@ -29,7 +29,7 @@ Käsuprotsessor (KP) vahetab infot kasutaja ja operatsioonisüsteemi vahel. KP l
 `REST` — kustutatud failide taastamine  
 `MEM` — üldinfo lindi kohta  
 `TYPE` — tekstifaili väljastus ekraanile  
-`USER` — kasutajanumbri valik
+`USER` — kasutajanumbri valik  
 `DUMP` — faili sisu väljastus 16-ndkoodis  
 `SAVE` — mälu sisu salvestamine faili  
 `OPEN` — lindi avamine  
