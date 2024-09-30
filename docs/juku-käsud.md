@@ -56,7 +56,6 @@ Failinimi sisaldab kuni kaheksa ja laiend (`EXT`) kolm tärki ning neid eraldab 
 `$$$` — ajutine fail  
 `COM` — käsu- ehk laadefail  
 
-
 Sisefunktsioonide `ERA`, `REST`, `DIR`, `DIRS` kasutamisel võib failinime ja laiendi sisestada kas üheselt või mitmeselt määratuna. Mitmeselt määra­miseks kasutatakse tähiseid `*` ja `?`:
 
 `?` — asendab failinimes või laiendis ühte märki, tähenduses «mis tahes märk sellel kohal»
@@ -70,6 +69,8 @@ Näide:
 > `ERA A??.*` — kustutamisele kuuluvad kõik failid, mille nimi on 3 märki pikk ja algab sõltumata laiendist tähega `A`  
 > `ERA A*.COM` — kustutamisele kuuluvad kõik failid, mille nimi algab tähega `A` ja mille laiendiks on `COM`
 
+## Programmifailide käivitamine
+
 Vastuseks süsteemi valmidusteatele (viibale) sisestatakse käsurida (3 võimalikku kuju):
 
 > `programminimi`  
@@ -80,7 +81,7 @@ Programminimi on sisefunktsiooni nimi või kasutaja programmi nimi. Kui käsurea
 
 > `programminimi.COM`
 
-Sellise nimega faili leidmisel laaditakse see alates TT algusest (aadres­sist 100H) mällu ja käivitatakse. Olematu laadefaili puhul väljastatakse ekraanil järgmisele reale märk `?` ning programminimi.
+Sellise nimega programmifaili leidmisel (eeldatakse `COM` laiendit, mida sisestama ei pea) laaditakse see alates TT algusest (aadres­sist 100H) mällu ja käivitatakse. Olematu laadefaili puhul väljastatakse ekraanil järgmisele reale märk `?` ning programminimi.
 
 Programminime järel saab sisestada ühe või kaks parameetrit (tavali­selt on parameetriks failinimi). KP moodustab nendest parameetritest ST-sse ühe või kaks faili juhtplokki; parameetrite puudumisel täidetakse FJP-d tühikutega. Käsurea maksimaalne pikkus on 128 märki. Pärast sisestatud käsurea analüüsi salvestatakse 128-baidisesse OMP puhvrisse programminimele järgnevast märgist algav käsurea osa. KP puhvri esimeses baidis (aadressil 80H) on sisestatud sümbolite arv.
 
