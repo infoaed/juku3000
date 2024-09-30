@@ -20,7 +20,7 @@ Sellele järgneb süsteemi valmisoleku tähis (viip) `A>`.
 
 ## Opsüsteemi käsud
 
-Käsuprotsessor (KP) vahetab infot kasutaja ja operatsioonisüsteemi vahel. KP loeb ja töötleb klaviatuurilt sisestatud käsuridu. KP valmisolekut käsu sisestuseks näitab teade `A>`. KP sisaldab sõltuvalt opsüsteemist valiku sisefunktsioone:
+Käsuprotsessor (KP) vahetab infot kasutaja ja operatsioonisüsteemi vahel. KP loeb ja töötleb klaviatuurilt sisestatud käsuridu. KP valmisolekut käsu sisestuseks näitab teade `A>` (või sõltuvalt aktiivsest kettast `B>` või `C>`). KP sisaldab sõltuvalt opsüsteemist valiku sisefunktsioone:
 
 `DIR` — mittesüsteemsete failide kataloogi esitus  
 `DIRS` — süsteemsete failide kataloogi esitus  
@@ -54,7 +54,9 @@ Failinimi sisaldab kuni kaheksa ja laiend (`EXT`) kolm tärki ning neid eraldab 
 `TXT` — tekstifail  
 `HEX` — masina kood 16-ndkujul  
 `$$$` — ajutine fail  
-`COM` — käsu- ehk laadefail  
+`COM` — käsu- ehk programmi- ehk laadefail  
+
+Failid paiknevad ketastel, mille tähis on tähestiku täht ja selle järgnev koolon (nt `A:` või `B:`). Faili paiknemist kettal märgitakse kettatähise lisamisega failinime ette (`B:failinimi.EXT`).
 
 Sisefunktsioonide `ERA`, `REST`, `DIR`, `DIRS` kasutamisel võib failinime ja laiendi sisestada kas üheselt või mitmeselt määratuna. Mitmeselt määra­miseks kasutatakse tähiseid `*` ja `?`:
 
@@ -62,12 +64,12 @@ Sisefunktsioonide `ERA`, `REST`, `DIR`, `DIRS` kasutamisel võib failinime ja la
 
 `*` — asendab failinime või laiendit, tähenduses «mis tahes nimi (laiend)»; tärn nime (laiendi) algusosa järel asendab järgnevat lõpuosa, tähen­duses «mis tahes lõpuosaga nimi (laiend)»
 
-Vormingud `*.*` ja `????????.???` on sarnased. Järgnevates peatükkides mõeldakse mõiste «failinimi» all failinimest ja laiendist koosnevat faili identifikaatorit.
+Vormingud `*.*` ja `????????.???` on sarnased. Siin ja edaspidi mõeldakse termini «failinimi» all üldiselt failinimest ja laiendist koosnevat faili identifikaatorit.
 
 Näide:
 
 > `ERA A??.*` — kustutamisele kuuluvad kõik failid, mille nimi on 3 märki pikk ja algab sõltumata laiendist tähega `A`  
-> `ERA A*.COM` — kustutamisele kuuluvad kõik failid, mille nimi algab tähega `A` ja mille laiendiks on `COM`
+> `ERA B:A*.COM` — kustutamisele kuuluvad kettalt `B:` kõik failid, mille nimi algab tähega `A` ja mille laiendiks on `COM`
 
 ## Programmifailide käivitamine
 
@@ -77,7 +79,7 @@ Vastuseks süsteemi valmidusteatele (viibale) sisestatakse käsurida (3 võimali
 > `programminimi parameeter1`  
 > `programminimi parameeter1 parameeter2`  
 
-Programminimi on sisefunktsiooni nimi või kasutaja programmi nimi. Kui käsureas on sisefunktsioon, siis see täidetakse. Vastasel korral otsitakse kataloogist laadefaili:
+Programminimi on sisefunktsiooni nimi või kasutajaprogrammi nimi. Kui käsureas on sisefunktsioon, siis see täidetakse. Vastasel korral otsitakse kataloogist laadefaili:
 
 > `programminimi.COM`
 
@@ -85,7 +87,7 @@ Sellise nimega programmifaili leidmisel (eeldatakse `COM` laiendit, mida sisesta
 
 Programminime järel saab sisestada ühe või kaks parameetrit (tavali­selt on parameetriks failinimi). KP moodustab nendest parameetritest ST-sse ühe või kaks faili juhtplokki; parameetrite puudumisel täidetakse FJP-d tühikutega. Käsurea maksimaalne pikkus on 128 märki. Pärast sisestatud käsurea analüüsi salvestatakse 128-baidisesse OMP puhvrisse programminimele järgnevast märgist algav käsurea osa. KP puhvri esimeses baidis (aadressil 80H) on sisestatud sümbolite arv.
 
-Käsurea sisestamisel saab kasutada järgmisi juhtkoode (klahv CTRL ja täht):
+Käsureaga opereerimisel saab kasutada järgmisi juhtkoode (klahv CTRL ja täht):
 
 CTRL S — kuva ajutine peatamine  
 CTRL Z — sisendi lõpp (`PIP` ja `SED`)  
