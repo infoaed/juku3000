@@ -46,10 +46,10 @@ Faile tähistatakse järgmiselt:
 Failinimi sisaldab kuni kaheksa ja laiend (`EXT`) kolm tärki ning neid eraldab üksteisest punkt. Laiend võib ka puududa. Failinimes ja laiendis ei tohi esineda järgmised märgid: koma (`,`), semikoolon (`;`), koolon (`:`), küsimärk (`?`), tärn (`*`), noolsulg(`<` või `>`). Mõningad kasutatavamad laiendid:
 
 `ASM`, `MAC` — assemblerkeele lähtefail  
-`BAS` — BASIC kompilaatori lähtefail
-`PAS` — PASCAL/MT+ translaaatori lähtefail
-`FOR` — F(ORTRAN)80 kompilaatori lähtefail
-`BAK` — Tekstitoimeti varundusfail
+`BAS` — BASIC kompilaatori lähtefail  
+`PAS` — PASCAL/MT+ translaaatori lähtefail  
+`FOR` — F(ORTRAN)80 kompilaatori lähtefail  
+`BAK` — Tekstitoimeti varundusfail  
 `PRN`, `LST` — listingufail  
 `TXT` — tekstifail  
 `HEX` — masina kood 16-ndkujul  
