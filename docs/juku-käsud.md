@@ -13,7 +13,7 @@ Drive assignments:
 
 <A> — 5" 786K  
 <B> — 5" 786K
-<C> — RAM DISK 128K
+<C> — RAM DISK 192K
 ```
 
 Sellele järgneb süsteemi valmisoleku tähis (viip) «A>».
