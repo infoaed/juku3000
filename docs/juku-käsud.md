@@ -67,7 +67,7 @@ Vormingud `*.*` ja `????????.???` on sarnased. Järgnevates peatükkides mõelda
 
 Näide:
 
-> `ERA A??.*` — kustutamisele kuuluvad kõik failid, mille nimi on 3 märki pikk ja algab sõltumata laiendist tähega `A`
+> `ERA A??.*` — kustutamisele kuuluvad kõik failid, mille nimi on 3 märki pikk ja algab sõltumata laiendist tähega `A`  
 > `ERA A*.COM` — kustutamisele kuuluvad kõik failid, mille nimi algab tähega `A` ja mille laiendiks on `COM`
 
 Vastuseks süsteemi valmidusteatele (viibale) sisestatakse käsurida (3 võimalikku kuju):
