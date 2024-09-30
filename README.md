@@ -3,21 +3,25 @@
 
 *Meie eesmärk on lasta tulevatel põlvedel elavalt kogeda Eesti arvutimängude esiajalugu — 90ndate kooliarvuti JUKU peab olema kasutatav ka aastal 3000!*
 
-Kui tahad lugeda Juku kettaid:
-
-* [Märt Põder kirjeldab libdsk/cpmtools meetodit](/docs/kettad.md)
-
 Juku emulaatorid:
 
 * [MAME](http://adb.arcadeitalia.net/dettaglio_mame.php?game_name=juku) (töökorras emulaator, mida saab [proovida ka veebis](https://infoaed.ee/juku), koodi leiab esialgu [siit](https://github.com/boamaod/mame), käivitamiseks RomBios 3.43m ja JBASIC 1.1 ROMid [siit](mameroms), kood mõne aja pärast eeldatavasti vaikimisi [osa MAMEst](https://github.com/mamedev/mame/pull/9946))
 * [EMU80](https://github.com/vpyk/emu80v4) (vaba lähtekoodiga kergekaaluline kandidaat, mida mugandada Juku jt sama pere kiipide emuleerimiseks)
 * [Универсальный эмулятор](http://bashkiria-2m.narod.ru/index/fajly/0-11) (emuleerib 80% ulatuses nii [Jukut](https://et.wikipedia.org/wiki/Juku_(arvuti)) kui [Iskra 1080 Tartut](https://et.wikipedia.org/wiki/Tartu_(arvuti)), sj konfifailid täiendatavad, aga Jukul puuduvad täiendavad graafika- ja tekstirežiimid, audio tugi ja kahe ketta tugi, lähtekood suletud -- soovitatav kasutada üldjuhul emuleerimiseks MAMEt, aga see emulaator koos oma siluri ja seadetega on hea võrdlusmaterjal)
 
+Juku kasutamise lühijuhend:
+
+* [Juku E5101 opsüsteemi käitamine](/docs/juku-k%C3%A4sud.md)
+
 Juku opsüsteem EKDOS:
 
 * [EKDOS 2.30](https://p6drad-teel.net/~p6der/ekdos230.zip) (väljalase detsember 1989, [teade](docs/ekdos230.txt))
   * [Lähtekood](src/EKDOS30.ASM), vrd CP/M 2.2 [mugandamise juhised Digital Researchilt](http://www.gaby.de/cpm/manuals/archive/cpm22htm/ch6.htm)
 * [EKDOS 2.29](https://p6drad-teel.net/~p6der/ekdos229.zip) (väljalase 05.01.1988)
+
+Kui tahad lugeda Juku kettaid:
+
+* [Märt Põder kirjeldab libdsk/cpmtools meetodit](/docs/kettad.md)
 
 Taustainfot:
 
