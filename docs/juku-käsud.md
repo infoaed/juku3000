@@ -5,7 +5,7 @@ Operatsioonisüsteem hõlbustab informatsiooni säilitamist ja pakub arvuti kasu
 1. sisestada lugemisseadmesse andmekandja operatsioonisüsteemiga
 2. sisestada monitori direktiiv «T»
 
-Seejärel tuleb valida opsüsteemi alglaadimise viis, flopikettalt laadimiseks «D», võrgust laadimiseks «N» ja lindilt laadimiseks «T». Alglaadimise käigus loetakse käsutöötlusprotsessor andmekandjalt muutmällu. Eduka laadimise lõppedes flopikettalt ilmub ekraanile sarnane tekst:
+Seejärel tuleb valida opsüsteemi alglaadimise viis, flopikettalt laadimiseks «D», võrgust laadimiseks «N» ja lindilt laadimiseks «T». Alglaadimise käigus loetakse käsutöötlusprotsessor andmekandjalt muutmällu. Eduka laadimise lõppedes flopikettalt ilmub ekraanile järgnevale sarnane tekst:
 
 ```
 52K EKDOS 2.30
@@ -17,7 +17,7 @@ Drive assignments:
 <C> — RAM DISK 192K
 ```
 
-Sellele järgneb süsteemi valmisoleku tähis (viip) `A>`. Opsüsteemi alglaadimist võib jälgida järgnevast videost:
+Sellele järgneb süsteemi valmisoleku tähis (viip) `A>`. Opsüsteemi alglaadimist näitlikustab järgnev video:
 
 [![EKDOS 2.30 buutimine Rombiosist 2.43m](/images/jukubuut.png)](https://commons.wikimedia.org/wiki/File:Juku_E5101_booting_up_EKDOS_2.30,_displaying_readme_file_on_screen.webm)
 
