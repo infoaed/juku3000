@@ -17,7 +17,7 @@ Drive assignments:
 <C> — RAM DISK 192K
 ```
 
-Sellele järgneb süsteemi valmisoleku tähis (viip) `A>`.
+Sellele järgneb süsteemi valmisoleku tähis (viip) `A>`. Opsüsteemi alglaadimist võib jälgida järgnevast videost:
 
 [![EKDOS 2.30 buutimine Rombiosist 2.43m](/images/jukubuut.png)](https://commons.wikimedia.org/wiki/File:Juku_E5101_booting_up_EKDOS_2.30,_displaying_readme_file_on_screen.webm)
 
