@@ -87,7 +87,7 @@ Programminime järel saab sisestada ühe või kaks parameetrit (tavali­selt on 
 Käsurea sisestamisel saab kasutada järgmisi juhtkoode (klahv CTRL ja täht):
 
 CTRL S — kuva ajutine peatamine  
-CTRL Z — sisendi lõpp (`PIP` ja `SED`)
+CTRL Z — sisendi lõpp (`PIP` ja `SED`)  
 CTRL H — kursori tagasilüke, märgi kustutusega  
 CTRL X — rea kustutus ja kursor rea algusesse  
 CTRL M — (= tagastus) lõpetab sisestuse  
