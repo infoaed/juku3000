@@ -4,14 +4,14 @@
 
 Reaalaja süsteemide intellektuaalse terminali «Juku E5104» püsimälus opsüsteemist sõltumatult sisalduv põhitarkvara koosneb püsimonitorist, BASIC-keele interpretaatorist, miniassemblerist, andmeside draiveritest ja opsüsteemide alglaaduritest. Opsüsteemi alglaadimist püsimonitorist näitlikustab järgnev video:
 
-[![EKDOS 2.30 buutimine püsimonitorist Rombios 2.43m](/images/jukubuut.png)](https://commons.wikimedia.org/wiki/File:Juku_E5101_booting_up_EKDOS_2.30,_displaying_readme_file_on_screen.webm)
+[![EKDOS 2.30 buutimine püsimonitorist Rombios 2.43m direktiividega «T», «D», «D»](/images/jukubuut.png)](https://commons.wikimedia.org/wiki/File:Juku_E5101_booting_up_EKDOS_2.30,_displaying_readme_file_on_screen.webm)
 
-Operatsioonisüsteem hõlbustab informatsiooni talletamist välissalvestile ja pakub arvuti kasutajale muidki teenuseid, mida püsimonitor ei paku. Opsüsteemi alglaadimiseks tuleb:
+Operatsioonisüsteem hõlbustab informatsiooni talletamist välissalvestile ja pakub arvuti kasutajale muidki teenuseid, mida püsimonitor ei paku. Opsüsteemi alglaadimiseks tuleb vajutada klaviatuuril «T», «D», «D», mils pikemalt lahtiseletatuna on järgnev:
 
 1. sisestada lugemisseadmesse andmekandja opsüsteemiga
 2. sisestada monitori direktiiv «T»
 
-Seejärel tuleb valida opsüsteemi alglaadimise viis, ümbrikkettalt laadimiseks «D», võrgust laadimiseks «N» ja lindilt laadimiseks «T». Alglaadimise käigus loetakse käsutöötlusprotsessor andmekandjalt muutmällu. Eduka laadimise lõppedes ümbrikkettalt ilmub ekraanile järgnevale sarnane tekst:
+Seejärel tuleb valida opsüsteemi alglaadimise viis, ümbrikkettalt laadimiseks «D», võrgust laadimiseks «N» ja lindilt laadimiseks «T». Alglaadimise käigus loetakse käsutöötlusprotsessor andmekandjalt muutmällu. Ümbrikkettalt laadimisel tuleb valida süsteemiketta tüüp, milleks on kahepoolne ümbrikketas ehk direktiiv «D». Eduka laadimise lõppedes ilmub ekraanile järgnevale sarnane tekst:
 
 ```
 52K EKDOS 2.30
@@ -50,7 +50,7 @@ Faile tähistatakse järgmiselt:
 
 `failinimi.EXT`
 
-Failinimi sisaldab kuni kaheksa ja laiend (`EXT`) kolm tärki ning neid eraldab üksteisest punkt. Laiend võib ka puududa. Failinimes ja laiendis ei tohi esineda järgmised märgid: koma (`,`), semikoolon (`;`), koolon (`:`), küsimärk (`?`), tärn (`*`), noolsulg(`<` või `>`). Mõningad kasutatavamad laiendid:
+Failinimi sisaldab kuni kaheksa ja laiend (`EXT`) kolm tärki ning neid eraldab üksteisest punkt. Laiend võib ka puududa. Failinimes ja laiendis ei tohi esineda järgmised märgid: koma (`,`), semikoolon (`;`), koolon (`:`), küsimärk (`?`), tärn (`*`), noolsulg (`<` või `>`), nurksulg (`[` või `]`). Mõningad kasutatavamad laiendid:
 
 `ASM`, `MAC` — assemblerkeele lähtefail  
 `BAS` — BASIC kompilaatori lähtefail  
