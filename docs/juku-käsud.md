@@ -1,12 +1,14 @@
 # Juku E5104 opsüsteemi käitamine
 
-«Juku» sisselülitamisel ilmub kuvarile püsimonitori teade `RomBios`, monitori versiooni number ja viip `*`. Viip on programmi poolt väljastatav teade, mis näitab, et programm ootab kasutaja edasisi direktiive (nt direktiiv «A» käivitab püsimälu BASIC-interpretaatori või miniassembleri, direktiiv «T» opsüsteemi alglaadimise). Eri programmidel on erinevad viibad, mis on kirjeldatud nende kasutamisjuhistes.
+«Juku» sisselülitamisel ilmub kuvarile püsimonitori teade `RomBios`, monitori versiooni number ja viip `*`.
 
-Reaalaja süsteemide intellektuaalse terminali «Juku E5104» püsimälus opsüsteemist sõltumatult sisalduv põhitarkvara koosneb püsimonitorist, BASIC-keele interpretaatorist, miniassemblerist, andmeside draiveritest ja opsüsteemide alglaaduritest. Operatsioonisüsteem hõlbustab informatsiooni talletamist välissalvestile ja pakub arvuti kasutajale muidki teenuseid, mida püsimonitor ei paku.
+Viip on programmi poolt väljastatav teade, mis näitab, et programm ootab kasutaja edasisi direktiive (nt direktiiv «A» käivitab püsimälu BASIC-interpretaatori või miniassembleri, direktiiv «T» opsüsteemi alglaadimise). Eri programmidel on erinevad viibad, mis on kirjeldatud nende kasutamisjuhistes.
+
+Reaalaja süsteemide intellektuaalse terminali «Juku E5104» püsimälus opsüsteemist sõltumatult sisalduv põhitarkvara koosneb püsimonitorist, BASIC-keele interpretaatorist, miniassemblerist, andmeside draiveritest ja opsüsteemide alglaaduritest. Operatsioonisüsteem hõlbustab informatsiooni talletamist välissalvestile ja pakub arvuti kasutajale teenuseid, mida püsimonitor ei paku.
 
 Opsüsteemi alglaadimist püsimonitorist näitlikustakse videos:
 
-[![EKDOS 2.30 buutimine püsimonitorist Rombios 2.43m direktiividega «T», «D», «D»](/images/jukubuut.png)](https://commons.wikimedia.org/wiki/File:Juku_E5101_booting_up_EKDOS_2.30,_displaying_readme_file_on_screen.webm)
+[![EKDOS 2.30 alglaadimine püsimonitorist Rombios 2.43m direktiividega «T», «D», «D»](/images/jukubuut.png)](https://commons.wikimedia.org/wiki/File:Juku_E5101_booting_up_EKDOS_2.30,_displaying_readme_file_on_screen.webm)
 
 Alglaadimiseks tuleb vajutada klaviatuuril «T», «D», «D», mis pikemalt lahtiseletatuna on:
 
