@@ -3,7 +3,7 @@
 «Juku» sisselülitamisel ilmub kuvarile püsimonitori teade `RomBios`, monitori versiooni number ja viip `*`:
 
 ```
-RomBios 2.43m
+RomBios 3.43m
 
 *
 ```
@@ -14,7 +14,7 @@ Reaalaja süsteemide intellektuaalse terminali «Juku E5104» püsimälus sisald
 
 Opsüsteemi alglaadimist püsimonitorist näitlikustakse videos:
 
-[![EKDOS 2.30 alglaadimine püsimonitorist Rombios 2.43m juhtklahvidega «T», «D», «D»](/images/jukubuut.png)](https://commons.wikimedia.org/wiki/File:Juku_E5101_booting_up_EKDOS_2.30,_displaying_readme_file_on_screen.webm)
+[![EKDOS 2.30 alglaadimine püsimonitorist Rombios 3.43m juhtklahvidega «T», «D», «D»](/images/jukubuut.png)](https://commons.wikimedia.org/wiki/File:Juku_E5101_booting_up_EKDOS_2.30,_displaying_readme_file_on_screen.webm)
 
 Alglaadimiseks tuleb vajutada kahvistikul «T», «D», «D», mis pikemalt lahtiseletatuna on:
 
