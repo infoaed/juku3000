@@ -4,7 +4,7 @@
 
 Viip on programmi poolt väljastatav teade, mis näitab, et programm ootab kasutaja edasisi direktiive (nt direktiiv «A» käivitab püsimälu BASIC-interpretaatori või miniassembleri, direktiiv «T» opsüsteemi alglaadimise). Eri programmidel on erinevad viibad, mis on kirjeldatud nende kasutamisjuhistes.
 
-Reaalaja süsteemide intellektuaalse terminali «Juku E5104» püsimälus opsüsteemist sõltumatult sisalduv põhitarkvara koosneb püsimonitorist, BASIC-keele interpretaatorist, miniassemblerist, andmeside draiveritest ja opsüsteemide alglaaduritest. Operatsioonisüsteem hõlbustab informatsiooni talletamist välissalvestile ja pakub arvuti kasutajale teenuseid, mida püsimonitor ei paku.
+Reaalaja süsteemide intellektuaalse terminali «Juku E5104» püsimälus opsüsteemist sõltumatult sisalduv põhitarkvara koosneb püsimonitorist, BASIC-keele interpretaatorist, miniassemblerist, andmeside draiveritest ja opsüsteemide alglaaduritest [^1]. Operatsioonisüsteem hõlbustab informatsiooni talletamist välissalvestile ja pakub arvuti kasutajale teenuseid, mida püsimonitor ei paku.
 
 Opsüsteemi alglaadimist püsimonitorist näitlikustakse videos:
 
@@ -94,16 +94,16 @@ Programminimi on sisefunktsiooni nimi või kasutajaprogrammi nimi. Kui käsureas
 
 > `programminimi.COM`
 
-Sellise nimega programmifaili leidmisel (eeldatakse `COM` laiendit, mida sisestama ei pea) laaditakse see alates tarbijaprogrammi tsooni algusest (TT aadres­sist 100H) mällu ja käivitatakse. Olematu laadefaili puhul väljastatakse ekraanil järgmisele reale märk `?` ning programminimi.
+Sellise nimega programmifaili leidmisel (eeldatakse `COM` laiendit, mida sisestama ei pea) laaditakse see alates tarbijaprogrammi tsooni algusest (TT aadres­sist 100H) mällu ja käivitatakse [^2]. Olematu laadefaili puhul väljastatakse ekraanil järgmisele reale märk `?` ning programminimi.
 
 Programminime järel saab sisestada ühe või kaks parameetrit (tavali­selt on parameetriks failinimi). KP moodustab nendest parameetritest süsteemiparameetrite tsooni (ST) ühe või kaks faili juhtplokki (FJP); parameetrite puudumisel täidetakse FJP-d tühikutega. Käsurea maksimaalne pikkus on 128 märki. Pärast sisestatud käsurea analüüsi salvestatakse 128-baidisesse otsemällupöörduse puhvrisse (OMP) programminimele järgnevast märgist algav käsurea osa. KP puhvri esimeses baidis (aadressil 80H) on sisestatud sümbolite arv.
 
 Käsureaga opereerimisel saab kasutada järgmisi juhtkoode (klahv CTRL ja täht):
 
 CTRL S — kuva ajutine peatamine  
-CTRL C — programmi töö katkestamine
-CTRL ESC — programmi töö katkestamine, juhtimine üle aktiivsele viibale
-CTRL SHIFT ESC — programmi töö katkestamine, juhtimine üle monitorile
+CTRL C — programmi töö katkestamine  
+CTRL ESC — programmi töö katkestamine, juhtimine üle aktiivsele viibale  
+CTRL SHIFT ESC — programmi töö katkestamine, juhtimine üle monitorile  
 CTRL Z — sisendi lõpp (`PIP` ja `SED`)  
 CTRL H — kursori tagasilüke, märgi kustutusega  
 CTRL X — rea kustutus ja kursor rea algusesse  
@@ -111,4 +111,7 @@ CTRL M — (= tagastus) lõpetab sisestuse
 CTRL J — (= reavahetus) lõpetab sisestuse  
 `<RETURN>` — tagastusklahv lõpetab sisestuse  
 
-_Koostatud "[Mikroarvuti «JUKU» kasutamisjuhendi](https://arti.ee/juku/Mikroarvuti%20Juku%20E5101%20kasutamisjuhend%201988%20%28168lk%2C%20eesti%20k%29.pdf)" lk 47jj, "[Mikroarvuti JUKU](ekta_juku.pdf)" lk 13 jt allikate  põhjal._
+## Viited
+
+:[^1] "[Mikroarvuti JUKU](ekta_juku.pdf)" lk 13  
+:[^2] "[Mikroarvuti «JUKU» kasutamisjuhend](https://arti.ee/juku/Mikroarvuti%20Juku%20E5101%20kasutamisjuhend%201988%20%28168lk%2C%20eesti%20k%29.pdf)" lk 46-50  
