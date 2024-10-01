@@ -1,6 +1,12 @@
 # Juku E5104 opsüsteemi käitamine
 
-«Juku» sisselülitamisel ilmub kuvarile püsimonitori teade `RomBios`, monitori versiooni number ja viip `*`.
+«Juku» sisselülitamisel ilmub kuvarile püsimonitori teade `RomBios`, monitori versiooni number ja viip `*`:
+
+```
+RomBios 2.43m
+
+*
+```
 
 Viip on programmi poolt väljastatav teade, mis näitab, et programm ootab kasutaja edasisi juhiseid (nt «A» sisestamine käivitab püsimälu BASIC-interpretaatori või miniassembleri, «T» opsüsteemi alglaadimise). Eri programmidel on erinevad viibad, mis on kirjeldatud nende kasutamisjuhistes.
 
