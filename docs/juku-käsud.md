@@ -4,11 +4,11 @@
 
 Reaalaja süsteemide intellektuaalse terminali Juku E5104 opsüsteemist sõltumatut püsitarkvara võib kirjeldada järgnevalt:
 
-* PÜSIMONITOR juhib töötlust, võimaldab kontrollida ja muuta arvuti registrite ning mälu sisu, annab graafika programmeerimise vahendid.  
-* BASIC-KEELE INTERPRETAATOR on vahend programmeerimise õppimiseks ja lihtsamate programmide kirjutamiseks. Kasutatavas keele variandis on ka graafikakäske.  
-* MINIASSEMBLER on kompaktne translaator vilunud programmeerija jaoks, ühtlasi vahend programmide silumiseks. Ei mahu koos BASIC-u interpretaatoriga korraga püsimällu, niisiis saab valida ainult ühe neist.  
-* OPSÜSTEEMIDE ALGLAADURID on võimsama tarkvara eelpost püsimalus. Magnetofoni või diskett-salvesti külgeühendamisel saab sealt alglaadurite abil lugeda arvuti muutmällu vastava lindi- või kettaopsüsteemi.  
-* ANDMESIDE DRAIVER on tarkvara kõige arvutipoolsem osa. Ülejaanud osa loetakse mällu välissalvestist, seega peab arvutivõrgus olema vähemalt üks magnetofon või diskettsalvesti.  
+1. PÜSIMONITOR juhib töötlust, võimaldab kontrollida ja muuta arvuti registrite ning mälu sisu, annab graafika programmeerimise vahendid.  
+2. BASIC-KEELE INTERPRETAATOR on vahend programmeerimise õppimiseks ja lihtsamate programmide kirjutamiseks. Kasutatavas keele variandis on ka graafikakäske.  
+3. MINIASSEMBLER on kompaktne translaator vilunud programmeerija jaoks, ühtlasi vahend programmide silumiseks. Ei mahu koos BASIC-u interpretaatoriga korraga püsimällu, niisiis saab valida ainult ühe neist.  
+4. OPSÜSTEEMIDE ALGLAADURID on võimsama tarkvara eelpost püsimälus. Magnetofoni või diskett-salvesti külgeühendamisel saab sealt alglaadurite abil lugeda arvuti muutmällu vastava lindi- või kettaopsüsteemi.  
+5. ANDMESIDE DRAIVER on tarkvara kõige arvutipoolsem osa. Ülejaanud osa loetakse mällu välissalvestist, seega peab arvutivõrgus olema vähemalt üks magnetofon või diskettsalvesti.  
 
 Operatsioonisüsteem hõlbustab informatsiooni talletamist välissalvestile ja pakub arvuti kasutajale muidki teenuseid, mida püsimonitor ei paku. Opsüsteemi alglaadimiseks tuleb:
 
