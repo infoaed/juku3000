@@ -113,4 +113,4 @@ CTRL M — (= tagastus) lõpetab sisestuse
 CTRL J — (= reavahetus) lõpetab sisestuse  
 `<RETURN>` — tagastusklahv lõpetab sisestuse  
 
-_Koostatud peamiselt "[Mikroarvuti «JUKU» kasutamisjuhendi](https://arti.ee/juku/Mikroarvuti%20Juku%20E5101%20kasutamisjuhend%201988%20%28168lk%2C%20eesti%20k%29.pdf)" lk 47jj põhjal._
+_Koostatud "[Mikroarvuti «JUKU» kasutamisjuhendi](https://arti.ee/juku/Mikroarvuti%20Juku%20E5101%20kasutamisjuhend%201988%20%28168lk%2C%20eesti%20k%29.pdf)" lk 47jj, "[Mikroarvuti JUKU](ekta_juku.pdf)" lk 13 jt allikate  põhjal._
