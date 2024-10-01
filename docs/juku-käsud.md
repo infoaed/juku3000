@@ -4,7 +4,7 @@
 
 Operatsioonisüsteem hõlbustab informatsiooni talletamist ja pakub arvuti kasutajale muidki teenuseid, mida püsimonitor ei paku. Opsüsteemi alglaadimiseks tuleb:
 
-1. sisestada lugemisseadmesse andmekandja operatsioonisüsteemiga
+1. sisestada lugemisseadmesse andmekandja opsüsteemiga
 2. sisestada monitori direktiiv «T»
 
 Seejärel tuleb valida opsüsteemi alglaadimise viis, flopikettalt laadimiseks «D», võrgust laadimiseks «N» ja lindilt laadimiseks «T». Alglaadimise käigus loetakse käsutöötlusprotsessor andmekandjalt muutmällu. Eduka laadimise lõppedes flopikettalt ilmub ekraanile järgnevale sarnane tekst:
