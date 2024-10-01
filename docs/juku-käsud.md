@@ -1,6 +1,8 @@
 # Juku E5101 opsüsteemi käitamine
 
-Operatsioonisüsteem hõlbustab informatsiooni säilitamist ja pakub arvuti kasutajale muidki teenuseid. Opsüsteemi alglaadimiseks tuleb:
+«Juku» sisselülitamisel ilmub kuvarile püsimonitori teade MONITOR, monitori versiooni number ja viip `*`. Viip on programmi poolt väljastatav teade, mis näitab, et programm ootab kasutaja edasisi direktiive (nt direktiiv «A» käivitab püsimälu BASIC-interpretaatori). Eri programmidel on erinevad viibad, mis on kirjeldatud nende kasutamisjuhistes.
+
+Operatsioonisüsteem hõlbustab informatsiooni talletamist ja pakub arvuti kasutajale muidki teenuseid, mida püsimonitor ei paku. Opsüsteemi alglaadimiseks tuleb:
 
 1. sisestada lugemisseadmesse andmekandja operatsioonisüsteemiga
 2. sisestada monitori direktiiv «T»
@@ -19,7 +21,7 @@ Drive assignments:
 
 Sellele järgneb süsteemi valmisoleku tähis (viip) `A>`. Opsüsteemi alglaadimist näitlikustab järgnev video:
 
-[![EKDOS 2.30 buutimine Rombiosist 2.43m](/images/jukubuut.png)](https://commons.wikimedia.org/wiki/File:Juku_E5101_booting_up_EKDOS_2.30,_displaying_readme_file_on_screen.webm)
+[![EKDOS 2.30 buutimine püsimonitorist Rombios 2.43m](/images/jukubuut.png)](https://commons.wikimedia.org/wiki/File:Juku_E5101_booting_up_EKDOS_2.30,_displaying_readme_file_on_screen.webm)
 
 ## Opsüsteemi käsud
 
@@ -86,13 +88,16 @@ Programminimi on sisefunktsiooni nimi või kasutajaprogrammi nimi. Kui käsureas
 
 > `programminimi.COM`
 
-Sellise nimega programmifaili leidmisel (eeldatakse `COM` laiendit, mida sisestama ei pea) laaditakse see alates TT algusest (aadres­sist 100H) mällu ja käivitatakse. Olematu laadefaili puhul väljastatakse ekraanil järgmisele reale märk `?` ning programminimi.
+Sellise nimega programmifaili leidmisel (eeldatakse `COM` laiendit, mida sisestama ei pea) laaditakse see alates tarbijaprogrammi tsooni algusest (TT aadres­sist 100H) mällu ja käivitatakse. Olematu laadefaili puhul väljastatakse ekraanil järgmisele reale märk `?` ning programminimi.
 
-Programminime järel saab sisestada ühe või kaks parameetrit (tavali­selt on parameetriks failinimi). KP moodustab nendest parameetritest ST-sse ühe või kaks faili juhtplokki; parameetrite puudumisel täidetakse FJP-d tühikutega. Käsurea maksimaalne pikkus on 128 märki. Pärast sisestatud käsurea analüüsi salvestatakse 128-baidisesse OMP puhvrisse programminimele järgnevast märgist algav käsurea osa. KP puhvri esimeses baidis (aadressil 80H) on sisestatud sümbolite arv.
+Programminime järel saab sisestada ühe või kaks parameetrit (tavali­selt on parameetriks failinimi). KP moodustab nendest parameetritest süsteemiparameetrite tsooni (ST) ühe või kaks faili juhtplokki (FJP); parameetrite puudumisel täidetakse FJP-d tühikutega. Käsurea maksimaalne pikkus on 128 märki. Pärast sisestatud käsurea analüüsi salvestatakse 128-baidisesse otsemällupöörduse puhvrisse (OMP) programminimele järgnevast märgist algav käsurea osa. KP puhvri esimeses baidis (aadressil 80H) on sisestatud sümbolite arv.
 
 Käsureaga opereerimisel saab kasutada järgmisi juhtkoode (klahv CTRL ja täht):
 
 CTRL S — kuva ajutine peatamine  
+CTRL C — programmi töö katkestamine
+CTRL ESC — programmi töö katkestamine, juhtimine üle aktiivsele viibale
+CTRL SHIFT ESC — programmi töö katkestamine, juhtimine üle monitorile
 CTRL Z — sisendi lõpp (`PIP` ja `SED`)  
 CTRL H — kursori tagasilüke, märgi kustutusega  
 CTRL X — rea kustutus ja kursor rea algusesse  
@@ -100,4 +105,4 @@ CTRL M — (= tagastus) lõpetab sisestuse
 CTRL J — (= reavahetus) lõpetab sisestuse  
 `<RETURN>` — tagastusklahv lõpetab sisestuse  
 
-_Koostatud "[Mikroarvuti «JUKU» kasutamisjuhendi](https://arti.ee/juku/Mikroarvuti%20Juku%20E5101%20kasutamisjuhend%201988%20%28168lk%2C%20eesti%20k%29.pdf)" lk 24jj põhjal._
+_Koostatud peamiselt "[Mikroarvuti «JUKU» kasutamisjuhendi](https://arti.ee/juku/Mikroarvuti%20Juku%20E5101%20kasutamisjuhend%201988%20%28168lk%2C%20eesti%20k%29.pdf)" lk 47jj põhjal._
