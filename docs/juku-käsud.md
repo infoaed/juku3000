@@ -2,20 +2,21 @@
 
 «Juku» sisselülitamisel ilmub kuvarile püsimonitori teade `RomBios`, monitori versiooni number ja viip `*`.
 
-Viip on programmi poolt väljastatav teade, mis näitab, et programm ootab kasutaja edasisi direktiive (nt direktiiv «A» käivitab püsimälu BASIC-interpretaatori või miniassembleri, direktiiv «T» opsüsteemi alglaadimise). Eri programmidel on erinevad viibad, mis on kirjeldatud nende kasutamisjuhistes.
+Viip on programmi poolt väljastatav teade, mis näitab, et programm ootab kasutaja edasisi juhiseid (nt «A» sisestamine käivitab püsimälu BASIC-interpretaatori või miniassembleri, «T» opsüsteemi alglaadimise). Eri programmidel on erinevad viibad, mis on kirjeldatud nende kasutamisjuhistes.
 
-Reaalaja süsteemide intellektuaalse terminali «Juku E5104» püsimälus opsüsteemist sõltumatult sisalduv põhitarkvara koosneb püsimonitorist, BASIC-keele interpretaatorist, miniassemblerist, andmeside draiveritest ja opsüsteemide alglaaduritest. Operatsioonisüsteem hõlbustab informatsiooni talletamist välissalvestile ja pakub arvuti kasutajale teenuseid, mida püsimonitor ei paku. [^1]
+Reaalaja süsteemide intellektuaalse terminali «Juku E5104» püsimälus sisalduv tarkvara koosneb monitorist, BASIC-keele interpretaatorist, miniassemblerist, andmeside draiveritest ja opsüsteemide alglaaduritest. Operatsioonisüsteemi käitamine hõlbustab info talletamist välissalvestile ning pakub arvuti kasutajale vahendeid, mida püsimonitoris puuduvad. [^1]
 
 Opsüsteemi alglaadimist püsimonitorist näitlikustakse videos:
 
-[![EKDOS 2.30 alglaadimine püsimonitorist Rombios 2.43m direktiividega «T», «D», «D»](/images/jukubuut.png)](https://commons.wikimedia.org/wiki/File:Juku_E5101_booting_up_EKDOS_2.30,_displaying_readme_file_on_screen.webm)
+[![EKDOS 2.30 alglaadimine püsimonitorist Rombios 2.43m juhtklahvidega «T», «D», «D»](/images/jukubuut.png)](https://commons.wikimedia.org/wiki/File:Juku_E5101_booting_up_EKDOS_2.30,_displaying_readme_file_on_screen.webm)
 
-Alglaadimiseks tuleb vajutada klaviatuuril «T», «D», «D», mis pikemalt lahtiseletatuna on:
+Alglaadimiseks tuleb vajutada kahvistikul «T», «D», «D», mis pikemalt lahtiseletatuna on:
 
 1. sisestada lugemisseadmesse andmekandja opsüsteemiga
-2. sisestada monitori direktiiv «T»
+2. sisestada monitori juhis «T»
+3. valida opsüsteemi alglaadimise viis, ümbrikkettalt laadimiseks «D», võrgust laadimiseks «N» ja lindilt laadimiseks «T».
 
-Seejärel tuleb valida opsüsteemi alglaadimise viis, ümbrikkettalt laadimiseks «D», võrgust laadimiseks «N» ja lindilt laadimiseks «T». Alglaadimise käigus loetakse käsutöötlusprotsessor andmekandjalt muutmällu. Ümbrikkettalt laadimisel tuleb valida süsteemiketta tüüp, milleks on kahepoolne ümbrikketas ehk direktiiv «D». Eduka laadimise lõppedes ilmub ekraanile järgnevale sarnane tekst:
+Alglaadimise käigus loetakse käsutöötlusprotsessor andmekandjalt muutmällu. Ümbrikkettalt laadimisel tuleb valida süsteemiketta tüüp, milleks on kahepoolne ümbrikketas ehk juhis «D». Eduka laadimise lõppedes ilmub ekraanile järgnevale sarnane tekst:
 
 ```
 52K EKDOS 2.30
@@ -27,7 +28,7 @@ Drive assignments:
 <C> — RAM DISK 192K
 ```
 
-Sellele järgneb süsteemi valmisoleku tähis (viip) `A>`.
+Seejärel kuvatakse süsteemi valmisolekut väljendav viip `A>`.
 
 ## Opsüsteemi käsud
 
