@@ -2,7 +2,11 @@
 
 «Juku» sisselülitamisel ilmub kuvarile püsimonitori teade `RomBios`, monitori versiooni number ja viip `*`. Viip on programmi poolt väljastatav teade, mis näitab, et programm ootab kasutaja edasisi direktiive (nt direktiiv «A» käivitab püsimälu BASIC-interpretaatori või miniassembleri, direktiiv «T» opsüsteemi alglaadimise). Eri programmidel on erinevad viibad, mis on kirjeldatud nende kasutamisjuhistes.
 
-Reaalaja süsteemide intellektuaalse terminali Juku E5104 opsüsteemist sõltumatut püsitarkvara võib kirjeldada järgnevalt:
+Opsüsteemi alglaadimist näitlikustab järgnev video:
+
+[![EKDOS 2.30 buutimine püsimonitorist Rombios 2.43m](/images/jukubuut.png)](https://commons.wikimedia.org/wiki/File:Juku_E5101_booting_up_EKDOS_2.30,_displaying_readme_file_on_screen.webm)
+
+Reaalaja süsteemide intellektuaalse terminali «Juku E5104» püsimälus opsüstgeemist sõltumatult sisalduvat põhitarkvara võib kirjeldada järgnevalt:
 
 1. PÜSIMONITOR juhib töötlust, võimaldab kontrollida ja muuta arvuti registrite ning mälu sisu, annab graafika programmeerimise vahendid.  
 2. BASIC-KEELE INTERPRETAATOR on vahend programmeerimise õppimiseks ja lihtsamate programmide kirjutamiseks. Kasutatavas keele variandis on ka graafikakäske.  
@@ -27,9 +31,7 @@ Drive assignments:
 <C> — RAM DISK 192K
 ```
 
-Sellele järgneb süsteemi valmisoleku tähis (viip) `A>`. Opsüsteemi alglaadimist näitlikustab järgnev video:
-
-[![EKDOS 2.30 buutimine püsimonitorist Rombios 2.43m](/images/jukubuut.png)](https://commons.wikimedia.org/wiki/File:Juku_E5101_booting_up_EKDOS_2.30,_displaying_readme_file_on_screen.webm)
+Sellele järgneb süsteemi valmisoleku tähis (viip) `A>`.
 
 ## Opsüsteemi käsud
 
