@@ -8,7 +8,7 @@ RomBios 3.43m
 *
 ```
 
-Viip on programmi poolt väljastatav teade, mis näitab, et programm ootab kasutaja edasisi juhiseid (nt «A» sisestamine käivitab püsimälu BASIC-interpretaatori või miniassembleri, «T» opsüsteemi alglaadimise). Eri programmidel on erinevad viibad, mis on kirjeldatud nende kasutamisjuhistes.
+Viip on programmi poolt väljastatav teade, mis näitab, et programm ootab kasutaja edasisi juhiseid (nt `*` järele «A» sisestamine käivitab püsimälu BASIC-interpretaatori või miniassembleri, «T» opsüsteemi alglaadimise). Eri programmidel on erinevad viibad, mis on kirjeldatud nende kasutamisjuhistes.
 
 Reaalaja süsteemide intellektuaalse terminali «Juku E5104» püsimälus sisalduv tarkvara koosneb monitorist, BASIC-keele interpretaatorist, miniassemblerist, andmeside draiveritest ja opsüsteemide alglaaduritest. Operatsioonisüsteemi käitamine hõlbustab info talletamist välissalvestile ning pakub arvuti kasutajale vahendeid, mida püsimonitoris puuduvad. [^1]
 
