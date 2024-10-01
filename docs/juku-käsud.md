@@ -2,7 +2,7 @@
 
 «Juku» sisselülitamisel ilmub kuvarile püsimonitori teade `RomBios`, monitori versiooni number ja viip `*`. Viip on programmi poolt väljastatav teade, mis näitab, et programm ootab kasutaja edasisi direktiive (nt direktiiv «A» käivitab püsimälu BASIC-interpretaatori või miniassembleri, direktiiv «T» opsüsteemi alglaadimise). Eri programmidel on erinevad viibad, mis on kirjeldatud nende kasutamisjuhistes.
 
-Opsüsteemi alglaadimist näitlikustab järgnev video:
+Opsüsteemi alglaadimist püsimonitorist näitlikustab järgnev video:
 
 [![EKDOS 2.30 buutimine püsimonitorist Rombios 2.43m](/images/jukubuut.png)](https://commons.wikimedia.org/wiki/File:Juku_E5101_booting_up_EKDOS_2.30,_displaying_readme_file_on_screen.webm)
 
