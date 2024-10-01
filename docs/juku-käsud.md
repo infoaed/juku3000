@@ -1,13 +1,21 @@
 # Juku E5101 opsüsteemi käitamine
 
-«Juku» sisselülitamisel ilmub kuvarile püsimonitori teade MONITOR, monitori versiooni number ja viip `*`. Viip on programmi poolt väljastatav teade, mis näitab, et programm ootab kasutaja edasisi direktiive (nt direktiiv «A» käivitab püsimälu BASIC-interpretaatori). Eri programmidel on erinevad viibad, mis on kirjeldatud nende kasutamisjuhistes.
+«Juku» sisselülitamisel ilmub kuvarile püsimonitori teade `RomBios`, monitori versiooni number ja viip `*`. Viip on programmi poolt väljastatav teade, mis näitab, et programm ootab kasutaja edasisi direktiive (nt direktiiv «A» käivitab püsimälu BASIC-interpretaatori või miniassembleri). Eri programmidel on erinevad viibad, mis on kirjeldatud nende kasutamisjuhistes.
 
-Operatsioonisüsteem hõlbustab informatsiooni talletamist ja pakub arvuti kasutajale muidki teenuseid, mida püsimonitor ei paku. Opsüsteemi alglaadimiseks tuleb:
+Juku opsüsteemi eelset põhitarkvara võib kirjeldada järgnevalt:
+
+1. PÜSIMONITOR juhib töötlust, võimaldab kontrollida ja muuta arvuti registrite ning mälu sisu, annab graafika programmeerimise vahendid.  
+2. BASIC-KEELE INTERPRETAATOR on vahend programmeerimise õppimiseks ja lihtsamate programmide kirjutamiseks. Kasutatavas keele variandis on ka graafikakäske.  
+3. MINIASSEMBLER on kompaktne translaator vilunud programmeerija jaoks, ühtlasi vahend programmide silumiseks. Ei mahu koos BASIC-u interpretaatoriga korraga püsimällu, niisiis saab valida ainult ühe neist.  
+4. OPSÜSTEEMIDE ALGLAADURID on võimsama tarkvara eelpost püsimalus. Magnetofoni või diskett-salvesti külgeühendamisel saab sealt alglaadurite abil lugeda arvuti muutmällu vastava lindi- või kettaopsüsteemi.  
+5. ANDMESIDE DRAIVER on tarkvara kõige arvutipoolsem osa. Ülejaanud osa loetakse mällu välissalvestist, seega peab arvutivõrgus olema vähemalt üks magnetofon või diskettsalvesti.  
+
+Operatsioonisüsteem hõlbustab informatsiooni talletamist välissalvestile ja pakub arvuti kasutajale muidki teenuseid, mida püsimonitor ei paku. Opsüsteemi alglaadimiseks tuleb:
 
 1. sisestada lugemisseadmesse andmekandja opsüsteemiga
 2. sisestada monitori direktiiv «T»
 
-Seejärel tuleb valida opsüsteemi alglaadimise viis, flopikettalt laadimiseks «D», võrgust laadimiseks «N» ja lindilt laadimiseks «T». Alglaadimise käigus loetakse käsutöötlusprotsessor andmekandjalt muutmällu. Eduka laadimise lõppedes flopikettalt ilmub ekraanile järgnevale sarnane tekst:
+Seejärel tuleb valida opsüsteemi alglaadimise viis, ümbrikkettalt laadimiseks «D», võrgust laadimiseks «N» ja lindilt laadimiseks «T». Alglaadimise käigus loetakse käsutöötlusprotsessor andmekandjalt muutmällu. Eduka laadimise lõppedes ümbrikkettalt ilmub ekraanile järgnevale sarnane tekst:
 
 ```
 52K EKDOS 2.30
