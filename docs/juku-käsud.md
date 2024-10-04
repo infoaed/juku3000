@@ -74,7 +74,7 @@ Failinimi sisaldab kuni kaheksa ja laiend (`EXT`) kolm tärki ning neid eraldab 
 `$$$` — ajutine fail  
 `COM` — käsu- ehk programmi- ehk laadefail  
 
-Failid paiknevad ketastel, mille tähis on tähestiku täht ja selle järgnev koolon (nt `A:` või `B:`). Faili paiknemist kettal märgitakse kettatähise lisamisega failinime ette (`B:failinimi.EXT`).
+Failid paiknevad lintidel või ketastel, mile lugemisseadme tähis on tähestiku täht ja selle järgnev koolon (nt `A:` või `B:`). Faili paiknemist lugemisseadmes oleval kettal märgitakse seadmetähise lisamisega failinime ette (`B:failinimi.EXT`).
 
 Sisefunktsioonide `ERA`, `REST`, `DIR`, `DIRS` kasutamisel võib failinime ja laiendi sisestada kas üheselt või mitmeselt määratuna. Mitmeselt määra­miseks kasutatakse tähiseid `*` ja `?`:
 
