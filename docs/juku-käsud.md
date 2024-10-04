@@ -119,5 +119,5 @@ CTRL J — (= reavahetus) lõpetab sisestuse
 `<RETURN>` — tagastusklahv lõpetab sisestuse  
 
 [^1]: [Mikroarvuti «JUKU» kasutamisjuhend](https://arti.ee/juku/Mikroarvuti%20Juku%20E5101%20kasutamisjuhend%201988%20%28168lk%2C%20eesti%20k%29.pdf) (1988) lk 20jj, 31jj, 46jj  
-[^2]: [Интеллектуальный терминал для системы реального времени E5104](https://elektroonikafoorum.com/thread-690-post-4165.html#pid4165) (1988)
+[^2]: [Интеллектуальный терминал для систем реального времени E5104](https://elektroonikafoorum.com/thread-690-post-4165.html#pid4165) (1988)
 [^3]: [Mikroarvuti JUKU](ekta_juku.pdf) (1987) lk 13jj  
