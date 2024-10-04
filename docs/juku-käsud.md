@@ -31,7 +31,7 @@ Drive assignments:
 
 <A> — 5" 786K  
 <B> — 5" 786K
-<C> — RamDisk 192K
+<C> — RAM disk 192K
 ```
 
 Seejärel kuvatakse opsüsteemi valmisolekut väljendav viip `A>`.
