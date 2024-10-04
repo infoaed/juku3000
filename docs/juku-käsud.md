@@ -1,14 +1,14 @@
 # Juku E5104 opsüsteemi käitamine
 
-«Juku» sisselülitamisel ilmub kuvarile püsimonitori teade `RomBios`, monitori versiooni number ja viip `*`:
+«Juku» sisselülitamisel ilmub kuvarile püsimonitori teade `RomBios`, monitori versiooninumber ja viip `∗`, mille järel kutsuvalt vilgub sisestuskursor:
 
 ```
 RomBios 3.43m
 
-*
+∗█
 ```
 
-Viip on programmi poolt väljastatav teade, mis näitab, et programm ootab kasutaja edasisi juhiseid, nt viiba `*` järele «A» sisestamine käivitab püsimälu BASIC-interpretaatori või miniassembleri, «T» opsüsteemi alglaadimise. Eri programmidel on eri viibad, mille kasutamine on kirjeldatud nende juhendmaterjalis.
+Viip on programmi poolt väljastatav teade, mis näitab, et programm ootab kasutaja edasisi juhiseid, nt viiba `∗` järele «A» sisestamine käivitab püsimälu BASIC-interpretaatori või miniassembleri, «T» opsüsteemi alglaadimise. Eri programmidel on eri viibad, mille kasutamine on kirjeldatud nende juhendmaterjalis.
 
 Reaalaja süsteemide intellektuaalse terminali «Juku E5104»[^1] püsimälus sisalduv tarkvara koosneb monitorist, BASIC-keele interpretaatorist, miniassemblerist, andmeside draiveritest ja opsüsteemide alglaaduritest. Põhitarkvara suhtes täiendava operatsioonisüsteemi käitamine hõlbustab info talletamist välissalvestile ning pakub kasutajale vahendeid, mis püsimonitoris puuduvad.[^2]
 
@@ -61,7 +61,7 @@ Failide tähistused on kujul:
 
 `failinimi.EXT`
 
-Failinimi sisaldab kuni kaheksa ja laiend (`EXT`) kolm tärki ning neid eraldab teineteisest punkt. Laiend võib ka puududa. Failinimes ja laiendis ei tohi esineda: koma (`,`), semikoolon (`;`), koolon (`:`), küsimärk (`?`), tärn (`*`), noolsulg (`<` või `>`), nurksulg (`[` või `]`). Mõningad kasutatavamad laiendid:
+Failinimi sisaldab kuni kaheksa ja laiend (`EXT`) kolm tärki ning neid eraldab teineteisest punkt. Laiend võib ka puududa. Failinimes ja laiendis ei tohi esineda: koma (`,`), semikoolon (`;`), koolon (`:`), küsimärk (`?`), tärn (`∗`), noolsulg (`<` või `>`), nurksulg (`[` või `]`). Mõningad kasutatavamad laiendid:
 
 `ASM`, `MAC` — assemblerkeele lähtefail  
 `BAS` — BASIC kompilaatori lähtefail  
@@ -76,18 +76,18 @@ Failinimi sisaldab kuni kaheksa ja laiend (`EXT`) kolm tärki ning neid eraldab 
 
 Failid paiknevad lintidel või ketastel, mile lugemisseadme tähis on tähestiku täht ja selle järgnev koolon (nt `A:` või `B:`). Faili paiknemist lugemisseadmes oleval kettal märgitakse seadmetähise lisamisega failinime ette (`B:failinimi.EXT`).
 
-Sisefunktsioonide `ERA`, `REST`, `DIR`, `DIRS` kasutamisel võib failinime ja laiendi sisestada kas üheselt või mitmeselt määratuna. Mitmeselt määra­miseks kasutatakse tähiseid `*` ja `?`:
+Sisefunktsioonide `ERA`, `REST`, `DIR`, `DIRS` kasutamisel võib failinime ja laiendi sisestada kas üheselt või mitmeselt määratuna. Mitmeselt määra­miseks kasutatakse tähiseid `∗` ja `?`:
 
 `?` — asendab failinimes või laiendis ühte märki, tähenduses «mis tahes märk sellel kohal»
 
-`*` — asendab failinime või laiendit, tähenduses «mis tahes nimi (laiend)»; tärn nime (laiendi) algusosa järel asendab järgnevat lõpuosa, tähen­duses «mis tahes lõpuosaga nimi (laiend)»
+`∗` — asendab failinime või laiendit, tähenduses «mis tahes nimi (laiend)»; tärn nime (laiendi) algusosa järel asendab järgnevat lõpuosa, tähen­duses «mis tahes lõpuosaga nimi (laiend)»
 
-Vormingud `*.*` ja `????????.???` on sarnased. Siin ja edaspidi mõeldakse termini «failinimi» all üldiselt failinimest ja laiendist koosnevat faili identifikaatorit.
+Vormingud `∗.∗` ja `????????.???` on sarnased. Siin ja edaspidi mõeldakse termini «failinimi» all üldiselt failinimest ja laiendist koosnevat faili identifikaatorit.
 
 Näide:
 
-> `ERA A??.*` — kustutamisele kuuluvad kõik failid, mille nimi on 3 märki pikk ja algab sõltumata laiendist tähega `A`  
-> `ERA B:A*.COM` — kustutamisele kuuluvad kettalt `B:` kõik failid, mille nimi algab tähega `A` ja mille laiendiks on `COM`
+> `ERA A??.∗` — kustutamisele kuuluvad kõik failid, mille nimi on 3 märki pikk ja algab sõltumata laiendist tähega `A`  
+> `ERA B:A∗.COM` — kustutamisele kuuluvad kettalt `B:` kõik failid, mille nimi algab tähega `A` ja mille laiendiks on `COM`
 
 ## Programmifailide käivitamine
 
