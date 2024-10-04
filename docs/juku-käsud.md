@@ -16,7 +16,7 @@ Opsüsteemi alglaadimist püsimonitorist näitlikustakse videos:
 
 [![EKDOS 2.30 alglaadimine püsimonitorist Rombios 3.43m juhtklahvidega «T», «D», «D»](/images/jukubuut.png)](https://commons.wikimedia.org/wiki/File:Juku_E5101_booting_up_EKDOS_2.30,_displaying_readme_file_on_screen.webm)
 
-Tüüpilise «Juku E5104» opsüsteemi EKDOS alglaadimsieks tuleb vajutada kahvistikul «T», «D», «D», mis pikemalt lahtiseletatuna on:
+Tüüpilise «Juku E5104» opsüsteemi EKDOS alglaadimiseks tuleb vajutada kahvistikul «T», «D», «D», mis pikemalt lahtiseletatuna on:
 
 1. sisestada lugemisseadmesse andmekandja opsüsteemiga
 2. sisestada monitori juhis «T»
