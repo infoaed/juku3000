@@ -57,7 +57,7 @@ Käsuprotsessor (KP) vahetab infot kasutaja ja operatsioonisüsteemi vahel. KP l
 `LOAD` — faili laadimine lindilt muutmällu  
 `RUN` — laaditud programmi käivitamine  
 
-Failide tähistused on kujul:
+Andmeid säilitatakse välissalvestil failidena, mille tähistused on kujul:
 
 `failinimi.EXT`
 
@@ -74,7 +74,7 @@ Failinimi sisaldab kuni kaheksa ja laiend (`EXT`) kolm tärki ning neid eraldab 
 `$$$` — ajutine fail  
 `COM` — käsu- ehk programmi- ehk laadefail  
 
-Failid paiknevad lintidel või ketastel, mile lugemisseadme tähis on tähestiku täht ja selle järgnev koolon (nt `A:` või `B:`). Faili paiknemist lugemisseadmes oleval kettal märgitakse seadmetähise lisamisega failinime ette (`B:failinimi.EXT`).
+Failid paiknevad lintidel või ketastel, mille lugemisseadme tähis on tähestiku täht ja selle järgnev koolon (nt `A:` või `B:`). Faili paiknemist lugemisseadmes oleval kettal märgitakse seadmetähise lisamisega failinime ette (`B:failinimi.EXT`).
 
 Sisefunktsioonide `ERA`, `REST`, `DIR`, `DIRS` kasutamisel võib failinime ja laiendi sisestada kas üheselt või mitmeselt määratuna. Mitmeselt määra­miseks kasutatakse tähiseid `∗` ja `?`:
 
