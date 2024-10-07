@@ -112,7 +112,7 @@ CTRL C — programmi töö katkestamine
 CTRL ESC — programmi töö katkestamine, juhtimine üle aktiivsele viibale  
 CTRL SHIFT ESC — programmi töö katkestamine, juhtimine üle monitorile  
 CTRL Z — sisendi lõpp (`PIP` ja `SED`)  
-CTRL H — kursori tagasilüke, märgi kustutusega  
+CTRL H — (= tagasinool) kursori tagasilüke, märgi kustutusega  
 CTRL X — rea kustutus ja kursor rea algusesse  
 CTRL M — (= tagastus) lõpetab sisestuse  
 CTRL J — (= reavahetus) lõpetab sisestuse  
