@@ -61,13 +61,13 @@ Andmeid säilitatakse välissalvestil failidena, mille tähistused on kujul:
 
 `failinimi.EXT`
 
-Failinimi sisaldab kuni kaheksa ja laiend (`EXT`) kolm tärki ning neid eraldab teineteisest punkt. Laiend võib ka puududa. Failinimes ja laiendis ei tohi esineda: koma (`,`), semikoolon (`;`), koolon (`:`), küsimärk (`?`), tärn (`∗`), noolsulg (`<` või `>`), nurksulg (`[` või `]`). Mõningad kasutatavamad laiendid:
+Failinimi sisaldab kuni kaheksa ja laiend (`EXT`) kuni kolm tärki ning neid eraldab teineteisest punkt. Laiend võib ka puududa. Failinimes ja laiendis ei tohi esineda: koma (`,`), semikoolon (`;`), koolon (`:`), küsimärk (`?`), tärn (`∗`), noolsulg (`<` või `>`), nurksulg (`[` või `]`). Mõningad kasutatavamad laiendid:
 
 `ASM`, `MAC` — assemblerkeele lähtefail  
 `BAS` — BASIC kompilaatori lähtefail  
 `PAS` — PASCAL/MT+ translaaatori lähtefail  
 `FOR` — F(ORTRAN)80 kompilaatori lähtefail  
-`BAK` — Tekstitoimeti varundusfail  
+`BAK` — tekstitoimeti varundusfail  
 `PRN`, `LST` — listingufail  
 `TXT` — tekstifail  
 `HEX` — masina kood 16-ndkujul  
