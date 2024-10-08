@@ -25,7 +25,7 @@ juuli | "[Mikroarvuti JUKU kasutamisjuhend](https://arti.ee/juku/Mikroarvuti%20J
 november | RET saab vahepeal kaduma läinud tehnilise dokumentatsiooni uuesti
 november | Häälestatakse esimene JUKU, mis valmis algselt korpusi tootma pidanud ESTRONis
 
-## 1987 -- Kadunud mudelid E5102 ja E5103 (?)
+## 1987 -- Kadunud mudelid E5102 ja E5103
 
 * RETi "[täieliku ükskõiksuse tõttu](https://www.etera.ee/zoom/19156/view?page=108&p=separate&tool=info&view=0,1175,2323,2716)" tootmist ei alustata
 * ESTRON ja EKTA valmistavad 10 ja 25 kaupa [lindiopsüsteemiga JUKU ja JUSSi katse- ja üksikpartiisid](https://www.etera.ee/zoom/29230/view?page=82&p=separate&tool=info&view=0,0,2373,3411)
