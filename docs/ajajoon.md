@@ -2,7 +2,7 @@
 
 ## 1985 -- "Teise kirjaoskuse" sünnitatud prototüüp
 
-* Valmis esimene JUKU prototüüp ja tarkvara TERM, QDISK, QRUN, MTEST
+* Valmis esimene JUKU prototüüp ja tarkvara TERM, QDISK, QRUN, MTEST jmt
 
 |||
 |-|-|
