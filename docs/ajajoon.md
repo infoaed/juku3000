@@ -25,7 +25,7 @@ juuli | "[Mikroarvuti JUKU kasutamisjuhend](https://arti.ee/juku/Mikroarvuti%20J
 ## 1987 -- Kadunud mudel E5102 (?)
 
 * ESTRON toodab esimesed 35-100 lindiopsüsteemiga JUKUt
-* Valmib suur osa kettaopsüsteemiga kooliarvuti JUKU tarkvarast
+* Valmib suurem osa tulevase kooliarvuti JUKU tarkvarast
 
 |||
 |-|-|
