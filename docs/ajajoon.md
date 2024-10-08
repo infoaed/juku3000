@@ -11,7 +11,7 @@ mai      | KÜBERI nõupidamine, soov "vabariigis endas midagi ette võtta"
 november | Demonstreeritakse kahte kevadel lubatud "töötavat näidist"
 
 
-## 1986 -- Esimene seeriatootmise mudel E5101
+## 1986 -- Seeriatootmise baasmudel E5101
 
 * Kooliarvuti konkurss, ESTRON plaanib JUKU tootmist, proovipartiid 10-25 kaupa
 
@@ -63,7 +63,7 @@ detsember | [EKDOS utiliitide DISK #4](https://github.com/infoaed/juku3000/blob/
 
 ## 1990 -- Metsikud aastad, millest keegi ei mäleta
 
-* RomBios viimane teadaolev versioon IBM AT-klahvistikuga ja seerianumbriga #0043
+* RomBiosi viimane teadaolev versioon IBM AT-klahvistikuga ja seerianumbriga #0043
 
 ## 1991 -- Juku kuldaeg
 
