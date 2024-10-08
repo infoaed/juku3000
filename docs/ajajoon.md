@@ -6,7 +6,7 @@
 
 |||
 |-|-|
-märts    | NLKP määrus arvutiõpetus kui "teine kirjaoskus"
+märts    | NLKP määrus arvutioskus kui "teine kirjaoskus"
 mai      | KÜBERI nõupidamine, soov "vabariigis endas midagi ette võtta"
 november | Demonstreeritakse kahte kevadel lubatud "töötavat näidist"
 
