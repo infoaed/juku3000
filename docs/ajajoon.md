@@ -29,7 +29,7 @@ november | Häälestatakse esimene JUKU, mis valmis algselt korpusi tootma pidan
 ## 1987 -- Kadunud mudelid E5102 ja E5103
 
 * RETi juhtkonnavahetusega kaasnenud "[täieliku ükskõiksuse tõttu](https://www.etera.ee/zoom/19156/view?page=108&p=separate&tool=info&view=0,1175,2323,2716)" tootmist ei alustata
-* ESTRON ja EKTA valmistavad väikseid [lindiopsüsteemiga JUKU ja täiendavate võimalustega JUSSi katse- ja üksikpartiisid](https://www.etera.ee/zoom/29230/view?page=82&p=separate&tool=info&view=0,0,2373,3411)
+* ESTRON ja EKTA valmistavad väikseid [lindiopsüsteemiga JUKU ja täiendavate võimalustega JUSSi katse- ja üksikpartiisid](https://www.etera.ee/zoom/29230/view?page=84&p=separate&tool=info&view=0,0,2373,3411)
 * Koostatakse suurem osa tulevase kooliarvuti JUKU tarkvarast
 
 |||
@@ -52,6 +52,7 @@ detsember | RomBios 3.4
 |||
 |-|-|
 jaanuar            | EKDOS 2.29 (ja paralleelselt millagi RomBios 3.43m)
+mai                | "[JUKU konarlik tee](https://www.etera.ee/zoom/29230/view?page=82&p=separate&tool=info&view=0,0,2373,3411)" tootmiseni leiab kajastust partei häälekandjas
 september-oktoober | Kõrgkeeled ja progemistööriistad PASCAL, B80, BASCOM, F80, L80, SID, ASM
 oktoober           | Demod, printeridraiverid, võrguopsüsteem
 november           | Baltijetsi tehas Narvas saab JUKU tehnilise dokumentatsiooni, ülesanne JUKU tootmiseks NSVL ministrite nõukogult
