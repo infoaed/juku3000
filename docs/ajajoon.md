@@ -41,7 +41,7 @@ detsember | RomBios 3.4
 ## 1988 -- Kettasüsteemiga kooliarvuti E5104
 
 * Valmivad 40 esimest 1986 alguseks lubatud JUKUt
-* Saab lõpliku kuju enamik kettaopsüsteemiga JUKU tarkvarast
+* Saab lõpliku kuju enamik [kettaopsüsteemiga JUKU](https://github.com/infoaed/juku3000/blob/master/docs/juku-k%C3%A4sud.md) tarkvarast
 * Venekeelne juhend-dokumentatsioon "[Интеллектуальный терминал для систем реального времени E5104](https://arti.ee/juku/JUKU%20E5104%20Kasutusjuhend%203%20osa%20%28286lk%2C%20vene%20k%29.pdf)"
 
 |||
