@@ -29,7 +29,7 @@ juuli | "[Mikroarvuti JUKU kasutamisjuhend](https://arti.ee/juku/Mikroarvuti%20J
 
 |||
 |-|-|
-jaanuar   | "[Mikroarvuti JUKU]()" brošüür
+jaanuar   | "[Mikroarvuti JUKU](https://github.com/infoaed/juku3000/blob/master/docs/ekta_juku.pdf)" brošüür
 märts     | Lindisüsteemiga JUKU [venekeelsed joonised](https://elektroonikafoorum.com/thread-690-post-4164.html#pid4164)
 aprill    | Noorte Hääle artikliseeria "[JUKU, see koolisõbralik arvuti](https://arti.ee/juku/Noorte_H%C3%A4%C3%A4l_1987-04/)"
 september | Avaldamiseks valmis FORMAT, DOSGEN, PIP, SED, GTR, JBASIC, MTPLUS
@@ -42,7 +42,7 @@ detsember | RomBios 3.4
 
 * Valmivad 40 esimest 1986 alguseks lubatud JUKUt
 * Saab lõpliku kuju enamik kettaopsüsteemiga JUKU tarkvarast
-* Venekeelne juhend-dokumentatsioon "Интеллектуальный терминал для систем реального времени E5104"
+* Venekeelne juhend-dokumentatsioon "[Интеллектуальный терминал для систем реального времени E5104](https://arti.ee/juku/JUKU%20E5104%20Kasutusjuhend%203%20osa%20%28286lk%2C%20vene%20k%29.pdf)"
 
 |||
 |-|-|
@@ -58,7 +58,7 @@ detsember          | Esimesed 40 JUKU kooliarvutit Baltijetsi tehasest
 |||
 |-|-|
 aprill    | Valmib [EKDOS 2.30](https://github.com/infoaed/juku3000/blob/master/src/EKDOS30.ASM) lähtekood
-august    | Baltijets E5104 dokumentatsiooni lõplik vormistamine
+august    | Baltijetsi E5104 dokumentatsiooni lõplik vormistamine
 detsember | [EKDOS utiliitide DISK #4](https://github.com/infoaed/juku3000/blob/master/docs/ekdos230.txt) pigistab masinast välja viimase -- 80x25 režiim, kopeerimistööriistad CF/JCM/FDMAINT, mängud BUGABOO, CHESS, CATCHUM, LADDER jt
 
 ## 1990 -- Metsikud aastad, millest keegi ei mäleta
