@@ -59,11 +59,11 @@ detsember          | Esimesed 40 JUKU kooliarvutit Baltijetsi tehasest
 |-|-|
 aprill    | Valmib EKDOS 2.30 lähtekood
 august    | Baltijets E5104 dokumentatsiooni vormistamine
-detsember | EKDOS utiliitide DISK #4 -- 80x25 režiim, kopeerimistööriistad JCM/CF/FDMAINT, mängud BUGABOO, CHESS, CATCHUM, LADDER jt
+detsember | EKDOS utiliitide DISK #4 pigistab masinast välja viimase -- 80x25 režiim, kopeerimistööriistad CF/JCM/FDMAINT, mängud BUGABOO, CHESS, CATCHUM, LADDER jt
 
 ## 1990 -- Metsikud aastad, millest keegi ei mäleta
 
-* RomBios viimane teadaolev versioon IBM AT-klahvistikuga ja seerianumbriga ##0043
+* RomBios viimane teadaolev versioon IBM AT-klahvistikuga ja seerianumbriga #0043
 
 ## 1991 -- Juku kuldaeg
 
