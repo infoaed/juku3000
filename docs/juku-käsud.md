@@ -112,11 +112,13 @@ CTRL C — programmi töö katkestamine
 CTRL ESC — programmi töö katkestamine, juhtimine üle aktiivsele viibale  
 CTRL SHIFT ESC — programmi töö katkestamine, juhtimine üle monitorile  
 CTRL Z — sisendi lõpp (`PIP` ja `SED`)  
-CTRL H — (= tagasinool) kursori tagasilüke, märgi kustutusega  
 CTRL X — rea kustutus ja kursor rea algusesse  
+CTRL H — (= tagasinool) kursori tagasilüke, märgi kustutusega  
 CTRL M — (= tagastus) lõpetab sisestuse  
 CTRL J — (= reavahetus) lõpetab sisestuse  
 `<RETURN>` — tagastusklahv lõpetab sisestuse  
+
+_Ülalolev on lühendatud ja kohandatud versioon esimeses viites toodud lindiopsüsteemi juhendist. Kohandatud juhend püüab võimaluste piires järgida algse juhendi stiili ja terminoloogiat._
 
 [^1]: [Mikroarvuti «JUKU» kasutamisjuhend](https://arti.ee/juku/Mikroarvuti%20Juku%20E5101%20kasutamisjuhend%201988%20%28168lk%2C%20eesti%20k%29.pdf) (1988) lk 20jj, 31jj, 46jj  
 [^2]: [Интеллектуальный терминал для систем реального времени E5104](https://elektroonikafoorum.com/thread-690-post-4165.html#pid4165) (1988)
