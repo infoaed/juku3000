@@ -28,7 +28,7 @@ november | Häälestatakse esimene JUKU, mis valmis algselt korpusi tootma pidan
 ## 1987 -- Kadunud mudelid E5102 ja E5103
 
 * RETi "[täieliku ükskõiksuse tõttu](https://www.etera.ee/zoom/19156/view?page=108&p=separate&tool=info&view=0,1175,2323,2716)" tootmist ei alustata
-* ESTRON ja EKTA valmistavad 10 ja 25 kaupa [lindiopsüsteemiga JUKU ja JUSSi katse- ja üksikpartiisid](https://www.etera.ee/zoom/29230/view?page=82&p=separate&tool=info&view=0,0,2373,3411)
+* ESTRON ja EKTA valmistavad väikseid [lindiopsüsteemiga JUKU ja täiendavate võimalustega JUSSi katse- ja üksikpartiisid](https://www.etera.ee/zoom/29230/view?page=82&p=separate&tool=info&view=0,0,2373,3411)
 * Koostatakse suurem osa tulevase kooliarvuti JUKU tarkvarast
 
 |||
@@ -44,7 +44,7 @@ detsember | RomBios 3.4
 
 ## 1988 -- Kettasüsteemiga kooliarvuti E5104
 
-* Baltijetsi tehases valmivad 40 esimest 1986. aasta alguseks lubatud kooliarvutit JUKU
+* Valmivad 40 esimest 1986. aasta alguseks lubatud kooliarvutit JUKU
 * Saab lõpliku kuju enamik [kettaopsüsteemiga JUKU](https://github.com/infoaed/juku3000/blob/master/docs/juku-k%C3%A4sud.md) tarkvarast
 * Venekeelne juhend-dokumentatsioon "[Интеллектуальный терминал для систем реального времени E5104](https://arti.ee/juku/JUKU%20E5104%20Kasutusjuhend%203%20osa%20%28286lk%2C%20vene%20k%29.pdf)"
 
