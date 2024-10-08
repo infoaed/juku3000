@@ -17,7 +17,7 @@ november | Demonstreeritakse kahte kevadel lubatud "töötavat näidist"
 
 |||
 |-|-|
-jaanuar | Küberneetika Instituudi arvutustehnika erikonstrueerimisbüroos [valmis univarsaalne mikroarvuti](https://dea.digar.ee/?a=d&d=rahvahaal19860105.2.11&srpos=11&e=-------et-25--1--txt-txIN-------------)
+jaanuar | Antakse teada, et EKTAs [valmis univarsaalne mikroarvuti](https://dea.digar.ee/?a=d&d=rahvahaal19860105.2.11&srpos=11&e=-------et-25--1--txt-txIN-------------)
 märts | "[Teel teisele kirjaoskusele](https://www.youtube.com/watch?v=TQupHJ9J7w8)" tutvustuses kooliarvuti pretendendid TARTU ja JUKU
 märts | RET saab JUKU tootmiseks vajaliku dokumentatsiooni
 juuni | Popovi nim. teadustehnilise ühingu kooliarvuti konkursil mõlemale "1. preemia"
@@ -28,7 +28,7 @@ november | Häälestatakse esimene JUKU, mis valmis algselt korpusi tootma pidan
 
 ## 1987 -- Kadunud mudelid E5102 ja E5103
 
-* RETi "[täieliku ükskõiksuse tõttu](https://www.etera.ee/zoom/19156/view?page=108&p=separate&tool=info&view=0,1175,2323,2716)" tootmist ei alustata
+* RETi juhtkonnavahetusega kaasnenud "[täieliku ükskõiksuse tõttu](https://www.etera.ee/zoom/19156/view?page=108&p=separate&tool=info&view=0,1175,2323,2716)" tootmist ei alustata
 * ESTRON ja EKTA valmistavad väikseid [lindiopsüsteemiga JUKU ja täiendavate võimalustega JUSSi katse- ja üksikpartiisid](https://www.etera.ee/zoom/29230/view?page=82&p=separate&tool=info&view=0,0,2373,3411)
 * Koostatakse suurem osa tulevase kooliarvuti JUKU tarkvarast
 
