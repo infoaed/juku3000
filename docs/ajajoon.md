@@ -54,7 +54,7 @@ detsember | RomBios 3.4
 jaanuar            | EKDOS 2.29 (ja paralleelselt millagi RomBios 3.43m)
 september-oktoober | Kõrgkeeled ja progemistööriistad PASCAL, B80, BASCOM, F80, L80, SID, ASM
 oktoober           | Demod, printeridraiverid, võrguopsüsteem
-november           | Baltijetsi tehas Narvas saab JUKU tehnilise dokumentatsiooni
+november           | Baltijetsi tehas Narvas saab JUKU tehnilise dokumentatsiooni, ülesanne JUKU tootmiseks NSVL ministrite nõukogult
 detsember          | Esimesed 40 JUKU kooliarvutit [tulevad Baltijetsi tootmisliinilt](https://dea.digar.ee/?a=d&d=rahvahaal19891111.2.17&srpos=8&e=-------et-25--1--txt-txIN-------------)
 
 ## 1989 -- Juku jõuab koolitundi
