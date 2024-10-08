@@ -61,7 +61,7 @@ aprill    | Valmib [EKDOS 2.30](https://github.com/infoaed/juku3000/blob/master/
 august    | Baltijetsi E5104 dokumentatsiooni lõplik vormistamine
 detsember | [EKDOS utiliitide DISK #4](https://github.com/infoaed/juku3000/blob/master/docs/ekdos230.txt) pigistab masinast välja viimase -- 80x25 režiim, kopeerimistööriistad CF/JCM/FDMAINT, mängud BUGABOO, CHESS, CATCHUM, LADDER jt
 
-## 1990 -- Liiga tormiline, et järge pidada
+## 1990 -- ???
 
 * RomBiosi viimane teadaolev versioon IBM AT-klahvistikuga ja seerianumbriga #0043
 
