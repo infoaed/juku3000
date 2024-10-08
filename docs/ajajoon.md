@@ -7,7 +7,7 @@
 |||
 |-|-|
 märts    | NLKP määrus arvutioskus kui "teine kirjaoskus"
-mai      | KÜBERI nõupidamine, soov "vabariigis endas midagi ette võtta"
+mai      | Küberneetika Instituudi nõupidamine, soov "vabariigis endas midagi ette võtta"
 november | Demonstreeritakse kahte kevadel lubatud "töötavat näidist"
 
 
@@ -17,6 +17,7 @@ november | Demonstreeritakse kahte kevadel lubatud "töötavat näidist"
 
 |||
 |-|-|
+jaanuar | Küberneetika Instituudi arvutustehnika erikonstrueerimisbüroos [valmis univarsaalne mikroarvuti](https://dea.digar.ee/?a=d&d=rahvahaal19860105.2.11&srpos=11&e=-------et-25--1--txt-txIN-------------)
 märts | "[Teel teisele kirjaoskusele](https://www.youtube.com/watch?v=TQupHJ9J7w8)" tutvustuses kooliarvuti pretendendid TARTU ja JUKU
 märts | RET saab JUKU tootmiseks vajaliku dokumentatsiooni
 juuni | Popovi nim. teadustehnilise ühingu kooliarvuti konkursil mõlemale "1. preemia"
@@ -53,7 +54,8 @@ detsember | RomBios 3.4
 jaanuar            | EKDOS 2.29 (ja paralleelselt millagi RomBios 3.43m)
 september-oktoober | Kõrgkeeled ja progemistööriistad PASCAL, B80, BASCOM, F80, L80, SID, ASM
 oktoober           | Demod, printeridraiverid, võrguopsüsteem
-detsember          | Esimesed 40 JUKU kooliarvutit Baltijetsi tehasest
+november           | Baltijetsi tehas Narvas saab JUKU tehnilise dokumentatsiooni
+detsember          | Esimesed 40 JUKU kooliarvutit [tulevad Baltijetsi tootmisliinilt](https://dea.digar.ee/?a=d&d=rahvahaal19891111.2.17&srpos=8&e=-------et-25--1--txt-txIN-------------)
 
 ## 1989 -- Juku jõuab koolitundi
 
