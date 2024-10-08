@@ -13,19 +13,23 @@ november | Demonstreeritakse kahte kevadel lubatud "töötavat näidist"
 
 ## 1986 -- Seeriatootmise baasmudel E5101
 
-* Kooliarvuti konkurss, ESTRON plaanib JUKU tootmist, proovipartiid 10-25 kaupa
+* Kooliarvuti konkurss, kavandatakse edutult tootmist RETi ja ESTRONi koostöös
 
 |||
 |-|-|
 märts | "[Teel teisele kirjaoskusele](https://www.youtube.com/watch?v=TQupHJ9J7w8)" tutvustuses kooliarvuti pretendendid TARTU ja JUKU
+märts | RET saab JUKU tootmiseks vajaliku dokumentatsiooni
 juuni | Popovi nim. teadustehnilise ühingu kooliarvuti konkursil mõlemale "1. preemia"
 juuli | "[Kas JUKUGA või...](https://arhiiv.err.ee/audio/vaata/kas-jukuga-voi)" aasta alguse lubadus 40 kooliarvutit, järgmise aasta jooksul ületavat arv 1000
 juuli | "[Mikroarvuti JUKU kasutamisjuhend](https://arti.ee/juku/Mikroarvuti%20Juku%20E5101%20kasutamisjuhend%201988%20%28168lk%2C%20eesti%20k%29.pdf)" läheb ladumisele
+november | RET saab vahepeal kaduma läinud tehnilise dokumentatsiooni uuesti
+november | Häälestatakse esimene JUKU, mis valmis algselt korpusi tootma pidanud ESTRONis
 
-## 1987 -- Kadunud mudel E5102 (?)
+## 1987 -- Kadunud mudelid E5102 ja E5103 (?)
 
-* ESTRON toodab esimesed 35-100 lindiopsüsteemiga JUKUt
-* Valmib suurem osa tulevase kooliarvuti JUKU tarkvarast
+* RETi "[täieliku ükskõiksuse tõttu](https://www.etera.ee/zoom/19156/view?page=108&p=separate&tool=info&view=0,1175,2323,2716)" tootmist ei alustata
+* ESTRON ja EKTA valmistavad 10 ja 25 kaupa lindiopsüsteemiga JUKU ja JUSSi katse- ja üksikpartiisid
+* Koostatakse suurem osa tulevase kooliarvuti JUKU tarkvarast
 
 |||
 |-|-|
@@ -40,7 +44,7 @@ detsember | RomBios 3.4
 
 ## 1988 -- Kettasüsteemiga kooliarvuti E5104
 
-* Valmivad 40 esimest 1986 alguseks lubatud JUKUt
+* Baltijetsi tehases valmivad 40 esimest 1986. aasta alguseks lubatud kooliarvutit JUKU
 * Saab lõpliku kuju enamik [kettaopsüsteemiga JUKU](https://github.com/infoaed/juku3000/blob/master/docs/juku-k%C3%A4sud.md) tarkvarast
 * Venekeelne juhend-dokumentatsioon "[Интеллектуальный терминал для систем реального времени E5104](https://arti.ee/juku/JUKU%20E5104%20Kasutusjuhend%203%20osa%20%28286lk%2C%20vene%20k%29.pdf)"
 
@@ -53,7 +57,7 @@ detsember          | Esimesed 40 JUKU kooliarvutit Baltijetsi tehasest
 
 ## 1989 -- Juku jõuab koolitundi
 
-* Koolid saavad lõpuks endale päriselt JUKUd -- Nõost kuni Looni
+* Koolid saavad lõpuks endale päriselt [esimesed 500 JUKUt](https://dea.digar.ee/?a=d&d=opetajateleht19900120.1.3&e=-------et-25--1--txt-txIN%7ctxTI%7ctxAU%7ctxTA-------------) -- Nõost kuni Looni
 
 |||
 |-|-|
