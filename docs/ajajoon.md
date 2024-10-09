@@ -70,7 +70,7 @@ detsember | [EKDOS utiliitide DISK #4](https://github.com/infoaed/juku3000/blob/
 
 ## 1990 -- ???
 
-* Asutakse välja töötama õppematerjale, aga õpilased oma JUKUdel liiguvad kiiresti eest ära
+* Hakatakse valmistama õppematerjale, aga õpilased oma JUKUdel liiguvad kiiresti eest ära
 * RomBiosi viimane teadaolev versioon IBM AT-klahvistikuga ja seerianumbriga #0043
 
 ## 1991 -- Juku kuldaeg
