@@ -70,11 +70,12 @@ detsember | [EKDOS utiliitide DISK #4](https://github.com/infoaed/juku3000/blob/
 
 ## 1990 -- ???
 
+* Asutakse välja töötama õppematerjale, aga õpilased oma JUKUdel liiguvad kiiresti eest ära
 * RomBiosi viimane teadaolev versioon IBM AT-klahvistikuga ja seerianumbriga #0043
 
 ## 1991 -- Juku kuldaeg
 
-* Haridusministeeriumi JUKU tarkvara konkurss
+* Eesti Hariduse Arenduskeskuse [JUKU tarkvara konkurss](https://dea.digar.ee/?a=d&d=opetajateleht19910126.1.8&e=-------et-25--1--txt-txIN%7ctxTI%7ctxAU%7ctxTA-------------)
 * Valmivad legendaarsed mängud ZOO ja [INDY LOOKING FOR JEWELS](https://et.wikipedia.org/wiki/Indy_looking_for_Jewels...)
 * JUKU tegelik kuldaeg -- lühike, aga ilus
 
