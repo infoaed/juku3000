@@ -5,7 +5,7 @@
 
 Kui sa ei tea, mis on JUKU, siis on aeg heita pilk [Vikipeediasse](https://et.wikipedia.org/wiki/Juku_(arvuti)) või tutvuda meie [JUKU ajajoonega](docs/ajajoon.md).
 
-Kuigi JUKUsid toodeti 1990ndatel tuhandeid, on tänapäeval siiski lihtsam JUKU kogemusest osa saada emulaatori vahendusel, mis jookseb tavalises arvutis või isegi veebibrauseris:
+Kuigi füüsilisi JUKUsid toodeti 1990ndatel tuhandeid, on tänapäeval lihtsam JUKU kogemusest osa saada emulaatori vahendusel, mis jookseb tavalises arvutis või isegi veebibrauseris:
 
 * [MAME](http://adb.arcadeitalia.net/dettaglio_mame.php?game_name=juku) (töökorras emulaator, mida saab [proovida ka veebis](https://infoaed.ee/juku), koodi leiab esialgu [siit](https://github.com/boamaod/mame), käivitamiseks RomBios 3.43m ja JBASIC 1.1 ROMid [siit](mameroms), kood mõne aja pärast eeldatavasti vaikimisi [osa MAMEst](https://github.com/mamedev/mame/pull/9946))
 * [EMU80](https://github.com/vpyk/emu80v4) (vaba lähtekoodiga kergekaaluline kandidaat, mida mugandada Juku jt sama pere kiipide emuleerimiseks)
