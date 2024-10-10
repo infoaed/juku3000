@@ -1,7 +1,7 @@
 ![JUKU3000](https://raw.githubusercontent.com/infoaed/juku3000/master/images/juku3000.jpg)
 # Mis on JUKU3000?
 
-*Meie eesmärk on lasta tulevatel põlvedel elavalt kogeda Eesti arvutimängude esiajalugu — 90ndate kooliarvuti JUKU peab olema kasutatav ka aastal 3000!*
+*Meie eesmärk on lasta tulevatel põlvedel elavalt kogeda Eesti arvutite esiajalugu — legendaarne 90ndate kooliarvuti JUKU peab olema kasutatav ka aastal 3000!*
 
 Juku emulaatorid:
 
