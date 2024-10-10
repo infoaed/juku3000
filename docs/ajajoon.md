@@ -1,6 +1,6 @@
 ﻿# Kooliarvuti "JUKU" elutsükkel
 
-ENSV TA Küb.I AT EKB ehk lühidalt [EKTA](https://et.wikipedia.org/wiki/Arvutustehnika_Erikonstrueerimisb%C3%BCroo) omas juba 1980ndatel kogemust mikroprotsessoritega, sh KR580VM80A kiibil põhineva üleliidulise levikuga SM-1800 süsteemitarkvara arendamisega. Büroo töötajatele oli mikroarvutite projekteerimine hobi ja kirg, mistõttu ei sündinud rekordkiirusel poole aastaga valminud kooliarvuti JUKU tühja koha peale.
+ENSV TA Küb.I AT EKB ehk lühidalt [EKTA](https://et.wikipedia.org/wiki/Arvutustehnika_Erikonstrueerimisb%C3%BCroo) omas juba 1980ndatel kogemust mikroprotsessoritega, sh [KR580VM80A](https://en.wikipedia.org/wiki/KR580VM80A) kiibil põhineva üleliidulise levikuga SM-1800 süsteemitarkvara arendamisega. Büroo töötajatele oli mikroarvutite projekteerimine hobi ja kirg, mistõttu ei sündinud rekordkiirusel poole aastaga valminud kooliarvuti JUKU tühja koha peale.
 
 ## 1985 -- "Teise kirjaoskuse" sünnitatud prototüüp
 
