@@ -71,7 +71,8 @@ detsember | [EKDOS utiliitide DISK #4](https://github.com/infoaed/juku3000/blob/
 ## 1990 -- ???
 
 * Hakatakse valmistama õppematerjale, aga õpilased oma JUKUdel liiguvad kiiresti eest ära
-* RomBiosi viimane teadaolev versioon IBM AT-klahvistikuga ja seerianumbriga #0043
+* EKTA ja Baltijets plaanivad [PC/AT-ühilduvat 16-bitist Jukut](https://www.etera.ee/zoom/22779/view?page=36&p=separate&tool=info&view=0,0,1962,2759)
+* RomBiosi viimane teadaolev versioon PC/AT-klahvistikuga ja seerianumbriga #0043
 
 ## 1991 -- Juku kuldaeg
 
