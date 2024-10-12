@@ -118,7 +118,7 @@ CTRL X — rea kustutus ja kursor rea algusesse
 CTRL H — (= tagasinool) kursori tagasilüke, märgi kustutusega  
 CTRL J — (= reavahetus) lõpetab sisestuse  
 CTRL M — (= tagastus) lõpetab sisestuse  
-`<RETURN>` — tagastusklahv lõpetab sisestuse  
+RETURN — tagastusklahv lõpetab sisestuse  
 
 Opsüsteemi vaikimisi käitumist saab lülitada paojadade abil (klahv ESC ja seejärel sisestus ja RETURN):
 
