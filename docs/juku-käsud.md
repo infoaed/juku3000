@@ -114,8 +114,8 @@ CTRL SHIFT ESC — programmi töö katkestamine, juhtimine üle monitorile
 CTRL Z — sisendi lõpp (`PIP` ja `SED`)  
 CTRL X — rea kustutus ja kursor rea algusesse  
 CTRL H — (= tagasinool) kursori tagasilüke, märgi kustutusega  
-CTRL M — (= tagastus) lõpetab sisestuse  
 CTRL J — (= reavahetus) lõpetab sisestuse  
+CTRL M — (= tagastus) lõpetab sisestuse  
 `<RETURN>` — tagastusklahv lõpetab sisestuse  
 
 _Ülalolev on lühendatud ja üldistatud versioon esimeses viites toodud lindiopsüsteemi juhendist. Kohandatud juhend püüab võimaluste piires järgida algse juhendi stiili ja terminoloogiat._
