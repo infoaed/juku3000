@@ -14,8 +14,8 @@ Kuigi füüsilisi JUKUsid toodeti 1990ndatel tuhandeid, on tänapäeval lihtsam 
 Valik lühijuhendeid:
 
 * [JUKU E5104 opsüsteemi käitamine](/docs/juku-k%C3%A4sud.md)
-* [JUKU ketaste lugemine/kirjutamine libdsk/cpmtools abil](/docs/kettad.md)
 * [JUKU videote korrektne salvestamine](/docs/videod.md)
+* [JUKU ketaste lugemine/kirjutamine libdsk/cpmtools abil](/docs/kettad.md)
 
 Juku opsüsteem EKDOS:
 
