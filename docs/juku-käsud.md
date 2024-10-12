@@ -122,9 +122,9 @@ RETURN — tagastusklahv lõpetab sisestuse
 
 Opsüsteemi vaikimisi käitumist saab lülitada paojadade abil (klahv ESC ja seejärel sisestus ja RETURN):
 
-ESC m1 — 40x24 kuvalaotus  
-ESC m2 — 53x24 kuvalaotus  
-ESC m3 — 64x20 kuvalaotus (võimalik on ka 80x24 laotus[^5])  
+ESC m0 — 40x24 kuvalaotus  
+ESC m1 — 53x24 kuvalaotus  
+ESC m2 — 64x20 kuvalaotus (võimalik on ka 80x24 laotus[^5])  
 ESC 0 — klahvivajutuse helisignaali keelamine  
 ESC 1 — klahvivajutuse helisignaali lubamine  
 ESC 2 — ekraani kerimise keelamine  
