@@ -7,7 +7,7 @@
 Tüüpilise «Juku E5104» opsüsteemi EKDOS alglaadimiseks tuleb vajutada kahvistikul «T», «D», «D», mis pikemalt lahtiseletatuna on:
 
 1. sisestada lugemisseadmesse andmekandja opsüsteemiga
-2. sisestada monitori juhis «T»
+2. sisestada püsimonitori juhis «T»
 3. sisestada opsüsteemi laadimiseks ümbrikkettalt «D», võrgust «N» või lindilt «T»
 
 Alglaadimise käigus loetakse käsutöötlusprotsessor andmekandjalt muutmällu. Ümbrikkettalt laadimisel tuleb valida süsteemiketta tüüp, milleks on kahepoolne ümbrikketas ehk juhis «D». Eduka laadimise tulemusel ilmub ekraanile järgnevale sarnane tekst:
@@ -22,9 +22,9 @@ Drive assignments:
 <C> — RAM disk 192K
 ```
 
-Seejärel kuvatakse opsüsteemi valmisolekut väljendav viip `A>`.
+Seejärel kuvatakse opsüsteemi valmisolekut väljendav viip `A>`, mis võimaldab anda käske või käivitada programme. Näiteks võib alustuseks olla tark vaadata kettal olevate failide nimistud käsuga `DIR` või lugeda kettaga kaasa pandud teadet sisestades `TYPE READ.ME`.
 
-Viip on programmi poolt väljastatav teade, mis näitab, et programm ootab kasutaja edasisi juhiseid. Püsimonitori viiba `∗` järele «A» sisestamine käivitab püsimälu BASIC-interpretaatori või miniassembleri, «T» opsüsteemi alglaadimise [^1]. Eri programmidel on eri viibad, mille kasutamine on kirjeldatud nende juhendmaterjalis.
+Viip on mistahes programmi poolt väljastatav teade, mis näitab, et programm ootab kasutaja edasisi juhiseid. Näiteks püsimonitori viiba `∗` järele «A» sisestamine käivitab püsimälu BASIC-interpretaatori või miniassembleri, «T» opsüsteemi alglaadimise [^1]. Eri programmidel on eri viibad, mille kasutamine on kirjeldatud nende juhendmaterjalis.
 
 Reaalaja süsteemide intellektuaalse terminali «Juku E5104»[^2] püsimälus sisalduv tarkvara koosneb monitorist, BASIC-keele interpretaatorist, miniassemblerist, andmeside draiveritest ja opsüsteemide alglaaduritest. Põhitarkvara suhtes täiendava operatsioonisüsteemi käitamine hõlbustab info talletamist välissalvestile ning pakub kasutajale vahendeid, mis püsimonitoris puuduvad.[^3]
 
