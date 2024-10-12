@@ -124,7 +124,7 @@ Opsüsteemi vaikimisi käitumist saab lülitada paojadade abil (klahv ESC ja see
 
 ESC m1 — 40x24 kuvalaotus  
 ESC m2 — 53x24 kuvalaotus  
-ESC m3 — 64x24 kuvalaotus (võimalik on ka 80x25 laotus[^5])  
+ESC m3 — 64x20 kuvalaotus (võimalik on ka 80x24 laotus[^5])  
 ESC 0 — klahvivajutuse helisignaali keelamine  
 ESC 1 — klahvivajutuse helisignaali lubamine  
 ESC 2 — ekraani kerimise keelamine  
