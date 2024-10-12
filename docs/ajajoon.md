@@ -79,7 +79,7 @@ detsember | [EKDOS utiliitide DISK #4](https://github.com/infoaed/juku3000/blob/
 ## 1991 -- Juku kuldaeg
 
 * Eesti Hariduse Arenduskeskuse [JUKU tarkvara konkurss](https://dea.digar.ee/?a=d&d=opetajateleht19910126.1.8&e=-------et-25--1--txt-txIN%7ctxTI%7ctxAU%7ctxTA-------------)
-* Valmivad legendaarsed mängud ZOO ja [INDY LOOKING FOR JEWELS](https://et.wikipedia.org/wiki/Indy_looking_for_Jewels...)
+* Valmivad legendaarsed mängud [ZOO](https://elektroonikamuuseum.ee/juku_arvuti_tarkvara_mang_zoo.html) ja [INDY LOOKING FOR JEWELS](https://et.wikipedia.org/wiki/Indy_looking_for_Jewels...)
 * JUKU tegelik kuldaeg -- lühike, aga ilus
 
 ## 1992 -- Tiiger hakkab hüppama
