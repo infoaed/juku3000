@@ -105,7 +105,9 @@ Sellise nimega programmifaili leidmisel (eeldatakse `COM` laiendit, mida sisesta
 
 Programminime järel saab sisestada ühe või kaks parameetrit (tavali­selt on parameetriks failinimi). KP moodustab nendest parameetritest süsteemiparameetrite tsooni (ST) ühe või kaks faili juhtplokki (FJP); parameetrite puudumisel täidetakse FJP-d tühikutega. Käsurea maksimaalne pikkus on 128 märki. Pärast sisestatud käsurea analüüsi salvestatakse 128-baidisesse otsemällupöörduse puhvrisse (OMP) programminimele järgnevast märgist algav käsurea osa. KP puhvri esimeses baidis (aadressil 80H) on sisestatud sümbolite arv.
 
-Käsureaga opereerimisel saab kasutada järgmisi juhtkoode (klahv CTRL ja täht):
+## Kasulikke juhtklahve
+
+Käsureaga opereerimisel saab kasutada järgmisi juhtkoode (klahv CTRL ja samaaegselt klahvid):
 
 CTRL S — kuva ajutine peatamine  
 CTRL C — programmi töö katkestamine  
@@ -118,8 +120,24 @@ CTRL J — (= reavahetus) lõpetab sisestuse
 CTRL M — (= tagastus) lõpetab sisestuse  
 `<RETURN>` — tagastusklahv lõpetab sisestuse  
 
+Opsüsteemi vaikimisi käitumist saab lülitada paojadade abil (klahv ESC ja seejärel sisestus ja RETURN):
+
+ESC m1 — 40x24 kuvalaotus  
+ESC m2 — 53x24 kuvalaotus  
+ESC m3 — 64x24 kuvalaotus (võimalik on ka 80x25 laotus[^5])  
+ESC 0 — klahvivajutuse helisignaali keelamine  
+ESC 1 — klahvivajutuse helisignaali lubamine  
+ESC 2 — ekraani kerimise keelamine  
+ESC 3 — ekraani kerimise lubamine  
+ESC 4 — kursori peitmine  
+ESC 5 — kursori näitamine  
+ESC : — ekraani sujuva kerimise režiim  
+ESC ; — ekraani hüppelise kerimise režiim  
+
 _Ülalolev on lühendatud ja üldistatud versioon esimeses viites toodud lindiopsüsteemi juhendist. Kohandatud juhend püüab võimaluste piires järgida algse juhendi stiili ja terminoloogiat._
 
 [^1]: [Mikroarvuti «JUKU» kasutamisjuhend](https://arti.ee/juku/Mikroarvuti%20Juku%20E5101%20kasutamisjuhend%201988%20%28168lk%2C%20eesti%20k%29.pdf) (1988) lk 20jj, 31jj, 46jj  
 [^2]: [Интеллектуальный терминал для систем реального времени E5104](https://elektroonikafoorum.com/thread-690-post-4165.html#pid4165) (1988)
 [^3]: [Mikroarvuti JUKU](ekta_juku.pdf) (1987) lk 13jj  
+[^4]: [Mikroarvuti JUKU](ekta_juku.pdf) (1987) lk 13jj  
+[^5]: [JUKU PC UTILITIES DISK #4](https://github.com/infoaed/juku3000/blob/master/docs/ekdos230.txt#L91-L112) (1989) märkus 1
