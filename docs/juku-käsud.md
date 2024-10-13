@@ -120,7 +120,7 @@ KP moodustab nendest parameetritest süsteemiparameetrite tsooni (ST) ühe või 
 > `0100` | Tarbijaprogrammide tsoon (TT)
 > `B400` | Käsuprotsessor (KP)
 >        | `BC06`: EKDOSi elik CP/Mi funktsioonid
->        | `CA00`: KP viiba käivitamise aadress
+>        | `CA03`: KP viiba käivitamise aadress
 > `D600` | Süsteemiparameetrid
 > `D800` | Videomälu, mälurežiimides 1-2 püsimälu lugemine
 > `FD80` | Süsteemiparameetrid (alates ~`FF68` BIOSi funktsioonid)
