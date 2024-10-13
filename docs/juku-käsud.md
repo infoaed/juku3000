@@ -42,7 +42,7 @@ Käsuprotsessor (KP) vahetab infot kasutaja ja operatsioonisüsteemi vahel. KP l
 
 `DIR` — mittesüsteemsete failide kataloogi esitus  
 `DIRS` — süsteemsete failide kataloogi esitus  
-`REN` — failide ümbernimetamine  
+`REN` — failide ümbernimetamine (s: `REN uusnimi=failinimi`)  
 `ERA` — failide kustutamine  
 `REST` — kustutatud failide taastamine  
 `MEM` — üldinfo lindi kohta  
@@ -138,7 +138,7 @@ Käsureaga opereerimisel saab kasutada järgmisi juhtkoode (klahv `CTRL` ja sama
 `CTRL`+`C` — programmi töö katkestamine  
 `CTRL`+`ESC` — programmi töö katkestamine, juhtimine üle aktiivsele viibale  
 `CTRL`+`SHIFT`+`ESC` — programmi töö katkestamine, juhtimine üle monitorile  
-`CTRL`+`Z` — sisendi lõpp (`PIP` ja `SED`)  
+`CTRL`+`Z` — sisendi lõpp (`PIP` ja `ED`)  
 `CTRL`+`X` — rea kustutus ja kursor rea algusesse  
 `CTRL`+`H` — (= tagasinool) kursori tagasilüke, märgi kustutusega  
 `CTRL`+`J` — (= reavahetus) lõpetab sisestuse  
