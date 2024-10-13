@@ -120,7 +120,7 @@ Käsureaga opereerimisel saab kasutada järgmisi juhtkoode (klahv `CTRL` ja sama
 `CTRL`+`M` — (= tagastus) lõpetab sisestuse  
 `RETURN` — tagastusklahv lõpetab sisestuse  
 
-Opsüsteemi vaikimisi käitumist saab lülitada paojadade abil (klahv `ESC` ja seejärel klahvid ja `RETURN`):
+Opsüsteemi vaikimisi käitumist saab lülitada paojadade abil (klahv `ESC`, seejärel klahvid ja `RETURN`):
 
 `ESC` `M` `0` — 40x24 kuvalaotus  
 `ESC` `M` `1` — 53x24 kuvalaotus  
