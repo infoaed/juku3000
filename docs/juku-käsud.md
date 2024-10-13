@@ -123,7 +123,10 @@ KP moodustab nendest parameetritest süsteemiparameetrite tsooni (ST) ühe või 
 >        | `CA03`: KP viiba käivitamise aadress
 > `D600` | Süsteemiparameetrid
 > `D800` | Videomälu, mälurežiimides 1-2 püsimälu lugemine
-> `FD80` | Süsteemiparameetrid (alates ~`FF68` BIOSi funktsioonid)
+> `FD80` | Süsteemiparameetrid
+>        | `FF26`: Võrgufunktsioonid
+>        | `FF46`: Süsteemiväljad
+>        | `FF68`: BIOSi põhifunktsioonid
 >
 > Tarbijatsoonis asuvad kasutajaprogrammid, mis on andmekandjalt mäl­lu laaditud. Näiteks teksti redigeerimise ajal sisaldab TT tekstitoimetit ja toimetatavat teksti ennast. Mälujaotus võib detailildes erineda sõltuvalt opsüsteemi tüübist ja versioonist, nt lindiopsüsteemi BLOS puhul lõpeb TT aadressil `BEFF`, `BF00`-`C7BF` asetseb täiendav 2KB OMP puhver ja `D200`-`D5FF` paikneb lindifailide kataloog.[^1][^2]
 
