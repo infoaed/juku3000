@@ -134,7 +134,7 @@ Opsüsteemi vaikimisi käitumist saab lülitada paojadade abil (klahv `ESC`, see
 `ESC` `:` — ekraani sujuva kerimise režiim  
 `ESC` `;` — ekraani hüppelise kerimise režiim  
 
-Ekraanil oleva saab kustutada ja liikuda tagasi algusse juhtkoodiga `SHIFT`+`ERASE` paojadaga `ESC` `L`.
+Ekraanil oleva saab kustutada ja liikuda tagasi algusse paojadaga `ESC` `L` või juhtkoodiga `SHIFT`+`ERASE`.
 
 _Ülalolev on peamiselt lühendatud ja üldistatud versioon esimeses viites toodud lindiopsüsteemi juhendist. Kohandatud juhend püüab võimaluste piires järgida algse juhendi stiili ja terminoloogiat._
 
