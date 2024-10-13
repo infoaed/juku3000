@@ -22,7 +22,7 @@ Drive assignments:
 <C> — RAM disk 192K
 ```
 
-Seejärel kuvatakse opsüsteemi valmisolekut väljendav viip `A>`, mis võimaldab [sisestada käske](#opsüsteemi-käsud) või [käivitada programme](#programmifailide-käivitamine). Näiteks võib alustuseks olla tark vaadata kettal olevate failide kataloogi käsuga `DIR` või lugeda kettaga kaasa pandud teadet sisestades `TYPE READ.ME`.
+Seejärel kuvatakse opsüsteemi valmisolekut väljendav viip `A>`, mis võimaldab [sisestada käske](#opsüsteemi-käsud) või [käivitada programme](#programmifailide-käivitamine). Näiteks võib alustuseks olla tark vaadata kettal paiknevate failide kataloogi käsuga `DIR` või lugeda kaasa pandud teadet sisestades `TYPE READ.ME`.
 
 Viip on mistahes programmi poolt väljastatav teade, mis näitab, et programm ootab kasutaja edasisi juhiseid. Näiteks püsimonitori viiba `∗` järele «A» sisestamine käivitab püsimälu BASIC-interpretaatori või miniassembleri, «T» opsüsteemi alglaadimise [^1]. Eri programmidel on eri viibad, mille kasutamine on kirjeldatud nende juhendmaterjalis.
 
