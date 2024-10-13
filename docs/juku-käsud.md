@@ -107,7 +107,7 @@ Programminime järel saab sisestada ühe või kaks parameetrit (tavali­selt on 
 
 KP moodustab nendest parameetritest süsteemiparameetrite tsooni (ST) ühe või kaks faili juhtplokki (FJP); parameetrite puudumisel täidetakse FJP-d tühikutega. Käsurea maksimaalne pikkus on 128 märki. Pärast sisestatud käsurea analüüsi salvestatakse 128-baidisesse otsemällupöörduse puhvrisse (OMP) programminimele järgnevast märgist algav käsurea osa. KP puhvri esimeses baidis (aadressil `80H`) on sisestatud sümbolite arv.
 
-> Programmide silumisel ja katsetamisel on kasulik tunda süsteemi mälujaotust, mis EKDOSi kasutamisel on üldjoontes:
+> Programmide silumisel ja katsetamisel on kasulik tunda süsteemi mälujaotust. JUKU opsüsteemide kasutamisel on see üldjoontes:
 >
 > | Aadress |                                                   |
 > | ----------- | --------------------------------------------------|
@@ -120,7 +120,7 @@ KP moodustab nendest parameetritest süsteemiparameetrite tsooni (ST) ühe või 
 > `0100` | Tarbijaprogrammide tsoon (TT)
 > `B400` | Käsuprotsessor (KP)
 > `D600` | Süsteemiparameetrid
-> `D800` | Püsimälu lugemine (mälurežiimid 1-2) või videomälu
+> `D800` | Videomälu, mälurežiimides 1-2 püsimälu lugemine
 > `FD80` | Süsteemiparameetrid (alates ~`FF60` BIOSi funktsioonid)
 >
 > Tarbijatsoonis asuvad kasutajaprogrammid, mis on andmekandjalt mäl­lu laaditud. Näiteks > teksti redigeerimise ajal sisaldab TT tekstiredaktorit ja redigeeritavat teksti. Mälujaotus võib detailildes erineda sõltuvalt opsüsteemi tüübist või versioonist, nt lindiopsüsteemi puhul lõpeb TT aadressil `BEFF`, `BF00`-`C7BF` asetseb täiendav 2KB OMP puhver ja `D200`-`D5FF` paikneb lindifailide kataloog.[^1][^2]
