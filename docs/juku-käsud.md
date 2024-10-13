@@ -4,13 +4,13 @@
 
 [![EKDOS 2.30 alglaadimine püsimonitorist Rombios 3.43m juhtklahvidega «T», «D», «D»](/images/jukubuut.png)](https://commons.wikimedia.org/wiki/File:Juku_E5101_booting_up_EKDOS_2.30,_displaying_readme_file_on_screen.webm)
 
-Tüüpilise «Juku E5104» opsüsteemi EKDOS alglaadimiseks tuleb vajutada kahvistikul «T», «D», «D», mis pikemalt lahtiseletatuna on:
+Tüüpilise «Juku E5104» opsüsteemi EKDOS alglaadimiseks tuleb vajutada kahvistikul `T`, `D`, `D`, mis pikemalt lahtiseletatuna on:
 
 1. sisestada lugemisseadmesse andmekandja opsüsteemiga
-2. sisestada püsimonitori juhis «T»
-3. sisestada opsüsteemi laadimiseks ümbrikkettalt «D», võrgust «N» või lindilt «T»
+2. sisestada püsimonitori juhis `T`
+3. sisestada opsüsteemi laadimiseks ümbrikkettalt `D`, võrgust `N` või lindilt `T`
 
-Alglaadimise käigus loetakse opsüsteemi käsutöötlusprotsessor andmekandjalt muutmällu. Ümbrikkettalt laadimisel tuleb määrata ka süsteemiketta tüüp, milleks on kahepoolne ümbrikketas ehk juhis «D». Eduka laadimise tulemusel ilmub ekraanile järgnevale sarnane tekst:
+Alglaadimise käigus loetakse opsüsteemi käsutöötlusprotsessor andmekandjalt muutmällu. Ümbrikkettalt laadimisel tuleb määrata ka süsteemiketta tüüp, milleks on kahepoolne ümbrikketas ehk juhis `D`. Eduka laadimise tulemusel ilmub ekraanile järgnevale sarnane tekst:
 
 ```
 52K EKDOS 2.30
@@ -24,7 +24,7 @@ Drive assignments:
 
 Seejärel kuvatakse opsüsteemi valmisolekut väljendav viip `A>`, mis võimaldab [sisestada käske](#opsüsteemi-käsud) või [käivitada programme](#programmifailide-käivitamine). Näiteks võib alustuseks olla tark vaadata kettal paiknevate failide kataloogi käsuga `DIR` või lugeda kaasa pandud teadet sisestades `TYPE READ.ME`.
 
-Viip on mistahes programmi poolt väljastatav teade, mis näitab, et programm ootab kasutaja edasisi juhiseid. Näiteks püsimonitori viiba `∗` järele «A» sisestamine käivitab püsimälu BASIC-interpretaatori või miniassembleri, «T» opsüsteemi alglaadimise [^1]. Eri programmidel on eri viibad, mille kasutamine on kirjeldatud nende juhendmaterjalis.
+Viip on mistahes programmi poolt väljastatav teade, mis näitab, et programm ootab kasutaja edasisi juhiseid. Näiteks püsimonitori viiba `∗` järele `A` või `B` sisestamine käivitab miniassembleri või püsimälu BASIC-interpretaatori, `T` opsüsteemi alglaadimise [^1]. Eri programmidel on eri viibad, mille kasutamine on kirjeldatud nende juhendmaterjalis.
 
 > Reaalaja süsteemide intellektuaalse terminali «Juku E5104»[^2] püsimälus sisalduv tarkvara koosneb monitorist, BASIC-keele interpretaatorist, miniassemblerist, andmeside draiveritest ja opsüsteemide alglaaduritest:
 > 
@@ -107,32 +107,34 @@ Programminime järel saab sisestada ühe või kaks parameetrit (tavali­selt on 
 
 ## Kasulikke juhtklahve
 
-Käsureaga opereerimisel saab kasutada järgmisi juhtkoode (klahv CTRL ja samaaegselt klahvid):
+Käsureaga opereerimisel saab kasutada järgmisi juhtkoode (klahv `CTRL` ja samaaegselt klahvid):
 
-CTRL S — kuva ajutine peatamine  
-CTRL C — programmi töö katkestamine  
-CTRL ESC — programmi töö katkestamine, juhtimine üle aktiivsele viibale  
-CTRL SHIFT ESC — programmi töö katkestamine, juhtimine üle monitorile  
-CTRL Z — sisendi lõpp (`PIP` ja `SED`)  
-CTRL X — rea kustutus ja kursor rea algusesse  
-CTRL H — (= tagasinool) kursori tagasilüke, märgi kustutusega  
-CTRL J — (= reavahetus) lõpetab sisestuse  
-CTRL M — (= tagastus) lõpetab sisestuse  
-RETURN — tagastusklahv lõpetab sisestuse  
+`CTRL`+`S` — kuva ajutine peatamine  
+`CTRL`+`C` — programmi töö katkestamine  
+`CTRL`+`ESC` — programmi töö katkestamine, juhtimine üle aktiivsele viibale  
+`CTRL`+`SHIFT`+`ESC` — programmi töö katkestamine, juhtimine üle monitorile  
+`CTRL`+`Z` — sisendi lõpp (`PIP` ja `SED`)  
+`CTRL`+`X` — rea kustutus ja kursor rea algusesse  
+`CTRL`+`H` — (= tagasinool) kursori tagasilüke, märgi kustutusega  
+`CTRL`+`J` — (= reavahetus) lõpetab sisestuse  
+`CTRL`+`M` — (= tagastus) lõpetab sisestuse  
+`RETURN` — tagastusklahv lõpetab sisestuse  
 
-Opsüsteemi vaikimisi käitumist saab lülitada paojadade abil (klahv ESC ja seejärel sisestus ja RETURN):
+Opsüsteemi vaikimisi käitumist saab lülitada paojadade abil (klahv `ESC` ja seejärel klahvid ja `RETURN`):
 
-ESC m0 — 40x24 kuvalaotus  
-ESC m1 — 53x24 kuvalaotus  
-ESC m2 — 64x20 kuvalaotus (võimalik on ka 80x24 laotus[^4])  
-ESC 0 — klahvivajutuse helisignaali keelamine  
-ESC 1 — klahvivajutuse helisignaali lubamine  
-ESC 2 — ekraani kerimise keelamine  
-ESC 3 — ekraani kerimise lubamine  
-ESC 4 — kursori peitmine  
-ESC 5 — kursori näitamine  
-ESC : — ekraani sujuva kerimise režiim  
-ESC ; — ekraani hüppelise kerimise režiim  
+`ESC` `M` `0` — 40x24 kuvalaotus  
+`ESC` `M` `1` — 53x24 kuvalaotus  
+`ESC` `M` `2` — 64x20 kuvalaotus (võimalik on ka 80x24 laotus[^4])  
+`ESC` `0` — klahvivajutuse helisignaali keelamine  
+`ESC` `1` — klahvivajutuse helisignaali lubamine  
+`ESC` `2` — ekraani kerimise keelamine  
+`ESC` `3` — ekraani kerimise lubamine  
+`ESC` `4` — kursori peitmine  
+`ESC` `5` — kursori näitamine  
+`ESC` `:` — ekraani sujuva kerimise režiim  
+`ESC` `;` — ekraani hüppelise kerimise režiim  
+
+Ekraanil oleva saab kustutada ja liikuda tagasi algusse paojadaga `ESC` `L`.
 
 _Ülalolev on peamiselt lühendatud ja üldistatud versioon esimeses viites toodud lindiopsüsteemi juhendist. Kohandatud juhend püüab võimaluste piires järgida algse juhendi stiili ja terminoloogiat._
 
