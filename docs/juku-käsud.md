@@ -4,7 +4,7 @@
 
 [![EKDOS 2.30 alglaadimine püsimonitorist Rombios 3.43m juhtklahvidega «T», «D», «D»](/images/jukubuut.png)](https://commons.wikimedia.org/wiki/File:Juku_E5101_booting_up_EKDOS_2.30,_displaying_readme_file_on_screen.webm)
 
-«Juku E5104» opsüsteemi EKDOSi alglaadimiseks tuleb vajutada `T`, `D`, `D`, mis pikemalt lahtiseletatuna on:
+«Juku E5104» opsüsteemi EKDOS alglaadimiseks tuleb vajutada `T`, `D`, `D`, mis pikemalt lahtiseletatuna on:
 
 1. paigutada lugemisseadmesse andmekandja opsüsteemiga
 2. anda püsimonitorile juhis `T` opsüsteemi laadimiseks
@@ -123,7 +123,7 @@ KP moodustab nendest parameetritest süsteemiparameetrite tsooni (ST) ühe või 
 > `D800` | Videomälu, mälurežiimides 1-2 püsimälu lugemine
 > `FD80` | Süsteemiparameetrid (alates ~`FF60` BIOSi funktsioonid)
 >
-> Tarbijatsoonis asuvad kasutajaprogrammid, mis on andmekandjalt mäl­lu laaditud. Näiteks > teksti redigeerimise ajal sisaldab TT tekstiredaktorit ja redigeeritavat teksti. Mälujaotus võib detailildes erineda sõltuvalt opsüsteemi tüübist või versioonist, nt lindiopsüsteemi puhul lõpeb TT aadressil `BEFF`, `BF00`-`C7BF` asetseb täiendav 2KB OMP puhver ja `D200`-`D5FF` paikneb lindifailide kataloog.[^1][^2]
+> Tarbijatsoonis asuvad kasutajaprogrammid, mis on andmekandjalt mäl­lu laaditud. Näiteks teksti redigeerimise ajal sisaldab TT tekstitoimetit ja toimetatavat teksti ennast. Mälujaotus võib detailildes erineda sõltuvalt opsüsteemi tüübist ja versioonist, nt lindiopsüsteemi BLOS puhul lõpeb TT aadressil `BEFF`, `BF00`-`C7BF` asetseb täiendav 2KB OMP puhver ja `D200`-`D5FF` paikneb lindifailide kataloog.[^1][^2]
 
 ## Kasulikke juhtklahve
 
