@@ -10,7 +10,7 @@ Tüüpilise «Juku E5104» opsüsteemi EKDOS alglaadimiseks tuleb vajutada kahvi
 2. sisestada püsimonitori juhis «T»
 3. sisestada opsüsteemi laadimiseks ümbrikkettalt «D», võrgust «N» või lindilt «T»
 
-Alglaadimise käigus loetakse käsutöötlusprotsessor andmekandjalt muutmällu. Ümbrikkettalt laadimisel tuleb valida ka süsteemiketta tüüp, milleks on kahepoolne ümbrikketas ehk juhis «D». Eduka laadimise tulemusel ilmub ekraanile järgnevale sarnane tekst:
+Alglaadimise käigus loetakse opsüsteemi käsutöötlusprotsessor andmekandjalt muutmällu. Ümbrikkettalt laadimisel tuleb valida ka süsteemiketta tüüp, milleks on kahepoolne ümbrikketas ehk juhis «D». Eduka laadimise tulemusel ilmub ekraanile järgnevale sarnane tekst:
 
 ```
 52K EKDOS 2.30
@@ -22,11 +22,19 @@ Drive assignments:
 <C> — RAM disk 192K
 ```
 
-Seejärel kuvatakse opsüsteemi valmisolekut väljendav viip `A>`, mis võimaldab anda käske või käivitada programme. Näiteks võib alustuseks olla tark vaadata kettal olevate failide kataloogi käsuga `DIR` või lugeda kettaga kaasa pandud teadet sisestades `TYPE READ.ME`.
+Seejärel kuvatakse opsüsteemi valmisolekut väljendav viip `A>`, mis võimaldab [sisestada käske](#opsüsteemi-käsud) või [käivitada programme](#programmifailide-käivitamine). Näiteks võib alustuseks olla tark vaadata kettal olevate failide kataloogi käsuga `DIR` või lugeda kettaga kaasa pandud teadet sisestades `TYPE READ.ME`.
 
 Viip on mistahes programmi poolt väljastatav teade, mis näitab, et programm ootab kasutaja edasisi juhiseid. Näiteks püsimonitori viiba `∗` järele «A» sisestamine käivitab püsimälu BASIC-interpretaatori või miniassembleri, «T» opsüsteemi alglaadimise [^1]. Eri programmidel on eri viibad, mille kasutamine on kirjeldatud nende juhendmaterjalis.
 
-Reaalaja süsteemide intellektuaalse terminali «Juku E5104»[^2] püsimälus sisalduv tarkvara koosneb monitorist, BASIC-keele interpretaatorist, miniassemblerist, andmeside draiveritest ja opsüsteemide alglaaduritest. Põhitarkvara suhtes täiendava operatsioonisüsteemi käitamine hõlbustab info talletamist välissalvestile ning pakub kasutajale vahendeid, mis püsimonitoris puuduvad.[^3]
+> Reaalaja süsteemide intellektuaalse terminali «Juku E5104»[^2] püsimälus sisalduv tarkvara koosneb monitorist, BASIC-keele interpretaatorist, miniassemblerist, andmeside draiveritest ja opsüsteemide alglaaduritest:
+> 
+> 1. Püsimonitor juhib andmetöötlust, võimaldab kontrollida ja muuta arvuti registrite ning mälu sisu ning tagab graafika programmeerimise vahendid.  
+> 2. BASIC-keele interpretaator on vahend programmeerimise õppimiseks ja vähemnõudlikumate programmide kirjutamiseks.  
+> 3. Miniassembler on kompaktne translaator vilunud programmeerija jaoks, ühtlasi vahend programmide silumiseks. Ei mahu koos BASICu interpretaatoriga korraga püsimällu, mistõttu saab neist korraga valida vaid ühe.  
+> 4. Opsüsteemide alglaadurid on võimsama tarkvara eelpost püsimälus. Magnetofoni või diskett-salvesti ühendamisel saab sealt alglaadurite abil lugeda arvuti muutmällu vastavalt lindi-, võrgu- või kettaopsüsteemi.  
+> 5. Andmeside draiver on tarkvara arvutipoolseim osa. Ülejaanud osa loetakse mällu välissalvestilt, seega peab arvutivõrgus olema vähemalt üks magnetofon, võrguühendus või diskettsalvesti või.  
+>
+> Põhitarkvara suhtes täiendava operatsioonisüsteemi käitamine hõlbustab info talletamist välissalvestile ning pakub kasutajale vahendeid, mis püsimonitoris puuduvad.[^3]
 
 ## Opsüsteemi käsud
 
@@ -116,7 +124,7 @@ Opsüsteemi vaikimisi käitumist saab lülitada paojadade abil (klahv ESC ja see
 
 ESC m0 — 40x24 kuvalaotus  
 ESC m1 — 53x24 kuvalaotus  
-ESC m2 — 64x20 kuvalaotus (võimalik on ka 80x24 laotus[^5])  
+ESC m2 — 64x20 kuvalaotus (võimalik on ka 80x24 laotus[^4])  
 ESC 0 — klahvivajutuse helisignaali keelamine  
 ESC 1 — klahvivajutuse helisignaali lubamine  
 ESC 2 — ekraani kerimise keelamine  
@@ -131,5 +139,4 @@ _Ülalolev on peamiselt lühendatud ja üldistatud versioon esimeses viites tood
 [^1]: [Mikroarvuti «JUKU» kasutamisjuhend](https://arti.ee/juku/Mikroarvuti%20Juku%20E5101%20kasutamisjuhend%201988%20%28168lk%2C%20eesti%20k%29.pdf) (1988) lk 20jj, 31jj, 46jj  
 [^2]: [Интеллектуальный терминал для систем реального времени E5104](https://elektroonikafoorum.com/thread-690-post-4165.html#pid4165) (1988)
 [^3]: [Mikroarvuti JUKU](ekta_juku.pdf) (1987) lk 13jj  
-[^4]: [Mikroarvuti JUKU](ekta_juku.pdf) (1987) lk 13jj  
-[^5]: [JUKU PC UTILITIES DISK #4](https://github.com/infoaed/juku3000/blob/master/docs/ekdos230.txt#L91-L112) (1989) märkus 1
+[^4]: [JUKU PC UTILITIES DISK #4](https://github.com/infoaed/juku3000/blob/master/docs/ekdos230.txt#L91-L112) (1989) märkus 1
