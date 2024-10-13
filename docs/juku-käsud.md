@@ -28,8 +28,8 @@ Viip on mistahes programmi poolt väljastatav teade, mis näitab, et programm oo
 
 > Reaalaja süsteemide intellektuaalse terminali «Juku E5104»[^2] püsimälus sisalduv tarkvara koosneb monitorist, BASIC-keele interpretaatorist, miniassemblerist, andmeside draiveritest ja opsüsteemide alglaaduritest:
 > 
-> 1. Püsimonitor juhib andmetöötlust, võimaldab kontrollida ja muuta arvuti registrite ning mälu sisu ning tagab graafika programmeerimise vahendid.  
-> 2. BASIC-keele interpretaator on vahend programmeerimise õppimiseks ja vähemnõudlikumate programmide kirjutamiseks.  
+> 1. Püsimonitor juhib andmetöötlust, võimaldab kontrollida ja muuta arvuti registrite ning mälu sisu ja tagab graafika programmeerimise vahendid.  
+> 2. BASIC-keele interpretaator on vahend programmeerimise õppimiseks ja vähemnõudlike programmide kirjutamiseks.  
 > 3. Miniassembler on kompaktne translaator vilunud programmeerija jaoks, ühtlasi vahend programmide silumiseks. Ei mahu koos BASICu interpretaatoriga korraga püsimällu, mistõttu saab neist korraga valida vaid ühe.  
 > 4. Opsüsteemide alglaadurid on võimsama tarkvara eelpost püsimälus. Magnetofoni või diskett-salvesti ühendamisel saab sealt alglaadurite abil lugeda arvuti muutmällu vastavalt lindi-, võrgu- või kettaopsüsteemi.  
 > 5. Andmeside draiver on tarkvara arvutipoolseim osa. Ülejaanud osa loetakse mällu välissalvestilt, seega peab arvutivõrgus olema vähemalt üks magnetofon, võrguühendus või diskettsalvesti või.  
