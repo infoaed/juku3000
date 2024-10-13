@@ -4,13 +4,13 @@
 
 [![EKDOS 2.30 alglaadimine püsimonitorist Rombios 3.43m juhtklahvidega «T», «D», «D»](/images/jukubuut.png)](https://commons.wikimedia.org/wiki/File:Juku_E5101_booting_up_EKDOS_2.30,_displaying_readme_file_on_screen.webm)
 
-Tüüpilise «Juku E5104» opsüsteemi EKDOS alglaadimiseks tuleb vajutada kahvistikul `T`, `D`, `D`, mis pikemalt lahtiseletatuna on:
+Tüüpilise «Juku E5104» opsüsteem EKDOS alglaaditakse klahvide `T`, `D`, `D` järjestikuse vajutamisega, mis pikemalt lahtiseletatuna on:
 
-1. sisestada lugemisseadmesse andmekandja opsüsteemiga
-2. sisestada püsimonitori juhis `T`
+1. paigutada lugemisseadmesse andmekandja opsüsteemiga
+2. anda püsimonitorile juhis `T` opsüsteemi laadimiseks
 3. sisestada opsüsteemi laadimiseks ümbrikkettalt `D`, võrgust `N` või lindilt `T`
 
-Alglaadimise käigus loetakse opsüsteemi käsutöötlusprotsessor andmekandjalt muutmällu. Ümbrikkettalt laadimisel tuleb määrata ka süsteemiketta tüüp, milleks on kahepoolne ümbrikketas ehk juhis `D`. Eduka laadimise tulemusel ilmub ekraanile järgnevale sarnane tekst:
+Alglaadimise käigus loetakse opsüsteemi käsutöötlusprotsessor andmekandjalt muutmällu. Ümbrikkettalt laadimisel tuleb määrata ka süsteemiketta tüüp, milleks on kahepoolne ümbrikketas ehk juhis `D`. Eduka laadimise tulemusel ilmub ekraanile järgnevale sarnanev käivitusteade:
 
 ```
 52K EKDOS 2.30
