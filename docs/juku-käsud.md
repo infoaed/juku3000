@@ -10,7 +10,7 @@ Tüüpilise «Juku E5104» opsüsteemi EKDOS alglaadimiseks tuleb vajutada kahvi
 2. sisestada püsimonitori juhis «T»
 3. sisestada opsüsteemi laadimiseks ümbrikkettalt «D», võrgust «N» või lindilt «T»
 
-Alglaadimise käigus loetakse opsüsteemi käsutöötlusprotsessor andmekandjalt muutmällu. Ümbrikkettalt laadimisel tuleb valida ka süsteemiketta tüüp, milleks on kahepoolne ümbrikketas ehk juhis «D». Eduka laadimise tulemusel ilmub ekraanile järgnevale sarnane tekst:
+Alglaadimise käigus loetakse opsüsteemi käsutöötlusprotsessor andmekandjalt muutmällu. Ümbrikkettalt laadimisel tuleb määrata ka süsteemiketta tüüp, milleks on kahepoolne ümbrikketas ehk juhis «D». Eduka laadimise tulemusel ilmub ekraanile järgnevale sarnane tekst:
 
 ```
 52K EKDOS 2.30
