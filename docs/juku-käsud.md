@@ -111,17 +111,17 @@ KP moodustab nendest parameetritest süsteemiparameetrite tsooni (ST) ühe või 
 >
 > | Aadress |                                                   |
 > | ----------- | --------------------------------------------------|
-> `0000` | **Süsteemiparameetrite tsoon (ST)**
+> `0000` | Süsteemiparameetrite tsoon (ST)
 >      | `0000`: `JMP CA03` (KP aadress)
 >      | `0005`: `JMP BC06` (EKDOSi elik CP/Mi funktsioonide aadress)
 >      | `005C`: Faili juhtblokk #1
 >      | `006C`: Faili juhtblokk #2
 >      | `0080`: 128B otsemällupöörduse (OMP) puhver
-> `0100` | **Tarbijaprogrammide tsoon (TT)**
-> `B400` | **Käsuprotsessor (KP)**
-> `D600` | **Süsteemiparameetrid**
-> `D800` | **Püsimälu** lugemine (moodus 1-2) või **videomälu**
-> `FD80` | **Süsteemiparameetrid**[^2]
+> `0100` | Tarbijaprogrammide tsoon (TT)
+> `B400` | Käsuprotsessor (KP)
+> `D600` | Süsteemiparameetrid
+> `D800` | Püsimälu lugemine (moodus 1-2) või videomälu
+> `FD80` | Süsteemiparameetrid (alates ~`FF60` BIOSi funktsioonid)
 >
 > Tarbijatsoonis asuvad kasutajaprogrammid, mis on andmekandjalt mäl­lu laaditud. Näiteks > teksti redigeerimise ajal sisaldab TT tekstiredaktorit ja redigeeritavat teksti. Mälujaotus võib detailildes erineda sõltuvalt opsüsteemi tüübist või versioonist, nt lindiopsüsteemi puhul lõpeb TT aadressil `BEFF`, `BF00`-`C7BF` asetseb täiendav 2KB OMP puhver ja `D200`-`D5FF` paikneb lindifailide kataloog.[^1][^2]
 
