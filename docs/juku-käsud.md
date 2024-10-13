@@ -112,13 +112,15 @@ KP moodustab nendest parameetritest süsteemiparameetrite tsooni (ST) ühe või 
 > | Aadress |                                                   |
 > | ----------- | --------------------------------------------------|
 > `0000` | Süsteemiparameetrite tsoon (ST)
->      | `0000`: `JMP CA03` (KP aadress)
->      | `0005`: `JMP BC06` (EKDOSi elik CP/Mi funktsioonide aadress)
->      | `005C`: Faili juhtblokk (FJB) #1
->      | `006C`: FJB #2
->      | `0080`: 128B otsemällupöörduse (OMP) puhver
+>        | `0000`: `JMP CA03` (KP algusaadress)
+>        | `0005`: `JMP BC06` (EKDOSi aadress)
+>        | `005C`: Faili juhtblokk (FJB) #1
+>        | `006C`: FJB #2
+>        | `0080`: 128B otsemällupöörduse (OMP) puhver
 > `0100` | Tarbijaprogrammide tsoon (TT)
 > `B400` | Käsuprotsessor (KP)
+>        | `BC06`: EKDOSi elik CP/Mi funktsioonid
+>        | `CA00`: KP viiba käivitamise aadress
 > `D600` | Süsteemiparameetrid
 > `D800` | Videomälu, mälurežiimides 1-2 püsimälu lugemine
 > `FD80` | Süsteemiparameetrid (alates ~`FF68` BIOSi funktsioonid)
