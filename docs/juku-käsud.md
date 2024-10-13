@@ -86,24 +86,44 @@ Vormingud `∗.∗` ja `????????.???` on sarnased. Siin ja edaspidi mõeldakse t
 
 Näide:
 
-> `ERA A??.∗` — kustutamisele kuuluvad kõik failid, mille nimi on 3 märki pikk ja algab sõltumata laiendist tähega `A`  
-> `ERA B:A∗.COM` — kustutamisele kuuluvad kettalt `B:` kõik failid, mille nimi algab tähega `A` ja mille laiendiks on `COM`
+> `A>` `ERA A??.∗` — kustutamisele kuuluvad kõik failid, mille nimi on 3 märki pikk ja algab sõltumata laiendist tähega `A`  
+> `A>` `ERA B:A∗.COM` — kustutamisele kuuluvad kettalt `B:` kõik failid, mille nimi algab tähega `A` ja mille laiendiks on `COM`
 
 ## Programmifailide käivitamine
 
-Vastuseks süsteemi valmidusteatele (viibale) sisestatakse käsurida (3 võimalikku kuju):
+Valmisprogrammid on kirjutatud assembler- või kõrgkeeles ja transleeritud seejärel mikroprotsessori [KR580VM80A](https://en.wikipedia.org/wiki/KR580VM80A) täidetavasse masinakoodi.
 
-> `programminimi`  
-> `programminimi parameeter1`  
-> `programminimi parameeter1 parameeter2`  
+Programmi- ehk laadefaile saab käivitada vastusena KP viibale `A>` opsüsteemi käsklustega samadel alustel. Programmi käivitamisel programminime järgi otsitakse andmekandjalt fail antud nimega ja laiendiga `COM`. Näiteks:
 
-Programminimi on sisefunktsiooni nimi või kasutajaprogrammi nimi. Kui käsureas on sisefunktsioon, siis see täidetakse. Vastasel korral otsitakse kataloogist laadefaili:
+> `A>` `INDY`  
 
-> `programminimi.COM`
+käivitab programmifaili, mis asub seadmesse `A:` sisestatud andmekandjal ja mille nimeks on `INDY.COM`. Programmifail laaditakse mällu alates tarbijaprogrammi tsooni (TT) algusest aadressil `100H` ning juhtimine antakse üle sellele aadressile, st programm alustab tööd. Kui programmifaili nimi kattub sisefunktsooni omaga, siis käivitatakse viimane. Olematu laadefaili puhul väljastatakse ekraanil järgmisele reale märk `?` ning programminimi.
 
-Sellise nimega programmifaili leidmisel (eeldatakse `COM` laiendit, mida sisestama ei pea) laaditakse see alates tarbijaprogrammi tsooni algusest (TT aadres­sist 100H) mällu ja käivitatakse.[^1] Olematu laadefaili puhul väljastatakse ekraanil järgmisele reale märk `?` ning programminimi.
+Programminime järel saab sisestada ühe või kaks parameetrit (tavali­selt on parameetriks failinimi), st opsüsteemi viibale käsureaga vastamisel on kolm võimalikku kuju:
 
-Programminime järel saab sisestada ühe või kaks parameetrit (tavali­selt on parameetriks failinimi). KP moodustab nendest parameetritest süsteemiparameetrite tsooni (ST) ühe või kaks faili juhtplokki (FJP); parameetrite puudumisel täidetakse FJP-d tühikutega. Käsurea maksimaalne pikkus on 128 märki. Pärast sisestatud käsurea analüüsi salvestatakse 128-baidisesse otsemällupöörduse puhvrisse (OMP) programminimele järgnevast märgist algav käsurea osa. KP puhvri esimeses baidis (aadressil 80H) on sisestatud sümbolite arv.
+> `A>` `programminimi`  
+> `A>` `programminimi parameeter1`  
+> `A>` `programminimi parameeter1 parameeter2`  
+
+KP moodustab nendest parameetritest süsteemiparameetrite tsooni (ST) ühe või kaks faili juhtplokki (FJP); parameetrite puudumisel täidetakse FJP-d tühikutega. Käsurea maksimaalne pikkus on 128 märki. Pärast sisestatud käsurea analüüsi salvestatakse 128-baidisesse otsemällupöörduse puhvrisse (OMP) programminimele järgnevast märgist algav käsurea osa. KP puhvri esimeses baidis (aadressil 80H) on sisestatud sümbolite arv.
+
+> Programmide silumisel ja katsetamisel on kasulik tunda süsteemi mälujaotust, mis EKDOSi kasutamisel on üldjoontes:
+>
+> | Aadress |                                                   |
+> | ----------- | --------------------------------------------------|
+> `0000` | **Süsteemiparameetrite tsoon (ST)**
+>      | `0000`: `JMP CA03` (KP aadress)
+>      | `0005`: `JMP BC06` (EKDOSi elik CP/Mi funktsioonide aadress)
+>      | `005C`: Faili juhtblokk #1
+>      | `006C`: Faili juhtblokk #2
+>      | `0080`: 128B otsemällupöörduse (OMP) puhver
+> `0100` | **Tarbijaprogrammide tsoon (TT)**
+> `B400` | **Käsuprotsessor (KP)**
+> `D600` | **Süsteemiparameetrid**
+> `D800` | **Püsimälu** lugemine (moodus 1-2) või **videomälu**
+> `FD80` | **Süsteemiparameetrid**[^2]
+>
+> Tarbijatsoonis asuvad kasutajaprogrammid, mis on andmekandjalt mäl­lu laaditud. Näiteks > teksti redigeerimise ajal sisaldab TT tekstiredaktorit ja redigeeritavat teksti. Mälujaotus võib detailildes erineda sõltuvalt opsüsteemi tüübist või versioonist, nt lindiopsüsteemi puhul lõpeb TT aadressil `BEFF`, `BF00`-`C7BF` asetseb täiendav 2KB OMP puhver ja `D200`-`D5FF` paikneb lindifailide kataloog.[^1][^2]
 
 ## Kasulikke juhtklahve
 
@@ -138,7 +158,7 @@ Ekraanil oleva saab kustutada ja liikuda tagasi algusse paojadaga `ESC` `L` või
 
 _Ülalolev on peamiselt lühendatud ja üldistatud versioon esimeses viites toodud lindiopsüsteemi juhendist. Kohandatud juhend püüab võimaluste piires järgida algse juhendi stiili ja terminoloogiat._
 
-[^1]: [Mikroarvuti «JUKU» kasutamisjuhend](https://arti.ee/juku/Mikroarvuti%20Juku%20E5101%20kasutamisjuhend%201988%20%28168lk%2C%20eesti%20k%29.pdf) (1988) lk 20jj, 31jj, 46jj  
-[^2]: [Интеллектуальный терминал для систем реального времени E5104](https://elektroonikafoorum.com/thread-690-post-4165.html#pid4165) (1988)
-[^3]: [Mikroarvuti JUKU](ekta_juku.pdf) (1987) lk 13jj  
-[^4]: [JUKU PC UTILITIES DISK #4](https://github.com/infoaed/juku3000/blob/master/docs/ekdos230.txt#L91-L112) (1989) märkus 1
+[^1]: [Mikroarvuti «JUKU» kasutamisjuhend](https://arti.ee/juku/Mikroarvuti%20Juku%20E5101%20kasutamisjuhend%201988%20%28168lk%2C%20eesti%20k%29.pdf) (1988), opsüsteemi üldkirjeldus lk 20jj, mälujaotus lk 31jj hälbib EKDOSi omast, aga on informatiivne, sellest ja opsüsteemi käsklustest täpsemalt lk 46jj  
+[^2]: [Интеллектуальный терминал для систем реального времени E5104](https://elektroonikafoorum.com/thread-690-post-4165.html#pid4165) (1988), ajakohaseim mälutabel 1. raamatus lk 25  
+[^3]: [Mikroarvuti JUKU](ekta_juku.pdf) (1987), tarkvara kirjeldus lk 13jj  
+[^4]: [JUKU PC UTILITIES DISK #4](https://github.com/infoaed/juku3000/blob/master/docs/ekdos230.txt#L91-L112) (1989), 80x24 ekraanirežiimist märkus 1  
