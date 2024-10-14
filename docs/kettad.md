@@ -149,7 +149,7 @@ cpmcp -f juku GAMES.CPM 0:*.* jukugames
 cpmcp -f juku GAMESX.CPM jukugames/INDY.* 0:
 ```
 
-Kui määrata `juku` keskkonnamuutujas `CPMTOOLSFMT` vaikimisi formaadiks, siis võib `-f juku` ka ära jätta:
+Toetatud kettaformaatide nimekirja näitab `dskutik -format`. Kui määrata `juku` keskkonnamuutujas `CPMTOOLSFMT` vaikimisi formaadiks, siis võib `-f juku` ka ära jätta:
 
 ```
 CPMTOOLSFMT="juku"
