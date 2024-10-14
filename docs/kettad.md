@@ -149,12 +149,14 @@ cpmcp -f juku GAMES.CPM 0:*.* jukugames
 cpmcp -f juku GAMESX.CPM jukugames/INDY.* 0:
 ```
 
-Toetatud kettaformaatide nimekirja näitab `dskutik -format`. Kui määrata `juku` keskkonnamuutujas `CPMTOOLSFMT` vaikimisi formaadiks, siis võib `-f juku` ka ära jätta:
+Kui määrata `juku` keskkonnamuutujas `CPMTOOLSFMT` vaikimisi formaadiks, siis võib `-f juku` ka ära jätta:
 
 ```
 CPMTOOLSFMT="juku"
 export CPMTOOLSFMT
 ```
+
+Toetatud kettatüüpide ja -vormingute nimekirju _libdsk_ poolel näitavad `dskutil -types` ja `dskutil -formats`, _cpmtools_ lubatud formaatide nimekirja ei paista väljastavat ja nendega tuleb tutvuda `diskdefs` seadistusfaili tasemel.
 
 Ühesõnaga, on küll mõnevõrra tüütu kaevuda ajalooliste kettaformaatide iseärasustesse, kuid mõningase pusimise ja loomkatsete tulemusel saab ka maailma kõige unikaalsema CP/M kettaformaadi loetud. Juku tunnustuseks võib ütelda, et tõenäoliselt pole kunagi eksisteerinud ühtegi teist arvutisüsteemi, mis oleks ilma pusserdamiseta Juku kettaid suutnud lugeda -- seega kaksteist punkti ja ugrikrüpto eriauhind teadurile, kes selle välja mõtles!
 
