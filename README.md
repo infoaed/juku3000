@@ -29,11 +29,22 @@ Taustainfot:
 * [ELFA foorumis on oluline Juku teema](https://www.elfafoorum.eu/forum/tehnikafoorumid/tark-ja-riistvara-foorum/64851-)
 * [ZX форум äärmiselt kasulik Juku E5101 lõim](https://zx-pk.ru/threads/27298-juku-e5101.html) (vene keeles)
 
-See siin oli algselt häkatoniprojekt, mida dokumenteeritakse allpool -- praeguseks on olemas [LVLup muuseum](https://et.wikipedia.org/wiki/LVLup) ja arvutimuuseumid [Tallinnas](https://et.wikipedia.org/wiki/Arvutimuuseum) ja [Tartu Ülikooli arvutiteaduse instituudi juures](https://et.wikipedia.org/wiki/Tartu_%C3%9Clikooli_arvutimuuseum), kelle koostöös sellised asjad võiks teoks saada.
+Asjassepuutuvaid ettevõtmisi:
 
-_Järgneb ajalooline tekst..._
+* [Tartu Ülikooli arvutimuuseuum](http://arvutimuuseum.ut.ee/)
+* [Tallinna arvutimuuseum](http://arvutimuuseum.ee/)
+* [LVLup! videomängude muuseum](https://www.rara.ee/meist/asukohad/#lvlup-videomangude-muuseum)
+* [Retroklubi/Retrocomputing Estonia](http://pushspace.com/)
+* [Unistused ja tegelikkus. 90ndate lapsepõlv](http://www.mm.ee/naitused/naitus-unistused-ja-tegelikkus-90ndate-lapsepolv) (Tartu Mänguasjamuuseumi näitus)
+* [Mängime?! Arvutimängud Prantsusmaalt ja Saksamaalt](https://kumu.ekm.ee/arhiiv/naitused-2013/mangime-arvutimangud-prantsusmaalt-ja-saksamaalt/) (Kumu arvutimängude näitus)
+* [RAM. Eesti varane arvutikunst](https://kumu.ekm.ee/syndmus/ram-eesti-varane-arvutikunst/) (Kumu arvutigraafika näitus)
+* [Suomen ensimmäinen pelimuseo avataan Tampereella](https://yle.fi/uutiset/3-9354287) (Arvutimängude muuseum Tamperes)
 
-## Elamused ja ekspositsioonid 22.09-24.09 2017
+## Projekti tekkelugu
+
+> See siin oli algselt häkatoniprojekt, mida dokumenteeritakse allpool -- praeguseks on olemas [LVLup muuseum](https://et.wikipedia.org/wiki/LVLup) ja arvutimuuseumid [Tallinnas](https://et.wikipedia.org/wiki/Arvutimuuseum) ja [Tartu Ülikooli arvutiteaduse instituudi juures](https://et.wikipedia.org/wiki/Tartu_%C3%9Clikooli_arvutimuuseum), kelle koostöös sellised asjad võiks teoks saada. Järgneb ajalooline tekst...
+
+### Elamused ja ekspositsioonid 22.09-24.09 2017
 
 Muuseumid tahaks panna välja Jukude, ZX Spectrumide, Atarite, Amigate, Commodorede, Iskrate, Yamahade, Tartute, Entelite jne näitusi koos toonase tarkvara/mängudega, aga sellega on üks suur probleem — kui külastajad neid arvuteid ka puudutada tohivad, siis kipuvad uunikumid purunema. Aga mis mõte on arvutitel, kui neid näppida ei või?
 
@@ -54,15 +65,3 @@ Lahenduseks on ehitada tänapäevastest komponentidest arvutisüsteem, mis pakub
 ## Kuidas selleni jõuda?
 
 Esimene samm astutakse 22.-24. septembril 2017 Tartus Garage48 häkatonil ["Elamused ja ekspositsioonid"](http://garage48.org/events/garage48-elamused-ja-ekspositsioonid). Kui sa tunned huvi, tahad anda nõu, aidata kaasa või lihtsalt jagada oma mälestusi vmt, siis võta ühendust tramm@infoaed.ee või +372 55643754 — meile on kasu, kui saad häkatonilt läbi tulla, et meiega sel teemal lihtsalt suhelda, aga veel parem kui liitud meie tiimiga, et luua prototüüp, mis võiks leida kasutamist päris muuseumis päris näitustel. Katsenäituse plaanime läbi viia juba novembri alguses, kui ERMis toimub tänapäeva digitaalsele muuseumitööle keskenduv konverents ["Open licences, open content, open data: tools for developing digital humanities"](http://dh.org.ee/category/events/dhe2017/), kus esineb ka Soome esimese arvutimängumuuseumi üks võtmeisik Outi Penninkangas.
-
-## Lisamaterjali
-
-* [Tartu Ülikooli arvutimuuseuum](http://arvutimuuseum.ut.ee/)
-* [Tallinna arvutimuuseum](http://arvutimuuseum.ee/)
-* [LVLup! videomängude muuseum](https://www.rara.ee/meist/asukohad/#lvlup-videomangude-muuseum)
-* [Retroklubi/Retrocomputing Estonia](http://pushspace.com/)
-* [Unistused ja tegelikkus. 90ndate lapsepõlv](http://www.mm.ee/naitused/naitus-unistused-ja-tegelikkus-90ndate-lapsepolv) (Tartu Mänguasjamuuseumi näitus)
-* [Mängime?! Arvutimängud Prantsusmaalt ja Saksamaalt](https://kumu.ekm.ee/arhiiv/naitused-2013/mangime-arvutimangud-prantsusmaalt-ja-saksamaalt/) (Kumu arvutimängude näitus)
-* [RAM. Eesti varane arvutikunst](https://kumu.ekm.ee/syndmus/ram-eesti-varane-arvutikunst/) (Kumu arvutigraafika näitus)
-* [Suomen ensimmäinen pelimuseo avataan Tampereella](https://yle.fi/uutiset/3-9354287) (Arvutimängude muuseum Tamperes)
-* [Teema: Arvuti "Juku"](http://www.elfafoorum.ee/threads/63332-Arvuti-quot-Juku-quot) (Elfa foorumis)
