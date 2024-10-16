@@ -59,6 +59,8 @@ Esimene samm astutakse 22.-24. septembril 2017 Tartus Garage48 häkatonil ["Elam
 
 * [Tartu Ülikooli arvutimuuseuum](http://arvutimuuseum.ut.ee/)
 * [Tallinna arvutimuuseum](http://arvutimuuseum.ee/)
+* [LVLup! videomängude muuseum](https://www.rara.ee/meist/asukohad/#lvlup-videomangude-muuseum)
+* [Retroklubi/Retrocomputing Estonia](http://pushspace.com/)
 * [Unistused ja tegelikkus. 90ndate lapsepõlv](http://www.mm.ee/naitused/naitus-unistused-ja-tegelikkus-90ndate-lapsepolv) (Tartu Mänguasjamuuseumi näitus)
 * [Mängime?! Arvutimängud Prantsusmaalt ja Saksamaalt](https://kumu.ekm.ee/arhiiv/naitused-2013/mangime-arvutimangud-prantsusmaalt-ja-saksamaalt/) (Kumu arvutimängude näitus)
 * [RAM. Eesti varane arvutikunst](https://kumu.ekm.ee/syndmus/ram-eesti-varane-arvutikunst/) (Kumu arvutigraafika näitus)
