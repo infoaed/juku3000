@@ -1,1 +1,1 @@
-Siin kataloogis on peamiselt JUKUt puudutav dokumentatsioon, sh ketastelt taasatud [JUKU tarkvara nimekiri](tarkvara-kataloog.md).
+Siin kataloogis on peamiselt JUKUt puudutav dokumentatsioon, sh ketastelt taasatud [JUKU tarkvara nimekiri](tarkvara-kataloog.md), mille autoriteetseks algkujuks on kontrollsummadega [`tarkvara-kataloog.txt`](tarkvara-kataloog.txt).
