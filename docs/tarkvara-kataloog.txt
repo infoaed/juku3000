@@ -210,7 +210,7 @@ df4a5ab4429f8ebf7cbf60acedbd06fbf60c2c47  QRUN    .COM    4,8K  Quick Test (EKTA
 eb1b5d80978e962b7c6d355d631c965824eea97a  RESIDENT.DOC    1,7K  Residentsete programmide juhend
 4c1b38c9f07a1e71b4b9d3cc01ffda40f4adcd57  SID     .COM    7,0K  CP/M masinkoodi silur SID 1.4
 bb718dedc601df04eefd121ea0fdb4b70bc7bc7f  SID     .DOK     19K  Siluri kasutajajuhis (EKTA '89)
-21ede62cb98d3be03e6b2ca54076f19fb28e3287  SUBMIT  .COM    1,3K  CP/M käsujadade töötjeja
+21ede62cb98d3be03e6b2ca54076f19fb28e3287  SUBMIT  .COM    1,3K  CP/M käsujadade töötleja
 1917bfe2751c574058d53665c428df1c5c52f5ff  TERM    .COM    9,5K  Terminal Demo/Test 1.2 (EKTA '85)
 
 ## JUKPROGX
