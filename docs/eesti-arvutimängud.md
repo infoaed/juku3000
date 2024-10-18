@@ -1,4 +1,4 @@
-# Eesti ajaloolistest arvutimänudest
+# Eesti ajaloolistest arvutimängudest
 
 (_Kopeeritud algsest README failist, pole täielik nimekiri._)
 
