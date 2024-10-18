@@ -208,7 +208,7 @@ ff61ac16abd401484faa061ce22661046fcbe7ca  NETD    .COM    7,4K  EKTA Janet 1.0 1
 ce232b2efa02d06eb399e32af179cad65adf02ba  QDISK   .COM    7,2K  Disk Test (EKTA '85)
 df4a5ab4429f8ebf7cbf60acedbd06fbf60c2c47  QRUN    .COM    4,8K  Quick Test (EKTA '85)
 eb1b5d80978e962b7c6d355d631c965824eea97a  RESIDENT.DOC    1,7K  Residentsete programmide juhend
-4c1b38c9f07a1e71b4b9d3cc01ffda40f4adcd57  SID     .COM    7,0K  CP/M Masinkoodi silur SID 1.4
+4c1b38c9f07a1e71b4b9d3cc01ffda40f4adcd57  SID     .COM    7,0K  CP/M masinkoodi silur SID 1.4
 bb718dedc601df04eefd121ea0fdb4b70bc7bc7f  SID     .DOK     19K  Siluri kasutajajuhis (EKTA '89)
 21ede62cb98d3be03e6b2ca54076f19fb28e3287  SUBMIT  .COM    1,3K  CP/M käsujadade töötjeja
 1917bfe2751c574058d53665c428df1c5c52f5ff  TERM    .COM    9,5K  Terminal Demo/Test 1.2 (EKTA '85)
@@ -343,7 +343,7 @@ fdb099f95c09d46f30af053a3bc1abf27534dee2  SCREDIT .MOD     512
 405fb8967e78e968c521f440863e08905257ea94  SED     .COM     10K  Screen text editor 6.1
 13c41f4356304f11b5423296e922c8c543781415  SEQIO   .LIB     11K  
 a7a484b5418a3bd3234113b4340b0882282aa123  SID3    .COM    7,8K  
-4c1b38c9f07a1e71b4b9d3cc01ffda40f4adcd57  SID     .COM    7,0K  CP/M Masinkoodi silur SID 1.4
+4c1b38c9f07a1e71b4b9d3cc01ffda40f4adcd57  SID     .COM    7,0K  CP/M masinkoodi silur SID 1.4
 a85d1f5747beb9191ab59de2199812695272daba  SIDT    .COM    7,7K  
 f6ec44c8b5475edada9c204ecf5568a9d2a4b1c2  SOKO    .ASM     128  
 3a3f828bf51eb5a1f6de2590afcaff748b8bdb44  SOKO    .COM     640  
