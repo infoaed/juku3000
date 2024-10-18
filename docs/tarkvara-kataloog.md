@@ -95,8 +95,8 @@ Taastatud programmide koondtõmmis #1 ELFAfoorumi 2020 jaanuari lõimest.
 `FRIENDS .PIC    2,4K`     
 `FX800   .COM    1,8K`   Epson FX-800 printeri draiver  
 `GAMEBOY1.PIC     896`     
-`GTR     .COM     27K`   Turbo GTR 2.5B  
-`GTR     .DOK     13K`   Juhised GTR.COM jaoks  
+`GTR     .COM     27K`   Turbo GTR 2.5B (M.Gladin/EKTA '87)  
+`GTR     .DOK     13K`   GTR redaktori juhised (poolik '89)  
 `HOTEL   .PIC    4,0K`     
 `JAIL    .PIC    2,3K`     
 `JCM     .COM     12K`   JUKU File/Copy Master 1.0 (EKTA '89)  
@@ -174,7 +174,7 @@ Taastatud programmide koondtõmmis #2 ELFAfoorumi 2020 jaanuari lõimest.
 `CF      .COM    1,0K`   CP/M failide kopeerimise tööriist  
 `CF      .HLP    1,5K`   Eestikeelne lühijuhend (CF.COM)  
 `CPU     .COM     19K`   Microprocessor Test 1.2 (EKTA '85)  
-`DBAAS   .DOK     28K`     
+`DBAAS   .DOK     28K`   DBASE II käskude tutvustus  
 `DBASE   .COM     19K`   dBASE II ver2.4  
 `DBASEMSG.TXT     52K`     
 `DBASEOVR.COM     40K`     
@@ -268,10 +268,10 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 
 ## MANUALID
 
-`DBASE   .DOK     37K`     
-`GTR     .DOK     12K`     
-`GTRLISA .DOK    9,9K`     
-`JCM     .DOK    7,8K`     
+`DBASE   .DOK     37K`   dBASE II juhend (EÕK '90)  
+`GTR     .DOK     12K`   GTR redaktori juhised #1 (EKTA '89)  
+`GTRLISA .DOK    9,9K`   GTR redaktori juhised #2 (EKTA '89)  
+`JCM     .DOK    7,8K`   JCM juhend (EÕK '90)  
 
 ## VAKSTU
 
