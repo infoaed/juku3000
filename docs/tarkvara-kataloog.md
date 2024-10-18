@@ -100,7 +100,7 @@ Taastatud programmide koondtõmmis #1 ELFAfoorumi 2020 jaanuari lõimest.
 `HOTEL   .PIC    4,0K`     
 `JAIL    .PIC    2,3K`     
 `JCM     .COM     12K`   JUKU File/Copy Master 1.0 (EKTA '89)  
-`JCM     .HLP    7,4K`   Instructions to JCM  
+`JCM     .HLP    7,4K`   JCM juhend tiitelleheta ('89)  
 `JEESUS  .PIC    6,9K`     
 `JOBU    .PIC    4,7K`     
 `JSET    .COM     512`   Set BIOS I/O values  
