@@ -1,5 +1,7 @@
 ﻿# Ketastelt taastatud JUKU tarkvara üldnimekiri
 
+Kataloog väljendab katastelt taastatud JUKU E5101-E5104 tarkvara 2022 sügise seisuga. Tarkvara lisandub veel ning kirjeldused võivad teadmiste täienedes muutuda.
+
 ## JUKGAME1
 
 Taastatud mängude koondtõmmis ELFAfoorumi 2020 jaanuari lõimest.
