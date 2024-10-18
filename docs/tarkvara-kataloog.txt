@@ -215,7 +215,7 @@ bb718dedc601df04eefd121ea0fdb4b70bc7bc7f  SID     .DOK     19K  Siluri kasutajaj
 
 ## JUKPROGX
 
-Taastatud programmide koondtõmmis #2 ELFAfoorumi 2020 jaanuari lõimest.
+Taastatud programmide koondtõmmis #3 ELFAfoorumi 2020 jaanuari lõimest.
 
 59d9a03eda7c4473c64092c32077a594ab627731  BASLIB  .REL     49K  
 7cd35f8dc4d1b3f38a2acea90774fd2c05748680  BIO80   .BAS    2,0K  
