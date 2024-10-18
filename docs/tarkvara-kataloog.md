@@ -210,7 +210,7 @@ Taastatud programmide koondtõmmis #2 ELFAfoorumi 2020 jaanuari lõimest.
 `RESIDENT.DOC    1,7K`   Residentsete programmide juhend  
 `SID     .COM    7,0K`   CP/M masinkoodi silur SID 1.4  
 `SID     .DOK     19K`   Siluri kasutajajuhis (EKTA '89)  
-`SUBMIT  .COM    1,3K`   CP/M käsujadade töötjeja  
+`SUBMIT  .COM    1,3K`   CP/M käsujadade töötleja  
 `TERM    .COM    9,5K`   Terminal Demo/Test 1.2 (EKTA '85)  
 
 ## JUKPROGX
