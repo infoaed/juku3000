@@ -1,6 +1,7 @@
 ﻿# Ketastelt taastatud JUKU tarkvara üldnimekiri
 
-Kataloog väljendab katastelt taastatud JUKU E5101-E5104 tarkvara 2022 sügise seisuga. Tarkvara lisandub veel ning kirjeldused võivad teadmiste täienedes muutuda.
+Kataloog väljendab katastelt taastatud JUKU E5101-E5104 tarkvara 2022 sügise seisuga.
+Tarkvara lisandub veel ning kirjeldused võivad teadmiste täienedes muutuda.
 
 ## JUKGAME1
 
@@ -264,6 +265,13 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 `EKDOS229.BIN     10K`   EKDOS 2.29  
 `EKDOS230.BIN     10K`   EKDOS 2.30  
 `EKDOSVSW.BIN     10K`   "VSW tööketas" (EKDOS 2.29)  
+
+## MANUALID
+
+`DBASE   .DOK     37K`     
+`GTR     .DOK     12K`     
+`GTRLISA .DOK    9,9K`     
+`JCM     .DOK    7,8K`     
 
 ## VAKSTU
 
