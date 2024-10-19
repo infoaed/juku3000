@@ -156,7 +156,7 @@ CPMTOOLSFMT="juku"
 export CPMTOOLSFMT
 ```
 
-Toetatud kettatüüpide ja -vormingute nimekirju _libdsk_ poolel näitavad `dskutil -types` ja `dskutil -formats`, _cpmtools_ lubatud formaatide nimekirja ei paista väljastavat ja nendega tuleb tutvuda `diskdefs` seadistusfaili tasemel. Õigupoolest on Juku ketaste lugemiseks vaja _cmptoolsi_ täiendada vaid ühe reaga kahes funktsioons, mis juhendaks teda otsima radu kettatõmmisel õigest kohast ja sellise täiendusega CPMToolsGUI versiooni leiab [siit](http://infoaed.ee/juku/CpmtoolsGUI_JUKU.zip).
+Toetatud kettatüüpide ja -vormingute nimekirju _libdsk_ poolel näitavad `dskutil -types` ja `dskutil -formats`, _cpmtools_ lubatud formaatide nimekirja ei paista väljastavat ja nendega tuleb tutvuda `diskdefs` seadistusfaili tasemel. Õigupoolest on Juku ketaste lugemiseks vaja _cmptoolsi_ lähtekoodi täiendada vaid ühe reaga kahes funktsioons, mis juhendaks teda otsima radu kettatõmmisel õigest kohast ja sellise täiendusega CPMToolsGUI versiooni leiab [siit](http://infoaed.ee/juku/CpmtoolsGUI_JUKU.zip).
 
 Ühesõnaga, on küll mõnevõrra tüütu kaevuda ajalooliste kettaformaatide iseärasustesse, kuid mõningase pusimise ja loomkatsete tulemusel saab ka maailma kõige unikaalsema CP/M kettaformaadi loetud. Juku tunnustuseks võib ütelda, et tõenäoliselt pole kunagi eksisteerinud ühtegi teist arvutisüsteemi, mis oleks ilma pusserdamiseta Juku kettaid suutnud lugeda -- seega kaksteist punkti ja ugrikrüpto eriauhind teadurile, kes selle välja mõtles!
 
