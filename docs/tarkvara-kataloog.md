@@ -751,7 +751,7 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``GTR     .COM     27K``    Turbo GTR 2.5B (M.Gladin/EKTA '87)  
 ``HINDED  .PIC     384``      
 ``KAP     .PIC     512``      
-`` KASTID .PCD     128``      
+`` KASTID .PCD     128``      
 ``MAASTIK .PIC    5,0K``      
 ``MUSAM   .COM    3,7K``    Musa Master  
 ``PUNK    .PIC     640``      
@@ -945,7 +945,7 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``BUGABOO .TAB     384``      
 ``CATCHUM .COM     29K``    Tuntud CP/Mi "Pac-Mani" kloon (80x24)  
 ``CATCHUM .DAT     512``      
-`` CIRCLES.PIC    6,9K``      
+`` CIRCLES.PIC    6,9K``      
 ``COMPU   .COM    1,8K``    Compute Mate 160 printeri draiver  
 ``DASAKSRK.PIC    2,4K``      
 ``DEL     .PIC     128``      
@@ -959,7 +959,7 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``INDY    .DAT     12K``      
 ``JAIL    .PIC    2,3K``      
 ``JCM     .COM     12K``    JUKU File/Copy Master 1.0 (EKTA '89)  
-`` JEESUS .PIC    6,9K``      
+`` JEESUS .PIC    6,9K``      
 ``JOBUUUUU.PIC    4,7K``      
 ``KAAK MAD.PIC    2,9K``      
 ``KAP     .COM     32K``    Merelahing  
@@ -967,7 +967,7 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``KINGKONG.PIC    2,7K``      
 ``KLAABUTV.PIC    1,2K``      
 ``KLIRR   .PIC    8,0K``      
-`` K`RVITS.PIC    2,9K``      
+`` K`RVITS.PIC    2,9K``      
 ``K`RVITS .PIC    2,5K``      
 ``KUTSE   .PIC    1,0K``      
 ``LADDER  .COM     40K``    Tuntud CP/Mi platvormimäng (80x24)  
@@ -976,7 +976,7 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``LL0     .       6,4K``      
 ``LUKK    .TET     128``      
 ``MAKK    .PIC    1,9K``      
-`` MEHHAAN.PIC    5,2K``      
+`` MEHHAAN.PIC    5,2K``      
 ``MEHHAAN .PIC    3,4K``      
 ``MIKA    .PIC    1,2K``      
 ``MOND    .COM     17K``    "Artillery Duel" kloon?  
@@ -990,11 +990,11 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``PR ELLA .PIC    1,0K``      
 ``SNAKE   .COM     12K``    "Ussike" (M.Gladin/EKTA '87)  
 ``SNAKE   .DAT    1,0K``      
-`` TITANIK.PIC    2,2K``      
+`` TITANIK.PIC    2,2K``      
 ``TITANIK .PIC    2,3K``      
 ``ULLA TRU.PIC     896``      
 ``VISIIT  .P      1,0K``      
-`` V\RDJAS.PIC    2,3K``      
+`` V\RDJAS.PIC    2,3K``      
 ``V\RDJAS .PIC    1,7K``      
 
 ## MAALT26
