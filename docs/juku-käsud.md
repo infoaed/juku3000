@@ -38,7 +38,7 @@ Viip on mistahes programmi poolt väljastatav teade, mis näitab, et programm oo
 
 ## Opsüsteemi käsud
 
-Käsuprotsessor (KP) vahetab infot kasutaja ja operatsioonisüsteemi vahel. KP loeb ja töötleb klahvistikult sisestatud käsuridu. KP valmisolekut käsu sisestuseks väljendab viip `A>` (või sõltuvalt aktiivsest kettast `B>` või `C>`). KP sisaldab sõltuvalt opsüsteemi tüübist valiku sisefunktsioone või käsklusi:
+Käsuprotsessor (KP) vahetab infot kasutaja ja operatsioonisüsteemi vahel. KP loeb ja töötleb klahvistikult[^4] sisestatud käsuridu. KP valmisolekut käsu sisestuseks väljendab viip `A>` (või sõltuvalt aktiivsest kettast `B>` või `C>`). KP sisaldab sõltuvalt opsüsteemi tüübist valiku sisefunktsioone või käsklusi:
 
 `DIR` — mittesüsteemsete failide kataloogi esitus  
 `DIRS` — süsteemsete failide kataloogi esitus  
@@ -149,7 +149,7 @@ Opsüsteemi vaikimisi käitumist saab lülitada paojadade abil (klahv `ESC`, see
 
 `ESC` `M` `0` — 40x24 kuvalaotus  
 `ESC` `M` `1` — 53x24 kuvalaotus  
-`ESC` `M` `2` — 64x20 kuvalaotus (võimalik on ka 80x24 laotus[^4])  
+`ESC` `M` `2` — 64x20 kuvalaotus (võimalik on ka 80x24 laotus[^5])  
 `ESC` `0` — klahvivajutuse helisignaali keelamine  
 `ESC` `1` — klahvivajutuse helisignaali lubamine  
 `ESC` `2` — ekraani kerimise keelamine  
@@ -166,4 +166,5 @@ _Ülalolev on peamiselt lühendatud ja üldistatud versioon esimeses viites tood
 [^1]: [Mikroarvuti «JUKU» kasutamisjuhend](https://arti.ee/juku/Mikroarvuti%20Juku%20E5101%20kasutamisjuhend%201988%20%28168lk%2C%20eesti%20k%29.pdf) (1988), opsüsteemi üldkirjeldus lk 20jj, mälujaotus lk 31jj hälbib EKDOSi omast, aga on informatiivne, sellest ja opsüsteemi käsklustest täpsemalt lk 46jj  
 [^2]: [Интеллектуальный терминал для систем реального времени E5104](https://elektroonikafoorum.com/thread-690-post-4165.html#pid4165) (1988), ajakohaseim mälutabel 1. raamatus lk 25  
 [^3]: [Mikroarvuti JUKU](ekta_juku.pdf) (1987), tarkvara kirjeldus lk 13jj  
-[^4]: [JUKU PC UTILITIES DISK #4](https://github.com/infoaed/juku3000/blob/master/docs/ekdos230.txt#L91-L112) (1989), 80x24 ekraanirežiimi kohta märkus 1  
+[^4]: [JUKU E5104 klahvistik MAME emulaatoris](https://infoaed.ee/juku/layout.html) (2024)
+[^5]: [JUKU PC UTILITIES DISK #4](https://github.com/infoaed/juku3000/blob/master/docs/ekdos230.txt#L91-L112) (1989), 80x24 ekraanirežiimi kohta märkus 1  
