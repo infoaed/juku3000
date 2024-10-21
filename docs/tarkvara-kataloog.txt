@@ -1,7 +1,12 @@
 ﻿# Ketastelt taastatud JUKU tarkvara üldnimekiri
 
 Kataloog väljendab katastelt taastatud JUKU E5101-E5104 tarkvara 2022 sügise seisuga.
-Tarkvara lisandub veel ning kirjeldused võivad teadmiste täienedes muutuda.
+Tarkvara lisandub ning kirjeldused võivad teadmiste täienedes muutuda. Nimekirja
+autoriteetne kontrollsummadega versioon on:
+
+* https://github.com/infoaed/juku3000/blob/master/docs/tarkvara-kataloog.txt
+
+Sealtsamast on leitavad ka kontrollsummadeta teisendused PDFi ja Markdowni.
 
 ## JUKGAME1
 
