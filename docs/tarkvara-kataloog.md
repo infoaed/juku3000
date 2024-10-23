@@ -35,8 +35,8 @@ Taastatud mängude koondtõmmis ELFAfoorumi 2020 jaanuari lõimest.
 ``GAMEBOY .Z79    6,0K``      
 ``GAMEBOY .Z80    4,2K``      
 ``GAMEBOY .Z81    2,9K``      
-``HUNTER  .COM    6,8K``      
-``HUNTER  .DAT     256``    Jahiklubi (80x24, Vakstu/MIG '86)  
+``HUNTER  .COM    6,8K``    Jahiklubi (80x24, Vakstu/MIG '86)  
+``HUNTER  .DAT     256``      
 ``INDY    .COM     27K``    Indy Looking for Jewels... ('91)  
 ``INDY    .DAT     12K``      
 ``KAP     .COM     32K``    Merelahing  
@@ -78,8 +78,8 @@ Taastatud programmide koondtõmmis #1 ELFAfoorumi 2020 jaanuari lõimest.
 ``BIZET   .PLR     512``      
 ``CAL     .COM     18K``    Graafiline ujukoma kalkulaator  
 ``CD      .PIC    3,4K``      
-``CF      .COM    1,0K``    CP/M failide kopeerimise tööriist  
-``CF      .HLP    1,5K``    Eestikeelne lühijuhend (CF.COM)  
+``CF      .COM    1,0K``    Failide kopeerimine 1.0 (EKTA '89)  
+``CF      .HLP    1,5K``    Eestikeelne lühijuhend  
 ``CM6329  .COM    1,8K``    Robotron CM6329 printeri draiver  
 ``COMPU   .COM    1,8K``    Compute Mate 160 printeri draiver  
 ``D100M   .COM    1,4K``    D100M printeri draiver (EKTA '91)  
@@ -93,7 +93,7 @@ Taastatud programmide koondtõmmis #1 ELFAfoorumi 2020 jaanuari lõimest.
 ``DOCTOR  .COM     36K``    Disk Editor & Diagnostics 1.11 ('83)  
 ``DOSGEN  .COM     896``    CP/M süsteemiketta generaator 3.4  
 ``EST     .        896``    Eesti tähestiku font (JUKU)  
-``FDMAINT .COM     11K``    Floppy Disk Maintenance program  
+``FDMAINT .COM     11K``    Floppy Maintenance 1.1 (EKTA '88)  
 ``FLIGHT  .COM     896``      
 ``FMT     .COM    1,3K``    EKDOS 386K flopide vormindaja 3.4  
 ``FORMAT  .COM    1,3K``    EKDOS 786K flopide vormindaja 3.4  
@@ -176,11 +176,11 @@ Taastatud programmide koondtõmmis #2 ELFAfoorumi 2020 jaanuari lõimest.
 ``BASCOM  .DOK     11K``    BASCOMi juhend (EKTA '88)  
 ``BASLIB  .REL     25K``      
 ``BRUN    .COM     16K``    BASIC runtime 5.30 (Microsoft)  
-``CF      .COM    1,0K``    CP/M failide kopeerimise tööriist  
-``CF      .HLP    1,5K``    Eestikeelne lühijuhend (CF.COM)  
+``CF      .COM    1,0K``    Failide kopeerimine 1.0 (EKTA '89)  
+``CF      .HLP    1,5K``    Eestikeelne lühijuhend  
 ``CPU     .COM     19K``    Microprocessor Test 1.2 (EKTA '85)  
-``DBAAS   .DOK     28K``    DBASE II käskude tutvustus  
-``DBASE   .COM     19K``    dBASE II ver2.4  
+``DBAAS   .DOK     28K``    dBASE II käskude tutvustus  
+``DBASE   .COM     19K``    dBASE II v2.4  
 ``DBASEMSG.TXT     52K``      
 ``DBASEOVR.COM     40K``      
 ``DBINST  .COM     14K``      
@@ -267,6 +267,7 @@ Mälukividelt taastatud JUKU püsimälu monitorid ja laiendused.
 Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 
 ``CPM22   .BIN     10K``    CP/M 2.2  
+``CPM231E .BIN     10K``    CP/M 2.31e  
 ``EKDOS229.BIN     10K``    EKDOS 2.29  
 ``EKDOS230.BIN     10K``    EKDOS 2.30  
 ``EKDOSVSW.BIN     10K``    "VSW tööketas" (EKDOS 2.29)  
@@ -326,7 +327,7 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``ANNELI  .       1,3K``      
 ``COMPU   .COM    1,8K``      
 ``ENOR    .        640``      
-``FDMAINT .COM     11K``    Floppy Disk Maintenance program  
+``FDMAINT .COM     11K``    Floppy Maintenance 1.1 (EKTA '88)  
 ``JCM     .COM     12K``    JUKU File/Copy Master 1.0 (EKTA '89)  
 ``KIRJAND .       1,4K``      
 ``K|RT    .       1,2K``      
@@ -351,8 +352,8 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``BUGABOO .TAB     256``      
 ``CATCHUM .COM     29K``    Tuntud CP/Mi "Pac-Mani" kloon (80x24)  
 ``CATCHUM .DAT     512``      
-``HUNTER  .COM    6,8K``      
-``HUNTER  .DAT     256``    Jahiklubi (80x24, Vakstu/MIG '86)  
+``HUNTER  .COM    6,8K``    Jahiklubi (80x24, Vakstu/MIG '86)  
+``HUNTER  .DAT     256``      
 ``INDY    .COM     27K``    Indy Looking for Jewels... ('91)  
 ``INDY    .DAT     12K``      
 ``KAP     .COM     32K``    Merelahing  
@@ -378,12 +379,12 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``COMPU   .COM    1,8K``    Compute Mate 160 printeri draiver  
 ``DBASE   .        19K``      
 ``DBASE   .COM     19K``      
-``FDMAINT .COM     11K``    Floppy Disk Maintenance program  
+``FDMAINT .COM     11K``    Floppy Maintenance 1.1 (EKTA '88)  
 ``GAMEBOY .        512``      
 ``GAMEBOY .COM     512``      
 ``GTR     .        27K``    Turbo GTR 2.5B (M.Gladin/EKTA '87)  
 ``GTR     .COM     27K``    Turbo GTR 2.5B (M.Gladin/EKTA '87)  
-``HUNTER  .COM    6,8K``      
+``HUNTER  .COM    6,8K``    Jahiklubi (80x24, Vakstu/MIG '86)  
 ``HUNTER  .DAT     256``      
 ``JCM     .        12K``    JUKU File/Copy Master 1.0 (EKTA '89)  
 ``JCM     .COM     12K``    JUKU File/Copy Master 1.0 (EKTA '89)  
@@ -473,11 +474,11 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``COMPU   .COM    1,8K``    Compute Mate 160 printeri draiver  
 ``DOSGEN  .COM     896``    CP/M süsteemiketta generaator 3.4  
 ``FDDTREQE.PIC     128``      
-``FDMAINT .COM     11K``    Floppy Disk Maintenance program  
+``FDMAINT .COM     11K``    Floppy Maintenance 1.1 (EKTA '88)  
 ``FORMAT  .COM    1,3K``    EKDOS 786K flopide vormindaja 3.4  
 ``GTR     .COM     27K``    Turbo GTR 2.5B (M.Gladin/EKTA '87)  
 ``HARLEY  .PIC       0``      
-``HUNTER  .COM    6,8K``      
+``HUNTER  .COM    6,8K``    Jahiklubi (80x24, Vakstu/MIG '86)  
 ``HUNTER  .DAT     256``      
 ``INDY    .COM     27K``    Indy Looking for Jewels... ('91)  
 ``INDY    .DAT     12K``      
@@ -560,7 +561,7 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``COMPU   .COM    1,8K``    Compute Mate 160 printeri draiver  
 ``DEL     .LL      128``      
 ``DOSGEN  .COM     896``    CP/M süsteemiketta generaator 3.4  
-``FDMAINT .COM     11K``    Floppy Disk Maintenance program  
+``FDMAINT .COM     11K``    Floppy Maintenance 1.1 (EKTA '88)  
 ``GB      .COM     23K``      
 ``GTR     .COM     27K``    Turbo GTR 2.5B (M.Gladin/EKTA '87)  
 ``INDY    .COM     27K``    Indy Looking for Jewels... ('91)  
@@ -599,7 +600,7 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``CATCHUM .COM     29K``    Tuntud CP/Mi "Pac-Mani" kloon (80x24)  
 ``COMPU   .COM    1,8K``    Compute Mate 160 printeri draiver  
 ``DOSGEN  .COM     896``    CP/M süsteemiketta generaator 3.4  
-``FDMAINT .COM     11K``    Floppy Disk Maintenance program  
+``FDMAINT .COM     11K``    Floppy Maintenance 1.1 (EKTA '88)  
 ``GAMEBOY .COM     23K``    Lenda ja tulista (A.Säde '91)  
 ``GAMEBOY .DAT     512``      
 ``GTR     .COM     27K``    Turbo GTR 2.5B (M.Gladin/EKTA '87)  
@@ -859,7 +860,7 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``CHESS   .COM     31K``    Malemäng "Las ma mõtlen" (EKTA '89)  
 ``COMPU   .COM    1,8K``    Compute Mate 160 printeri draiver  
 ``DOSGEN  .COM     896``    CP/M süsteemiketta generaator 3.4  
-``FDMAINT .COM     11K``    Floppy Disk Maintenance program  
+``FDMAINT .COM     11K``    Floppy Maintenance 1.1 (EKTA '88)  
 ``GAMEBOY .COM     512``      
 ``GB      .COM     23K``      
 ``GTR     .COM     27K``    Turbo GTR 2.5B (M.Gladin/EKTA '87)  
@@ -914,7 +915,7 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``COMPU   .COM    1,8K``    Compute Mate 160 printeri draiver  
 ``DEL     .LL      128``      
 ``DOSGEN  .COM     896``    CP/M süsteemiketta generaator 3.4  
-``FDMAINT .COM     11K``    Floppy Disk Maintenance program  
+``FDMAINT .COM     11K``    Floppy Maintenance 1.1 (EKTA '88)  
 ``GAMEBOY .Z79    6,0K``      
 ``GB      .COM     23K``      
 ``GTR     .COM     27K``    Turbo GTR 2.5B (M.Gladin/EKTA '87)  
@@ -955,7 +956,7 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``DASAKSRK.PIC    2,4K``      
 ``DEL     .PIC     128``      
 ``DOSGEN  .COM     896``    CP/M süsteemiketta generaator 3.4  
-``FDMAINT .COM     11K``    Floppy Disk Maintenance program  
+``FDMAINT .COM     11K``    Floppy Maintenance 1.1 (EKTA '88)  
 ``FILOTRIP.PIC    2,5K``      
 ``FILOTROP.PIC    2,0K``      
 ``GB      .COM     23K``      
@@ -1059,7 +1060,7 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``COMPU   .COM    1,8K``    Compute Mate 160 printeri draiver  
 ``DOCTOR  .COM     36K``    Disk Editor & Diagnostics 1.11 ('83)  
 ``F-1     .PI     2,0K``      
-``FDMAINT .COM     11K``    Floppy Disk Maintenance program  
+``FDMAINT .COM     11K``    Floppy Maintenance 1.1 (EKTA '88)  
 ``GAMEBOY .COM     23K``      
 ``GAMEBOY .DAT     512``      
 ``GAMEBOY .Z79    6,0K``      
@@ -1103,7 +1104,7 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``DUMP    .COM     512``    File dump 1.4  
 ``ED      .COM    6,5K``    CP/M context editor  
 ``F80     .COM     27K``    Fortrani translaator  
-``FDMAINT .COM     11K``    Floppy Disk Maintenance program  
+``FDMAINT .COM     11K``    Floppy Maintenance 1.1 (EKTA '88)  
 ``FMT     .COM    1,3K``    EKDOS 386K flopide vormindaja 3.4  
 ``FORLIB  .REL     26K``      
 ``FORMAT  .COM    1,3K``    EKDOS 786K flopide vormindaja 3.4  
@@ -1149,7 +1150,7 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 
 ## MUSEUM03
 
-``DBASE   .COM     19K``    dBASE II ver2.4  
+``DBASE   .COM     19K``    dBASE II v2.4  
 ``DBASEMSG.TXT     52K``      
 ``DBASEOVR.COM     40K``      
 ``DBINST  .COM     14K``      
@@ -1174,7 +1175,7 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 
 ``2       .       7,4K``    JCM juhend tiitelleheta ('89)  
 ``BASCOM  .DOK     11K``    BASCOMi juhend (EKTA '88)  
-``DBAAS   .DOK     28K``    DBASE II käskude tutvustus  
+``DBAAS   .DOK     28K``    dBASE II käskude tutvustus  
 ``DEMO    .DOK    8,0K``    Instructions to DEMO.COM  
 ``DIR     .        12K``    JUKU File/Copy Master 1.0 (EKTA '89)  
 ``DOCTOR  .COM     36K``      
@@ -1190,6 +1191,181 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``PACIUS  .PLR     256``      
 ``SID     .DOK     19K``    Siluri kasutajajuhis (EKTA '89)  
 ``XONIX   .COM    3,8K``    "Qixi" kloon (E.Jürviste/EKTA '87)  
+
+## OKSJON01
+
+``ASM     .COM    8,0K``    CP/M Assembler 2.0  
+``B80     .COM     24K``    CP/M BASIC-80 5.21 (Microsoft '81)  
+``BASCOM  .COM     32K``    BASICu translaator 5.30 (Microsoft)  
+``BASLIB  .REL     49K``      
+``BRUN    .COM     16K``    BASIC runtime 5.30 (Microsoft)  
+``CM6329  .COM    1,8K``    Robotron CM6329 printeri draiver  
+``COMPU   .COM    1,8K``    Compute Mate 160 printeri draiver  
+``CPU     .COM     19K``    Microprocessor Test 1.2 (EKTA '85)  
+``DIAG    .LOG       0``      
+``DOSGEN  .COM     896``    CP/M süsteemiketta generaator 3.4  
+``DUMP    .COM     512``    File dump 1.4  
+``ED      .COM    6,5K``    CP/M context editor  
+``F80     .COM     27K``    Fortrani translaator  
+``FDMAINT .COM     11K``      
+``FMT     .COM    1,3K``    EKDOS 386K flopide vormindaja 3.4  
+``FORLIB  .REL     26K``      
+``FORMAT  .COM    1,3K``      
+``FX800   .COM    1,8K``      
+``JBASIC  .COM    8,2K``    BASIC interpretaator 1.1 (EKTA '87)  
+``KUVA    .COM     768``      
+``L80     .COM     11K``    Link-80 3.44 (Microsoft '81)  
+``LOAD    .COM    1,8K``    CP/M HEX to COM converter  
+``LSC     .ASM     768``      
+``LSC     .COM     128``      
+``LSC     .HEX     384``      
+``LSC     .PRN    1,5K``      
+``LSC     .SYM     128``      
+``MODE    .COM     256``      
+``MTEST2  .COM    9,5K``    Memory Test 0100-14FF (EKTA '85)  
+``MTEST   .COM    4,5K``    Memory Test 1500-FFFF (EKTA '85)  
+``NETD    .COM    7,4K``    EKTA Janet 1.0 14/11/00  
+``NETR    .COM    6,5K``    EKTA N-EKDOS 1.0  
+``PACK    .PAS    1,2K``      
+``PD      .COM     15K``      
+``PIP     .COM    7,3K``    CP/M failide kopeerija  
+``QDISK   .COM    7,2K``    Disk Test (EKTA '85)  
+``QRUN    .COM    4,8K``    Quick Test (EKTA '85)  
+``RDEM    .COM     30K``    JUKU ametlik demoprogramm (EKTA '87)  
+``SED     .COM     10K``    Screen text editor 6.1  
+``SID     .COM    7,0K``      
+``STAT    .COM    5,2K``      
+``SUBMIT  .COM    1,3K``    CP/M käsujadade töötleja  
+``TERM    .COM    9,5K``      
+``VIRUS   .BAK     768``      
+``VIRUS   .TXT     768``      
+``XDIR    .COM    2,3K``      
+
+## OKSJON02
+
+``BUGABOO .COM       0``      
+``COPY    .COM    1,5K``      
+``CURSOR  .PCC    1,0K``      
+``EXTERN  .BAS     256``      
+``FTYPE   .COM    8,4K``      
+``FX800   .COM    1,8K``    Epson FX-800 printeri draiver  
+``INDY    .BAK     13K``      
+``INDY    .TAB     13K``      
+``LINKMT  .COM     12K``    Link/MT+ v5.6.1  
+``MT      .COM     36K``    Pascal/MT+ v5.6.1  
+``MTPLUS  .000     13K``      
+``MTPLUS  .001     11K``      
+``MTPLUS  .002    7,0K``      
+``MTPLUS  .003    7,3K``      
+``MTPLUS  .004     17K``      
+``MTPLUS  .005    8,5K``      
+``MTPLUS  .006    6,2K``      
+``PD      .COM     15K``      
+``PORTREE .       6,3K``      
+``PROOV   .BAS     256``      
+``SDEL    .COM     896``    Selective Delete v2.0  
+``SED     .COM     10K``    Screen text editor 6.1  
+``TABEL   .        13K``      
+``XDIR    .COM    2,3K``    CP/M failikataloogide näitaja 3.5  
+
+## OKSJON03
+
+``9       .       3,9K``      
+``9       .BAK    3,9K``      
+``9       .SYP    3,9K``      
+``9       .COM     26K``      
+``9       .ERL    4,3K``      
+``9       .SYP    4,3K``      
+``9       .PRN    8,3K``      
+``9       .SYP    8,3K``      
+``BUSINESS.BAS    8,3K``      
+``CF      .COM    1,0K``    Failide kopeerimine 1.0 (EKTA '89)  
+``CURSOR  .PCC    1,0K``      
+``DISK    .ERL     384``      
+``DISK    .H       256``      
+``FPREALS .ERL    7,5K``      
+``GRAPH   .ERL    2,0K``      
+``GRAPH   .H       512``      
+``INDY    .DAT     12K``      
+``KEYB    .ERL     512``      
+``KEYB    .H       512``      
+``KEYC    .ERL     640``      
+``KEYC    .H1      128``      
+``KEYC    .H2      640``      
+``LINKMT  .COM     12K``    Link/MT+ v5.6.1  
+``MOULD   .COM    9,2K``      
+``MTPLUS  .000     13K``      
+``MTPLUS  .001     11K``      
+``MTPLUS  .002    7,0K``      
+``MTPLUS  .003    7,3K``      
+``MTPLUS  .004     17K``      
+``MTPLUS  .005    8,5K``      
+``MTPLUS  .006    6,2K``      
+``MTPLUS  .COM     36K``    Pascal/MT+ v5.6.1  
+``PACK    .PAS    1,2K``      
+``PASLIB  .ERL     25K``      
+``PRINT   .ERL    1,7K``      
+``PRINT   .H      3,3K``      
+``SCREEN  .ERL     896``      
+``SCREEN  .H       768``      
+``SPRITE  .ERL    2,8K``      
+``SPRITE  .H1      384``      
+``SPRITE  .H2      384``      
+``TEKST   .$$$       0``      
+``TRANCEND.ERL    3,3K``      
+``UTILIT  .ERL     768``      
+``UTILIT  .H       384``      
+``XDIR    .COM    2,3K``    CP/M failikataloogide näitaja 3.5  
+``XGRAPH  .ERL    1,9K``      
+``XGRAPH  .H       768``      
+``YHEKSA  .BAK     896``      
+
+## OKSJON04
+
+``ASM     .COM    8,0K``    CP/M Assembler 2.0  
+``B80     .COM     24K``    CP/M BASIC-80 5.21 (Microsoft '81)  
+``BASCOM  .COM     32K``    BASICu translaator 5.30 (Microsoft)  
+``DISK    .ERL     384``      
+``FPREALS .ERL    7,5K``      
+``FX800   .COM    1,8K``    Epson FX-800 printeri draiver  
+``GRAPH   .ERL    2,0K``      
+``LINKMT  .COM     12K``    Link/MT+ v5.6.1  
+``MGR     .COM     15K``      
+``PASLIB  .ERL     25K``      
+``RAHA    .BAS    1,5K``      
+``REGLEMEN.       2,3K``      
+``SCREEN  .ERL     896``      
+``SED     .COM     10K``    Screen text editor 6.1  
+``SID     .COM    7,0K``    CP/M masinkoodi silur SID 1.4  
+``SPRITE  .ERL    2,8K``      
+``TRANCEND.ERL    3,3K``      
+``UTILIT  .ERL     768``      
+``XDIR    .COM    2,3K``    CP/M failikataloogide näitaja 3.5  
+``YLES2   .BAS    1,2K``      
+
+## OKSJON05
+
+``1994    .PIC    3,4K``      
+``1995    .PIC    3,5K``      
+``DIAGRAMM.PIC    1,0K``      
+``GTR     .COM     27K``      
+``IKOONID .PIC    3,0K``      
+``IKOON   .PIC    4,5K``      
+``KAART   .PIC    4,9K``      
+``K\ED    .PCC    1,0K``      
+``LEIUTISE.PCD     128``      
+``MUSTRID .PCC    1,0K``      
+``PATTERN .PIC    7,2K``      
+``PEALUU  .PCC    1,0K``      
+``PIP∕    .$$$       0``      
+``PIP     .COM    7,3K``      
+``XDIR    .COM    2,3K``      
+
+## OKSJON06
+
+``CURSOR  .PCC    1,0K``      
+``PR      .COM    2,7K``      
+``WURMI   .LNK    6,7K``      
 
 ## VAKSTU
 
