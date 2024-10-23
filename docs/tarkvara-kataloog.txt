@@ -1227,7 +1227,7 @@ cacb77920ce1301feacbe5924cd822beba329d3e  LSC     .SYM     128
 ff61ac16abd401484faa061ce22661046fcbe7ca  NETD    .COM    7,4K  EKTA Janet 1.0 14/11/00
 923dc4b503c433fe4cf4fc62ef906ff154a2a21e  NETR    .COM    6,5K  EKTA N-EKDOS 1.0
 cefe091dd3dbe94cde2b6d80ee52df3c907aca2e  PACK    .PAS    1,2K  
-b1f0afc5e061a5d73a7e724a0927e233735d4158  PD      .COM     15K  
+b1f0afc5e061a5d73a7e724a0927e233735d4158  PD      .COM     15K  Printer's Driver v1.0 (H)
 394d9b67fe587b1c587cbe79042db54a236eb7d3  PIP     .COM    7,3K  CP/M failide kopeerija
 ce232b2efa02d06eb399e32af179cad65adf02ba  QDISK   .COM    7,2K  Disk Test (EKTA '85)
 df4a5ab4429f8ebf7cbf60acedbd06fbf60c2c47  QRUN    .COM    4,8K  Quick Test (EKTA '85)
@@ -1330,7 +1330,7 @@ ec5dfa15f137f0b64160f253d451bd0f1854f957  FPREALS .ERL    7,5K
 15e622e59217c42d24376b74fabb0a7c8a2b966f  FX800   .COM    1,8K  Epson FX-800 printeri draiver
 dfc35c2be635f4cde22ab90c0cbc5c39d96f57f8  GRAPH   .ERL    2,0K  
 e3f3dee4bae0f5fc16ab55fb44269aa814b1401b  LINKMT  .COM     12K  Link/MT+ v5.6.1
-5cb0073923a0d6035d0606075e48168086692a2f  MGR     .COM     15K  
+5cb0073923a0d6035d0606075e48168086692a2f  MGR     .COM     15K  Mgr 1.0 (A.Soolo '93)
 99ef6416ce88142c28d7e1df99b4cc5e0974cff3  PASLIB  .ERL     25K  
 9d3ced12739adc774775042f91649c3a5ab9e047  RAHA    .BAS    1,5K  
 2dad50a985f81101fce222b5c524975f078342ac  REGLEMEN.       2,3K  

@@ -1227,7 +1227,7 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``NETD    .COM    7,4K``    EKTA Janet 1.0 14/11/00  
 ``NETR    .COM    6,5K``    EKTA N-EKDOS 1.0  
 ``PACK    .PAS    1,2K``      
-``PD      .COM     15K``      
+``PD      .COM     15K``    Printer's Driver v1.0 (H)  
 ``PIP     .COM    7,3K``    CP/M failide kopeerija  
 ``QDISK   .COM    7,2K``    Disk Test (EKTA '85)  
 ``QRUN    .COM    4,8K``    Quick Test (EKTA '85)  
@@ -1330,7 +1330,7 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``FX800   .COM    1,8K``    Epson FX-800 printeri draiver  
 ``GRAPH   .ERL    2,0K``      
 ``LINKMT  .COM     12K``    Link/MT+ v5.6.1  
-``MGR     .COM     15K``      
+``MGR     .COM     15K``    Mgr 1.0 (A.Soolo '93)  
 ``PASLIB  .ERL     25K``      
 ``RAHA    .BAS    1,5K``      
 ``REGLEMEN.       2,3K``      
