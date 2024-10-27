@@ -17,11 +17,11 @@ Taastatud mängude koondtõmmis ELFAfoorumi 2020 jaanuari lõimest.
 ``3       .        896``      
 ``4       .        896``      
 ``5       .        896``      
-``ASCII   .        896``    ASCII font (US laotus)  
+``ASCII   .        896``    Ladina tähestiku font (US laotus)  
 ``ATSKOO  .COM     18K``    Kaardimäng "Atskoo" (Kohtla-J 1KK)  
 ``AVTEST  .COM     14K``    Arvutusliku võime test (Vakstu '91?)  
 ``AVTEST  .DOC    2,7K``      
-``BOWLING .COM    3,5K``    Keegel (Writer Company)  
+``BOWLING .COM    3,5K``    Keegel (Maxway & I.K.S. '91)  
 ``BUGABOO .COM     18K``    Kaalikas labürindis (EKTA '89)  
 ``BUGABOO .DAT    1,0K``      
 ``BUGABOO .MSG    1,4K``      
@@ -69,26 +69,26 @@ Taastatud mängude koondtõmmis ELFAfoorumi 2020 jaanuari lõimest.
 Taastatud programmide koondtõmmis #1 ELFAfoorumi 2020 jaanuari lõimest.
 
 ``ALIENS  .PIC    1,7K``      
-``ASCII   .        896``    ASCII font (US laotus)  
+``ASCII   .        896``    Ladina tähestiku font (US laotus)  
 ``AVE     .PLR    2,0K``      
 ``BACH    .PLR     256``      
 ``BEETHOVE.PLR     256``      
 ``BIGDASAR.PIC    1,3K``      
 ``BIKE    .PIC    2,0K``      
 ``BIZET   .PLR     512``      
-``CAL     .COM     18K``    Graafiline ujukoma kalkulaator  
+``CAL     .COM     18K``    Murdarvude kalkulaator (40x24)  
 ``CD      .PIC    3,4K``      
 ``CF      .COM    1,0K``    Failide kopeerimine 1.0 (EKTA '89)  
-``CF      .HLP    1,5K``    Eestikeelne lühijuhend  
+``CF      .HLP    1,5K``    CF lühijuhend  
 ``CM6329  .COM    1,8K``    Robotron CM6329 printeri draiver  
 ``COMPU   .COM    1,8K``    Compute Mate 160 printeri draiver  
 ``D100M   .COM    1,4K``    D100M printeri draiver (EKTA '91)  
-``DEMO    .COM    5,2K``    Audio-Video-Text demos (EKTA '88)  
-``DEMO    .DOC    8,8K``    Instructions to DEMO.COM  
-``DEMO    .DOK    8,0K``    Instructions to DEMO.COM  
-``DEMO    .HLP    3,5K``    DEMO help file  
-``DEMOS   .COM    8,3K``    A-V-T program preparation  
-``DEMOS   .DOC     16K``    Instruction to DEMOS  
+``DEMO    .COM    5,2K``    Audio-Video-Text demod (EKTA '88)  
+``DEMO    .DOC    8,8K``    DEMO juhend  
+``DEMO    .DOK    8,0K``    DEMO juhend  
+``DEMO    .HLP    3,5K``    DEMO abifail  
+``DEMOS   .COM    8,3K``    A-V-T demode ettevalmistus  
+``DEMOS   .DOC     16K``    DEMOS juhend  
 ``DIGGER  .COM    1,2K``    Residentne tähesadu?  
 ``DOCTOR  .COM     36K``    Disk Editor & Diagnostics 1.11 ('83)  
 ``DOSGEN  .COM     896``    CP/M süsteemiketta generaator 3.4  
@@ -117,36 +117,36 @@ Taastatud programmide koondtõmmis #1 ELFAfoorumi 2020 jaanuari lõimest.
 ``KORVITS2.PIC    2,9K``      
 ``KORVITS .PIC    2,5K``      
 ``KULT    .COM     12K``    EKDOS Disk Test util 1.0 (EKTA '89)  
-``KULT    .HLP    8,7K``    Juhised KULT.COM jaoks  
+``KULT    .HLP    8,7K``    KULT juhend  
 ``KUVA    .COM     768``    Kuva asetus ekraanil 1.1 (K.Kevvai)  
 ``LAEVADEP.PIC    2,2K``      
 ``LF      .COM    2,0K``    Fondi laadija MODXi jaoks  
 ``MAASTIK .PIC    5,0K``      
 ``MAJA    .PIC    4,2K``      
 ``MAKK    .PIC    1,9K``      
-``ME      .COM     32K``    Music Editor  
-``MED     .COM    3,0K``    EKTA Memory EDitor 1.0  
-``ME      .DOC     12K``    Instructions to ME and PLAYER.ERL  
+``ME      .COM     32K``    Heliredaktor "Music Editor" 2.3 ('88)  
+``MED     .COM    3,0K``    Memory EDitor 1.0 (EKTA)  
+``ME      .DOC     12K``    ME ja PLAYER.ERL juhend  
 ``MEHHAAN2.PIC    5,2K``      
 ``MEHHAAN .PIC    3,4K``      
-``MIC     .COM    3,8K``    EKTA Micro-editor 1.0 ('88)  
+``MIC     .COM    3,8K``    Micro-editor 1.0 (EKTA '88)  
 ``MIC     .HLP    6,3K``    MIC juhend  
 ``MIKA    .PIC    1,2K``      
 ``MODE    .COM     256``    40x24, 53x24 ja 64x20 lüliti  
 ``MODX    .COM    3,5K``    80x24 kuvalaotuse draiver  
-``MUSAM   .COM    3,7K``    Musa Master  
+``MUSAM   .COM    3,7K``    Klaver "Musa Master" (EKTA '89)  
 ``MUSKETAR.PIC    1,3K``      
 ``NSVL    .PIC    3,3K``      
 ``PACIUS  .PLR     256``      
 ``PATTERN .PIC    7,2K``      
 ``PIP     .COM    7,3K``    CP/M failide kopeerija  
-``PLAYER  .ERL     512``    Driver for sound generation  
+``PLAYER  .ERL     512``    Pascali moodul MEga kasutamiseks  
 ``POWER   .COM     16K``    POWER 3.03 (c) by Pavel Breder  
 ``PRT     .DOC    7,3K``    PRT.COM versioon 5.0 juhised  
 ``PUNK    .PIC     640``      
 ``RAHA    .PIC    1,8K``      
 ``RDEM    .COM     30K``    JUKU ametlik demoprogramm (EKTA '87)  
-``READ    .ME     4,2K``    JUKU util disk #4 väljalasketeade  
+``READ    .ME     4,2K``    JUKU util disk #4 teabeleht ('89)  
 ``RUS     .        896``    Kirillitsa font (KOI-8)  
 ``SDEL    .COM     896``    Selective Delete v2.0  
 ``SED80   .COM     10K``    Screen text editor 6.1 (80x24)  
@@ -177,7 +177,7 @@ Taastatud programmide koondtõmmis #2 ELFAfoorumi 2020 jaanuari lõimest.
 ``BASLIB  .REL     25K``      
 ``BRUN    .COM     16K``    BASIC runtime 5.30 (Microsoft)  
 ``CF      .COM    1,0K``    Failide kopeerimine 1.0 (EKTA '89)  
-``CF      .HLP    1,5K``    Eestikeelne lühijuhend  
+``CF      .HLP    1,5K``    CF lühijuhend  
 ``CPU     .COM     19K``    Microprocessor Test 1.2 (EKTA '85)  
 ``DBAAS   .DOK     28K``    dBASE II käskude tutvustus  
 ``DBASE   .COM     19K``    dBASE II v2.4  
@@ -267,10 +267,10 @@ Mälukividelt taastatud JUKU püsimälu monitorid ja laiendused.
 Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 
 ``CPM22   .BIN     10K``    CP/M 2.2  
-``CPM231E .BIN     10K``    CP/M 2.31e  
+``CPM231E .BIN     10K``    CP/M 2.31e (=EKDOS 2.30)  
 ``EKDOS229.BIN     10K``    EKDOS 2.29  
 ``EKDOS230.BIN     10K``    EKDOS 2.30  
-``EKDOSVSW.BIN     10K``    "VSW tööketas" (EKDOS 2.29)  
+``EKDOSVSW.BIN     10K``    "VSW tööketas" (=EKDOS 2.29)  
 
 ## MAALT01
 
@@ -311,7 +311,7 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``MODX    .COM    3,5K``    80x24 kuvalaotuse draiver  
 ``MR      .ALE     384``      
 ``MR      .NOS    1,8K``      
-``MUSAM   .COM    3,7K``    Musa Master  
+``MUSAM   .COM    3,7K``    Klaver "Musa Master" (EKTA '89)  
 ``POWER   .COM     16K``    POWER 3.03 (c) by Pavel Breder  
 ``TAIMO   .        640``      
 ``URMAS   .PIC     896``      
@@ -332,8 +332,8 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``KIRJAND .       1,4K``      
 ``K|RT    .       1,2K``      
 ``LEPING  .       3,4K``      
-``ME      .COM     32K``    Music Editor  
-``MED     .COM    3,0K``    EKTA Memory EDitor 1.0  
+``ME      .COM     32K``    Heliredaktor "Music Editor" 2.3 ('88)  
+``MED     .COM    3,0K``    Memory EDitor 1.0 (EKTA)  
 ``PACIUS  .PLR     256``      
 ``POWER   .COM     16K``    POWER 3.03 (c) by Pavel Breder  
 ``TAAVI   .        512``      
@@ -345,7 +345,7 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ## MAALT03
 
 ``ATSKOO  .COM     18K``    Kaardimäng "Atskoo" (Kohtla-J 1KK)  
-``BOWLING .COM    3,5K``    Keegel (Writer Company)  
+``BOWLING .COM    3,5K``    Keegel (Maxway & I.K.S. '91)  
 ``BUGABOO .COM     18K``    Kaalikas labürindis (EKTA '89)  
 ``BUGABOO .DAT    1,0K``      
 ``BUGABOO .MSG    1,4K``      
@@ -395,8 +395,8 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``LAOLEO  .COM     32K``    "Sokobani" kloon (Kompuuter '91 H)  
 ``LLL     .        31K``      
 ``LLL     .COM     31K``      
-``ME      .COM     32K``    Music Editor  
-``MED     .COM    3,0K``    EKTA Memory EDitor 1.0  
+``ME      .COM     32K``    Heliredaktor "Music Editor" 2.3 ('88)  
+``MED     .COM    3,0K``    Memory EDitor 1.0 (EKTA)  
 ``MODE    .        256``    40x24, 53x24 ja 64x20 lüliti  
 ``MODE    .COM     256``    40x24, 53x24 ja 64x20 lüliti  
 ``MODX    .COM    3,5K``    80x24 kuvalaotuse draiver  
@@ -463,7 +463,7 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``AVTEST  .DOC    2,7K``      
 ``B80     .COM     24K``    CP/M BASIC-80 5.21 (Microsoft '81)  
 ``BIO80   .BAS    2,0K``      
-``BOWLING .COM    3,5K``    Keegel (Writer Company)  
+``BOWLING .COM    3,5K``    Keegel (Maxway & I.K.S. '91)  
 ``BRUN    .COM     16K``    BASIC runtime 5.30 (Microsoft)  
 ``BUGABOO .COM     18K``      
 ``BUGABOO .DAT    1,0K``      
@@ -524,7 +524,7 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 
 ``AVTEST  .COM     14K``      
 ``AVTEST  .DOC    2,7K``      
-``BOWLING .COM    3,5K``    Keegel (Writer Company)  
+``BOWLING .COM    3,5K``    Keegel (Maxway & I.K.S. '91)  
 ``BUGABOO .COM     18K``    Kaalikas labürindis (EKTA '89)  
 ``BUGABOO .DAT    1,0K``      
 ``BUGABOO .MSG    1,4K``      
@@ -550,7 +550,7 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``AVTEST  .DOC    2,7K``      
 ``B80     .COM     24K``    CP/M BASIC-80 5.21 (Microsoft '81)  
 ``BIO80   .BAS    2,0K``      
-``BOWLING .COM    3,5K``    Keegel (Writer Company)  
+``BOWLING .COM    3,5K``    Keegel (Maxway & I.K.S. '91)  
 ``BRUN    .COM     16K``    BASIC runtime 5.30 (Microsoft)  
 ``BUGABOO .COM     18K``    Kaalikas labürindis (EKTA '89)  
 ``BUGABOO .DAT    1,0K``      
@@ -614,7 +614,7 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``MODE    .COM     256``    40x24, 53x24 ja 64x20 lüliti  
 ``MOND    .COM     17K``    "Artillery Duel" kloon?  
 ``MP      .$$$       0``      
-``MUSAM   .COM    3,7K``    Musa Master  
+``MUSAM   .COM    3,7K``    Klaver "Musa Master" (EKTA '89)  
 ``PIP     .COM    7,3K``    CP/M failide kopeerija  
 ``POWER   .COM     16K``    POWER 3.03 (c) by Pavel Breder  
 ``SNAKE   .COM     12K``    "Ussike" (M.Gladin/EKTA '87)  
@@ -759,7 +759,7 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``KAP     .PIC     512``      
 `` KASTID .PCD     128``      
 ``MAASTIK .PIC    5,0K``      
-``MUSAM   .COM    3,7K``    Musa Master  
+``MUSAM   .COM    3,7K``    Klaver "Musa Master" (EKTA '89)  
 ``PUNK    .PIC     640``      
 ``RAHA    .PIC    1,8K``      
 ``RDEM    .COM     30K``    JUKU ametlik demoprogramm (EKTA '87)  
@@ -879,7 +879,7 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``MEHHAAN .PIC    3,4K``      
 ``MODE    .COM     256``    40x24, 53x24 ja 64x20 lüliti  
 ``MOND    .COM     17K``    "Artillery Duel" kloon?  
-``MUSAM   .COM    3,7K``    Musa Master  
+``MUSAM   .COM    3,7K``    Klaver "Musa Master" (EKTA '89)  
 ``NSVL    .PIC    3,3K``      
 ``POWER   .COM     16K``    POWER 3.03 (c) by Pavel Breder  
 ``SNAKE   .COM     12K``    "Ussike" (M.Gladin/EKTA '87)  
@@ -904,7 +904,7 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``AVTEST  .DOC    2,7K``      
 ``B80     .COM     24K``    CP/M BASIC-80 5.21 (Microsoft '81)  
 ``BIO80   .BAS    2,0K``      
-``BOWLING .COM    3,5K``    Keegel (Writer Company)  
+``BOWLING .COM    3,5K``    Keegel (Maxway & I.K.S. '91)  
 ``BRUN    .COM     16K``    BASIC runtime 5.30 (Microsoft)  
 ``BUGABOO .COM     18K``    Kaalikas labürindis (EKTA '89)  
 ``BUGABOO .DAT    1,0K``      
@@ -943,7 +943,7 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``BIGDASAR.PIC    1,3K``      
 ``BIKE    .PIC    2,0K``      
 ``BIO80   .BAS    2,0K``      
-``BOWLING .COM    3,5K``    Keegel (Writer Company)  
+``BOWLING .COM    3,5K``    Keegel (Maxway & I.K.S. '91)  
 ``BRUN    .COM     16K``    BASIC runtime 5.30 (Microsoft)  
 ``BUGABOO .COM     18K``    Kaalikas labürindis (EKTA '89)  
 ``BUGABOO .DAT    1,0K``      
@@ -1176,7 +1176,7 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``2       .       7,4K``    JCM juhend tiitelleheta ('89)  
 ``BASCOM  .DOK     11K``    BASCOMi juhend (EKTA '88)  
 ``DBAAS   .DOK     28K``    dBASE II käskude tutvustus  
-``DEMO    .DOK    8,0K``    Instructions to DEMO.COM  
+``DEMO    .DOK    8,0K``    DEMO juhend  
 ``DIR     .        12K``    JUKU File/Copy Master 1.0 (EKTA '89)  
 ``DOCTOR  .COM     36K``      
 ``FORT    .DOK     42K``    F80 translaatori juhend (EKTA '88)  
@@ -1185,7 +1185,7 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``JCM     .        12K``    JUKU File/Copy Master 1.0 (EKTA '89)  
 ``JCMHELP .       7,4K``    JCM juhend tiitelleheta ('89)  
 ``ME      .COM     32K``      
-``ME      .DOC     12K``    Instructions to ME and PLAYER.ERL  
+``ME      .DOC     12K``    ME ja PLAYER.ERL juhend  
 ``MP      .HLP     40K``      
 ``MPLAN   .DOK     32K``      
 ``PACIUS  .PLR     256``      
@@ -1260,7 +1260,7 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``MTPLUS  .004     17K``      
 ``MTPLUS  .005    8,5K``      
 ``MTPLUS  .006    6,2K``      
-``PD      .COM     15K``      
+``PD      .COM     15K``    Printer's Driver v1.0 (H)  
 ``PORTREE .       6,3K``      
 ``PROOV   .BAS     256``      
 ``SDEL    .COM     896``    Selective Delete v2.0  
