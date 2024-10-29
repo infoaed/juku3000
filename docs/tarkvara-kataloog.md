@@ -37,7 +37,7 @@ Taastatud mängude koondtõmmis ELFAfoorumi 2020 jaanuari lõimest.
 ``GAMEBOY .Z81    2,9K``      
 ``HUNTER  .COM    6,8K``    Jahiklubi (80x24, Vakstu/MIG '86)  
 ``HUNTER  .DAT     256``      
-``INDY    .COM     27K``    Indy Looking for Jewels... ('91)  
+``INDY    .COM     27K``    Indy Looking for Jewels (I.Käär '91)  
 ``INDY    .DAT     12K``      
 ``KAP     .COM     32K``    Merelahing  
 ``KAPTEN  .COM     32K``    Merelahing (ed K.Koppel)  
@@ -61,7 +61,7 @@ Taastatud mängude koondtõmmis ELFAfoorumi 2020 jaanuari lõimest.
 ``TANK    .COM     15K``    Tank UFOde vastu  
 ``TET     .COM     17K``    Hiirega "Tetris" (A.Mett '90 H)  
 ``TETRIS1 .COM    1,9K``    Graafiline "Tetris" (T.Ainsaar '90)  
-``TETRIS  .COM     23K``    "Tetris" 1.1 (A.Mett 1990)  
+``TETRIS  .COM     23K``    "Tetris" 1.1 (A.Mett '90)  
 ``XONIX   .COM    3,8K``    "Qixi" kloon (E.Jürviste/EKTA '87)  
 
 ## JUKPROG1
@@ -87,11 +87,11 @@ Taastatud programmide koondtõmmis #1 ELFAfoorumi 2020 jaanuari lõimest.
 ``DEMO    .DOC    8,8K``    DEMO juhend  
 ``DEMO    .DOK    8,0K``    DEMO juhend  
 ``DEMO    .HLP    3,5K``    DEMO abifail  
-``DEMOS   .COM    8,3K``    A-V-T demode ettevalmistus  
+``DEMOS   .COM    8,3K``    A-V-T demode ettevalmistus (EKTA)  
 ``DEMOS   .DOC     16K``    DEMOS juhend  
 ``DIGGER  .COM    1,2K``    Residentne tähesadu?  
 ``DOCTOR  .COM     36K``    Disk Editor & Diagnostics 1.11 ('83)  
-``DOSGEN  .COM     896``    CP/M süsteemiketta generaator 3.4  
+``DOSGEN  .COM     896``    Süsteemiketta generaator 3.4 (CP/M)  
 ``EST     .        896``    Eesti tähestiku font (JUKU)  
 ``FDMAINT .COM     11K``    Floppy Maintenance 1.1 (EKTA '88)  
 ``FLIGHT  .COM     896``      
@@ -124,9 +124,9 @@ Taastatud programmide koondtõmmis #1 ELFAfoorumi 2020 jaanuari lõimest.
 ``MAASTIK .PIC    5,0K``      
 ``MAJA    .PIC    4,2K``      
 ``MAKK    .PIC    1,9K``      
-``ME      .COM     32K``    Heliredaktor "Music Editor" 2.3 ('88)  
+``ME      .COM     32K``    Heliredaktor "Music Editor" 2.4 ('89)  
 ``MED     .COM    3,0K``    Memory EDitor 1.0 (EKTA)  
-``ME      .DOC     12K``    ME ja PLAYER.ERL juhend  
+``ME      .DOC     12K``    ME 2.3 ja mooduli PLAYER.ERL juhend  
 ``MEHHAAN2.PIC    5,2K``      
 ``MEHHAAN .PIC    3,4K``      
 ``MIC     .COM    3,8K``    Micro-editor 1.0 (EKTA '88)  
@@ -139,9 +139,9 @@ Taastatud programmide koondtõmmis #1 ELFAfoorumi 2020 jaanuari lõimest.
 ``NSVL    .PIC    3,3K``      
 ``PACIUS  .PLR     256``      
 ``PATTERN .PIC    7,2K``      
-``PIP     .COM    7,3K``    CP/M failide kopeerija  
+``PIP     .COM    7,3K``    Failide kopeerija (CP/M)  
 ``PLAYER  .ERL     512``    Pascali moodul MEga kasutamiseks  
-``POWER   .COM     16K``    POWER 3.03 (c) by Pavel Breder  
+``POWER   .COM     16K``    Kettahaldur 3.03 (P.Breder '82)  
 ``PRT     .DOC    7,3K``    PRT.COM versioon 5.0 juhised  
 ``PUNK    .PIC     640``      
 ``RAHA    .PIC    1,8K``      
@@ -154,24 +154,24 @@ Taastatud programmide koondtõmmis #1 ELFAfoorumi 2020 jaanuari lõimest.
 ``SEIKO   .COM    1,8K``    Seikosha SP-800 driver  
 ``SETS    .COM    1,4K``    Set file(s) status (SETS *.* $r/o)  
 ``SIPELGAS.PIC    3,4K``      
-``SK      .COM    4,0K``    SideKicK kalkulaator 1.0 (40x24)  
-``STAT    .COM    5,2K``    CP/M ketta statistika  
-``SYSINFO .COM    1,2K``    CP/M põhiteave süsteemi kohta  
+``SK      .COM    4,0K``    Kalkulaator "SideKicK" 1.0 (40x24)  
+``STAT    .COM    5,2K``    Failisüsteemi statistika (CP/M)  
+``SYSINFO .COM    1,2K``    Põhiteave süsteemi kohta (CP/M)  
 ``TORUD   .PIC    7,5K``      
 ``URMAS   .PIC     896``      
 ``VALGRE  .PLR     128``      
 ``WSJ     .COM     16K``    MicroPro WordStar 3.0 (64x20)  
 ``WSMSGS  .OVR     28K``      
 ``WSOVLY1 .OVR     34K``      
-``XDIR    .COM    2,3K``    CP/M failikataloogide näitaja 3.5  
+``XDIR    .COM    2,3K``    Failikataloogide näitaja 3.5 (CP/M)  
 ``X-FILE  .PIC    1,7K``      
 
 ## JUKPROG2
 
 Taastatud programmide koondtõmmis #2 ELFAfoorumi 2020 jaanuari lõimest.
 
-``ASM     .COM    8,0K``    CP/M Assembler 2.0  
-``B80     .COM     24K``    CP/M BASIC-80 5.21 (Microsoft '81)  
+``ASM     .COM    8,0K``    Assembler 2.0 (CP/M)  
+``B80     .COM     24K``    BASIC-80 5.21 (Microsoft '81)  
 ``BASCOM  .COM     32K``    BASICu translaator 5.30 (Microsoft)  
 ``BASCOM  .DOK     11K``    BASCOMi juhend (EKTA '88)  
 ``BASLIB  .REL     25K``      
@@ -184,9 +184,9 @@ Taastatud programmide koondtõmmis #2 ELFAfoorumi 2020 jaanuari lõimest.
 ``DBASEMSG.TXT     52K``      
 ``DBASEOVR.COM     40K``      
 ``DBINST  .COM     14K``      
-``DOSGEN  .COM     896``    CP/M süsteemiketta generaator 3.4  
+``DOSGEN  .COM     896``    Süsteemiketta generaator 3.4 (CP/M)  
 ``DUMP    .COM     512``    File dump 1.4  
-``ED      .COM    6,5K``    CP/M context editor  
+``ED      .COM    6,5K``    Context editor (CP/M)  
 ``EKDOS30 .ASM     14K``    Source text of BIOS of EKDOS  
 ``FORMAT  .COM    1,3K``    EKDOS 786K flopide vormindaja 3.4  
 ``INSTALL .COM    6,4K``    Microsoft tools config 1.02 ('81)  
@@ -198,27 +198,27 @@ Taastatud programmide koondtõmmis #2 ELFAfoorumi 2020 jaanuari lõimest.
 ``JLOAD   .LDR     384``    Residentsete programmide laadur  
 ``L80     .COM     11K``    Link-80 3.44 (Microsoft '81)  
 ``LINK    .COM     16K``    MP/M Link program 1.3  
-``LOAD    .COM    1,8K``    CP/M HEX to COM converter  
-``MAC     .COM     12K``    CP/M Macro Assembler 2.0  
+``LOAD    .COM    1,8K``    HEX to COM converter (CP/M)  
+``MAC     .COM     12K``    Macro Assembler 2.0 (CP/M)  
 ``MDUMP   .COM     512``    Memory Dump  
 ``MIT     .COM     16K``    Move-it: RS232 comms utility 3.0  
 ``MP40    .       6,3K``      
 ``MP80    .       6,3K``      
-``MP      .COM     17K``    Microsoft Multiplan 1.05  
+``MP      .COM     17K``    Multiplan 1.05 (Microsoft '81)  
 ``MP      .HLP     40K``      
 ``MPLAN   .DOK     32K``      
 ``MP      .OVR     43K``      
 ``MTEST2  .COM    9,5K``    Memory Test 0100-14FF (EKTA '85)  
 ``MTEST   .COM    4,5K``    Memory Test 1500-FFFF (EKTA '85)  
-``NETD    .COM    7,4K``    EKTA Janet 1.0 14/11/00  
-``NETR    .COM    6,5K``    EKTA N-EKDOS 1.0  
+``NETD    .COM    7,4K``    Janet 1.0 14/11/00 (EKTA)  
+``NETR    .COM    6,5K``    N-EKDOS 1.0 (EKTA)  
 ``PRT     .COM    4,0K``    Print file utility 5.3  
 ``QDISK   .COM    7,2K``    Disk Test (EKTA '85)  
 ``QRUN    .COM    4,8K``    Quick Test (EKTA '85)  
 ``RESIDENT.DOC    1,7K``    Residentsete programmide juhend  
-``SID     .COM    7,0K``    CP/M masinkoodi silur SID 1.4  
+``SID     .COM    7,0K``    Masinkoodi silur SID 1.4 (CP/M)  
 ``SID     .DOK     19K``    Siluri kasutajajuhis (EKTA '89)  
-``SUBMIT  .COM    1,3K``    CP/M käsujadade töötleja  
+``SUBMIT  .COM    1,3K``    Käsujadade töötleja (CP/M)  
 ``TERM    .COM    9,5K``    Terminal Demo/Test 1.2 (EKTA '85)  
 
 ## JUKPROGX
@@ -227,7 +227,7 @@ Taastatud programmide koondtõmmis #3 ELFAfoorumi 2020 jaanuari lõimest.
 
 ``BASLIB  .REL     49K``      
 ``BIO80   .BAS    2,0K``      
-``DOSGEN  .COM     896``    CP/M süsteemiketta generaator 3.4  
+``DOSGEN  .COM     896``    Süsteemiketta generaator 3.4 (CP/M)  
 ``F80     .COM     27K``    Fortrani translaator  
 ``FORLIB  .REL     26K``      
 ``FORMAT  .COM    1,3K``    EKDOS 786K flopide vormindaja 3.4  
@@ -283,7 +283,7 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``A       .        640``      
 ``ANRI    .       1,0K``      
 ``ANRI    .BAK    1,0K``      
-``B80     .COM     24K``    CP/M BASIC-80 5.21 (Microsoft '81)  
+``B80     .COM     24K``    BASIC-80 5.21 (Microsoft '81)  
 ``BEIB    .PIC    1,4K``      
 ``BIO80   .BAS    2,0K``      
 ``BUGABOO .COM     18K``    Kaalikas labürindis (EKTA '89)  
@@ -312,13 +312,13 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``MR      .ALE     384``      
 ``MR      .NOS    1,8K``      
 ``MUSAM   .COM    3,7K``    Klaver "Musa Master" (EKTA '89)  
-``POWER   .COM     16K``    POWER 3.03 (c) by Pavel Breder  
+``POWER   .COM     16K``    Kettahaldur 3.03 (P.Breder '82)  
 ``TAIMO   .        640``      
 ``URMAS   .PIC     896``      
 ``WSJ     .COM     16K``    MicroPro WordStar 3.0 (64x20)  
 ``WSMSGS  .OVR     28K``      
 ``WSOVLY1 .OVR     34K``      
-``XDIR    .COM    2,3K``    CP/M failikataloogide näitaja 3.5  
+``XDIR    .COM    2,3K``    Failikataloogide näitaja 3.5 (CP/M)  
 ``XONIX   .COM    3,8K``    "Qixi" kloon (E.Jürviste/EKTA '87)  
 ``YL80    .BAS    1,3K``      
 
@@ -332,10 +332,10 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``KIRJAND .       1,4K``      
 ``K|RT    .       1,2K``      
 ``LEPING  .       3,4K``      
-``ME      .COM     32K``    Heliredaktor "Music Editor" 2.3 ('88)  
+``ME      .COM     32K``    Heliredaktor "Music Editor" 2.4 ('89)  
 ``MED     .COM    3,0K``    Memory EDitor 1.0 (EKTA)  
 ``PACIUS  .PLR     256``      
-``POWER   .COM     16K``    POWER 3.03 (c) by Pavel Breder  
+``POWER   .COM     16K``    Kettahaldur 3.03 (P.Breder '82)  
 ``TAAVI   .        512``      
 ``TOOMAS  .        256``      
 ``WS      .COM     16K``    MicroPro WordStar 3.0 (64x20)  
@@ -354,7 +354,7 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``CATCHUM .DAT     512``      
 ``HUNTER  .COM    6,8K``    Jahiklubi (80x24, Vakstu/MIG '86)  
 ``HUNTER  .DAT     256``      
-``INDY    .COM     27K``    Indy Looking for Jewels... ('91)  
+``INDY    .COM     27K``    Indy Looking for Jewels (I.Käär '91)  
 ``INDY    .DAT     12K``      
 ``KAP     .COM     32K``    Merelahing  
 ``LADDER  .COM     40K``    Tuntud CP/Mi platvormimäng (80x24)  
@@ -395,16 +395,16 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``LAOLEO  .COM     32K``    "Sokobani" kloon (Kompuuter '91 H)  
 ``LLL     .        31K``      
 ``LLL     .COM     31K``      
-``ME      .COM     32K``    Heliredaktor "Music Editor" 2.3 ('88)  
+``ME      .COM     32K``    Heliredaktor "Music Editor" 2.4 ('89)  
 ``MED     .COM    3,0K``    Memory EDitor 1.0 (EKTA)  
 ``MODE    .        256``    40x24, 53x24 ja 64x20 lüliti  
 ``MODE    .COM     256``    40x24, 53x24 ja 64x20 lüliti  
 ``MODX    .COM    3,5K``    80x24 kuvalaotuse draiver  
 ``MOND    .COM     17K``    "Artillery Duel" kloon?  
-``MP      .        17K``    Microsoft Multiplan 1.05  
-``MP      .COM     17K``    Microsoft Multiplan 1.05  
-``PIP     .COM    7,3K``    CP/M failide kopeerija  
-``POWER   .COM     16K``    POWER 3.03 (c) by Pavel Breder  
+``MP      .        17K``    Multiplan 1.05 (Microsoft '81)  
+``MP      .COM     17K``    Multiplan 1.05 (Microsoft '81)  
+``PIP     .COM    7,3K``    Failide kopeerija (CP/M)  
+``POWER   .COM     16K``    Kettahaldur 3.03 (P.Breder '82)  
 ``SHOT    .COM    2,3K``      
 ``ZOO     .        25K``    "Lode Runner" loomaaias (Vakstu '91)  
 ``ZOO     .COM     25K``      
@@ -440,10 +440,10 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``MP      .HLP     40K``      
 ``MP      .OVR     43K``      
 ``PATTERN .PIC    7,2K``      
-``PIP     .COM    7,3K``    CP/M failide kopeerija  
+``PIP     .COM    7,3K``    Failide kopeerija (CP/M)  
 ``SNAKE   .COM     12K``    "Ussike" (M.Gladin/EKTA '87)  
 ``SNAKE   .DAT    1,0K``      
-``XDIR    .COM    2,3K``    CP/M failikataloogide näitaja 3.5  
+``XDIR    .COM    2,3K``    Failikataloogide näitaja 3.5 (CP/M)  
 
 ## MAALT06
 
@@ -461,7 +461,7 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``ATSKOO  .COM     18K``    Kaardimäng "Atskoo" (Kohtla-J 1KK)  
 ``AVTEST  .COM     14K``    Arvutusliku võime test (Vakstu '91?)  
 ``AVTEST  .DOC    2,7K``      
-``B80     .COM     24K``    CP/M BASIC-80 5.21 (Microsoft '81)  
+``B80     .COM     24K``    BASIC-80 5.21 (Microsoft '81)  
 ``BIO80   .BAS    2,0K``      
 ``BOWLING .COM    3,5K``    Keegel (Maxway & I.K.S. '91)  
 ``BRUN    .COM     16K``    BASIC runtime 5.30 (Microsoft)  
@@ -472,7 +472,7 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``CATCHUM .COM     29K``    Tuntud CP/Mi "Pac-Mani" kloon (80x24)  
 ``CATCHUM .DAT     512``      
 ``COMPU   .COM    1,8K``    Compute Mate 160 printeri draiver  
-``DOSGEN  .COM     896``    CP/M süsteemiketta generaator 3.4  
+``DOSGEN  .COM     896``    Süsteemiketta generaator 3.4 (CP/M)  
 ``FDDTREQE.PIC     128``      
 ``FDMAINT .COM     11K``    Floppy Maintenance 1.1 (EKTA '88)  
 ``FORMAT  .COM    1,3K``    EKDOS 786K flopide vormindaja 3.4  
@@ -480,7 +480,7 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``HARLEY  .PIC       0``      
 ``HUNTER  .COM    6,8K``    Jahiklubi (80x24, Vakstu/MIG '86)  
 ``HUNTER  .DAT     256``      
-``INDY    .COM     27K``    Indy Looking for Jewels... ('91)  
+``INDY    .COM     27K``    Indy Looking for Jewels (I.Käär '91)  
 ``INDY    .DAT     12K``      
 ``JCM     .COM     12K``    JUKU File/Copy Master 1.0 (EKTA '89)  
 ``KAP     .COM     32K``    Merelahing  
@@ -498,8 +498,8 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``MP      .OVR     43K``      
 ``MURDERS .PIC       0``      
 ``PATTERN .PIC    7,2K``      
-``PIP     .COM    7,3K``    CP/M failide kopeerija  
-``POWER   .COM     16K``    POWER 3.03 (c) by Pavel Breder  
+``PIP     .COM    7,3K``    Failide kopeerija (CP/M)  
+``POWER   .COM     16K``    Kettahaldur 3.03 (P.Breder '82)  
 ``QQ574[] .PIC     256``      
 ``RAIN    .LL        0``      
 ``RDEM    .COM     30K``    JUKU ametlik demoprogramm (EKTA '87)  
@@ -517,7 +517,7 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``WS      .COM     16K``    MicroPro WordStar 3.0 (64x20)  
 ``WSMSGS  .OVR     28K``      
 ``WSOVLY1 .OVR     34K``      
-``XDIR    .COM    2,3K``    CP/M failikataloogide näitaja 3.5  
+``XDIR    .COM    2,3K``    Failikataloogide näitaja 3.5 (CP/M)  
 ``XONIX   .COM    3,8K``    "Qixi" kloon (E.Jürviste/EKTA '87)  
 
 ## MAALT07
@@ -532,7 +532,7 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``CATCHUM .COM     29K``    Tuntud CP/Mi "Pac-Mani" kloon (80x24)  
 ``CATCHUM .DAT     512``      
 ``COMPU   .COM    1,8K``    Compute Mate 160 printeri draiver  
-``INDY    .COM     27K``    Indy Looking for Jewels... ('91)  
+``INDY    .COM     27K``    Indy Looking for Jewels (I.Käär '91)  
 ``MODX    .COM    3,5K``    80x24 kuvalaotuse draiver  
 ``MOND    .COM     17K``    "Artillery Duel" kloon?  
 ``SNAKE   .COM     12K``    "Ussike" (M.Gladin/EKTA '87)  
@@ -548,7 +548,7 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``ATSKOO  .COM     18K``    Kaardimäng "Atskoo" (Kohtla-J 1KK)  
 ``AVTEST  .COM     14K``    Arvutusliku võime test (Vakstu '91?)  
 ``AVTEST  .DOC    2,7K``      
-``B80     .COM     24K``    CP/M BASIC-80 5.21 (Microsoft '81)  
+``B80     .COM     24K``    BASIC-80 5.21 (Microsoft '81)  
 ``BIO80   .BAS    2,0K``      
 ``BOWLING .COM    3,5K``    Keegel (Maxway & I.K.S. '91)  
 ``BRUN    .COM     16K``    BASIC runtime 5.30 (Microsoft)  
@@ -560,11 +560,11 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``CATCHUM .DAT     512``      
 ``COMPU   .COM    1,8K``    Compute Mate 160 printeri draiver  
 ``DEL     .LL      128``      
-``DOSGEN  .COM     896``    CP/M süsteemiketta generaator 3.4  
+``DOSGEN  .COM     896``    Süsteemiketta generaator 3.4 (CP/M)  
 ``FDMAINT .COM     11K``    Floppy Maintenance 1.1 (EKTA '88)  
 ``GB      .COM     23K``      
 ``GTR     .COM     27K``    Turbo GTR 2.5B (M.Gladin/EKTA '87)  
-``INDY    .COM     27K``    Indy Looking for Jewels... ('91)  
+``INDY    .COM     27K``    Indy Looking for Jewels (I.Käär '91)  
 ``INDY    .DAT     12K``      
 ``KAP     .COM     32K``    Merelahing  
 ``LADDER  .COM     40K``    Tuntud CP/Mi platvormimäng (80x24)  
@@ -579,8 +579,8 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``MODX    .COM    3,5K``    80x24 kuvalaotuse draiver  
 ``MOND    .COM     17K``    "Artillery Duel" kloon?  
 ``PATTERN .PIC    7,2K``      
-``PIP     .COM    7,3K``    CP/M failide kopeerija  
-``POWER   .COM     16K``    POWER 3.03 (c) by Pavel Breder  
+``PIP     .COM    7,3K``    Failide kopeerija (CP/M)  
+``POWER   .COM     16K``    Kettahaldur 3.03 (P.Breder '82)  
 ``PUSHER  .$$$       0``      
 ``SNAKE   .COM     12K``    "Ussike" (M.Gladin/EKTA '87)  
 ``SNAKE   .DAT    1,0K``      
@@ -599,12 +599,12 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``BUGABOO .COM     18K``    Kaalikas labürindis (EKTA '89)  
 ``CATCHUM .COM     29K``    Tuntud CP/Mi "Pac-Mani" kloon (80x24)  
 ``COMPU   .COM    1,8K``    Compute Mate 160 printeri draiver  
-``DOSGEN  .COM     896``    CP/M süsteemiketta generaator 3.4  
+``DOSGEN  .COM     896``    Süsteemiketta generaator 3.4 (CP/M)  
 ``FDMAINT .COM     11K``    Floppy Maintenance 1.1 (EKTA '88)  
 ``GAMEBOY .COM     23K``    Lenda ja tulista (A.Säde '91)  
 ``GAMEBOY .DAT     512``      
 ``GTR     .COM     27K``    Turbo GTR 2.5B (M.Gladin/EKTA '87)  
-``INDY    .COM     27K``    Indy Looking for Jewels... ('91)  
+``INDY    .COM     27K``    Indy Looking for Jewels (I.Käär '91)  
 ``JCM     .COM     12K``    JUKU File/Copy Master 1.0 (EKTA '89)  
 ``KAP     .COM     32K``    Merelahing  
 ``KAPTEN  .COM     32K``    Merelahing (ed K.Koppel)  
@@ -615,13 +615,13 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``MOND    .COM     17K``    "Artillery Duel" kloon?  
 ``MP      .$$$       0``      
 ``MUSAM   .COM    3,7K``    Klaver "Musa Master" (EKTA '89)  
-``PIP     .COM    7,3K``    CP/M failide kopeerija  
-``POWER   .COM     16K``    POWER 3.03 (c) by Pavel Breder  
+``PIP     .COM    7,3K``    Failide kopeerija (CP/M)  
+``POWER   .COM     16K``    Kettahaldur 3.03 (P.Breder '82)  
 ``SNAKE   .COM     12K``    "Ussike" (M.Gladin/EKTA '87)  
 ``ZOO     .COM     25K``    "Lode Runner" loomaaias (Vakstu '91)  
 ``TANK    .COM     15K``    Tank UFOde vastu  
 ``TET     .COM     17K``      
-``TETRIS  .COM     23K``    "Tetris" 1.1 (A.Mett 1990)  
+``TETRIS  .COM     23K``    "Tetris" 1.1 (A.Mett '90)  
 ``WS      .COM     16K``    MicroPro WordStar 3.0 (64x20)  
 ``XONIX   .COM    3,8K``    "Qixi" kloon (E.Jürviste/EKTA '87)  
 
@@ -782,7 +782,7 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``AMBUL   .       1,0K``      
 ``AMBULANT.DBF    3,5K``      
 ``AMBU    .MEM     512``      
-``B80     .COM     24K``    CP/M BASIC-80 5.21 (Microsoft '81)  
+``B80     .COM     24K``    BASIC-80 5.21 (Microsoft '81)  
 ``BUGABOO .COM     18K``    Kaalikas labürindis (EKTA '89)  
 ``BUGABOO .DAT    1,0K``      
 ``BUGABOO .TAB     384``      
@@ -811,7 +811,7 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``MODE    .COM     256``    40x24, 53x24 ja 64x20 lüliti  
 ``MP40    .       6,3K``      
 ``MP80    .       6,3K``      
-``MP      .COM     17K``    Microsoft Multiplan 1.05  
+``MP      .COM     17K``    Multiplan 1.05 (Microsoft '81)  
 ``MP      .HLP     40K``      
 ``MP      .OVR     43K``      
 ``PALK    .       2,3K``      
@@ -820,7 +820,7 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``ZOO     .COM     25K``    "Lode Runner" loomaaias (Vakstu '91)  
 ``TANK    .COM     15K``    Tank UFOde vastu  
 ``TET     .COM     17K``    Hiirega "Tetris" (A.Mett '90 H)  
-``TETRIS  .COM     23K``    "Tetris" 1.1 (A.Mett 1990)  
+``TETRIS  .COM     23K``    "Tetris" 1.1 (A.Mett '90)  
 ``UK      .DBF    1,0K``      
 ``UUS     .        128``      
 ``WS      .COM     16K``    MicroPro WordStar 3.0 (64x20)  
@@ -841,7 +841,7 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``INSTALL .SPC     256``      
 ``MP40    .       6,3K``      
 ``MP80    .       6,3K``      
-``MP      .COM     17K``    Microsoft Multiplan 1.05  
+``MP      .COM     17K``    Multiplan 1.05 (Microsoft '81)  
 ``MP      .HLP     40K``      
 ``MP      .OVR     43K``      
 ``PATTERN .PIC    7,2K``      
@@ -851,7 +851,7 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``AASTAD  .       2,2K``      
 ``ATSKOO  .COM     18K``    Kaardimäng "Atskoo" (Kohtla-J 1KK)  
 ``AVTEST  .COM     14K``      
-``B80     .COM     24K``    CP/M BASIC-80 5.21 (Microsoft '81)  
+``B80     .COM     24K``    BASIC-80 5.21 (Microsoft '81)  
 ``BIKE    .PIC    2,0K``      
 ``BRUN    .COM     16K``    BASIC runtime 5.30 (Microsoft)  
 ``BUGABOO .COM     18K``    Kaalikas labürindis (EKTA '89)  
@@ -859,12 +859,12 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``CATCHUM .DAT     512``      
 ``CHESS   .COM     31K``    Malemäng "Las ma mõtlen" (EKTA '89)  
 ``COMPU   .COM    1,8K``    Compute Mate 160 printeri draiver  
-``DOSGEN  .COM     896``    CP/M süsteemiketta generaator 3.4  
+``DOSGEN  .COM     896``    Süsteemiketta generaator 3.4 (CP/M)  
 ``FDMAINT .COM     11K``    Floppy Maintenance 1.1 (EKTA '88)  
 ``GAMEBOY .COM     512``      
 ``GB      .COM     23K``      
 ``GTR     .COM     27K``    Turbo GTR 2.5B (M.Gladin/EKTA '87)  
-``INDY    .COM     27K``    Indy Looking for Jewels... ('91)  
+``INDY    .COM     27K``    Indy Looking for Jewels (I.Käär '91)  
 ``INDY    .DAT     12K``      
 ``JCM     .COM     12K``    JUKU File/Copy Master 1.0 (EKTA '89)  
 ``JOBU    .PIC    4,7K``      
@@ -881,7 +881,7 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``MOND    .COM     17K``    "Artillery Duel" kloon?  
 ``MUSAM   .COM    3,7K``    Klaver "Musa Master" (EKTA '89)  
 ``NSVL    .PIC    3,3K``      
-``POWER   .COM     16K``    POWER 3.03 (c) by Pavel Breder  
+``POWER   .COM     16K``    Kettahaldur 3.03 (P.Breder '82)  
 ``SNAKE   .COM     12K``    "Ussike" (M.Gladin/EKTA '87)  
 ``SNAKE   .DAT    1,0K``      
 ``ZOO     .COM     25K``      
@@ -890,7 +890,7 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``VISIT   .PIC    1,0K``      
 ``WS      .COM     16K``    MicroPro WordStar 3.0 (64x20)  
 ``WSJ     .COM     16K``    MicroPro WordStar 3.0 (64x20)  
-``XDIR    .COM    2,3K``    CP/M failikataloogide näitaja 3.5  
+``XDIR    .COM    2,3K``    Failikataloogide näitaja 3.5 (CP/M)  
 ``XONIX   .COM    3,8K``    "Qixi" kloon (E.Jürviste/EKTA '87)  
 
 ## MAALT24
@@ -902,7 +902,7 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``ATSKOO  .COM     18K``    Kaardimäng "Atskoo" (Kohtla-J 1KK)  
 ``AVTEST  .COM     14K``    Arvutusliku võime test (Vakstu '91?)  
 ``AVTEST  .DOC    2,7K``      
-``B80     .COM     24K``    CP/M BASIC-80 5.21 (Microsoft '81)  
+``B80     .COM     24K``    BASIC-80 5.21 (Microsoft '81)  
 ``BIO80   .BAS    2,0K``      
 ``BOWLING .COM    3,5K``    Keegel (Maxway & I.K.S. '91)  
 ``BRUN    .COM     16K``    BASIC runtime 5.30 (Microsoft)  
@@ -914,12 +914,12 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``CATCHUM .DAT     512``      
 ``COMPU   .COM    1,8K``    Compute Mate 160 printeri draiver  
 ``DEL     .LL      128``      
-``DOSGEN  .COM     896``    CP/M süsteemiketta generaator 3.4  
+``DOSGEN  .COM     896``    Süsteemiketta generaator 3.4 (CP/M)  
 ``FDMAINT .COM     11K``    Floppy Maintenance 1.1 (EKTA '88)  
 ``GAMEBOY .Z79    6,0K``      
 ``GB      .COM     23K``      
 ``GTR     .COM     27K``    Turbo GTR 2.5B (M.Gladin/EKTA '87)  
-``INDY    .COM     27K``    Indy Looking for Jewels... ('91)  
+``INDY    .COM     27K``    Indy Looking for Jewels (I.Käär '91)  
 ``INDY    .DAT     12K``      
 ``KAP     .COM     32K``    Merelahing  
 ``LADDER  .COM     40K``    Tuntud CP/Mi platvormimäng (80x24)  
@@ -939,7 +939,7 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``ATSKOO  .COM     18K``    Kaardimäng "Atskoo" (Kohtla-J 1KK)  
 ``AVTEST  .COM     14K``    Arvutusliku võime test (Vakstu '91?)  
 ``AVTEST  .DOC    2,7K``      
-``B80     .COM     24K``    CP/M BASIC-80 5.21 (Microsoft '81)  
+``B80     .COM     24K``    BASIC-80 5.21 (Microsoft '81)  
 ``BIGDASAR.PIC    1,3K``      
 ``BIKE    .PIC    2,0K``      
 ``BIO80   .BAS    2,0K``      
@@ -955,13 +955,13 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``COMPU   .COM    1,8K``    Compute Mate 160 printeri draiver  
 ``DASAKSRK.PIC    2,4K``      
 ``DEL     .PIC     128``      
-``DOSGEN  .COM     896``    CP/M süsteemiketta generaator 3.4  
+``DOSGEN  .COM     896``    Süsteemiketta generaator 3.4 (CP/M)  
 ``FDMAINT .COM     11K``    Floppy Maintenance 1.1 (EKTA '88)  
 ``FILOTRIP.PIC    2,5K``      
 ``FILOTROP.PIC    2,0K``      
 ``GB      .COM     23K``      
 ``GTR     .COM     27K``    Turbo GTR 2.5B (M.Gladin/EKTA '87)  
-``INDY    .COM     27K``    Indy Looking for Jewels... ('91)  
+``INDY    .COM     27K``    Indy Looking for Jewels (I.Käär '91)  
 ``INDY    .DAT     12K``      
 ``JAIL    .PIC    2,3K``      
 ``JCM     .COM     12K``    JUKU File/Copy Master 1.0 (EKTA '89)  
@@ -990,8 +990,8 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``MUSKET\R.PIC    1,3K``      
 ``NSVL    .PIC    3,3K``      
 ``PATTERN .PIC    7,2K``      
-``PIP     .COM    7,3K``    CP/M failide kopeerija  
-``POWER   .COM     16K``    POWER 3.03 (c) by Pavel Breder  
+``PIP     .COM    7,3K``    Failide kopeerija (CP/M)  
+``POWER   .COM     16K``    Kettahaldur 3.03 (P.Breder '82)  
 ``POWW    .PIC    3,2K``      
 ``PR ELLA .PIC    1,0K``      
 ``SNAKE   .COM     12K``    "Ussike" (M.Gladin/EKTA '87)  
@@ -1055,7 +1055,7 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``AVTEST  .$$$       0``      
 ``AVTEST  .COM     14K``    Arvutusliku võime test (Vakstu '91?)  
 ``AVTEST  .DOC    2,7K``      
-``B80     .COM     24K``    CP/M BASIC-80 5.21 (Microsoft '81)  
+``B80     .COM     24K``    BASIC-80 5.21 (Microsoft '81)  
 ``CD      .PIC    3,4K``      
 ``COMPU   .COM    1,8K``    Compute Mate 160 printeri draiver  
 ``DOCTOR  .COM     36K``    Disk Editor & Diagnostics 1.11 ('83)  
@@ -1072,12 +1072,12 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``JESUS CH.PIC    2,7K``      
 ``MA      .PIC     256``      
 ``MODX    .COM    3,5K``    80x24 kuvalaotuse draiver  
-``POWER   .COM     16K``    POWER 3.03 (c) by Pavel Breder  
+``POWER   .COM     16K``    Kettahaldur 3.03 (P.Breder '82)  
 ``SARVIK  .PIC    2,9K``      
 ``ZOO     .COM     25K``    "Lode Runner" loomaaias (Vakstu '91)  
 ``TANK    .COM     15K``    Tank UFOde vastu  
 ``TET     .COM     17K``      
-``TETRIS  .COM     23K``    "Tetris" 1.1 (A.Mett 1990)  
+``TETRIS  .COM     23K``    "Tetris" 1.1 (A.Mett '90)  
 ``WS      .COM     16K``      
 ``WSMSGS  .$$$       0``      
 
@@ -1090,8 +1090,8 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 
 ## MUSEUM01
 
-``ASM     .COM    8,0K``    CP/M Assembler 2.0  
-``B80     .COM     24K``    CP/M BASIC-80 5.21 (Microsoft '81)  
+``ASM     .COM    8,0K``    Assembler 2.0 (CP/M)  
+``B80     .COM     24K``    BASIC-80 5.21 (Microsoft '81)  
 ``BASCOM  .COM     32K``    BASICu translaator 5.30 (Microsoft)  
 ``BASLIB  .REL     49K``      
 ``BRUN    .COM     16K``    BASIC runtime 5.30 (Microsoft)  
@@ -1100,9 +1100,9 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``CPU     .COM     19K``    Microprocessor Test 1.2 (EKTA '85)  
 ``D100M   .COM    1,4K``    D100M printeri draiver (EKTA '91)  
 ``DIAG    .LOG       0``      
-``DOSGEN  .COM     896``    CP/M süsteemiketta generaator 3.4  
+``DOSGEN  .COM     896``    Süsteemiketta generaator 3.4 (CP/M)  
 ``DUMP    .COM     512``    File dump 1.4  
-``ED      .COM    6,5K``    CP/M context editor  
+``ED      .COM    6,5K``    Context editor (CP/M)  
 ``F80     .COM     27K``    Fortrani translaator  
 ``FDMAINT .COM     11K``    Floppy Maintenance 1.1 (EKTA '88)  
 ``FMT     .COM    1,3K``    EKDOS 386K flopide vormindaja 3.4  
@@ -1113,22 +1113,22 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``JBASIC  .COM    8,2K``    BASIC interpretaator 1.1 (EKTA '87)  
 ``KUVA    .COM     768``    Kuva asetus ekraanil 1.1 (K.Kevvai)  
 ``L80     .COM     11K``    Link-80 3.44 (Microsoft '81)  
-``LOAD    .COM    1,8K``    CP/M HEX to COM converter  
+``LOAD    .COM    1,8K``    HEX to COM converter (CP/M)  
 ``MODE    .COM     256``    40x24, 53x24 ja 64x20 lüliti  
 ``MTEST2  .COM    9,5K``    Memory Test 0100-14FF (EKTA '85)  
 ``MTEST   .COM    4,5K``    Memory Test 1500-FFFF (EKTA '85)  
-``NETD    .COM    7,4K``    EKTA Janet 1.0 14/11/00  
-``NETR    .COM    6,5K``    EKTA N-EKDOS 1.0  
-``PIP     .COM    7,3K``    CP/M failide kopeerija  
+``NETD    .COM    7,4K``    Janet 1.0 14/11/00 (EKTA)  
+``NETR    .COM    6,5K``    N-EKDOS 1.0 (EKTA)  
+``PIP     .COM    7,3K``    Failide kopeerija (CP/M)  
 ``QDISK   .COM    7,2K``    Disk Test (EKTA '85)  
 ``QRUN    .COM    4,8K``    Quick Test (EKTA '85)  
 ``RDEM    .COM     30K``    JUKU ametlik demoprogramm (EKTA '87)  
 ``SED     .COM     10K``    Screen text editor 6.1  
-``SID     .COM    7,0K``    CP/M masinkoodi silur SID 1.4  
-``STAT    .COM    5,2K``    CP/M ketta statistika  
-``SUBMIT  .COM    1,3K``    CP/M käsujadade töötleja  
+``SID     .COM    7,0K``    Masinkoodi silur SID 1.4 (CP/M)  
+``STAT    .COM    5,2K``    Failisüsteemi statistika (CP/M)  
+``SUBMIT  .COM    1,3K``    Käsujadade töötleja (CP/M)  
 ``TERM    .COM    9,5K``    Terminal Demo/Test 1.2 (EKTA '85)  
-``XDIR    .COM    2,3K``    CP/M failikataloogide näitaja 3.5  
+``XDIR    .COM    2,3K``    Failikataloogide näitaja 3.5 (CP/M)  
 
 ## MUSEUM02
 
@@ -1144,9 +1144,9 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``MTPLUS  .006    6,2K``      
 ``MTPLUS  .COM     36K``    Pascal/MT+ v5.6.1  
 ``PASLIB  .ERL     25K``      
-``PIP     .COM    7,3K``    CP/M failide kopeerija  
+``PIP     .COM    7,3K``    Failide kopeerija (CP/M)  
 ``TRANCEND.ERL    3,3K``      
-``XDIR    .COM    2,3K``    CP/M failikataloogide näitaja 3.5  
+``XDIR    .COM    2,3K``    Failikataloogide näitaja 3.5 (CP/M)  
 
 ## MUSEUM03
 
@@ -1162,14 +1162,14 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``INSTALL .SPC     256``      
 ``MP40    .       6,3K``      
 ``MP80    .       6,3K``      
-``MP      .COM     17K``    Microsoft Multiplan 1.05  
+``MP      .COM     17K``    Multiplan 1.05 (Microsoft '81)  
 ``MP      .HLP     40K``      
 ``MP      .OVR     43K``      
 ``PATTERN .PIC    7,2K``      
-``PIP     .COM    7,3K``    CP/M failide kopeerija  
+``PIP     .COM    7,3K``    Failide kopeerija (CP/M)  
 ``SNAKE   .COM     12K``    "Ussike" (M.Gladin/EKTA '87)  
 ``SNAKE   .DAT    1,0K``      
-``XDIR    .COM    2,3K``    CP/M failikataloogide näitaja 3.5  
+``XDIR    .COM    2,3K``    Failikataloogide näitaja 3.5 (CP/M)  
 
 ## MUSEUM04
 
@@ -1185,7 +1185,7 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``JCM     .        12K``    JUKU File/Copy Master 1.0 (EKTA '89)  
 ``JCMHELP .       7,4K``    JCM juhend tiitelleheta ('89)  
 ``ME      .COM     32K``      
-``ME      .DOC     12K``    ME ja PLAYER.ERL juhend  
+``ME      .DOC     12K``    ME 2.3 ja mooduli PLAYER.ERL juhend  
 ``MP      .HLP     40K``      
 ``MPLAN   .DOK     32K``      
 ``PACIUS  .PLR     256``      
@@ -1194,8 +1194,8 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 
 ## OKSJON01
 
-``ASM     .COM    8,0K``    CP/M Assembler 2.0  
-``B80     .COM     24K``    CP/M BASIC-80 5.21 (Microsoft '81)  
+``ASM     .COM    8,0K``    Assembler 2.0 (CP/M)  
+``B80     .COM     24K``    BASIC-80 5.21 (Microsoft '81)  
 ``BASCOM  .COM     32K``    BASICu translaator 5.30 (Microsoft)  
 ``BASLIB  .REL     49K``      
 ``BRUN    .COM     16K``    BASIC runtime 5.30 (Microsoft)  
@@ -1203,9 +1203,9 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``COMPU   .COM    1,8K``    Compute Mate 160 printeri draiver  
 ``CPU     .COM     19K``    Microprocessor Test 1.2 (EKTA '85)  
 ``DIAG    .LOG       0``      
-``DOSGEN  .COM     896``    CP/M süsteemiketta generaator 3.4  
+``DOSGEN  .COM     896``    Süsteemiketta generaator 3.4 (CP/M)  
 ``DUMP    .COM     512``    File dump 1.4  
-``ED      .COM    6,5K``    CP/M context editor  
+``ED      .COM    6,5K``    Context editor (CP/M)  
 ``F80     .COM     27K``    Fortrani translaator  
 ``FDMAINT .COM     11K``      
 ``FMT     .COM    1,3K``    EKDOS 386K flopide vormindaja 3.4  
@@ -1215,7 +1215,7 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``JBASIC  .COM    8,2K``    BASIC interpretaator 1.1 (EKTA '87)  
 ``KUVA    .COM     768``      
 ``L80     .COM     11K``    Link-80 3.44 (Microsoft '81)  
-``LOAD    .COM    1,8K``    CP/M HEX to COM converter  
+``LOAD    .COM    1,8K``    HEX to COM converter (CP/M)  
 ``LSC     .ASM     768``      
 ``LSC     .COM     128``      
 ``LSC     .HEX     384``      
@@ -1224,18 +1224,18 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``MODE    .COM     256``      
 ``MTEST2  .COM    9,5K``    Memory Test 0100-14FF (EKTA '85)  
 ``MTEST   .COM    4,5K``    Memory Test 1500-FFFF (EKTA '85)  
-``NETD    .COM    7,4K``    EKTA Janet 1.0 14/11/00  
-``NETR    .COM    6,5K``    EKTA N-EKDOS 1.0  
+``NETD    .COM    7,4K``    Janet 1.0 14/11/00 (EKTA)  
+``NETR    .COM    6,5K``    N-EKDOS 1.0 (EKTA)  
 ``PACK    .PAS    1,2K``      
 ``PD      .COM     15K``    Printer's Driver v1.0 (H)  
-``PIP     .COM    7,3K``    CP/M failide kopeerija  
+``PIP     .COM    7,3K``    Failide kopeerija (CP/M)  
 ``QDISK   .COM    7,2K``    Disk Test (EKTA '85)  
 ``QRUN    .COM    4,8K``    Quick Test (EKTA '85)  
 ``RDEM    .COM     30K``    JUKU ametlik demoprogramm (EKTA '87)  
 ``SED     .COM     10K``    Screen text editor 6.1  
 ``SID     .COM    7,0K``      
 ``STAT    .COM    5,2K``      
-``SUBMIT  .COM    1,3K``    CP/M käsujadade töötleja  
+``SUBMIT  .COM    1,3K``    Käsujadade töötleja (CP/M)  
 ``TERM    .COM    9,5K``      
 ``VIRUS   .BAK     768``      
 ``VIRUS   .TXT     768``      
@@ -1266,7 +1266,7 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``SDEL    .COM     896``    Selective Delete v2.0  
 ``SED     .COM     10K``    Screen text editor 6.1  
 ``TABEL   .        13K``      
-``XDIR    .COM    2,3K``    CP/M failikataloogide näitaja 3.5  
+``XDIR    .COM    2,3K``    Failikataloogide näitaja 3.5 (CP/M)  
 
 ## OKSJON03
 
@@ -1315,15 +1315,15 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``TRANCEND.ERL    3,3K``      
 ``UTILIT  .ERL     768``      
 ``UTILIT  .H       384``      
-``XDIR    .COM    2,3K``    CP/M failikataloogide näitaja 3.5  
+``XDIR    .COM    2,3K``    Failikataloogide näitaja 3.5 (CP/M)  
 ``XGRAPH  .ERL    1,9K``      
 ``XGRAPH  .H       768``      
 ``YHEKSA  .BAK     896``      
 
 ## OKSJON04
 
-``ASM     .COM    8,0K``    CP/M Assembler 2.0  
-``B80     .COM     24K``    CP/M BASIC-80 5.21 (Microsoft '81)  
+``ASM     .COM    8,0K``    Assembler 2.0 (CP/M)  
+``B80     .COM     24K``    BASIC-80 5.21 (Microsoft '81)  
 ``BASCOM  .COM     32K``    BASICu translaator 5.30 (Microsoft)  
 ``DISK    .ERL     384``      
 ``FPREALS .ERL    7,5K``      
@@ -1336,11 +1336,11 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``REGLEMEN.       2,3K``      
 ``SCREEN  .ERL     896``      
 ``SED     .COM     10K``    Screen text editor 6.1  
-``SID     .COM    7,0K``    CP/M masinkoodi silur SID 1.4  
+``SID     .COM    7,0K``    Masinkoodi silur SID 1.4 (CP/M)  
 ``SPRITE  .ERL    2,8K``      
 ``TRANCEND.ERL    3,3K``      
 ``UTILIT  .ERL     768``      
-``XDIR    .COM    2,3K``    CP/M failikataloogide näitaja 3.5  
+``XDIR    .COM    2,3K``    Failikataloogide näitaja 3.5 (CP/M)  
 ``YLES2   .BAS    1,2K``      
 
 ## OKSJON05
@@ -1373,7 +1373,7 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 
 ``3VMUSIC .ASM     29K``      
 ``ASCII   .        896``      
-``ASM     .COM    8,0K``    CP/M Assembler 2.0  
+``ASM     .COM    8,0K``    Assembler 2.0 (CP/M)  
 ``CHECK   .ASM    2,3K``      
 ``CHECKSUM.ASM     512``      
 ``CHECKSUM.HEX     256``      
@@ -1411,11 +1411,11 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``LASER   .MAC     128``      
 ``LINK    .COM     16K``      
 ``LIST    .ASM    1,8K``      
-``LOAD    .COM    1,8K``    CP/M HEX to COM converter  
+``LOAD    .COM    1,8K``    HEX to COM converter (CP/M)  
 ``LODEGEN .MAC    6,5K``      
 ``LODERUN .MAC     20K``    ZOO assembleri lähtekood (VAKSTU '91)  
 ``M80     .COM     20K``      
-``MAC     .COM     12K``    CP/M Macro Assembler 2.0  
+``MAC     .COM     12K``    Macro Assembler 2.0 (CP/M)  
 ``MALE    .MOD    5,0K``      
 ``MARGID  .PAS    1,5K``      
 ``MARKT   .COM     21K``      
@@ -1427,7 +1427,7 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``PIIP    .MAC     128``      
 ``PILT    .COM     19K``      
 ``PILT    .PAS     896``      
-``PIP     .COM    7,3K``    CP/M failide kopeerija  
+``PIP     .COM    7,3K``    Failide kopeerija (CP/M)  
 ``PLAYER  .ASM    2,4K``      
 ``PLAYER  .COM     384``      
 ``PMOOD   .ASM    3,7K``      
@@ -1447,7 +1447,7 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``SED     .COM     10K``    Screen text editor 6.1  
 ``SEQIO   .LIB     11K``      
 ``SID3    .COM    7,8K``      
-``SID     .COM    7,0K``    CP/M masinkoodi silur SID 1.4  
+``SID     .COM    7,0K``    Masinkoodi silur SID 1.4 (CP/M)  
 ``SIDT    .COM    7,7K``      
 ``SOKO    .ASM     128``      
 ``SOKO    .COM     640``      
