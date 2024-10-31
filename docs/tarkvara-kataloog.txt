@@ -8,6 +8,18 @@ autoriteetne kontrollsummadega versioon on:
 
 Samast on leitavad ka kontrollsummadeta teisendused PDFi ja Markdowni.
 
+## INDY
+
+BBSummer 2022 puhuks andsid Ilmar Käär ja Raivo Mägi oma 1991. aasta šedöövri "Indiana Jones Looking For Jewels..." ajaloolise uurimise eesmärgil vabakasutusse Creative Commons Zero (CC0) litsentsi alusel. Mäng avaldati Matrix BBSi sektsioonis "Filez".
+
+c1747314bfffb36303989aa35fd301cc857aa5ae  FILE_ID .DIZ     297  
+95eeecd256cdf757c1d69883c87172514267a068  GAME    .PNG    4,9K  
+37eb69c11e56be82f1f42fba99ba0a0234a036d1  INDY    .COM     27K  Indy Looking for Jewels (I.Käär '91)
+2156355ccccecd2e2429032f54079d1737b54dff  INDY    .DAT     12K  
+e8dbcb2fb58472c5ed2d02e3fe0a6cb0db79f5ec  MENU    .PNG    3,7K  
+b3c00bad8f540f0da316f1e2678705c172b9e56b  README  .TXT    1,7K  
+b320977e8fbbc9b27656297c93ccd18d279e2b63  TITLE   .PNG    3,8K  
+
 ## JUKGAME1
 
 Taastatud mängude koondtõmmis ELFAfoorumi 2020 jaanuari lõimest.
