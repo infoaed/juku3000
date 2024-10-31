@@ -10,7 +10,7 @@ Samast on leitavad ka kontrollsummadeta teisendused PDFi ja Markdowni.
 
 ## INDY
 
-BBSummer 2022 puhuks andsid Ilmar Käär ja Raivo Mägi oma 1991. aasta šedöövri "Indiana Jones Looking For Jewels..." ajaloolise uurimise eesmärgil vabakasutusse Creative Commons Zero (CC0) litsentsi alusel. Mäng avaldati Matrix BBSi sektsioonis "Filez".
+BBSummer 2022 puhuks andsid Ilmar Käär ja Rauno Mägi oma 1991. aasta šedöövri "Indiana Jones Looking For Jewels..." ajaloolise uurimise eesmärgil vabakasutusse Creative Commons Zero (CC0) litsentsi alusel. Mäng avaldati Matrix BBSi sektsioonis "Filez".
 
 c1747314bfffb36303989aa35fd301cc857aa5ae  FILE_ID .DIZ     297  
 95eeecd256cdf757c1d69883c87172514267a068  GAME    .PNG    4,9K  
