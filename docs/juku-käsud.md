@@ -67,10 +67,12 @@ Failinimi sisaldab kuni kaheksa ja laiend (`EXT`) kuni kolm tärki ning neid era
 `BAS` — BASIC kompilaatori lähtefail  
 `PAS` — PASCAL/MT+ translaaatori lähtefail  
 `FOR` — F(ORTRAN)80 kompilaatori lähtefail  
-`BAK` — tekstitoimeti varundusfail  
-`PRN`, `LST` — listingufail  
 `TXT` — tekstifail  
-`HEX` — masina kood 16-ndkujul  
+`BAK` — tekstitoimeti varundusfail  
+`DOC`, `DOK` — dokumentatsioon, juhised
+`HLP` — juhised
+`PRN`, `LST` — listingufail  
+`HEX` — masinkood 16-ndkujul  
 `$$$` — ajutine fail  
 `COM` — käsu- ehk programmi- ehk laadefail  
 
@@ -91,7 +93,7 @@ Näide:
 
 ## Programmifailide käivitamine
 
-Valmisprogrammid on kirjutatud assembler- või kõrgkeeles ja transleeritud seejärel mikroprotsessori [KR580VM80A](https://en.wikipedia.org/wiki/KR580VM80A) täidetavasse masinakoodi.
+Valmisprogrammid on kirjutatud assembler- või kõrgkeeles ja transleeritud seejärel mikroprotsessori [KR580VM80A](https://en.wikipedia.org/wiki/KR580VM80A) täidetavasse masinkoodi.
 
 Programmi- ehk laadefaile saab käivitada vastusena KP viibale `A>` opsüsteemi käsklustega samadel alustel. Programmi käivitamisel programminime järgi otsitakse andmekandjalt fail antud nimega ja laiendiga `COM`. Näiteks:
 
