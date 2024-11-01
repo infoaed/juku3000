@@ -53,7 +53,7 @@ Käsuprotsessor (KP) vahetab infot kasutaja ja operatsioonisüsteemi vahel. KP l
 `OPEN` — lindi avamine  
 `CLOSE` — lindi sulgemine  
 `MONID` — väljumine monitori  
-`BASIC` — püsimälus oleva BASIC-u käivitamine  
+`BASIC` — püsimälus oleva BASICu käivitamine  
 `LOAD` — faili laadimine lindilt muutmällu  
 `RUN` — laaditud programmi käivitamine  
 
