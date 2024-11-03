@@ -69,8 +69,8 @@ Failinimi sisaldab kuni kaheksa ja laiend (`EXT`) kuni kolm tärki ning neid era
 `FOR` — F(ORTRAN)80 kompilaatori lähtefail  
 `TXT` — tekstifail  
 `BAK` — tekstitoimeti varundusfail  
-`DOC`, `DOK` — dokumentatsioon, juhised
-`HLP` — juhised
+`DOC`, `DOK` — dokumentatsioon, juhised  
+`HLP` — juhised  
 `PRN`, `LST` — listingufail  
 `HEX` — masinkood 16-ndkujul  
 `$$$` — ajutine fail  
