@@ -1,8 +1,7 @@
 ﻿# Ketastelt taastatud JUKU tarkvara üldnimekiri
 
-Kataloog väljendab ketastelt taastatud JUKU E5101-E5104 tarkvara 2022 sügise seisuga.
-Tarkvara lisandub ning kirjeldused võivad teadmiste täienedes muutuda. Nimekirja
-autoriteetne kontrollsummadega versioon on:
+Kataloog väljendab ketastelt taastatud JUKU E5101-E5104 tarkvara 2022 sügise
+seisuga. Tarkvara lisandub ning kirjeldused võivad teadmiste täienedes muutuda. Nimekirja autoriteetne kontrollsummadega versioon on:
 
 * https://github.com/infoaed/juku3000/blob/master/docs/tarkvara-kataloog.txt
 
@@ -10,7 +9,10 @@ Samast on leitavad ka kontrollsummadeta teisendused PDFi ja Markdowni.
 
 ## INDY
 
-BBSummer 2022 puhuks andsid Ilmar Käär ja Rauno Mägi oma 1991. aasta šedöövri "Indiana Jones Looking For Jewels..." ajaloolise uurimise eesmärgil vabakasutusse Creative Commons Zero (CC0) litsentsi alusel. Mäng avaldati Matrix BBSi sektsioonis "Filez".
+BBSummer 2022 puhuks andsid Ilmar Käär ja Rauno Mägi oma 1991. aasta šedöövri
+"Indiana Jones Looking For Jewels..." ajaloolise uurimise eesmärgil
+vabakasutusse Creative Commons Zero (CC0) litsentsi alusel. Mäng avaldati
+Matrix BBSi sektsioonis "Filez".
 
 ``FILE_ID .DIZ     297``      
 ``GAME    .PNG    4,9K``      
@@ -1378,6 +1380,55 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``CURSOR  .PCC    1,0K``      
 ``PR      .COM    2,7K``      
 ``WURMI   .LNK    6,7K``      
+
+## STEF2
+
+``5       .PIC       0``      
+``BRUN    .COM     16K``      
+``BUGABOO .COM     18K``      
+``BUGABOO .DAT    1,0K``      
+``BUGABOO .MSG    1,4K``      
+``BUGABOO .TAB     384``      
+``DIR     .PIC     256``      
+``DOOM2   .COM    3,8K``      
+``DOOM2   .PIC     256``      
+``DUKE    .COM       0``      
+``EIT@@TA .COM     17K``      
+``EXSIT   .PIC    2,8K``      
+``FDMAINT .COM     11K``    Floppy Maintenance 1.1 (EKTA '88)  
+``GTR     .COM     27K``      
+``GTR     .PCD     128``      
+``GTR     .PIC       0``      
+``HOUSE   .PIC     512``      
+``HUNTER  .COM    6,8K``      
+``HUNTER  .DAT     256``      
+``JCM     .COM     12K``      
+``JJ      .PIC     512``      
+``JUKU    .PIC     768``      
+``KOPTER3 .COM     256``      
+``LOGER   .COM     32K``      
+``LOPP    .PIC    2,3K``      
+``L       .PIC    4,5K``      
+``MM      .COM    3,0K``      
+``MUSAM   .COM    3,7K``      
+``PRIIT   .        17K``      
+``PUSHER  .COM     23K``      
+``PUSHER  .DAT     17K``      
+``PUSHER  .DOK    1,3K``      
+``PUSHER  .LEV    6,3K``      
+``SAKOOL  .PIC    2,4K``      
+``SHOT    .COM    2,3K``      
+``SHOT    .DAT    9,0K``      
+``SIGA    .PIC    1,0K``      
+``SKA     .PIC    1,9K``      
+``SK      .PIC    1,4K``      
+``SNAKE   .COM     12K``      
+``SNAKE   .DAT    1,0K``      
+``S       .PIC    1,4K``      
+``TRRTRTFG.PIC       0``      
+``TY ROM  .PIC    4,5K``      
+``WARCRAFT.COM       0``      
+``WE      .PIC    2,8K``      
 
 ## VAKSTU
 

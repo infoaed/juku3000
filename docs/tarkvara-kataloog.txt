@@ -1,8 +1,7 @@
 ﻿# Ketastelt taastatud JUKU tarkvara üldnimekiri
 
-Kataloog väljendab ketastelt taastatud JUKU E5101-E5104 tarkvara 2022 sügise seisuga.
-Tarkvara lisandub ning kirjeldused võivad teadmiste täienedes muutuda. Nimekirja
-autoriteetne kontrollsummadega versioon on:
+Kataloog väljendab ketastelt taastatud JUKU E5101-E5104 tarkvara 2022 sügise
+seisuga. Tarkvara lisandub ning kirjeldused võivad teadmiste täienedes muutuda. Nimekirja autoriteetne kontrollsummadega versioon on:
 
 * https://github.com/infoaed/juku3000/blob/master/docs/tarkvara-kataloog.txt
 
@@ -10,7 +9,10 @@ Samast on leitavad ka kontrollsummadeta teisendused PDFi ja Markdowni.
 
 ## INDY
 
-BBSummer 2022 puhuks andsid Ilmar Käär ja Rauno Mägi oma 1991. aasta šedöövri "Indiana Jones Looking For Jewels..." ajaloolise uurimise eesmärgil vabakasutusse Creative Commons Zero (CC0) litsentsi alusel. Mäng avaldati Matrix BBSi sektsioonis "Filez".
+BBSummer 2022 puhuks andsid Ilmar Käär ja Rauno Mägi oma 1991. aasta šedöövri
+"Indiana Jones Looking For Jewels..." ajaloolise uurimise eesmärgil
+vabakasutusse Creative Commons Zero (CC0) litsentsi alusel. Mäng avaldati
+Matrix BBSi sektsioonis "Filez".
 
 c1747314bfffb36303989aa35fd301cc857aa5ae  FILE_ID .DIZ     297  
 95eeecd256cdf757c1d69883c87172514267a068  GAME    .PNG    4,9K  
@@ -1378,6 +1380,55 @@ bd99e3a60e4c8f4182c564b84bc9b4660e849e86  XDIR    .COM    2,3K
 1cdc1c80592e3f9cea0016ea05041a7c1e81c6aa  CURSOR  .PCC    1,0K  
 a208b67bc6b28c124eae7770cf2f2744a6bb9576  PR      .COM    2,7K  
 c319afd6aff119e3782f2defc4adba068835f2ce  WURMI   .LNK    6,7K  
+
+## STEF2
+
+da39a3ee5e6b4b0d3255bfef95601890afd80709  5       .PIC       0  
+651ad0663513a90e08c70c2139aa36463c99cd9f  BRUN    .COM     16K  
+9a5b1639f39ea48c235723f0038a8560080a1e8b  BUGABOO .COM     18K  
+64db820a2ef2c90f8e8d31f8d89634e137e7560c  BUGABOO .DAT    1,0K  
+6f01276df055209f55d44957acb4122a9575f3fd  BUGABOO .MSG    1,4K  
+1a19add9737f1f2e0f3f7ba2e92601fd6839789b  BUGABOO .TAB     384  
+6d745a418acf231aade31f9c03a1dbdff1cffa09  DIR     .PIC     256  
+aa8e3677de4e1b1dffa97b6825a0c41c1fe384fa  DOOM2   .COM    3,8K  
+38a7ab02a4f25105bfe5f9e0f636bfead66ad4e1  DOOM2   .PIC     256  
+da39a3ee5e6b4b0d3255bfef95601890afd80709  DUKE    .COM       0  
+ba63a81c97c1f1cbcf3bb592f453c9b99ec712a3  EIT@@TA .COM     17K  
+6457f0764bf7a2796af249c8f5f13fe818d9390d  EXSIT   .PIC    2,8K  
+ccc08b70e519b91a19812ec832c10c13db2228ac  FDMAINT .COM     11K  Floppy Maintenance 1.1 (EKTA '88)
+90fe9cd7af24951be9417e58a49823a1bbe6d028  GTR     .COM     27K  
+627f8ead9fd84b6d5ecc312cd31a3a94f5329ae8  GTR     .PCD     128  
+da39a3ee5e6b4b0d3255bfef95601890afd80709  GTR     .PIC       0  
+042c8b19b89802ad0a85d00ee6631af3baf9f69a  HOUSE   .PIC     512  
+02a072e8fd6a040e741118c334394320594902cf  HUNTER  .COM    6,8K  
+6d745a418acf231aade31f9c03a1dbdff1cffa09  HUNTER  .DAT     256  
+30766cce475ad4a7480b402d736c8c4f6aa6b260  JCM     .COM     12K  
+6b076d4a42fe9ea01eccc0cfcad755b4e9cca1da  JJ      .PIC     512  
+52f36c3544c9880ecddd82af6da24bf5370544c0  JUKU    .PIC     768  
+6d745a418acf231aade31f9c03a1dbdff1cffa09  KOPTER3 .COM     256  
+09ace6ef70f10d0468c6913ff3b2be6a6ec877f3  LOGER   .COM     32K  
+bbc0939ba36d36c280c9d871d9c8429d0f4879a1  LOPP    .PIC    2,3K  
+e4158988479523511d6b3c846e35840401acf1c0  L       .PIC    4,5K  
+393c0021c16f3833ba5ad62c592120072d239ab8  MM      .COM    3,0K  
+f81cd329876f457bf3042b4732486bea20afbf57  MUSAM   .COM    3,7K  
+1b889218f718fde2594fff368ba6ce65281739ee  PRIIT   .        17K  
+8113c052f2c49849df7f3c849ce680455dcd731e  PUSHER  .COM     23K  
+3890bf9b0242e76e4750f8416f618b62ca0dd1a1  PUSHER  .DAT     17K  
+ace61d12d61f6b37bedf841b8bd76046edaf8dae  PUSHER  .DOK    1,3K  
+8a6f346931026f0e5b4d6f40abff64d723c10f62  PUSHER  .LEV    6,3K  
+43c0065d949a52b00fc0872a32d25c7a1b687c6d  SAKOOL  .PIC    2,4K  
+a7f076b60f79bd6c75b503379d2ac67e618e277c  SHOT    .COM    2,3K  
+136b915201f6a965344980c9344c03b5f6f716c2  SHOT    .DAT    9,0K  
+674b026e3e42fae323e1848e0c69d468e596dcaa  SIGA    .PIC    1,0K  
+a439b9e45660a1c20715a5472eb7e54ce0451626  SKA     .PIC    1,9K  
+6f01276df055209f55d44957acb4122a9575f3fd  SK      .PIC    1,4K  
+d3599c1590700949da4b0e540337d901e38e0a9e  SNAKE   .COM     12K  
+ced0aeec07194381bbcf96a74a5ae8e6bc88b8f1  SNAKE   .DAT    1,0K  
+1155e5c9ce43d3f3856b7d9d239c97baa319aafe  S       .PIC    1,4K  
+da39a3ee5e6b4b0d3255bfef95601890afd80709  TRRTRTFG.PIC       0  
+86575ce280c2df2f2782ddfa54868a6b6db3192a  TY ROM  .PIC    4,5K  
+da39a3ee5e6b4b0d3255bfef95601890afd80709  WARCRAFT.COM       0  
+bc0b5467c053da01095b32ab26113578de4f5ea3  WE      .PIC    2,8K  
 
 ## VAKSTU
 
