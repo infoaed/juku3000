@@ -76,7 +76,7 @@ Failinimi sisaldab kuni kaheksa ja laiend (`EXT`) kuni kolm tärki ning neid era
 `$$$` — ajutine fail  
 `COM` — käsu- ehk programmi- ehk laadefail  
 
-Failid paiknevad lintidel või ketastel, mille lugemisseadme tähis on tähestiku täht ja selle järgnev koolon (nt `A:` või `B:`). Aktiivse lugemisseadme vahetamiseks tuleb käsklusena sisestada soovitud lugemisseadme tähis. Käskluse tulemusel muudetakse viibas osutatud aktiivsest lugemisseadmest `A>`, `B>`, `C>` jne.
+Failid paiknevad lintidel või ketastel, mille lugemisseadme tähis on tähestiku täht ja selle järgnev koolon (nt `A:` või `B:`). Aktiivse lugemisseadme vahetamiseks tuleb käsklusena sisestada soovitud lugemisseadme tähis. Käskluse tulemusel muudetakse viibas osutatud aktiivset lugemisseadet `A>`, `B>`, `C>` jne.
 
 Faili paiknemist lugemisseadmes oleval kettal märgitakse seadmetähise lisamisega failinime ette (`B:failinimi.EXT`).
 
