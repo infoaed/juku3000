@@ -38,7 +38,7 @@ Viip on mistahes programmi poolt väljastatav teade, mis näitab, et programm oo
 
 ## Opsüsteemi käsud
 
-Käsuprotsessor (KP) vahetab infot kasutaja ja operatsioonisüsteemi vahel. KP loeb ja töötleb klahvistikult[^4] sisestatud käsuridu. KP valmisolekut käsu sisestuseks väljendab viip `A>` (või sõltuvalt aktiivsest kettast `B>` või `C>`). KP sisaldab sõltuvalt opsüsteemi tüübist valiku sisefunktsioone või käsklusi:
+Käsuprotsessor (KP) vahetab infot kasutaja ja operatsioonisüsteemi vahel. KP loeb ja töötleb klahvistikult[^4] sisestatud käsuridu. KP valmisolekut käsu sisestuseks väljendab viip `A>`. KP sisaldab sõltuvalt opsüsteemi tüübist valiku sisefunktsioone või käsklusi:
 
 `DIR` — mittesüsteemsete failide kataloogi esitus  
 `DIRS` — süsteemsete failide kataloogi esitus  
@@ -76,7 +76,9 @@ Failinimi sisaldab kuni kaheksa ja laiend (`EXT`) kuni kolm tärki ning neid era
 `$$$` — ajutine fail  
 `COM` — käsu- ehk programmi- ehk laadefail  
 
-Failid paiknevad lintidel või ketastel, mille lugemisseadme tähis on tähestiku täht ja selle järgnev koolon (nt `A:` või `B:`). Faili paiknemist lugemisseadmes oleval kettal märgitakse seadmetähise lisamisega failinime ette (`B:failinimi.EXT`).
+Failid paiknevad lintidel või ketastel, mille lugemisseadme tähis on tähestiku täht ja selle järgnev koolon (nt `A:` või `B:`). Aktiivse lugemisseadme vahetamiseks tuleb käsklusena sisestada soovitud lugemisseadme tähis. Käskluse tulemusel muudetakse viibas osutatud aktiivsest lugemisseadmest `A>`, `B>`, `C>` jne.
+
+Faili paiknemist lugemisseadmes oleval kettal märgitakse seadmetähise lisamisega failinime ette (`B:failinimi.EXT`).
 
 Sisefunktsioonide `ERA`, `REST`, `DIR`, `DIRS` kasutamisel võib failinime ja laiendi sisestada kas üheselt või mitmeselt määratuna. Mitmeselt määra­miseks kasutatakse tähiseid `∗` ja `?`:
 
