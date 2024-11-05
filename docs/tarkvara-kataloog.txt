@@ -1,11 +1,15 @@
 ﻿# Ketastelt taastatud JUKU tarkvara üldnimekiri
 
-Kataloog väljendab ketastelt taastatud JUKU E5101-E5104 tarkvara 2022 sügise
-seisuga. Tarkvara lisandub ning kirjeldused võivad teadmiste täienedes muutuda. Nimekirja autoriteetne kontrollsummadega versioon on:
+Kataloog väljendab ketastelt taastatud JUKU E5101-E5104 tarkvara 2024 sügise
+seisuga. Tarkvara lisandub ning kirjeldused võivad teadmiste täienedes muutuda.
+Nimekirja autoriteetne kontrollsummadega versioon on:
 
 * https://github.com/infoaed/juku3000/blob/master/docs/tarkvara-kataloog.txt
 
 Samast on leitavad ka kontrollsummadeta teisendused PDFi ja Markdowni.
+
+Osaliselt taastatud ketaste puhul märgib 0/0 vigaste sektorite hulka ketta
+kummalgi poolel, nt 0/32 märgib 32 vigast sektorit ketta teisel poolel.
 
 ## INDY
 
@@ -1383,6 +1387,9 @@ c319afd6aff119e3782f2defc4adba068835f2ce  WURMI   .LNK    6,7K
 
 ## STEF2
 
+JUKU kettaseadmest pärit vigase ketta taastas Woldemar 31.04.2024
+skooriga 0/32, vt täpsemalt https://elektroonikamuuseum.ee.
+
 da39a3ee5e6b4b0d3255bfef95601890afd80709  5       .PIC       0  
 651ad0663513a90e08c70c2139aa36463c99cd9f  BRUN    .COM     16K  
 9a5b1639f39ea48c235723f0038a8560080a1e8b  BUGABOO .COM     18K  
@@ -1432,7 +1439,7 @@ bc0b5467c053da01095b32ab26113578de4f5ea3  WE      .PIC    2,8K
 
 ## VAKSTU
 
-"VSW tööketta" annetas Vahur Sinijärv 7.06.2022.
+"VSW tööketta" tõmmise annetas Vahur Sinijärv 7.06.2022.
 
 31db9db22d8420b65e553f32638622a68efea656  3VMUSIC .ASM     29K  
 b31e7a1eb63a6557c7ed06ce66dfc1000f50b3d4  ASCII   .        896  
