@@ -23,7 +23,7 @@ jaanuar | Antakse teada, et EKTAs [valmis universaalne mikroarvuti](https://dea.
 märts | RET saab JUKU tootmiseks vajaliku dokumentatsiooni
 märts | "[Teel teisele kirjaoskusele](https://www.youtube.com/watch?v=TQupHJ9J7w8)" tutvustab kooliarvuti pretendentidena TARTUt ja JUKUt
 aprill | EKTA konstruktorid Tõnu Tõnspoeg ja Tõnu Arulaane [tutvustavad JUKUt Vikerraadio kuulajale](https://arhiiv.err.ee/vaata/vikerkaja-vikerkaja-eestis-loodud-kooliarvuti-juku)
-juuni | Popovi nim. teadustehnilise ühingu kooliarvuti konkursil mõlemale "1. preemia"
+juuni | Popovi nim. teadustehnilise ühingu kooliarvuti konkursil [mõlemale esimene preemia](https://dea.digar.ee/?a=d&d=rahvahaal19860903.2.11.4&e=-------et-25--1--txt-txIN%7ctxTI%7ctxAU%7ctxTA-------------)
 juuli | "[Kas JUKUGA või...](https://arhiiv.err.ee/audio/vaata/kas-jukuga-voi)" aasta alguse lubadus 40 kooliarvutit, järgmise aasta jooksul ületavat arv 1000
 juuli | "[Mikroarvuti JUKU kasutamisjuhend](https://arti.ee/juku/Mikroarvuti%20Juku%20E5101%20kasutamisjuhend%201988%20%28168lk%2C%20eesti%20k%29.pdf)" läheb ladumisele
 november | RET saab vahepeal kaduma läinud tehnilise dokumentatsiooni uuesti
