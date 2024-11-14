@@ -6,12 +6,15 @@ Nimekirja autoriteetne kontrollsummadega versioon on:
 
 * https://github.com/infoaed/juku3000/blob/master/docs/tarkvara-kataloog.txt
 
-Samast on leitavad ka kontrollsummadeta teisendused PDFi ja Markdowni.
+Samast on leitavad ka kontrollsummadeta teisendused PDFi ja Markdowni. Enamik
+materjalist on allalaaditav aadressil:
+
+* https://elektroonikamuuseum.ee/failid/juku/takvara/
 
 Osaliselt taastatud ketaste puhul märgib 0/0 vigaste sektorite hulka ketta
 kummalgi poolel, nt 0/32 märgib 32 vigast sektorit ketta teisel poolel.
 
-## EMUSYS01
+## EMUSYS1
 
 Elektroonikamuuseumi poolt kokku pandud Baltijetsi JUKU E5104 süsteemiketas #1,
 vt https://elektroonikamuuseum.ee/juku_arvuti_tarkvara_mang_susteemiketas_1.html.
@@ -56,7 +59,7 @@ df4a5ab4429f8ebf7cbf60acedbd06fbf60c2c47  QRUN    .COM    4,8K  Quick Test (EKTA
 1917bfe2751c574058d53665c428df1c5c52f5ff  TERM    .COM    9,5K  Terminal Demo/Test 1.2 (EKTA '85)
 82867f48001b529bf501063c23a57a647f9ce1d5  XDIR    .COM    2,3K  Failikataloogide näitaja 3.5 (CP/M)
 
-## EMUSYS02
+## EMUSYS2
 
 Elektroonikamuuseumi poolt kokku pandud Baltijetsi JUKU E5104 süsteemiketas #2,
 vt https://elektroonikamuuseum.ee/juku_arvuti_tarkvara_mang_susteemiketas_2.html.
@@ -77,7 +80,7 @@ b430ed05bc6da6cdfa894cbf6261cd2a813043f2  MTPLUS  .004     17K
 dea9a66ce1e53c700d2b5ea816896fc5512e340d  TRANCEND.ERL    3,3K  
 82867f48001b529bf501063c23a57a647f9ce1d5  XDIR    .COM    2,3K  Failikataloogide näitaja 3.5 (CP/M)
 
-## EMUSYS03
+## EMUSYS3
 
 Elektroonikamuuseumi poolt kokku pandud Baltijetsi JUKU E5104 süsteemiketas #3,
 vt https://elektroonikamuuseum.ee/juku_arvuti_tarkvara_mang_susteemiketas_3.html.
@@ -1479,8 +1482,8 @@ c319afd6aff119e3782f2defc4adba068835f2ce  WURMI   .LNK    6,7K
 
 ## STEF2
 
-JUKU kettaseadmest pärit vigase ketta taastas Woldemar 31.04.2024
-skooriga 0/32, vt täpsemalt https://elektroonikamuuseum.ee.
+JUKU kettaseadmest leitud vigase ketta taastas Elektroonikamuuseumi asutaja Woldemar 31.04.2024.
+Ketta taastamises skoor oli 0/32.
 
 da39a3ee5e6b4b0d3255bfef95601890afd80709  5       .PIC       0  
 651ad0663513a90e08c70c2139aa36463c99cd9f  BRUN    .COM     16K  

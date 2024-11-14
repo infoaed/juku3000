@@ -6,12 +6,15 @@ Nimekirja autoriteetne kontrollsummadega versioon on:
 
 * https://github.com/infoaed/juku3000/blob/master/docs/tarkvara-kataloog.txt
 
-Samast on leitavad ka kontrollsummadeta teisendused PDFi ja Markdowni.
+Samast on leitavad ka kontrollsummadeta teisendused PDFi ja Markdowni. Enamik
+materjalist on allalaaditav aadressil:
+
+* https://elektroonikamuuseum.ee/failid/juku/takvara/
 
 Osaliselt taastatud ketaste puhul märgib 0/0 vigaste sektorite hulka ketta
 kummalgi poolel, nt 0/32 märgib 32 vigast sektorit ketta teisel poolel.
 
-## EMUSYS01
+## EMUSYS1
 
 Elektroonikamuuseumi poolt kokku pandud Baltijetsi JUKU E5104 süsteemiketas #1,
 vt https://elektroonikamuuseum.ee/juku_arvuti_tarkvara_mang_susteemiketas_1.html.
@@ -56,7 +59,7 @@ vt https://elektroonikamuuseum.ee/juku_arvuti_tarkvara_mang_susteemiketas_1.html
 ``TERM    .COM    9,5K``    Terminal Demo/Test 1.2 (EKTA '85)  
 ``XDIR    .COM    2,3K``    Failikataloogide näitaja 3.5 (CP/M)  
 
-## EMUSYS02
+## EMUSYS2
 
 Elektroonikamuuseumi poolt kokku pandud Baltijetsi JUKU E5104 süsteemiketas #2,
 vt https://elektroonikamuuseum.ee/juku_arvuti_tarkvara_mang_susteemiketas_2.html.
@@ -77,7 +80,7 @@ vt https://elektroonikamuuseum.ee/juku_arvuti_tarkvara_mang_susteemiketas_2.html
 ``TRANCEND.ERL    3,3K``      
 ``XDIR    .COM    2,3K``    Failikataloogide näitaja 3.5 (CP/M)  
 
-## EMUSYS03
+## EMUSYS3
 
 Elektroonikamuuseumi poolt kokku pandud Baltijetsi JUKU E5104 süsteemiketas #3,
 vt https://elektroonikamuuseum.ee/juku_arvuti_tarkvara_mang_susteemiketas_3.html.
@@ -1479,8 +1482,8 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 
 ## STEF2
 
-JUKU kettaseadmest pärit vigase ketta taastas Woldemar 31.04.2024
-skooriga 0/32, vt täpsemalt https://elektroonikamuuseum.ee.
+JUKU kettaseadmest leitud vigase ketta taastas Elektroonikamuuseumi asutaja Woldemar 31.04.2024.
+Ketta taastamises skoor oli 0/32.
 
 ``5       .PIC       0``      
 ``BRUN    .COM     16K``      
