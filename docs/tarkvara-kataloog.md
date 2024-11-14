@@ -11,6 +11,98 @@ Samast on leitavad ka kontrollsummadeta teisendused PDFi ja Markdowni.
 Osaliselt taastatud ketaste puhul märgib 0/0 vigaste sektorite hulka ketta
 kummalgi poolel, nt 0/32 märgib 32 vigast sektorit ketta teisel poolel.
 
+## EMUSYS01
+
+Elektroonikamuuseumi poolt kokku pandud Baltijetsi JUKU E5104 süsteemiketas #1,
+vt https://elektroonikamuuseum.ee/juku_arvuti_tarkvara_mang_susteemiketas_1.html.
+
+``ASM     .COM    8,0K``    Assembler 2.0 (CP/M)  
+``B80     .COM     24K``    BASIC-80 5.21 (Microsoft '81)  
+``BASCOM  .COM     32K``    BASICu translaator 5.30 (Microsoft)  
+``BASLIB  .REL     49K``      
+``BRUN    .COM     16K``    BASIC runtime 5.30 (Microsoft)  
+``CM6329  .COM    1,8K``    Robotron CM6329 printeri draiver  
+``COMPU   .COM    1,8K``    Compute Mate 160 printeri draiver  
+``CPU     .COM     19K``    Microprocessor Test 1.2 (EKTA '85)  
+``D100M   .COM    1,4K``    D100M printeri draiver (EKTA '91)  
+``DIAG    .LOG       0``      
+``DOSGEN  .COM     896``    Süsteemiketta generaator 3.4 (CP/M)  
+``DUMP    .COM     512``    File dump 1.4  
+``ED      .COM    6,5K``    Context editor (CP/M)  
+``F80     .COM     27K``    Fortrani translaator  
+``FDMAINT .COM     11K``    Floppy Maintenance 1.1 (EKTA '88)  
+``FMT     .COM    1,3K``    EKDOS 386K flopide vormindaja 3.4  
+``FORLIB  .REL     26K``      
+``FORMAT  .COM    1,3K``    EKDOS 786K flopide vormindaja 3.4  
+``FX800   .COM    1,8K``    Epson FX-800 printeri draiver  
+``I       .        128``      
+``JBASIC  .COM    8,2K``    BASIC interpretaator 1.1 (EKTA '87)  
+``KUVA    .COM     768``    Kuva asetus ekraanil 1.1 (K.Kevvai)  
+``L80     .COM     11K``    Link-80 3.44 (Microsoft '81)  
+``LOAD    .COM    1,8K``    HEX to COM converter (CP/M)  
+``MODE    .COM     256``    40x24, 53x24 ja 64x20 lüliti  
+``MTEST2  .COM    9,5K``    Memory Test 0100-14FF (EKTA '85)  
+``MTEST   .COM    4,5K``    Memory Test 1500-FFFF (EKTA '85)  
+``NETD    .COM    7,4K``    Janet 1.0 14/11/00 (EKTA)  
+``NETR    .COM    6,5K``    N-EKDOS 1.0 (EKTA)  
+``PIP     .COM    7,3K``    Failide kopeerija (CP/M)  
+``QDISK   .COM    7,2K``    Disk Test (EKTA '85)  
+``QRUN    .COM    4,8K``    Quick Test (EKTA '85)  
+``RDEM    .COM     30K``    JUKU ametlik demoprogramm (EKTA '87)  
+``SED     .COM     10K``    Screen text editor 6.1  
+``SID     .COM    7,0K``    Masinkoodi silur SID 1.4 (CP/M)  
+``STAT    .COM    5,2K``    Failisüsteemi statistika (CP/M)  
+``SUBMIT  .COM    1,3K``    Käsujadade töötleja (CP/M)  
+``TERM    .COM    9,5K``    Terminal Demo/Test 1.2 (EKTA '85)  
+``XDIR    .COM    2,3K``    Failikataloogide näitaja 3.5 (CP/M)  
+
+## EMUSYS02
+
+Elektroonikamuuseumi poolt kokku pandud Baltijetsi JUKU E5104 süsteemiketas #2,
+vt https://elektroonikamuuseum.ee/juku_arvuti_tarkvara_mang_susteemiketas_2.html.
+
+``FPREALS .ERL    7,5K``      
+``LINKMT  .COM     12K``    Link/MT+ v5.6.1  
+``MTERRS  .TXT    4,8K``      
+``MTPLUS  .000     13K``      
+``MTPLUS  .001     11K``      
+``MTPLUS  .002    7,0K``      
+``MTPLUS  .003    7,3K``      
+``MTPLUS  .004     17K``      
+``MTPLUS  .005    8,5K``      
+``MTPLUS  .006    6,2K``      
+``MTPLUS  .COM     36K``    Pascal/MT+ v5.6.1  
+``PASLIB  .ERL     25K``      
+``PIP     .COM    7,3K``    Failide kopeerija (CP/M)  
+``TRANCEND.ERL    3,3K``      
+``XDIR    .COM    2,3K``    Failikataloogide näitaja 3.5 (CP/M)  
+
+## EMUSYS03
+
+Elektroonikamuuseumi poolt kokku pandud Baltijetsi JUKU E5104 süsteemiketas #3,
+vt https://elektroonikamuuseum.ee/juku_arvuti_tarkvara_mang_susteemiketas_3.html.
+
+``DBASE   .COM     19K``    dBASE II v2.4  
+``DBASEMSG.TXT     52K``      
+``DBASEOVR.COM     40K``      
+``DBINST  .COM     14K``      
+``GTR     .COM     27K``    Turbo GTR 2.5B (M.Gladin/EKTA '87)  
+``INSTALL .COM    6,4K``    Microsoft tools config 1.02 ('81)  
+``INSTALL .DAT     21K``      
+``INSTALL .MSG     12K``      
+``INSTALL .OVR     30K``      
+``INSTALL .SPC     256``      
+``MP40    .       6,3K``      
+``MP80    .       6,3K``      
+``MP      .COM     17K``    Multiplan 1.05 (Microsoft '81)  
+``MP      .HLP     40K``      
+``MP      .OVR     43K``      
+``PATTERN .PIC    7,2K``      
+``PIP     .COM    7,3K``    Failide kopeerija (CP/M)  
+``SNAKE   .COM     12K``    "Ussike" (M.Gladin/EKTA '87)  
+``SNAKE   .DAT    1,0K``      
+``XDIR    .COM    2,3K``    Failikataloogide näitaja 3.5 (CP/M)  
+
 ## INDY
 
 BBSummer 2022 puhuks andsid Ilmar Käär ja Rauno Mägi oma 1991. aasta šedöövri
