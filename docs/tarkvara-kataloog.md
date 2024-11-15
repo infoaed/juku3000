@@ -9,7 +9,7 @@ Nimekirja autoriteetne kontrollsummadega versioon on:
 Samast on leitavad ka kontrollsummadeta teisendused PDFi ja Markdowni. Enamik
 materjalist on allalaaditav aadressil:
 
-* https://elektroonikamuuseum.ee/failid/juku/takvara/
+* https://elektroonikamuuseum.ee/failid/juku/tarkvara/
 
 Osaliselt taastatud ketaste puhul märgib 0/0 vigaste sektorite hulka ketta
 kummalgi poolel, nt 0/32 märgib 32 vigast sektorit ketta teisel poolel.
