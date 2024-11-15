@@ -371,7 +371,7 @@ Mälukividelt taastatud JUKU püsimälu monitorid ja laiendused.
 ``EKTA32  .BIN     16K``    RomBios 2.43m (#0032 '88)  
 ``EKTA35  .BIN     16K``    RomBios 3.43m, JUSS keyb (#0035 '88)  
 ``EKTA37  .BIN     16K``    RomBios 3.43m, Baltijets (#0037 '88)  
-``EKTA43  .BIN     16K``    RomBios 2.43m, AT keyb (#0043 '88)  
+``EKTA43  .BIN     16K``    RomBios 2.43m, AT keyb (#0043 '90)  
 ``JBASIC11.BIN    8,0K``    EKTA JBASIC 1.1? ('87)  
 ``JMON33  .BIN     16K``    Monitor/Bootstrap 3.3, JBASIC ('85)  
 
