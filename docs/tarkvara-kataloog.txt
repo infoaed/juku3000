@@ -17,7 +17,7 @@ kummalgi poolel, nt 0/32 märgib 32 vigast sektorit ketta teisel poolel.
 ## EMUSYS1
 
 Elektroonikamuuseumi poolt kokku pandud Baltijetsi JUKU E5104 süsteemiketas #1,
-vt https://elektroonikamuuseum.ee/juku_arvuti_tarkvara_mang_susteemiketas_1.html.
+vt https://elektroonikamuuseum.ee/juku_arvuti_tarkvara_susteemiketas_1.html.
 
 24e9c13ab0667b1f1f03b678deb2e2446d8da2ea  ASM     .COM    8,0K  Assembler 2.0 (CP/M)
 f98ddf968ecb87a98bc04db0582d9af624fc99a7  B80     .COM     24K  BASIC-80 5.21 (Microsoft '81)
@@ -62,7 +62,7 @@ df4a5ab4429f8ebf7cbf60acedbd06fbf60c2c47  QRUN    .COM    4,8K  Quick Test (EKTA
 ## EMUSYS2
 
 Elektroonikamuuseumi poolt kokku pandud Baltijetsi JUKU E5104 süsteemiketas #2,
-vt https://elektroonikamuuseum.ee/juku_arvuti_tarkvara_mang_susteemiketas_2.html.
+vt https://elektroonikamuuseum.ee/juku_arvuti_tarkvara_susteemiketas_2.html.
 
 ec5dfa15f137f0b64160f253d451bd0f1854f957  FPREALS .ERL    7,5K  
 e3f3dee4bae0f5fc16ab55fb44269aa814b1401b  LINKMT  .COM     12K  Link/MT+ v5.6.1
@@ -83,7 +83,7 @@ dea9a66ce1e53c700d2b5ea816896fc5512e340d  TRANCEND.ERL    3,3K
 ## EMUSYS3
 
 Elektroonikamuuseumi poolt kokku pandud Baltijetsi JUKU E5104 süsteemiketas #3,
-vt https://elektroonikamuuseum.ee/juku_arvuti_tarkvara_mang_susteemiketas_3.html.
+vt https://elektroonikamuuseum.ee/juku_arvuti_tarkvara_susteemiketas_3.html.
 
 dba60ef49c77ad162b53ea5d966b23fb1d7ffc38  DBASE   .COM     19K  dBASE II v2.4
 9c4578e58962c150806f0ce1b760604011547a49  DBASEMSG.TXT     52K  

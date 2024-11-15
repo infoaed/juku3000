@@ -17,7 +17,7 @@ kummalgi poolel, nt 0/32 märgib 32 vigast sektorit ketta teisel poolel.
 ## EMUSYS1
 
 Elektroonikamuuseumi poolt kokku pandud Baltijetsi JUKU E5104 süsteemiketas #1,
-vt https://elektroonikamuuseum.ee/juku_arvuti_tarkvara_mang_susteemiketas_1.html.
+vt https://elektroonikamuuseum.ee/juku_arvuti_tarkvara_susteemiketas_1.html.
 
 ``ASM     .COM    8,0K``    Assembler 2.0 (CP/M)  
 ``B80     .COM     24K``    BASIC-80 5.21 (Microsoft '81)  
@@ -62,7 +62,7 @@ vt https://elektroonikamuuseum.ee/juku_arvuti_tarkvara_mang_susteemiketas_1.html
 ## EMUSYS2
 
 Elektroonikamuuseumi poolt kokku pandud Baltijetsi JUKU E5104 süsteemiketas #2,
-vt https://elektroonikamuuseum.ee/juku_arvuti_tarkvara_mang_susteemiketas_2.html.
+vt https://elektroonikamuuseum.ee/juku_arvuti_tarkvara_susteemiketas_2.html.
 
 ``FPREALS .ERL    7,5K``      
 ``LINKMT  .COM     12K``    Link/MT+ v5.6.1  
@@ -83,7 +83,7 @@ vt https://elektroonikamuuseum.ee/juku_arvuti_tarkvara_mang_susteemiketas_2.html
 ## EMUSYS3
 
 Elektroonikamuuseumi poolt kokku pandud Baltijetsi JUKU E5104 süsteemiketas #3,
-vt https://elektroonikamuuseum.ee/juku_arvuti_tarkvara_mang_susteemiketas_3.html.
+vt https://elektroonikamuuseum.ee/juku_arvuti_tarkvara_susteemiketas_3.html.
 
 ``DBASE   .COM     19K``    dBASE II v2.4  
 ``DBASEMSG.TXT     52K``      
