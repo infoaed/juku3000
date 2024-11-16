@@ -19,8 +19,8 @@ MLoop:	lxi	b,col
 	call	ttcon
 coln:	mvi	a,dcol
 	mov	b,a	;m3leta
-	sbi	0ah
-	jnc	kymn
+	sbi	0ah	;j3rgnev n3itab 10nd
+	jnc	kymn	;systeemis tulpa
 	mvi	a,30h
 	mov	c,b
 	jmp	kuva
@@ -30,7 +30,7 @@ kuva:	call	tto
 	mov	a,c
 	adi	30h
 yhel:	call	tto
-	;call	outhex
+	;call	outhex	;hexis n3itamine
 	mov	a,b	;meenuta
 	lxi	b,home	;move cursor home
 	call	ttcon
@@ -51,18 +51,18 @@ check:	dcr	c	;decrement counter
 	jnz	loop	;rotate more if counter not zero
 	pop	a
 	mov	b,a
-	mvi	h,0c0h
+	mvi	h,0c0h	;exit y/n
 	ana	h
 	jz	kyll
 	mov	a,b
-	mvi	h,080h
+	mvi	h,080h	;v3henda
 	ana	h
 	jz	alla
 	mov	a,b
-	mvi	h,040h
+	mvi	h,040h	;suurenda
 	ana	h
 	jnz	mloop
-yles:	lda	coln+1
+yles:	lda	coln+1	;muuda otse koodis
 	inr	a
 	mvi	h,0fh
 	ana	h
