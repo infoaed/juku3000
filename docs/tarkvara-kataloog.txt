@@ -310,7 +310,7 @@ f1e0fb2dcebe127b43b56ee9bb36846158dac48a  INSTALL .SPC     256
 712150e385a9b51b6e75ca6d826b47c4d1c582c9  JBASIC  .COM    8,2K  BASIC interpretaator 1.1 (EKTA '87)
 27d3d4bd5ee87ddc8562b707a84e5d3c8511a02c  JLOAD   .LDR     384  Residentsete programmide laadur
 63db617c9b266d4288a18c1c917beef19472c181  L80     .COM     11K  Link-80 3.44 (Microsoft '81)
-29196f358a1886b8344bfe918f391e45ce948e76  LINK    .COM     16K  MP/M Link program 1.3
+29196f358a1886b8344bfe918f391e45ce948e76  LINK    .COM     16K  Moodulite linkur 1.3 (CP/M '80 V)
 8ba5cf82f8e1ee411d06debbdecbe9fc8ba173ec  LOAD    .COM    1,8K  HEX to COM converter (CP/M)
 ad196dcbd881ab45bae31bdf72cf3f7eecadb29e  MAC     .COM     12K  Macro Assembler 2.0 (CP/M)
 26b66828890e27962132a9df3cbb0cf8aa292cc0  MDUMP   .COM     512  Memory Dump
@@ -1574,12 +1574,12 @@ c04aaa52fb2102197eac9c874ec302bdf6494a80  LADDER  .COM     40K  Tuntud CP/Mi pla
 744e48920eaf86808642ee5e8eae1bc64051ea07  LADTAB  .COM     12K  
 bd465e383007a819ee467da99c01e4aaccf1e2f7  LADTAB  .PAS    2,7K  
 549371c61e6e14817a47842b47e15d93405c3082  LASER   .MAC     128  
-d5600102b26a159193266b7c4cab5aca57a22439  LINK    .COM     16K  
+d5600102b26a159193266b7c4cab5aca57a22439  LINK    .COM     16K  Objektmoodulite linkur 1.3 (CP/M '80)
 db55f7a4137942dc0cf82dae5a49c385ca2ad593  LIST    .ASM    1,8K  
 8ba5cf82f8e1ee411d06debbdecbe9fc8ba173ec  LOAD    .COM    1,8K  HEX to COM converter (CP/M)
 120ad9de8b7f75ba56e18d23ddd453d22c025bae  LODEGEN .MAC    6,5K  
 1117cc2f3ed3495989f1c1d808d461a468614b29  LODERUN .MAC     20K  ZOO assembleri lähtekood (VAKSTU '91)
-0f5b131846ed3136e13ebc8a3bdeb725d2bd94c7  M80     .COM     20K  
+0f5b131846ed3136e13ebc8a3bdeb725d2bd94c7  M80     .COM     20K  Macro-80 3.44 (Microsoft '81)
 ad196dcbd881ab45bae31bdf72cf3f7eecadb29e  MAC     .COM     12K  Macro Assembler 2.0 (CP/M)
 f51d50966e0e4c937499f0d6e303a96c0d88d8b7  MALE    .MOD    5,0K  
 04a324e877888021d74552a645aa10a545b5dd0e  MARGID  .PAS    1,5K  
@@ -1611,9 +1611,9 @@ fdb099f95c09d46f30af053a3bc1abf27534dee2  SCREDIT .MOD     512
 0a82caa41e25248531ed609ee3451943055d312d  SCROLL  .ASM    1,2K  
 405fb8967e78e968c521f440863e08905257ea94  SED     .COM     10K  Screen text editor 6.1
 13c41f4356304f11b5423296e922c8c543781415  SEQIO   .LIB     11K  
-a7a484b5418a3bd3234113b4340b0882282aa123  SID3    .COM    7,8K  
+a7a484b5418a3bd3234113b4340b0882282aa123  SID3    .COM    7,8K  Masinkoodi silur SID 3.0 (CP/M)
 4c1b38c9f07a1e71b4b9d3cc01ffda40f4adcd57  SID     .COM    7,0K  Masinkoodi silur SID 1.4 (CP/M)
-a85d1f5747beb9191ab59de2199812695272daba  SIDT    .COM    7,7K  
+a85d1f5747beb9191ab59de2199812695272daba  SIDT    .COM    7,7K  Masinkoodi silur SIDT 2.1 (EKTA '85)
 f6ec44c8b5475edada9c204ecf5568a9d2a4b1c2  SOKO    .ASM     128  
 3a3f828bf51eb5a1f6de2590afcaff748b8bdb44  SOKO    .COM     640  
 42fbc3d1fa22a8b81dbfdeb1bd0b3688d1fe2596  SOKO    .MAC     384  

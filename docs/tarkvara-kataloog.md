@@ -310,7 +310,7 @@ Taastatud programmide koondtõmmis #2 ELFAfoorumi 2020 jaanuari lõimest.
 ``JBASIC  .COM    8,2K``    BASIC interpretaator 1.1 (EKTA '87)  
 ``JLOAD   .LDR     384``    Residentsete programmide laadur  
 ``L80     .COM     11K``    Link-80 3.44 (Microsoft '81)  
-``LINK    .COM     16K``    MP/M Link program 1.3  
+``LINK    .COM     16K``    Moodulite linkur 1.3 (CP/M '80 V)  
 ``LOAD    .COM    1,8K``    HEX to COM converter (CP/M)  
 ``MAC     .COM     12K``    Macro Assembler 2.0 (CP/M)  
 ``MDUMP   .COM     512``    Memory Dump  
@@ -1574,12 +1574,12 @@ Ketta taastamises skoor oli 0/32.
 ``LADTAB  .COM     12K``      
 ``LADTAB  .PAS    2,7K``      
 ``LASER   .MAC     128``      
-``LINK    .COM     16K``      
+``LINK    .COM     16K``    Objektmoodulite linkur 1.3 (CP/M '80)  
 ``LIST    .ASM    1,8K``      
 ``LOAD    .COM    1,8K``    HEX to COM converter (CP/M)  
 ``LODEGEN .MAC    6,5K``      
 ``LODERUN .MAC     20K``    ZOO assembleri lähtekood (VAKSTU '91)  
-``M80     .COM     20K``      
+``M80     .COM     20K``    Macro-80 3.44 (Microsoft '81)  
 ``MAC     .COM     12K``    Macro Assembler 2.0 (CP/M)  
 ``MALE    .MOD    5,0K``      
 ``MARGID  .PAS    1,5K``      
@@ -1611,9 +1611,9 @@ Ketta taastamises skoor oli 0/32.
 ``SCROLL  .ASM    1,2K``      
 ``SED     .COM     10K``    Screen text editor 6.1  
 ``SEQIO   .LIB     11K``      
-``SID3    .COM    7,8K``      
+``SID3    .COM    7,8K``    Masinkoodi silur SID 3.0 (CP/M)  
 ``SID     .COM    7,0K``    Masinkoodi silur SID 1.4 (CP/M)  
-``SIDT    .COM    7,7K``      
+``SIDT    .COM    7,7K``    Masinkoodi silur SIDT 2.1 (EKTA '85)  
 ``SOKO    .ASM     128``      
 ``SOKO    .COM     640``      
 ``SOKO    .MAC     384``      
