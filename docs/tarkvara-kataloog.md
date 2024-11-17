@@ -1486,33 +1486,33 @@ JUKU kettaseadmest leitud vigase ketta taastas Elektroonikamuuseumi asutaja Wold
 Ketta taastamises skoor oli 0/32.
 
 ``5       .PIC       0``      
-``BRUN    .COM     16K``      
-``BUGABOO .COM     18K``      
+``BRUN    .COM     16K``    BASIC runtime 5.30 (Microsoft)  
+``BUGABOO .COM     18K``    Kaalikas labürindis (EKTA '89)  
 ``BUGABOO .DAT    1,0K``      
 ``BUGABOO .MSG    1,4K``      
 ``BUGABOO .TAB     384``      
 ``DIR     .PIC     256``      
-``DOOM2   .COM    3,8K``      
+``DOOM2   .COM    3,8K``    "Qixi" kloon (E.Jürviste/EKTA '87)  
 ``DOOM2   .PIC     256``      
 ``DUKE    .COM       0``      
 ``EIT@@TA .COM     17K``      
 ``EXSIT   .PIC    2,8K``      
 ``FDMAINT .COM     11K``    Floppy Maintenance 1.1 (EKTA '88)  
-``GTR     .COM     27K``      
+``GTR     .COM     27K``    Turbo GTR 2.5B (M.Gladin/EKTA '87)  
 ``GTR     .PCD     128``      
 ``GTR     .PIC       0``      
 ``HOUSE   .PIC     512``      
-``HUNTER  .COM    6,8K``      
+``HUNTER  .COM    6,8K``    Jahiklubi (80x24, Vakstu/MIG '86)  
 ``HUNTER  .DAT     256``      
-``JCM     .COM     12K``      
+``JCM     .COM     12K``    JUKU File/Copy Master 1.0 (EKTA '89)  
 ``JJ      .PIC     512``      
 ``JUKU    .PIC     768``      
 ``KOPTER3 .COM     256``      
-``LOGER   .COM     32K``      
+``LOGER   .COM     32K``    Lülitiloogika v1.1 (Nost Neji '90 H)  
 ``LOPP    .PIC    2,3K``      
 ``L       .PIC    4,5K``      
 ``MM      .COM    3,0K``      
-``MUSAM   .COM    3,7K``      
+``MUSAM   .COM    3,7K``    Klaver "Musa Master" (EKTA '89)  
 ``PRIIT   .        17K``      
 ``PUSHER  .COM     23K``      
 ``PUSHER  .DAT     17K``      
@@ -1524,7 +1524,7 @@ Ketta taastamises skoor oli 0/32.
 ``SIGA    .PIC    1,0K``      
 ``SKA     .PIC    1,9K``      
 ``SK      .PIC    1,4K``      
-``SNAKE   .COM     12K``      
+``SNAKE   .COM     12K``    "Ussike" (M.Gladin/EKTA '87)  
 ``SNAKE   .DAT    1,0K``      
 ``S       .PIC    1,4K``      
 ``TRRTRTFG.PIC       0``      
