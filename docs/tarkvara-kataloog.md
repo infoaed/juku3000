@@ -1514,12 +1514,12 @@ Ketta taastamises skoor oli 0/32.
 ``MM      .COM    3,0K``      
 ``MUSAM   .COM    3,7K``    Klaver "Musa Master" (EKTA '89)  
 ``PRIIT   .        17K``      
-``PUSHER  .COM     23K``      
+``PUSHER  .COM     23K``    Nügiline (A.Mett '91)  
 ``PUSHER  .DAT     17K``      
 ``PUSHER  .DOK    1,3K``      
 ``PUSHER  .LEV    6,3K``      
 ``SAKOOL  .PIC    2,4K``      
-``SHOT    .COM    2,3K``      
+``SHOT    .COM    2,3K``    Shot Master 2000 v1.1 (I.Käär '91)  
 ``SHOT    .DAT    9,0K``      
 ``SIGA    .PIC    1,0K``      
 ``SKA     .PIC    1,9K``      
