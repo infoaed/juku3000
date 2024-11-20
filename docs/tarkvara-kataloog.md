@@ -21,7 +21,7 @@ poolel.
 Elektroonikamuuseumi poolt kokku pandud Baltijetsi JUKU E5104 süsteemiketas #1,
 vt https://elektroonikamuuseum.ee/juku_arvuti_tarkvara_susteemiketas_1.html.
 
-CRC32: `e930b8f0` / SHA1: `956c82e43e2b1f76a337190f78318428729e845f`
+SIZE: `800K` (`819200`) / SHA1: `956c82e43e2b1f76a337190f78318428729e845f`
 
 ``ASM     .COM    8,0K``    Assembler 2.0 (CP/M)  
 ``B80     .COM     24K``    BASIC-80 5.21 (Microsoft '81)  
@@ -68,7 +68,7 @@ CRC32: `e930b8f0` / SHA1: `956c82e43e2b1f76a337190f78318428729e845f`
 Elektroonikamuuseumi poolt kokku pandud Baltijetsi JUKU E5104 süsteemiketas #2,
 vt https://elektroonikamuuseum.ee/juku_arvuti_tarkvara_susteemiketas_2.html.
 
-CRC32: `ec35d36b` / SHA1: `054b854a9bc58383794e74fdc2f778f746bdf55d`
+SIZE: `800K` (`819200`) / SHA1: `054b854a9bc58383794e74fdc2f778f746bdf55d`
 
 ``FPREALS .ERL    7,5K``      
 ``LINKMT  .COM     12K``    Link/MT+ v5.6.1  
@@ -91,7 +91,7 @@ CRC32: `ec35d36b` / SHA1: `054b854a9bc58383794e74fdc2f778f746bdf55d`
 Elektroonikamuuseumi poolt kokku pandud Baltijetsi JUKU E5104 süsteemiketas #3,
 vt https://elektroonikamuuseum.ee/juku_arvuti_tarkvara_susteemiketas_3.html.
 
-CRC32: `0d5c68ca` / SHA1: `2bd379212078b892ad07766007507b02bbda3703`
+SIZE: `800K` (`819200`) / SHA1: `2bd379212078b892ad07766007507b02bbda3703`
 
 ``DBASE   .COM     19K``    dBASE II v2.4  
 ``DBASEMSG.TXT     52K``      
@@ -121,7 +121,7 @@ BBSummer 2022 puhuks andsid Ilmar Käär ja Rauno Mägi oma 1991. aasta šedöö
 vabakasutusse Creative Commons Zero (CC0) litsentsi alusel. Mäng avaldati
 Matrix BBSi sektsioonis "Filez".
 
-CRC32: `5df8503b` / SHA1: `8905d0a3601928b4890da92e7187f1e3bb7a7df5`
+SIZE: `36K` (`36437`) / SHA1: `8905d0a3601928b4890da92e7187f1e3bb7a7df5`
 
 ``FILE_ID .DIZ     297``      
 ``GAME    .PNG    4,9K``      
@@ -135,7 +135,7 @@ CRC32: `5df8503b` / SHA1: `8905d0a3601928b4890da92e7187f1e3bb7a7df5`
 
 Taastatud mängude koondtõmmis ELFAfoorumi 2020 jaanuari lõimest.
 
-CRC32: `395013a8` / SHA1: `efd6e83669777966d523d323ea61e0352eea88ff`
+SIZE: `800K` (`819200`) / SHA1: `efd6e83669777966d523d323ea61e0352eea88ff`
 
 ``1       .        896``      
 ``2       .        896``      
@@ -193,7 +193,7 @@ CRC32: `395013a8` / SHA1: `efd6e83669777966d523d323ea61e0352eea88ff`
 
 Taastatud programmide koondtõmmis #1 ELFAfoorumi 2020 jaanuari lõimest.
 
-CRC32: `3f74f428` / SHA1: `32708fd095be8ea50bf2ba185c6d5654e0ca3255`
+SIZE: `800K` (`819200`) / SHA1: `32708fd095be8ea50bf2ba185c6d5654e0ca3255`
 
 ``ALIENS  .PIC    1,7K``      
 ``ASCII   .        896``    Ladina tähestiku font (US laotus)  
@@ -297,7 +297,7 @@ CRC32: `3f74f428` / SHA1: `32708fd095be8ea50bf2ba185c6d5654e0ca3255`
 
 Taastatud programmide koondtõmmis #2 ELFAfoorumi 2020 jaanuari lõimest.
 
-CRC32: `9b9007bd` / SHA1: `725233ba5f8943ff2778bf4d70dbf25f71a5854d`
+SIZE: `800K` (`819200`) / SHA1: `725233ba5f8943ff2778bf4d70dbf25f71a5854d`
 
 ``ASM     .COM    8,0K``    Assembler 2.0 (CP/M)  
 ``B80     .COM     24K``    BASIC-80 5.21 (Microsoft '81)  
@@ -354,7 +354,7 @@ CRC32: `9b9007bd` / SHA1: `725233ba5f8943ff2778bf4d70dbf25f71a5854d`
 
 Taastatud programmide koondtõmmis #3 ELFAfoorumi 2020 jaanuari lõimest.
 
-CRC32: `9515525b` / SHA1: `7ac496b74bc5f0d6beeae5231b3f379b53ad8284`
+SIZE: `800K` (`819200`) / SHA1: `7ac496b74bc5f0d6beeae5231b3f379b53ad8284`
 
 ``BASLIB  .REL     49K``      
 ``BIO80   .BAS    2,0K``      
@@ -385,7 +385,7 @@ CRC32: `9515525b` / SHA1: `7ac496b74bc5f0d6beeae5231b3f379b53ad8284`
 
 Mälukividelt taastatud JUKU püsimälu monitorid ja laiendused.
 
-CRC32: `7505d0eb` / SHA1: `2c4367df871efae011fb0d6ce318ce67c965b65d`
+SIZE: `71K` (`71873`) / SHA1: `2c4367df871efae011fb0d6ce318ce67c965b65d`
 
 ``EKTA24  .BIN     16K``    RomBios 3.42, JUSS keyb (#0024 '88)  
 ``EKTA32  .BIN     16K``    RomBios 2.43m (#0032 '88)  
@@ -399,7 +399,7 @@ CRC32: `7505d0eb` / SHA1: `2c4367df871efae011fb0d6ce318ce67c965b65d`
 
 Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 
-CRC32: `ca99b150` / SHA1: `86df07916a834cc71d38a2885f439e5ceba42c25`
+SIZE: `25K` (`25142`) / SHA1: `86df07916a834cc71d38a2885f439e5ceba42c25`
 
 ``CPM22   .BIN     10K``    CP/M 2.2  
 ``CPM231E .BIN     10K``    CP/M 2.31e (=EKDOS 2.30)  
@@ -409,7 +409,7 @@ CRC32: `ca99b150` / SHA1: `86df07916a834cc71d38a2885f439e5ceba42c25`
 
 ## MAALT01
 
-CRC32: `4b921f62` / SHA1: `41c4064de6114dde4af54882fd6c1430e78f2a8b`
+SIZE: `800K` (`819200`) / SHA1: `41c4064de6114dde4af54882fd6c1430e78f2a8b`
 
 ``7A1     .        896``      
 ``8BT     .        640``      
@@ -461,7 +461,7 @@ CRC32: `4b921f62` / SHA1: `41c4064de6114dde4af54882fd6c1430e78f2a8b`
 
 ## MAALT02
 
-CRC32: `554c99fa` / SHA1: `d56922f9e75fec1705016429b3f30a047383b691`
+SIZE: `800K` (`819200`) / SHA1: `d56922f9e75fec1705016429b3f30a047383b691`
 
 ``ANNELI  .       1,3K``      
 ``COMPU   .COM    1,8K``      
@@ -494,7 +494,7 @@ CRC32: `554c99fa` / SHA1: `d56922f9e75fec1705016429b3f30a047383b691`
 
 ## MAALT03
 
-CRC32: `c476a827` / SHA1: `64b16291e7fdf850a1e3d6aabbd464b760aa3f88`
+SIZE: `800K` (`819200`) / SHA1: `64b16291e7fdf850a1e3d6aabbd464b760aa3f88`
 
 ``ATSKOO  .COM     18K``    Kaardimäng "Atskoo" (Kohtla-J 1KK)  
 ``BOWLING .COM    3,5K``    Keegel (Maxway & I.K.S. '91)  
@@ -528,7 +528,7 @@ CRC32: `c476a827` / SHA1: `64b16291e7fdf850a1e3d6aabbd464b760aa3f88`
 
 ## MAALT04
 
-CRC32: `cd5fd30e` / SHA1: `e4223e2bba25dc4b2b3ba4de6a4f63b156566b8a`
+SIZE: `800K` (`819200`) / SHA1: `e4223e2bba25dc4b2b3ba4de6a4f63b156566b8a`
 
 ``BUGABOO .        18K``    Kaalikas labürindis (EKTA '89)  
 ``BUGABOO .COM     18K``    Kaalikas labürindis (EKTA '89)  
@@ -578,7 +578,7 @@ CRC32: `cd5fd30e` / SHA1: `e4223e2bba25dc4b2b3ba4de6a4f63b156566b8a`
 
 ## MAALT05
 
-CRC32: `dfb9482e` / SHA1: `2f13321727444f53e502591acf7a97b93b44e193`
+SIZE: `800K` (`819200`) / SHA1: `2f13321727444f53e502591acf7a97b93b44e193`
 
 ``DBASE   .COM     19K``      
 ``DBASEMSG.TXT     52K``      
@@ -607,7 +607,7 @@ CRC32: `dfb9482e` / SHA1: `2f13321727444f53e502591acf7a97b93b44e193`
 
 ## MAALT06
 
-CRC32: `345ad7cf` / SHA1: `ce3509c93b718c982f228e99b713ce87a965bb0c`
+SIZE: `800K` (`819200`) / SHA1: `ce3509c93b718c982f228e99b713ce87a965bb0c`
 
 ``1       .        896``      
 ``2       .        896``      
@@ -684,7 +684,7 @@ CRC32: `345ad7cf` / SHA1: `ce3509c93b718c982f228e99b713ce87a965bb0c`
 
 ## MAALT07
 
-CRC32: `4e42dd8c` / SHA1: `5c86653a2a1656bce163d92c1b774d3a7e39aae6`
+SIZE: `800K` (`819200`) / SHA1: `5c86653a2a1656bce163d92c1b774d3a7e39aae6`
 
 ``AVTEST  .COM     14K``      
 ``AVTEST  .DOC    2,7K``      
@@ -708,7 +708,7 @@ CRC32: `4e42dd8c` / SHA1: `5c86653a2a1656bce163d92c1b774d3a7e39aae6`
 
 ## MAALT08
 
-CRC32: `34bfa4e8` / SHA1: `e06467eafb906cdf21da1f896d4beb040f37302a`
+SIZE: `800K` (`819200`) / SHA1: `e06467eafb906cdf21da1f896d4beb040f37302a`
 
 ``1       .        896``      
 ``2       .        896``      
@@ -769,7 +769,7 @@ CRC32: `34bfa4e8` / SHA1: `e06467eafb906cdf21da1f896d4beb040f37302a`
 
 ## MAALT09
 
-CRC32: `117b2fc2` / SHA1: `1bab084d9d7869327319fbc9cc3de245df9eab32`
+SIZE: `800K` (`819200`) / SHA1: `1bab084d9d7869327319fbc9cc3de245df9eab32`
 
 ``ATSKOO  .COM     18K``    Kaardimäng "Atskoo" (Kohtla-J 1KK)  
 ``AVTEST  .COM     14K``    Arvutusliku võime test (Vakstu '91?)  
@@ -804,7 +804,7 @@ CRC32: `117b2fc2` / SHA1: `1bab084d9d7869327319fbc9cc3de245df9eab32`
 
 ## MAALT10
 
-CRC32: `b564932a` / SHA1: `79a8b5a7b31e98a800ebbfbaedc440dec22a8db9`
+SIZE: `800K` (`819200`) / SHA1: `79a8b5a7b31e98a800ebbfbaedc440dec22a8db9`
 
 ``COMPU   .COM    1,8K``    Compute Mate 160 printeri draiver  
 ``G       .        384``      
@@ -831,7 +831,7 @@ CRC32: `b564932a` / SHA1: `79a8b5a7b31e98a800ebbfbaedc440dec22a8db9`
 
 ## MAALT11
 
-CRC32: `2a47884f` / SHA1: `cd9e2f4cf660f439ed769ed48f1520356f2b4a34`
+SIZE: `800K` (`819200`) / SHA1: `cd9e2f4cf660f439ed769ed48f1520356f2b4a34`
 
 ``========.===    4,0K``      
 ``5AINED  .        768``      
@@ -966,7 +966,7 @@ CRC32: `2a47884f` / SHA1: `cd9e2f4cf660f439ed769ed48f1520356f2b4a34`
 
 ## MAALT12
 
-CRC32: `04266184` / SHA1: `e0f6bbcd84eabb2e65cc2e82c09fbc45051c474e`
+SIZE: `800K` (`819200`) / SHA1: `e0f6bbcd84eabb2e65cc2e82c09fbc45051c474e`
 
 ``DBASE   .COM     19K``      
 ``DBASEMSG.TXT     52K``      
@@ -984,7 +984,7 @@ CRC32: `04266184` / SHA1: `e0f6bbcd84eabb2e65cc2e82c09fbc45051c474e`
 
 ## MAALT13
 
-CRC32: `d4f96aeb` / SHA1: `e8e34c5ea5f643fae3045026f265cda57238e077`
+SIZE: `800K` (`819200`) / SHA1: `e8e34c5ea5f643fae3045026f265cda57238e077`
 
 ``04PALK  .       2,5K``      
 ``1993    .CMD     512``      
@@ -1042,7 +1042,7 @@ CRC32: `d4f96aeb` / SHA1: `e8e34c5ea5f643fae3045026f265cda57238e077`
 
 ## MAALT15
 
-CRC32: `c521c9ca` / SHA1: `f507c24710e92e4a22385191309e429aeeba2b59`
+SIZE: `800K` (`819200`) / SHA1: `f507c24710e92e4a22385191309e429aeeba2b59`
 
 ``9MAT    .        896``      
 ``9VENE2  .       1,9K``      
@@ -1093,9 +1093,13 @@ CRC32: `c521c9ca` / SHA1: `f507c24710e92e4a22385191309e429aeeba2b59`
 ``TAIRI   .BAK    1,0K``      
 ``TEATIS  .BAK     128``      
 
+## MAALT18
+
+SIZE: `800K` (`819200`) / SHA1: `1f6b7ade822ba563de16153d272f12add337a3d5`
+
 ## MAALT20
 
-CRC32: `c04da0b6` / SHA1: `9612a6d94a2587848cafc342bc1706e83c9e0ed3`
+SIZE: `800K` (`819200`) / SHA1: `9612a6d94a2587848cafc342bc1706e83c9e0ed3`
 
 ``1       .        896``      
 ``2       .        896``      
@@ -1139,7 +1143,7 @@ CRC32: `c04da0b6` / SHA1: `9612a6d94a2587848cafc342bc1706e83c9e0ed3`
 
 ## MAALT21
 
-CRC32: `c6232740` / SHA1: `30b6d50335891834596fa058cf7de09892cf40ec`
+SIZE: `800K` (`819200`) / SHA1: `30b6d50335891834596fa058cf7de09892cf40ec`
 
 ``DBASE   .COM     19K``      
 ``DBASEMSG.TXT     52K``      
@@ -1160,7 +1164,7 @@ CRC32: `c6232740` / SHA1: `30b6d50335891834596fa058cf7de09892cf40ec`
 
 ## MAALT22
 
-CRC32: `066cdcd9` / SHA1: `787ae3e0776d9feefb079ce397a8ed4ee759c5ec`
+SIZE: `800K` (`819200`) / SHA1: `787ae3e0776d9feefb079ce397a8ed4ee759c5ec`
 
 ``AASTAD  .       2,2K``      
 ``ATSKOO  .COM     18K``    Kaardimäng "Atskoo" (Kohtla-J 1KK)  
@@ -1213,7 +1217,7 @@ CRC32: `066cdcd9` / SHA1: `787ae3e0776d9feefb079ce397a8ed4ee759c5ec`
 
 ## MAALT23
 
-CRC32: `02c9cc0d` / SHA1: `9d37a51bba816f18eeee643ecf6652ff69d73c67`
+SIZE: `800K` (`819200`) / SHA1: `9d37a51bba816f18eeee643ecf6652ff69d73c67`
 
 ``B80     .COM     24K``      
 ``BIO80   .BAS    2,0K``      
@@ -1238,7 +1242,7 @@ CRC32: `02c9cc0d` / SHA1: `9d37a51bba816f18eeee643ecf6652ff69d73c67`
 
 ## MAALT24
 
-CRC32: `cf6b17da` / SHA1: `11e18ae89b5943386a538cbff53d18c46dcb4798`
+SIZE: `800K` (`819200`) / SHA1: `11e18ae89b5943386a538cbff53d18c46dcb4798`
 
 ``1       .        896``      
 ``2       .        896``      
@@ -1276,7 +1280,7 @@ CRC32: `cf6b17da` / SHA1: `11e18ae89b5943386a538cbff53d18c46dcb4798`
 
 ## MAALT25D
 
-CRC32: `88c5784d` / SHA1: `58c157f28a3a49ce7b0f0fbffba939ee2a851116`
+SIZE: `800K` (`819200`) / SHA1: `58c157f28a3a49ce7b0f0fbffba939ee2a851116`
 
 ``1       .        896``      
 ``2       .        896``      
@@ -1352,7 +1356,7 @@ CRC32: `88c5784d` / SHA1: `58c157f28a3a49ce7b0f0fbffba939ee2a851116`
 
 ## MAALT26
 
-CRC32: `c37037ce` / SHA1: `ddf3bf83e7bf1247215470b869eb553eaab89424`
+SIZE: `800K` (`818688`) / SHA1: `ddf3bf83e7bf1247215470b869eb553eaab89424`
 
 ``1       .        384``      
 ``7AAK    .        14K``      
@@ -1403,7 +1407,7 @@ CRC32: `c37037ce` / SHA1: `ddf3bf83e7bf1247215470b869eb553eaab89424`
 
 ## MAALT27
 
-CRC32: `f2117041` / SHA1: `c695e5833d7aa7dd2bb161b6948819c027dac0b8`
+SIZE: `800K` (`819200`) / SHA1: `c695e5833d7aa7dd2bb161b6948819c027dac0b8`
 
 ``ALIENS  .PIC    1,7K``      
 ``ANDMED  .DBF    1,0K``      
@@ -1438,7 +1442,7 @@ CRC32: `f2117041` / SHA1: `c695e5833d7aa7dd2bb161b6948819c027dac0b8`
 
 ## MANUALID
 
-CRC32: `d8249db1` / SHA1: `dacdaaf586dd6144d24f9baa8cfe62555fc48587`
+SIZE: `26K` (`25697`) / SHA1: `dacdaaf586dd6144d24f9baa8cfe62555fc48587`
 
 ``DBASE   .DOK     37K``    dBASE II juhend (EÕK '90)  
 ``GTR     .DOK     12K``    GTR redaktori juhised #1 (EKTA '89)  
@@ -1447,7 +1451,7 @@ CRC32: `d8249db1` / SHA1: `dacdaaf586dd6144d24f9baa8cfe62555fc48587`
 
 ## MUSEUM01
 
-CRC32: `e930b8f0` / SHA1: `956c82e43e2b1f76a337190f78318428729e845f`
+SIZE: `800K` (`819200`) / SHA1: `956c82e43e2b1f76a337190f78318428729e845f`
 
 ``ASM     .COM    8,0K``    Assembler 2.0 (CP/M)  
 ``B80     .COM     24K``    BASIC-80 5.21 (Microsoft '81)  
@@ -1491,7 +1495,7 @@ CRC32: `e930b8f0` / SHA1: `956c82e43e2b1f76a337190f78318428729e845f`
 
 ## MUSEUM02
 
-CRC32: `ec35d36b` / SHA1: `054b854a9bc58383794e74fdc2f778f746bdf55d`
+SIZE: `800K` (`819200`) / SHA1: `054b854a9bc58383794e74fdc2f778f746bdf55d`
 
 ``FPREALS .ERL    7,5K``      
 ``LINKMT  .COM     12K``    Link/MT+ v5.6.1  
@@ -1511,7 +1515,7 @@ CRC32: `ec35d36b` / SHA1: `054b854a9bc58383794e74fdc2f778f746bdf55d`
 
 ## MUSEUM03
 
-CRC32: `0d5c68ca` / SHA1: `2bd379212078b892ad07766007507b02bbda3703`
+SIZE: `800K` (`819200`) / SHA1: `2bd379212078b892ad07766007507b02bbda3703`
 
 ``DBASE   .COM     19K``    dBASE II v2.4  
 ``DBASEMSG.TXT     52K``      
@@ -1536,7 +1540,7 @@ CRC32: `0d5c68ca` / SHA1: `2bd379212078b892ad07766007507b02bbda3703`
 
 ## MUSEUM04
 
-CRC32: `89f6f91e` / SHA1: `76289c35e1e4a858ae4b9dcdfe81cc2e175559cb`
+SIZE: `800K` (`819200`) / SHA1: `76289c35e1e4a858ae4b9dcdfe81cc2e175559cb`
 
 ``2       .       7,4K``    JCM juhend tiitelleheta ('89)  
 ``BASCOM  .DOK     11K``    BASCOMi juhend (EKTA '88)  
@@ -1559,7 +1563,7 @@ CRC32: `89f6f91e` / SHA1: `76289c35e1e4a858ae4b9dcdfe81cc2e175559cb`
 
 ## OKSJON01
 
-CRC32: `1c7990ce` / SHA1: `f380b3751385b0cf95bd599664f94742d45a69de`
+SIZE: `800K` (`819200`) / SHA1: `f380b3751385b0cf95bd599664f94742d45a69de`
 
 ``ASM     .COM    8,0K``    Assembler 2.0 (CP/M)  
 ``B80     .COM     24K``    BASIC-80 5.21 (Microsoft '81)  
@@ -1615,7 +1619,7 @@ CRC32: `1c7990ce` / SHA1: `f380b3751385b0cf95bd599664f94742d45a69de`
 
 ## OKSJON02
 
-CRC32: `0e91b2b1` / SHA1: `1b1ceb9cb450b37413f6ef590feeae1932193afe`
+SIZE: `800K` (`819200`) / SHA1: `1b1ceb9cb450b37413f6ef590feeae1932193afe`
 
 ``BUGABOO .COM       0``      
 ``COPY    .COM    1,5K``      
@@ -1670,7 +1674,7 @@ CRC32: `0e91b2b1` / SHA1: `1b1ceb9cb450b37413f6ef590feeae1932193afe`
 
 ## OKSJON03
 
-CRC32: `dbea8074` / SHA1: `68a097591cf2ac4dafdd7a5a55c498241b0dd7ab`
+SIZE: `800K` (`819200`) / SHA1: `68a097591cf2ac4dafdd7a5a55c498241b0dd7ab`
 
 ``9       .       3,9K``      
 ``9       .BAK    3,9K``      
@@ -1737,7 +1741,7 @@ CRC32: `dbea8074` / SHA1: `68a097591cf2ac4dafdd7a5a55c498241b0dd7ab`
 
 ## OKSJON04
 
-CRC32: `8e56fef5` / SHA1: `34860b8a9e718588ec4a4cb636c2053ec08ee433`
+SIZE: `400K` (`409600`) / SHA1: `34860b8a9e718588ec4a4cb636c2053ec08ee433`
 
 ``ASM     .COM    8,0K``    Assembler 2.0 (CP/M)  
 ``B80     .COM     24K``    BASIC-80 5.21 (Microsoft '81)  
@@ -1792,7 +1796,7 @@ CRC32: `8e56fef5` / SHA1: `34860b8a9e718588ec4a4cb636c2053ec08ee433`
 
 ## OKSJON05
 
-CRC32: `a853fb29` / SHA1: `bacab942d6f7cce703449306cec87c85d7efc4a3`
+SIZE: `400K` (`409600`) / SHA1: `bacab942d6f7cce703449306cec87c85d7efc4a3`
 
 ``1994    .PIC    3,4K``      
 ``1995    .PIC    3,5K``      
@@ -1812,7 +1816,7 @@ CRC32: `a853fb29` / SHA1: `bacab942d6f7cce703449306cec87c85d7efc4a3`
 
 ## OKSJON06
 
-CRC32: `d47a95ed` / SHA1: `e8620ed9392a24463d145d28c0fc76ddac1eeb27`
+SIZE: `800K` (`819200`) / SHA1: `e8620ed9392a24463d145d28c0fc76ddac1eeb27`
 
 ``CURSOR  .PCC    1,0K``      
 ``PR      .COM    2,7K``      
@@ -1823,7 +1827,7 @@ CRC32: `d47a95ed` / SHA1: `e8620ed9392a24463d145d28c0fc76ddac1eeb27`
 JUKU kettaseadmest leitud vigase ketta taastas Elektroonikamuuseumi asutaja Woldemar 31.04.2024.
 Ketta taastamises skoor oli 0/32.
 
-CRC32: `0a7616cd` / SHA1: `02fab23a72a12ced4492de505964a486c3dc8eaf`
+SIZE: `800K` (`819200`) / SHA1: `02fab23a72a12ced4492de505964a486c3dc8eaf`
 
 ``5       .PIC       0``      
 ``BRUN    .COM     16K``    BASIC runtime 5.30 (Microsoft)  
@@ -1881,7 +1885,7 @@ CRC32: `0a7616cd` / SHA1: `02fab23a72a12ced4492de505964a486c3dc8eaf`
 
 "VSW tööketta" tõmmise annetas Vahur Sinijärv 7.06.2022.
 
-CRC32: `0a032f5a` / SHA1: `b7efca324ddffc6c31476adff2228e3b5e2e792e`
+SIZE: `800K` (`819200`) / SHA1: `b7efca324ddffc6c31476adff2228e3b5e2e792e`
 
 ``3VMUSIC .ASM     29K``      
 ``ASCII   .        896``      
@@ -1991,3 +1995,4 @@ CRC32: `0a032f5a` / SHA1: `b7efca324ddffc6c31476adff2228e3b5e2e792e`
 ``RUUT    .PCC    1,0K``      
 ``SEIN    .PCC    1,0K``      
 ``SIHTP   .PCC    1,0K``      
+

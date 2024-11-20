@@ -21,7 +21,7 @@ poolel.
 Elektroonikamuuseumi poolt kokku pandud Baltijetsi JUKU E5104 süsteemiketas #1,
 vt https://elektroonikamuuseum.ee/juku_arvuti_tarkvara_susteemiketas_1.html.
 
-CRC32: e930b8f0 / SHA1: 956c82e43e2b1f76a337190f78318428729e845f
+SIZE: 800K (819200) / SHA1: 956c82e43e2b1f76a337190f78318428729e845f
 
 24e9c13ab0667b1f1f03b678deb2e2446d8da2ea  ASM     .COM    8,0K  Assembler 2.0 (CP/M)
 f98ddf968ecb87a98bc04db0582d9af624fc99a7  B80     .COM     24K  BASIC-80 5.21 (Microsoft '81)
@@ -68,7 +68,7 @@ df4a5ab4429f8ebf7cbf60acedbd06fbf60c2c47  QRUN    .COM    4,8K  Quick Test (EKTA
 Elektroonikamuuseumi poolt kokku pandud Baltijetsi JUKU E5104 süsteemiketas #2,
 vt https://elektroonikamuuseum.ee/juku_arvuti_tarkvara_susteemiketas_2.html.
 
-CRC32: ec35d36b / SHA1: 054b854a9bc58383794e74fdc2f778f746bdf55d
+SIZE: 800K (819200) / SHA1: 054b854a9bc58383794e74fdc2f778f746bdf55d
 
 ec5dfa15f137f0b64160f253d451bd0f1854f957  FPREALS .ERL    7,5K  
 e3f3dee4bae0f5fc16ab55fb44269aa814b1401b  LINKMT  .COM     12K  Link/MT+ v5.6.1
@@ -91,7 +91,7 @@ dea9a66ce1e53c700d2b5ea816896fc5512e340d  TRANCEND.ERL    3,3K
 Elektroonikamuuseumi poolt kokku pandud Baltijetsi JUKU E5104 süsteemiketas #3,
 vt https://elektroonikamuuseum.ee/juku_arvuti_tarkvara_susteemiketas_3.html.
 
-CRC32: 0d5c68ca / SHA1: 2bd379212078b892ad07766007507b02bbda3703
+SIZE: 800K (819200) / SHA1: 2bd379212078b892ad07766007507b02bbda3703
 
 dba60ef49c77ad162b53ea5d966b23fb1d7ffc38  DBASE   .COM     19K  dBASE II v2.4
 9c4578e58962c150806f0ce1b760604011547a49  DBASEMSG.TXT     52K  
@@ -121,7 +121,7 @@ BBSummer 2022 puhuks andsid Ilmar Käär ja Rauno Mägi oma 1991. aasta šedöö
 vabakasutusse Creative Commons Zero (CC0) litsentsi alusel. Mäng avaldati
 Matrix BBSi sektsioonis "Filez".
 
-CRC32: 5df8503b / SHA1: 8905d0a3601928b4890da92e7187f1e3bb7a7df5
+SIZE: 36K (36437) / SHA1: 8905d0a3601928b4890da92e7187f1e3bb7a7df5
 
 c1747314bfffb36303989aa35fd301cc857aa5ae  FILE_ID .DIZ     297  
 95eeecd256cdf757c1d69883c87172514267a068  GAME    .PNG    4,9K  
@@ -135,7 +135,7 @@ b320977e8fbbc9b27656297c93ccd18d279e2b63  TITLE   .PNG    3,8K
 
 Taastatud mängude koondtõmmis ELFAfoorumi 2020 jaanuari lõimest.
 
-CRC32: 395013a8 / SHA1: efd6e83669777966d523d323ea61e0352eea88ff
+SIZE: 800K (819200) / SHA1: efd6e83669777966d523d323ea61e0352eea88ff
 
 8804ca55d5ab88a60eaec47c0181fd6a40607fdd  1       .        896  
 2a7e9c8444d9c3de7f7bacbe1d1af15e58dffe1a  2       .        896  
@@ -193,7 +193,7 @@ a39eb160202e8284f557d3a186142244026920df  TETRIS  .COM     23K  "Tetris" 1.1 (A.
 
 Taastatud programmide koondtõmmis #1 ELFAfoorumi 2020 jaanuari lõimest.
 
-CRC32: 3f74f428 / SHA1: 32708fd095be8ea50bf2ba185c6d5654e0ca3255
+SIZE: 800K (819200) / SHA1: 32708fd095be8ea50bf2ba185c6d5654e0ca3255
 
 bd7d7ce602bd6b13db5f7f52268ee63370ec1060  ALIENS  .PIC    1,7K  
 d52a421fcd6d4cafacd3d5d6710bd46dac8f7676  ASCII   .        896  Ladina tähestiku font (US laotus)
@@ -297,7 +297,7 @@ a077d75810040e74b1fea3ae2f8af2208ceb1966  X-FILE  .PIC    1,7K
 
 Taastatud programmide koondtõmmis #2 ELFAfoorumi 2020 jaanuari lõimest.
 
-CRC32: 9b9007bd / SHA1: 725233ba5f8943ff2778bf4d70dbf25f71a5854d
+SIZE: 800K (819200) / SHA1: 725233ba5f8943ff2778bf4d70dbf25f71a5854d
 
 24e9c13ab0667b1f1f03b678deb2e2446d8da2ea  ASM     .COM    8,0K  Assembler 2.0 (CP/M)
 f98ddf968ecb87a98bc04db0582d9af624fc99a7  B80     .COM     24K  BASIC-80 5.21 (Microsoft '81)
@@ -354,7 +354,7 @@ bb718dedc601df04eefd121ea0fdb4b70bc7bc7f  SID     .DOK     19K  Siluri kasutajaj
 
 Taastatud programmide koondtõmmis #3 ELFAfoorumi 2020 jaanuari lõimest.
 
-CRC32: 9515525b / SHA1: 7ac496b74bc5f0d6beeae5231b3f379b53ad8284
+SIZE: 800K (819200) / SHA1: 7ac496b74bc5f0d6beeae5231b3f379b53ad8284
 
 59d9a03eda7c4473c64092c32077a594ab627731  BASLIB  .REL     49K  
 7cd35f8dc4d1b3f38a2acea90774fd2c05748680  BIO80   .BAS    2,0K  
@@ -385,7 +385,7 @@ dea9a66ce1e53c700d2b5ea816896fc5512e340d  TRANCEND.ERL    3,3K
 
 Mälukividelt taastatud JUKU püsimälu monitorid ja laiendused.
 
-CRC32: 7505d0eb / SHA1: 2c4367df871efae011fb0d6ce318ce67c965b65d
+SIZE: 71K (71873) / SHA1: 2c4367df871efae011fb0d6ce318ce67c965b65d
 
 a7185d747c94cd519868692ed3d10fade90dd6d5  EKTA24  .BIN     16K  RomBios 3.42, JUSS keyb (#0024 '88)
 57311d53f6fe1e87e0755990f400253caccd4795  EKTA32  .BIN     16K  RomBios 2.43m (#0032 '88)
@@ -399,7 +399,7 @@ a7419bfd8249871cc7dbf5c6ea85022d6963fc9a  EKTA43  .BIN     16K  RomBios 2.43m, A
 
 Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 
-CRC32: ca99b150 / SHA1: 86df07916a834cc71d38a2885f439e5ceba42c25
+SIZE: 25K (25142) / SHA1: 86df07916a834cc71d38a2885f439e5ceba42c25
 
 2aebef05268e637b692f876403723350d8537d47  CPM22   .BIN     10K  CP/M 2.2
 b68f81b5e14995549ec6664b335e9304dee986ba  CPM231E .BIN     10K  CP/M 2.31e (=EKDOS 2.30)
@@ -409,7 +409,7 @@ a1134d27b358086d15133befef5a4a28d7304042  EKDOS230.BIN     10K  EKDOS 2.30
 
 ## MAALT01
 
-CRC32: 4b921f62 / SHA1: 41c4064de6114dde4af54882fd6c1430e78f2a8b
+SIZE: 800K (819200) / SHA1: 41c4064de6114dde4af54882fd6c1430e78f2a8b
 
 4c26c5489141557e11d916d3a542b11a7bf2886a  7A1     .        896  
 bd3ac3e092e8546affc19ad2696faa4cd62649ff  8BT     .        640  
@@ -461,7 +461,7 @@ a9b38d209de54c1f6b7c5432ba862feee257e648  MR      .ALE     384
 
 ## MAALT02
 
-CRC32: 554c99fa / SHA1: d56922f9e75fec1705016429b3f30a047383b691
+SIZE: 800K (819200) / SHA1: d56922f9e75fec1705016429b3f30a047383b691
 
 690e2e63258456497239ab74320da85490b7b694  ANNELI  .       1,3K  
 1fd3af3cc73381d98a8dce5b2c0f2ba8dfee6762  COMPU   .COM    1,8K  
@@ -494,7 +494,7 @@ bc0b7315183126f1b5fec38d1a99670e6c5956fb  PACIUS  .PLR     256
 
 ## MAALT03
 
-CRC32: c476a827 / SHA1: 64b16291e7fdf850a1e3d6aabbd464b760aa3f88
+SIZE: 800K (819200) / SHA1: 64b16291e7fdf850a1e3d6aabbd464b760aa3f88
 
 02b853afccfc0e338f85fd926dfc5ca1a53d248b  ATSKOO  .COM     18K  Kaardimäng "Atskoo" (Kohtla-J 1KK)
 eddf1bf24794dd410a4eb1979e8fb7d7722e38de  BOWLING .COM    3,5K  Keegel (Maxway & I.K.S. '91)
@@ -528,7 +528,7 @@ da39a3ee5e6b4b0d3255bfef95601890afd80709  LADCONF .COM       0
 
 ## MAALT04
 
-CRC32: cd5fd30e / SHA1: e4223e2bba25dc4b2b3ba4de6a4f63b156566b8a
+SIZE: 800K (819200) / SHA1: e4223e2bba25dc4b2b3ba4de6a4f63b156566b8a
 
 75a52f246d8775586ce0cf591e1c93173c1ae57a  BUGABOO .        18K  Kaalikas labürindis (EKTA '89)
 75a52f246d8775586ce0cf591e1c93173c1ae57a  BUGABOO .COM     18K  Kaalikas labürindis (EKTA '89)
@@ -578,7 +578,7 @@ f400c064f077255468c26268078852380509448d  TETRIS  .COM    1,9K  Graafiline "Tetr
 
 ## MAALT05
 
-CRC32: dfb9482e / SHA1: 2f13321727444f53e502591acf7a97b93b44e193
+SIZE: 800K (819200) / SHA1: 2f13321727444f53e502591acf7a97b93b44e193
 
 d844fb705d2ab868d2a7e7bb65be7f78a9214b8f  DBASE   .COM     19K  
 9c4578e58962c150806f0ce1b760604011547a49  DBASEMSG.TXT     52K  
@@ -607,7 +607,7 @@ b675fb163bb084071d083b5e9b2c2d8d3645e209  MP80    .       6,3K
 
 ## MAALT06
 
-CRC32: 345ad7cf / SHA1: ce3509c93b718c982f228e99b713ce87a965bb0c
+SIZE: 800K (819200) / SHA1: ce3509c93b718c982f228e99b713ce87a965bb0c
 
 8804ca55d5ab88a60eaec47c0181fd6a40607fdd  1       .        896  
 2a7e9c8444d9c3de7f7bacbe1d1af15e58dffe1a  2       .        896  
@@ -684,7 +684,7 @@ da39a3ee5e6b4b0d3255bfef95601890afd80709  VIKI    .PIC       0
 
 ## MAALT07
 
-CRC32: 4e42dd8c / SHA1: 5c86653a2a1656bce163d92c1b774d3a7e39aae6
+SIZE: 800K (819200) / SHA1: 5c86653a2a1656bce163d92c1b774d3a7e39aae6
 
 1fba0420eac137d59ddff7d44c89917c3d73cadd  AVTEST  .COM     14K  
 2f69aadb7bf92fd6f423327c578c1cb6e4f7caf3  AVTEST  .DOC    2,7K  
@@ -708,7 +708,7 @@ e0b5c4e59b6b4223258717836fb723bd75dd9e6d  MODX    .COM    3,5K  80x24 kuvalaotus
 
 ## MAALT08
 
-CRC32: 34bfa4e8 / SHA1: e06467eafb906cdf21da1f896d4beb040f37302a
+SIZE: 800K (819200) / SHA1: e06467eafb906cdf21da1f896d4beb040f37302a
 
 8804ca55d5ab88a60eaec47c0181fd6a40607fdd  1       .        896  
 2a7e9c8444d9c3de7f7bacbe1d1af15e58dffe1a  2       .        896  
@@ -769,7 +769,7 @@ f400c064f077255468c26268078852380509448d  TETRIS  .COM    1,9K  Graafiline "Tetr
 
 ## MAALT09
 
-CRC32: 117b2fc2 / SHA1: 1bab084d9d7869327319fbc9cc3de245df9eab32
+SIZE: 800K (819200) / SHA1: 1bab084d9d7869327319fbc9cc3de245df9eab32
 
 02b853afccfc0e338f85fd926dfc5ca1a53d248b  ATSKOO  .COM     18K  Kaardimäng "Atskoo" (Kohtla-J 1KK)
 6a54b1d33a54ff76267e4473431818bbfe6df61c  AVTEST  .COM     14K  Arvutusliku võime test (Vakstu '91?)
@@ -804,7 +804,7 @@ a39eb160202e8284f557d3a186142244026920df  TETRIS  .COM     23K  "Tetris" 1.1 (A.
 
 ## MAALT10
 
-CRC32: b564932a / SHA1: 79a8b5a7b31e98a800ebbfbaedc440dec22a8db9
+SIZE: 800K (819200) / SHA1: 79a8b5a7b31e98a800ebbfbaedc440dec22a8db9
 
 5e3938c7304c5598c7c0557bc602cb8d14e63ecf  COMPU   .COM    1,8K  Compute Mate 160 printeri draiver
 6b956f9ba238f3e3820a94464419a1051a6a9341  G       .        384  
@@ -831,7 +831,7 @@ dfb637ee932d24f652b8dfdafabcfc256e41ded0  PUTUK   .BAK    7,9K
 
 ## MAALT11
 
-CRC32: 2a47884f / SHA1: cd9e2f4cf660f439ed769ed48f1520356f2b4a34
+SIZE: 800K (819200) / SHA1: cd9e2f4cf660f439ed769ed48f1520356f2b4a34
 
 4be1347a5e75ab4067fb8d19d693c9eaf76d9f1e  ========.===    4,0K  
 35d147eaf2eeedd0a77163e738c0e995291193a5  5AINED  .        768  
@@ -966,7 +966,7 @@ dd5308a1a668c5604b58f9376bbe036f5b334446  8A30    .BAK     896
 
 ## MAALT12
 
-CRC32: 04266184 / SHA1: e0f6bbcd84eabb2e65cc2e82c09fbc45051c474e
+SIZE: 800K (819200) / SHA1: e0f6bbcd84eabb2e65cc2e82c09fbc45051c474e
 
 4bd47a75bfd2b56584d4e4631b20c292b373c65f  DBASE   .COM     19K  
 4e8113605587b6e6aadc56995ea46db101472293  DBASEMSG.TXT     52K  
@@ -984,7 +984,7 @@ fef4c7907acd97f20f44736aadfd7b45cdd50f48  MP      .OVR     43K
 
 ## MAALT13
 
-CRC32: d4f96aeb / SHA1: e8e34c5ea5f643fae3045026f265cda57238e077
+SIZE: 800K (819200) / SHA1: e8e34c5ea5f643fae3045026f265cda57238e077
 
 b013f2bde7be18c8c716e481bfc27f137c58b848  04PALK  .       2,5K  
 b896db9ca717ac0f483cc41c1c25e46918ccee27  1993    .CMD     512  
@@ -1042,7 +1042,7 @@ e3e5f65bc3e201591e462e246baea6d5206832a9  UK      .DBF    1,0K
 
 ## MAALT15
 
-CRC32: c521c9ca / SHA1: f507c24710e92e4a22385191309e429aeeba2b59
+SIZE: 800K (819200) / SHA1: f507c24710e92e4a22385191309e429aeeba2b59
 
 813d45f75cf36972c5bde99262133fd9d52827ca  9MAT    .        896  
 b2029a90b826cea2689f7587f394a47e216bf1cf  9VENE2  .       1,9K  
@@ -1093,9 +1093,13 @@ d5de55087e664b6e7af0aa5d1a638384c01917e7  MAARIKA .BAK    1,2K
 dd2f992a254705d91f76876fddef870513643db8  TAIRI   .BAK    1,0K  
 02adc58fea088d94cb47a4978b3a358d33b33fd3  TEATIS  .BAK     128  
 
+## MAALT18
+
+SIZE: 800K (819200) / SHA1: 1f6b7ade822ba563de16153d272f12add337a3d5
+
 ## MAALT20
 
-CRC32: c04da0b6 / SHA1: 9612a6d94a2587848cafc342bc1706e83c9e0ed3
+SIZE: 800K (819200) / SHA1: 9612a6d94a2587848cafc342bc1706e83c9e0ed3
 
 8804ca55d5ab88a60eaec47c0181fd6a40607fdd  1       .        896  
 2a7e9c8444d9c3de7f7bacbe1d1af15e58dffe1a  2       .        896  
@@ -1139,7 +1143,7 @@ bc0b7315183126f1b5fec38d1a99670e6c5956fb  PACIUS  .PLR     256
 
 ## MAALT21
 
-CRC32: c6232740 / SHA1: 30b6d50335891834596fa058cf7de09892cf40ec
+SIZE: 800K (819200) / SHA1: 30b6d50335891834596fa058cf7de09892cf40ec
 
 d7d7649dabc5184a61b9b8b6be3358efdaf6b832  DBASE   .COM     19K  
 9c4578e58962c150806f0ce1b760604011547a49  DBASEMSG.TXT     52K  
@@ -1160,7 +1164,7 @@ b675fb163bb084071d083b5e9b2c2d8d3645e209  MP80    .       6,3K
 
 ## MAALT22
 
-CRC32: 066cdcd9 / SHA1: 787ae3e0776d9feefb079ce397a8ed4ee759c5ec
+SIZE: 800K (819200) / SHA1: 787ae3e0776d9feefb079ce397a8ed4ee759c5ec
 
 1b1db4bce42fca983ec7ff5b26b1532952c1949b  AASTAD  .       2,2K  
 02b853afccfc0e338f85fd926dfc5ca1a53d248b  ATSKOO  .COM     18K  Kaardimäng "Atskoo" (Kohtla-J 1KK)
@@ -1213,7 +1217,7 @@ da39a3ee5e6b4b0d3255bfef95601890afd80709  LADCONF .COM       0
 
 ## MAALT23
 
-CRC32: 02c9cc0d / SHA1: 9d37a51bba816f18eeee643ecf6652ff69d73c67
+SIZE: 800K (819200) / SHA1: 9d37a51bba816f18eeee643ecf6652ff69d73c67
 
 0d8300627138d9bff84b5747b0d3817e004867d2  B80     .COM     24K  
 7cd35f8dc4d1b3f38a2acea90774fd2c05748680  BIO80   .BAS    2,0K  
@@ -1238,7 +1242,7 @@ da39a3ee5e6b4b0d3255bfef95601890afd80709  JCM2    .$$$       0
 
 ## MAALT24
 
-CRC32: cf6b17da / SHA1: 11e18ae89b5943386a538cbff53d18c46dcb4798
+SIZE: 800K (819200) / SHA1: 11e18ae89b5943386a538cbff53d18c46dcb4798
 
 8804ca55d5ab88a60eaec47c0181fd6a40607fdd  1       .        896  
 2a7e9c8444d9c3de7f7bacbe1d1af15e58dffe1a  2       .        896  
@@ -1276,7 +1280,7 @@ e5dd15e9e058e11bf51a8de00e9438fd5905320b  LL0     .       6,4K
 
 ## MAALT25D
 
-CRC32: 88c5784d / SHA1: 58c157f28a3a49ce7b0f0fbffba939ee2a851116
+SIZE: 800K (819200) / SHA1: 58c157f28a3a49ce7b0f0fbffba939ee2a851116
 
 8804ca55d5ab88a60eaec47c0181fd6a40607fdd  1       .        896  
 2a7e9c8444d9c3de7f7bacbe1d1af15e58dffe1a  2       .        896  
@@ -1352,7 +1356,7 @@ b82d1b1fb014f414f76a388824a68fb407b14588  V\RDJAS .PIC    1,7K
 
 ## MAALT26
 
-CRC32: c37037ce / SHA1: ddf3bf83e7bf1247215470b869eb553eaab89424
+SIZE: 800K (818688) / SHA1: ddf3bf83e7bf1247215470b869eb553eaab89424
 
 1a19add9737f1f2e0f3f7ba2e92601fd6839789b  1       .        384  
 afcb22c73852ea655ad86f7c6ddb276028778214  7AAK    .        14K  
@@ -1403,7 +1407,7 @@ d817da46bf6007050253e30038edc475c7f6c07d  WSOVLY1 .OVR     34K
 
 ## MAALT27
 
-CRC32: f2117041 / SHA1: c695e5833d7aa7dd2bb161b6948819c027dac0b8
+SIZE: 800K (819200) / SHA1: c695e5833d7aa7dd2bb161b6948819c027dac0b8
 
 bd7d7ce602bd6b13db5f7f52268ee63370ec1060  ALIENS  .PIC    1,7K  
 8ec96abda8731bcae7d4a22cb7508084e9f92e11  ANDMED  .DBF    1,0K  
@@ -1438,7 +1442,7 @@ da39a3ee5e6b4b0d3255bfef95601890afd80709  WSMSGS  .$$$       0
 
 ## MANUALID
 
-CRC32: d8249db1 / SHA1: dacdaaf586dd6144d24f9baa8cfe62555fc48587
+SIZE: 26K (25697) / SHA1: dacdaaf586dd6144d24f9baa8cfe62555fc48587
 
 412db7d6669e59618c2d1ccf85dedfdb9eed52a4  DBASE   .DOK     37K  dBASE II juhend (EÕK '90)
 8bf490e4c56451db626687635f962cf9b65e7f65  GTR     .DOK     12K  GTR redaktori juhised #1 (EKTA '89)
@@ -1447,7 +1451,7 @@ de6ee0c39b4989c7ba81e8e32c204e948644a234  GTRLISA .DOK    9,9K  GTR redaktori ju
 
 ## MUSEUM01
 
-CRC32: e930b8f0 / SHA1: 956c82e43e2b1f76a337190f78318428729e845f
+SIZE: 800K (819200) / SHA1: 956c82e43e2b1f76a337190f78318428729e845f
 
 24e9c13ab0667b1f1f03b678deb2e2446d8da2ea  ASM     .COM    8,0K  Assembler 2.0 (CP/M)
 f98ddf968ecb87a98bc04db0582d9af624fc99a7  B80     .COM     24K  BASIC-80 5.21 (Microsoft '81)
@@ -1491,7 +1495,7 @@ df4a5ab4429f8ebf7cbf60acedbd06fbf60c2c47  QRUN    .COM    4,8K  Quick Test (EKTA
 
 ## MUSEUM02
 
-CRC32: ec35d36b / SHA1: 054b854a9bc58383794e74fdc2f778f746bdf55d
+SIZE: 800K (819200) / SHA1: 054b854a9bc58383794e74fdc2f778f746bdf55d
 
 ec5dfa15f137f0b64160f253d451bd0f1854f957  FPREALS .ERL    7,5K  
 e3f3dee4bae0f5fc16ab55fb44269aa814b1401b  LINKMT  .COM     12K  Link/MT+ v5.6.1
@@ -1511,7 +1515,7 @@ dea9a66ce1e53c700d2b5ea816896fc5512e340d  TRANCEND.ERL    3,3K
 
 ## MUSEUM03
 
-CRC32: 0d5c68ca / SHA1: 2bd379212078b892ad07766007507b02bbda3703
+SIZE: 800K (819200) / SHA1: 2bd379212078b892ad07766007507b02bbda3703
 
 dba60ef49c77ad162b53ea5d966b23fb1d7ffc38  DBASE   .COM     19K  dBASE II v2.4
 9c4578e58962c150806f0ce1b760604011547a49  DBASEMSG.TXT     52K  
@@ -1536,7 +1540,7 @@ b675fb163bb084071d083b5e9b2c2d8d3645e209  MP80    .       6,3K
 
 ## MUSEUM04
 
-CRC32: 89f6f91e / SHA1: 76289c35e1e4a858ae4b9dcdfe81cc2e175559cb
+SIZE: 800K (819200) / SHA1: 76289c35e1e4a858ae4b9dcdfe81cc2e175559cb
 
 eaa47cb96feb06792df936b76f1f4ba61680b397  2       .       7,4K  JCM juhend tiitelleheta ('89)
 517f7d1b2fc6ef1538b7616d0897c1a43df1f530  BASCOM  .DOK     11K  BASCOMi juhend (EKTA '88)
@@ -1559,7 +1563,7 @@ bb718dedc601df04eefd121ea0fdb4b70bc7bc7f  SID     .DOK     19K  Siluri kasutajaj
 
 ## OKSJON01
 
-CRC32: 1c7990ce / SHA1: f380b3751385b0cf95bd599664f94742d45a69de
+SIZE: 800K (819200) / SHA1: f380b3751385b0cf95bd599664f94742d45a69de
 
 24e9c13ab0667b1f1f03b678deb2e2446d8da2ea  ASM     .COM    8,0K  Assembler 2.0 (CP/M)
 f98ddf968ecb87a98bc04db0582d9af624fc99a7  B80     .COM     24K  BASIC-80 5.21 (Microsoft '81)
@@ -1615,7 +1619,7 @@ f5cd38dfa09f9f4109d1c3060a1141b244001132  XDIR    .COM    2,3K
 
 ## OKSJON02
 
-CRC32: 0e91b2b1 / SHA1: 1b1ceb9cb450b37413f6ef590feeae1932193afe
+SIZE: 800K (819200) / SHA1: 1b1ceb9cb450b37413f6ef590feeae1932193afe
 
 da39a3ee5e6b4b0d3255bfef95601890afd80709  BUGABOO .COM       0  
 566e8b4f2a4b8e73f359730990c20271c5d960c7  COPY    .COM    1,5K  
@@ -1670,7 +1674,7 @@ fa6f1433fd4f6ad22b00bff2c8a8675c577ffc86  XXX     .        768
 
 ## OKSJON03
 
-CRC32: dbea8074 / SHA1: 68a097591cf2ac4dafdd7a5a55c498241b0dd7ab
+SIZE: 800K (819200) / SHA1: 68a097591cf2ac4dafdd7a5a55c498241b0dd7ab
 
 3925a6557d2d6551341c17409f4878fd2c76ba93  9       .       3,9K  
 2b5da40ff0a72d0d4655983c7662a35d0be9c587  9       .BAK    3,9K  
@@ -1737,7 +1741,7 @@ da39a3ee5e6b4b0d3255bfef95601890afd80709  STR     .SYP       0
 
 ## OKSJON04
 
-CRC32: 8e56fef5 / SHA1: 34860b8a9e718588ec4a4cb636c2053ec08ee433
+SIZE: 400K (409600) / SHA1: 34860b8a9e718588ec4a4cb636c2053ec08ee433
 
 24e9c13ab0667b1f1f03b678deb2e2446d8da2ea  ASM     .COM    8,0K  Assembler 2.0 (CP/M)
 f98ddf968ecb87a98bc04db0582d9af624fc99a7  B80     .COM     24K  BASIC-80 5.21 (Microsoft '81)
@@ -1792,7 +1796,7 @@ e44bce015083bd52cacd263ff5c0f7981891f9c5  SET     .COM     256
 
 ## OKSJON05
 
-CRC32: a853fb29 / SHA1: bacab942d6f7cce703449306cec87c85d7efc4a3
+SIZE: 400K (409600) / SHA1: bacab942d6f7cce703449306cec87c85d7efc4a3
 
 22f23e50a83e085dd7bfa2d4ca5b8fff48cd0ac6  1994    .PIC    3,4K  
 a55906cf298031ee6da2660ff63210bf9ed6237a  1995    .PIC    3,5K  
@@ -1812,7 +1816,7 @@ bd99e3a60e4c8f4182c564b84bc9b4660e849e86  XDIR    .COM    2,3K
 
 ## OKSJON06
 
-CRC32: d47a95ed / SHA1: e8620ed9392a24463d145d28c0fc76ddac1eeb27
+SIZE: 800K (819200) / SHA1: e8620ed9392a24463d145d28c0fc76ddac1eeb27
 
 1cdc1c80592e3f9cea0016ea05041a7c1e81c6aa  CURSOR  .PCC    1,0K  
 a208b67bc6b28c124eae7770cf2f2744a6bb9576  PR      .COM    2,7K  
@@ -1823,7 +1827,7 @@ c319afd6aff119e3782f2defc4adba068835f2ce  WURMI   .LNK    6,7K
 JUKU kettaseadmest leitud vigase ketta taastas Elektroonikamuuseumi asutaja Woldemar 31.04.2024.
 Ketta taastamises skoor oli 0/32.
 
-CRC32: 0a7616cd / SHA1: 02fab23a72a12ced4492de505964a486c3dc8eaf
+SIZE: 800K (819200) / SHA1: 02fab23a72a12ced4492de505964a486c3dc8eaf
 
 da39a3ee5e6b4b0d3255bfef95601890afd80709  5       .PIC       0  
 8e67ba4190e6078c43f7881ee4393af8ae26f359  BRUN    .COM     16K  BASIC runtime 5.30 (Microsoft)
@@ -1881,7 +1885,7 @@ da39a3ee5e6b4b0d3255bfef95601890afd80709  WARCRAFT.COM       0
 
 "VSW tööketta" tõmmise annetas Vahur Sinijärv 7.06.2022.
 
-CRC32: 0a032f5a / SHA1: b7efca324ddffc6c31476adff2228e3b5e2e792e
+SIZE: 800K (819200) / SHA1: b7efca324ddffc6c31476adff2228e3b5e2e792e
 
 31db9db22d8420b65e553f32638622a68efea656  3VMUSIC .ASM     29K  
 b31e7a1eb63a6557c7ed06ce66dfc1000f50b3d4  ASCII   .        896  
@@ -1991,3 +1995,4 @@ e6bd0ae860a2bddff5e16cfa683c6cc945a14f1d  PMOOD   .PRN    7,8K
 e2544071af4e98c70e70b055b14278a43db6b8b2  RUUT    .PCC    1,0K  
 e2544071af4e98c70e70b055b14278a43db6b8b2  SEIN    .PCC    1,0K  
 5f9c2b812c85af3544cecb8adf330bd1d4380d89  SIHTP   .PCC    1,0K  
+
