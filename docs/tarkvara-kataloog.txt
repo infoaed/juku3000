@@ -964,6 +964,24 @@ ca5404865b1d1d73c8a269278dfe63ee8cc2c4fe  7AAK    .BAK    4,8K
 f9d184dbd74f476692b19db3c5ee4093c08e4193  8A25    .BAK     896  
 dd5308a1a668c5604b58f9376bbe036f5b334446  8A30    .BAK     896  
 
+## MAALT12
+
+CRC32: 04266184 / SHA1: e0f6bbcd84eabb2e65cc2e82c09fbc45051c474e
+
+4bd47a75bfd2b56584d4e4631b20c292b373c65f  DBASE   .COM     19K  
+4e8113605587b6e6aadc56995ea46db101472293  DBASEMSG.TXT     52K  
+ef942fef1797e7c3fcabee1f7e063335dcf5e332  DBASEOVR.COM     40K  
+67938f9a6030842efe82089b4fb238d493e181bf  DBINST  .COM     14K  
+8a1c5f413781fdf09e7bc84157799208d368421e  GTR     .COM     27K  
+f4639264cacf939447f2250ac2b337c551cdd4fd  INSTALL .COM    6,4K  Microsoft tools config 1.02 ('81)
+ebf37ab3638f9c4c48cfed1e252d6b54cf467ab9  INSTALL .DAT     21K  
+043b6f9a66a72e9b741497695b23c87a027fd762  MP40    .       6,3K  
+b675fb163bb084071d083b5e9b2c2d8d3645e209  MP80    .       6,3K  
+b2afdaeed5b018378fc798c053091e3b2d066c6c  MP      .COM     17K  
+8c61c4b1113843756dcdac6c42e532ca4e6ecb59  MP      .HLP     40K  
+fef4c7907acd97f20f44736aadfd7b45cdd50f48  MP      .OVR     43K  
+343b7fa7ecb8e00f785f12910c33d5c706c302ad  PATTERN .PIC    7,2K  
+
 ## MAALT13
 
 CRC32: d4f96aeb / SHA1: e8e34c5ea5f643fae3045026f265cda57238e077
@@ -1021,6 +1039,103 @@ e3e5f65bc3e201591e462e246baea6d5206832a9  UK      .DBF    1,0K
 683a11dc9e19e84a83a317d8f0be0437e8e5ebb0  WS      .COM     16K  MicroPro WordStar 3.0 (64x20)
 2be664be18f19939c0e5b9c5892d3942d62c064e  WSMSGS  .OVR     28K  
 28382c4b26d03ce15e56c12e79061e3123268f53  WSOVLY1 .OVR     34K  
+
+## MAALT15
+
+CRC32: c521c9ca / SHA1: f507c24710e92e4a22385191309e429aeeba2b59
+
+813d45f75cf36972c5bde99262133fd9d52827ca  9MAT    .        896  
+b2029a90b826cea2689f7587f394a47e216bf1cf  9VENE2  .       1,9K  
+e45f88938e21a66e7371c5b17d520311b049bf13  9VENE4  .       2,2K  
+6bb03e6edcfa9dec51e0e648ae02d02005602fed  9VENE6  .       2,5K  
+5df9550f6421b9099c70316cbb0169f9e0b47b3c  A       .       1,0K  
+c86894ca3bd7a9ef1f1a51ef787ee7df6ca631c4  ARGO    .       1,2K  
+e861079239f41193191cd67c6c9881714a9433ee  B       .       1,4K  
+5e3938c7304c5598c7c0557bc602cb8d14e63ecf  COMPU   .COM    1,8K  Compute Mate 160 printeri draiver
+0d1869bb0b5d08d9fc7f283e3d84adcb160a0960  D       .        640  
+2abf9fd8612f087fa84ab3e5ef255b9f02c2f3db  ELEKTRA .        384  
+19474e1907f30ebe95b95b47f039787f969977c5  H       .PIC     768  
+a12c84f3d401b1fdc0ef7013a116dc9490d9e4f6  K       .       2,8K  
+9d5ca1c0208ca21d1afff88f2476b9480572268e  KOOLIST .        640  
+f84ac29a310e78c9b7fa01245f394f5660e1500c  KOR     .        512  
+391a5697d3f104f76e4b374f3bf6abab78bd880e  KUTSE   .PIC    2,0K  
+e3e031f69a5354bb6b3556ef7aebfce26ad64a30  KVIITUNG.        640  
+bd8dafa72300763bf27f31c8207e03be231fa9ef  M       .       1,5K  
+81ecd2b9fce67bd1a771361b69ad53a64d9d5c9e  MA      .       1,2K  
+1f63b49262253b7e81d82e5b83c80d5767c37555  MAARIKA .       1,2K  
+3dcd9b5494b19cbc77d72ae318d7e8df202e67b6  N       .        256  
+ca65bf99ebd7591884191cb497262a38ed645707  P       .        896  
+99fdd69f00c25e03f330dd0c4529e4afb2adde2e  PRIIDU  .       1,0K  
+54f4484e891da3681ad9030a84a0c9be8d33ca75  R       .        768  
+dd2f992a254705d91f76876fddef870513643db8  TAIRI   .       1,0K  
+02adc58fea088d94cb47a4978b3a358d33b33fd3  TEATIS  .        128  
+1a02208e1d2880017653c2bc26088a03090237ad  UUS     .        128  
+e57cb9600cc9cf89b14a0b77c82696c14b5eea2e  V|RK    .        128  
+498c7ab5b8b80a8748145dbc29672675feee638b  WS      .COM     16K  
+683a11dc9e19e84a83a317d8f0be0437e8e5ebb0  WSJ     .COM     16K  MicroPro WordStar 3.0 (64x20)
+2be664be18f19939c0e5b9c5892d3942d62c064e  WSMSGS  .OVR     28K  
+28382c4b26d03ce15e56c12e79061e3123268f53  WSOVLY1 .OVR     34K  
+
+### E5
+
+baf2476967ac815e51466e4e0f4a280fcdc11533  9MAT    .BAK     896  
+e45f88938e21a66e7371c5b17d520311b049bf13  9VENE4  .BAK    2,2K  
+1f15bedba68672a765747fd4acc08df102a08922  9VENE6  .BAK    2,5K  
+5df9550f6421b9099c70316cbb0169f9e0b47b3c  A       .BAK    1,0K  
+c86894ca3bd7a9ef1f1a51ef787ee7df6ca631c4  ARGO    .BAK    1,2K  
+bd80a6270e7b90b7af1a40588c3fa02f7ebf59e3  ELEKTRA .BAK     384  
+3cc9c157333ffa58bdcb4d0084ef9c18ef08fae5  KOR     .BAK     384  
+e3e031f69a5354bb6b3556ef7aebfce26ad64a30  KVIITUNG.BAK     640  
+d5de55087e664b6e7af0aa5d1a638384c01917e7  MAARIKA .BAK    1,2K  
+81ecd2b9fce67bd1a771361b69ad53a64d9d5c9e  MA      .BAK    1,2K  
+76d867df4898d43fbd0306ddd19e93c8b08c2c6e  PRIIDU  .BAK     896  
+6c07af0a1e0de3dd05b74457a37fdb4e35cdede3  R       .BAK     768  
+dd2f992a254705d91f76876fddef870513643db8  TAIRI   .BAK    1,0K  
+02adc58fea088d94cb47a4978b3a358d33b33fd3  TEATIS  .BAK     128  
+
+## MAALT20
+
+CRC32: c04da0b6 / SHA1: 9612a6d94a2587848cafc342bc1706e83c9e0ed3
+
+8804ca55d5ab88a60eaec47c0181fd6a40607fdd  1       .        896  
+2a7e9c8444d9c3de7f7bacbe1d1af15e58dffe1a  2       .        896  
+a561d04f40989fcfd43ccaaa27d31a13c73ae827  3       .        896  
+ca5ae9f88bf3452c2e9507b79f26362429a0eea0  4       .        896  
+86a663082236d3df01be9f378c71476c9f5ec791  5       .        896  
+6a54b1d33a54ff76267e4473431818bbfe6df61c  AVTEST  .COM     14K  Arvutusliku võime test (Vakstu '91?)
+2f69aadb7bf92fd6f423327c578c1cb6e4f7caf3  AVTEST  .DOC    2,7K  
+f98ddf968ecb87a98bc04db0582d9af624fc99a7  B80     .COM     24K  BASIC-80 5.21 (Microsoft '81)
+7cd35f8dc4d1b3f38a2acea90774fd2c05748680  BIO80   .BAS    2,0K  
+da39a3ee5e6b4b0d3255bfef95601890afd80709  CATCHIUM.$$$       0  
+738b4ec8c3c4c3fef07d9f80291ed1e71175f5ad  CATCHUM .COM     29K  Tuntud CP/Mi "Pac-Mani" kloon (80x24)
+e8f379b56da429c28d2c0a3d8cabe6ad6578f551  CATCHUM .DAT     512  
+e125c33f228c550cc205c442b280695429fbbba0  CHESS   .COM     31K  Malemäng "Las ma mõtlen" (EKTA '89)
+5e3938c7304c5598c7c0557bc602cb8d14e63ecf  COMPU   .COM    1,8K  Compute Mate 160 printeri draiver
+d08f33a5d8cb43169a2014d484b722dcd478ccf6  DOSGEN  .COM     896  Süsteemiketta generaator 3.4 (CP/M)
+ccc08b70e519b91a19812ec832c10c13db2228ac  FDMAINT .COM     11K  Floppy Maintenance 1.1 (EKTA '88)
+33f07b11b6d8d6f03ed849e3f2f66f9666cff07c  FORMAT  .COM    1,3K  EKDOS 786K flopide vormindaja 3.4
+f88cc775024c343337068645706191b4f482d5a3  GTR     .COM     27K  Turbo GTR 2.5B (M.Gladin/EKTA '87)
+496d38647a97e398322d68afb8db8692f0670d39  JCM     .COM     12K  JUKU File/Copy Master 1.0 (EKTA '89)
+c04aaa52fb2102197eac9c874ec302bdf6494a80  LADDER  .COM     40K  Tuntud CP/Mi platvormimäng (80x24)
+846f5835b8457082ee71fe1820c367d6bbc9eee7  LADDER  .DAT     512  
+dc58b4526fba01edf4421062fe69e1cdf5e26d70  LAOLEO  .COM     32K  "Sokobani" kloon (Kompuuter '91 H)
+17083edcccf65969d0039d93a34a1870f07677ff  ME      .COM     32K  Heliredaktor "Music Editor" 2.4 ('89)
+e0b5c4e59b6b4223258717836fb723bd75dd9e6d  MODX    .COM    3,5K  80x24 kuvalaotuse draiver
+da39a3ee5e6b4b0d3255bfef95601890afd80709  NS      .$$$       0  
+bc0b7315183126f1b5fec38d1a99670e6c5956fb  PACIUS  .PLR     256  
+98f5b1fc83af424a847fdcd219ede4186eb4a26a  PATTERN .PIC    7,2K  
+394d9b67fe587b1c587cbe79042db54a236eb7d3  PIP     .COM    7,3K  Failide kopeerija (CP/M)
+10af96f444d9dc9cfa979712cec611fb5b0b9d70  POWER   .COM     16K  Kettahaldur 3.03 (P.Breder '82)
+07292e94c90444a84335d9a2fae7d352ffef2e75  SIGRID  .PIC     128  
+4ae08460a1ba7571a8645395770719541e73a217  SNAKE   .COM     12K  "Ussike" (M.Gladin/EKTA '87)
+8a3893b1c382bda8d04e26aa52eab2aaade16393  SNAKE   .DAT    1,0K  
+180f5a3b8b22ffb209eea0619cf8be98c835f04d  STIIL   .BAS     512  
+89e1b3d41232b1d249b74eeadfc008e3b7099c77  ZOO     .COM     25K  
+683a11dc9e19e84a83a317d8f0be0437e8e5ebb0  WS      .COM     16K  MicroPro WordStar 3.0 (64x20)
+2be664be18f19939c0e5b9c5892d3942d62c064e  WSMSGS  .OVR     28K  
+28382c4b26d03ce15e56c12e79061e3123268f53  WSOVLY1 .OVR     34K  
+82867f48001b529bf501063c23a57a647f9ce1d5  XDIR    .COM    2,3K  Failikataloogide näitaja 3.5 (CP/M)
+425683c3f7be2374c1933813e76452929585cbd6  XONIX   .COM    3,8K  "Qixi" kloon (E.Jürviste/EKTA '87)
 
 ## MAALT21
 
@@ -1095,6 +1210,31 @@ f400c064f077255468c26268078852380509448d  TETRIS  .COM    1,9K  Graafiline "Tetr
 ### E5
 
 da39a3ee5e6b4b0d3255bfef95601890afd80709  LADCONF .COM       0  
+
+## MAALT23
+
+CRC32: 02c9cc0d / SHA1: 9d37a51bba816f18eeee643ecf6652ff69d73c67
+
+0d8300627138d9bff84b5747b0d3817e004867d2  B80     .COM     24K  
+7cd35f8dc4d1b3f38a2acea90774fd2c05748680  BIO80   .BAS    2,0K  
+75a52f246d8775586ce0cf591e1c93173c1ae57a  BUGABOO .COM     18K  Kaalikas labürindis (EKTA '89)
+3391e5345df4feb5a242afa878c016afa37446d0  BUGABOO .DAT    1,0K  
+7b055a79f10e8fdbabaa1a9cdea7fd4556bc2f07  BUGABOO .MSG    1,4K  
+b667490d6032f8306360a8cd6cfdf3e6f97b0539  BUGABOO .TAB     256  
+738b4ec8c3c4c3fef07d9f80291ed1e71175f5ad  CATCHUM .COM     29K  Tuntud CP/Mi "Pac-Mani" kloon (80x24)
+9ea81ca664784f7c6340c3d9da7d72de56334eb2  CATCHUM .DAT     512  
+e125c33f228c550cc205c442b280695429fbbba0  CHESS   .COM     31K  Malemäng "Las ma mõtlen" (EKTA '89)
+5e3938c7304c5598c7c0557bc602cb8d14e63ecf  COMPU   .COM    1,8K  Compute Mate 160 printeri draiver
+c67f7b7f2883597cfca2a32f15a85c8955e3377c  K\RT    .PIC     768  
+e0b5c4e59b6b4223258717836fb723bd75dd9e6d  MODX    .COM    3,5K  80x24 kuvalaotuse draiver
+42d06268214cc0b6aaf2d190e1e14ee2b5d1fd2d  SUMMA   .BAS     256  
+e48c5a1bd6d314a15c4fa2b6f74f0957e8978352  V}RRAND .BAS     512  
+
+### E5
+
+da39a3ee5e6b4b0d3255bfef95601890afd80709  JCM2    .$$$       0  
+78a9dcbf552d2be332622d8c4b08e44f2a88fdfb  WSJ     .COM     16K  
+86805f438ec4ab90a14ed3d6f577d8e4408cf3d7  WSMSGS  .$$$     28K  
 
 ## MAALT24
 

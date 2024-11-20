@@ -964,6 +964,24 @@ CRC32: `2a47884f` / SHA1: `cd9e2f4cf660f439ed769ed48f1520356f2b4a34`
 ``8A25    .BAK     896``      
 ``8A30    .BAK     896``      
 
+## MAALT12
+
+CRC32: `04266184` / SHA1: `e0f6bbcd84eabb2e65cc2e82c09fbc45051c474e`
+
+``DBASE   .COM     19K``      
+``DBASEMSG.TXT     52K``      
+``DBASEOVR.COM     40K``      
+``DBINST  .COM     14K``      
+``GTR     .COM     27K``      
+``INSTALL .COM    6,4K``    Microsoft tools config 1.02 ('81)  
+``INSTALL .DAT     21K``      
+``MP40    .       6,3K``      
+``MP80    .       6,3K``      
+``MP      .COM     17K``      
+``MP      .HLP     40K``      
+``MP      .OVR     43K``      
+``PATTERN .PIC    7,2K``      
+
 ## MAALT13
 
 CRC32: `d4f96aeb` / SHA1: `e8e34c5ea5f643fae3045026f265cda57238e077`
@@ -1021,6 +1039,103 @@ CRC32: `d4f96aeb` / SHA1: `e8e34c5ea5f643fae3045026f265cda57238e077`
 ``WS      .COM     16K``    MicroPro WordStar 3.0 (64x20)  
 ``WSMSGS  .OVR     28K``      
 ``WSOVLY1 .OVR     34K``      
+
+## MAALT15
+
+CRC32: `c521c9ca` / SHA1: `f507c24710e92e4a22385191309e429aeeba2b59`
+
+``9MAT    .        896``      
+``9VENE2  .       1,9K``      
+``9VENE4  .       2,2K``      
+``9VENE6  .       2,5K``      
+``A       .       1,0K``      
+``ARGO    .       1,2K``      
+``B       .       1,4K``      
+``COMPU   .COM    1,8K``    Compute Mate 160 printeri draiver  
+``D       .        640``      
+``ELEKTRA .        384``      
+``H       .PIC     768``      
+``K       .       2,8K``      
+``KOOLIST .        640``      
+``KOR     .        512``      
+``KUTSE   .PIC    2,0K``      
+``KVIITUNG.        640``      
+``M       .       1,5K``      
+``MA      .       1,2K``      
+``MAARIKA .       1,2K``      
+``N       .        256``      
+``P       .        896``      
+``PRIIDU  .       1,0K``      
+``R       .        768``      
+``TAIRI   .       1,0K``      
+``TEATIS  .        128``      
+``UUS     .        128``      
+``V|RK    .        128``      
+``WS      .COM     16K``      
+``WSJ     .COM     16K``    MicroPro WordStar 3.0 (64x20)  
+``WSMSGS  .OVR     28K``      
+``WSOVLY1 .OVR     34K``      
+
+### E5
+
+``9MAT    .BAK     896``      
+``9VENE4  .BAK    2,2K``      
+``9VENE6  .BAK    2,5K``      
+``A       .BAK    1,0K``      
+``ARGO    .BAK    1,2K``      
+``ELEKTRA .BAK     384``      
+``KOR     .BAK     384``      
+``KVIITUNG.BAK     640``      
+``MAARIKA .BAK    1,2K``      
+``MA      .BAK    1,2K``      
+``PRIIDU  .BAK     896``      
+``R       .BAK     768``      
+``TAIRI   .BAK    1,0K``      
+``TEATIS  .BAK     128``      
+
+## MAALT20
+
+CRC32: `c04da0b6` / SHA1: `9612a6d94a2587848cafc342bc1706e83c9e0ed3`
+
+``1       .        896``      
+``2       .        896``      
+``3       .        896``      
+``4       .        896``      
+``5       .        896``      
+``AVTEST  .COM     14K``    Arvutusliku võime test (Vakstu '91?)  
+``AVTEST  .DOC    2,7K``      
+``B80     .COM     24K``    BASIC-80 5.21 (Microsoft '81)  
+``BIO80   .BAS    2,0K``      
+``CATCHIUM.$$$       0``      
+``CATCHUM .COM     29K``    Tuntud CP/Mi "Pac-Mani" kloon (80x24)  
+``CATCHUM .DAT     512``      
+``CHESS   .COM     31K``    Malemäng "Las ma mõtlen" (EKTA '89)  
+``COMPU   .COM    1,8K``    Compute Mate 160 printeri draiver  
+``DOSGEN  .COM     896``    Süsteemiketta generaator 3.4 (CP/M)  
+``FDMAINT .COM     11K``    Floppy Maintenance 1.1 (EKTA '88)  
+``FORMAT  .COM    1,3K``    EKDOS 786K flopide vormindaja 3.4  
+``GTR     .COM     27K``    Turbo GTR 2.5B (M.Gladin/EKTA '87)  
+``JCM     .COM     12K``    JUKU File/Copy Master 1.0 (EKTA '89)  
+``LADDER  .COM     40K``    Tuntud CP/Mi platvormimäng (80x24)  
+``LADDER  .DAT     512``      
+``LAOLEO  .COM     32K``    "Sokobani" kloon (Kompuuter '91 H)  
+``ME      .COM     32K``    Heliredaktor "Music Editor" 2.4 ('89)  
+``MODX    .COM    3,5K``    80x24 kuvalaotuse draiver  
+``NS      .$$$       0``      
+``PACIUS  .PLR     256``      
+``PATTERN .PIC    7,2K``      
+``PIP     .COM    7,3K``    Failide kopeerija (CP/M)  
+``POWER   .COM     16K``    Kettahaldur 3.03 (P.Breder '82)  
+``SIGRID  .PIC     128``      
+``SNAKE   .COM     12K``    "Ussike" (M.Gladin/EKTA '87)  
+``SNAKE   .DAT    1,0K``      
+``STIIL   .BAS     512``      
+``ZOO     .COM     25K``      
+``WS      .COM     16K``    MicroPro WordStar 3.0 (64x20)  
+``WSMSGS  .OVR     28K``      
+``WSOVLY1 .OVR     34K``      
+``XDIR    .COM    2,3K``    Failikataloogide näitaja 3.5 (CP/M)  
+``XONIX   .COM    3,8K``    "Qixi" kloon (E.Jürviste/EKTA '87)  
 
 ## MAALT21
 
@@ -1095,6 +1210,31 @@ CRC32: `066cdcd9` / SHA1: `787ae3e0776d9feefb079ce397a8ed4ee759c5ec`
 ### E5
 
 ``LADCONF .COM       0``      
+
+## MAALT23
+
+CRC32: `02c9cc0d` / SHA1: `9d37a51bba816f18eeee643ecf6652ff69d73c67`
+
+``B80     .COM     24K``      
+``BIO80   .BAS    2,0K``      
+``BUGABOO .COM     18K``    Kaalikas labürindis (EKTA '89)  
+``BUGABOO .DAT    1,0K``      
+``BUGABOO .MSG    1,4K``      
+``BUGABOO .TAB     256``      
+``CATCHUM .COM     29K``    Tuntud CP/Mi "Pac-Mani" kloon (80x24)  
+``CATCHUM .DAT     512``      
+``CHESS   .COM     31K``    Malemäng "Las ma mõtlen" (EKTA '89)  
+``COMPU   .COM    1,8K``    Compute Mate 160 printeri draiver  
+``K\RT    .PIC     768``      
+``MODX    .COM    3,5K``    80x24 kuvalaotuse draiver  
+``SUMMA   .BAS     256``      
+``V}RRAND .BAS     512``      
+
+### E5
+
+``JCM2    .$$$       0``      
+``WSJ     .COM     16K``      
+``WSMSGS  .$$$     28K``      
 
 ## MAALT24
 
