@@ -1825,7 +1825,7 @@ c319afd6aff119e3782f2defc4adba068835f2ce  WURMI   .LNK    6,7K
 ## STEF2
 
 JUKU kettaseadmest leitud vigase ketta taastas Elektroonikamuuseumi asutaja Woldemar 31.04.2024.
-Ketta taastamises skoor oli 0/32.
+Ketta taastamise skoor on 0/32.
 
 SIZE: 800K (819200) / SHA1: 02fab23a72a12ced4492de505964a486c3dc8eaf
 

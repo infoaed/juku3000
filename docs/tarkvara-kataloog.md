@@ -1825,7 +1825,7 @@ SIZE: `800K` (`819200`) / SHA1: `e8620ed9392a24463d145d28c0fc76ddac1eeb27`
 ## STEF2
 
 JUKU kettaseadmest leitud vigase ketta taastas Elektroonikamuuseumi asutaja Woldemar 31.04.2024.
-Ketta taastamises skoor oli 0/32.
+Ketta taastamise skoor on 0/32.
 
 SIZE: `800K` (`819200`) / SHA1: `02fab23a72a12ced4492de505964a486c3dc8eaf`
 
