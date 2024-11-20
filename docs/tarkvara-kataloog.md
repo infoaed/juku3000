@@ -1827,7 +1827,7 @@ SIZE: `800K` (`819200`) / SHA1: `e8620ed9392a24463d145d28c0fc76ddac1eeb27`
 JUKU kettaseadmest leitud vigase ketta taastas Elektroonikamuuseumi asutaja Woldemar 31.04.2024.
 Ketta taastamise skoor on 0/32.
 
-SIZE: `800K` (`819200`) / SHA1: `02fab23a72a12ced4492de505964a486c3dc8eaf`
+SIZE: `800K` (`819200`) / SHA1: `17eefcd63de191d00059516aacfc16d9abf56400`
 
 ``5       .PIC       0``      
 ``BRUN    .COM     16K``    BASIC runtime 5.30 (Microsoft)  

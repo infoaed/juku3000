@@ -1827,7 +1827,7 @@ c319afd6aff119e3782f2defc4adba068835f2ce  WURMI   .LNK    6,7K
 JUKU kettaseadmest leitud vigase ketta taastas Elektroonikamuuseumi asutaja Woldemar 31.04.2024.
 Ketta taastamise skoor on 0/32.
 
-SIZE: 800K (819200) / SHA1: 02fab23a72a12ced4492de505964a486c3dc8eaf
+SIZE: 800K (819200) / SHA1: 17eefcd63de191d00059516aacfc16d9abf56400
 
 da39a3ee5e6b4b0d3255bfef95601890afd80709  5       .PIC       0  
 8e67ba4190e6078c43f7881ee4393af8ae26f359  BRUN    .COM     16K  BASIC runtime 5.30 (Microsoft)
