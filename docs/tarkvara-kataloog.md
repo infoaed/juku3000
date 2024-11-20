@@ -11,13 +11,17 @@ materjalist on allalaaditav aadressil:
 
 * https://elektroonikamuuseum.ee/failid/juku/tarkvara/
 
-Osaliselt taastatud ketaste puhul märgib 0/0 vigaste sektorite hulka ketta
-kummalgi poolel, nt 0/32 märgib 32 vigast sektorit ketta teisel poolel.
+Kasutajasektsioonid on nummerdatud alates esimesest, kustutatud failid on
+sektsioonis `E5`. Osaliselt taastatud ketaste puhul märgib 0/0 vigaste sektorite
+hulka ketta kummalgi poolel, nt 0/32 märgib 32 vigast sektorit ketta teisel
+poolel.
 
 ## EMUSYS1
 
 Elektroonikamuuseumi poolt kokku pandud Baltijetsi JUKU E5104 süsteemiketas #1,
 vt https://elektroonikamuuseum.ee/juku_arvuti_tarkvara_susteemiketas_1.html.
+
+CRC32: `e930b8f0` / SHA1: `956c82e43e2b1f76a337190f78318428729e845f`
 
 ``ASM     .COM    8,0K``    Assembler 2.0 (CP/M)  
 ``B80     .COM     24K``    BASIC-80 5.21 (Microsoft '81)  
@@ -64,6 +68,8 @@ vt https://elektroonikamuuseum.ee/juku_arvuti_tarkvara_susteemiketas_1.html.
 Elektroonikamuuseumi poolt kokku pandud Baltijetsi JUKU E5104 süsteemiketas #2,
 vt https://elektroonikamuuseum.ee/juku_arvuti_tarkvara_susteemiketas_2.html.
 
+CRC32: `ec35d36b` / SHA1: `054b854a9bc58383794e74fdc2f778f746bdf55d`
+
 ``FPREALS .ERL    7,5K``      
 ``LINKMT  .COM     12K``    Link/MT+ v5.6.1  
 ``MTERRS  .TXT    4,8K``      
@@ -84,6 +90,8 @@ vt https://elektroonikamuuseum.ee/juku_arvuti_tarkvara_susteemiketas_2.html.
 
 Elektroonikamuuseumi poolt kokku pandud Baltijetsi JUKU E5104 süsteemiketas #3,
 vt https://elektroonikamuuseum.ee/juku_arvuti_tarkvara_susteemiketas_3.html.
+
+CRC32: `0d5c68ca` / SHA1: `2bd379212078b892ad07766007507b02bbda3703`
 
 ``DBASE   .COM     19K``    dBASE II v2.4  
 ``DBASEMSG.TXT     52K``      
@@ -113,6 +121,8 @@ BBSummer 2022 puhuks andsid Ilmar Käär ja Rauno Mägi oma 1991. aasta šedöö
 vabakasutusse Creative Commons Zero (CC0) litsentsi alusel. Mäng avaldati
 Matrix BBSi sektsioonis "Filez".
 
+CRC32: `5df8503b` / SHA1: `8905d0a3601928b4890da92e7187f1e3bb7a7df5`
+
 ``FILE_ID .DIZ     297``      
 ``GAME    .PNG    4,9K``      
 ``INDY    .COM     27K``    Indy Looking for Jewels (I.Käär '91)  
@@ -124,6 +134,8 @@ Matrix BBSi sektsioonis "Filez".
 ## JUKGAME1
 
 Taastatud mängude koondtõmmis ELFAfoorumi 2020 jaanuari lõimest.
+
+CRC32: `395013a8` / SHA1: `efd6e83669777966d523d323ea61e0352eea88ff`
 
 ``1       .        896``      
 ``2       .        896``      
@@ -167,7 +179,7 @@ Taastatud mängude koondtõmmis ELFAfoorumi 2020 jaanuari lõimest.
 ``MODX    .COM    3,5K``    80x24 kuvalaotuse draiver  
 ``MOND    .COM     17K``    "Artillery Duel" kloon?  
 ``RUS     .        896``    Kirillitsa font (KOI-8)  
-``SHOT    .COM    2,3K``      
+``SHOT    .COM    2,3K``    Shot Master 2000 v1.1 (I.Käär '91)  
 ``SNAKE   .COM     12K``    "Ussike" (M.Gladin/EKTA '87)  
 ``SNAKE   .DAT    1,0K``      
 ``ZOO     .COM     25K``    "Lode Runner" loomaaias (Vakstu '91)  
@@ -180,6 +192,8 @@ Taastatud mängude koondtõmmis ELFAfoorumi 2020 jaanuari lõimest.
 ## JUKPROG1
 
 Taastatud programmide koondtõmmis #1 ELFAfoorumi 2020 jaanuari lõimest.
+
+CRC32: `3f74f428` / SHA1: `32708fd095be8ea50bf2ba185c6d5654e0ca3255`
 
 ``ALIENS  .PIC    1,7K``      
 ``ASCII   .        896``    Ladina tähestiku font (US laotus)  
@@ -283,6 +297,8 @@ Taastatud programmide koondtõmmis #1 ELFAfoorumi 2020 jaanuari lõimest.
 
 Taastatud programmide koondtõmmis #2 ELFAfoorumi 2020 jaanuari lõimest.
 
+CRC32: `9b9007bd` / SHA1: `725233ba5f8943ff2778bf4d70dbf25f71a5854d`
+
 ``ASM     .COM    8,0K``    Assembler 2.0 (CP/M)  
 ``B80     .COM     24K``    BASIC-80 5.21 (Microsoft '81)  
 ``BASCOM  .COM     32K``    BASICu translaator 5.30 (Microsoft)  
@@ -338,6 +354,8 @@ Taastatud programmide koondtõmmis #2 ELFAfoorumi 2020 jaanuari lõimest.
 
 Taastatud programmide koondtõmmis #3 ELFAfoorumi 2020 jaanuari lõimest.
 
+CRC32: `9515525b` / SHA1: `7ac496b74bc5f0d6beeae5231b3f379b53ad8284`
+
 ``BASLIB  .REL     49K``      
 ``BIO80   .BAS    2,0K``      
 ``DOSGEN  .COM     896``    Süsteemiketta generaator 3.4 (CP/M)  
@@ -367,6 +385,8 @@ Taastatud programmide koondtõmmis #3 ELFAfoorumi 2020 jaanuari lõimest.
 
 Mälukividelt taastatud JUKU püsimälu monitorid ja laiendused.
 
+CRC32: `7505d0eb` / SHA1: `2c4367df871efae011fb0d6ce318ce67c965b65d`
+
 ``EKTA24  .BIN     16K``    RomBios 3.42, JUSS keyb (#0024 '88)  
 ``EKTA32  .BIN     16K``    RomBios 2.43m (#0032 '88)  
 ``EKTA35  .BIN     16K``    RomBios 3.43m, JUSS keyb (#0035 '88)  
@@ -379,6 +399,8 @@ Mälukividelt taastatud JUKU püsimälu monitorid ja laiendused.
 
 Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 
+CRC32: `ca99b150` / SHA1: `86df07916a834cc71d38a2885f439e5ceba42c25`
+
 ``CPM22   .BIN     10K``    CP/M 2.2  
 ``CPM231E .BIN     10K``    CP/M 2.31e (=EKDOS 2.30)  
 ``EKDOS229.BIN     10K``    EKDOS 2.29  
@@ -386,6 +408,8 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``EKDOSVSW.BIN     10K``    "VSW tööketas" (=EKDOS 2.29)  
 
 ## MAALT01
+
+CRC32: `4b921f62` / SHA1: `41c4064de6114dde4af54882fd6c1430e78f2a8b`
 
 ``7A1     .        896``      
 ``8BT     .        640``      
@@ -437,6 +461,8 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 
 ## MAALT02
 
+CRC32: `554c99fa` / SHA1: `d56922f9e75fec1705016429b3f30a047383b691`
+
 ``ANNELI  .       1,3K``      
 ``COMPU   .COM    1,8K``      
 ``ENOR    .        640``      
@@ -455,7 +481,20 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``WSMSGS  .OVR     28K``      
 ``WSOVLY1 .OVR     34K``      
 
+### E5
+
+``ANNELI  .BAK    1,3K``      
+``ENOR    .BAK     640``      
+``KIRJAND .BAK    1,4K``      
+``K|RT    .BAK    1,2K``      
+``LEPING  .BAK    3,4K``      
+``PACIUS  .PLR     256``      
+``TAAVI   .BAK     512``      
+``UUS     .        128``      
+
 ## MAALT03
+
+CRC32: `c476a827` / SHA1: `64b16291e7fdf850a1e3d6aabbd464b760aa3f88`
 
 ``ATSKOO  .COM     18K``    Kaardimäng "Atskoo" (Kohtla-J 1KK)  
 ``BOWLING .COM    3,5K``    Keegel (Maxway & I.K.S. '91)  
@@ -477,13 +516,19 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``MADUOK  .COM    9,3K``    Originaalne ussimäng?  
 ``MODX    .COM    3,5K``    80x24 kuvalaotuse draiver  
 ``MOND    .COM     17K``    "Artillery Duel" kloon?  
-``SHOT    .COM    2,3K``      
+``SHOT    .COM    2,3K``    Shot Master 2000 v1.1 (I.Käär '91)  
 ``SNAKE   .COM     12K``    "Ussike" (M.Gladin/EKTA '87)  
 ``SNAKE   .DAT    1,0K``      
 ``TETRIS  .COM    1,9K``    Graafiline "Tetris" (T.Ainsaar '90)  
 ``XONIX   .COM    3,8K``    "Qixi" kloon (E.Jürviste/EKTA '87)  
 
+### E5
+
+``LADCONF .COM       0``      
+
 ## MAALT04
+
+CRC32: `cd5fd30e` / SHA1: `e4223e2bba25dc4b2b3ba4de6a4f63b156566b8a`
 
 ``BUGABOO .        18K``    Kaalikas labürindis (EKTA '89)  
 ``BUGABOO .COM     18K``    Kaalikas labürindis (EKTA '89)  
@@ -518,7 +563,7 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``MP      .COM     17K``    Multiplan 1.05 (Microsoft '81)  
 ``PIP     .COM    7,3K``    Failide kopeerija (CP/M)  
 ``POWER   .COM     16K``    Kettahaldur 3.03 (P.Breder '82)  
-``SHOT    .COM    2,3K``      
+``SHOT    .COM    2,3K``    Shot Master 2000 v1.1 (I.Käär '91)  
 ``ZOO     .        25K``    "Lode Runner" loomaaias (Vakstu '91)  
 ``ZOO     .COM     25K``      
 ``TANK    .        15K``    Tank UFOde vastu  
@@ -532,6 +577,8 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``XONIX   .COM    3,8K``    "Qixi" kloon (E.Jürviste/EKTA '87)  
 
 ## MAALT05
+
+CRC32: `dfb9482e` / SHA1: `2f13321727444f53e502591acf7a97b93b44e193`
 
 ``DBASE   .COM     19K``      
 ``DBASEMSG.TXT     52K``      
@@ -559,6 +606,8 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``XDIR    .COM    2,3K``    Failikataloogide näitaja 3.5 (CP/M)  
 
 ## MAALT06
+
+CRC32: `345ad7cf` / SHA1: `ce3509c93b718c982f228e99b713ce87a965bb0c`
 
 ``1       .        896``      
 ``2       .        896``      
@@ -635,6 +684,8 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 
 ## MAALT07
 
+CRC32: `4e42dd8c` / SHA1: `5c86653a2a1656bce163d92c1b774d3a7e39aae6`
+
 ``AVTEST  .COM     14K``      
 ``AVTEST  .DOC    2,7K``      
 ``BOWLING .COM    3,5K``    Keegel (Maxway & I.K.S. '91)  
@@ -651,7 +702,13 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``SNAKE   .COM     12K``    "Ussike" (M.Gladin/EKTA '87)  
 ``XONIX   .COM    3,8K``    "Qixi" kloon (E.Jürviste/EKTA '87)  
 
+### E5
+
+``SNAKE   .DAT    1,0K``      
+
 ## MAALT08
+
+CRC32: `34bfa4e8` / SHA1: `e06467eafb906cdf21da1f896d4beb040f37302a`
 
 ``1       .        896``      
 ``2       .        896``      
@@ -705,7 +762,14 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``WSOVLY1 .OVR     34K``      
 ``XONIX   .COM    3,8K``    "Qixi" kloon (E.Jürviste/EKTA '87)  
 
+### E5
+
+``KRISTJAN.        512``      
+``KRISTJAN.BAK     768``      
+
 ## MAALT09
+
+CRC32: `117b2fc2` / SHA1: `1bab084d9d7869327319fbc9cc3de245df9eab32`
 
 ``ATSKOO  .COM     18K``    Kaardimäng "Atskoo" (Kohtla-J 1KK)  
 ``AVTEST  .COM     14K``    Arvutusliku võime test (Vakstu '91?)  
@@ -740,6 +804,8 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 
 ## MAALT10
 
+CRC32: `b564932a` / SHA1: `79a8b5a7b31e98a800ebbfbaedc440dec22a8db9`
+
 ``COMPU   .COM    1,8K``    Compute Mate 160 printeri draiver  
 ``G       .        384``      
 ``HERB    .       3,3K``      
@@ -759,7 +825,13 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``WSMSGS  .OVR     28K``      
 ``WSOVLY1 .OVR     34K``      
 
+### E5
+
+``PUTUK   .BAK    7,9K``      
+
 ## MAALT11
+
+CRC32: `2a47884f` / SHA1: `cd9e2f4cf660f439ed769ed48f1520356f2b4a34`
 
 ``========.===    4,0K``      
 ``5AINED  .        768``      
@@ -884,7 +956,17 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``X-FILE  .PIC    1,7K``      
 ``XZSDCCBR.PIC    1,2K``      
 
+### E5
+
+``7AAK    .BAK    4,8K``      
+``7AK11   .BAK    1,0K``      
+``7BAK    .BAK    8,5K``      
+``8A25    .BAK     896``      
+``8A30    .BAK     896``      
+
 ## MAALT13
+
+CRC32: `d4f96aeb` / SHA1: `e8e34c5ea5f643fae3045026f265cda57238e077`
 
 ``04PALK  .       2,5K``      
 ``1993    .CMD     512``      
@@ -942,6 +1024,8 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 
 ## MAALT21
 
+CRC32: `c6232740` / SHA1: `30b6d50335891834596fa058cf7de09892cf40ec`
+
 ``DBASE   .COM     19K``      
 ``DBASEMSG.TXT     52K``      
 ``DBASEOVR.COM     40K``      
@@ -960,6 +1044,8 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``PATTERN .PIC    7,2K``      
 
 ## MAALT22
+
+CRC32: `066cdcd9` / SHA1: `787ae3e0776d9feefb079ce397a8ed4ee759c5ec`
 
 ``AASTAD  .       2,2K``      
 ``ATSKOO  .COM     18K``    Kaardimäng "Atskoo" (Kohtla-J 1KK)  
@@ -1006,7 +1092,13 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``XDIR    .COM    2,3K``    Failikataloogide näitaja 3.5 (CP/M)  
 ``XONIX   .COM    3,8K``    "Qixi" kloon (E.Jürviste/EKTA '87)  
 
+### E5
+
+``LADCONF .COM       0``      
+
 ## MAALT24
+
+CRC32: `cf6b17da` / SHA1: `11e18ae89b5943386a538cbff53d18c46dcb4798`
 
 ``1       .        896``      
 ``2       .        896``      
@@ -1043,6 +1135,8 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``LL0     .       6,4K``      
 
 ## MAALT25D
+
+CRC32: `88c5784d` / SHA1: `58c157f28a3a49ce7b0f0fbffba939ee2a851116`
 
 ``1       .        896``      
 ``2       .        896``      
@@ -1118,6 +1212,8 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 
 ## MAALT26
 
+CRC32: `c37037ce` / SHA1: `ddf3bf83e7bf1247215470b869eb553eaab89424`
+
 ``1       .        384``      
 ``7AAK    .        14K``      
 ``7AAK    .BAK     14K``      
@@ -1161,7 +1257,13 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``WSMSGS  .OVR     28K``      
 ``WSOVLY1 .OVR     34K``      
 
+### E5
+
+``7AAK    .BAK     14K``      
+
 ## MAALT27
+
+CRC32: `f2117041` / SHA1: `c695e5833d7aa7dd2bb161b6948819c027dac0b8`
 
 ``ALIENS  .PIC    1,7K``      
 ``ANDMED  .DBF    1,0K``      
@@ -1196,12 +1298,16 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 
 ## MANUALID
 
+CRC32: `d8249db1` / SHA1: `dacdaaf586dd6144d24f9baa8cfe62555fc48587`
+
 ``DBASE   .DOK     37K``    dBASE II juhend (EÕK '90)  
 ``GTR     .DOK     12K``    GTR redaktori juhised #1 (EKTA '89)  
 ``GTRLISA .DOK    9,9K``    GTR redaktori juhised #2 (EKTA '89)  
 ``JCM     .DOK    7,8K``    JCM juhend (EÕK '90)  
 
 ## MUSEUM01
+
+CRC32: `e930b8f0` / SHA1: `956c82e43e2b1f76a337190f78318428729e845f`
 
 ``ASM     .COM    8,0K``    Assembler 2.0 (CP/M)  
 ``B80     .COM     24K``    BASIC-80 5.21 (Microsoft '81)  
@@ -1245,6 +1351,8 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 
 ## MUSEUM02
 
+CRC32: `ec35d36b` / SHA1: `054b854a9bc58383794e74fdc2f778f746bdf55d`
+
 ``FPREALS .ERL    7,5K``      
 ``LINKMT  .COM     12K``    Link/MT+ v5.6.1  
 ``MTERRS  .TXT    4,8K``      
@@ -1262,6 +1370,8 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``XDIR    .COM    2,3K``    Failikataloogide näitaja 3.5 (CP/M)  
 
 ## MUSEUM03
+
+CRC32: `0d5c68ca` / SHA1: `2bd379212078b892ad07766007507b02bbda3703`
 
 ``DBASE   .COM     19K``    dBASE II v2.4  
 ``DBASEMSG.TXT     52K``      
@@ -1286,6 +1396,8 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 
 ## MUSEUM04
 
+CRC32: `89f6f91e` / SHA1: `76289c35e1e4a858ae4b9dcdfe81cc2e175559cb`
+
 ``2       .       7,4K``    JCM juhend tiitelleheta ('89)  
 ``BASCOM  .DOK     11K``    BASCOMi juhend (EKTA '88)  
 ``DBAAS   .DOK     28K``    dBASE II käskude tutvustus  
@@ -1306,6 +1418,8 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``XONIX   .COM    3,8K``    "Qixi" kloon (E.Jürviste/EKTA '87)  
 
 ## OKSJON01
+
+CRC32: `1c7990ce` / SHA1: `f380b3751385b0cf95bd599664f94742d45a69de`
 
 ``ASM     .COM    8,0K``    Assembler 2.0 (CP/M)  
 ``B80     .COM     24K``    BASIC-80 5.21 (Microsoft '81)  
@@ -1354,7 +1468,14 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``VIRUS   .TXT     768``      
 ``XDIR    .COM    2,3K``      
 
+### E5
+
+``DISKTST .TST    1,3K``      
+``LSC     .HEX     384``      
+
 ## OKSJON02
+
+CRC32: `0e91b2b1` / SHA1: `1b1ceb9cb450b37413f6ef590feeae1932193afe`
 
 ``BUGABOO .COM       0``      
 ``COPY    .COM    1,5K``      
@@ -1362,8 +1483,6 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``EXTERN  .BAS     256``      
 ``FTYPE   .COM    8,4K``      
 ``FX800   .COM    1,8K``    Epson FX-800 printeri draiver  
-``INDY    .BAK     13K``      
-``INDY    .TAB     13K``      
 ``LINKMT  .COM     12K``    Link/MT+ v5.6.1  
 ``MT      .COM     36K``    Pascal/MT+ v5.6.1  
 ``MTPLUS  .000     13K``      
@@ -1378,10 +1497,40 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``PROOV   .BAS     256``      
 ``SDEL    .COM     896``    Selective Delete v2.0  
 ``SED     .COM     10K``    Screen text editor 6.1  
-``TABEL   .        13K``      
 ``XDIR    .COM    2,3K``    Failikataloogide näitaja 3.5 (CP/M)  
 
+### 01
+
+``INDY    .BAK     13K``      
+``INDY    .TAB     13K``      
+``TABEL   .        13K``      
+
+### E5
+
+``????????.DIR     384``      
+``DISK    .ERL     384``      
+``DISK    .H       256``      
+``ERROR   .COM    5,7K``      
+``FPREALS .ERL    7,5K``      
+``FTYPE   .ERL     768``      
+``GRAPH   .H       512``      
+``INDY    .BAK     13K``      
+``KEYB    .ERL     512``      
+``PRINT   .ERL    1,7K``      
+``PRINT   .H      3,3K``      
+``SCREEN  .H       768``      
+``SCREEN  .HH      768``      
+``SPRITE  .H1      384``      
+``SPRITE  .H2      384``      
+``TABEL   .DCD       0``      
+``TRANCEND.ERL    3,3K``      
+``UTILIT  .ERL     768``      
+``UTILIT  .H       384``      
+``XXX     .        768``      
+
 ## OKSJON03
+
+CRC32: `dbea8074` / SHA1: `68a097591cf2ac4dafdd7a5a55c498241b0dd7ab`
 
 ``9       .       3,9K``      
 ``9       .BAK    3,9K``      
@@ -1399,7 +1548,6 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``FPREALS .ERL    7,5K``      
 ``GRAPH   .ERL    2,0K``      
 ``GRAPH   .H       512``      
-``INDY    .DAT     12K``      
 ``KEYB    .ERL     512``      
 ``KEYB    .H       512``      
 ``KEYC    .ERL     640``      
@@ -1424,7 +1572,6 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``SPRITE  .ERL    2,8K``      
 ``SPRITE  .H1      384``      
 ``SPRITE  .H2      384``      
-``TEKST   .$$$       0``      
 ``TRANCEND.ERL    3,3K``      
 ``UTILIT  .ERL     768``      
 ``UTILIT  .H       384``      
@@ -1433,7 +1580,24 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``XGRAPH  .H       768``      
 ``YHEKSA  .BAK     896``      
 
+### 01
+
+``INDY    .DAT     12K``      
+``TEKST   .$$$       0``      
+
+### E5
+
+``9       .COM    8,8K``      
+``9       .SYP       0``      
+``STR     .        256``      
+``STR     .COM    4,2K``      
+``STR     .ERL     384``      
+``STR     .SYM     256``      
+``STR     .SYP       0``      
+
 ## OKSJON04
+
+CRC32: `8e56fef5` / SHA1: `34860b8a9e718588ec4a4cb636c2053ec08ee433`
 
 ``ASM     .COM    8,0K``    Assembler 2.0 (CP/M)  
 ``B80     .COM     24K``    BASIC-80 5.21 (Microsoft '81)  
@@ -1456,7 +1620,39 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 ``XDIR    .COM    2,3K``    Failikataloogide näitaja 3.5 (CP/M)  
 ``YLES2   .BAS    1,2K``      
 
+### E5
+
+``BASLIB  .$$$       0``      
+``LOAD    .$$$       0``      
+``LPT1:   .        128``      
+``MTERRS  .TXT    4,8K``      
+``MTPLUS  .000     13K``      
+``MTPLUS  .001     11K``      
+``MTPLUS  .002    7,0K``      
+``MTPLUS  .003    7,3K``      
+``MTPLUS  .004     17K``      
+``MTPLUS  .005    8,5K``      
+``MTPLUS  .006    6,2K``      
+``MTPLUS  .COM     36K``    Pascal/MT+ v5.6.1  
+``OTSIME  .          0``      
+``PASTEMP .TOK       0``      
+``REGLEMEN.BAK    2,4K``      
+``RUUTVO2 .COM    3,4K``      
+``RUUTVO3 .COM    3,4K``      
+``RUUTVO3 .SYM     256``      
+``RUUTVO4 .COM       0``      
+``RUUTVO4 .SYM       0``      
+``RUUTVO4 .SYP       0``      
+``RUUTVORR.COM     15K``      
+``RUUTVORR.ERL     512``      
+``RUUTVORR.SYP       0``      
+``SCREEN  .ASM       0``      
+``SET     .COM     256``      
+``TRIPS   .PAS     896``      
+
 ## OKSJON05
+
+CRC32: `a853fb29` / SHA1: `bacab942d6f7cce703449306cec87c85d7efc4a3`
 
 ``1994    .PIC    3,4K``      
 ``1995    .PIC    3,5K``      
@@ -1476,6 +1672,8 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 
 ## OKSJON06
 
+CRC32: `d47a95ed` / SHA1: `e8620ed9392a24463d145d28c0fc76ddac1eeb27`
+
 ``CURSOR  .PCC    1,0K``      
 ``PR      .COM    2,7K``      
 ``WURMI   .LNK    6,7K``      
@@ -1484,6 +1682,8 @@ Eri ketastelt leitud opsüsteemid, mida JUKU suudab alglaadida.
 
 JUKU kettaseadmest leitud vigase ketta taastas Elektroonikamuuseumi asutaja Woldemar 31.04.2024.
 Ketta taastamises skoor oli 0/32.
+
+CRC32: `0a7616cd` / SHA1: `02fab23a72a12ced4492de505964a486c3dc8eaf`
 
 ``5       .PIC       0``      
 ``BRUN    .COM     16K``    BASIC runtime 5.30 (Microsoft)  
@@ -1532,9 +1732,16 @@ Ketta taastamises skoor oli 0/32.
 ``WARCRAFT.COM       0``      
 ``WE      .PIC    2,8K``      
 
+### E5
+
+``MOIS    .COM    6,8K``      
+``ZOO     .COM     25K``      
+
 ## VAKSTU
 
 "VSW tööketta" tõmmise annetas Vahur Sinijärv 7.06.2022.
+
+CRC32: `0a032f5a` / SHA1: `b7efca324ddffc6c31476adff2228e3b5e2e792e`
 
 ``3VMUSIC .ASM     29K``      
 ``ASCII   .        896``      
@@ -1628,3 +1835,19 @@ Ketta taastamises skoor oli 0/32.
 ``TRIPS   .COM     16K``      
 ``TYPER   .ASM    1,4K``      
 ``TYPER   .COM     256``      
+
+### E5
+
+``JALG    .PCC    1,0K``      
+``KAST    .PCC    1,0K``      
+``KEHA    .PCC    1,0K``      
+``KOHT    .PCC    1,0K``      
+``LODERUN .$$$     16K``      
+``MEES    .PCC    1,0K``      
+``PMOOD   .ASM    3,7K``      
+``PMOOD   .PRN    7,8K``      
+``PUNKT   .PIC     128``      
+``REI     .PCC    1,0K``      
+``RUUT    .PCC    1,0K``      
+``SEIN    .PCC    1,0K``      
+``SIHTP   .PCC    1,0K``      
