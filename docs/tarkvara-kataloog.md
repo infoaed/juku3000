@@ -409,6 +409,14 @@ SIZE: `25K` (`25142`) / SHA1: `86df07916a834cc71d38a2885f439e5ceba42c25`
 
 ## MAALT01
 
+Kettad MAALT`nn` seeriast on koos MUSEUM`nn` seeriaga JUKPROGn ja JUKGAME1 aluseks.
+Kettad loeti esmalt sisse DOSi ImageDisk utiliidiga ja seejärel uuesti KryoFluxiga.
+Siin äratoodutest on enamik ImageDiski satsist, va kettad 12, 15, 20 ja 23, mille
+ImageDisk algselt luges välja puudulikult. Kui ketastelt on vaja kätte saada
+midagi väga olulist, siis on võimalik kahte satsi omavahel kombineerida, kuid
+ketaste algseid magnetvoogude salvestisi säilinud pole ja osade ketaste seisukord
+lugemise tulemusel märgatavalt halvenes, sj juba teise lugemisega.
+
 SIZE: `800K` (`819200`) / SHA1: `41c4064de6114dde4af54882fd6c1430e78f2a8b`
 
 ``7A1     .        896``      
@@ -1451,6 +1459,9 @@ SIZE: `26K` (`25697`) / SHA1: `dacdaaf586dd6144d24f9baa8cfe62555fc48587`
 
 ## MUSEUM01
 
+Neli MUSEUM`nn` seeri ketast koos MAALT`nn` seeriaga on JUKPROG`n` ja JUKGAME1 aluseks.
+Ketaste tekkeloo kohta täpsemalt vt `MAALT01` kirjeldusest.
+
 SIZE: `800K` (`819200`) / SHA1: `956c82e43e2b1f76a337190f78318428729e845f`
 
 ``ASM     .COM    8,0K``    Assembler 2.0 (CP/M)  
@@ -1562,6 +1573,9 @@ SIZE: `800K` (`819200`) / SHA1: `76289c35e1e4a858ae4b9dcdfe81cc2e175559cb`
 ``XONIX   .COM    3,8K``    "Qixi" kloon (E.Jürviste/EKTA '87)  
 
 ## OKSJON01
+
+OKSJON`nn` seeria koosneb 2022. aastal peamiselt Osta.ee oksjonisaidilt JUKU ketaste leidmise
+eesmärgil tehtud kontrollostudest.
 
 SIZE: `800K` (`819200`) / SHA1: `f380b3751385b0cf95bd599664f94742d45a69de`
 

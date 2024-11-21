@@ -409,6 +409,14 @@ a1134d27b358086d15133befef5a4a28d7304042  EKDOS230.BIN     10K  EKDOS 2.30
 
 ## MAALT01
 
+Kettad MAALT`nn` seeriast on koos MUSEUM`nn` seeriaga JUKPROGn ja JUKGAME1 aluseks.
+Kettad loeti esmalt sisse DOSi ImageDisk utiliidiga ja seejärel uuesti KryoFluxiga.
+Siin äratoodutest on enamik ImageDiski satsist, va kettad 12, 15, 20 ja 23, mille
+ImageDisk algselt luges välja puudulikult. Kui ketastelt on vaja kätte saada
+midagi väga olulist, siis on võimalik kahte satsi omavahel kombineerida, kuid
+ketaste algseid magnetvoogude salvestisi säilinud pole ja osade ketaste seisukord
+lugemise tulemusel märgatavalt halvenes, sj juba teise lugemisega.
+
 SIZE: 800K (819200) / SHA1: 41c4064de6114dde4af54882fd6c1430e78f2a8b
 
 4c26c5489141557e11d916d3a542b11a7bf2886a  7A1     .        896  
@@ -1451,6 +1459,9 @@ de6ee0c39b4989c7ba81e8e32c204e948644a234  GTRLISA .DOK    9,9K  GTR redaktori ju
 
 ## MUSEUM01
 
+Neli MUSEUM`nn` seeri ketast koos MAALT`nn` seeriaga on JUKPROG`n` ja JUKGAME1 aluseks.
+Ketaste tekkeloo kohta täpsemalt vt `MAALT01` kirjeldusest.
+
 SIZE: 800K (819200) / SHA1: 956c82e43e2b1f76a337190f78318428729e845f
 
 24e9c13ab0667b1f1f03b678deb2e2446d8da2ea  ASM     .COM    8,0K  Assembler 2.0 (CP/M)
@@ -1562,6 +1573,9 @@ bb718dedc601df04eefd121ea0fdb4b70bc7bc7f  SID     .DOK     19K  Siluri kasutajaj
 425683c3f7be2374c1933813e76452929585cbd6  XONIX   .COM    3,8K  "Qixi" kloon (E.Jürviste/EKTA '87)
 
 ## OKSJON01
+
+OKSJON`nn` seeria koosneb 2022. aastal peamiselt Osta.ee oksjonisaidilt JUKU ketaste leidmise
+eesmärgil tehtud kontrollostudest.
 
 SIZE: 800K (819200) / SHA1: f380b3751385b0cf95bd599664f94742d45a69de
 
