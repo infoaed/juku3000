@@ -409,7 +409,7 @@ a1134d27b358086d15133befef5a4a28d7304042  EKDOS230.BIN     10K  EKDOS 2.30
 
 ## MAALT01
 
-Kettad MAALT`nn` seeriast on koos MUSEUM`nn` seeriaga JUKPROGn ja JUKGAME1 aluseks.
+Kettad MAALT`nn` seeriast on koos MUSEUM`nn` seeriaga JUKPROG`n` ja JUKGAME`1` aluseks.
 Kettad loeti esmalt sisse DOSi ImageDisk utiliidiga ja seejärel uuesti KryoFluxiga.
 Siin äratoodutest on enamik ImageDiski satsist, va kettad 12, 15, 20 ja 23, mille
 ImageDisk algselt luges välja puudulikult. Kui ketastelt on vaja kätte saada
@@ -1103,6 +1103,8 @@ dd2f992a254705d91f76876fddef870513643db8  TAIRI   .BAK    1,0K
 
 ## MAALT18
 
+Tühi süsteemiketas, mille alglaadimissektorites standardne EKDOS 2.30.
+
 SIZE: 800K (819200) / SHA1: 1f6b7ade822ba563de16153d272f12add337a3d5
 
 ## MAALT20
@@ -1459,7 +1461,7 @@ de6ee0c39b4989c7ba81e8e32c204e948644a234  GTRLISA .DOK    9,9K  GTR redaktori ju
 
 ## MUSEUM01
 
-Neli MUSEUM`nn` seeri ketast koos MAALT`nn` seeriaga on JUKPROG`n` ja JUKGAME1 aluseks.
+Neli MUSEUM`nn` seeri ketast koos MAALT`nn` seeriaga on JUKPROG`n` ja JUKGAME`1` aluseks.
 Ketaste tekkeloo kohta täpsemalt vt `MAALT01` kirjeldusest.
 
 SIZE: 800K (819200) / SHA1: 956c82e43e2b1f76a337190f78318428729e845f

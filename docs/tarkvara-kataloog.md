@@ -409,7 +409,7 @@ SIZE: `25K` (`25142`) / SHA1: `86df07916a834cc71d38a2885f439e5ceba42c25`
 
 ## MAALT01
 
-Kettad MAALT`nn` seeriast on koos MUSEUM`nn` seeriaga JUKPROGn ja JUKGAME1 aluseks.
+Kettad MAALT`nn` seeriast on koos MUSEUM`nn` seeriaga JUKPROG`n` ja JUKGAME`1` aluseks.
 Kettad loeti esmalt sisse DOSi ImageDisk utiliidiga ja seejärel uuesti KryoFluxiga.
 Siin äratoodutest on enamik ImageDiski satsist, va kettad 12, 15, 20 ja 23, mille
 ImageDisk algselt luges välja puudulikult. Kui ketastelt on vaja kätte saada
@@ -1103,6 +1103,8 @@ SIZE: `800K` (`819200`) / SHA1: `f507c24710e92e4a22385191309e429aeeba2b59`
 
 ## MAALT18
 
+Tühi süsteemiketas, mille alglaadimissektorites standardne EKDOS 2.30.
+
 SIZE: `800K` (`819200`) / SHA1: `1f6b7ade822ba563de16153d272f12add337a3d5`
 
 ## MAALT20
@@ -1459,7 +1461,7 @@ SIZE: `26K` (`25697`) / SHA1: `dacdaaf586dd6144d24f9baa8cfe62555fc48587`
 
 ## MUSEUM01
 
-Neli MUSEUM`nn` seeri ketast koos MAALT`nn` seeriaga on JUKPROG`n` ja JUKGAME1 aluseks.
+Neli MUSEUM`nn` seeri ketast koos MAALT`nn` seeriaga on JUKPROG`n` ja JUKGAME`1` aluseks.
 Ketaste tekkeloo kohta täpsemalt vt `MAALT01` kirjeldusest.
 
 SIZE: `800K` (`819200`) / SHA1: `956c82e43e2b1f76a337190f78318428729e845f`
