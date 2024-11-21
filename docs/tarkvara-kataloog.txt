@@ -415,7 +415,8 @@ Siin äratoodutest on enamik ImageDiski satsist, va kettad 12, 15, 20 ja 23, mil
 ImageDisk algselt luges välja puudulikult. Kui ketastelt on vaja kätte saada
 midagi väga olulist, siis on võimalik kahte satsi omavahel kombineerida, kuid
 ketaste algseid magnetvoogude salvestisi säilinud pole ja osade ketaste seisukord
-lugemise tulemusel märgatavalt halvenes, sj juba teise lugemisega.
+lugemise tulemusel märgatavalt halvenes, sj juba teise lugemisega. Kettad 14 ja 17
+olid tühjad ja ketas 19 oli loetamatu.
 
 SIZE: 800K (819200) / SHA1: 41c4064de6114dde4af54882fd6c1430e78f2a8b
 
