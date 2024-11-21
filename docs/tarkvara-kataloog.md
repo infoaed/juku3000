@@ -1574,7 +1574,7 @@ SIZE: `800K` (`819200`) / SHA1: `76289c35e1e4a858ae4b9dcdfe81cc2e175559cb`
 
 ## OKSJON01
 
-OKSJON`nn` seeria koosneb 2022. aastal peamiselt Osta.ee oksjonisaidilt JUKU ketaste leidmise
+OKSJON`nn` seeria koosneb 2021-2022 peamiselt Osta.ee oksjonisaidilt JUKU ketaste leidmise
 eesmärgil tehtud kontrollostudest.
 
 SIZE: `800K` (`819200`) / SHA1: `f380b3751385b0cf95bd599664f94742d45a69de`
