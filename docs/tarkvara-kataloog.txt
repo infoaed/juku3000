@@ -36,7 +36,7 @@ da39a3ee5e6b4b0d3255bfef95601890afd80709  DIAG    .LOG       0
 d08f33a5d8cb43169a2014d484b722dcd478ccf6  DOSGEN  .COM     896  Süsteemiketta generaator 3.4 (CP/M)
 c56238b3ba5cd208c751961fef5abbf34d69d701  DUMP    .COM     512  File dump 1.4
 2a64212c5caa16f4bae751a3cf19476698bcacda  ED      .COM    6,5K  Context editor (CP/M)
-c8159392982e4750010f87497a712a8c3ddf0ddd  F80     .COM     27K  Fortrani translaator
+c8159392982e4750010f87497a712a8c3ddf0ddd  F80     .COM     27K  FORTRAN-80 v3.44 (Microsoft '81)
 ccc08b70e519b91a19812ec832c10c13db2228ac  FDMAINT .COM     11K  Floppy Maintenance 1.1 (EKTA '88)
 aff9329384aa19b59586c4484652e81b3054016b  FMT     .COM    1,3K  EKDOS 386K flopide vormindaja 3.4
 a7ab815f9e814740b47ff4f04c080a36097eabac  FORLIB  .REL     26K  
@@ -45,7 +45,7 @@ a7ab815f9e814740b47ff4f04c080a36097eabac  FORLIB  .REL     26K
 44273ab14e6150dfec6df28ad05af26a3a2fdf19  I       .        128  
 712150e385a9b51b6e75ca6d826b47c4d1c582c9  JBASIC  .COM    8,2K  BASIC interpretaator 1.1 (EKTA '87)
 bfe93f568d6d84bd1f5b0e91fa9e5aec471b60f2  KUVA    .COM     768  Kuva asetus ekraanil 1.1 (K.Kevvai)
-63db617c9b266d4288a18c1c917beef19472c181  L80     .COM     11K  Link-80 3.44 (Microsoft '81)
+63db617c9b266d4288a18c1c917beef19472c181  L80     .COM     11K  LINK-80 3.44 (Microsoft '81)
 8ba5cf82f8e1ee411d06debbdecbe9fc8ba173ec  LOAD    .COM    1,8K  HEX to COM converter (CP/M)
 f9e294de20426414e300eee7c938f373072daef6  MODE    .COM     256  40x24, 53x24 ja 64x20 lüliti
 4f1a456026d865babb5fdc63153e172d2a06b33b  MTEST2  .COM    9,5K  Memory Test 0100-14FF (EKTA '85)
@@ -325,7 +325,7 @@ c54b8b9bb63dcd22a564ee946b567f6bea9a0135  INSTALL .OVR     30K
 f1e0fb2dcebe127b43b56ee9bb36846158dac48a  INSTALL .SPC     256  
 712150e385a9b51b6e75ca6d826b47c4d1c582c9  JBASIC  .COM    8,2K  BASIC interpretaator 1.1 (EKTA '87)
 27d3d4bd5ee87ddc8562b707a84e5d3c8511a02c  JLOAD   .LDR     384  Residentsete programmide laadur
-63db617c9b266d4288a18c1c917beef19472c181  L80     .COM     11K  Link-80 3.44 (Microsoft '81)
+63db617c9b266d4288a18c1c917beef19472c181  L80     .COM     11K  LINK-80 3.44 (Microsoft '81)
 29196f358a1886b8344bfe918f391e45ce948e76  LINK    .COM     16K  Moodulite linkur 1.3 (CP/M '80 V)
 8ba5cf82f8e1ee411d06debbdecbe9fc8ba173ec  LOAD    .COM    1,8K  HEX to COM converter (CP/M)
 ad196dcbd881ab45bae31bdf72cf3f7eecadb29e  MAC     .COM     12K  Macro Assembler 2.0 (CP/M)
@@ -359,7 +359,7 @@ SIZE: 800K (819200) / SHA1: 7ac496b74bc5f0d6beeae5231b3f379b53ad8284
 59d9a03eda7c4473c64092c32077a594ab627731  BASLIB  .REL     49K  
 7cd35f8dc4d1b3f38a2acea90774fd2c05748680  BIO80   .BAS    2,0K  
 d08f33a5d8cb43169a2014d484b722dcd478ccf6  DOSGEN  .COM     896  Süsteemiketta generaator 3.4 (CP/M)
-c8159392982e4750010f87497a712a8c3ddf0ddd  F80     .COM     27K  Fortrani translaator
+c8159392982e4750010f87497a712a8c3ddf0ddd  F80     .COM     27K  FORTRAN-80 v3.44 (Microsoft '81)
 a7ab815f9e814740b47ff4f04c080a36097eabac  FORLIB  .REL     26K  
 33f07b11b6d8d6f03ed849e3f2f66f9666cff07c  FORMAT  .COM    1,3K  EKDOS 786K flopide vormindaja 3.4
 38e740ad00a16b8a556491966dba32e9efa9baa3  FORT    .DOK     42K  F80 translaatori juhend (EKTA '88)
@@ -1480,7 +1480,7 @@ da39a3ee5e6b4b0d3255bfef95601890afd80709  DIAG    .LOG       0
 d08f33a5d8cb43169a2014d484b722dcd478ccf6  DOSGEN  .COM     896  Süsteemiketta generaator 3.4 (CP/M)
 c56238b3ba5cd208c751961fef5abbf34d69d701  DUMP    .COM     512  File dump 1.4
 2a64212c5caa16f4bae751a3cf19476698bcacda  ED      .COM    6,5K  Context editor (CP/M)
-c8159392982e4750010f87497a712a8c3ddf0ddd  F80     .COM     27K  Fortrani translaator
+c8159392982e4750010f87497a712a8c3ddf0ddd  F80     .COM     27K  FORTRAN-80 v3.44 (Microsoft '81)
 ccc08b70e519b91a19812ec832c10c13db2228ac  FDMAINT .COM     11K  Floppy Maintenance 1.1 (EKTA '88)
 aff9329384aa19b59586c4484652e81b3054016b  FMT     .COM    1,3K  EKDOS 386K flopide vormindaja 3.4
 a7ab815f9e814740b47ff4f04c080a36097eabac  FORLIB  .REL     26K  
@@ -1489,7 +1489,7 @@ a7ab815f9e814740b47ff4f04c080a36097eabac  FORLIB  .REL     26K
 44273ab14e6150dfec6df28ad05af26a3a2fdf19  I       .        128  
 712150e385a9b51b6e75ca6d826b47c4d1c582c9  JBASIC  .COM    8,2K  BASIC interpretaator 1.1 (EKTA '87)
 bfe93f568d6d84bd1f5b0e91fa9e5aec471b60f2  KUVA    .COM     768  Kuva asetus ekraanil 1.1 (K.Kevvai)
-63db617c9b266d4288a18c1c917beef19472c181  L80     .COM     11K  Link-80 3.44 (Microsoft '81)
+63db617c9b266d4288a18c1c917beef19472c181  L80     .COM     11K  LINK-80 3.44 (Microsoft '81)
 8ba5cf82f8e1ee411d06debbdecbe9fc8ba173ec  LOAD    .COM    1,8K  HEX to COM converter (CP/M)
 f9e294de20426414e300eee7c938f373072daef6  MODE    .COM     256  40x24, 53x24 ja 64x20 lüliti
 4f1a456026d865babb5fdc63153e172d2a06b33b  MTEST2  .COM    9,5K  Memory Test 0100-14FF (EKTA '85)
@@ -1594,7 +1594,7 @@ da39a3ee5e6b4b0d3255bfef95601890afd80709  DIAG    .LOG       0
 d08f33a5d8cb43169a2014d484b722dcd478ccf6  DOSGEN  .COM     896  Süsteemiketta generaator 3.4 (CP/M)
 c56238b3ba5cd208c751961fef5abbf34d69d701  DUMP    .COM     512  File dump 1.4
 2a64212c5caa16f4bae751a3cf19476698bcacda  ED      .COM    6,5K  Context editor (CP/M)
-c8159392982e4750010f87497a712a8c3ddf0ddd  F80     .COM     27K  Fortrani translaator
+c8159392982e4750010f87497a712a8c3ddf0ddd  F80     .COM     27K  FORTRAN-80 v3.44 (Microsoft '81)
 2dcf80afbe06e6e5713be739796551ae56195f1f  FDMAINT .COM     11K  
 aff9329384aa19b59586c4484652e81b3054016b  FMT     .COM    1,3K  EKDOS 386K flopide vormindaja 3.4
 a7ab815f9e814740b47ff4f04c080a36097eabac  FORLIB  .REL     26K  
@@ -1602,7 +1602,7 @@ a7ab815f9e814740b47ff4f04c080a36097eabac  FORLIB  .REL     26K
 623e8031632d1f76f8e608ad341270c634009ed9  FX800   .COM    1,8K  
 712150e385a9b51b6e75ca6d826b47c4d1c582c9  JBASIC  .COM    8,2K  BASIC interpretaator 1.1 (EKTA '87)
 7ce57887f064beea19fc5298c1705dd1f1b097b2  KUVA    .COM     768  
-63db617c9b266d4288a18c1c917beef19472c181  L80     .COM     11K  Link-80 3.44 (Microsoft '81)
+63db617c9b266d4288a18c1c917beef19472c181  L80     .COM     11K  LINK-80 3.44 (Microsoft '81)
 8ba5cf82f8e1ee411d06debbdecbe9fc8ba173ec  LOAD    .COM    1,8K  HEX to COM converter (CP/M)
 03c4f1c53e1d8552bddee833bcc6952d3542a76b  LSC     .ASM     768  
 3801784f4316f513468ae7b43d40f6aa8d92c81a  LSC     .COM     128  
@@ -1937,7 +1937,7 @@ f1fcd05ba75bb78c016f9c713da54a76cd7d4429  HIIR    .ASM    1,8K
 496d38647a97e398322d68afb8db8692f0670d39  JCM     .COM     12K  JUKU File/Copy Master 1.0 (EKTA '89)
 6b524f22f9eeedc41539f4a566e169fed897553a  KETAS   .ASM    1,4K  
 124c0de4e35d2b928fe94bb4b9c9c9792a009fb4  KETAS   .COM     640  
-63db617c9b266d4288a18c1c917beef19472c181  L80     .COM     11K  Link-80 3.44 (Microsoft '81)
+63db617c9b266d4288a18c1c917beef19472c181  L80     .COM     11K  LINK-80 3.44 (Microsoft '81)
 c04aaa52fb2102197eac9c874ec302bdf6494a80  LADDER  .COM     40K  Tuntud CP/Mi platvormimäng (80x24)
 744e48920eaf86808642ee5e8eae1bc64051ea07  LADTAB  .COM     12K  
 bd465e383007a819ee467da99c01e4aaccf1e2f7  LADTAB  .PAS    2,7K  

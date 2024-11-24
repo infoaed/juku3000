@@ -36,7 +36,7 @@ SIZE: `800K` (`819200`) / SHA1: `956c82e43e2b1f76a337190f78318428729e845f`
 ``DOSGEN  .COM     896``    Süsteemiketta generaator 3.4 (CP/M)  
 ``DUMP    .COM     512``    File dump 1.4  
 ``ED      .COM    6,5K``    Context editor (CP/M)  
-``F80     .COM     27K``    Fortrani translaator  
+``F80     .COM     27K``    FORTRAN-80 v3.44 (Microsoft '81)  
 ``FDMAINT .COM     11K``    Floppy Maintenance 1.1 (EKTA '88)  
 ``FMT     .COM    1,3K``    EKDOS 386K flopide vormindaja 3.4  
 ``FORLIB  .REL     26K``      
@@ -45,7 +45,7 @@ SIZE: `800K` (`819200`) / SHA1: `956c82e43e2b1f76a337190f78318428729e845f`
 ``I       .        128``      
 ``JBASIC  .COM    8,2K``    BASIC interpretaator 1.1 (EKTA '87)  
 ``KUVA    .COM     768``    Kuva asetus ekraanil 1.1 (K.Kevvai)  
-``L80     .COM     11K``    Link-80 3.44 (Microsoft '81)  
+``L80     .COM     11K``    LINK-80 3.44 (Microsoft '81)  
 ``LOAD    .COM    1,8K``    HEX to COM converter (CP/M)  
 ``MODE    .COM     256``    40x24, 53x24 ja 64x20 lüliti  
 ``MTEST2  .COM    9,5K``    Memory Test 0100-14FF (EKTA '85)  
@@ -325,7 +325,7 @@ SIZE: `800K` (`819200`) / SHA1: `725233ba5f8943ff2778bf4d70dbf25f71a5854d`
 ``INSTALL .SPC     256``      
 ``JBASIC  .COM    8,2K``    BASIC interpretaator 1.1 (EKTA '87)  
 ``JLOAD   .LDR     384``    Residentsete programmide laadur  
-``L80     .COM     11K``    Link-80 3.44 (Microsoft '81)  
+``L80     .COM     11K``    LINK-80 3.44 (Microsoft '81)  
 ``LINK    .COM     16K``    Moodulite linkur 1.3 (CP/M '80 V)  
 ``LOAD    .COM    1,8K``    HEX to COM converter (CP/M)  
 ``MAC     .COM     12K``    Macro Assembler 2.0 (CP/M)  
@@ -359,7 +359,7 @@ SIZE: `800K` (`819200`) / SHA1: `7ac496b74bc5f0d6beeae5231b3f379b53ad8284`
 ``BASLIB  .REL     49K``      
 ``BIO80   .BAS    2,0K``      
 ``DOSGEN  .COM     896``    Süsteemiketta generaator 3.4 (CP/M)  
-``F80     .COM     27K``    Fortrani translaator  
+``F80     .COM     27K``    FORTRAN-80 v3.44 (Microsoft '81)  
 ``FORLIB  .REL     26K``      
 ``FORMAT  .COM    1,3K``    EKDOS 786K flopide vormindaja 3.4  
 ``FORT    .DOK     42K``    F80 translaatori juhend (EKTA '88)  
@@ -1480,7 +1480,7 @@ SIZE: `800K` (`819200`) / SHA1: `956c82e43e2b1f76a337190f78318428729e845f`
 ``DOSGEN  .COM     896``    Süsteemiketta generaator 3.4 (CP/M)  
 ``DUMP    .COM     512``    File dump 1.4  
 ``ED      .COM    6,5K``    Context editor (CP/M)  
-``F80     .COM     27K``    Fortrani translaator  
+``F80     .COM     27K``    FORTRAN-80 v3.44 (Microsoft '81)  
 ``FDMAINT .COM     11K``    Floppy Maintenance 1.1 (EKTA '88)  
 ``FMT     .COM    1,3K``    EKDOS 386K flopide vormindaja 3.4  
 ``FORLIB  .REL     26K``      
@@ -1489,7 +1489,7 @@ SIZE: `800K` (`819200`) / SHA1: `956c82e43e2b1f76a337190f78318428729e845f`
 ``I       .        128``      
 ``JBASIC  .COM    8,2K``    BASIC interpretaator 1.1 (EKTA '87)  
 ``KUVA    .COM     768``    Kuva asetus ekraanil 1.1 (K.Kevvai)  
-``L80     .COM     11K``    Link-80 3.44 (Microsoft '81)  
+``L80     .COM     11K``    LINK-80 3.44 (Microsoft '81)  
 ``LOAD    .COM    1,8K``    HEX to COM converter (CP/M)  
 ``MODE    .COM     256``    40x24, 53x24 ja 64x20 lüliti  
 ``MTEST2  .COM    9,5K``    Memory Test 0100-14FF (EKTA '85)  
@@ -1594,7 +1594,7 @@ SIZE: `800K` (`819200`) / SHA1: `f380b3751385b0cf95bd599664f94742d45a69de`
 ``DOSGEN  .COM     896``    Süsteemiketta generaator 3.4 (CP/M)  
 ``DUMP    .COM     512``    File dump 1.4  
 ``ED      .COM    6,5K``    Context editor (CP/M)  
-``F80     .COM     27K``    Fortrani translaator  
+``F80     .COM     27K``    FORTRAN-80 v3.44 (Microsoft '81)  
 ``FDMAINT .COM     11K``      
 ``FMT     .COM    1,3K``    EKDOS 386K flopide vormindaja 3.4  
 ``FORLIB  .REL     26K``      
@@ -1602,7 +1602,7 @@ SIZE: `800K` (`819200`) / SHA1: `f380b3751385b0cf95bd599664f94742d45a69de`
 ``FX800   .COM    1,8K``      
 ``JBASIC  .COM    8,2K``    BASIC interpretaator 1.1 (EKTA '87)  
 ``KUVA    .COM     768``      
-``L80     .COM     11K``    Link-80 3.44 (Microsoft '81)  
+``L80     .COM     11K``    LINK-80 3.44 (Microsoft '81)  
 ``LOAD    .COM    1,8K``    HEX to COM converter (CP/M)  
 ``LSC     .ASM     768``      
 ``LSC     .COM     128``      
@@ -1937,7 +1937,7 @@ SIZE: `800K` (`819200`) / SHA1: `b7efca324ddffc6c31476adff2228e3b5e2e792e`
 ``JCM     .COM     12K``    JUKU File/Copy Master 1.0 (EKTA '89)  
 ``KETAS   .ASM    1,4K``      
 ``KETAS   .COM     640``      
-``L80     .COM     11K``    Link-80 3.44 (Microsoft '81)  
+``L80     .COM     11K``    LINK-80 3.44 (Microsoft '81)  
 ``LADDER  .COM     40K``    Tuntud CP/Mi platvormimäng (80x24)  
 ``LADTAB  .COM     12K``      
 ``LADTAB  .PAS    2,7K``      
