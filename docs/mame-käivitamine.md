@@ -1,4 +1,4 @@
-# JUKU käivitamine MAME emulaatori abil
+# JUKU käivitamine MAME emulaatoris
 
 Alates [MAME versioonist 0.272](https://github.com/mamedev/mame/releases/tag/mame0272) on JUKU töökorras unarvara auväärses nimekirjas ning saad Eesti legendaarse kooliarvuti MAMEga omaenda töölaual käima lasta (veebiversiooni saad katsetada [siin](https://infoaed.ee/juku/)). Selleks tuleb:
 
