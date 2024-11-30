@@ -6,7 +6,7 @@ Alates [MAME versioonist 0.272](https://github.com/mamedev/mame/releases/tag/mam
 2. Paigutada [JUKU püsivara ZIP](https://github.com/infoaed/juku3000/raw/refs/heads/master/roms/juku.zip) allalaaditud MAME `roms` kataloogi
 3. Käivitada MAME, valida süsteemiks JUKU E5104 ja EKDOS 2.30
 4. Kinnitada, et JUKU käivitatakse vaikimisi püsivaraga RomBios 3.43m
-5. Süsteemi omaduste kuvamise järel lastakse kooliarvutile vool sisse
+5. Süsteemi omaduste kuvamise järel lastakse uunikumile vool sisse
 
 Kuvarile ilmub püsimonitori teade `RomBios`, monitori versiooninumber ja viip `∗`, mille järel kutsuvalt vilgub sisestuskursor:
 
