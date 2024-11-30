@@ -24,7 +24,7 @@ Flopisid ehk `JUK` faile saab lisada `File Manageri` alt ja esimesteks katsetust
 
 MAME flopimenüü | Tuntud mäng INDY
 :-------------------------:|:-------------------------:
-[![Scroll Locki (tuntud ka kui MAME Lock) vajutamise järel saab TABiga avada MAME flopimenüü](/images/mame-flopimenyy.png)](https://docs.mamedev.org/usingmame/mamemenus.html)  |  [![](/images/indy-game.png)](https://elektroonikamuuseum.ee/test/juku_arvuti_tarkvara_mang_indy.html)
+[![Scroll Locki (tuntud ka kui MAME Lock) vajutamise järel saab TABiga avada MAME flopimenüü](/images/mame-flopimenyy.png)](https://docs.mamedev.org/usingmame/mamemenus.html)  |  [![](/images/indy-game.png)](https://elektroonikamuuseum.ee/juku_arvuti_tarkvara_mang_indy.html)
 
 Sisestatud kettaid saad EKDOSis vahetada sisestades kettatähise ja kooloni (nt `A:` või `B:`). Süsteemi töökorras olemise kontrolliks võid proovida, kas saad `GAME1.JUK` kettalt käima [tuntud JUKU mängu INDY](https://elektroonikamuuseum.ee/juku_arvuti_tarkvara_mang_indy.html).
 
