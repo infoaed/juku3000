@@ -28,7 +28,7 @@ MAME flopimenüü | Kultusmäng INDY
 
 Sisestatud kettaid saad EKDOSis vahetada viiba järele kettatähise ja kooloni kirjutamisega (nt `A:` või `B:`), tarkvara ehk `COM`-laadefaile saad käivitada sisestades viiba järele soovitud programmi nime. Failide nimekirja kettal näitab käsklus `DIR`. Süsteemi töökorras olemise kontrolliks võid proovida, kas saad `GAME1.JUK` kettalt käima [tuntud JUKU mängu INDY](https://elektroonikamuuseum.ee/juku_arvuti_tarkvara_mang_indy.html).
 
-JUKU tarkvara kataloogi koos kirjeldustega leiad [siit](tarkvara-kataloog.md).
+JUKU tarkvara kataloogi koos kirjeldustega leiad [siit](tarkvara-kataloog.md), ketastega ümberkäimise tehnilise juhendi [siit](kettad.md).
 
 Üldiselt on tark esimese asjana MAMEs lülitada JUKU puhul välja kõik _bilinear filtering_ sätted, mis sobivad udusema pildiga telekamängude jaoks, kuid mitte kooliarvutile (nt `General Settings` -> `Video Options` alt, ära unusta pärast üldmenüüst valida `Save Settings`). Kui teed JUKU mängudest või tarkvarast ekraanivideoid, siis [tee neid õigesti](videod.md)!
 
