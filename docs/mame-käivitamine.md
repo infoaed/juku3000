@@ -1,6 +1,6 @@
 # JUKU käivitamine MAME emulaatori abil
 
-Alates [MAME versioonist 0.272](https://github.com/mamedev/mame/releases/tag/mame0272) on JUKU töökorras unarvara auväärses nimekirjas ning saad Eesti legendaarse kooliarvuti MAME emulaatoriga omaenda töölaual käima lasta (veebiversiooni saad katsetada [siin](https://infoaed.ee/juku/)). Selleks tuleb:
+Alates [MAME versioonist 0.272](https://github.com/mamedev/mame/releases/tag/mame0272) on JUKU töökorras unarvara auväärses nimekirjas ning saad Eesti legendaarse kooliarvuti MAMEga omaenda töölaual käima lasta (veebiversiooni saad katsetada [siin](https://infoaed.ee/juku/)). Selleks tuleb:
 
 1. Laadida alla [MAME emulaatori töölauaversioon](https://www.mamedev.org/release.html)
 2. Paigutada [JUKU püsivara ZIP](https://github.com/infoaed/juku3000/raw/refs/heads/master/roms/juku.zip) allalaaditud MAME `roms` kataloogi
@@ -26,8 +26,12 @@ MAME flopimenüü | Kultusmäng INDY
 :-------------------------:|:-------------------------:
 [![Scroll Locki (tuntud ka kui MAME Lock) vajutamise järel saab TABiga avada MAME flopimenüü](/images/mame-flopimenyy.png)](https://docs.mamedev.org/usingmame/mamemenus.html)  |  [![](/images/indy-game.png)](https://elektroonikamuuseum.ee/juku_arvuti_tarkvara_mang_indy.html)
 
-Sisestatud kettaid saad EKDOSis vahetada sisestades kettatähise ja kooloni (nt `A:` või `B:`), programme ehk `COM` faile saad käivitada sisestades viiba järele programmi nime. Süsteemi töökorras olemise kontrolliks võid proovida, kas saad `GAME1.JUK` kettalt käima [tuntud JUKU mängu INDY](https://elektroonikamuuseum.ee/juku_arvuti_tarkvara_mang_indy.html).
+Sisestatud kettaid saad EKDOSis vahetada viiba järele kettatähise ja kooloni kirjutamisega (nt `A:` või `B:`), programme ehk `COM`-laadefaile saad käivitada sisestades viiba järele soovitud programmi nime. Failide nimekirja kettal näitab käsklus `DIR`. Süsteemi töökorras olemise kontrolliks võid proovida, kas saad `GAME1.JUK` kettalt käima [tuntud JUKU mängu INDY](https://elektroonikamuuseum.ee/juku_arvuti_tarkvara_mang_indy.html).
 
 JUKU tarkvara kataloogi koos kirjeldustega leiad [siit](tarkvara-kataloog.md).
 
 Kui soovid katsetada JUKUl programmeerimist, võid lapata läbi [slaidid JUKU tarkvara ökosüsteemist](https://p6drad-teel.net/~p6der/juku-hingeelu_2024_videota.pdf) ning seejärel proovida ketast [`TERE.JUK`](https://github.com/infoaed/juku3000/raw/refs/heads/master/src/juhan/tere.juk).
+
+----
+
+_Kes minevikku ei mäleta, elab tulevikuta!_ -- Juhan Liiv
