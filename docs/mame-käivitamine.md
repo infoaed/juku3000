@@ -20,7 +20,7 @@ Ent mis kasu on paljast opsüsteemist ilma tarkvarata? Tarkvara lisamiseks tuleb
 
 Flopiketta kasutamiseks tuleb see emuleeritud JUKUsse sisestada. Selleks on vaja lahti lukustada MAME süsteemiklahvid `Scroll Lock` abiga (tuntud ka kui `MAME Lock`), mille järel saab avada [MAME süsteemimenüü](https://docs.mamedev.org/usingmame/mamemenus.html) vajutades `Tab`.
 
-Flopisid ehk `JUK` faile saab lisada `File Manageri` alt ja esimesteks katsetusteks võiks olla sobiv mõni flopi `JUKGAME`/`JUKPROG` seeriast, aga miks mitte ka veebiemulaatori [`GAME1.JUK`](https://infoaed.ee/juku/game1.juk) või [`PROG1.JUK`](https://infoaed.ee/juku/prog1.juk).
+Flopisid ehk `JUK`-faile saab lisada `File Manageri` alt ja esimesteks katsetusteks võiks olla sobiv mõni flopi `JUKGAME`/`JUKPROG` seeriast, aga miks mitte ka veebiemulaatori [`GAME1.JUK`](https://infoaed.ee/juku/game1.juk) või [`PROG1.JUK`](https://infoaed.ee/juku/prog1.juk).
 
 MAME flopimenüü | Kultusmäng INDY
 :-------------------------:|:-------------------------:
