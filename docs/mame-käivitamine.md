@@ -14,7 +14,7 @@ Kuvarile ilmub püsimonitori teade `RomBios`, monitori versiooninumber ja viip `
 
 JUKU E5104 opsüsteemi EKDOS alglaadimiseks tuleb vajutada `T`, `D`, `D`, täpsemad opsüsteemi juhised [leiad siit](https://github.com/infoaed/juku3000/blob/master/docs/juku-k%C3%A4sud.md).
 
-## Juku tarkvara käivitamine
+## Tarkvara käivitamine
 
 Ent mis kasu on paljast opsüsteemist ilma tarkvarata? Tarkvara lisamiseks tuleb laadida alla mõni JUKU flopiketas nt Elektroonikamuuseumi [JUKU failivaramust](https://elektroonikamuuseum.ee/failid/juku/tarkvara/).
 
@@ -30,7 +30,7 @@ Sisestatud kettaid saad EKDOSis vahetada viiba järele kettatähise ja kooloni k
 
 JUKU tarkvara kataloogi koos kirjeldustega leiad [siit](tarkvara-kataloog.md).
 
-Kui teed JUKU mängudest või tarkvarast ekraanivideoid, siis [tee neid õigesti](videod.md)!
+Üldiselt on tark esimese asjana lülitada JUKU puhul välja kõik _bilinear filtering_ sätted, mis sobivad udusema pildiga telekamängude jaoks, kuid mitte kooliarvutile (nt `General Settings` -> `Video Options` alt, ära unusta pärast üldmenüüst valida `Save Settings`). Kui teed JUKU mängudest või tarkvarast ekraanivideoid, siis [tee neid õigesti](videod.md)!
 
 Kui soovid katsetada JUKUl programmeerimist, võid lapata läbi [slaidid JUKU tarkvara ökosüsteemist](https://p6drad-teel.net/~p6der/juku-hingeelu_2024_videota.pdf) ning seejärel proovida ketast [`TERE.JUK`](https://github.com/infoaed/juku3000/raw/refs/heads/master/src/juhan/tere.juk).
 
