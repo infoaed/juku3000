@@ -32,6 +32,8 @@ JUKU tarkvara kataloogi koos kirjeldustega leiad [siit](tarkvara-kataloog.md).
 
 Kui soovid katsetada JUKUl programmeerimist, võid lapata läbi [slaidid JUKU tarkvara ökosüsteemist](https://p6drad-teel.net/~p6der/juku-hingeelu_2024_videota.pdf) ning seejärel proovida ketast [`TERE.JUK`](https://github.com/infoaed/juku3000/raw/refs/heads/master/src/juhan/tere.juk).
 
+Kui teed JUKU mängudest või tarkvarast ekraanivideoid, siis [tee neid õigesti](videod.md)!
+
 ----
 
 _Kes minevikku ei mäleta, elab tulevikuta!_ -- Juhan Liiv
