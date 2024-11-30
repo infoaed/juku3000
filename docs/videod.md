@@ -10,7 +10,7 @@ Põhiline on valida JUKU ekraanivideote autentseks kuvamiseks mõni kasutatava k
 
 Kui JUKU programm kasutab mõnda vaikimisi lahutusest erinevat resolutsiooni (nt 384x200, 400x192, 256x192 vmt), tuleks mõistagi valida selle kordne.
 
-[Kasutades MAME sisemist ekraanivideo salvestamist](https://docs.mamedev.org/usingmame/defaultkeys.html) (Scroll Lock -> Left Control+Left Shift+F12) on kõige lihtsam määrata [salvestamise parameetrid](https://docs.mamedev.org/commandline/commandline-all.html#mame-commandline-snapsize) käsurealt, nt `-snapsize 960x720` ja lisaks `-nosnapbilinear`, sest tahame säilitada video pikselilise stuktuuri ega taha näha fontidel/graafikal udustatud servasid.
+[Kasutades MAME sisemist ekraanivideo salvestamist](https://docs.mamedev.org/usingmame/defaultkeys.html) (Scroll Lock -> Left Control+Left Shift+F12) on kõige lihtsam määrata [salvestamise parameetrid](https://docs.mamedev.org/commandline/commandline-all.html#mame-commandline-snapsize) käsurealt, nt `-snapsize 960x720` ja lisaks `-nosnapbilinear`, sest tahame säilitada video pikselilise stuktuuri ega taha näha fontidel/graafikal udustatud servasid (sama asi kasutajaliideses `General Settings` -> `Advanced Options` -> `Bilinear filtering for snapshots`).
 
 Selge JUKU&nbsp;&nbsp;&nbsp; |  Udune JUKU
 :-------------------------:|:-------------------------:
