@@ -16,7 +16,7 @@ JUKU E5104 opsüsteemi EKDOS alglaadimiseks tuleb vajutada `T`, `D`, `D`, täpse
 
 ## Tarkvara käivitamine
 
-Ent mis kasu on opsüsteemist ilma tarkvarata? Tarkvara lisamiseks tuleb laadida alla mõni JUKU flopiketas nt Elektroonikamuuseumi [JUKU failivaramust](https://elektroonikamuuseum.ee/failid/juku/tarkvara/).
+Ent mis kasu on opsüsteemist tarkvarata? Tarkvara lisamiseks tuleb laadida alla mõni JUKU flopiketas nt Elektroonikamuuseumi [JUKU failivaramust](https://elektroonikamuuseum.ee/failid/juku/tarkvara/).
 
 Flopiketta kasutamiseks tuleb see emuleeritud JUKUsse sisestada. Selleks on vaja lahti lukustada MAME süsteemiklahvid `Scroll Lock` abiga (tuntud ka kui `MAME Lock`), mille järel saab avada [MAME süsteemimenüü](https://docs.mamedev.org/usingmame/mamemenus.html) vajutades `Tab`.
 
