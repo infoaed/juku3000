@@ -22,13 +22,12 @@ Flopiketta kasutamiseks tuleb see emuleeritud JUKUsse sisestada. Selleks on vaja
 
 Flopisid ehk `JUK` faile saab lisada `File Manageri` alt ja esimesteks katsetusteks võiks olla sobiv mõni flopi `JUKGAME`/`JUKPROG` seeriast, aga miks mitte ka veebiemulaatori [`GAME1.JUK`](https://infoaed.ee/juku/game1.juk) või [`PROG1.JUK`](https://infoaed.ee/juku/prog1.juk).
 
+MAME flopimenüü | Tuntud mäng INDY
+:-------------------------:|:-------------------------:
+[![Scroll Locki (tuntud ka kui MAME Lock) vajutamise järel saab TABiga avada MAME flopimenüü](/images/mame-flopimenyy.png)](https://docs.mamedev.org/usingmame/mamemenus.html)  |  [![](/images/indy-game.png)](https://elektroonikamuuseum.ee/test/juku_arvuti_tarkvara_mang_indy.html)
+
 Sisestatud kettaid saad EKDOSis vahetada sisestades kettatähise ja kooloni (nt `A:` või `B:`). Süsteemi töökorras olemise kontrolliks võid proovida, kas saad `GAME1.JUK` kettalt käima [tuntud JUKU mängu INDY](https://elektroonikamuuseum.ee/juku_arvuti_tarkvara_mang_indy.html).
 
 Juku tarkvara kataloogi koos kirjeldustega leiad [siit](tarkvara-kataloog.md).
 
 Kui soovid katsetada JUKUl programmeerimist, siis võid lapata läbi [slaidid JUKU tarkvara ökosüsteemist](https://p6drad-teel.net/~p6der/juku-hingeelu_2024_videota.pdf) ja seejärel proovida ketast [`TERE.JUK`](https://github.com/infoaed/juku3000/raw/refs/heads/master/src/juhan/tere.juk).
-
-MAME flopimenüü | Tuntud mäng INDY
-:-------------------------:|:-------------------------:
-[![Scroll Locki (tuntud ka kui MAME Lock) vajutamise järel saab TABiga avada MAME flopimenüü](/images/mame-flopimenyy.png)](https://docs.mamedev.org/usingmame/mamemenus.html)  |  [![](/images/indy-game.png)](https://elektroonikamuuseum.ee/test/juku_arvuti_tarkvara_mang_indy.html)
-
