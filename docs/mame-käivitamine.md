@@ -1,6 +1,6 @@
 # JUKU käivitamine MAME emulaatoris
 
-Alates [MAME versioonist 0.272](https://github.com/mamedev/mame/releases/tag/mame0272) on JUKU töökorras unarvara auväärses nimekirjas ning saad Eesti legendaarse kooliarvuti oma töölaual käima lasta (veebiversioon proovimiseks [siin](https://infoaed.ee/juku/)). Selleks tuleb:
+Alates [MAME versioonist 0.272](https://github.com/mamedev/mame/releases/tag/mame0272) on JUKU töökorras unarvara auväärses nimekirjas ning saad Eesti legendaarse kooliarvuti suurema jukerdamiseta oma töölaual käima lasta (veebiversioon proovimiseks [siin](https://infoaed.ee/juku/)). Selleks tuleb:
 
 1. Laadida alla [MAME emulaatori töölauaversioon](https://www.mamedev.org/release.html)
 2. Paigutada [JUKU püsivara ZIP](https://github.com/infoaed/juku3000/raw/refs/heads/master/roms/juku.zip) allalaaditud MAME `roms` kataloogi
