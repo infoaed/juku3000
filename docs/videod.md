@@ -16,11 +16,10 @@ Selge JUKU&nbsp;&nbsp;&nbsp; |  Udune JUKU
 :-------------------------:|:-------------------------:
 ![pilt](https://github.com/user-attachments/assets/a42086ab-e781-4b09-97e4-03299d99d6cf) | ![pilt](https://github.com/user-attachments/assets/6b213717-2d28-4402-a6c8-f7f3d53d3cac)
 
-
-
-
 Siiski võib olla jõudluse mõttes tark piirduda parameetriga `-snapsize auto`, jätta video skaleerimata ja kasutadagi arhiveerimiseks algset resolutsiooni. Sel juhul saab video teisendada eksponeerimiseks vajalikku resolutsiooni näiteks [FFmpegi abil](http://trac.ffmpeg.org/wiki/Scaling#Specifyingscalingalgorithm):
 
 > `ffmpeg -i mame_originaal.avi -vf scale=960:720 -sws_flags neighbor eksponeeritav_video.mp4`
 
 FFMPEG parameetritest `-sws_flags neighbor` keelab skaleerimisel udustavate filtrite kasutamise samamoodi nagu MAME võti `-nosnapbilinear`.
+
+Ilmselt on enamikus tõsistest tööriistadest sarnased valikud olemas, kuid MAME enda vahendite kasutamine on kõige kindlam -- eriti head jõudlst vajavatel juhtudel saab kasutada ka [`record` ja `playback` vahendeid](https://docs.mamedev.org/commandline/commandline-all.html#core-state-playback-options).
