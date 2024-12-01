@@ -22,4 +22,4 @@ Siiski võib olla jõudluse mõttes tark piirduda parameetriga `-snapsize auto`,
 
 FFMPEG parameetritest `-sws_flags neighbor` keelab skaleerimisel udustavate filtrite kasutamise samamoodi nagu MAME võti `-nosnapbilinear`.
 
-Ilmselt on enamikus tõsistest tööriistadest sarnased valikud olemas, kuid MAME enda vahendite kasutamine on kõige kindlam -- eriti head jõudlst vajavatel juhtudel saab kasutada ka [`record` ja `playback` vahendeid](https://docs.mamedev.org/commandline/commandline-all.html#core-state-playback-options).
+Ilmselt on enamikus tõsistest tööriistadest sarnased valikud olemas, kuid MAME enda vahendite kasutamine on kõige kindlam -- eriti head jõudlust vajavatel juhtudel saab kasutada ka [`record` ja `playback` vahendeid](https://docs.mamedev.org/commandline/commandline-all.html#core-state-playback-options).
