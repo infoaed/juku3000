@@ -26,7 +26,7 @@ MAME flopimenüü | Kultusmäng INDY
 :-------------------------:|:-------------------------:
 [![Scroll Locki (tuntud ka kui MAME Lock) vajutamise järel saab TABiga avada MAME flopimenüü](/images/mame-flopimenyy.png)](https://docs.mamedev.org/usingmame/mamemenus.html)  |  [![](/images/indy-game.png)](https://elektroonikamuuseum.ee/juku_arvuti_tarkvara_mang_indy.html)
 
-Aktiivset ketast saad EKDOSis vahetada viiba järele kettatähise ja kooloni kirjutamisega (nt `A:` või `B:`), tarkvara ehk `COM`-laadefaile saad käivitada sisestades viiba järele soovitud programmi nime. Failide nimekirja kettal näitab käsklus `DIR`. Süsteemi töökorras olemise kontrolliks võid proovida, kas saad `GAME1.JUK` kettalt käima [tuntud JUKU mängu INDY](https://elektroonikamuuseum.ee/juku_arvuti_tarkvara_mang_indy.html).
+Aktiivset ketast saad EKDOSis vahetada viiba järele kettatähise ja kooloni kirjutamisega (nt `A:` või `B:`), tarkvara ehk `COM`-laadefaile saad käivitada sisestades viiba järele soovitud programmi nime. Failide nimekirja kettal näitab käsklus `DIR`. Süsteemi töökorras olemise kontrolliks võid proovida, kas saad `GAME1.JUK` kettalt käima [tuntud JUKU mängu INDY](https://et.wikipedia.org/wiki/Indy_looking_for_Jewels...).
 
 JUKU tarkvara kataloogi koos kirjeldustega leiad [siit](tarkvara-kataloog.md), ketastega ümberkäimise tehnilise juhendi [siit](kettad.md).
 
