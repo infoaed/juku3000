@@ -30,7 +30,6 @@ theme:
 markdown_extensions:
     - admonition
     - codehilite
-    - mkautodoc
     - toc:
         permalink: true
 
