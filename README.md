@@ -1,11 +1,13 @@
-![JUKU3000](https://raw.githubusercontent.com/infoaed/juku3000/master/images/juku3000.jpg)
-# Mis on JUKU3000?
+![JUKU 3000](https://raw.githubusercontent.com/infoaed/juku3000/master/images/juku3000.jpg)
+# Mis on juku3000?
 
-*Meie eesmärk on lasta tulevatel põlvedel elavalt kogeda Eesti arvutite esiajalugu — legendaarne 90ndate kooliarvuti JUKU peab olema kasutatav ka aastal 3000!*
+**Meie eesmärk on lasta tulevatel põlvedel elavalt kogeda Eesti arvutite esiajalugu — legendaarne 90ndate kooliarvuti JUKU peab olema kasutatav ka aastal 3000!**
 
 Kui sa ei tea, mis on JUKU, siis on aeg heita pilk [Vikipeediasse](https://et.wikipedia.org/wiki/Juku_(arvuti)), [Elektroonikamuuseumi](https://elektroonikamuuseum.ee/juku_arvuti_lugu.html) või tutvuda meie [JUKU ajajoonega](docs/ajajoon.md).
 
-Kuigi füüsilisi JUKUsid toodeti 1990ndatel tuhandeid, on tänapäeval lihtsam JUKU kogemusest osa saada emulaatori vahendusel, mis jookseb tavalises arvutis või isegi veebibrauseris:
+Selle saidi üldhuvitav sisu on tehtud kättesaadavaks aadressil [juku3000.infoaed.ee](https://juku3000.infoaed.ee/), lähtekoodi kataloogist võib leida [mõned huvitavad testprogrammid](src).
+
+Kuigi füüsilisi JUKUsid toodeti 1990ndatel tuhandeid, on tänapäeval lihtsam JUKU kogemusest osa saada emulaatori vahendusel, mis jookseb [tavalises arvutis](dos/mame-käivitamine.md) või isegi [veebibrauseris](https://infoaed.ee/juku):
 
 * [MAME](docs/mame-käivitamine.md) on JUKU emuleerimise kullastandard, mida saab [proovida ka veebis](https://infoaed.ee/juku) (klahvilaotuse leiad [siit](https://infoaed.ee/juku/layout.html) ja käivitamiseks vajaliku RomBios 3.43m/JBASIC 1.1 püsivara [siit](roms))
 * [EMU80](https://github.com/vpyk/emu80v4) (vaba lähtekoodiga kergekaaluline kandidaat, mida mugandada Juku jt sama pere kiipide emuleerimiseks)
@@ -22,23 +24,6 @@ Juku opsüsteem EKDOS:
 * [EKDOS 2.30](https://p6drad-teel.net/~p6der/ekdos230.zip) (väljalase detsember 1989, [teade](docs/ekdos230.txt))
   * [Lähtekood](src/EKDOS30.ASM), vrd CP/M 2.2 [mugandamise juhised Digital Researchilt](http://www.gaby.de/cpm/manuals/archive/cpm22htm/ch6.htm)
 * [EKDOS 2.29](https://p6drad-teel.net/~p6der/ekdos229.zip) (väljalase 05.01.1988)
-
-Taustainfot:
-
-* [Arti Zirk on kogunud Juku materjale](https://arti.ee/juku/)
-* [ELFA foorumis on oluline Juku teema](https://www.elfafoorum.eu/forum/tehnikafoorumid/tark-ja-riistvara-foorum/64851-)
-* [ZX форум äärmiselt kasulik Juku E5101 lõim](https://zx-pk.ru/threads/27298-juku-e5101.html) (vene keeles)
-
-Asjassepuutuvaid ettevõtmisi:
-
-* [Tartu Ülikooli arvutimuuseuum](http://arvutimuuseum.ut.ee/)
-* [Tallinna arvutimuuseum](http://arvutimuuseum.ee/)
-* [LVLup! videomängude muuseum](https://www.rara.ee/meist/asukohad/#lvlup-videomangude-muuseum)
-* [Retroklubi/Retrocomputing Estonia](http://pushspace.com/)
-* [Unistused ja tegelikkus. 90ndate lapsepõlv](http://www.mm.ee/naitused/naitus-unistused-ja-tegelikkus-90ndate-lapsepolv) (Tartu Mänguasjamuuseumi näitus)
-* [Mängime?! Arvutimängud Prantsusmaalt ja Saksamaalt](https://kumu.ekm.ee/arhiiv/naitused-2013/mangime-arvutimangud-prantsusmaalt-ja-saksamaalt/) (Kumu arvutimängude näitus)
-* [RAM. Eesti varane arvutikunst](https://kumu.ekm.ee/syndmus/ram-eesti-varane-arvutikunst/) (Kumu arvutigraafika näitus)
-* [Suomen ensimmäinen pelimuseo avataan Tampereella](https://yle.fi/uutiset/3-9354287) (Arvutimängude muuseum Tamperes)
 
 ## Projekti tekkelugu
 

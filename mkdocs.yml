@@ -15,21 +15,18 @@ theme:
     custom_dir: docs/overrides
     palette:
       - media: "(prefers-color-scheme)"
-        primary: black
-        accent: deep-purple
+        primary: deep-purple
         toggle:
           icon: material/brightness-auto    
           name: "Automaatne heledus"
       - scheme: 'default'
-        primary: black
-        accent: deep-purple
+        primary: deep-purple
         media: '(prefers-color-scheme: light)'
         toggle:
           icon: 'material/lightbulb'
           name: "Tekst tumedal tasutal"
       - scheme: 'slate'
-        primary: black
-        accent: deep-purple
+        primary: deep-purple
         media: '(prefers-color-scheme: dark)'
         toggle:
           icon: 'material/lightbulb-outline'
@@ -44,15 +41,19 @@ markdown_extensions:
     - admonition
     - codehilite
     - footnotes
+    - attr_list
+    - md_in_html
+    - pymdownx.blocks.caption
+    - pymdownx.magiclink
     - toc:
         permalink: true
 
 nav:
-    - Tere, Juhan!: README.md
-    - JUKU arvuti elukõver: ajajoon.md
-    - Tarkvara kataloog: tarkvara-kataloog.md
+    - Tere, Juhan!: index.md
+    - JUKU elutsükkel: ajajoon.md
     - EKDOSi kasutamine: juku-käsud.md
     - Ketaste lugemine: kettad.md
     - Videote salvestamine: videod.md
+    - Tarkvara kataloog: tarkvara-kataloog.md
     - MAME käivitamine: mame-käivitamine.md
     - '👾 Proovi JUKUt veebis! 👾': 'https://infoaed.ee/juku'
