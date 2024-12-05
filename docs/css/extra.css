@@ -2,43 +2,6 @@ code, .rst-content tt,.rst-content code {
   white-space:pre-wrap;
 }
 
-/*.md-nav__title {
-  visibility: hidden;
+.md-nav__title .md-nav__button.md-logo img, .md-nav__title .md-nav__button.md-logo svg {
+  height: 5.6rem;
 }
-
-.md-nav__title::after {
-  visibility: visible;
-  content: 'juhan9000';
-  display: block;
-}*/
-
-/*
-
-.md-nav__title::before {
-  visibility: visible;
-  width: 100px;
-  display: block;
-  position: absolute;
-  color: red;
-  height: 100px;
-  background: url(/images/juku3000_2.svg) no-repeat;
-  content: "";
-  background-color: black;
-  z-index: 10000;
-  top: -10px;
-}
-
-.md-nav__title::after {
-  visibility: visible;
-  width: 100px;
-  display: initial;
-  position: absolute;
-  color: red;
-  height: 100px;
-  background: url(/images/juku3000_2.svg) no-repeat;
-    background-color: rgba(0, 0, 0, 0);
-  content: "";
-  background-color: black;
-  z-index: 10000;
-  top: -10px;
-}*/
