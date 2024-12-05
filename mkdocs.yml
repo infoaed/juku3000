@@ -7,8 +7,8 @@ edit_uri: ""
 
 theme:
     name: material
-    logo: images/juku3000.svg
-    favicon: images/favicon.ico
+    logo: juku3000.svg
+    favicon: favicon.ico
     palette:
       - scheme: 'default'
         media: '(prefers-color-scheme: light)'
