@@ -10,10 +10,9 @@ Selle saidi üldhuvitav sisu on tehtud kättesaadavaks aadressil [juku3000.infoa
 Kuigi füüsilisi JUKUsid toodeti 1990ndatel tuhandeid, on tänapäeval lihtsam JUKU kogemusest osa saada emulaatori vahendusel, mis jookseb [tavalises arvutis](dos/mame-käivitamine.md) või isegi [veebibrauseris](https://infoaed.ee/juku):
 
 * [MAME](docs/mame-käivitamine.md) on JUKU emuleerimise kullastandard, mida saab [proovida ka veebis](https://infoaed.ee/juku) (klahvilaotuse leiad [siit](https://infoaed.ee/juku/layout.html) ja käivitamiseks vajaliku RomBios 3.43m/JBASIC 1.1 püsivara [siit](roms))
+* [Универсальный эмулятор](http://bashkiria-2m.narod.ru/index/fajly/0-11) (emuleerib 80% ulatuses nii [Jukut](https://et.wikipedia.org/wiki/Juku_(arvuti)) kui [Iskra 1080 Tartut](https://et.wikipedia.org/wiki/Tartu_(arvuti)), sj konfifailid täiendatavad, audio ja ketaste toe saab vajadusel konfida, aga Jukul puuduvad täiendavad graafika- ja tekstirežiimid, lähtekood suletud -- soovitatav kasutada üldjuhul emuleerimiseks MAMEt, aga see emulaator koos oma siluri ja seadetega on hea võrdlusmaterjal) 
 * [EMU80](https://github.com/vpyk/emu80v4) (vaba lähtekoodiga kergekaaluline kandidaat, mida mugandada Juku jt sama pere kiipide emuleerimiseks)
 * [PCjs Project](https://www.pcjs.org/) sisaldab JUKU emuleerimise [algmeid](https://github.com/jeffpar/pcjs/tree/master/machines/pcx80/juku)
-* [Универсальный эмулятор](http://bashkiria-2m.narod.ru/index/fajly/0-11) (emuleerib 80% ulatuses nii [Jukut](https://et.wikipedia.org/wiki/Juku_(arvuti)) kui [Iskra 1080 Tartut](https://et.wikipedia.org/wiki/Tartu_(arvuti)), sj konfifailid täiendatavad, audio ja ketaste toe saab vajadusel konfida, aga Jukul puuduvad täiendavad graafika- ja tekstirežiimid, lähtekood suletud -- soovitatav kasutada üldjuhul emuleerimiseks MAMEt, aga see emulaator koos oma siluri ja seadetega on hea võrdlusmaterjal)
-
 Valik lühijuhendeid:
 
 * [JUKU E5104 opsüsteemi käitamine](docs/juku-k%C3%A4sud.md)
