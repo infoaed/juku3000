@@ -1,6 +1,6 @@
 site_name: juku3000
 site_description: Kooliarvuti JUKU igavene digitaalne elu
-site_url: https://infoaed.github.io/juku3000
+site_url: https://juku3000.infoaed.ee/
 repo_name: infoaed/juku3000
 repo_url: https://github.com/infoaed/juku3000
 edit_uri: ""
@@ -9,8 +9,8 @@ extra_css:
 
 theme:
     name: material
-    logo: juku3000.svg
-    favicon: favicon.svg
+    logo: images/juku3000.svg
+    favicon: images/favicon.svg
     language: et
     palette:
       - scheme: 'default'
@@ -35,9 +35,6 @@ markdown_extensions:
     - codehilite
     - toc:
         permalink: true
-        
-plugins:
-    - social
 
 nav:
     - Tere, Juhan!: README.md
