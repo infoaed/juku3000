@@ -5,3 +5,9 @@ code, .rst-content tt,.rst-content code {
 .md-nav__title {
   visibility: hidden;
 }
+
+.md-nav__title:after {
+  visibility: visible;
+  content: 'juhan9000';
+  display: block;
+}
