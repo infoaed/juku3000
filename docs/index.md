@@ -1,8 +1,8 @@
-![Juku3000](images/juku3000_ruut_valge.svg#only-dark){align=right width=50%}
-![Juku3000](images/juku3000_ruut_must.svg#only-light){align=right width=50%}
+[![Juku3000](images/juku3000_ruut_valge.svg#only-dark){align=right width=50%}](https://infoaed.ee/juku/)
+[![Juku3000](images/juku3000_ruut_must.svg#only-light){align=right width=50%}](https://infoaed.ee/juku/)
 **Meie eesmärk on lasta tulevatel põlvedel elavalt kogeda Eesti arvutite esiajalugu — legendaarne 90ndate kooliarvuti JUKU peab olema kasutatav ka aastal 3000!**
 
-Kuigi füüsilisi JUKUsid toodeti 1990ndatel tuhandeid, on tänapäeval lihtsam JUKU kogemusest osa saada emulaatori vahendusel, mis jookseb [tavalises arvutis](mame-käivitamine.md) või isegi [veebibrauseris](https://infoaed.ee/juku).
+Kuigi füüsilisi JUKUsid toodeti 1990ndatel tuhandeid, on tänapäeval lihtsam JUKU kogemusest osa saada emulaatori vahendusel, mis jookseb [tavalises arvutis](mame-käivitamine.md) või isegi [veebibrauseris](https://infoaed.ee/juku/).
 
 Siia leheküljele on koondatud hulk JUKUt puudutavat dokumentatsiooni jm materjali, aga saidi olemasolu põhjuseks on soov JUKU arvuti eri mudeleid tänapäevasel riistvaral emuleerida.
 
