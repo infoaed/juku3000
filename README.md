@@ -5,7 +5,7 @@
 
 Kui sa ei tea, mis on JUKU, siis on aeg heita pilk [Vikipeediasse](https://et.wikipedia.org/wiki/Juku_(arvuti)), [Elektroonikamuuseumi](https://elektroonikamuuseum.ee/juku_arvuti_lugu.html) või tutvuda meie [JUKU ajajoonega](docs/ajajoon.md).
 
-Selle saidi üldhuvitav sisu on tehtud kättesaadavaks aadressil [juku3000.infoaed.ee](https://juku3000.infoaed.ee/), lähtekoodi kataloogist võib leida [mõned huvitavad testprogrammid](src).
+Selle saidi üldhuvitav sisu on tehtud kättesaadavaks aadressil [juku3000.infoaed.ee](https://juku3000.infoaed.ee/), lähtekoodi kataloogist võib lisaks leida [mõned huvitavad testprogrammid](src).
 
 Kuigi füüsilisi JUKUsid toodeti 1990ndatel tuhandeid, on tänapäeval lihtsam JUKU kogemusest osa saada emulaatori vahendusel, mis jookseb [tavalises arvutis](dos/mame-käivitamine.md) või isegi [veebibrauseris](https://infoaed.ee/juku):
 
