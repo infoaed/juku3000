@@ -91,7 +91,7 @@ detsember | [EKDOS utiliitide DISK #4](https://github.com/infoaed/juku3000/blob/
 ## Vaata ka
 
 * [JUKU arvuti lugu](https://elektroonikamuuseum.ee/juku_arvuti_lugu.html) (Elektroonikamuuseum 2024)
-* [JUKU tarkvara ökosüsteem)(https://p6drad-teel.net/~p6der/juku-hingeelu_2024_videota.pdf) (Märt Põder 2024)
+* [JUKU tarkvara ökosüsteem](https://p6drad-teel.net/~p6der/juku-hingeelu_2024_videota.pdf) (Märt Põder 2024)
 * [Mida JUKUga ei õpetatud, seda JUHAN teada ei saanud](https://dea.digar.ee/cgi-bin/dea?a=d&d=AKdigi201909.2.25.1&e=-------et-25--1--txt-txIN|txTI|txAU|txTA-------------) (Ivo Krustok 2019)
 * [Domestic PC Production in the Soviet Baltic States 1977-1992](https://era.ed.ac.uk/bitstream/handle/1842/16452/Kanger2013.pdf) (Laur Kanger 2013)
 * [Tiigrihüppe lugu koos kõigega, mis sellele eelnes ja järgnes](https://kompass.harno.ee/tiigrihupe/) (Henrik Roonemaa 2021)
