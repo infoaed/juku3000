@@ -1,0 +1,39 @@
+site_name: Juku 3000 dokud
+site_description: Kooliarvuti JUKU igavene digitaalne elu
+site_url: https://infoaed.github.io/juku3000
+repo_name: infoaed/juku3000
+repo_url: https://github.com/infoaed/juku3000
+edit_uri: ""
+
+theme:
+    name: material
+    logo: images/juku3000.svg
+    favicon: images/favicon.ico
+    palette:
+      - scheme: 'default'
+        media: '(prefers-color-scheme: light)'
+        primary: deep purple
+        toggle:
+          icon: 'material/lightbulb'
+          name: "Switch to dark mode"
+      - scheme: 'slate'
+        media: '(prefers-color-scheme: dark)'
+        primary: deep purple
+        toggle:
+          icon: 'material/lightbulb-outline'
+          name: 'Switch to light mode'
+    features:
+        - navigation.sections
+        - header.autohide
+        - content.code.copy
+
+markdown_extensions:
+    - admonition
+    - codehilite
+    - mkautodoc
+    - toc:
+        permalink: true
+
+nav:
+    - Mida siit leiab?: README.md
+    - Tarkvara kataloog: tarkvara-kataloog.md
