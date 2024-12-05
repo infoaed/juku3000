@@ -14,15 +14,19 @@ theme:
     language: et
     custom_dir: docs/overrides
     palette:
+        primary: black
+        accent: deep-purple
+      - media: "(prefers-color-scheme)"
+        toggle:
+          icon: material/brightness-auto    
+          name: "Automaatne heledus"
       - scheme: 'default'
         media: '(prefers-color-scheme: light)'
-        primary: deep purple
         toggle:
           icon: 'material/lightbulb'
           name: "Tekst tumedal tasutal"
       - scheme: 'slate'
         media: '(prefers-color-scheme: dark)'
-        primary: deep purple
         toggle:
           icon: 'material/lightbulb-outline'
           name: 'Tekst heledal taustal'
