@@ -40,10 +40,10 @@ markdown_extensions:
 
 nav:
     - Tere, Juhan!: README.md
-    - JUKU ajajoon: ajajoon.md
+    - JUKU arvuti elukõver: ajajoon.md
     - Tarkvara kataloog: tarkvara-kataloog.md
     - EKDOSi kasutamine: juku-käsud.md
     - Ketaste lugemine: kettad.md
     - Videote salvestamine: videod.md
     - MAME käivitamine: mame-käivitamine.md
-    - Proovi JUKUt veebis!: 'https://infoaed.ee/juku'
+    - 👾 Proovi JUKUt veebis!: 'https://infoaed.ee/juku'
