@@ -48,6 +48,9 @@ markdown_extensions:
     - toc:
         permalink: true
 
+#plugins:
+#    - social
+
 nav:
     - Tere, Juhan!: index.md
     - JUKU elutsükkel: ajajoon.md
