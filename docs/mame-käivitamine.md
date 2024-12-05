@@ -12,7 +12,7 @@ Kuvarile ilmub püsimonitori teade `RomBios`, monitori versiooninumber ja viip `
 
 [![EKDOS 2.30 alglaadimine püsimonitorist Rombios 3.43m juhtklahvidega «T», «D», «D»](/images/jukubuut.gif)](https://commons.wikimedia.org/wiki/File:Juku_E5101_booting_up_EKDOS_2.30,_displaying_readme_file_on_screen.webm)
 
-JUKU E5104 opsüsteemi EKDOS alglaadimiseks tuleb vajutada `T`, `D`, `D`, täpsemad opsüsteemi juhised [leiad siit](https://github.com/infoaed/juku3000/blob/master/docs/juku-k%C3%A4sud.md).
+JUKU E5104 opsüsteemi EKDOS alglaadimiseks tuleb vajutada `T`, `D`, `D`, täpsemad opsüsteemi juhised [leiad siit](juku-k%C3%A4sud.md).
 
 ## Tarkvara käivitamine
 
