@@ -1,4 +1,4 @@
-site_name: Juku 3000 dokud
+site_name: juku3000
 site_description: Kooliarvuti JUKU igavene digitaalne elu
 site_url: https://infoaed.github.io/juku3000
 repo_name: infoaed/juku3000
@@ -41,5 +41,11 @@ plugins:
     - social
 
 nav:
-    - Mida siit leiab?: README.md
+    - Tere, Juhan!: README.md
+    - JUKU ajajoon: ajajoon.md
     - Tarkvara kataloog: tarkvara-kataloog.md
+    - EKDOSi kasutamine: juku-käsud.md
+    - Ketaste lugemine: kettad.md
+    - Videote salvestamine: videod.md
+    - MAME käivitamine: mame-käivitamine.md
+    - Proovi JUKUt veebis!: 'https://infoaed.ee/juku'
