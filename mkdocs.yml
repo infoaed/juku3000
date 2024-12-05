@@ -37,7 +37,6 @@ markdown_extensions:
         permalink: true
         
 plugins:
-    - info
     - social
 
 nav:
