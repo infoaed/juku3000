@@ -11,19 +11,20 @@ theme:
     name: material
     logo: juku3000.svg
     favicon: favicon.svg
+    language: et
     palette:
       - scheme: 'default'
         media: '(prefers-color-scheme: light)'
         primary: deep purple
         toggle:
           icon: 'material/lightbulb'
-          name: "Switch to dark mode"
+          name: "Tekst tumedal tasutal"
       - scheme: 'slate'
         media: '(prefers-color-scheme: dark)'
         primary: deep purple
         toggle:
           icon: 'material/lightbulb-outline'
-          name: 'Switch to light mode'
+          name: 'Tekst heledal taustal'
     features:
         - navigation.sections
         - header.autohide
