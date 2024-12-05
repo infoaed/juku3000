@@ -5,7 +5,7 @@ Kuigi füüsilisi JUKUsid toodeti 1990ndatel tuhandeid, on tänapäeval lihtsam 
 
 Siia leheküljele on koondatud hulk JUKUt puudutavat dokumentatsiooni jm materjali, aga saidi olemasolu põhjuseks on soov JUKU arvuti eri mudeleid tänapäevasel riistvaral emuleerida.
 
-Kui sa juhtimisi ei tea, mis on JUKU, siis on aeg heita pilk [Vikipeediasse](https://et.wikipedia.org/wiki/Juku_(arvuti)), [Elektroonikamuuseumi](https://elektroonikamuuseum.ee/juku_arvuti_lugu.html) või tutvuda meie [JUKU ajajoonega](ajajoon.md). JUKU tarkvara ökosüsteemist annavad illustreeritud ülevaate [slaidid informaatika-olümpiaadi sügiseselt õppesessioonilt 2024](https://p6drad-teel.net/~p6der/juku-hingeelu_2024_videota.pdf).
+Kui sa juhtimisi üldse ei tea, mis on JUKU, siis on aeg heita pilk [Vikipeediasse](https://et.wikipedia.org/wiki/Juku_(arvuti)), [Elektroonikamuuseumi](https://elektroonikamuuseum.ee/juku_arvuti_lugu.html) või tutvuda meie [JUKU ajajoonega](ajajoon.md). JUKU tarkvara ökosüsteemist annavad illustreeritud ülevaate [slaidid informaatika-olümpiaadi sügiseselt õppesessioonilt 2024](https://p6drad-teel.net/~p6der/juku-hingeelu_2024_videota.pdf).
 
 JUKU emuleerimise algatus JUKU 3000 nime all käivitati sügisel 2017 Garage48 häkatoni "[Elamused ja ekspositsioonid](https://garage48.org/blog/garage48-elamused-ja-ekspositsioonid-toi-tahed-taevast-raputas-ja-pani-nostalgitsema-voitja-on-ta)" raames.
 
@@ -22,10 +22,10 @@ Asjassepuutuvaid ettevõtmisi:
 * [Elektroonikamuuseum](https://elektroonikamuuseum.ee/)
 * [Tartu Ülikooli arvutimuuseuum](http://arvutimuuseum.ut.ee/)
 * [Tallinna arvutimuuseum](http://arvutimuuseum.ee/)
-* [LVLup! videomängude muuseum](https://www.rara.ee/meist/asukohad/#lvlup-videomangude-muuseum)
 * [Retroklubi/Retrocomputing Estonia](http://pushspace.com/)
+* [LVLup! videomängude muuseum](https://www.rara.ee/meist/asukohad/#lvlup-videomangude-muuseum)
 * [Unistused ja tegelikkus. 90ndate lapsepõlv](https://web.archive.org/web/20180204224850/https://www.mm.ee/naitused/naitus-unistused-ja-tegelikkus-90ndate-lapsepolv) (Tartu Mänguasjamuuseumi näitus)
 * [Mängime?! Arvutimängud Prantsusmaalt ja Saksamaalt](https://web.archive.org/web/20170825094230/https://kumu.ekm.ee/arhiiv/naitused-2013/mangime-arvutimangud-prantsusmaalt-ja-saksamaalt/) (Kumu arvutimängude näitus)
 * [RAM. Eesti varane arvutikunst](https://kumu.ekm.ee/syndmus/ram-eesti-varane-arvutikunst/) (Kumu arvutigraafika näitus)
-* [Eestikeelete mängude Discord](https://discord.gg/nQvCGeNPhr) (Pait Gaming)
+* [Eestikeelete mängude Discord](https://discord.gg/nQvCGeNPhr) (Pait Gaming jt)
 * [Suomen ensimmäinen pelimuseo avataan Tampereella](https://yle.fi/uutiset/3-9354287) (Arvutimängude muuseum Tamperes)
