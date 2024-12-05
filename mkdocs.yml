@@ -35,5 +35,5 @@ markdown_extensions:
         permalink: true
 
 nav:
-    - Mida siit leiab?: README.md
-    - Tarkvara kataloog: tarkvara-kataloog.md
+    - Mida siit leiab?: docs/README.md
+    - Tarkvara kataloog: docs/tarkvara-kataloog.md
