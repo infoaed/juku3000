@@ -35,6 +35,10 @@ markdown_extensions:
     - codehilite
     - toc:
         permalink: true
+        
+plugins:
+    - info
+    - social
 
 nav:
     - Mida siit leiab?: README.md
