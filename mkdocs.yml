@@ -33,6 +33,7 @@ theme:
 markdown_extensions:
     - admonition
     - codehilite
+    - footnotes
     - toc:
         permalink: true
 
