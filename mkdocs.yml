@@ -29,6 +29,7 @@ theme:
         - navigation.sections
         - header.autohide
         - content.code.copy
+        - content.footnote.tooltips        
 
 markdown_extensions:
     - admonition
