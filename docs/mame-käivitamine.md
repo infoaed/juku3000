@@ -1,6 +1,6 @@
 # JUKU käivitamine MAME emulaatoris
 
-Alates [MAME versioonist 0.272](https://github.com/mamedev/mame/releases/tag/mame0272) on JUKU töökorras unarvara auväärses nimekirjas ning saad Eesti legendaarse kooliarvuti suurema jukerdamiseta oma töölaual käima lasta (veebiversioon proovimiseks [siin](https://infoaed.ee/juku/)). Selleks tuleb:
+Alates [MAME versioonist 0.272](https://github.com/mamedev/mame/releases/tag/mame0272) on JUKU töökorras unarvara auväärses nimekirjas[^1] ning saad Eesti legendaarse kooliarvuti suurema jukerdamiseta oma töölaual käima lasta (veebiversioon proovimiseks [siin](https://infoaed.ee/juku/)). Selleks tuleb:
 
 1. Laadida alla [MAME emulaatori töölauaversioon](https://www.mamedev.org/release.html)
 2. Paigutada [JUKU püsivara ZIP](https://github.com/infoaed/juku3000/raw/refs/heads/master/roms/juku.zip) allalaaditud MAME `roms` kataloogi
@@ -36,6 +36,4 @@ Kui teed JUKU mängudest või tarkvarast ekraanivideoid, siis [tee neid õigesti
 
 Kui soovid katsetada JUKUl programmeerimist, võid lapata läbi [slaidid JUKU tarkvara ökosüsteemist](https://p6drad-teel.net/~p6der/juku-hingeelu_2024_videota.pdf) ning seejärel proovida ketast [`TERE.JUK`](https://github.com/infoaed/juku3000/raw/refs/heads/master/src/juhan/tere.juk).
 
-----
-
-_Kes minevikku ei mäleta, elab tulevikuta!_ -- Juhan Liiv
+[^1]: _Kes minevikku ei mäleta, elab tulevikuta!_ -- Juhan Liiv
