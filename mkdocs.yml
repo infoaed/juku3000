@@ -4,6 +4,8 @@ site_url: https://infoaed.github.io/juku3000
 repo_name: infoaed/juku3000
 repo_url: https://github.com/infoaed/juku3000
 edit_uri: ""
+extra_css:
+   - css/extra.css
 
 theme:
     name: material
