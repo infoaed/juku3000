@@ -4,7 +4,7 @@ Kataloog väljendab ketastelt taastatud JUKU E5101-E5104 tarkvara 2024 sügise
 seisuga. Tarkvara lisandub ning kirjeldused võivad teadmiste täienedes muutuda.
 Nimekirja autoriteetne kontrollsummadega versioon on:
 
-* https://github.com/infoaed/juku3000/blob/master/docs/tarkvara-kataloog.txt
+* https://juku3000.infoaed.ee/tarkvara-kataloog.txt
 
 Samast on leitavad ka kontrollsummadeta teisendused PDFi ja Markdowni. Enamik
 materjalist on allalaaditav aadressil:
@@ -1841,7 +1841,7 @@ SIZE: `800K` (`819200`) / SHA1: `e8620ed9392a24463d145d28c0fc76ddac1eeb27`
 
 ## STEF2
 
-JUKU kettaseadmest leitud vigase ketta taastas Elektroonikamuuseumi asutaja Woldemar 31.04.2024.
+JUKU kettaseadmest leitud vigase ketta taastas Elektroonikamuuseumi asutaja Woldemar 31.03.2024.
 Ketta taastamiseks kasutati KryoFluxi ja taastamise skoor on 0/32.
 
 SIZE: `800K` (`819200`) / SHA1: `17eefcd63de191d00059516aacfc16d9abf56400`
