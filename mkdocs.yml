@@ -9,7 +9,7 @@ extra_css:
 
 theme:
     name: material
-    logo: images/juku3000_2.svg
+    logo: images/juku3000_small.svg
     favicon: images/favicon.svg
     language: et
     custom_dir: docs/overrides
