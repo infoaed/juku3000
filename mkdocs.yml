@@ -4,6 +4,7 @@ site_url: https://juku3000.infoaed.ee/
 repo_name: infoaed/juku3000
 repo_url: https://github.com/infoaed/juku3000
 edit_uri: ""
+site_author: juku3000
 extra_css:
    - css/extra.css
 
@@ -49,14 +50,16 @@ markdown_extensions:
         permalink: true
 
 #plugins:
-#    - social
+#  - social:
+#      cards: false
+#      cards_dir: images
 
 nav:
     - Tere, Juhan!: index.md
     - JUKU elutsükkel: ajajoon.md
     - EKDOSi kasutamine: juku-käsud.md
-    - Ketaste lugemine: kettad.md
     - Videote salvestamine: videod.md
+    - Ketaste lugemine: kettad.md
     - Tarkvara kataloog: tarkvara-kataloog.md
     - MAME käivitamine: mame-käivitamine.md
     - '👾 Proovi JUKUt veebis! 👾': 'https://infoaed.ee/juku'
