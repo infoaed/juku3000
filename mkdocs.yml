@@ -49,10 +49,8 @@ markdown_extensions:
     - toc:
         permalink: true
 
-#plugins:
-#  - social:
-#      cards: false
-#      cards_dir: images
+plugins:
+  - social:
 
 nav:
     - Tere, Juhan!: index.md
