@@ -127,7 +127,7 @@ KP moodustab nendest parameetritest süsteemiparameetrite tsooni (ST) ühe või 
 >        | `CA03`: KP viiba käivitamise aadress
 > `D400` | Süsteemiparameetrite tsoon (ST) #2
 > `D800` | Videomälu, mälurežiimides 1-2 püsimälu lugemine
-> `FD80` | Süsteemiparameetrid
+> `FD80` | Süsteemiparameetrite tsoon (ST) #3
 >        | `FF26`: Võrgufunktsioonid
 >        | `FF46`: Süsteemiväljad
 >        | `FF68`: BIOSi põhifunktsioonid
