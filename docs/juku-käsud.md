@@ -125,7 +125,7 @@ KP moodustab nendest parameetritest süsteemiparameetrite tsooni (ST) ühe või 
 > `B400` | Käsuprotsessor (KP)
 >        | `BC06`: EKDOSi elik CP/Mi funktsioonid
 >        | `CA03`: KP viiba käivitamise aadress
-> `D400` | ST #2
+> `D400` | Süsteemiparameetrite tsoon (ST) #2
 > `D800` | Videomälu, mälurežiimides 1-2 püsimälu lugemine
 > `FD80` | Süsteemiparameetrid
 >        | `FF26`: Võrgufunktsioonid
