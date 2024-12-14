@@ -115,7 +115,7 @@ KP moodustab nendest parameetritest süsteemiparameetrite tsooni (ST) ühe või 
 >
 > | Aadress |                                                   |
 > | ----------- | --------------------------------------------------|
-> `0000` | Süsteemiparameetrite tsoon (ST)
+> `0000` | Süsteemiparameetrite tsoon (ST) #1
 >        | `0000`: `JMP CA03` (KP algusaadress)
 >        | `0005`: `JMP BC06` (EKDOSi aadress)
 >        | `005C`: Faili juhtblokk (FJB) #1
@@ -125,14 +125,14 @@ KP moodustab nendest parameetritest süsteemiparameetrite tsooni (ST) ühe või 
 > `B400` | Käsuprotsessor (KP)
 >        | `BC06`: EKDOSi elik CP/Mi funktsioonid
 >        | `CA03`: KP viiba käivitamise aadress
-> `D400` | Süsteemiparameetrid
+> `D400` | Süsteemiparameetrid (ST) #2
 > `D800` | Videomälu, mälurežiimides 1-2 püsimälu lugemine
 > `FD80` | Süsteemiparameetrid
 >        | `FF26`: Võrgufunktsioonid
 >        | `FF46`: Süsteemiväljad
 >        | `FF68`: BIOSi põhifunktsioonid
 >
-> Tarbijatsoonis asuvad kasutajaprogrammid, mis on andmekandjalt mäl­lu laaditud. Näiteks teksti redigeerimise ajal sisaldab TT tekstitoimetit ja toimetatavat teksti ennast. Mälujaotus võib detailildes erineda sõltuvalt opsüsteemi tüübist ja versioonist, nt lindiopsüsteemi BLOS puhul lõpeb TT aadressil `BEFF`, `BFC0`-`C7BF` asetseb täiendav 2KB OMP puhver, `D200`-`D5FF` paikneb lindifailide kataloog ja süsteemiparameetrid algavad aadressist `D600`.[^1][^2]
+> Tarbijatsoonis asuvad kasutajaprogrammid, mis on andmekandjalt mäl­lu laaditud. Näiteks teksti redigeerimise ajal sisaldab TT tekstitoimetit ja toimetatavat teksti ennast. Mälujaotus võib detailildes erineda sõltuvalt opsüsteemi tüübist ja versioonist, nt lindiopsüsteemi BLOS puhul lõpeb TT aadressil `BEFF`, `BFC0`-`C7BF` asetseb täiendav 2KB OMP puhver, `D200`-`D5FF` paikneb lindifailide kataloog ja ST #2 algab `D600`.[^1][^2]
 
 ## Kasulikke juhtklahve
 
