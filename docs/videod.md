@@ -18,7 +18,9 @@ Selge JUKU&nbsp;&nbsp;&nbsp; |  Udune JUKU
 
 Siiski võib olla jõudluse mõttes tark piirduda parameetriga `-snapsize auto`, jätta video skaleerimata ja kasutadagi arhiveerimiseks algset resolutsiooni. Sel juhul saab video teisendada eksponeerimiseks vajalikku resolutsiooni näiteks [FFmpegi abil](http://trac.ffmpeg.org/wiki/Scaling#Specifyingscalingalgorithm):
 
-> `ffmpeg -i mame_originaal.avi -vf scale=960:720 -sws_flags neighbor eksponeeritav_video.mp4`
+```
+ffmpeg -i mame_originaal.avi -vf scale=960:720 -sws_flags neighbor eksponeeritav_video.mp4
+```
 
 FFMPEG parameetritest `-sws_flags neighbor` keelab skaleerimisel udustavate filtrite kasutamise samamoodi nagu MAME võti `-nosnapbilinear`.
 
