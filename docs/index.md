@@ -5,7 +5,7 @@
 
 Kuigi füüsilisi JUKUsid toodeti 1988-1992 tuhandeid, on tänapäeval lihtsam JUKU kogemusest osa saada emulaatori vahendusel, mis jookseb [tavalises arvutis](mame-käivitamine.md) või isegi [veebibrauseris](https://infoaed.ee/juku/).
 
-Siia leheküljele on koondatud hulk JUKUt puudutavat dokumentatsiooni jm materjali, aga saidi olemasolu põhjuseks on soov JUKU arvuti eri mudeleid jooksutada tänapäevasel riistvaral ehk neid "emuleerida".
+Siia leheküljele on koondatud hulk JUKUt puudutavat dokumentatsiooni jm materjali, aga saidi olemasolu põhjuseks on soov JUKU arvuti eri mudeleid jooksutada tänapäevasel riistvaral ehk neid "[emuleerida](https://et.wikipedia.org/wiki/Emulaator)".
 
 Kui sa juhtimisi üldse ei tea, mis on JUKU, siis on aeg heita pilk [Vikipeediasse](https://et.wikipedia.org/wiki/Juku_(arvuti)), [Elektroonikamuuseumi](https://elektroonikamuuseum.ee/juku_arvuti_lugu.html) või tutvuda meie [JUKU ajajoonega](ajajoon.md). JUKU tarkvara ökosüsteemist annavad illustreeritud ülevaate [slaidid informaatika-olümpiaadi sügiseselt õppesessioonilt 2024](https://p6drad-teel.net/~p6der/juku-hingeelu_2024_videota.pdf).
 
