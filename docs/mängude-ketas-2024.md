@@ -10,7 +10,7 @@
 ```  
   
 MMXXIV  on aasta,  mil JUKU E5104 tugi
-jõudis ametlikult  MAME emulaatorisse.
+jõudis [ametlikult  MAME emulaatorisse](https://www.mamedev.org/?p=544).
 Juku 3000  tähistab seda  JUKU mängude
 ketta avaldamisega.
 
@@ -50,7 +50,7 @@ ketta avaldamisega.
 `H` - mängu jaoks on vaja kasutada hiirt  
 `80x24` - eeldab MODX abil kuvalaotuse määramist  
 
-Ketta saab alla laadida [siit](https://elektroonikamuuseum.ee/failid/juku/tarkvara/J3KGAME1.JUK). Toredat sukeldumist Eesti arvutiloo esiajalukku!
+Ketta saab alla laadida [siit](https://elektroonikamuuseum.ee/failid/juku/tarkvara/J3KGAME1.JUK) ja esialgu kattub see veebiemulaatori `B:` kettaga. Toredat sukeldumist Eesti arvutiloo esiajalukku!
 
 ## Vaata ka
 
