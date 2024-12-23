@@ -138,9 +138,10 @@ JUKU E5104 ametlikult MAME emulaatori osaks saamist versioonist 0.272.
 Kettal on valik mänge, mida on kasutatud emulaatori eri omaduste testimiseks
 või mis on lihtsalt emulaatori arendamise lõbusamaks teinud, sj mõned
 mängudest on teistel JUKU ketastel tervikuna avaldamata. Ketas on kasutusel
-veebiemulaatoris https://infoaed.ee/juku/ ja selle saab alla laadida https://elektroonikamuuseum.ee/failid/juku/tarkvara/J3KGAME1.JUK.
+veebiemulaatoris https://infoaed.ee/juku/ ja selle saab alla laadida
+https://elektroonikamuuseum.ee/failid/juku/tarkvara/J3KGAME1.JUK.
 
-SIZE: `800K` (`819200`) / SHA1: `74122a142ba81de4f609766d016c274fa1df2523`
+SIZE: `800K` (`819200`) / SHA1: `bd3fb499021a30e87883681a564bd8e2f4f0bb58`
 
 ``1       .       896``    LAOLEO andmefail  
 ``2       .       896``    LAOLEO andmefail  
@@ -154,7 +155,7 @@ SIZE: `800K` (`819200`) / SHA1: `74122a142ba81de4f609766d016c274fa1df2523`
 ``AVTEST  .DOC   2,7K``      
 ``BOWLING .COM   3,4K``    Keegel (Maxway & I.K.S. '91)  
 ``BRUN    .COM    16K``    BASIC runtime 5.30 (Microsoft)  
-``BUGABOO .COM    18K``    Kaalikas labürindis* (EKTA '89)  
+``BUGABOO .COM    18K``    Kaalikas labürindis\* (EKTA '89)  
 ``BUGABOO .DAT   1,0K``      
 ``BUGABOO .MSG   1,4K``      
 ``BUGABOO .TAB    256``      
@@ -190,15 +191,15 @@ SIZE: `800K` (`819200`) / SHA1: `74122a142ba81de4f609766d016c274fa1df2523`
 ``READ    .ME    2,2K``    J3K mängude ketta '24 lühitutvustus  
 ``SHOT    .COM   2,3K``    Shot Master 2000 v1.1 (I.Käär '91)  
 ``SHOT    .DAT   9,0K``      
-``SNAKE   .COM    12K``    "Ussike"* (M.Gladin/EKTA '87)  
+``SNAKE   .COM    12K``    "Ussike"\* (M.Gladin/EKTA '87)  
 ``SNAKE   .DAT   1,0K``      
 ``SPACE   .COM    17K``    Space Attack (Vakstu '90)  
-``ZOO     .COM    25K``    "Lode Runner" loomaaias* (Vakstu '91)  
+``ZOO     .COM    25K``    "Lode Runner" loomaaias\* (Vakstu '91)  
 ``ZOO     .TXT    426``      
 ``TANK    .COM    15K``    Tank UFOde vastu  
 ``TET     .COM    17K``    Hiirega "Tetris" (A.Mett '90 H)  
 ``TETRIS  .COM   1,9K``    Graafiline "Tetris" (T.Ainsaar '90)  
-``XONIX   .COM   3,8K``    "Qixi" kloon* (E.Jürviste/EKTA '87)  
+``XONIX   .COM   3,8K``    "Qixi" kloon\* (E.Jürviste/EKTA '87)  
 ``YL1     .LOG    896``    LOGERi ülesanne #1  
 ``YL2     .LOG    640``    LOGERi ülesanne #2  
 ``YL3     .LOG    896``    LOGERi ülesanne #3  
@@ -352,7 +353,7 @@ SIZE: `800K` (`819200`) / SHA1: `32708fd095be8ea50bf2ba185c6d5654e0ca3255`
 ``SED80   .COM    10K``    Screen text editor 6.1 (80x24)  
 ``SED     .COM    10K``    Screen text editor 6.1  
 ``SEIKO   .COM   1,8K``    Seikosha SP-800 driver  
-``SETS    .COM   1,4K``    Set file(s) status (SETS *.* $r/o)  
+``SETS    .COM   1,4K``    Set file(s) status (SETS \*.* $r/o)  
 ``SIPELGAS.PIC   3,4K``      
 ``SK      .COM   4,0K``    Kalkulaator "SideKicK" 1.0 (40x24)  
 ``STAT    .COM   5,2K``    Failisüsteemi statistika (CP/M)  

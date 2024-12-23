@@ -138,9 +138,10 @@ JUKU E5104 ametlikult MAME emulaatori osaks saamist versioonist 0.272.
 Kettal on valik mänge, mida on kasutatud emulaatori eri omaduste testimiseks
 või mis on lihtsalt emulaatori arendamise lõbusamaks teinud, sj mõned
 mängudest on teistel JUKU ketastel tervikuna avaldamata. Ketas on kasutusel
-veebiemulaatoris https://infoaed.ee/juku/ ja selle saab alla laadida https://elektroonikamuuseum.ee/failid/juku/tarkvara/J3KGAME1.JUK.
+veebiemulaatoris https://infoaed.ee/juku/ ja selle saab alla laadida
+https://elektroonikamuuseum.ee/failid/juku/tarkvara/J3KGAME1.JUK.
 
-SIZE: 800K (819200) / SHA1: 74122a142ba81de4f609766d016c274fa1df2523
+SIZE: 800K (819200) / SHA1: bd3fb499021a30e87883681a564bd8e2f4f0bb58
 
 8804ca55d5ab88a60eaec47c0181fd6a40607fdd  1       .        896  LAOLEO andmefail
 2a7e9c8444d9c3de7f7bacbe1d1af15e58dffe1a  2       .        896  LAOLEO andmefail
@@ -187,7 +188,7 @@ e0b5c4e59b6b4223258717836fb723bd75dd9e6d  MODX    .COM    3,5K  80x24 kuvalaotus
 84e8ee08ce144f79f95c756470bf7078ef7e13f6  PUSHER  .COM     23K  Nügiline (A.Mett '91)
 25be01e987fcd2c78715a83f6031ec11b4a75cff  PUSHER  .DOK    1,3K  
 033de6f0d4a5a53dd5acad01f67749f8efdef909  PUSHER  .LEV    6,3K  
-2558212d63d13a4deacd4db16e902e3e67502385  READ    .ME     2,2K  J3K mängude ketta '24 lühitutvustus
+9b810d0e2c3dca4122548f2d8ca99711a10eab7e  READ    .ME     2,2K  J3K mängude ketta '24 lühitutvustus
 5afc6e9619f9b5fab038b779b6e8e140da440744  SHOT    .COM    2,3K  Shot Master 2000 v1.1 (I.Käär '91)
 a6382e454963b3e7e679ee55db42a2773147d110  SHOT    .DAT    9,0K  
 7920430747b1f10ea24a280d301f82a048bd2627  SNAKE   .COM     12K  "Ussike"* (M.Gladin/EKTA '87)
