@@ -20,11 +20,11 @@ Ent mis kasu on opsüsteemist tarkvarata? Tarkvara lisamiseks tuleb laadida alla
 
 Flopiketta kasutamiseks tuleb see emuleeritud JUKUsse sisestada. Selleks on vaja lahti lukustada MAME süsteemiklahvid `Scroll Lock` abiga (tuntud ka kui `MAME Lock`), mille järel saab avada [MAME süsteemimenüü](https://docs.mamedev.org/usingmame/mamemenus.html) vajutades `Tab`.
 
-Flopisid ehk `JUK`-faile saab lisada `File Manageri` alt ja esimesteks katsetusteks võiks olla sobiv mõni flopi `JUKGAME`/`JUKPROG` seeriast, aga miks mitte ka veebiemulaatori [`GAME1.JUK`](https://infoaed.ee/juku/game1.juk) või [`PROG1.JUK`](https://infoaed.ee/juku/prog1.juk).
+Flopisid ehk `JUK`-faile saab lisada `File Manageri` alt ja esimesteks katsetusteks võiks olla sobiv mõni flopi `JUKGAME`/`JUKPROG` seeriast. Emulaatori valmimise puhul andsime välja ka [JUKU 3000 mängude ketta 2024](j3k-games.md), mis jäädvustab 2024. aasta novembri veebiemulaatori [`GAME1.JUK`](https://infoaed.ee/juku/game1.juk) ketta sisu, JUKU aegset pildimaterjali ja kasutajaprogramme leiab veebiemulaatori kettalt [`PROG1.JUK`](https://infoaed.ee/juku/prog1.juk).
 
-MAME flopimenüü | Kultusmäng INDY
-:-------------------------:|:-------------------------:
-[![Scroll Locki (tuntud ka kui MAME Lock) vajutamise järel saab TABiga avada MAME flopimenüü](/images/mame-flopimenyy.png)](https://docs.mamedev.org/usingmame/mamemenus.html)  |  [![](/images/indy-game.png)](https://elektroonikamuuseum.ee/juku_arvuti_tarkvara_mang_indy.html)
+MAME flopimenüü | Mängude ketas 2024 | Kultusmäng INDY 
+:-------------------------:|:-------------------------:|:-------------------------:
+[![Scroll Locki (tuntud ka kui MAME Lock) vajutamise järel saab TABiga avada MAME flopimenüü](/images/mame-flopimenyy.png)](https://docs.mamedev.org/usingmame/mamemenus.html)  |  [![Emulaatori valmimise puhul anti välja Juku 3000 mängude ketas 2024](/images/j3k-games2024.png)](j3k-games.md)  |  [![INDYt saab otse veebist proovida Elektroonikamuuseumi raalikogus](/images/indy-game.png)](https://elektroonikamuuseum.ee/juku_arvuti_tarkvara_mang_indy.html)
 
 Aktiivset ketast saad EKDOSis vahetada viiba järele kettatähise ja kooloni kirjutamisega (nt `A:` või `B:`), tarkvara ehk `COM`-laadefaile saad käivitada sisestades viiba järele soovitud programmi nime. Failide nimekirja kettal näitab käsklus `DIR`. Süsteemi töökorras olemise kontrolliks võid proovida, kas saad `GAME1.JUK` kettalt käima [tuntud JUKU mängu INDY](https://et.wikipedia.org/wiki/Indy_looking_for_Jewels...).
 
