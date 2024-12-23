@@ -1,5 +1,4 @@
-
-
+```
 
                           __  _  _  _
             '     /       _/ / )/ )/ )
@@ -7,8 +6,8 @@
           / (_( /(_ (_( (_/(_/(_/(_/
          /
       __/   ** MÄNGUDE KETAS 2024 **
-  
-  
+
+```  
   
 MMXXIV  on aasta,  mil JUKU E5104 tugi
 jõudis ametlikult  MAME emulaatorisse.
