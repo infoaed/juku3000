@@ -12,8 +12,7 @@
 MMXXIV  on aasta,  mil JUKU E5104 tugi
 jõudis ametlikult  MAME emulaatorisse.
 Juku 3000  tähistab seda  JUKU mängude
-ketta avaldamisega. Toredat sukeldumist
-Eesti arvutiloo esiajalukku!
+ketta avaldamisega.
 
 ``2048    .COM`` - Nuputamismäng 2048 (Pehka1985 '22)  
 ``9       .COM`` - Mõistatusmäng 9-vangla  
@@ -51,7 +50,7 @@ Eesti arvutiloo esiajalukku!
 `H` - mängu jaoks on vaja kasutada hiirt  
 `80x24` - eeldab MODX abil kuvalaotuse määramist  
 
-Ketta saab alla laadida [siit](https://elektroonikamuuseum.ee/failid/juku/tarkvara/J3KGAME1.JUK).
+Ketta saab alla laadida [siit](https://elektroonikamuuseum.ee/failid/juku/tarkvara/J3KGAME1.JUK). Toredat sukeldumist Eesti arvutiloo esiajalukku!
 
 ## Vaata ka
 
