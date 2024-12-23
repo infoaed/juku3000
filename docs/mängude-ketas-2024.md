@@ -7,16 +7,14 @@
           / (_( /(_ (_( (_/(_/(_/(_/
          /
       __/   ** MÄNGUDE KETAS 2024 **
-
-
-                    ---
-
+  
+  
+  
 MMXXIV  on aasta,  mil JUKU E5104 tugi
 jõudis ametlikult  MAME emulaatorisse.
 Juku 3000  tähistab seda  JUKU mängude
-ketta avaldamisega.
-
-                    ---
+ketta avaldamisega. Toredat sukeldumist
+Eesti arvutiloo esiajalukku!
 
 ``2048    .COM`` - Nuputamismäng 2048 (Pehka1985 '22)  
 ``9       .COM`` - Mõistatusmäng 9-vangla  
@@ -50,14 +48,15 @@ ketta avaldamisega.
 ``TETRIS  .COM`` - Graafiline "Tetris" (T.Ainsaar '90)  
 ``XONIX   .COM`` - "Qixi" kloon\* (E.Jürviste/EKTA '87)  
 
-                    ---
-
 `*` - mängu juhtklahvid on tänapäevastatud  
 `H` - mängu jaoks on vaja kasutada hiirt  
 `80x24` - eeldab MODX abil kuvalaotuse määramist  
 
-Täpsem info emulaatorist, mängudest ja muust:
+Ketta saab alla laadida [siit](https://elektroonikamuuseum.ee/failid/juku/tarkvara/J3KGAME1.JUK).
 
-* https://infoaed.ee/juku3000
+## Vaata ka
 
-Toredat sukeldumist Eesti arvutiloo esiajalukku!
+* [Ketta failide täisnimekiri](tarkvara-kataloog.md#j3kgame1)
+* [Ketas veebiemulaatoris](https://infoaed.ee/juku3000) (2024 lõpu seisuga)
+* [Lühijuhend EKDOSis orienteerumiseks](juku-käsud.md)
+* [Emulaatori käivitamine töölaual](mame-käivitamine.md)
