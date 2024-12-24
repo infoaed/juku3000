@@ -24,7 +24,7 @@ Flopisid ehk `JUK`-faile saab lisada `File Manageri` alt ja esimesteks katsetust
 
 MAME flopimenüü | Mängude ketas 2024
 :-------------------------:|:-------------------------:
-[![Scroll Locki (tuntud ka kui MAME Lock) vajutamise järel saab TABiga avada MAME flopimenüü](/images/mame-flopimenyy.png)](https://docs.mamedev.org/usingmame/mamemenus.html)  |  [![Emulaatori valmimise puhul anti välja Juku 3000 mängude ketas 2024](/images/j3k-games2024.png)](mängude-ketas-2024.md)
+[![Scroll Locki (tuntud ka kui MAME Lock) vajutamise järel saab TABiga avada MAME flopimenüü](/images/mame-flopimenyy.png)](https://docs.mamedev.org/usingmame/mamemenus.html)  |  [![Emulaatori valmimise puhul anti välja Juku 3000 mängude ketas 2024](/images/j3k-games2024f.png)](mängude-ketas-2024.md)
 
 Aktiivset ketast saad EKDOSis vahetada viiba järele kettatähise ja kooloni kirjutamisega (nt `A:` või `B:`), tarkvara ehk `COM`-laadefaile saad käivitada sisestades viiba järele soovitud programmi nime. Failide nimekirja kettal näitab käsklus `DIR`. Süsteemi töökorras olemise kontrolliks võid proovida, kas saad `GAME1.JUK` kettalt käima [tuntud JUKU mängu INDY](https://et.wikipedia.org/wiki/Indy_looking_for_Jewels...).
 
