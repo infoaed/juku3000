@@ -54,7 +54,7 @@ Ketta saab alla laadida [siit](https://elektroonikamuuseum.ee/failid/juku/tarkva
 
 ## Vaata ka
 
-* [Ketas veebiemulaatoris](https://infoaed.ee/juku3000) (2024 lõpu seisuga)
+* [Ketas veebiemulaatoris](https://infoaed.ee/juku) (2024 lõpu seisuga)
 * [Ketta failide täisnimekiri](tarkvara-kataloog.md#j3kgame1)
 * [Lühijuhend EKDOSis orienteerumiseks](juku-käsud.md)
 * [Emulaatori käivitamine töölaual](mame-käivitamine.md)
