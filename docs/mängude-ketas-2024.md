@@ -36,7 +36,7 @@ ketta avaldamisega.
 ``MOIS    .COM`` - Mõisavalitseja kasutegur  
 ``MOND    .COM`` - "Artillery Duel" kloon?  
 ``PUSHER  .COM`` - Nügiline (A.Mett '91)  
-``READ    .ME `` - See tekst, mida praegu loed  
+``READ    .ME ­`` - See tekst, mida praegu loed  
 ``SHOT    .COM`` - Shot Master 2000 v1.1 (I.Käär '91)  
 ``SNAKE   .COM`` - "Ussike"\* (M.Gladin/EKTA '87)  
 ``SPACE   .COM`` - Space Attack (Vakstu '90)  
