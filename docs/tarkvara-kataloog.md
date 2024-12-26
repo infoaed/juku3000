@@ -145,21 +145,21 @@ SIZE: `800K` (`819200`) / SHA1: `bd3fb499021a30e87883681a564bd8e2f4f0bb58`
 
 ``1       .       896``    LAOLEO andmefail  
 ``2       .       896``    LAOLEO andmefail  
-``2048    .COM   1,5K``    Nuputamismäng 2048 (Pehka1985 '22)  
+``2048    .COM   1,5K``    Nuputamismäng "2048" (Pehka1985 '22)  
 ``3       .       896``    LAOLEO andmefail  
 ``4       .       896``    LAOLEO andmefail  
 ``5       .       896``    LAOLEO andmefail  
-``9       .COM   8,8K``    Mõistatusmäng 9-vangla  
+``9       .COM   8,8K``    Mõistatusmäng "9-vangla"  
 ``ATSKOO  .COM    18K``    Kaardimäng "Atskoo" (Kohtla-J 1KK)  
-``AVTEST  .COM    14K``    Arvutusliku võime test (Vakstu '91?)  
+``AVTEST  .COM    14K``    Maagilised ruudud (=Sudoku, VSW '91)  
 ``AVTEST  .DOC   2,7K``      
 ``BOWLING .COM   3,4K``    Keegel (Maxway & I.K.S. '91)  
 ``BRUN    .COM    16K``    BASIC runtime 5.30 (Microsoft)  
 ``BUGABOO .COM    18K``    Kaalikas labürindis\* (EKTA '89)  
 ``BUGABOO .DAT   1,0K``      
-``BUGABOO .MSG   1,4K``      
+``BUGABOO .MSG   1,4K``    Muudetud nooleklahvidega (J3K '24)  
 ``BUGABOO .TAB    256``      
-``CATCHUM .COM    29K``    Tuntud CP/Mi "Pac-Mani" kloon (80x24)  
+``CATCHUM .COM    29K``    Tuntud CP/Mi PAC-MANi kloon\* (80x24)  
 ``CATCHUM .DAT    512``      
 ``CHESS   .COM   8,0K``    Male "Mõtlen & käin" 1.1 (T.Ainsaar?)  
 ``GAMEBOY .COM    23K``    Lenda ja tulista (A.Säde '91)  
@@ -174,10 +174,10 @@ SIZE: `800K` (`819200`) / SHA1: `bd3fb499021a30e87883681a564bd8e2f4f0bb58`
 ``INDY    .COM    27K``    Indy Looking for Jewels (I.Käär '91)  
 ``INDY    .DAT    12K``      
 ``INDY    .TXT    296``      
-``KAPTEN  .COM    32K``    Merelahing (ed K.Koppel)  
+``KAPTEN  .COM    32K``    "Merelahing" (ed K.Koppel)  
 ``LADDER  .COM    40K``    Tuntud CP/Mi platvormimäng (80x24)  
 ``LADDER  .DAT    512``      
-``LAOLEO  .COM    32K``    "Sokobani" kloon (Kompuuter '91 H)  
+``LAOLEO  .COM    32K``    "Laoleo" (=Sokoban, Kompuuter '91 H)  
 ``LL0     .      6,4K``    LAOLEO andmefail  
 ``LOGER   .COM    32K``    Lülitiloogika v1.1 (Nost Neji '90 H)  
 ``LOGEX1  .CLG    128``    LOGERi andmefail  
@@ -185,21 +185,21 @@ SIZE: `800K` (`819200`) / SHA1: `bd3fb499021a30e87883681a564bd8e2f4f0bb58`
 ``MODX    .COM   3,5K``    80x24 kuvalaotuse draiver  
 ``MOIS    .COM   6,8K``    Mõisavalitseja kasutegur  
 ``MOND    .COM    17K``    "Artillery Duel" kloon?  
-``PUSHER  .COM    23K``    Nügiline (A.Mett '91)  
+``PUSHER  .COM    23K``    "Nügiline" (=Sokoban, A.Mett '91)  
 ``PUSHER  .DOK   1,3K``      
 ``PUSHER  .LEV   6,3K``      
 ``READ    .ME    2,2K``    J3K mängude ketta '24 lühitutvustus  
-``SHOT    .COM   2,3K``    Shot Master 2000 v1.1 (I.Käär '91)  
+``SHOT    .COM   2,3K``    "Shot Master 2000" v1.1 (I.Käär '91)  
 ``SHOT    .DAT   9,0K``      
 ``SNAKE   .COM    12K``    "Ussike"\* (M.Gladin/EKTA '87)  
 ``SNAKE   .DAT   1,0K``      
-``SPACE   .COM    17K``    Space Attack (Vakstu '90)  
+``SPACE   .COM    17K``    "Space Attack" (Vakstu/VSW '90)  
 ``ZOO     .COM    25K``    "Lode Runner" loomaaias\* (Vakstu '91)  
 ``ZOO     .TXT    426``      
 ``TANK    .COM    15K``    Tank UFOde vastu  
 ``TET     .COM    17K``    Hiirega "Tetris" (A.Mett '90 H)  
 ``TETRIS  .COM   1,9K``    Graafiline "Tetris" (T.Ainsaar '90)  
-``XONIX   .COM   3,8K``    "Qixi" kloon\* (E.Jürviste/EKTA '87)  
+``XONIX   .COM   3,8K``    "Xonix"\* (=Qix, E.Jürviste/EKTA '87)  
 ``YL1     .LOG    896``    LOGERi ülesanne #1  
 ``YL2     .LOG    640``    LOGERi ülesanne #2  
 ``YL3     .LOG    896``    LOGERi ülesanne #3  
@@ -207,7 +207,7 @@ SIZE: `800K` (`819200`) / SHA1: `bd3fb499021a30e87883681a564bd8e2f4f0bb58`
 
 ## JUKGAME1
 
-Taastatud mängude koondtõmmis ELFAfoorumi 2020 jaanuari lõimest.
+Taastatud mängude koondtõmmis ELFAfoorumi 2020 jaanuari lõimest, koostaja Mees Metsast.
 
 SIZE: `800K` (`819200`) / SHA1: `efd6e83669777966d523d323ea61e0352eea88ff`
 
@@ -218,14 +218,14 @@ SIZE: `800K` (`819200`) / SHA1: `efd6e83669777966d523d323ea61e0352eea88ff`
 ``5       .       896``    LAOLEO andmefail  
 ``ASCII   .       896``    Ladina tähestiku font (US laotus)  
 ``ATSKOO  .COM    18K``    Kaardimäng "Atskoo" (Kohtla-J 1KK)  
-``AVTEST  .COM    14K``    Arvutusliku võime test (Vakstu '91?)  
+``AVTEST  .COM    14K``    Maagilised ruudud (=Sudoku, VSW '91)  
 ``AVTEST  .DOC   2,7K``      
 ``BOWLING .COM   3,5K``    Keegel (Maxway & I.K.S. '91)  
 ``BUGABOO .COM    18K``    Kaalikas labürindis (EKTA '89)  
 ``BUGABOO .DAT   1,0K``      
 ``BUGABOO .MSG   1,4K``      
 ``BUGABOO .TAB    256``      
-``CATCHUM .COM    29K``    Tuntud CP/Mi "Pac-Mani" kloon (80x24)  
+``CATCHUM .COM    29K``    Tuntud CP/Mi PAC-MANi kloon\* (80x24)  
 ``CATCHUM .DAT    512``      
 ``CHESS   .COM    31K``    Malemäng "Las ma mõtlen" (EKTA '89)  
 ``EST     .       896``    Eesti tähestiku font (JUKU)  
@@ -238,13 +238,13 @@ SIZE: `800K` (`819200`) / SHA1: `efd6e83669777966d523d323ea61e0352eea88ff`
 ``HUNTER  .DAT    256``      
 ``INDY    .COM    27K``    Indy Looking for Jewels (I.Käär '91)  
 ``INDY    .DAT    12K``      
-``KAP     .COM    32K``    Merelahing (ed K.Koppel)  
-``KAPTEN  .COM    32K``    Merelahing  
+``KAP     .COM    32K``    "Merelahing" (ed K.Koppel)  
+``KAPTEN  .COM    32K``    "Merelahing"  
 ``LADDER  .COM    40K``    Tuntud CP/Mi platvormimäng (80x24)  
 ``LADDER  .DAT    512``      
 ``LAND    .COM    31K``      
 ``LAND    .DAT    640``      
-``LAOLEO  .COM    32K``    "Sokobani" kloon (Kompuuter '91 H)  
+``LAOLEO  .COM    32K``    "Laoleo" (=Sokoban, Kompuuter '91 H)  
 ``LF      .COM   2,0K``    Fondi laadija MODXi jaoks  
 ``LL0     .      6,4K``    LAOLEO andmefail  
 ``LOGER   .COM    32K``    Lülitiloogika v1.1 (Nost Neji '90 H)  
@@ -253,7 +253,7 @@ SIZE: `800K` (`819200`) / SHA1: `efd6e83669777966d523d323ea61e0352eea88ff`
 ``MODX    .COM   3,5K``    80x24 kuvalaotuse draiver  
 ``MOND    .COM    17K``    "Artillery Duel" kloon?  
 ``RUS     .       896``    Kirillitsa font (KOI-8)  
-``SHOT    .COM   2,3K``    Shot Master 2000 v1.1 (I.Käär '91)  
+``SHOT    .COM   2,3K``    "Shot Master 2000" v1.1 (I.Käär '91)  
 ``SNAKE   .COM    12K``    "Ussike" (M.Gladin/EKTA '87)  
 ``SNAKE   .DAT   1,0K``      
 ``ZOO     .COM    25K``    "Lode Runner" loomaaias (Vakstu '91)  
@@ -265,7 +265,7 @@ SIZE: `800K` (`819200`) / SHA1: `efd6e83669777966d523d323ea61e0352eea88ff`
 
 ## JUKPROG1
 
-Taastatud programmide koondtõmmis #1 ELFAfoorumi 2020 jaanuari lõimest.
+Taastatud programmide koondtõmmis #1 ELFAfoorumi 2020 jaanuari lõimest, koostaja Mees Metsast.
 
 SIZE: `800K` (`819200`) / SHA1: `32708fd095be8ea50bf2ba185c6d5654e0ca3255`
 
@@ -369,7 +369,7 @@ SIZE: `800K` (`819200`) / SHA1: `32708fd095be8ea50bf2ba185c6d5654e0ca3255`
 
 ## JUKPROG2
 
-Taastatud programmide koondtõmmis #2 ELFAfoorumi 2020 jaanuari lõimest.
+Taastatud programmide koondtõmmis #2 ELFAfoorumi 2020 jaanuari lõimest, koostaja Mees Metsast.
 
 SIZE: `800K` (`819200`) / SHA1: `725233ba5f8943ff2778bf4d70dbf25f71a5854d`
 
@@ -426,7 +426,7 @@ SIZE: `800K` (`819200`) / SHA1: `725233ba5f8943ff2778bf4d70dbf25f71a5854d`
 
 ## JUKPROGX
 
-Taastatud programmide koondtõmmis #3 ELFAfoorumi 2020 jaanuari lõimest.
+Taastatud programmide koondtõmmis #3 ELFAfoorumi 2020 jaanuari lõimest, koostaja Mees Metsast.
 
 SIZE: `800K` (`819200`) / SHA1: `7ac496b74bc5f0d6beeae5231b3f379b53ad8284`
 
@@ -457,7 +457,7 @@ SIZE: `800K` (`819200`) / SHA1: `7ac496b74bc5f0d6beeae5231b3f379b53ad8284`
 
 ## JUKUROMS
 
-Mälukividelt taastatud JUKU püsimälu monitorid ja laiendused.
+Mälukividelt taastatud JUKU püsimälu monitorid ja laiendused, eri aegadel sisse lugenud või kokku kogunud Pehka1985, Woldemar jt.
 
 SIZE: `71K` (`71873`) / SHA1: `2c4367df871efae011fb0d6ce318ce67c965b65d`
 
@@ -510,7 +510,7 @@ SIZE: `800K` (`819200`) / SHA1: `41c4064de6114dde4af54882fd6c1430e78f2a8b`
 ``BUGABOO .DAT   1,0K``      
 ``BUGABOO .MSG   1,4K``      
 ``BUGABOO .TAB    256``      
-``CATCHUM .COM    29K``    Tuntud CP/Mi "Pac-Mani" kloon (80x24)  
+``CATCHUM .COM    29K``    Tuntud CP/Mi PAC-MANi kloon\* (80x24)  
 ``CATCHUM .DAT    512``      
 ``CHESS   .COM    31K``    Malemäng "Las ma mõtlen" (EKTA '89)  
 ``COMPU   .COM   1,8K``    Compute Mate 160 printeri draiver  
@@ -585,21 +585,21 @@ SIZE: `800K` (`819200`) / SHA1: `64b16291e7fdf850a1e3d6aabbd464b760aa3f88`
 ``BUGABOO .DAT   1,0K``      
 ``BUGABOO .MSG   1,4K``      
 ``BUGABOO .TAB    256``      
-``CATCHUM .COM    29K``    Tuntud CP/Mi "Pac-Mani" kloon (80x24)  
+``CATCHUM .COM    29K``    Tuntud CP/Mi PAC-MANi kloon\* (80x24)  
 ``CATCHUM .DAT    512``      
 ``HUNTER  .COM   6,8K``    Jahiklubi (80x24, Vakstu/MIG '86)  
 ``HUNTER  .DAT    256``      
 ``INDY    .COM    27K``    Indy Looking for Jewels (I.Käär '91)  
 ``INDY    .DAT    12K``      
-``KAP     .COM    32K``    Merelahing (ed K.Koppel)  
+``KAP     .COM    32K``    "Merelahing" (ed K.Koppel)  
 ``LADDER  .COM    40K``    Tuntud CP/Mi platvormimäng (80x24)  
 ``LADDER  .DAT    512``      
-``LAOLEO  .COM    32K``    "Sokobani" kloon (Kompuuter '91 H)  
+``LAOLEO  .COM    32K``    "Laoleo" (=Sokoban, Kompuuter '91 H)  
 ``LOGER   .COM    32K``    Lülitiloogika v1.1 (Nost Neji '90 H)  
 ``MADUOK  .COM   9,3K``    Originaalne ussimäng?  
 ``MODX    .COM   3,5K``    80x24 kuvalaotuse draiver  
 ``MOND    .COM    17K``    "Artillery Duel" kloon?  
-``SHOT    .COM   2,3K``    Shot Master 2000 v1.1 (I.Käär '91)  
+``SHOT    .COM   2,3K``    "Shot Master 2000" v1.1 (I.Käär '91)  
 ``SNAKE   .COM    12K``    "Ussike" (M.Gladin/EKTA '87)  
 ``SNAKE   .DAT   1,0K``      
 ``TETRIS  .COM   1,9K``    Graafiline "Tetris" (T.Ainsaar '90)  
@@ -615,7 +615,7 @@ SIZE: `800K` (`819200`) / SHA1: `e4223e2bba25dc4b2b3ba4de6a4f63b156566b8a`
 
 ``BUGABOO .       18K``    Kaalikas labürindis (EKTA '89)  
 ``BUGABOO .COM    18K``    Kaalikas labürindis (EKTA '89)  
-``CATCHUM .COM    29K``    Tuntud CP/Mi "Pac-Mani" kloon (80x24)  
+``CATCHUM .COM    29K``    Tuntud CP/Mi PAC-MANi kloon\* (80x24)  
 ``CATCHUM .DAT    512``      
 ``COMPU   .COM   1,8K``    Compute Mate 160 printeri draiver  
 ``DBASE   .       19K``      
@@ -629,11 +629,11 @@ SIZE: `800K` (`819200`) / SHA1: `e4223e2bba25dc4b2b3ba4de6a4f63b156566b8a`
 ``HUNTER  .DAT    256``      
 ``JCM     .       12K``    JUKU File/Copy Master 1.0 (EKTA '89)  
 ``JCM     .COM    12K``    JUKU File/Copy Master 1.0 (EKTA '89)  
-``KAPTEN  .       32K``    Merelahing  
+``KAPTEN  .       32K``    "Merelahing"  
 ``KAPTEN  .COM    32K``      
 ``LADDER  .COM    40K``      
 ``LADDER  .DAT    512``      
-``LAOLEO  .COM    32K``    "Sokobani" kloon (Kompuuter '91 H)  
+``LAOLEO  .COM    32K``    "Laoleo" (=Sokoban, Kompuuter '91 H)  
 ``LLL     .       31K``      
 ``LLL     .COM    31K``      
 ``ME      .COM    32K``    Heliredaktor "Music Editor" 2.4 ('89)  
@@ -646,7 +646,7 @@ SIZE: `800K` (`819200`) / SHA1: `e4223e2bba25dc4b2b3ba4de6a4f63b156566b8a`
 ``MP      .COM    17K``    Multiplan 1.05 (Microsoft '81)  
 ``PIP     .COM   7,3K``    Failide kopeerija (CP/M)  
 ``POWER   .COM    16K``    Kettahaldur 3.03 (P.Breder '82)  
-``SHOT    .COM   2,3K``    Shot Master 2000 v1.1 (I.Käär '91)  
+``SHOT    .COM   2,3K``    "Shot Master 2000" v1.1 (I.Käär '91)  
 ``ZOO     .       25K``    "Lode Runner" loomaaias (Vakstu '91)  
 ``ZOO     .COM    25K``      
 ``TANK    .       15K``    Tank UFOde vastu  
@@ -704,7 +704,7 @@ SIZE: `800K` (`819200`) / SHA1: `ce3509c93b718c982f228e99b713ce87a965bb0c`
 ``AGENT 56.PIC      0``      
 ``ALLAN   .PIC      0``      
 ``ATSKOO  .COM    18K``    Kaardimäng "Atskoo" (Kohtla-J 1KK)  
-``AVTEST  .COM    14K``    Arvutusliku võime test (Vakstu '91?)  
+``AVTEST  .COM    14K``    Maagilised ruudud (=Sudoku, VSW '91)  
 ``AVTEST  .DOC   2,7K``      
 ``B80     .COM    24K``    BASIC-80 5.21 (Microsoft '81)  
 ``BIO80   .BAS   2,0K``      
@@ -714,7 +714,7 @@ SIZE: `800K` (`819200`) / SHA1: `ce3509c93b718c982f228e99b713ce87a965bb0c`
 ``BUGABOO .DAT   1,0K``      
 ``BUGABOO .MSG   1,4K``      
 ``BUGABOO .TAB    256``      
-``CATCHUM .COM    29K``    Tuntud CP/Mi "Pac-Mani" kloon (80x24)  
+``CATCHUM .COM    29K``    Tuntud CP/Mi PAC-MANi kloon\* (80x24)  
 ``CATCHUM .DAT    512``      
 ``COMPU   .COM   1,8K``    Compute Mate 160 printeri draiver  
 ``DOSGEN  .COM    896``    Süsteemiketta generaator 3.4 (CP/M)  
@@ -728,12 +728,12 @@ SIZE: `800K` (`819200`) / SHA1: `ce3509c93b718c982f228e99b713ce87a965bb0c`
 ``INDY    .COM    27K``    Indy Looking for Jewels (I.Käär '91)  
 ``INDY    .DAT    12K``      
 ``JCM     .COM    12K``    JUKU File/Copy Master 1.0 (EKTA '89)  
-``KAP     .COM    32K``    Merelahing (ed K.Koppel)  
+``KAP     .COM    32K``    "Merelahing" (ed K.Koppel)  
 ``LADDER  .COM    40K``    Tuntud CP/Mi platvormimäng (80x24)  
 ``LADDER  .DAT    512``      
 ``LAND    .COM    31K``      
 ``LAND    .DAT    640``      
-``LAOLEO  .COM    32K``    "Sokobani" kloon (Kompuuter '91 H)  
+``LAOLEO  .COM    32K``    "Laoleo" (=Sokoban, Kompuuter '91 H)  
 ``LAO     .LL       0``      
 ``LL0     .      6,4K``    LAOLEO andmefail  
 ``LOGER   .COM    32K``    Lülitiloogika v1.1 (Nost Neji '90 H)  
@@ -776,7 +776,7 @@ SIZE: `800K` (`819200`) / SHA1: `5c86653a2a1656bce163d92c1b774d3a7e39aae6`
 ``BUGABOO .DAT   1,0K``      
 ``BUGABOO .MSG   1,4K``      
 ``BUGABOO .TAB    256``      
-``CATCHUM .COM    29K``    Tuntud CP/Mi "Pac-Mani" kloon (80x24)  
+``CATCHUM .COM    29K``    Tuntud CP/Mi PAC-MANi kloon\* (80x24)  
 ``CATCHUM .DAT    512``      
 ``COMPU   .COM   1,8K``    Compute Mate 160 printeri draiver  
 ``INDY    .COM    27K``    Indy Looking for Jewels (I.Käär '91)  
@@ -799,7 +799,7 @@ SIZE: `800K` (`819200`) / SHA1: `e06467eafb906cdf21da1f896d4beb040f37302a`
 ``4       .       896``    LAOLEO andmefail  
 ``5       .       896``    LAOLEO andmefail  
 ``ATSKOO  .COM    18K``    Kaardimäng "Atskoo" (Kohtla-J 1KK)  
-``AVTEST  .COM    14K``    Arvutusliku võime test (Vakstu '91?)  
+``AVTEST  .COM    14K``    Maagilised ruudud (=Sudoku, VSW '91)  
 ``AVTEST  .DOC   2,7K``      
 ``B80     .COM    24K``    BASIC-80 5.21 (Microsoft '81)  
 ``BIO80   .BAS   2,0K``      
@@ -809,7 +809,7 @@ SIZE: `800K` (`819200`) / SHA1: `e06467eafb906cdf21da1f896d4beb040f37302a`
 ``BUGABOO .DAT   1,0K``      
 ``BUGABOO .MSG   1,4K``      
 ``BUGABOO .TAB    256``      
-``CATCHUM .COM    29K``    Tuntud CP/Mi "Pac-Mani" kloon (80x24)  
+``CATCHUM .COM    29K``    Tuntud CP/Mi PAC-MANi kloon\* (80x24)  
 ``CATCHUM .DAT    512``      
 ``COMPU   .COM   1,8K``    Compute Mate 160 printeri draiver  
 ``DEL     .LL     128``      
@@ -819,12 +819,12 @@ SIZE: `800K` (`819200`) / SHA1: `e06467eafb906cdf21da1f896d4beb040f37302a`
 ``GTR     .COM    27K``    Turbo GTR 2.5B (M.Gladin/EKTA '87)  
 ``INDY    .COM    27K``    Indy Looking for Jewels (I.Käär '91)  
 ``INDY    .DAT    12K``      
-``KAP     .COM    32K``    Merelahing (ed K.Koppel)  
+``KAP     .COM    32K``    "Merelahing" (ed K.Koppel)  
 ``LADDER  .COM    40K``    Tuntud CP/Mi platvormimäng (80x24)  
 ``LADDER  .DAT    512``      
 ``LAND    .COM    31K``      
 ``LAND    .DAT    640``      
-``LAOLEO  .COM    32K``    "Sokobani" kloon (Kompuuter '91 H)  
+``LAOLEO  .COM    32K``    "Laoleo" (=Sokoban, Kompuuter '91 H)  
 ``LL0     .      6,4K``    LAOLEO andmefail  
 ``LOGER   .$$$      0``      
 ``LUKK    .TET    128``      
@@ -855,9 +855,9 @@ SIZE: `800K` (`819200`) / SHA1: `e06467eafb906cdf21da1f896d4beb040f37302a`
 SIZE: `800K` (`819200`) / SHA1: `1bab084d9d7869327319fbc9cc3de245df9eab32`
 
 ``ATSKOO  .COM    18K``    Kaardimäng "Atskoo" (Kohtla-J 1KK)  
-``AVTEST  .COM    14K``    Arvutusliku võime test (Vakstu '91?)  
+``AVTEST  .COM    14K``    Maagilised ruudud (=Sudoku, VSW '91)  
 ``BUGABOO .COM    18K``    Kaalikas labürindis (EKTA '89)  
-``CATCHUM .COM    29K``    Tuntud CP/Mi "Pac-Mani" kloon (80x24)  
+``CATCHUM .COM    29K``    Tuntud CP/Mi PAC-MANi kloon\* (80x24)  
 ``COMPU   .COM   1,8K``    Compute Mate 160 printeri draiver  
 ``DOSGEN  .COM    896``    Süsteemiketta generaator 3.4 (CP/M)  
 ``FDMAINT .COM    11K``    Floppy Maintenance 1.1 (EKTA '88)  
@@ -866,10 +866,10 @@ SIZE: `800K` (`819200`) / SHA1: `1bab084d9d7869327319fbc9cc3de245df9eab32`
 ``GTR     .COM    27K``    Turbo GTR 2.5B (M.Gladin/EKTA '87)  
 ``INDY    .COM    27K``    Indy Looking for Jewels (I.Käär '91)  
 ``JCM     .COM    12K``    JUKU File/Copy Master 1.0 (EKTA '89)  
-``KAP     .COM    32K``    Merelahing (ed K.Koppel)  
-``KAPTEN  .COM    32K``    Merelahing  
+``KAP     .COM    32K``    "Merelahing" (ed K.Koppel)  
+``KAPTEN  .COM    32K``    "Merelahing"  
 ``LADDER  .COM    40K``    Tuntud CP/Mi platvormimäng (80x24)  
-``LAOLEO  .COM    32K``    "Sokobani" kloon (Kompuuter '91 H)  
+``LAOLEO  .COM    32K``    "Laoleo" (=Sokoban, Kompuuter '91 H)  
 ``LLL     .COM    31K``      
 ``MODE    .COM    256``    40x24, 53x24 ja 64x20 lüliti  
 ``MOND    .COM    17K``    "Artillery Duel" kloon?  
@@ -1102,7 +1102,7 @@ SIZE: `800K` (`819200`) / SHA1: `e8e34c5ea5f643fae3045026f265cda57238e077`
 ``JCM     .COM    12K``    JUKU File/Copy Master 1.0 (EKTA '89)  
 ``JKS     .DBF   1,0K``      
 ``KAALIKAS.PIC   2,5K``      
-``KAPTEN  .COM    32K``    Merelahing  
+``KAPTEN  .COM    32K``    "Merelahing"  
 ``LLL     .COM    31K``    Malemäng "Las ma mõtlen" (EKTA '89)  
 ``MODE    .COM    256``    40x24, 53x24 ja 64x20 lüliti  
 ``MP40    .      6,3K``      
@@ -1191,12 +1191,12 @@ SIZE: `800K` (`819200`) / SHA1: `9612a6d94a2587848cafc342bc1706e83c9e0ed3`
 ``3       .       896``    LAOLEO andmefail  
 ``4       .       896``    LAOLEO andmefail  
 ``5       .       896``    LAOLEO andmefail  
-``AVTEST  .COM    14K``    Arvutusliku võime test (Vakstu '91?)  
+``AVTEST  .COM    14K``    Maagilised ruudud (=Sudoku, VSW '91)  
 ``AVTEST  .DOC   2,7K``      
 ``B80     .COM    24K``    BASIC-80 5.21 (Microsoft '81)  
 ``BIO80   .BAS   2,0K``      
 ``CATCHIUM.$$$      0``      
-``CATCHUM .COM    29K``    Tuntud CP/Mi "Pac-Mani" kloon (80x24)  
+``CATCHUM .COM    29K``    Tuntud CP/Mi PAC-MANi kloon\* (80x24)  
 ``CATCHUM .DAT    512``      
 ``CHESS   .COM    31K``    Malemäng "Las ma mõtlen" (EKTA '89)  
 ``COMPU   .COM   1,8K``    Compute Mate 160 printeri draiver  
@@ -1207,7 +1207,7 @@ SIZE: `800K` (`819200`) / SHA1: `9612a6d94a2587848cafc342bc1706e83c9e0ed3`
 ``JCM     .COM    12K``    JUKU File/Copy Master 1.0 (EKTA '89)  
 ``LADDER  .COM    40K``    Tuntud CP/Mi platvormimäng (80x24)  
 ``LADDER  .DAT    512``      
-``LAOLEO  .COM    32K``    "Sokobani" kloon (Kompuuter '91 H)  
+``LAOLEO  .COM    32K``    "Laoleo" (=Sokoban, Kompuuter '91 H)  
 ``ME      .COM    32K``    Heliredaktor "Music Editor" 2.4 ('89)  
 ``MODX    .COM   3,5K``    80x24 kuvalaotuse draiver  
 ``NS      .$$$      0``      
@@ -1258,7 +1258,7 @@ SIZE: `800K` (`819200`) / SHA1: `787ae3e0776d9feefb079ce397a8ed4ee759c5ec`
 ``BIKE    .PIC   2,0K``      
 ``BRUN    .COM    16K``    BASIC runtime 5.30 (Microsoft)  
 ``BUGABOO .COM    18K``    Kaalikas labürindis (EKTA '89)  
-``CATCHUM .COM    29K``    Tuntud CP/Mi "Pac-Mani" kloon (80x24)  
+``CATCHUM .COM    29K``    Tuntud CP/Mi PAC-MANi kloon\* (80x24)  
 ``CATCHUM .DAT    512``      
 ``CHESS   .COM    31K``    Malemäng "Las ma mõtlen" (EKTA '89)  
 ``COMPU   .COM   1,8K``    Compute Mate 160 printeri draiver  
@@ -1272,7 +1272,7 @@ SIZE: `800K` (`819200`) / SHA1: `787ae3e0776d9feefb079ce397a8ed4ee759c5ec`
 ``JCM     .COM    12K``    JUKU File/Copy Master 1.0 (EKTA '89)  
 ``JOBU    .PIC   4,7K``      
 ``KAAK MAD.PIC   2,9K``      
-``KAPTEN  .COM    32K``    Merelahing  
+``KAPTEN  .COM    32K``    "Merelahing"  
 ``KING    .PIC   2,7K``      
 ``K@RVITS .PIC   2,5K``      
 ``LADDER  .COM    40K``      
@@ -1310,7 +1310,7 @@ SIZE: `800K` (`819200`) / SHA1: `9d37a51bba816f18eeee643ecf6652ff69d73c67`
 ``BUGABOO .DAT   1,0K``      
 ``BUGABOO .MSG   1,4K``      
 ``BUGABOO .TAB    256``      
-``CATCHUM .COM    29K``    Tuntud CP/Mi "Pac-Mani" kloon (80x24)  
+``CATCHUM .COM    29K``    Tuntud CP/Mi PAC-MANi kloon\* (80x24)  
 ``CATCHUM .DAT    512``      
 ``CHESS   .COM    31K``    Malemäng "Las ma mõtlen" (EKTA '89)  
 ``COMPU   .COM   1,8K``    Compute Mate 160 printeri draiver  
@@ -1334,7 +1334,7 @@ SIZE: `800K` (`819200`) / SHA1: `11e18ae89b5943386a538cbff53d18c46dcb4798`
 ``3       .       896``    LAOLEO andmefail  
 ``5       .       896``    LAOLEO andmefail  
 ``ATSKOO  .COM    18K``    Kaardimäng "Atskoo" (Kohtla-J 1KK)  
-``AVTEST  .COM    14K``    Arvutusliku võime test (Vakstu '91?)  
+``AVTEST  .COM    14K``    Maagilised ruudud (=Sudoku, VSW '91)  
 ``AVTEST  .DOC   2,7K``      
 ``B80     .COM    24K``    BASIC-80 5.21 (Microsoft '81)  
 ``BIO80   .BAS   2,0K``      
@@ -1344,7 +1344,7 @@ SIZE: `800K` (`819200`) / SHA1: `11e18ae89b5943386a538cbff53d18c46dcb4798`
 ``BUGABOO .DAT   1,0K``      
 ``BUGABOO .MSG   1,4K``      
 ``BUGABOO .TAB    256``      
-``CATCHUM .COM    29K``    Tuntud CP/Mi "Pac-Mani" kloon (80x24)  
+``CATCHUM .COM    29K``    Tuntud CP/Mi PAC-MANi kloon\* (80x24)  
 ``CATCHUM .DAT    512``      
 ``COMPU   .COM   1,8K``    Compute Mate 160 printeri draiver  
 ``DEL     .LL     128``      
@@ -1355,12 +1355,12 @@ SIZE: `800K` (`819200`) / SHA1: `11e18ae89b5943386a538cbff53d18c46dcb4798`
 ``GTR     .COM    27K``    Turbo GTR 2.5B (M.Gladin/EKTA '87)  
 ``INDY    .COM    27K``    Indy Looking for Jewels (I.Käär '91)  
 ``INDY    .DAT    12K``      
-``KAP     .COM    32K``    Merelahing (ed K.Koppel)  
+``KAP     .COM    32K``    "Merelahing" (ed K.Koppel)  
 ``LADDER  .COM    40K``    Tuntud CP/Mi platvormimäng (80x24)  
 ``LADDER  .DAT    512``      
 ``LAND    .COM    31K``      
 ``LAND    .DAT    640``      
-``LAOLEO  .COM    32K``    "Sokobani" kloon (Kompuuter '91 H)  
+``LAOLEO  .COM    32K``    "Laoleo" (=Sokoban, Kompuuter '91 H)  
 ``LL0     .      6,4K``    LAOLEO andmefail  
 
 ## MAALT25D
@@ -1373,7 +1373,7 @@ SIZE: `800K` (`819200`) / SHA1: `58c157f28a3a49ce7b0f0fbffba939ee2a851116`
 ``5       .       896``    LAOLEO andmefail  
 ``AASTAD  .PIC   2,2K``      
 ``ATSKOO  .COM    18K``    Kaardimäng "Atskoo" (Kohtla-J 1KK)  
-``AVTEST  .COM    14K``    Arvutusliku võime test (Vakstu '91?)  
+``AVTEST  .COM    14K``    Maagilised ruudud (=Sudoku, VSW '91)  
 ``AVTEST  .DOC   2,7K``      
 ``B80     .COM    24K``    BASIC-80 5.21 (Microsoft '81)  
 ``BIGDASAR.PIC   1,3K``      
@@ -1385,7 +1385,7 @@ SIZE: `800K` (`819200`) / SHA1: `58c157f28a3a49ce7b0f0fbffba939ee2a851116`
 ``BUGABOO .DAT   1,0K``      
 ``BUGABOO .MSG   1,4K``      
 ``BUGABOO .TAB    384``      
-``CATCHUM .COM    29K``    Tuntud CP/Mi "Pac-Mani" kloon (80x24)  
+``CATCHUM .COM    29K``    Tuntud CP/Mi PAC-MANi kloon\* (80x24)  
 ``CATCHUM .DAT    512``      
 ``­ CIRCLES.PIC   6,9K``      
 ``COMPU   .COM   1,8K``    Compute Mate 160 printeri draiver  
@@ -1404,7 +1404,7 @@ SIZE: `800K` (`819200`) / SHA1: `58c157f28a3a49ce7b0f0fbffba939ee2a851116`
 ``­ JEESUS .PIC   6,9K``      
 ``JOBUUUUU.PIC   4,7K``      
 ``KAAK MAD.PIC   2,9K``      
-``KAP     .COM    32K``    Merelahing (ed K.Koppel)  
+``KAP     .COM    32K``    "Merelahing" (ed K.Koppel)  
 ``KAST    .PIC    512``      
 ``KINGKONG.PIC   2,7K``      
 ``KLAABUTV.PIC   1,2K``      
@@ -1497,7 +1497,7 @@ SIZE: `800K` (`819200`) / SHA1: `c695e5833d7aa7dd2bb161b6948819c027dac0b8`
 ``ALIENS  .PIC   1,7K``      
 ``ANDMED  .DBF   1,0K``      
 ``AVTEST  .$$$      0``      
-``AVTEST  .COM    14K``    Arvutusliku võime test (Vakstu '91?)  
+``AVTEST  .COM    14K``    Maagilised ruudud (=Sudoku, VSW '91)  
 ``AVTEST  .DOC   2,7K``      
 ``B80     .COM    24K``    BASIC-80 5.21 (Microsoft '81)  
 ``CD      .PIC   3,4K``      
@@ -1653,6 +1653,7 @@ SIZE: `800K` (`819200`) / SHA1: `76289c35e1e4a858ae4b9dcdfe81cc2e175559cb`
 
 OKSJON`nn` seeria koosneb 2021-2022 peamiselt Osta.ee oksjonisaidilt JUKU ketaste leidmise
 eesmärgil tehtud kontrollostudest, kettad on loetud Greaseweazle'iga.
+Kettad on taastanud Pehka1985.
 
 SIZE: `800K` (`819200`) / SHA1: `f380b3751385b0cf95bd599664f94742d45a69de`
 
@@ -1949,12 +1950,12 @@ SIZE: `800K` (`819200`) / SHA1: `17eefcd63de191d00059516aacfc16d9abf56400`
 ``MM      .COM   3,0K``      
 ``MUSAM   .COM   3,7K``    Klaver "Musa Master" (EKTA '89)  
 ``PRIIT   .       17K``      
-``PUSHER  .COM    23K``    Nügiline (A.Mett '91)  
+``PUSHER  .COM    23K``    "Nügiline" (=Sokoban, A.Mett '91)  
 ``PUSHER  .DAT    17K``      
 ``PUSHER  .DOK   1,3K``      
 ``PUSHER  .LEV   6,3K``      
 ``SAKOOL  .PIC   2,4K``      
-``SHOT    .COM   2,3K``    Shot Master 2000 v1.1 (I.Käär '91)  
+``SHOT    .COM   2,3K``    "Shot Master 2000" v1.1 (I.Käär '91)  
 ``SHOT    .DAT   9,0K``      
 ``SIGA    .PIC   1,0K``      
 ``SKA     .PIC   1,9K``      
@@ -1974,7 +1975,8 @@ SIZE: `800K` (`819200`) / SHA1: `17eefcd63de191d00059516aacfc16d9abf56400`
 
 ## VAKSTU
 
-"VSW tööketta" tõmmise annetas Vahur Sinijärv 7.06.2022.
+"VSW tööketta" tõmmise annetas Vahur Sinijärv 7.06.2022,
+täpsemalt https://p6drad-teel.net/~p6der/juku-hingeelu_2024.pdf (slaid 27jj).
 
 SIZE: `800K` (`819200`) / SHA1: `b7efca324ddffc6c31476adff2228e3b5e2e792e`
 
@@ -2060,7 +2062,7 @@ SIZE: `800K` (`819200`) / SHA1: `b7efca324ddffc6c31476adff2228e3b5e2e792e`
 ``SOKO    .COM    640``      
 ``SOKO    .MAC    384``      
 ``SPAC    .COM    17K``      
-``SPACE   .COM    17K``    Space Attack (Vakstu '90)  
+``SPACE   .COM    17K``    "Space Attack" (Vakstu/VSW '90)  
 ``SPRITE  .ASM    128``      
 ``SPRITE  .COM    256``      
 ``SSBAS   .COM   7,5K``      
