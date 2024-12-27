@@ -141,7 +141,7 @@ mängudest on teistel JUKU ketastel tervikuna avaldamata. Ketas on kasutusel
 veebiemulaatoris https://infoaed.ee/juku/ ja selle saab alla laadida
 https://elektroonikamuuseum.ee/failid/juku/tarkvara/J3KGAME1.JUK.
 
-SIZE: 800K (819200) / SHA1: bd3fb499021a30e87883681a564bd8e2f4f0bb58
+SIZE: 800K (819200) / SHA1: 36117477efd488861c0053441598ec14b4249c5b
 
 8804ca55d5ab88a60eaec47c0181fd6a40607fdd  1       .        896  LAOLEO andmefail
 2a7e9c8444d9c3de7f7bacbe1d1af15e58dffe1a  2       .        896  LAOLEO andmefail
@@ -149,15 +149,15 @@ SIZE: 800K (819200) / SHA1: bd3fb499021a30e87883681a564bd8e2f4f0bb58
 a561d04f40989fcfd43ccaaa27d31a13c73ae827  3       .        896  LAOLEO andmefail
 ca5ae9f88bf3452c2e9507b79f26362429a0eea0  4       .        896  LAOLEO andmefail
 86a663082236d3df01be9f378c71476c9f5ec791  5       .        896  LAOLEO andmefail
-91d33d249289178a3e9f836929c182d1d212f297  9       .COM    8,8K  Mõistatusmäng "9-vangla"
+91d33d249289178a3e9f836929c182d1d212f297  9       .COM    8,8K  Mõistatusmäng "9-VANGLA"
 02b853afccfc0e338f85fd926dfc5ca1a53d248b  ATSKOO  .COM     18K  Kaardimäng "Atskoo" (Kohtla-J 1KK)
 6a54b1d33a54ff76267e4473431818bbfe6df61c  AVTEST  .COM     14K  Maagilised ruudud (=Sudoku, VSW '91)
-2f69aadb7bf92fd6f423327c578c1cb6e4f7caf3  AVTEST  .DOC    2,7K  
+2f69aadb7bf92fd6f423327c578c1cb6e4f7caf3  AVTEST  .DOC    2,7K  AVTESTi saatesõna (V.Sinijärv '91)
 60971552e00239aada1eeaa8a633eade69bac424  BOWLING .COM    3,4K  Keegel (Maxway & I.K.S. '91)
 8e67ba4190e6078c43f7881ee4393af8ae26f359  BRUN    .COM     16K  BASIC runtime 5.30 (Microsoft)
 d745a461ff2a7ca3cc2cc329eaeae78e01301704  BUGABOO .COM     18K  Kaalikas labürindis* (EKTA '89)
 3391e5345df4feb5a242afa878c016afa37446d0  BUGABOO .DAT    1,0K  
-7c1e4e021a980d7b717dd69d03c8f48d09ea746a  BUGABOO .MSG    1,4K  Muudetud nooleklahvidega (J3K '24)
+7c1e4e021a980d7b717dd69d03c8f48d09ea746a  BUGABOO .MSG    1,4K  Muudetud nooleklahvid (J3K/EMU '24)
 d8d1d5caaed43710623e621d7fb44fd666d385c2  BUGABOO .TAB     256  
 738b4ec8c3c4c3fef07d9f80291ed1e71175f5ad  CATCHUM .COM     29K  Tuntud CP/Mi PAC-MANi kloon* (80x24)
 1cc73cab76cf33489274eff646e4f725acc6e295  CATCHUM .DAT     512  
@@ -173,7 +173,7 @@ fe6f5606a7c3976cdd251cf9db57a7dbc2d0e7b7  HITCHHIK.DAT    111K
 ec0aa06cdaadf98629f510c5a16d0c2200946758  HUNTER  .DAT     256  
 37eb69c11e56be82f1f42fba99ba0a0234a036d1  INDY    .COM     27K  Indy Looking for Jewels (I.Käär '91)
 2156355ccccecd2e2429032f54079d1737b54dff  INDY    .DAT     12K  
-5949bd8ca829b673fe5bce6cc4991be6ffcc19ff  INDY    .TXT     296  
+d12d3c039839c1e31b2c7d66d5924c8b058f7891  INDY    .TXT    1,7K  INDY saatesõna (I.Käär/R.Mägi '22)
 1fa5d560965f48259843a588dce3c4de38b2e570  KAPTEN  .COM     32K  "Merelahing" (ed K.Koppel)
 c04aaa52fb2102197eac9c874ec302bdf6494a80  LADDER  .COM     40K  Tuntud CP/Mi platvormimäng (80x24)
 f34480e564d79fba4e6e7d31b07c5eeeda44ad90  LADDER  .DAT     512  
@@ -181,22 +181,22 @@ dc58b4526fba01edf4421062fe69e1cdf5e26d70  LAOLEO  .COM     32K  "Laoleo" (=Sokob
 e5dd15e9e058e11bf51a8de00e9438fd5905320b  LL0     .       6,4K  LAOLEO andmefail
 07c92cbf1b5bb0474f4a61e455179694bdeac0b4  LOGER   .COM     32K  Lülitiloogika v1.1 (Nost Neji '90 H)
 e18274deda6d1bfc0982a5bf7c7ea83ad5fd0e30  LOGEX1  .CLG     128  LOGERi andmefail
-40291582344cb3342c78a55f9fc4e22b4eb8db21  MADUOK  .COM    9,3K  Originaalne ussimäng?
+40291582344cb3342c78a55f9fc4e22b4eb8db21  MADUOK  .COM    9,3K  Klassikaline ussimäng (=Snake)
 e0b5c4e59b6b4223258717836fb723bd75dd9e6d  MODX    .COM    3,5K  80x24 kuvalaotuse draiver
-360467e44c66e5d1b1c26021970724f1e6b8bc62  MOIS    .COM    6,8K  Mõisavalitseja kasutegur
-17f23ab8f0f6acfdf2ddd65b6bb09012de3dd546  MOND    .COM     17K  "Artillery Duel" kloon?
+360467e44c66e5d1b1c26021970724f1e6b8bc62  MOIS    .COM    6,8K  Mõisavalitseja kasutegur (=Sumerian)
+17f23ab8f0f6acfdf2ddd65b6bb09012de3dd546  MOND    .COM     17K  Väljalennu nurk (=Artillery Duel)
 84e8ee08ce144f79f95c756470bf7078ef7e13f6  PUSHER  .COM     23K  "Nügiline" (=Sokoban, A.Mett '91)
-25be01e987fcd2c78715a83f6031ec11b4a75cff  PUSHER  .DOK    1,3K  
+25be01e987fcd2c78715a83f6031ec11b4a75cff  PUSHER  .DOK    1,3K  PUSHERi saatesõna (A.Mett '90)
 033de6f0d4a5a53dd5acad01f67749f8efdef909  PUSHER  .LEV    6,3K  
-9b810d0e2c3dca4122548f2d8ca99711a10eab7e  READ    .ME     2,2K  J3K mängude ketta '24 lühitutvustus
+2b1b0f4c467d0d33fb5b4fcfd78aca059d92f707  READ    .ME     2,3K  J3K mängude ketta '24 lühitutvustus
 5afc6e9619f9b5fab038b779b6e8e140da440744  SHOT    .COM    2,3K  "Shot Master 2000" v1.1 (I.Käär '91)
 a6382e454963b3e7e679ee55db42a2773147d110  SHOT    .DAT    9,0K  
 7920430747b1f10ea24a280d301f82a048bd2627  SNAKE   .COM     12K  "Ussike"* (M.Gladin/EKTA '87)
 21afeafd4d7356b07f1b88873727ee84644b5782  SNAKE   .DAT    1,0K  
 a489a82d3fa4275325ff08cf4fe690f342964263  SPACE   .COM     17K  "Space Attack" (Vakstu/VSW '90)
 975bb6c74cf7ebc74d7cbb762139d702033f8d51  ZOO     .COM     25K  "Lode Runner" loomaaias* (Vakstu '91)
-05a6003389cad85a162834aa971f40ca4360da0c  ZOO     .TXT     426  
-d31ad7cb404ab371d4b3e8dbe4bdf255dab42ff9  TANK    .COM     15K  Tank UFOde vastu
+05a6003389cad85a162834aa971f40ca4360da0c  ZOO     .TXT     426  ZOO saatesõna (ed J3K/EMU '24)
+d31ad7cb404ab371d4b3e8dbe4bdf255dab42ff9  TANK    .COM     15K  Tank UFOde vastu (=Sabotage/Invaders)
 7cc09746e4127fa848e2c933d07c9e24fcc03395  TET     .COM     17K  Hiirega "Tetris" (A.Mett '90 H)
 f400c064f077255468c26268078852380509448d  TETRIS  .COM    1,9K  Graafiline "Tetris" (T.Ainsaar '90)
 f0da50a0de0c005bdb1d949841ae8f116836286d  XONIX   .COM    3,8K  "Xonix"* (=Qix, E.Jürviste/EKTA '87)
@@ -219,7 +219,7 @@ ca5ae9f88bf3452c2e9507b79f26362429a0eea0  4       .        896  LAOLEO andmefail
 d52a421fcd6d4cafacd3d5d6710bd46dac8f7676  ASCII   .        896  Ladina tähestiku font (US laotus)
 02b853afccfc0e338f85fd926dfc5ca1a53d248b  ATSKOO  .COM     18K  Kaardimäng "Atskoo" (Kohtla-J 1KK)
 6a54b1d33a54ff76267e4473431818bbfe6df61c  AVTEST  .COM     14K  Maagilised ruudud (=Sudoku, VSW '91)
-2f69aadb7bf92fd6f423327c578c1cb6e4f7caf3  AVTEST  .DOC    2,7K  
+2f69aadb7bf92fd6f423327c578c1cb6e4f7caf3  AVTEST  .DOC    2,7K  AVTESTi saatesõna (V.Sinijärv '91)
 eddf1bf24794dd410a4eb1979e8fb7d7722e38de  BOWLING .COM    3,5K  Keegel (Maxway & I.K.S. '91)
 75a52f246d8775586ce0cf591e1c93173c1ae57a  BUGABOO .COM     18K  Kaalikas labürindis (EKTA '89)
 3391e5345df4feb5a242afa878c016afa37446d0  BUGABOO .DAT    1,0K  
@@ -249,15 +249,15 @@ dc58b4526fba01edf4421062fe69e1cdf5e26d70  LAOLEO  .COM     32K  "Laoleo" (=Sokob
 e5dd15e9e058e11bf51a8de00e9438fd5905320b  LL0     .       6,4K  LAOLEO andmefail
 07c92cbf1b5bb0474f4a61e455179694bdeac0b4  LOGER   .COM     32K  Lülitiloogika v1.1 (Nost Neji '90 H)
 4990c0c0cb04b21c220af51e3c7692a628208e45  LUKK    .TET     128  
-40291582344cb3342c78a55f9fc4e22b4eb8db21  MADUOK  .COM    9,3K  Originaalne ussimäng?
+40291582344cb3342c78a55f9fc4e22b4eb8db21  MADUOK  .COM    9,3K  Klassikaline ussimäng (=Snake)
 e0b5c4e59b6b4223258717836fb723bd75dd9e6d  MODX    .COM    3,5K  80x24 kuvalaotuse draiver
-17f23ab8f0f6acfdf2ddd65b6bb09012de3dd546  MOND    .COM     17K  "Artillery Duel" kloon?
+17f23ab8f0f6acfdf2ddd65b6bb09012de3dd546  MOND    .COM     17K  Väljalennu nurk (=Artillery Duel)
 4e4e6eba6c7d381c3eddcbc23f18d9f732c0371c  RUS     .        896  Kirillitsa font (KOI-8)
 5afc6e9619f9b5fab038b779b6e8e140da440744  SHOT    .COM    2,3K  "Shot Master 2000" v1.1 (I.Käär '91)
 4ae08460a1ba7571a8645395770719541e73a217  SNAKE   .COM     12K  "Ussike" (M.Gladin/EKTA '87)
 42af545f18af15b4d2871f50b301f1a080f256b5  SNAKE   .DAT    1,0K  
 5834d93947cb74790ad7ad9a3d8e62221b1897e0  ZOO     .COM     25K  "Lode Runner" loomaaias (Vakstu '91)
-d31ad7cb404ab371d4b3e8dbe4bdf255dab42ff9  TANK    .COM     15K  Tank UFOde vastu
+d31ad7cb404ab371d4b3e8dbe4bdf255dab42ff9  TANK    .COM     15K  Tank UFOde vastu (=Sabotage/Invaders)
 7cc09746e4127fa848e2c933d07c9e24fcc03395  TET     .COM     17K  Hiirega "Tetris" (A.Mett '90 H)
 f400c064f077255468c26268078852380509448d  TETRIS1 .COM    1,9K  Graafiline "Tetris" (T.Ainsaar '90)
 a39eb160202e8284f557d3a186142244026920df  TETRIS  .COM     23K  "Tetris" 1.1 (A.Mett '90)
@@ -596,9 +596,9 @@ c04aaa52fb2102197eac9c874ec302bdf6494a80  LADDER  .COM     40K  Tuntud CP/Mi pla
 fa04059784c29b58725fe4ea4f4ebe363eb13138  LADDER  .DAT     512  
 dc58b4526fba01edf4421062fe69e1cdf5e26d70  LAOLEO  .COM     32K  "Laoleo" (=Sokoban, Kompuuter '91 H)
 07c92cbf1b5bb0474f4a61e455179694bdeac0b4  LOGER   .COM     32K  Lülitiloogika v1.1 (Nost Neji '90 H)
-40291582344cb3342c78a55f9fc4e22b4eb8db21  MADUOK  .COM    9,3K  Originaalne ussimäng?
+40291582344cb3342c78a55f9fc4e22b4eb8db21  MADUOK  .COM    9,3K  Klassikaline ussimäng (=Snake)
 e0b5c4e59b6b4223258717836fb723bd75dd9e6d  MODX    .COM    3,5K  80x24 kuvalaotuse draiver
-17f23ab8f0f6acfdf2ddd65b6bb09012de3dd546  MOND    .COM     17K  "Artillery Duel" kloon?
+17f23ab8f0f6acfdf2ddd65b6bb09012de3dd546  MOND    .COM     17K  Väljalennu nurk (=Artillery Duel)
 5afc6e9619f9b5fab038b779b6e8e140da440744  SHOT    .COM    2,3K  "Shot Master 2000" v1.1 (I.Käär '91)
 4ae08460a1ba7571a8645395770719541e73a217  SNAKE   .COM     12K  "Ussike" (M.Gladin/EKTA '87)
 42af545f18af15b4d2871f50b301f1a080f256b5  SNAKE   .DAT    1,0K  
@@ -641,7 +641,7 @@ a5a5eca1cf822ed48ab39d8194beeca904c87025  MED     .COM    3,0K  Memory EDitor 1.
 f9e294de20426414e300eee7c938f373072daef6  MODE    .        256  40x24, 53x24 ja 64x20 lüliti
 f9e294de20426414e300eee7c938f373072daef6  MODE    .COM     256  40x24, 53x24 ja 64x20 lüliti
 e0b5c4e59b6b4223258717836fb723bd75dd9e6d  MODX    .COM    3,5K  80x24 kuvalaotuse draiver
-17f23ab8f0f6acfdf2ddd65b6bb09012de3dd546  MOND    .COM     17K  "Artillery Duel" kloon?
+17f23ab8f0f6acfdf2ddd65b6bb09012de3dd546  MOND    .COM     17K  Väljalennu nurk (=Artillery Duel)
 3cf74a49cedddce063d996b815dd8949769df8ba  MP      .        17K  Multiplan 1.05 (Microsoft '81)
 3cf74a49cedddce063d996b815dd8949769df8ba  MP      .COM     17K  Multiplan 1.05 (Microsoft '81)
 394d9b67fe587b1c587cbe79042db54a236eb7d3  PIP     .COM    7,3K  Failide kopeerija (CP/M)
@@ -649,7 +649,7 @@ e0b5c4e59b6b4223258717836fb723bd75dd9e6d  MODX    .COM    3,5K  80x24 kuvalaotus
 5afc6e9619f9b5fab038b779b6e8e140da440744  SHOT    .COM    2,3K  "Shot Master 2000" v1.1 (I.Käär '91)
 5834d93947cb74790ad7ad9a3d8e62221b1897e0  ZOO     .        25K  "Lode Runner" loomaaias (Vakstu '91)
 0bcc33ba534b872e6f377cee984c3ad89cd841e9  ZOO     .COM     25K  
-d31ad7cb404ab371d4b3e8dbe4bdf255dab42ff9  TANK    .        15K  Tank UFOde vastu
+d31ad7cb404ab371d4b3e8dbe4bdf255dab42ff9  TANK    .        15K  Tank UFOde vastu (=Sabotage/Invaders)
 6c3388d10c64629a7790d4e3f25bc4c5e5ddacf7  TANK    .COM     15K  
 d7b24629b16cefccee8d0ad4166072ff155c05ad  TET     .        17K  
 f400c064f077255468c26268078852380509448d  TETRIS  .COM    1,9K  Graafiline "Tetris" (T.Ainsaar '90)
@@ -705,7 +705,7 @@ da39a3ee5e6b4b0d3255bfef95601890afd80709  AGENT 56.PIC       0
 da39a3ee5e6b4b0d3255bfef95601890afd80709  ALLAN   .PIC       0  
 02b853afccfc0e338f85fd926dfc5ca1a53d248b  ATSKOO  .COM     18K  Kaardimäng "Atskoo" (Kohtla-J 1KK)
 6a54b1d33a54ff76267e4473431818bbfe6df61c  AVTEST  .COM     14K  Maagilised ruudud (=Sudoku, VSW '91)
-2f69aadb7bf92fd6f423327c578c1cb6e4f7caf3  AVTEST  .DOC    2,7K  
+2f69aadb7bf92fd6f423327c578c1cb6e4f7caf3  AVTEST  .DOC    2,7K  AVTESTi saatesõna (V.Sinijärv '91)
 f98ddf968ecb87a98bc04db0582d9af624fc99a7  B80     .COM     24K  BASIC-80 5.21 (Microsoft '81)
 7cd35f8dc4d1b3f38a2acea90774fd2c05748680  BIO80   .BAS    2,0K  
 eddf1bf24794dd410a4eb1979e8fb7d7722e38de  BOWLING .COM    3,5K  Keegel (Maxway & I.K.S. '91)
@@ -770,7 +770,7 @@ da39a3ee5e6b4b0d3255bfef95601890afd80709  VIKI    .PIC       0
 SIZE: 800K (819200) / SHA1: 5c86653a2a1656bce163d92c1b774d3a7e39aae6
 
 1fba0420eac137d59ddff7d44c89917c3d73cadd  AVTEST  .COM     14K  
-2f69aadb7bf92fd6f423327c578c1cb6e4f7caf3  AVTEST  .DOC    2,7K  
+2f69aadb7bf92fd6f423327c578c1cb6e4f7caf3  AVTEST  .DOC    2,7K  AVTESTi saatesõna (V.Sinijärv '91)
 eddf1bf24794dd410a4eb1979e8fb7d7722e38de  BOWLING .COM    3,5K  Keegel (Maxway & I.K.S. '91)
 75a52f246d8775586ce0cf591e1c93173c1ae57a  BUGABOO .COM     18K  Kaalikas labürindis (EKTA '89)
 3391e5345df4feb5a242afa878c016afa37446d0  BUGABOO .DAT    1,0K  
@@ -781,7 +781,7 @@ fe623729f1b4f4679346409e1b0cf54adab71d14  CATCHUM .DAT     512
 5e3938c7304c5598c7c0557bc602cb8d14e63ecf  COMPU   .COM    1,8K  Compute Mate 160 printeri draiver
 37eb69c11e56be82f1f42fba99ba0a0234a036d1  INDY    .COM     27K  Indy Looking for Jewels (I.Käär '91)
 e0b5c4e59b6b4223258717836fb723bd75dd9e6d  MODX    .COM    3,5K  80x24 kuvalaotuse draiver
-17f23ab8f0f6acfdf2ddd65b6bb09012de3dd546  MOND    .COM     17K  "Artillery Duel" kloon?
+17f23ab8f0f6acfdf2ddd65b6bb09012de3dd546  MOND    .COM     17K  Väljalennu nurk (=Artillery Duel)
 4ae08460a1ba7571a8645395770719541e73a217  SNAKE   .COM     12K  "Ussike" (M.Gladin/EKTA '87)
 425683c3f7be2374c1933813e76452929585cbd6  XONIX   .COM    3,8K  "Qixi" kloon (E.Jürviste/EKTA '87)
 
@@ -800,7 +800,7 @@ ca5ae9f88bf3452c2e9507b79f26362429a0eea0  4       .        896  LAOLEO andmefail
 86a663082236d3df01be9f378c71476c9f5ec791  5       .        896  LAOLEO andmefail
 02b853afccfc0e338f85fd926dfc5ca1a53d248b  ATSKOO  .COM     18K  Kaardimäng "Atskoo" (Kohtla-J 1KK)
 6a54b1d33a54ff76267e4473431818bbfe6df61c  AVTEST  .COM     14K  Maagilised ruudud (=Sudoku, VSW '91)
-2f69aadb7bf92fd6f423327c578c1cb6e4f7caf3  AVTEST  .DOC    2,7K  
+2f69aadb7bf92fd6f423327c578c1cb6e4f7caf3  AVTEST  .DOC    2,7K  AVTESTi saatesõna (V.Sinijärv '91)
 f98ddf968ecb87a98bc04db0582d9af624fc99a7  B80     .COM     24K  BASIC-80 5.21 (Microsoft '81)
 7cd35f8dc4d1b3f38a2acea90774fd2c05748680  BIO80   .BAS    2,0K  
 eddf1bf24794dd410a4eb1979e8fb7d7722e38de  BOWLING .COM    3,5K  Keegel (Maxway & I.K.S. '91)
@@ -830,7 +830,7 @@ da39a3ee5e6b4b0d3255bfef95601890afd80709  LOGER   .$$$       0
 4990c0c0cb04b21c220af51e3c7692a628208e45  LUKK    .TET     128  
 da39a3ee5e6b4b0d3255bfef95601890afd80709  MADUOK  .$$$       0  
 e0b5c4e59b6b4223258717836fb723bd75dd9e6d  MODX    .COM    3,5K  80x24 kuvalaotuse draiver
-17f23ab8f0f6acfdf2ddd65b6bb09012de3dd546  MOND    .COM     17K  "Artillery Duel" kloon?
+17f23ab8f0f6acfdf2ddd65b6bb09012de3dd546  MOND    .COM     17K  Väljalennu nurk (=Artillery Duel)
 98f5b1fc83af424a847fdcd219ede4186eb4a26a  PATTERN .PIC    7,2K  
 394d9b67fe587b1c587cbe79042db54a236eb7d3  PIP     .COM    7,3K  Failide kopeerija (CP/M)
 10af96f444d9dc9cfa979712cec611fb5b0b9d70  POWER   .COM     16K  Kettahaldur 3.03 (P.Breder '82)
@@ -872,14 +872,14 @@ c04aaa52fb2102197eac9c874ec302bdf6494a80  LADDER  .COM     40K  Tuntud CP/Mi pla
 dc58b4526fba01edf4421062fe69e1cdf5e26d70  LAOLEO  .COM     32K  "Laoleo" (=Sokoban, Kompuuter '91 H)
 4225852c2e9582de3da2fedb4b0d74a40da188c4  LLL     .COM     31K  
 f9e294de20426414e300eee7c938f373072daef6  MODE    .COM     256  40x24, 53x24 ja 64x20 lüliti
-17f23ab8f0f6acfdf2ddd65b6bb09012de3dd546  MOND    .COM     17K  "Artillery Duel" kloon?
+17f23ab8f0f6acfdf2ddd65b6bb09012de3dd546  MOND    .COM     17K  Väljalennu nurk (=Artillery Duel)
 da39a3ee5e6b4b0d3255bfef95601890afd80709  MP      .$$$       0  
 7320a917113cc5b8601aaf765895cd7d670f369f  MUSAM   .COM    3,7K  Klaver "Musa Master" (EKTA '89)
 394d9b67fe587b1c587cbe79042db54a236eb7d3  PIP     .COM    7,3K  Failide kopeerija (CP/M)
 10af96f444d9dc9cfa979712cec611fb5b0b9d70  POWER   .COM     16K  Kettahaldur 3.03 (P.Breder '82)
 4ae08460a1ba7571a8645395770719541e73a217  SNAKE   .COM     12K  "Ussike" (M.Gladin/EKTA '87)
 5834d93947cb74790ad7ad9a3d8e62221b1897e0  ZOO     .COM     25K  "Lode Runner" loomaaias (Vakstu '91)
-d31ad7cb404ab371d4b3e8dbe4bdf255dab42ff9  TANK    .COM     15K  Tank UFOde vastu
+d31ad7cb404ab371d4b3e8dbe4bdf255dab42ff9  TANK    .COM     15K  Tank UFOde vastu (=Sabotage/Invaders)
 9864104bc95314b2da260121f64e04e3dac99bc9  TET     .COM     17K  
 a39eb160202e8284f557d3a186142244026920df  TETRIS  .COM     23K  "Tetris" 1.1 (A.Mett '90)
 683a11dc9e19e84a83a317d8f0be0437e8e5ebb0  WS      .COM     16K  MicroPro WordStar 3.0 (64x20)
@@ -1114,7 +1114,7 @@ bbc240b0fbb75a2c7f3b0e9e1314904a65fe4611  PALK    .       2,3K
 1d5354d71298b24cbc0f44668f94131fce3679c3  PULL    .PIC    1,7K  
 4a93e9c2de4a25ed1d392069adfac559aaaa3ee3  SSSSSSSE.PIC     128  
 5834d93947cb74790ad7ad9a3d8e62221b1897e0  ZOO     .COM     25K  "Lode Runner" loomaaias (Vakstu '91)
-d31ad7cb404ab371d4b3e8dbe4bdf255dab42ff9  TANK    .COM     15K  Tank UFOde vastu
+d31ad7cb404ab371d4b3e8dbe4bdf255dab42ff9  TANK    .COM     15K  Tank UFOde vastu (=Sabotage/Invaders)
 7cc09746e4127fa848e2c933d07c9e24fcc03395  TET     .COM     17K  Hiirega "Tetris" (A.Mett '90 H)
 a39eb160202e8284f557d3a186142244026920df  TETRIS  .COM     23K  "Tetris" 1.1 (A.Mett '90)
 e3e5f65bc3e201591e462e246baea6d5206832a9  UK      .DBF    1,0K  
@@ -1192,7 +1192,7 @@ a561d04f40989fcfd43ccaaa27d31a13c73ae827  3       .        896  LAOLEO andmefail
 ca5ae9f88bf3452c2e9507b79f26362429a0eea0  4       .        896  LAOLEO andmefail
 86a663082236d3df01be9f378c71476c9f5ec791  5       .        896  LAOLEO andmefail
 6a54b1d33a54ff76267e4473431818bbfe6df61c  AVTEST  .COM     14K  Maagilised ruudud (=Sudoku, VSW '91)
-2f69aadb7bf92fd6f423327c578c1cb6e4f7caf3  AVTEST  .DOC    2,7K  
+2f69aadb7bf92fd6f423327c578c1cb6e4f7caf3  AVTEST  .DOC    2,7K  AVTESTi saatesõna (V.Sinijärv '91)
 f98ddf968ecb87a98bc04db0582d9af624fc99a7  B80     .COM     24K  BASIC-80 5.21 (Microsoft '81)
 7cd35f8dc4d1b3f38a2acea90774fd2c05748680  BIO80   .BAS    2,0K  
 da39a3ee5e6b4b0d3255bfef95601890afd80709  CATCHIUM.$$$       0  
@@ -1281,7 +1281,7 @@ f83afd8d767405264badd5f4d5eb92236c7d4ec0  LAEVADEP.PIC    2,2K
 77c7367ca324ea93e9143c6bd303daf9480d299d  MAKK    .PIC    1,9K  
 5c225dcf212ac032cd7db62c0244e6bb3f7a44ca  MEHHAAN .PIC    3,4K  
 f9e294de20426414e300eee7c938f373072daef6  MODE    .COM     256  40x24, 53x24 ja 64x20 lüliti
-17f23ab8f0f6acfdf2ddd65b6bb09012de3dd546  MOND    .COM     17K  "Artillery Duel" kloon?
+17f23ab8f0f6acfdf2ddd65b6bb09012de3dd546  MOND    .COM     17K  Väljalennu nurk (=Artillery Duel)
 7320a917113cc5b8601aaf765895cd7d670f369f  MUSAM   .COM    3,7K  Klaver "Musa Master" (EKTA '89)
 eb1dbe45e1bab09bde7223a06f67380df0bb24be  NSVL    .PIC    3,3K  
 10af96f444d9dc9cfa979712cec611fb5b0b9d70  POWER   .COM     16K  Kettahaldur 3.03 (P.Breder '82)
@@ -1335,7 +1335,7 @@ a561d04f40989fcfd43ccaaa27d31a13c73ae827  3       .        896  LAOLEO andmefail
 86a663082236d3df01be9f378c71476c9f5ec791  5       .        896  LAOLEO andmefail
 02b853afccfc0e338f85fd926dfc5ca1a53d248b  ATSKOO  .COM     18K  Kaardimäng "Atskoo" (Kohtla-J 1KK)
 6a54b1d33a54ff76267e4473431818bbfe6df61c  AVTEST  .COM     14K  Maagilised ruudud (=Sudoku, VSW '91)
-2f69aadb7bf92fd6f423327c578c1cb6e4f7caf3  AVTEST  .DOC    2,7K  
+2f69aadb7bf92fd6f423327c578c1cb6e4f7caf3  AVTEST  .DOC    2,7K  AVTESTi saatesõna (V.Sinijärv '91)
 f98ddf968ecb87a98bc04db0582d9af624fc99a7  B80     .COM     24K  BASIC-80 5.21 (Microsoft '81)
 7cd35f8dc4d1b3f38a2acea90774fd2c05748680  BIO80   .BAS    2,0K  
 eddf1bf24794dd410a4eb1979e8fb7d7722e38de  BOWLING .COM    3,5K  Keegel (Maxway & I.K.S. '91)
@@ -1374,7 +1374,7 @@ a561d04f40989fcfd43ccaaa27d31a13c73ae827  3       .        896  LAOLEO andmefail
 1b1db4bce42fca983ec7ff5b26b1532952c1949b  AASTAD  .PIC    2,2K  
 02b853afccfc0e338f85fd926dfc5ca1a53d248b  ATSKOO  .COM     18K  Kaardimäng "Atskoo" (Kohtla-J 1KK)
 6a54b1d33a54ff76267e4473431818bbfe6df61c  AVTEST  .COM     14K  Maagilised ruudud (=Sudoku, VSW '91)
-2f69aadb7bf92fd6f423327c578c1cb6e4f7caf3  AVTEST  .DOC    2,7K  
+2f69aadb7bf92fd6f423327c578c1cb6e4f7caf3  AVTEST  .DOC    2,7K  AVTESTi saatesõna (V.Sinijärv '91)
 f98ddf968ecb87a98bc04db0582d9af624fc99a7  B80     .COM     24K  BASIC-80 5.21 (Microsoft '81)
 395ef4bc573136b9bfa84d177520446465e9e87c  BIGDASAR.PIC    1,3K  
 8f4803b0d844d3d96aea5fdfa9411d055fb94b4d  BIKE    .PIC    2,0K  
@@ -1421,7 +1421,7 @@ e5dd15e9e058e11bf51a8de00e9438fd5905320b  LL0     .       6,4K  LAOLEO andmefail
 f3c59f63a14c54f78c58ddf5e5cd32c4119c24a3   MEHHAAN.PIC    5,2K  
 5c225dcf212ac032cd7db62c0244e6bb3f7a44ca  MEHHAAN .PIC    3,4K  
 1d9ad9d1c10d552495f33fd453773d3b7e6db0a2  MIKA    .PIC    1,2K  
-17f23ab8f0f6acfdf2ddd65b6bb09012de3dd546  MOND    .COM     17K  "Artillery Duel" kloon?
+17f23ab8f0f6acfdf2ddd65b6bb09012de3dd546  MOND    .COM     17K  Väljalennu nurk (=Artillery Duel)
 da39a3ee5e6b4b0d3255bfef95601890afd80709  MUSAM   .COM       0  
 202cc088923175c8e78ff5edecad536a1512dc68  MUSKET\R.PIC    1,3K  
 eb1dbe45e1bab09bde7223a06f67380df0bb24be  NSVL    .PIC    3,3K  
@@ -1498,7 +1498,7 @@ bd7d7ce602bd6b13db5f7f52268ee63370ec1060  ALIENS  .PIC    1,7K
 8ec96abda8731bcae7d4a22cb7508084e9f92e11  ANDMED  .DBF    1,0K  
 da39a3ee5e6b4b0d3255bfef95601890afd80709  AVTEST  .$$$       0  
 6a54b1d33a54ff76267e4473431818bbfe6df61c  AVTEST  .COM     14K  Maagilised ruudud (=Sudoku, VSW '91)
-2f69aadb7bf92fd6f423327c578c1cb6e4f7caf3  AVTEST  .DOC    2,7K  
+2f69aadb7bf92fd6f423327c578c1cb6e4f7caf3  AVTEST  .DOC    2,7K  AVTESTi saatesõna (V.Sinijärv '91)
 f98ddf968ecb87a98bc04db0582d9af624fc99a7  B80     .COM     24K  BASIC-80 5.21 (Microsoft '81)
 72f24e261f02127dcfe3b76ccbecc3f3f25b41b7  CD      .PIC    3,4K  
 5e3938c7304c5598c7c0557bc602cb8d14e63ecf  COMPU   .COM    1,8K  Compute Mate 160 printeri draiver
@@ -1519,7 +1519,7 @@ e0b5c4e59b6b4223258717836fb723bd75dd9e6d  MODX    .COM    3,5K  80x24 kuvalaotus
 10af96f444d9dc9cfa979712cec611fb5b0b9d70  POWER   .COM     16K  Kettahaldur 3.03 (P.Breder '82)
 50566113318ab0525f2018f85ab39e72524b740e  SARVIK  .PIC    2,9K  
 5834d93947cb74790ad7ad9a3d8e62221b1897e0  ZOO     .COM     25K  "Lode Runner" loomaaias (Vakstu '91)
-d31ad7cb404ab371d4b3e8dbe4bdf255dab42ff9  TANK    .COM     15K  Tank UFOde vastu
+d31ad7cb404ab371d4b3e8dbe4bdf255dab42ff9  TANK    .COM     15K  Tank UFOde vastu (=Sabotage/Invaders)
 40c4a9e0ac6b314baaf970650ecf47dd502907ec  TET     .COM     17K  
 a39eb160202e8284f557d3a186142244026920df  TETRIS  .COM     23K  "Tetris" 1.1 (A.Mett '90)
 7a3432cdffadd6ffadb5f2796bdac5ef113d6615  WS      .COM     16K  
@@ -1952,7 +1952,7 @@ de13a89e7d52cb2b015910d033b57aede810d608  MM      .COM    3,0K
 99412f8ff84dd0614562849c7285090d38ba9289  PRIIT   .        17K  
 84e8ee08ce144f79f95c756470bf7078ef7e13f6  PUSHER  .COM     23K  "Nügiline" (=Sokoban, A.Mett '91)
 99412f8ff84dd0614562849c7285090d38ba9289  PUSHER  .DAT     17K  
-25be01e987fcd2c78715a83f6031ec11b4a75cff  PUSHER  .DOK    1,3K  
+25be01e987fcd2c78715a83f6031ec11b4a75cff  PUSHER  .DOK    1,3K  PUSHERi saatesõna (A.Mett '90)
 033de6f0d4a5a53dd5acad01f67749f8efdef909  PUSHER  .LEV    6,3K  
 dfe65306ce1a8b81c784c7f0c229b6606e67ccc7  SAKOOL  .PIC    2,4K  
 5afc6e9619f9b5fab038b779b6e8e140da440744  SHOT    .COM    2,3K  "Shot Master 2000" v1.1 (I.Käär '91)
@@ -1970,7 +1970,7 @@ da39a3ee5e6b4b0d3255bfef95601890afd80709  WARCRAFT.COM       0
 
 ### E5
 
-360467e44c66e5d1b1c26021970724f1e6b8bc62  MOIS    .COM    6,8K  Mõisavalitseja kasutegur
+360467e44c66e5d1b1c26021970724f1e6b8bc62  MOIS    .COM    6,8K  Mõisavalitseja kasutegur (=Sumerian)
 89e1b3d41232b1d249b74eeadfc008e3b7099c77  ZOO     .COM     25K  
 
 ## VAKSTU

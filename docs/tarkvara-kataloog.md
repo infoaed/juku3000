@@ -141,7 +141,7 @@ mängudest on teistel JUKU ketastel tervikuna avaldamata. Ketas on kasutusel
 veebiemulaatoris https://infoaed.ee/juku/ ja selle saab alla laadida
 https://elektroonikamuuseum.ee/failid/juku/tarkvara/J3KGAME1.JUK.
 
-SIZE: `800K` (`819200`) / SHA1: `bd3fb499021a30e87883681a564bd8e2f4f0bb58`
+SIZE: `800K` (`819200`) / SHA1: `36117477efd488861c0053441598ec14b4249c5b`
 
 ``1       .       896``    LAOLEO andmefail  
 ``2       .       896``    LAOLEO andmefail  
@@ -149,15 +149,15 @@ SIZE: `800K` (`819200`) / SHA1: `bd3fb499021a30e87883681a564bd8e2f4f0bb58`
 ``3       .       896``    LAOLEO andmefail  
 ``4       .       896``    LAOLEO andmefail  
 ``5       .       896``    LAOLEO andmefail  
-``9       .COM   8,8K``    Mõistatusmäng "9-vangla"  
+``9       .COM   8,8K``    Mõistatusmäng "9-VANGLA"  
 ``ATSKOO  .COM    18K``    Kaardimäng "Atskoo" (Kohtla-J 1KK)  
 ``AVTEST  .COM    14K``    Maagilised ruudud (=Sudoku, VSW '91)  
-``AVTEST  .DOC   2,7K``      
+``AVTEST  .DOC   2,7K``    AVTESTi saatesõna (V.Sinijärv '91)  
 ``BOWLING .COM   3,4K``    Keegel (Maxway & I.K.S. '91)  
 ``BRUN    .COM    16K``    BASIC runtime 5.30 (Microsoft)  
 ``BUGABOO .COM    18K``    Kaalikas labürindis\* (EKTA '89)  
 ``BUGABOO .DAT   1,0K``      
-``BUGABOO .MSG   1,4K``    Muudetud nooleklahvidega (J3K '24)  
+``BUGABOO .MSG   1,4K``    Muudetud nooleklahvid (J3K/EMU '24)  
 ``BUGABOO .TAB    256``      
 ``CATCHUM .COM    29K``    Tuntud CP/Mi PAC-MANi kloon\* (80x24)  
 ``CATCHUM .DAT    512``      
@@ -173,7 +173,7 @@ SIZE: `800K` (`819200`) / SHA1: `bd3fb499021a30e87883681a564bd8e2f4f0bb58`
 ``HUNTER  .DAT    256``      
 ``INDY    .COM    27K``    Indy Looking for Jewels (I.Käär '91)  
 ``INDY    .DAT    12K``      
-``INDY    .TXT    296``      
+``INDY    .TXT   1,7K``    INDY saatesõna (I.Käär/R.Mägi '22)  
 ``KAPTEN  .COM    32K``    "Merelahing" (ed K.Koppel)  
 ``LADDER  .COM    40K``    Tuntud CP/Mi platvormimäng (80x24)  
 ``LADDER  .DAT    512``      
@@ -181,22 +181,22 @@ SIZE: `800K` (`819200`) / SHA1: `bd3fb499021a30e87883681a564bd8e2f4f0bb58`
 ``LL0     .      6,4K``    LAOLEO andmefail  
 ``LOGER   .COM    32K``    Lülitiloogika v1.1 (Nost Neji '90 H)  
 ``LOGEX1  .CLG    128``    LOGERi andmefail  
-``MADUOK  .COM   9,3K``    Originaalne ussimäng?  
+``MADUOK  .COM   9,3K``    Klassikaline ussimäng (=Snake)  
 ``MODX    .COM   3,5K``    80x24 kuvalaotuse draiver  
-``MOIS    .COM   6,8K``    Mõisavalitseja kasutegur  
-``MOND    .COM    17K``    "Artillery Duel" kloon?  
+``MOIS    .COM   6,8K``    Mõisavalitseja kasutegur (=Sumerian)  
+``MOND    .COM    17K``    Väljalennu nurk (=Artillery Duel)  
 ``PUSHER  .COM    23K``    "Nügiline" (=Sokoban, A.Mett '91)  
-``PUSHER  .DOK   1,3K``      
+``PUSHER  .DOK   1,3K``    PUSHERi saatesõna (A.Mett '90)  
 ``PUSHER  .LEV   6,3K``      
-``READ    .ME    2,2K``    J3K mängude ketta '24 lühitutvustus  
+``READ    .ME    2,3K``    J3K mängude ketta '24 lühitutvustus  
 ``SHOT    .COM   2,3K``    "Shot Master 2000" v1.1 (I.Käär '91)  
 ``SHOT    .DAT   9,0K``      
 ``SNAKE   .COM    12K``    "Ussike"\* (M.Gladin/EKTA '87)  
 ``SNAKE   .DAT   1,0K``      
 ``SPACE   .COM    17K``    "Space Attack" (Vakstu/VSW '90)  
 ``ZOO     .COM    25K``    "Lode Runner" loomaaias\* (Vakstu '91)  
-``ZOO     .TXT    426``      
-``TANK    .COM    15K``    Tank UFOde vastu  
+``ZOO     .TXT    426``    ZOO saatesõna (ed J3K/EMU '24)  
+``TANK    .COM    15K``    Tank UFOde vastu (=Sabotage/Invaders)  
 ``TET     .COM    17K``    Hiirega "Tetris" (A.Mett '90 H)  
 ``TETRIS  .COM   1,9K``    Graafiline "Tetris" (T.Ainsaar '90)  
 ``XONIX   .COM   3,8K``    "Xonix"\* (=Qix, E.Jürviste/EKTA '87)  
@@ -219,7 +219,7 @@ SIZE: `800K` (`819200`) / SHA1: `efd6e83669777966d523d323ea61e0352eea88ff`
 ``ASCII   .       896``    Ladina tähestiku font (US laotus)  
 ``ATSKOO  .COM    18K``    Kaardimäng "Atskoo" (Kohtla-J 1KK)  
 ``AVTEST  .COM    14K``    Maagilised ruudud (=Sudoku, VSW '91)  
-``AVTEST  .DOC   2,7K``      
+``AVTEST  .DOC   2,7K``    AVTESTi saatesõna (V.Sinijärv '91)  
 ``BOWLING .COM   3,5K``    Keegel (Maxway & I.K.S. '91)  
 ``BUGABOO .COM    18K``    Kaalikas labürindis (EKTA '89)  
 ``BUGABOO .DAT   1,0K``      
@@ -249,15 +249,15 @@ SIZE: `800K` (`819200`) / SHA1: `efd6e83669777966d523d323ea61e0352eea88ff`
 ``LL0     .      6,4K``    LAOLEO andmefail  
 ``LOGER   .COM    32K``    Lülitiloogika v1.1 (Nost Neji '90 H)  
 ``LUKK    .TET    128``      
-``MADUOK  .COM   9,3K``    Originaalne ussimäng?  
+``MADUOK  .COM   9,3K``    Klassikaline ussimäng (=Snake)  
 ``MODX    .COM   3,5K``    80x24 kuvalaotuse draiver  
-``MOND    .COM    17K``    "Artillery Duel" kloon?  
+``MOND    .COM    17K``    Väljalennu nurk (=Artillery Duel)  
 ``RUS     .       896``    Kirillitsa font (KOI-8)  
 ``SHOT    .COM   2,3K``    "Shot Master 2000" v1.1 (I.Käär '91)  
 ``SNAKE   .COM    12K``    "Ussike" (M.Gladin/EKTA '87)  
 ``SNAKE   .DAT   1,0K``      
 ``ZOO     .COM    25K``    "Lode Runner" loomaaias (Vakstu '91)  
-``TANK    .COM    15K``    Tank UFOde vastu  
+``TANK    .COM    15K``    Tank UFOde vastu (=Sabotage/Invaders)  
 ``TET     .COM    17K``    Hiirega "Tetris" (A.Mett '90 H)  
 ``TETRIS1 .COM   1,9K``    Graafiline "Tetris" (T.Ainsaar '90)  
 ``TETRIS  .COM    23K``    "Tetris" 1.1 (A.Mett '90)  
@@ -596,9 +596,9 @@ SIZE: `800K` (`819200`) / SHA1: `64b16291e7fdf850a1e3d6aabbd464b760aa3f88`
 ``LADDER  .DAT    512``      
 ``LAOLEO  .COM    32K``    "Laoleo" (=Sokoban, Kompuuter '91 H)  
 ``LOGER   .COM    32K``    Lülitiloogika v1.1 (Nost Neji '90 H)  
-``MADUOK  .COM   9,3K``    Originaalne ussimäng?  
+``MADUOK  .COM   9,3K``    Klassikaline ussimäng (=Snake)  
 ``MODX    .COM   3,5K``    80x24 kuvalaotuse draiver  
-``MOND    .COM    17K``    "Artillery Duel" kloon?  
+``MOND    .COM    17K``    Väljalennu nurk (=Artillery Duel)  
 ``SHOT    .COM   2,3K``    "Shot Master 2000" v1.1 (I.Käär '91)  
 ``SNAKE   .COM    12K``    "Ussike" (M.Gladin/EKTA '87)  
 ``SNAKE   .DAT   1,0K``      
@@ -641,7 +641,7 @@ SIZE: `800K` (`819200`) / SHA1: `e4223e2bba25dc4b2b3ba4de6a4f63b156566b8a`
 ``MODE    .       256``    40x24, 53x24 ja 64x20 lüliti  
 ``MODE    .COM    256``    40x24, 53x24 ja 64x20 lüliti  
 ``MODX    .COM   3,5K``    80x24 kuvalaotuse draiver  
-``MOND    .COM    17K``    "Artillery Duel" kloon?  
+``MOND    .COM    17K``    Väljalennu nurk (=Artillery Duel)  
 ``MP      .       17K``    Multiplan 1.05 (Microsoft '81)  
 ``MP      .COM    17K``    Multiplan 1.05 (Microsoft '81)  
 ``PIP     .COM   7,3K``    Failide kopeerija (CP/M)  
@@ -649,7 +649,7 @@ SIZE: `800K` (`819200`) / SHA1: `e4223e2bba25dc4b2b3ba4de6a4f63b156566b8a`
 ``SHOT    .COM   2,3K``    "Shot Master 2000" v1.1 (I.Käär '91)  
 ``ZOO     .       25K``    "Lode Runner" loomaaias (Vakstu '91)  
 ``ZOO     .COM    25K``      
-``TANK    .       15K``    Tank UFOde vastu  
+``TANK    .       15K``    Tank UFOde vastu (=Sabotage/Invaders)  
 ``TANK    .COM    15K``      
 ``TET     .       17K``      
 ``TETRIS  .COM   1,9K``    Graafiline "Tetris" (T.Ainsaar '90)  
@@ -705,7 +705,7 @@ SIZE: `800K` (`819200`) / SHA1: `ce3509c93b718c982f228e99b713ce87a965bb0c`
 ``ALLAN   .PIC      0``      
 ``ATSKOO  .COM    18K``    Kaardimäng "Atskoo" (Kohtla-J 1KK)  
 ``AVTEST  .COM    14K``    Maagilised ruudud (=Sudoku, VSW '91)  
-``AVTEST  .DOC   2,7K``      
+``AVTEST  .DOC   2,7K``    AVTESTi saatesõna (V.Sinijärv '91)  
 ``B80     .COM    24K``    BASIC-80 5.21 (Microsoft '81)  
 ``BIO80   .BAS   2,0K``      
 ``BOWLING .COM   3,5K``    Keegel (Maxway & I.K.S. '91)  
@@ -770,7 +770,7 @@ SIZE: `800K` (`819200`) / SHA1: `ce3509c93b718c982f228e99b713ce87a965bb0c`
 SIZE: `800K` (`819200`) / SHA1: `5c86653a2a1656bce163d92c1b774d3a7e39aae6`
 
 ``AVTEST  .COM    14K``      
-``AVTEST  .DOC   2,7K``      
+``AVTEST  .DOC   2,7K``    AVTESTi saatesõna (V.Sinijärv '91)  
 ``BOWLING .COM   3,5K``    Keegel (Maxway & I.K.S. '91)  
 ``BUGABOO .COM    18K``    Kaalikas labürindis (EKTA '89)  
 ``BUGABOO .DAT   1,0K``      
@@ -781,7 +781,7 @@ SIZE: `800K` (`819200`) / SHA1: `5c86653a2a1656bce163d92c1b774d3a7e39aae6`
 ``COMPU   .COM   1,8K``    Compute Mate 160 printeri draiver  
 ``INDY    .COM    27K``    Indy Looking for Jewels (I.Käär '91)  
 ``MODX    .COM   3,5K``    80x24 kuvalaotuse draiver  
-``MOND    .COM    17K``    "Artillery Duel" kloon?  
+``MOND    .COM    17K``    Väljalennu nurk (=Artillery Duel)  
 ``SNAKE   .COM    12K``    "Ussike" (M.Gladin/EKTA '87)  
 ``XONIX   .COM   3,8K``    "Qixi" kloon (E.Jürviste/EKTA '87)  
 
@@ -800,7 +800,7 @@ SIZE: `800K` (`819200`) / SHA1: `e06467eafb906cdf21da1f896d4beb040f37302a`
 ``5       .       896``    LAOLEO andmefail  
 ``ATSKOO  .COM    18K``    Kaardimäng "Atskoo" (Kohtla-J 1KK)  
 ``AVTEST  .COM    14K``    Maagilised ruudud (=Sudoku, VSW '91)  
-``AVTEST  .DOC   2,7K``      
+``AVTEST  .DOC   2,7K``    AVTESTi saatesõna (V.Sinijärv '91)  
 ``B80     .COM    24K``    BASIC-80 5.21 (Microsoft '81)  
 ``BIO80   .BAS   2,0K``      
 ``BOWLING .COM   3,5K``    Keegel (Maxway & I.K.S. '91)  
@@ -830,7 +830,7 @@ SIZE: `800K` (`819200`) / SHA1: `e06467eafb906cdf21da1f896d4beb040f37302a`
 ``LUKK    .TET    128``      
 ``MADUOK  .$$$      0``      
 ``MODX    .COM   3,5K``    80x24 kuvalaotuse draiver  
-``MOND    .COM    17K``    "Artillery Duel" kloon?  
+``MOND    .COM    17K``    Väljalennu nurk (=Artillery Duel)  
 ``PATTERN .PIC   7,2K``      
 ``PIP     .COM   7,3K``    Failide kopeerija (CP/M)  
 ``POWER   .COM    16K``    Kettahaldur 3.03 (P.Breder '82)  
@@ -872,14 +872,14 @@ SIZE: `800K` (`819200`) / SHA1: `1bab084d9d7869327319fbc9cc3de245df9eab32`
 ``LAOLEO  .COM    32K``    "Laoleo" (=Sokoban, Kompuuter '91 H)  
 ``LLL     .COM    31K``      
 ``MODE    .COM    256``    40x24, 53x24 ja 64x20 lüliti  
-``MOND    .COM    17K``    "Artillery Duel" kloon?  
+``MOND    .COM    17K``    Väljalennu nurk (=Artillery Duel)  
 ``MP      .$$$      0``      
 ``MUSAM   .COM   3,7K``    Klaver "Musa Master" (EKTA '89)  
 ``PIP     .COM   7,3K``    Failide kopeerija (CP/M)  
 ``POWER   .COM    16K``    Kettahaldur 3.03 (P.Breder '82)  
 ``SNAKE   .COM    12K``    "Ussike" (M.Gladin/EKTA '87)  
 ``ZOO     .COM    25K``    "Lode Runner" loomaaias (Vakstu '91)  
-``TANK    .COM    15K``    Tank UFOde vastu  
+``TANK    .COM    15K``    Tank UFOde vastu (=Sabotage/Invaders)  
 ``TET     .COM    17K``      
 ``TETRIS  .COM    23K``    "Tetris" 1.1 (A.Mett '90)  
 ``WS      .COM    16K``    MicroPro WordStar 3.0 (64x20)  
@@ -1114,7 +1114,7 @@ SIZE: `800K` (`819200`) / SHA1: `e8e34c5ea5f643fae3045026f265cda57238e077`
 ``PULL    .PIC   1,7K``      
 ``SSSSSSSE.PIC    128``      
 ``ZOO     .COM    25K``    "Lode Runner" loomaaias (Vakstu '91)  
-``TANK    .COM    15K``    Tank UFOde vastu  
+``TANK    .COM    15K``    Tank UFOde vastu (=Sabotage/Invaders)  
 ``TET     .COM    17K``    Hiirega "Tetris" (A.Mett '90 H)  
 ``TETRIS  .COM    23K``    "Tetris" 1.1 (A.Mett '90)  
 ``UK      .DBF   1,0K``      
@@ -1192,7 +1192,7 @@ SIZE: `800K` (`819200`) / SHA1: `9612a6d94a2587848cafc342bc1706e83c9e0ed3`
 ``4       .       896``    LAOLEO andmefail  
 ``5       .       896``    LAOLEO andmefail  
 ``AVTEST  .COM    14K``    Maagilised ruudud (=Sudoku, VSW '91)  
-``AVTEST  .DOC   2,7K``      
+``AVTEST  .DOC   2,7K``    AVTESTi saatesõna (V.Sinijärv '91)  
 ``B80     .COM    24K``    BASIC-80 5.21 (Microsoft '81)  
 ``BIO80   .BAS   2,0K``      
 ``CATCHIUM.$$$      0``      
@@ -1281,7 +1281,7 @@ SIZE: `800K` (`819200`) / SHA1: `787ae3e0776d9feefb079ce397a8ed4ee759c5ec`
 ``MAKK    .PIC   1,9K``      
 ``MEHHAAN .PIC   3,4K``      
 ``MODE    .COM    256``    40x24, 53x24 ja 64x20 lüliti  
-``MOND    .COM    17K``    "Artillery Duel" kloon?  
+``MOND    .COM    17K``    Väljalennu nurk (=Artillery Duel)  
 ``MUSAM   .COM   3,7K``    Klaver "Musa Master" (EKTA '89)  
 ``NSVL    .PIC   3,3K``      
 ``POWER   .COM    16K``    Kettahaldur 3.03 (P.Breder '82)  
@@ -1335,7 +1335,7 @@ SIZE: `800K` (`819200`) / SHA1: `11e18ae89b5943386a538cbff53d18c46dcb4798`
 ``5       .       896``    LAOLEO andmefail  
 ``ATSKOO  .COM    18K``    Kaardimäng "Atskoo" (Kohtla-J 1KK)  
 ``AVTEST  .COM    14K``    Maagilised ruudud (=Sudoku, VSW '91)  
-``AVTEST  .DOC   2,7K``      
+``AVTEST  .DOC   2,7K``    AVTESTi saatesõna (V.Sinijärv '91)  
 ``B80     .COM    24K``    BASIC-80 5.21 (Microsoft '81)  
 ``BIO80   .BAS   2,0K``      
 ``BOWLING .COM   3,5K``    Keegel (Maxway & I.K.S. '91)  
@@ -1374,7 +1374,7 @@ SIZE: `800K` (`819200`) / SHA1: `58c157f28a3a49ce7b0f0fbffba939ee2a851116`
 ``AASTAD  .PIC   2,2K``      
 ``ATSKOO  .COM    18K``    Kaardimäng "Atskoo" (Kohtla-J 1KK)  
 ``AVTEST  .COM    14K``    Maagilised ruudud (=Sudoku, VSW '91)  
-``AVTEST  .DOC   2,7K``      
+``AVTEST  .DOC   2,7K``    AVTESTi saatesõna (V.Sinijärv '91)  
 ``B80     .COM    24K``    BASIC-80 5.21 (Microsoft '81)  
 ``BIGDASAR.PIC   1,3K``      
 ``BIKE    .PIC   2,0K``      
@@ -1421,7 +1421,7 @@ SIZE: `800K` (`819200`) / SHA1: `58c157f28a3a49ce7b0f0fbffba939ee2a851116`
 ``­ MEHHAAN.PIC   5,2K``      
 ``MEHHAAN .PIC   3,4K``      
 ``MIKA    .PIC   1,2K``      
-``MOND    .COM    17K``    "Artillery Duel" kloon?  
+``MOND    .COM    17K``    Väljalennu nurk (=Artillery Duel)  
 ``MUSAM   .COM      0``      
 ``MUSKET\R.PIC   1,3K``      
 ``NSVL    .PIC   3,3K``      
@@ -1498,7 +1498,7 @@ SIZE: `800K` (`819200`) / SHA1: `c695e5833d7aa7dd2bb161b6948819c027dac0b8`
 ``ANDMED  .DBF   1,0K``      
 ``AVTEST  .$$$      0``      
 ``AVTEST  .COM    14K``    Maagilised ruudud (=Sudoku, VSW '91)  
-``AVTEST  .DOC   2,7K``      
+``AVTEST  .DOC   2,7K``    AVTESTi saatesõna (V.Sinijärv '91)  
 ``B80     .COM    24K``    BASIC-80 5.21 (Microsoft '81)  
 ``CD      .PIC   3,4K``      
 ``COMPU   .COM   1,8K``    Compute Mate 160 printeri draiver  
@@ -1519,7 +1519,7 @@ SIZE: `800K` (`819200`) / SHA1: `c695e5833d7aa7dd2bb161b6948819c027dac0b8`
 ``POWER   .COM    16K``    Kettahaldur 3.03 (P.Breder '82)  
 ``SARVIK  .PIC   2,9K``      
 ``ZOO     .COM    25K``    "Lode Runner" loomaaias (Vakstu '91)  
-``TANK    .COM    15K``    Tank UFOde vastu  
+``TANK    .COM    15K``    Tank UFOde vastu (=Sabotage/Invaders)  
 ``TET     .COM    17K``      
 ``TETRIS  .COM    23K``    "Tetris" 1.1 (A.Mett '90)  
 ``WS      .COM    16K``      
@@ -1952,7 +1952,7 @@ SIZE: `800K` (`819200`) / SHA1: `17eefcd63de191d00059516aacfc16d9abf56400`
 ``PRIIT   .       17K``      
 ``PUSHER  .COM    23K``    "Nügiline" (=Sokoban, A.Mett '91)  
 ``PUSHER  .DAT    17K``      
-``PUSHER  .DOK   1,3K``      
+``PUSHER  .DOK   1,3K``    PUSHERi saatesõna (A.Mett '90)  
 ``PUSHER  .LEV   6,3K``      
 ``SAKOOL  .PIC   2,4K``      
 ``SHOT    .COM   2,3K``    "Shot Master 2000" v1.1 (I.Käär '91)  
@@ -1970,7 +1970,7 @@ SIZE: `800K` (`819200`) / SHA1: `17eefcd63de191d00059516aacfc16d9abf56400`
 
 ### E5
 
-``MOIS    .COM   6,8K``    Mõisavalitseja kasutegur  
+``MOIS    .COM   6,8K``    Mõisavalitseja kasutegur (=Sumerian)  
 ``ZOO     .COM    25K``      
 
 ## VAKSTU
