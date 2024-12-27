@@ -3,8 +3,7 @@
 ; 2. LOAD TERE
 	org	100h
 	lxi	b,Tere
-	call	0ffcdh  ; TTCon
-	jmp	0h      ; EKDOS
+	jmp	0ffcdh  ; TTCon
 Tere:	db	'Tere, Juhan!',0dh,0ah,0
 	end
 
