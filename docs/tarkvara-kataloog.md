@@ -1973,7 +1973,7 @@ SIZE: `800K` (`819200`) / SHA1: `17eefcd63de191d00059516aacfc16d9abf56400`
 ``MOIS    .COM   6,8K``    Mõisavalitseja kasutegur (=Sumerian)  
 ``ZOO     .COM    25K``      
 
-## VAKSTU
+## VAKSTU01
 
 "VSW tööketta" tõmmise annetas Vahur Sinijärv 7.06.2022,
 täpsemalt https://p6drad-teel.net/~p6der/juku-hingeelu_2024.pdf (slaid 27jj).
@@ -2088,4 +2088,203 @@ SIZE: `800K` (`819200`) / SHA1: `b7efca324ddffc6c31476adff2228e3b5e2e792e`
 ``RUUT    .PCC   1,0K``      
 ``SEIN    .PCC   1,0K``      
 ``SIHTP   .PCC   1,0K``      
+
+## VAKSTU05
+
+SIZE: `800K` (`819200`) / SHA1: `b91edfdbee67cee8fed9429340f2a72140e576e3`
+
+``3VMUSIC .COM    12K``      
+``3VMUSIC .MAC    29K``      
+``AASTA   .KEM    640``      
+``AB      .COM    20K``      
+``ABI     .COM    20K``      
+``ABI     .TAB    16K``      
+``AEG     .COM   9,4K``      
+``ARVUTA  .COM    14K``      
+``ASM     .      4,2K``      
+``BIORYTM .COM    18K``      
+``BOWLING .COM   3,5K``    Keegel (Maxway & I.K.S. '91)  
+``COF     .COM    640``      
+``COMPU   .COM   1,8K``    Compute Mate 160 printeri draiver  
+``CONV    .PAS   1,9K``      
+``CSPRITE .COM    12K``      
+``DISK    .H      512``      
+``GRAAF   .COM    13K``      
+``GRAPH   .H      768``      
+``GRLIB   .ERL   8,2K``      
+``ISO     .COM    13K``      
+``JCM     .COM    12K``    JUKU File/Copy Master 1.0 (EKTA '89)  
+``KAST    .PCC   1,0K``      
+``KEEMIA  .HLP   1,2K``      
+``KEEMIA  .KEM   2,3K``      
+``KELEMENT.COM    29K``      
+``KOHT    .PCC   1,0K``      
+``KRAK    .COM    14K``      
+``KRAKOUT .PAS   1,8K``      
+``KRAK    .PAS   2,2K``      
+``KUMMARDA.PAS    640``      
+``KUM     .PCC   1,0K``      
+``LAD2    .DAT    512``      
+``LADDER2 .COM    40K``      
+``LADDER2 .FNT    896``      
+``LADTAB  .PAS   2,7K``      
+``LA      .TAB    128``      
+``LI      .      1,9K``      
+``LINNAD  .COM    18K``      
+``LODEGEN .COM   1,3K``      
+``LR      .COM    13K``      
+``MAT     .       384``      
+``MATICO  .COM    19K``      
+``MEES    .PCC   1,0K``      
+``MENDEL  .COM    18K``      
+``MENDEL  .DAT   1,9K``      
+``MFD     .COM   2,3K``      
+``MIC     .COM   3,8K``    Micro-editor 1.0 (EKTA '88)  
+``MUSUBI  .PCC   1,0K``      
+``MUUTUJAD.TST    896``      
+``NIELS   .COM    22K``      
+``PALL    .PCC   1,0K``      
+``PMOOD   .ASM   3,7K``      
+``PMOOD   .REL    640``      
+``PORKA   .PAS   1,4K``      
+``PRT     .COM   4,0K``    Print file utility 5.3  
+``PS1     .COM   7,0K``      
+``PULK    .PCC   1,0K``      
+``PUSHER  .COM    23K``    "Nügiline" (=Sokoban, A.Mett '91)  
+``PUSHER  .DAT    17K``      
+``PUSHER  .LEV   6,3K``      
+``PUSHERPK.COM    16K``      
+``REI     .PCC   1,0K``      
+``RUUT    .PCC   1,0K``      
+``SCREEN  .H     1,0K``      
+``SCSOUND .COM    256``      
+``SED     .COM    10K``    Screen text editor 6.1  
+``SEIN    .PCC   1,0K``      
+``SHOT    .COM   2,3K``    "Shot Master 2000" v1.1 (I.Käär '91)  
+``SPRITE  .H1     512``      
+``SPRITE  .H2     640``      
+``STOP    .ASM    640``      
+``STOP    .COM    128``      
+``SYMBOL  .KEM   5,3K``      
+``ZOKOBAN .COM    16K``      
+``ZOKOBAN .SIR    128``      
+``ZOO1    .COM    16K``      
+``ZOO     .COM    35K``      
+``TEST2   .       384``      
+``TETRIS  .COM    17K``    Hiirega "Tetris" (A.Mett '90 H)  
+``UTILIT  .H      640``      
+
+## VAKSTU06
+
+SIZE: `800K` (`819200`) / SHA1: `8338f674672f38fa9128377f850186c429025835`
+
+``A&A1    .PIC   2,4K``      
+``A&A2    .PIC   2,4K``      
+``A&A     .PIC   1,2K``      
+``AA      .PIC   2,8K``      
+``ASCII   .       896``    Ladina tähestiku font (US laotus)  
+``AVE     .PLR   2,0K``      
+``BACH    .PLR    256``      
+``BCLOAD  .       128``      
+``BEETHOVE.PLR   2,0K``      
+``BIZET   .PLR    256``      
+``BRUN    .COM    16K``    BASIC runtime 5.30 (Microsoft)  
+``BUGABO  .MSG   1,4K``      
+``BUGABOO .COM    18K``      
+``BUGABOO .DAT   1,0K``      
+``BUGABOO .MSG    128``      
+``BUGABOO .TAB    384``      
+``CATCHUM .COM    29K``    Tuntud CP/Mi PAC-MANi kloon\* (80x24)  
+``CATCHUM .DAT    512``      
+``CHESS   .COM    31K``    Malemäng "Las ma mõtlen" (EKTA '89)  
+``COM     .COM   3,0K``      
+``COMPU1  .COM   3,0K``      
+``COMPU   .COM   1,8K``    Compute Mate 160 printeri draiver  
+``CP∕M    .       10K``      
+``DEMOS   .COM   8,3K``    A-V-T demode ettevalmistus (EKTA)  
+``DOCTOR  .COM    36K``    Disk Editor & Diagnostics 1.11 ('83)  
+``DUUR    .PIC   1,8K``      
+``EASY    .LAD   1,3K``      
+``EASYSTR .LAD   1,5K``      
+``EKSINF1 .PIC   2,3K``      
+``E       .PLR    256``      
+``EVSW    .PIC   1,0K``      
+``FDMAINT .COM    11K``      
+``FGY     .PIC    896``      
+``FTB     .COM   6,5K``      
+``GNR     .PIC    512``      
+``GRW     .COM    896``      
+``GTR     .COM    27K``      
+``GTR     .PCC      0``      
+``JCM     .COM    12K``    JUKU File/Copy Master 1.0 (EKTA '89)  
+``KAR     .PLR    384``      
+``KAST    .PCC   1,0K``      
+``KLAVER  .PIC   3,9K``      
+``KOMP    .PLR    256``      
+``KRAKOUT .SYM    768``      
+``KUM     .PCC   1,0K``      
+``KUVA    .COM    768``      
+``LAD     .       896``      
+``LADD    .COM   7,5K``      
+``LADDEN  .COM    40K``      
+``LADDEN  .DAT    512``      
+``LADDER  .COM    40K``    Tuntud CP/Mi platvormimäng (80x24)  
+``LADDER  .DAT    512``      
+``LAEV    .PCC   1,0K``      
+``LAMBA   .PLR    384``      
+``LEEK1   .PCC   1,0K``      
+``LEEK2   .PCC   1,0K``      
+``LF      .ASM   1,7K``      
+``LF      .COM   2,0K``    Fondi laadija MODXi jaoks  
+``LIFESTYL.PIC    768``      
+``MAURO   .PLR   1,5K``      
+``ME      .COM    32K``    Heliredaktor "Music Editor" 2.4 ('89)  
+``MEES    .PCC   1,0K``      
+``MEMEDIT .PIC   3,9K``      
+``MM      .PIC    384``      
+``MODX    .COM   3,5K``    80x24 kuvalaotuse draiver  
+``MODX    .PRN      0``      
+``MONALISA.      5,0K``      
+``MOTA    .PIC   1,2K``      
+``MOTO    .PIC   1,4K``      
+``MTEST   .COM   8,4K``      
+``MTLLC   .PIC    256``      
+``MTV     .PIC    768``      
+``MUSAM   .COM   3,7K``    Klaver "Musa Master" (EKTA '89)  
+``MUSA    .PIC    128``      
+``N       .PLR    512``      
+``PACIUS  .PLR    256``      
+``PATTERN .PIC   7,2K``      
+``PBODY   .PCC   1,0K``      
+``PIP     .COM   7,3K``    Failide kopeerija (CP/M)  
+``PLAYER  .COM    384``      
+``POWER   .COM    15K``      
+``RDEM    .PIC   1,7K``      
+``RDIR    .COM    896``      
+``RTL     .PIC    256``      
+``RUUT    .PCC   1,0K``      
+``SC      .PIC   1,8K``      
+``SCSOUND .COM    256``      
+``SED80   .COM    10K``    Screen text editor 6.1 (80x24)  
+``SED     .COM    10K``      
+``SEIN    .PCC   1,0K``      
+``SH      .PCD    128``      
+``SID     .COM   7,0K``    Masinkoodi silur SID 1.4 (CP/M)  
+``SIDT    .COM   7,7K``    Masinkoodi silur SIDT 2.1 (EKTA '85)  
+``SK      .COM   4,0K``      
+``SOKO    .PIC   3,9K``      
+``SPACE   .COM    17K``    "Space Attack" (Vakstu/VSW '90)  
+``SPACE   .PIC   3,0K``      
+``SPRITES .PIC   2,2K``      
+``SS      .PIC    384``      
+``TEST    .COM   5,2K``      
+``T       .PCC   1,0K``      
+``TX      .PCC   1,0K``      
+``VALGRE  .PLR    256``      
+``VIIR    .COM    256``      
+``VSW     .PIC   1,9K``      
+``WAR     .PIC   5,9K``      
+``XONIX   .COM   3,8K``    "Qixi" kloon (E.Jürviste/EKTA '87)  
+``XTC     .PIC    512``      
+``YDAY    .PLR    256``      
 
