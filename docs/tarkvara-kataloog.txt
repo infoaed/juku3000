@@ -141,7 +141,7 @@ mängudest on teistel JUKU ketastel tervikuna avaldamata. Ketas on kasutusel
 veebiemulaatoris https://infoaed.ee/juku/ ja selle saab alla laadida
 https://elektroonikamuuseum.ee/failid/juku/tarkvara/J3KGAME1.JUK.
 
-SIZE: 800K (819200) / SHA1: 36117477efd488861c0053441598ec14b4249c5b
+SIZE: 800K (819200) / SHA1: 4c864901be28e2d075ad9c73040003ce2a1ca069
 
 8804ca55d5ab88a60eaec47c0181fd6a40607fdd  1       .        896  LAOLEO andmefail
 2a7e9c8444d9c3de7f7bacbe1d1af15e58dffe1a  2       .        896  LAOLEO andmefail
@@ -173,7 +173,7 @@ fe6f5606a7c3976cdd251cf9db57a7dbc2d0e7b7  HITCHHIK.DAT    111K
 ec0aa06cdaadf98629f510c5a16d0c2200946758  HUNTER  .DAT     256  
 37eb69c11e56be82f1f42fba99ba0a0234a036d1  INDY    .COM     27K  Indy Looking for Jewels (I.Käär '91)
 2156355ccccecd2e2429032f54079d1737b54dff  INDY    .DAT     12K  
-d12d3c039839c1e31b2c7d66d5924c8b058f7891  INDY    .TXT    1,7K  INDY saatesõna (I.Käär/R.Mägi '22)
+8f8d2267187a33485a6be6d2c9dad78e55cd4c5d  INDY    .TXT    1,7K  INDY saatesõna (I.Käär/R.Mägi '22)
 1fa5d560965f48259843a588dce3c4de38b2e570  KAPTEN  .COM     32K  "Merelahing" (ed K.Koppel)
 c04aaa52fb2102197eac9c874ec302bdf6494a80  LADDER  .COM     40K  Tuntud CP/Mi platvormimäng (80x24)
 f34480e564d79fba4e6e7d31b07c5eeeda44ad90  LADDER  .DAT     512  
@@ -2091,6 +2091,10 @@ e2544071af4e98c70e70b055b14278a43db6b8b2  SEIN    .PCC    1,0K
 
 ## VAKSTU05
 
+Füüsilised flopid VAKSTU seeriast andis lugemiseks Kalle Tomingas detsembris 2024.
+Seitsmest flopist olid kolm JUKU omad, millest kaks loeti sisse probleemideta.
+Lugemiseks kasutati Greaseweazle'it koos TEAC'i flopilugejaga.
+
 SIZE: 800K (819200) / SHA1: b91edfdbee67cee8fed9429340f2a72140e576e3
 
 df307a81c9d539c823cb305f21254f481f7ec9b8  3VMUSIC .COM     12K  
@@ -2175,6 +2179,9 @@ fcb5454339c4d8162fb285d526bc36ef7f8a2e62  TEST2   .        384
 b51c739456b15acc60373ab8811be363addcbaf0  UTILIT  .H       640  
 
 ## VAKSTU06
+
+VAKSTU seeria flopi andis lugemiseks Kalle Tomingas detsembris 2024.
+Täpsemalt vt eelmiste flopide kirjeldustest.
 
 SIZE: 800K (819200) / SHA1: 8338f674672f38fa9128377f850186c429025835
 

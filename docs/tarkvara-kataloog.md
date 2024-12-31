@@ -141,7 +141,7 @@ mängudest on teistel JUKU ketastel tervikuna avaldamata. Ketas on kasutusel
 veebiemulaatoris https://infoaed.ee/juku/ ja selle saab alla laadida
 https://elektroonikamuuseum.ee/failid/juku/tarkvara/J3KGAME1.JUK.
 
-SIZE: `800K` (`819200`) / SHA1: `36117477efd488861c0053441598ec14b4249c5b`
+SIZE: `800K` (`819200`) / SHA1: `4c864901be28e2d075ad9c73040003ce2a1ca069`
 
 ``1       .       896``    LAOLEO andmefail  
 ``2       .       896``    LAOLEO andmefail  
@@ -2091,6 +2091,10 @@ SIZE: `800K` (`819200`) / SHA1: `b7efca324ddffc6c31476adff2228e3b5e2e792e`
 
 ## VAKSTU05
 
+Füüsilised flopid VAKSTU seeriast andis lugemiseks Kalle Tomingas detsembris 2024.
+Seitsmest flopist olid kolm JUKU omad, millest kaks loeti sisse probleemideta.
+Lugemiseks kasutati Greaseweazle'it koos TEAC'i flopilugejaga.
+
 SIZE: `800K` (`819200`) / SHA1: `b91edfdbee67cee8fed9429340f2a72140e576e3`
 
 ``3VMUSIC .COM    12K``      
@@ -2175,6 +2179,9 @@ SIZE: `800K` (`819200`) / SHA1: `b91edfdbee67cee8fed9429340f2a72140e576e3`
 ``UTILIT  .H      640``      
 
 ## VAKSTU06
+
+VAKSTU seeria flopi andis lugemiseks Kalle Tomingas detsembris 2024.
+Täpsemalt vt eelmiste flopide kirjeldustest.
 
 SIZE: `800K` (`819200`) / SHA1: `8338f674672f38fa9128377f850186c429025835`
 
