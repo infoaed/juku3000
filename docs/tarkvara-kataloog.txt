@@ -207,7 +207,9 @@ b7f7e9b8eeab6821b29b68dbeccd1886eba949d6  YL2     .LOG     640  LOGERi ülesanne
 
 ## J3KSYS4
 
-Juku 3000 (J3K) rekonstrueeritud JUKU PC UTILITIES DISK #4 aastast 1989. Failide valik lähtub avaldatud `READ.ME` failist ega pruugi olla täielik. Ketta saab alla laadida https://elektroonikamuuseum.ee/failid/juku/tarkvara/J3KSYS4.JUK.
+Juku 3000 (J3K) rekonstrueeritud EKTA JUKU PC UTILITIES DISK #4 aastast 1989.
+Failide valik lähtub kaasa pandud `READ.ME` failist ega pruugi olla täielik.
+Ketta saab alla laadida https://elektroonikamuuseum.ee/failid/juku/tarkvara/J3KSYS4.JUK.
 
 SIZE: 800K (819200) / SHA1: fb8a5239cdd74eced3b0bb7ab8ec6e8b2092f4c3
 
