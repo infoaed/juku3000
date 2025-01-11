@@ -18,8 +18,9 @@ poolel.
 
 ## EMUSYS1
 
-Elektroonikamuuseumi poolt kokku pandud Baltijetsi JUKU E5104 süsteemiketas #1,
-vt https://elektroonikamuuseum.ee/juku_arvuti_tarkvara_susteemiketas_1.html.
+Elektroonikamuuseumi levitatav Baltijetsi JUKU E5104 süsteemiketas #1,
+vt https://elektroonikamuuseum.ee/juku_arvuti_tarkvara_susteemiketas_1.html,
+kattub kettaga `MUSEUM01`.
 
 SIZE: `800K` (`819200`) / SHA1: `956c82e43e2b1f76a337190f78318428729e845f`
 
@@ -65,8 +66,9 @@ SIZE: `800K` (`819200`) / SHA1: `956c82e43e2b1f76a337190f78318428729e845f`
 
 ## EMUSYS2
 
-Elektroonikamuuseumi poolt kokku pandud Baltijetsi JUKU E5104 süsteemiketas #2,
-vt https://elektroonikamuuseum.ee/juku_arvuti_tarkvara_susteemiketas_2.html.
+Elektroonikamuuseumi levitatav Baltijetsi JUKU E5104 süsteemiketas #2,
+vt https://elektroonikamuuseum.ee/juku_arvuti_tarkvara_susteemiketas_2.html,
+kattub kettaga `MUSEUM02`.
 
 SIZE: `800K` (`819200`) / SHA1: `054b854a9bc58383794e74fdc2f778f746bdf55d`
 
@@ -88,8 +90,9 @@ SIZE: `800K` (`819200`) / SHA1: `054b854a9bc58383794e74fdc2f778f746bdf55d`
 
 ## EMUSYS3
 
-Elektroonikamuuseumi poolt kokku pandud Baltijetsi JUKU E5104 süsteemiketas #3,
-vt https://elektroonikamuuseum.ee/juku_arvuti_tarkvara_susteemiketas_3.html.
+Elektroonikamuuseumi levitatav Baltijetsi JUKU E5104 süsteemiketas #3,
+vt https://elektroonikamuuseum.ee/juku_arvuti_tarkvara_susteemiketas_3.html,
+kattub kettaga `MUSEUM03`.
 
 SIZE: `800K` (`819200`) / SHA1: `2bd379212078b892ad07766007507b02bbda3703`
 
@@ -133,12 +136,12 @@ SIZE: `36K` (`36437`) / SHA1: `8905d0a3601928b4890da92e7187f1e3bb7a7df5`
 
 ## J3KGAME1
 
-Juku 3000 (J3K) mängude ketas 2024, millega tähistati 23. detsembril 2024
-JUKU E5104 ametlikult MAME emulaatori osaks saamist versioonist 0.272.
-Kettal on valik mänge, mida on kasutatud emulaatori eri omaduste testimiseks
+Juku 3000 mängude ketas 2024, millega tähistati 23. detsembril 2024
+kooliarvuti toe MAME emulaatorisse jõudmist (alates versioonist 0.272).
+Kettal on valik mänge, mida on kasutatud emulaatori testimiseks
 või mis on lihtsalt emulaatori arendamise lõbusamaks teinud, sj mõned
-mängudest on teistel JUKU ketastel tervikuna avaldamata. Ketas on kasutusel
-veebiemulaatoris https://infoaed.ee/juku/ ja selle saab alla laadida
+mängudest on teistel JUKU ketastel tervikuna avaldamata. Ketast kasutab
+veebiemulaator https://infoaed.ee/juku/ ja selle saab alla laadida
 https://elektroonikamuuseum.ee/failid/juku/tarkvara/J3KGAME1.JUK.
 
 SIZE: `800K` (`819200`) / SHA1: `4c864901be28e2d075ad9c73040003ce2a1ca069`
@@ -207,8 +210,8 @@ SIZE: `800K` (`819200`) / SHA1: `4c864901be28e2d075ad9c73040003ce2a1ca069`
 
 ## J3KUTIL4
 
-Juku 3000 (J3K) rekonstrueeritud EKTA JUKU PC UTILITIES DISK #4 aastast 1989.
-Failide valik lähtub kaasa pandud `READ.ME` failist ega pruugi olla täielik.
+Juku 3000 rekonstrueeritud EKTA JUKU PC UTILITIES DISK #4 detsembrist 1989.
+Failide valik lähtub kaasa pandud `READ.ME` nimekirjast ega pruugi olla täielik.
 Ketta saab alla laadida https://elektroonikamuuseum.ee/failid/juku/tarkvara/J3KUTIL4.JUK.
 
 SIZE: `800K` (`819200`) / SHA1: `fb8a5239cdd74eced3b0bb7ab8ec6e8b2092f4c3`
