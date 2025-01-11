@@ -205,6 +205,75 @@ b7f7e9b8eeab6821b29b68dbeccd1886eba949d6  YL2     .LOG     640  LOGERi ülesanne
 267b869eca66228139983f07b5fcbc043b213b7c  YL3     .LOG     896  LOGERi ülesanne #3
 7f291f6bcc2751314fe925864094f0be54f5745f  YL4     .LOG    1,7K  LOGERi ülesanne #4
 
+## J3KSYS4
+
+Juku 3000 (J3K) rekonstrueeritud JUKU PC UTILITIES DISK #4 aastast 1989. Failide valik lähtub avaldatud `READ.ME` failist ega pruugi olla täielik. Ketta saab alla laadida https://elektroonikamuuseum.ee/failid/juku/tarkvara/J3KSYS4.JUK.
+
+SIZE: 800K (819200) / SHA1: fb8a5239cdd74eced3b0bb7ab8ec6e8b2092f4c3
+
+d52a421fcd6d4cafacd3d5d6710bd46dac8f7676  ASCII   .        896  Ladina tähestiku font (US laotus)
+75a52f246d8775586ce0cf591e1c93173c1ae57a  BUGABOO .COM     18K  Kaalikas labürindis (EKTA '89)
+3391e5345df4feb5a242afa878c016afa37446d0  BUGABOO .DAT    1,0K  
+7b055a79f10e8fdbabaa1a9cdea7fd4556bc2f07  BUGABOO .MSG    1,4K  
+0ae4f711ef5d6e9d26c611fd2c8c8ac45ecbf9e7  BUGABOO .TAB     128  
+017aabc329ec61042d17e609be9e9861ce79446d  CAL     .COM     18K  Murdarvude kalkulaator (40x24)
+738b4ec8c3c4c3fef07d9f80291ed1e71175f5ad  CATCHUM .COM     29K  Tuntud CP/Mi PAC-MANi kloon* (80x24)
+eb1b3146ebf9275c7c4825027be1c059acf87ec8  CATCHUM .DAT     512  
+91de2650f4a81d53ea667019efde9a84f5004354  CF      .COM    1,0K  Failide kopeerimine 1.0 (EKTA '89)
+c14e828779f0a4da7a45596fedf11cab755af5f5  CF      .HLP    1,5K  CF lühijuhend
+e125c33f228c550cc205c442b280695429fbbba0  CHESS   .COM     31K  Malemäng "Las ma mõtlen" (EKTA '89)
+5e3938c7304c5598c7c0557bc602cb8d14e63ecf  COMPU   .COM    1,8K  Compute Mate 160 printeri draiver
+0dec3d02617ed3fb77b98473bb8f8ee3749768aa  DEMO    .COM    5,2K  Audio-Video-Text demod (EKTA '88)
+799f68e19c8068eefa2d3bb194d5cf97dca0b948  DEMO    .DOC    8,8K  DEMO juhend
+cbe12c7b51dfcbf8107f072adf2100680878eb53  DEMO    .HLP    3,5K  DEMO abifail
+e58e8e0e2cc8958bfcc966d7d5767b0097666c24  DEMOS   .COM    8,3K  A-V-T demode ettevalmistus (EKTA)
+9de4d0ecdb4c6903e1098716ed469368c5e97523  DEMOS   .DOC     16K  DEMOS juhend
+40c1c0a2402c979291d24667e4a81f61933652eb  DOCTOR  .COM     36K  Disk Editor & Diagnostics 1.11 ('83)
+e444e4d973c27ff88c769c2b42423f2d8d55df2a  EKDOS30 .ASM     14K  Source text of BIOS of EKDOS
+ee5bd8a54d5a94afcfd29401b28f98a2f51f0164  EST     .        896  Eesti tähestiku font (JUKU)
+ccc08b70e519b91a19812ec832c10c13db2228ac  FDMAINT .COM     11K  Floppy Maintenance 1.1 (EKTA '88)
+15e622e59217c42d24376b74fabb0a7c8a2b966f  FX800   .COM    1,8K  Epson FX-800 printeri draiver
+496d38647a97e398322d68afb8db8692f0670d39  JCM     .COM     12K  JUKU File/Copy Master 1.0 (EKTA '89)
+eaa47cb96feb06792df936b76f1f4ba61680b397  JCM     .HLP    7,4K  JCM juhend tiitelleheta ('89)
+27d3d4bd5ee87ddc8562b707a84e5d3c8511a02c  JLOAD   .LDR     384  Residentsete programmide laadur
+3723ea18c8093537648c61ed4aa27de511d02957  JSET    .COM     512  Set BIOS I/O values
+8d2156156ecedb9cc6e3eb33d49e1adc334ed8ad  KULT    .COM     12K  EKDOS Disk Test util 1.0 (EKTA '89)
+6312ba788ca6020f6caf7d4c3483d980f874f5f8  KULT    .HLP    8,7K  KULT juhend
+bfe93f568d6d84bd1f5b0e91fa9e5aec471b60f2  KUVA    .COM     768  Kuva asetus ekraanil 1.1 (K.Kevvai)
+c04aaa52fb2102197eac9c874ec302bdf6494a80  LADDER  .COM     40K  Tuntud CP/Mi platvormimäng (80x24)
+fa04059784c29b58725fe4ea4f4ebe363eb13138  LADDER  .DAT     512  
+049892cce5372a8cdf249db4d023798565ae9c79  LF      .COM    2,0K  Fondi laadija MODXi jaoks
+d5600102b26a159193266b7c4cab5aca57a22439  LINK    .COM     16K  Objektmoodulite linkur 1.3 (CP/M '80)
+ad196dcbd881ab45bae31bdf72cf3f7eecadb29e  MAC     .COM     12K  Macro Assembler 2.0 (CP/M)
+26b66828890e27962132a9df3cbb0cf8aa292cc0  MDUMP   .COM     512  Memory Dump
+17083edcccf65969d0039d93a34a1870f07677ff  ME      .COM     32K  Heliredaktor "Music Editor" 2.4 ('89)
+a5a5eca1cf822ed48ab39d8194beeca904c87025  MED     .COM    3,0K  Memory EDitor 1.0 (EKTA)
+1a578071d0b26f36d4a294de8cb11e6f0e196282  ME      .DOC     12K  ME 2.3 ja mooduli PLAYER.ERL juhend
+5d4b9c43ede8a8d009029459a19fffc25a428d24  MIC     .COM    3,8K  Micro-editor 1.0 (EKTA '88)
+4a45eb9dd955142460c677593a97fe6bbf382756  MIC     .HLP    6,3K  MIC juhend
+39f33b72aaa1d706a6d35348b4a3283956a309ad  MIT     .COM     16K  Move-it: RS232 comms utility 3.0
+e0b5c4e59b6b4223258717836fb723bd75dd9e6d  MODX    .COM    3,5K  80x24 kuvalaotuse draiver
+7320a917113cc5b8601aaf765895cd7d670f369f  MUSAM   .COM    3,7K  Klaver "Musa Master" (EKTA '89)
+7638f103732de80aa3a63151377ae2c5b421b32b  PLAYER  .ERL     512  Pascali moodul MEga kasutamiseks
+10af96f444d9dc9cfa979712cec611fb5b0b9d70  POWER   .COM     16K  Kettahaldur 3.03 (P.Breder '82)
+85d51919d8a8cc6202e3b1cafc5bdee59a9a2c7b  PRT     .COM    4,0K  Print file utility 5.3
+52371bad85e9c3564c3204d0de0cc6c119015cc2  PRT     .DOC    7,3K  PRT.COM versioon 5.0 juhised
+2b2580db1c7db5b03538e476000f20e33bdc8c4f  READ    .ME     4,2K  JUKU util disk #4 teabeleht ('89)
+eb1b5d80978e962b7c6d355d631c965824eea97a  RESIDENT.DOC    1,7K  Residentsete programmide juhend
+4e4e6eba6c7d381c3eddcbc23f18d9f732c0371c  RUS     .        896  Kirillitsa font (KOI-8)
+1ede54deec2a9ff3091ce7870ef2995afb68b388  SDEL    .COM     896  Selective Delete v2.0
+6954fb810c0ae8992f0822da156e31824d8f01b2  SED80   .COM     10K  Screen text editor 6.1 (80x24)
+71f0f0c17469af5938bff6e9e578d3a86821d0b3  SEIKO   .COM    1,8K  Seikosha SP-800 driver
+ad32bd22bd6ad7a0ae27369143be5abd2addb3a4  SETS    .COM    1,4K  Set file(s) status (SETS *.* $r/o)
+99fe5b31a0ad5934b74c401b0c58bcbd5bb32b6e  SK      .COM    4,0K  Kalkulaator 1.0 (T.Martens/EKTA '89)
+4ae08460a1ba7571a8645395770719541e73a217  SNAKE   .COM     12K  "Ussike" (M.Gladin/EKTA '87)
+42af545f18af15b4d2871f50b301f1a080f256b5  SNAKE   .DAT    1,0K  
+d282f98615b478df4115dc480c62d2c6808645c0  SYSINFO .COM    1,2K  Põhiteave süsteemi kohta (CP/M)
+683a11dc9e19e84a83a317d8f0be0437e8e5ebb0  WSJ     .COM     16K  MicroPro WordStar 3.0 (64x20)
+9b74e30f2b0e718f9fc632058e716d48f5c2f329  WSMSGS  .OVR     28K  
+28382c4b26d03ce15e56c12e79061e3123268f53  WSOVLY1 .OVR     34K  
+425683c3f7be2374c1933813e76452929585cbd6  XONIX   .COM    3,8K  "Qixi" kloon (E.Jürviste/EKTA '87)
+
 ## JUKGAME1
 
 Taastatud mängude koondtõmmis ELFAfoorumi 2020 jaanuari lõimest, koostaja Mees Metsast.
@@ -355,7 +424,7 @@ c6a83752f1e2e88e6bb5623623db4b2d6e697e26  PUNK    .PIC     640
 71f0f0c17469af5938bff6e9e578d3a86821d0b3  SEIKO   .COM    1,8K  Seikosha SP-800 driver
 ad32bd22bd6ad7a0ae27369143be5abd2addb3a4  SETS    .COM    1,4K  Set file(s) status (SETS *.* $r/o)
 03f07fdb59483fdeb6a7c6c9cf643047e8a119b6  SIPELGAS.PIC    3,4K  
-99fe5b31a0ad5934b74c401b0c58bcbd5bb32b6e  SK      .COM    4,0K  Kalkulaator "SideKicK" 1.0 (40x24)
+99fe5b31a0ad5934b74c401b0c58bcbd5bb32b6e  SK      .COM    4,0K  Kalkulaator 1.0 (T.Martens/EKTA '89)
 01cc111923318e4c9670ad3b6243939ff8166186  STAT    .COM    5,2K  Failisüsteemi statistika (CP/M)
 d282f98615b478df4115dc480c62d2c6808645c0  SYSINFO .COM    1,2K  Põhiteave süsteemi kohta (CP/M)
 56d5a0c6019a2f14ad2c20af20e69a86f642536a  TORUD   .PIC    7,5K  

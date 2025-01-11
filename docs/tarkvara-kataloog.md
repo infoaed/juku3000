@@ -205,6 +205,75 @@ SIZE: `800K` (`819200`) / SHA1: `4c864901be28e2d075ad9c73040003ce2a1ca069`
 ``YL3     .LOG    896``    LOGERi ülesanne #3  
 ``YL4     .LOG   1,7K``    LOGERi ülesanne #4  
 
+## J3KSYS4
+
+Juku 3000 (J3K) rekonstrueeritud JUKU PC UTILITIES DISK #4 aastast 1989. Failide valik lähtub avaldatud `READ.ME` failist ega pruugi olla täielik. Ketta saab alla laadida https://elektroonikamuuseum.ee/failid/juku/tarkvara/J3KSYS4.JUK.
+
+SIZE: `800K` (`819200`) / SHA1: `fb8a5239cdd74eced3b0bb7ab8ec6e8b2092f4c3`
+
+``ASCII   .       896``    Ladina tähestiku font (US laotus)  
+``BUGABOO .COM    18K``    Kaalikas labürindis (EKTA '89)  
+``BUGABOO .DAT   1,0K``      
+``BUGABOO .MSG   1,4K``      
+``BUGABOO .TAB    128``      
+``CAL     .COM    18K``    Murdarvude kalkulaator (40x24)  
+``CATCHUM .COM    29K``    Tuntud CP/Mi PAC-MANi kloon\* (80x24)  
+``CATCHUM .DAT    512``      
+``CF      .COM   1,0K``    Failide kopeerimine 1.0 (EKTA '89)  
+``CF      .HLP   1,5K``    CF lühijuhend  
+``CHESS   .COM    31K``    Malemäng "Las ma mõtlen" (EKTA '89)  
+``COMPU   .COM   1,8K``    Compute Mate 160 printeri draiver  
+``DEMO    .COM   5,2K``    Audio-Video-Text demod (EKTA '88)  
+``DEMO    .DOC   8,8K``    DEMO juhend  
+``DEMO    .HLP   3,5K``    DEMO abifail  
+``DEMOS   .COM   8,3K``    A-V-T demode ettevalmistus (EKTA)  
+``DEMOS   .DOC    16K``    DEMOS juhend  
+``DOCTOR  .COM    36K``    Disk Editor & Diagnostics 1.11 ('83)  
+``EKDOS30 .ASM    14K``    Source text of BIOS of EKDOS  
+``EST     .       896``    Eesti tähestiku font (JUKU)  
+``FDMAINT .COM    11K``    Floppy Maintenance 1.1 (EKTA '88)  
+``FX800   .COM   1,8K``    Epson FX-800 printeri draiver  
+``JCM     .COM    12K``    JUKU File/Copy Master 1.0 (EKTA '89)  
+``JCM     .HLP   7,4K``    JCM juhend tiitelleheta ('89)  
+``JLOAD   .LDR    384``    Residentsete programmide laadur  
+``JSET    .COM    512``    Set BIOS I/O values  
+``KULT    .COM    12K``    EKDOS Disk Test util 1.0 (EKTA '89)  
+``KULT    .HLP   8,7K``    KULT juhend  
+``KUVA    .COM    768``    Kuva asetus ekraanil 1.1 (K.Kevvai)  
+``LADDER  .COM    40K``    Tuntud CP/Mi platvormimäng (80x24)  
+``LADDER  .DAT    512``      
+``LF      .COM   2,0K``    Fondi laadija MODXi jaoks  
+``LINK    .COM    16K``    Objektmoodulite linkur 1.3 (CP/M '80)  
+``MAC     .COM    12K``    Macro Assembler 2.0 (CP/M)  
+``MDUMP   .COM    512``    Memory Dump  
+``ME      .COM    32K``    Heliredaktor "Music Editor" 2.4 ('89)  
+``MED     .COM   3,0K``    Memory EDitor 1.0 (EKTA)  
+``ME      .DOC    12K``    ME 2.3 ja mooduli PLAYER.ERL juhend  
+``MIC     .COM   3,8K``    Micro-editor 1.0 (EKTA '88)  
+``MIC     .HLP   6,3K``    MIC juhend  
+``MIT     .COM    16K``    Move-it: RS232 comms utility 3.0  
+``MODX    .COM   3,5K``    80x24 kuvalaotuse draiver  
+``MUSAM   .COM   3,7K``    Klaver "Musa Master" (EKTA '89)  
+``PLAYER  .ERL    512``    Pascali moodul MEga kasutamiseks  
+``POWER   .COM    16K``    Kettahaldur 3.03 (P.Breder '82)  
+``PRT     .COM   4,0K``    Print file utility 5.3  
+``PRT     .DOC   7,3K``    PRT.COM versioon 5.0 juhised  
+``READ    .ME    4,2K``    JUKU util disk #4 teabeleht ('89)  
+``RESIDENT.DOC   1,7K``    Residentsete programmide juhend  
+``RUS     .       896``    Kirillitsa font (KOI-8)  
+``SDEL    .COM    896``    Selective Delete v2.0  
+``SED80   .COM    10K``    Screen text editor 6.1 (80x24)  
+``SEIKO   .COM   1,8K``    Seikosha SP-800 driver  
+``SETS    .COM   1,4K``    Set file(s) status (SETS \*.* $r/o)  
+``SK      .COM   4,0K``    Kalkulaator 1.0 (T.Martens/EKTA '89)  
+``SNAKE   .COM    12K``    "Ussike" (M.Gladin/EKTA '87)  
+``SNAKE   .DAT   1,0K``      
+``SYSINFO .COM   1,2K``    Põhiteave süsteemi kohta (CP/M)  
+``WSJ     .COM    16K``    MicroPro WordStar 3.0 (64x20)  
+``WSMSGS  .OVR    28K``      
+``WSOVLY1 .OVR    34K``      
+``XONIX   .COM   3,8K``    "Qixi" kloon (E.Jürviste/EKTA '87)  
+
 ## JUKGAME1
 
 Taastatud mängude koondtõmmis ELFAfoorumi 2020 jaanuari lõimest, koostaja Mees Metsast.
@@ -355,7 +424,7 @@ SIZE: `800K` (`819200`) / SHA1: `32708fd095be8ea50bf2ba185c6d5654e0ca3255`
 ``SEIKO   .COM   1,8K``    Seikosha SP-800 driver  
 ``SETS    .COM   1,4K``    Set file(s) status (SETS \*.* $r/o)  
 ``SIPELGAS.PIC   3,4K``      
-``SK      .COM   4,0K``    Kalkulaator "SideKicK" 1.0 (40x24)  
+``SK      .COM   4,0K``    Kalkulaator 1.0 (T.Martens/EKTA '89)  
 ``STAT    .COM   5,2K``    Failisüsteemi statistika (CP/M)  
 ``SYSINFO .COM   1,2K``    Põhiteave süsteemi kohta (CP/M)  
 ``TORUD   .PIC   7,5K``      
