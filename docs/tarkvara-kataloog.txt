@@ -282,8 +282,8 @@ d282f98615b478df4115dc480c62d2c6808645c0  SYSINFO .COM    1,2K  Põhiteave süst
 ## JUKGAME1
 
 Taastatud mängude koondtõmmis ELFAfoorumi 2020 jaanuari lõimest, koostaja Mees Metsast.
-Samasse seeriasse kuuluvad kolm samal ajal avaldatud `JUKPROGn` ketast.
-Kettad sisaldavad üldhuvitavat sisu `MAALT`/`MUUSEUM` ketastelt ja koostaja isiklikelt ketastelt,
+Samasse seeriasse kuuluvad kolm samal ajal avaldatud JUKPROG`x` ketast.
+Kettad sisaldavad üldhuvitavat sisu MAALT/MUUSEUM ketastelt ja koostaja isiklikelt ketastelt,
 mille sisselugemiseks on kasutatud eri DOSi tööriistu, peamiselt ImageDiski.
 
 SIZE: 800K (819200) / SHA1: efd6e83669777966d523d323ea61e0352eea88ff
@@ -343,7 +343,7 @@ a39eb160202e8284f557d3a186142244026920df  TETRIS  .COM     23K  "Tetris" 1.1 (A.
 ## JUKPROG1
 
 Taastatud programmide koondtõmmis #1 ELFAfoorumi 2020 jaanuari lõimest, koostaja Mees Metsast.
-Loe täpsemalt `JUKGAME1` kirjeldusest.
+Loe täpsemalt JUKGAME1 kirjeldusest.
 
 SIZE: 800K (819200) / SHA1: 32708fd095be8ea50bf2ba185c6d5654e0ca3255
 
@@ -448,7 +448,7 @@ a077d75810040e74b1fea3ae2f8af2208ceb1966  X-FILE  .PIC    1,7K
 ## JUKPROG2
 
 Taastatud programmide koondtõmmis #2 ELFAfoorumi 2020 jaanuari lõimest, koostaja Mees Metsast.
-Loe täpsemalt `JUKGAME1` kirjeldusest.
+Loe täpsemalt JUKGAME1 kirjeldusest.
 
 SIZE: 800K (819200) / SHA1: 725233ba5f8943ff2778bf4d70dbf25f71a5854d
 
@@ -506,7 +506,7 @@ bb718dedc601df04eefd121ea0fdb4b70bc7bc7f  SID     .DOK     19K  Siluri kasutajaj
 ## JUKPROGX
 
 Taastatud programmide koondtõmmis #3 ELFAfoorumi 2020 jaanuari lõimest, koostaja Mees Metsast.
-Loe täpsemalt `JUKGAME1` kirjeldusest.
+Loe täpsemalt JUKGAME1 kirjeldusest.
 
 SIZE: 800K (819200) / SHA1: 7ac496b74bc5f0d6beeae5231b3f379b53ad8284
 
