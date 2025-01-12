@@ -282,6 +282,9 @@ SIZE: `800K` (`819200`) / SHA1: `fb8a5239cdd74eced3b0bb7ab8ec6e8b2092f4c3`
 ## JUKGAME1
 
 Taastatud mängude koondtõmmis ELFAfoorumi 2020 jaanuari lõimest, koostaja Mees Metsast.
+Samasse seeriasse kuuluvad kolm samal ajal avaldatud `JUKPROGn` ketast.
+Kettad sisaldavad üldhuvitavat sisu `MAALT`/`MUUSEUM` ketastelt ja koostaja isiklikelt ketastelt,
+mille sisselugemiseks on kasutatud eri DOSi tööriistu, peamiselt ImageDiski.
 
 SIZE: `800K` (`819200`) / SHA1: `efd6e83669777966d523d323ea61e0352eea88ff`
 
@@ -340,6 +343,7 @@ SIZE: `800K` (`819200`) / SHA1: `efd6e83669777966d523d323ea61e0352eea88ff`
 ## JUKPROG1
 
 Taastatud programmide koondtõmmis #1 ELFAfoorumi 2020 jaanuari lõimest, koostaja Mees Metsast.
+Loe täpsemalt `JUKGAME1` kirjeldusest.
 
 SIZE: `800K` (`819200`) / SHA1: `32708fd095be8ea50bf2ba185c6d5654e0ca3255`
 
@@ -444,6 +448,7 @@ SIZE: `800K` (`819200`) / SHA1: `32708fd095be8ea50bf2ba185c6d5654e0ca3255`
 ## JUKPROG2
 
 Taastatud programmide koondtõmmis #2 ELFAfoorumi 2020 jaanuari lõimest, koostaja Mees Metsast.
+Loe täpsemalt `JUKGAME1` kirjeldusest.
 
 SIZE: `800K` (`819200`) / SHA1: `725233ba5f8943ff2778bf4d70dbf25f71a5854d`
 
@@ -501,6 +506,7 @@ SIZE: `800K` (`819200`) / SHA1: `725233ba5f8943ff2778bf4d70dbf25f71a5854d`
 ## JUKPROGX
 
 Taastatud programmide koondtõmmis #3 ELFAfoorumi 2020 jaanuari lõimest, koostaja Mees Metsast.
+Loe täpsemalt `JUKGAME1` kirjeldusest.
 
 SIZE: `800K` (`819200`) / SHA1: `7ac496b74bc5f0d6beeae5231b3f379b53ad8284`
 
