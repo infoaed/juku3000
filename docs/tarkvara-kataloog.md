@@ -2171,7 +2171,7 @@ Lugemiseks kasutati Greaseweazle'it koos TEAC'i flopilugejaga.
 
 SIZE: `800K` (`819200`) / SHA1: `b91edfdbee67cee8fed9429340f2a72140e576e3`
 
-``3VMUSIC .COM    12K``      
+``3VMUSIC .COM    12K``    Music Editor 1.0 (Vakstu '91)  
 ``3VMUSIC .MAC    29K``      
 ``AASTA   .KEM    640``      
 ``AB      .COM    20K``      
@@ -2182,7 +2182,7 @@ SIZE: `800K` (`819200`) / SHA1: `b91edfdbee67cee8fed9429340f2a72140e576e3`
 ``ASM     .      4,2K``      
 ``BIORYTM .COM    18K``      
 ``BOWLING .COM   3,5K``    Keegel (Maxway & I.K.S. '91)  
-``COF     .COM    640``      
+``COF     .COM    640``    Copy files 6.6 (I.Käär)  
 ``COMPU   .COM   1,8K``    Compute Mate 160 printeri draiver  
 ``CONV    .PAS   1,9K``      
 ``CSPRITE .COM    12K``      
@@ -2216,7 +2216,7 @@ SIZE: `800K` (`819200`) / SHA1: `b91edfdbee67cee8fed9429340f2a72140e576e3`
 ``MEES    .PCC   1,0K``      
 ``MENDEL  .COM    18K``      
 ``MENDEL  .DAT   1,9K``      
-``MFD     .COM   2,3K``      
+``MFD     .COM   2,3K``    Dumper \w music (I.K.S/Writer)  
 ``MIC     .COM   3,8K``    Micro-editor 1.0 (EKTA '88)  
 ``MUSUBI  .PCC   1,0K``      
 ``MUUTUJAD.TST    896``      
@@ -2246,7 +2246,7 @@ SIZE: `800K` (`819200`) / SHA1: `b91edfdbee67cee8fed9429340f2a72140e576e3`
 ``SYMBOL  .KEM   5,3K``      
 ``ZOKOBAN .COM    16K``      
 ``ZOKOBAN .SIR    128``      
-``ZOO1    .COM    16K``      
+``ZOO1    .COM    16K``    ZOO esialgne versioon ('91)  
 ``ZOO     .COM    35K``      
 ``TEST2   .       384``      
 ``TETRIS  .COM    17K``    Hiirega "Tetris" (A.Mett '90 H)  

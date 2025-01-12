@@ -2171,7 +2171,7 @@ Lugemiseks kasutati Greaseweazle'it koos TEAC'i flopilugejaga.
 
 SIZE: 800K (819200) / SHA1: b91edfdbee67cee8fed9429340f2a72140e576e3
 
-df307a81c9d539c823cb305f21254f481f7ec9b8  3VMUSIC .COM     12K  
+df307a81c9d539c823cb305f21254f481f7ec9b8  3VMUSIC .COM     12K  Music Editor 1.0 (Vakstu '91)
 df89e39004916f617c84f11b99789d0888d7e53a  3VMUSIC .MAC     29K  
 6acc60f72cab9e92119d40e53fd3bf13c1459c26  AASTA   .KEM     640  
 e9342054073c8e132f8e97f2784ed721ce549251  AB      .COM     20K  
@@ -2182,7 +2182,7 @@ a7f4e31af48fc18035ca339bca46a5998505b1a3  AEG     .COM    9,4K
 77fa408091b598eb0ea9f8d82e8482f24501910d  ASM     .       4,2K  
 2d299d08b62d8acdb8810b405fded2a1c4a9d808  BIORYTM .COM     18K  
 eddf1bf24794dd410a4eb1979e8fb7d7722e38de  BOWLING .COM    3,5K  Keegel (Maxway & I.K.S. '91)
-3e30bdeba84c6cd7b656aa526c8c90fdaf8ddac8  COF     .COM     640  
+3e30bdeba84c6cd7b656aa526c8c90fdaf8ddac8  COF     .COM     640  Copy files 6.6 (I.Käär)
 5e3938c7304c5598c7c0557bc602cb8d14e63ecf  COMPU   .COM    1,8K  Compute Mate 160 printeri draiver
 c414e139df7ba237513bbd7d23d26742fa1f4014  CONV    .PAS    1,9K  
 0b67ec363aec7ab6ea8c00b3eec5e41d4b2397f3  CSPRITE .COM     12K  
@@ -2216,7 +2216,7 @@ b4a28960bce0b0325e70b8cfbddf5f5057ceeb7c  MAT     .        384
 8fcbdf2f8b47c984545ae1e650c7bdd0bfcb15c3  MEES    .PCC    1,0K  
 d4950a5efb1e9cd0c9a02cc6f9bd40374b9c9697  MENDEL  .COM     18K  
 47a07776a3128712e0d7207b7d8b41f49bcfb0ba  MENDEL  .DAT    1,9K  
-8b98518d6a038befed4674fa0996aa0cf0d9be23  MFD     .COM    2,3K  
+8b98518d6a038befed4674fa0996aa0cf0d9be23  MFD     .COM    2,3K  Dumper \w music (I.K.S/Writer)
 5d4b9c43ede8a8d009029459a19fffc25a428d24  MIC     .COM    3,8K  Micro-editor 1.0 (EKTA '88)
 94bb337c7ad388fabad07e4715ad77cf98229a12  MUSUBI  .PCC    1,0K  
 a4d08b9b436230e72d1930fb2320a931ad2e2475  MUUTUJAD.TST     896  
@@ -2246,7 +2246,7 @@ fbc766494d719decfe57813c46ec3185dfeb0c3b  SPRITE  .H2      640
 b7421a05f2468c944baa68256033978c75163620  SYMBOL  .KEM    5,3K  
 b110974ccb3068e10cfe32e7494eea2d324e51b1  ZOKOBAN .COM     16K  
 07b6d9241084c7dc1f1e74ea8de769622529c9a3  ZOKOBAN .SIR     128  
-13f2fae100c6cfcdd357522dd568c9380d5a7da3  ZOO1    .COM     16K  
+13f2fae100c6cfcdd357522dd568c9380d5a7da3  ZOO1    .COM     16K  ZOO esialgne versioon ('91)
 c15fc75ac92bbb37afb9b1709664deccef977e78  ZOO     .COM     35K  
 fcb5454339c4d8162fb285d526bc36ef7f8a2e62  TEST2   .        384  
 7cc09746e4127fa848e2c933d07c9e24fcc03395  TETRIS  .COM     17K  Hiirega "Tetris" (A.Mett '90 H)
