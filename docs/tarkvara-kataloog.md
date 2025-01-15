@@ -2055,8 +2055,9 @@ SIZE: `800K` (`819200`) / SHA1: `17eefcd63de191d00059516aacfc16d9abf56400`
 
 ## VAKSTU01
 
-"VSW tööketta" tõmmise annetas Vahur Sinijärv 7.06.2022,
-täpsemalt https://p6drad-teel.net/~p6der/juku-hingeelu_2024.pdf (slaid 27jj).
+"VSW tööketta" tõmmise annetas Vahur Sinijärv 7.06.2022. Kettal on EKDOS 2.29,
+alglaadimisel kuvatakse kohandatud teadet `VSW tööketas (c)`. VAKSTU seeria
+taustast täpsemalt https://p6drad-teel.net/~p6der/juku-hingeelu_2024.pdf (slaid 27jj).
 
 SIZE: `800K` (`819200`) / SHA1: `b7efca324ddffc6c31476adff2228e3b5e2e792e`
 
@@ -2173,7 +2174,9 @@ SIZE: `800K` (`819200`) / SHA1: `b7efca324ddffc6c31476adff2228e3b5e2e792e`
 
 Füüsilised flopid VAKSTU seeriast andis lugemiseks Kalle Tomingas detsembris 2024.
 Seitsmest flopist olid kolm JUKU omad, millest kaks loeti sisse probleemideta.
-Lugemiseks kasutati Greaseweazle'it koos TEAC'i flopilugejaga.
+Kettal on EKDOS 2.29, alglaadimisel kuvatakse kohandatud teadet `VSW tööketas (c)`
+ja `SKC-Floppy Disk`, käsk `DIR` on keelatud. Flopide lugemiseks kasutati
+Greaseweazle'it koos TEAC'i flopilugejaga.
 
 SIZE: `800K` (`819200`) / SHA1: `b91edfdbee67cee8fed9429340f2a72140e576e3`
 
@@ -2260,8 +2263,9 @@ SIZE: `800K` (`819200`) / SHA1: `b91edfdbee67cee8fed9429340f2a72140e576e3`
 
 ## VAKSTU06
 
-VAKSTU seeria flopi andis lugemiseks Kalle Tomingas detsembris 2024.
-Täpsemalt vt eelmiste flopide kirjeldustest.
+VAKSTU seeria flopi andis lugemiseks Kalle Tomingas detsembris 2024. Kettal on EKDOS 2.29,
+alglaadimisel kuvatakse kohandatud teadet `TDK Mini-Floppy Disk`. Seeria kohta vt täpsemalt 
+eelmiste flopide kirjeldustest.
 
 SIZE: `800K` (`819200`) / SHA1: `8338f674672f38fa9128377f850186c429025835`
 

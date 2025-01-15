@@ -1,3 +1,7 @@
+---
+title: Kooliarvuti JUKU igavene digitaalne elu
+---
+
 [![Juku3000](images/juku3000_ruut_valge.svg#only-dark){align=right width=50%}](https://infoaed.ee/juku/)
 [![Juku3000](images/juku3000_ruut_must.svg#only-light){align=right width=50%}](https://infoaed.ee/juku/)
 
