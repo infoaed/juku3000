@@ -23,13 +23,13 @@
 
 ## Eessõna
 
-Paketi kasutamine eeldab algteadmisi keelest Pascal  ja 
-oskust  töötada Pascal/MT+ translaatoriga.  Pascali algteadmiste
-omandamiseks võib kasutada näiteks õppevahendit  [^2],
+Paketi kasutamine eeldab algteadmisi keelest Pascal ja oskust
+töötada Pascal/MT+ translaatoriga.  Pascali algteadmiste
+omandamiseks võib kasutada näiteks õppevahendit[^2],
 aga sobib ka ükskõik milline Pascalit käsitlev raamat. Arvutil
 "Juku" töötava Pascal/MT+ kasutamise kohta  on  vähesel 
-määral informatsiooni teoses [^1], täpsem ülevaade kasutamisest ja
-Pascal/MT+ erinevustest standartsest Pascalist antakse teoses [^3].
+määral informatsiooni teoses[^1], täpsem ülevaade kasutamisest ja
+Pascal/MT+ erinevustest standartsest Pascalist antakse teoses[^3].
 
 Paketi  tegemisel on püütud tagada funktsiooninimetuste 
 kokkulangevus  Turbo Pascali sarnaste funktsioonidega.
@@ -45,7 +45,7 @@ samuti teksti kuvareziimi valimiseks ning ketaste,  taimeri,
 printeri, "hiirega" töötamiseks jm.
 
 Kõigi nende protseduuride ja funktsioonide kasutamiseks 
-veendu järgmiste failide olemasolus :
+veendu järgmiste failide olemasolus:
 
      Graph.H        Graph.ERL
      Screen.H       Screen.ERL
@@ -68,7 +68,8 @@ Type _pointer = ^byte;
         bfail = file of byte;
 ```
 
-Ülejäänud .H laiendiga failides hoitakse paketis olevate funktsioonide ja protseduuride pascalkeelseid kirjeldusi, 
+Ülejäänud .H laiendiga failides hoitakse paketis olevate
+funktsioonide ja protseduuride pascalkeelseid kirjeldusi, 
 failides laiendiga .ERL hoitakse nende linkimiseks kõlblikke 
 mooduleid.
 
@@ -117,28 +118,29 @@ Järgmised protseduurid ja funktsioonid on teekides:
 
 Oma  programmi  tuleb  lisada  lisateegi  protseduuride 
 jaoks tüübi- ja protseduurikirjeldused.  Selleks kasutatakse 
-kompileerimisreziimi võtit `$I`, mille abil lisatakse programmile `.H` laiendiga failide pascalkeelsed tekstid.
+kompileerimisreziimi võtit `$I`, mille abil lisatakse programmile
+`.H` laiendiga failide pascalkeelsed tekstid.
 
 NÄIDE:
 
 ```
-program näide;
-(*$I a:sprite.h1 *)          lisatakse tüübikirjeldused
+  program näide;
+  (*$I a:sprite.h1 *)          lisatakse tüübikirjeldused
 
-......                       kasutajaprogrammi märgendite,
-......                       konstantide, tüüpide ja
-......                       muutujate kirjeldamine
+  ......                       kasutajaprogrammi märgendite,
+  ......                       konstantide, tüüpide ja
+  ......                       muutujate kirjeldamine
 
-(*$I a:sprite.h2 *)          lisatakse protseduuride
-(*$I a:graph.h *)            kirjeldused
+  (*$I a:sprite.h2 *)          lisatakse protseduuride kir-
+  (*$I a:graph.h *)            jeldused
 
-......                       kasutaja protseduuride ja   
-......                       funktsioonide kirjeldused
+  ......                       kasutaja protseduuride ja   
+  ......                       funktsioonide kirjeldused
 
-begin
-......                       põhiprogramm
-......
-end.
+  begin
+  ......                       põhiprogramm
+  ......
+  end.
 ```
 
 
@@ -935,9 +937,11 @@ järgmisel kujul:
 
 ### Kasutatud kirjandus
 
-[^1]: Интеллектуальный терминал для систем реального времени E5104. Программное обеспеченйе. Кнйга 3.
+[^1]: Интеллектуальный терминал для систем реального времени E5104.
+Программное обеспеченйе. Кнйга 3.
 
 [^2]: Rein Jürgenson. Programmeerimine Pascalkeeles. Tln.Valgus 1985.
 
-[^3]: Pascal/MT+ Release 5 User's Guide. Third Edition. (c) 1980,1981 by MT MicroSYSTEMS.
+[^3]: Pascal/MT+ Release 5 User's Guide. Third Edition. (c) 1980,1981
+by MT MicroSYSTEMS.
 
