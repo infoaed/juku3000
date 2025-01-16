@@ -53,7 +53,7 @@ veendu järgmiste failide olemasolus:
      Sprite.H1      Sprite.H2      Sprite.ERL
      Disk.H         Disk.ERL
 
-Failis SPRITE.H1 on tüübikirjeldused  spraidiprotseduuridele:
+Failis `SPRITE.H1` on tüübikirjeldused  spraidiprotseduuridele:
 
 ```
 Type _pointer = ^byte;         
@@ -68,9 +68,9 @@ Type _pointer = ^byte;
         bfail = file of byte;
 ```
 
-Ülejäänud .H laiendiga failides hoitakse paketis olevate
+Ülejäänud `.H` laiendiga failides hoitakse paketis olevate
 funktsioonide ja protseduuride pascalkeelseid kirjeldusi, 
-failides laiendiga .ERL hoitakse nende linkimiseks kõlblikke 
+failides laiendiga `.ERL` hoitakse nende linkimiseks kõlblikke 
 mooduleid.
 
 
