@@ -107,7 +107,7 @@ Järgmised protseduurid ja funktsioonid on teekides:
      Kettateek:                              ( Disk )
 
      READDISK            SELECTDISK          SETDMA
-     SETSECTOR           SETTRACK            #### `WRITE`
+     SETSECTOR           SETTRACK            WRITEDISK
 
 
 ## 2. Teekide kasutamine
