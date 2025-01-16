@@ -117,7 +117,7 @@ Järgmised protseduurid ja funktsioonid on teekides:
 
 Oma  programmi  tuleb  lisada  lisateegi  protseduuride 
 jaoks tüübi- ja protseduurikirjeldused.  Selleks kasutatakse 
-kompileerimisreziimi võtit $I, mille abil lisatakse programmile .H laiendiga failide pascalkeelsed tekstid.
+kompileerimisreziimi võtit `$I`, mille abil lisatakse programmile `.H` laiendiga failide pascalkeelsed tekstid.
 
 NÄIDE:
 
@@ -144,7 +144,7 @@ end.
 
 ### 2.2 Linkimine
 
-Tuleb  lisada  vastav .ERL laiendiga fail  linkimiskäsu 
+Tuleb  lisada  vastav `.ERL` laiendiga fail  linkimiskäsu 
 parameetrite loetelusse:
 
 ```
