@@ -47,11 +47,11 @@ printeri, "hiirega" töötamiseks jm.
 Kõigi nende protseduuride ja funktsioonide kasutamiseks 
 veendu järgmiste failide olemasolus :
 
-Graph.H        Graph.ERL
-Screen.H       Screen.ERL
-Utilit.H       Utilit.ERL
-Sprite.H1      Sprite.H2      Sprite.ERL
-Disk.H         Disk.ERL
+     Graph.H        Graph.ERL
+     Screen.H       Screen.ERL
+     Utilit.H       Utilit.ERL
+     Sprite.H1      Sprite.H2      Sprite.ERL
+     Disk.H         Disk.ERL
 
 Failis SPRITE.H1 on tüübikirjeldused  spraidiprotseduuridele:
 
@@ -109,6 +109,7 @@ Järgmised protseduurid ja funktsioonid on teekides:
      READDISK            SELECTDISK          SETDMA
      SETSECTOR           SETTRACK            #### `WRITE`
 
+
 ## 2. Teekide kasutamine
 
 
@@ -119,6 +120,7 @@ jaoks tüübi- ja protseduurikirjeldused.  Selleks kasutatakse
 kompileerimisreziimi võtit $I, mille abil lisatakse programmile .H laiendiga failide pascalkeelsed tekstid.
 
 NÄIDE:
+
 ```
 program näide;
 (*$I a:sprite.h1 *)          lisatakse tüübikirjeldused
