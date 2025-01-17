@@ -1,6 +1,7 @@
 # Pascal/MT+ lisateekide pakett arvutile "JUKU"
 
 ```
+
                    *****  Nõo 1990  *****
 
 
@@ -17,7 +18,6 @@
                                          Autor: I.Jentson
 
                                                 Nõo KK AK
-
 
 ```
 
