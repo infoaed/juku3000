@@ -4,7 +4,7 @@ Kataloog väljendab ketastelt taastatud JUKU E5101-E5104 tarkvara 2024 sügise
 seisuga. Tarkvara lisandub ning kirjeldused võivad teadmiste täienedes muutuda.
 Nimekirja autoriteetne kontrollsummadega versioon on:
 
-* https://juku3000.infoaed.ee/tarkvara-kataloog.txt
+* https://j3k.infoaed.ee/tarkvara-kataloog.txt
 
 Samast on leitavad ka kontrollsummadeta teisendused PDFi ja Markdowni. Enamik
 materjalist on allalaaditav aadressil:
