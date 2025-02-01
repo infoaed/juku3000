@@ -20,7 +20,7 @@ Ent mis kasu on opsüsteemist tarkvarata? JUKU [3](https://elektroonikamuuseum.e
 
 Flopiketta kasutamiseks tuleb see emuleeritud JUKUsse sisestada. Selleks on vaja lahti lukustada MAME süsteemiklahvid `Scroll Lock` abiga (tuntud ka kui `MAME Lock`), mille järel saab avada [MAME süsteemimenüü](https://docs.mamedev.org/usingmame/mamemenus.html) vajutades `Tab`.
 
-Flopisid ehk `JUK`-faile saab lisada `File Manageri` alt ja opsüsteemi ketastele lisaks saab vaikimisi valida ka JUKU süsteemikettaid MAME tarkvaranimekirjast (_software list_), rohkem tarkara ja mänge leiab `JUKGAME`/`JUKPROG` seeriast. Emulaatori valmimise puhul andsime välja ka [JUKU 3000 mängude ketta 2024](mängude-ketas-2024.md), mis jäädvustab 2024. aasta novembri veebiemulaatori [`GAME1.JUK`](https://infoaed.ee/juku/game1.juk) ketta seisu. JUKU-aegset pildimaterjali ja kasutajaprogramme leiab veebiemulaatori kettalt [`PROG1.JUK`](https://infoaed.ee/juku/prog1.juk).
+Flopisid ehk `JUK`-faile saab lisada `File Manageri` alt ja vaikimisi saab valida eri JUKU süsteemikettaid MAME tarkvaranimekirjast (_software list_), rohkem tarkvara ja mänge leiab `JUKGAME`/`JUKPROG` seeriast. Emulaatori valmimise puhul andsime välja ka [JUKU 3000 mängude ketta 2024](mängude-ketas-2024.md), mis jäädvustab 2024. aasta novembri veebiemulaatori [`GAME1.JUK`](https://infoaed.ee/juku/game1.juk) ketta seisu. JUKU-aegset pildimaterjali ja kasutajaprogramme leiab veebiemulaatori kettalt [`PROG1.JUK`](https://infoaed.ee/juku/prog1.juk).
 
 MAME flopimenüü | Mängude ketas 2024
 :-------------------------:|:-------------------------:
