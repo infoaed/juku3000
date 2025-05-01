@@ -36,3 +36,4 @@ Asjassepuutuvaid ettevõtmisi:
 * [Eestikeelete mängude Discord](https://discord.gg/nQvCGeNPhr) (Pait Gaming jt)
 * [Kassettilamerit](https://kasettilamerit.fi/en/about/) (Soome unarvara taastajate sait)
 * [Suomen ensimmäinen pelimuseo avataan Tampereella](https://yle.fi/uutiset/3-9354287) (Arvutimängude muuseum Tamperes)
+* [Videospēļu muzejs - Enjoy the Game](https://vgm.lv/en/) (Arvutimängude muuseum Riias)
