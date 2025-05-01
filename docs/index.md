@@ -35,6 +35,7 @@ Asjassepuutuvaid ettevõtmisi:
 * [RAM. Eesti varane arvutikunst](https://kumu.ekm.ee/syndmus/ram-eesti-varane-arvutikunst/) (Kumu arvutigraafika näitus)
 * [Eestikeelete mängude Discord](https://discord.gg/nQvCGeNPhr) (Pait Gaming jt)
 * [Kassettilamerit](https://kasettilamerit.fi/en/about/) (Soome unarvara taastajate sait)
+* [Kallion tietokonemuseo](https://www.kalliontietokonemuseo.fi/en/) (Arvutimuuseum Helsingis)
 * [Suomen ensimmäinen pelimuseo avataan Tampereella](https://yle.fi/uutiset/3-9354287) (Arvutimängude muuseum Tamperes)
 * [Videospēļu muzejs](https://vgm.lv/en/) (Arvutimängude muuseum Riias)
 * [Skaitļošanas tehnikas un informātikas muzejs](https://www.lumii.lv/35/130s/) (Läti Ülikooli arvutustehnika ja informaatika muuseum Riias)
