@@ -37,5 +37,6 @@ Asjassepuutuvaid ettevõtmisi:
 * [Kassettilamerit](https://kasettilamerit.fi/en/about/) (Soome unarvara taastajate sait)
 * [Suomen ensimmäinen pelimuseo avataan Tampereella](https://yle.fi/uutiset/3-9354287) (Arvutimängude muuseum Tamperes)
 * [Videospēļu muzejs](https://vgm.lv/en/) (Arvutimängude muuseum Riias)
+* [Skaitļošanas tehnikas un informātikas muzejs](https://www.lumii.lv/35/130s/) (Läti Ülikooli arvutustehnika ja informaatika muuseum Riias)
 * [Datoru muzejs](https://www.pchistory.lv/) (Arvutimuuseum Siguldas)
 * [Музей советских игровых автоматов](https://15kop.ru/) (NSVLi mänguautomaatide muuseum Peterburis)
