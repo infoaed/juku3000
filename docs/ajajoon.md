@@ -8,7 +8,7 @@ ENSV TA Küb.I AT EKB ehk lühidalt [EKTA](https://et.wikipedia.org/wiki/Arvutus
 
 |||
 |-|-|
-märts    | NLKP määrus arvutioskus kui "teine kirjaoskus"
+märts    | NLKP määrus [arvutioskus kui "teine kirjaoskus"](https://elektroonikamuuseum.ee/failid/1985.03.28_NLKP_maarus_271.pdf)
 mai      | Küberneetika Instituudi nõupidamine, soov "vabariigis endas midagi ette võtta"
 november | Demonstreeritakse kahte kevadel lubatud "töötavat näidist"
 
