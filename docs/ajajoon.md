@@ -57,7 +57,7 @@ detsember | RomBios 3.4
 |-|-|
 jaanuar            | EKDOS 2.29 (ja paralleelselt millagi RomBios 3.43m)
 mai                | "[JUKU konarlik tee](https://www.etera.ee/zoom/29230/view?page=82&p=separate&tool=info&view=0,0,2373,3411)" tootmiseni leiab kajastust partei häälekandjas
-september-oktoober | Kõrgkeeled ja progemistööriistad PASCAL, B80, BASCOM, F80, L80, SID, ASM
+september-oktoober | Kõrgkeeled ja progemistööriistad [PASCAL](pascal/lisateek.md), B80, BASCOM, F80, L80, SID, ASM
 oktoober           | Demod, printeridraiverid, võrguopsüsteem
 november           | Baltijetsi tehas Narvas saab JUKU tehnilise dokumentatsiooni, ülesanne JUKU tootmiseks NSVL ministrite nõukogult
 detsember          | Esimesed 40 JUKU kooliarvutit [tulevad Baltijetsi tootmisliinilt](https://dea.digar.ee/?a=d&d=rahvahaal19891111.2.17&srpos=8&e=-------et-25--1--txt-txIN-------------)
@@ -70,7 +70,7 @@ detsember          | Esimesed 40 JUKU kooliarvutit [tulevad Baltijetsi tootmisli
 |-|-|
 aprill    | Valmib [EKDOS 2.30](https://github.com/infoaed/juku3000/blob/master/src/EKDOS30.ASM) lähtekood
 august    | Baltijetsi E5104 dokumentatsiooni lõplik vormistamine
-detsember | [EKDOS utiliitide DISK #4](https://github.com/infoaed/juku3000/blob/master/docs/ekdos230.txt) pigistab masinast välja viimase -- 80x25 režiim, kopeerimistööriistad CF/JCM/FDMAINT, mängud BUGABOO, CHESS, CATCHUM, LADDER jt
+detsember | [EKDOS utiliitide DISK #4](ekdos230.md) pigistab masinast välja viimase -- 80x25 režiim, kopeerimistööriistad CF/JCM/FDMAINT, mängud BUGABOO, CHESS, CATCHUM, LADDER jt
 
 ## 1990 -- ???
 
