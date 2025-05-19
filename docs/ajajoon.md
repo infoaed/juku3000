@@ -68,7 +68,7 @@ detsember          | Esimesed 40 JUKU kooliarvutit [tulevad Baltijetsi tootmisli
 
 |||
 |-|-|
-aprill    | Valmib [EKDOS 2.30](/src/EKDOS30.ASM) lähtekood
+aprill    | Valmib [EKDOS 2.30](https://github.com/infoaed/juku3000/blob/master/src/EKDOS30.ASM) lähtekood
 august    | Baltijetsi E5104 dokumentatsiooni lõplik vormistamine
 detsember | [EKDOS utiliitide DISK #4](ekdos230.md) pigistab masinast välja viimase -- 80x25 režiim, kopeerimistööriistad CF/JCM/FDMAINT, mängud BUGABOO, CHESS, CATCHUM, LADDER jt
 
