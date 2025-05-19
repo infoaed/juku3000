@@ -42,14 +42,14 @@ jaanuar   | "[Mikroarvuti JUKU](https://github.com/infoaed/juku3000/blob/master/
 märts     | Lindisüsteemiga JUKU [venekeelsed joonised](https://elektroonikafoorum.com/thread-690-post-4164.html#pid4164)
 aprill    | Noorte Hääle artikliseeria "[JUKU, see koolisõbralik arvuti](https://arti.ee/juku/Noorte_H%C3%A4%C3%A4l_1987-04/)"
 september | Avaldamiseks valmis FORMAT, DOSGEN, PIP, SED, GTR, JBASIC, MTPLUS
-september | "[Mikroarvuti JUKU kasutamisjuhend](https://arti.ee/juku/Mikroarvuti%20Juku%20E5101%20kasutamisjuhend%201988%20%28168lk%2C%20eesti%20k%29.pdf)" läheb lõpuks trükki
+september | "[Mikroarvuti JUKU kasutamisjuhend](https://elektroonikamuuseum.ee/failid/juku/kirjandus/Mikroarvuti_JUKU_kasutamisjuhend_1988.pdf)" läheb lõpuks trükki
 okoober   | Diagnostikatööriistad MTEST, MTEST2, CPU, TERM, QRUN, QDISK, TTEST
 november  | Juku ametlik mäng SNAKE (samal aastal ka XONIX)
 detsember | RomBios 3.4
 
 ## 1988 -- Kettasüsteemiga kooliarvuti E5104
 
-* Saab lõpliku kuju enamik [kettaopsüsteemiga JUKU](https://github.com/infoaed/juku3000/blob/master/docs/juku-k%C3%A4sud.md) tarkvarast
+* Saab lõpliku kuju enamik [kettaopsüsteemiga JUKU](juku-k%C3%A4sud.md) tarkvarast
 * Valmivad 40 esimest 1986. aasta alguseks lubatud kooliarvutit JUKU
 * Venekeelne juhend-dokumentatsioon "[Интеллектуальный терминал для систем реального времени E5104](https://arti.ee/juku/JUKU%20E5104%20Kasutusjuhend%203%20osa%20%28286lk%2C%20vene%20k%29.pdf)"
 
@@ -57,7 +57,7 @@ detsember | RomBios 3.4
 |-|-|
 jaanuar            | EKDOS 2.29 (ja paralleelselt millagi RomBios 3.43m)
 mai                | "[JUKU konarlik tee](https://www.etera.ee/zoom/29230/view?page=82&p=separate&tool=info&view=0,0,2373,3411)" tootmiseni leiab kajastust partei häälekandjas
-september-oktoober | Kõrgkeeled ja progemistööriistad [PASCAL](pascal/lisateek.md), B80, BASCOM, F80, L80, SID, ASM
+september-oktoober | Kõrgkeeled ja progemistööriistad PASCAL, B80, BASCOM, F80, L80, SID, ASM
 oktoober           | Demod, printeridraiverid, võrguopsüsteem
 november           | Baltijetsi tehas Narvas saab JUKU tehnilise dokumentatsiooni, ülesanne JUKU tootmiseks NSVL ministrite nõukogult
 detsember          | Esimesed 40 JUKU kooliarvutit [tulevad Baltijetsi tootmisliinilt](https://dea.digar.ee/?a=d&d=rahvahaal19891111.2.17&srpos=8&e=-------et-25--1--txt-txIN-------------)
@@ -68,13 +68,14 @@ detsember          | Esimesed 40 JUKU kooliarvutit [tulevad Baltijetsi tootmisli
 
 |||
 |-|-|
-aprill    | Valmib [EKDOS 2.30](https://github.com/infoaed/juku3000/blob/master/src/EKDOS30.ASM) lähtekood
+aprill    | Valmib [EKDOS 2.30](/src/EKDOS30.ASM) lähtekood
 august    | Baltijetsi E5104 dokumentatsiooni lõplik vormistamine
 detsember | [EKDOS utiliitide DISK #4](ekdos230.md) pigistab masinast välja viimase -- 80x25 režiim, kopeerimistööriistad CF/JCM/FDMAINT, mängud BUGABOO, CHESS, CATCHUM, LADDER jt
 
 ## 1990 -- ???
 
 * Hakatakse valmistama õppematerjale, aga õpilased oma JUKUdel liiguvad kiiresti eest ära
+* Indrek Jentson avaldab [PASCAL/MT+ lisateekide paketi](pascal/lisateek.md), mis leiab laialdast rakendust
 * EKTA ja Baltijets plaanivad [PC/AT-ühilduvat 16-bitist JUKUt](https://www.etera.ee/zoom/22779/view?page=36&p=separate&tool=info&view=0,0,1962,2759)
 * RomBiosi viimane teadaolev versioon PC/AT-klahvistikuga ja seerianumbriga #0043
 
