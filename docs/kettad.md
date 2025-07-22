@@ -158,6 +158,8 @@ export CPMTOOLSFMT
 
 Toetatud kettatüüpide ja -vormingute nimekirju _libdsk_ poolel näitavad `dskutil -types` ja `dskutil -formats`, _cpmtools_ lubatud formaatide nimekirja ei paista väljastavat ja nendega tuleb tutvuda `diskdefs` seadistusfaili tasemel. Õigupoolest on Juku ketaste lugemiseks täiendavate _libdsk_ vahenditeta vaja _cmptoolsi_ lähtekoodi täiendada vaid ühe reaga kahes funktsioons, mis juhendaks neid otsima radu kettatõmmisel õigest kohast ja sellise täiendusega [CpmtoolsGUI](http://star.gmobb.jp/koji/cgi/wiki.cgi?page=CpmtoolsGUI) JUKU versiooni leiab [siit](http://infoaed.ee/juku/CpmtoolsGUI_JUKU.zip).
 
+Alates [2025. aasta juulist](https://github.com/davidgiven/fluxengine/pull/796) suudab ilma lisapingutusteta töödelda JUKU kettaid ka [Fluxengine'i arendusversioon](https://github.com/davidgiven/fluxengine/releases/tag/dev).
+
 Ühesõnaga, on küll mõnevõrra tüütu kaevuda ajalooliste kettaformaatide iseärasustesse, kuid mõningase pusimise ja loomkatsete tulemusel saab ka maailma kõige unikaalsema CP/M kettaformaadi loetud. Juku tunnustuseks võib ütelda, et tõenäoliselt pole kunagi eksisteerinud ühtegi teist arvutisüsteemi, mis oleks ilma pusserdamiseta Juku kettaid suutnud lugeda -- seega kaksteist punkti ja ugrikrüpto eriauhind teadurile, kes selle välja mõtles!
 
 P. S. Füüsilistest ketastest tõmmiste tegemine on ka huvitav, aga eraldi kirjatükki vääriv teema.
