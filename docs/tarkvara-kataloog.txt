@@ -1,6 +1,6 @@
 ﻿# Ketastelt taastatud JUKU tarkvara üldnimekiri
 
-Kataloog väljendab ketastelt taastatud JUKU E5101-E5104 tarkvara 2024 sügise
+Kataloog väljendab ketastelt taastatud JUKU E5101-E5104 tarkvara 2025 kevade
 seisuga. Tarkvara lisandub ning kirjeldused võivad teadmiste täienedes muutuda.
 Nimekirja autoriteetne kontrollsummadega versioon on:
 
@@ -116,6 +116,22 @@ b675fb163bb084071d083b5e9b2c2d8d3645e209  MP80    .       6,3K
 4ae08460a1ba7571a8645395770719541e73a217  SNAKE   .COM     12K  "Ussike" (M.Gladin/EKTA '87)
 186c5d8c5b0385ad7f8396ab6394293cbb0afb64  SNAKE   .DAT    1,0K  
 82867f48001b529bf501063c23a57a647f9ce1d5  XDIR    .COM    2,3K  Failikataloogide näitaja 3.5 (CP/M)
+
+## HEIKITAPE
+
+Kassett oletatava JUKU lindiopsüsteemiga, mis kannab pealkirja `TAPE -HEIKI-
+FOR -JUKU-` ja mille on audiofailiks teisendanud Elektroonikamuuseumi asutaja
+Woldemar 2023. aastal. Audacity AUP3-fail sisaldab 31 minutit ja 33 sekundit
+44100Hz 32-bitiste ujukomaarvude kujul salvestatud kahekanalist audiot,
+mis pärineb helikasseti esimeselt poolelt. Andmesisule eelneb minuti jagu
+muusikat ansamblilt Boney M, kasseti esimesel poolel on kirjad `ROM 2.42` ja
+`=BASIC-80=`, teine kasseti pool oli tühi. Kassett on toodetud Tallinna
+helikassetitehases, magnetlindi tüübiks on märgitud `Fe` ja lint paistab olevat
+algselt sisaldanud "Koorifestival Tallinn '88" materjali.
+
+SIZE: 422M (442472368) / SHA1: 413897f282b622658e40932e0874143c3df6e0b5
+
+f54945992ad490bc7271ba815e017adcf37860ca  REC01   .AUP3    646M  Lindiopsüsteem Heiki kassetilt
 
 ## INDY
 
