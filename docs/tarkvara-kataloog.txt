@@ -120,14 +120,14 @@ b675fb163bb084071d083b5e9b2c2d8d3645e209  MP80    .       6,3K
 ## HEIKITAPE
 
 Kassett oletatava JUKU lindiopsüsteemiga, mis kannab pealkirja `TAPE -HEIKI-`
-`FOR -JUKU-` ja mille on audiofailiks teisendanud Elektroonikamuuseumi asutaja
-Woldemar 2023. aastal. Audacity `AUP3`-fail sisaldab 31 minutit ja 33 sekundit
+ja mille on audiofailiks teisendanud Elektroonikamuuseumi asutaja Woldemar
+2023. aastal. Audacity `AUP3`-fail sisaldab 31 minutit ja 33 sekundit
 44100Hz 32-bitiste ujukomaarvude kujul salvestatud kahekanalist audiot,
 mis pärineb helikasseti esimeselt poolelt. Andmesisule eelneb minuti jagu
-muusikat ansamblilt Boney M, kasseti esimesel poolel on kirjad `ROM 2.42` ja
-`=BASIC-80=`, teine kasseti pool oli tühi. Kassett on toodetud Tallinna
-helikassetitehases, magnetlindi tüübiks on märgitud `Fe` ja lint paistab olevat
-algselt sisaldanud "Koorifestival Tallinn '88" materjali.
+muusikat ansamblilt Boney M, kasseti esimesel poolel on kirjad `FOR -JUKU-`
+`ROM 2.42` ja `=BASIC-80=`, kasseti teine pool oli tühi. Kassett on toodetud
+Tallinna helikassetitehases, magnetlindi tüübiks on märgitud `Fe` ja lint
+paistab olevat algselt sisaldanud "Koorifestival Tallinn '88" materjali.
 
 SIZE: 422M (442472368) / SHA1: 413897f282b622658e40932e0874143c3df6e0b5
 
