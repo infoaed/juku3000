@@ -24,7 +24,7 @@ Drive assignments:
 
 Seejärel kuvatakse opsüsteemi valmisolekut väljendav viip `A>`, mis võimaldab [sisestada käske](#opsusteemi-kasud) või [käivitada programme](#programmifailide-kaivitamine). Näiteks võib alustuseks olla tark vaadata kettal paiknevate failide kataloogi käsuga `DIR` või lugeda kaasa pandud teadet sisestades `TYPE READ.ME`.
 
-Viip on mistahes programmi poolt väljastatav teade, mis näitab, et programm ootab kasutaja edasisi juhiseid. Näiteks püsimonitori viiba `∗` järele `A` või `B` sisestamine käivitab miniassembleri või püsimälu BASIC-interpretaatori, `T` opsüsteemi alglaadimise [^1]. Eri programmidel on eri viibad, mille kasutamine on kirjeldatud nende juhendmaterjalis.
+Viip on mistahes programmi poolt väljastatav teade, mis näitab, et programm ootab kasutaja edasisi juhiseid. Näiteks püsimonitori viiba `∗` järele `A` või `B` sisestamine käivitab miniassembleri või püsimälu BASIC-interpretaatori, `T` opsüsteemi alglaadimise[^1]. Eri programmidel on eri viibad, mille kasutamine on kirjeldatud nende juhendmaterjalis.
 
 > Reaalaja süsteemide intellektuaalse terminali «Juku E5104»[^2] püsimälus sisalduv tarkvara koosneb monitorist, BASIC-keele interpretaatorist, miniassemblerist, andmeside draiveritest ja opsüsteemide alglaaduritest:
 > 
