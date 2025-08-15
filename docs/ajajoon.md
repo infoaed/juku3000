@@ -38,7 +38,7 @@ november | Häälestatakse esimene JUKU, mis valmis algselt korpusi tootma pidan
 
 |||
 |-|-|
-jaanuar   | "[Mikroarvuti JUKU](https://github.com/infoaed/juku3000/blob/master/docs/ekta_juku.pdf)" brošüür
+jaanuar   | "[Mikroarvuti JUKU](ekta_juku.pdf)" brošüür
 märts     | Lindisüsteemiga JUKU [venekeelsed joonised](https://elektroonikafoorum.com/thread-690-post-4164.html#pid4164)
 aprill    | Noorte Hääle artikliseeria "[JUKU, see koolisõbralik arvuti](https://arti.ee/juku/Noorte_H%C3%A4%C3%A4l_1987-04/)"
 september | Avaldamiseks valmis FORMAT, DOSGEN, PIP, SED, GTR, JBASIC, MTPLUS
@@ -62,7 +62,7 @@ oktoober           | Demod, printeridraiverid, võrguopsüsteem
 november           | Baltijetsi tehas Narvas saab JUKU tehnilise dokumentatsiooni, ülesanne JUKU tootmiseks NSVL ministrite nõukogult
 detsember          | Esimesed 40 JUKU kooliarvutit [tulevad Baltijetsi tootmisliinilt](https://dea.digar.ee/?a=d&d=rahvahaal19891111.2.17&srpos=8&e=-------et-25--1--txt-txIN-------------)
 
-## 1989 -- Juku jõuab koolitundi
+## 1989 -- Juku jõuab koolimajja
 
 * Koolid saavad lõpuks endale päriselt [esimesed 500 JUKUt](https://dea.digar.ee/?a=d&d=opetajateleht19900120.1.3&e=-------et-25--1--txt-txIN%7ctxTI%7ctxAU%7ctxTA-------------) -- Nõost kuni Looni
 
@@ -72,7 +72,7 @@ aprill    | Valmib [EKDOS 2.30](https://github.com/infoaed/juku3000/blob/master/
 august    | Baltijetsi E5104 dokumentatsiooni lõplik vormistamine
 detsember | [EKDOS utiliitide DISK #4](ekdos230.md) pigistab masinast välja viimase -- 80x25 režiim, kopeerimistööriistad CF/JCM/FDMAINT, mängud BUGABOO, CHESS, CATCHUM, LADDER jt
 
-## 1990 -- ???
+## 1990 -- Kooliarvuti asub õpetaja rolli
 
 * Hakatakse valmistama õppematerjale, aga õpilased oma JUKUdel liiguvad kiiresti eest ära
 * Indrek Jentson avaldab [PASCAL/MT+ lisateekide paketi](pascal/lisateek.md), mis leiab laialdast rakendust
