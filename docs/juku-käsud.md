@@ -4,7 +4,7 @@
 
 [![EKDOS 2.30 alglaadimine püsimonitorist Rombios 3.43m juhtklahvidega «T», «D», «D»](/images/jukubuut.gif)](https://commons.wikimedia.org/wiki/File:Juku_E5101_booting_up_EKDOS_2.30,_displaying_readme_file_on_screen.webm)
 
-«Juku E5104» opsüsteemi EKDOS alglaadimiseks tuleb vajutada `T`, `D`, `D`, mis pikemalt lahtiseletatuna on:
+«Juku E5104» kettaopsüsteemi EKDOS alglaadimiseks tuleb vajutada `T`, `D`, `D`, mis pikemalt lahtiseletatuna on:
 
 1. paigutada lugemisseadmesse andmekandja opsüsteemiga
 2. anda püsimonitorile juhis `T` opsüsteemi laadimiseks
@@ -41,21 +41,24 @@ Viip on mistahes programmi poolt väljastatav teade, mis näitab, et programm oo
 Käsuprotsessor (KP) vahetab infot kasutaja ja operatsioonisüsteemi vahel. KP loeb ja töötleb klahvistikult[^4] sisestatud käsuridu. KP valmisolekut käsu sisestuseks väljendab viip `A>`. KP sisaldab sõltuvalt opsüsteemi tüübist valiku sisefunktsioone või käsklusi:
 
 `DIR` — mittesüsteemsete failide kataloogi esitus  
-`DIRS` — süsteemsete failide kataloogi esitus  
+`TYPE` — tekstifaili väljastus ekraanile  
 `REN` — failide ümbernimetamine (s: `REN uusnimi=failinimi`)  
 `ERA` — failide kustutamine  
-`REST` — kustutatud failide taastamine  
-`MEM` — üldinfo lindi kohta  
-`TYPE` — tekstifaili väljastus ekraanile  
 `USER` — kasutajanumbri valik (0-15)  
-`DUMP` — faili sisu väljastus 16-ndkoodis  
 `SAVE` — mälu sisu salvestamine faili (s: `SAVE n failinimi`)  
+
+Lindiopsüsteemi puhul on täiendavalt saadaval:
+
+`MEM` — üldinfo lindi kohta  
 `OPEN` — lindi avamine  
 `CLOSE` — lindi sulgemine  
-`MONID` — väljumine monitori  
-`BASIC` — püsimälus oleva BASICu käivitamine  
+`DIRS` — süsteemsete failide kataloogi esitus  
 `LOAD` — faili laadimine lindilt muutmällu  
 `RUN` — laaditud programmi käivitamine  
+`DUMP` — faili sisu väljastus 16-ndkoodis  
+`REST` — kustutatud failide taastamine  
+`BASIC` — püsimälus oleva BASICu käivitamine  
+`MONID` — väljumine monitori  
 
 Andmeid säilitatakse välissalvestil failidena, mille tähistused on kujul:
 
