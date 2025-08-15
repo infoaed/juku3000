@@ -98,7 +98,7 @@ Näide:
 
 ## Programmifailide käivitamine
 
-Valmisprogrammid on kirjutatud assembler- või kõrgkeeles ja transleeritud seejärel mikroprotsessori [KR580VM80A](https://en.wikipedia.org/wiki/KR580VM80A) täidetavasse masinkoodi.
+Valmisprogrammid on kirjutatud assembler- või kõrgkeeles ja transleeritud seejärel mikroprotsessori [KR580VM80A](https://et.wikipedia.org/wiki/KR580VM80A) täidetavasse masinkoodi.
 
 Programmi- ehk laadefaile saab käivitada vastusena KP viibale `A>` opsüsteemi käsklustega samadel alustel. Programmi käivitamisel programminime järgi otsitakse andmekandjalt fail antud nimega ja laiendiga `COM`. Näiteks:
 
