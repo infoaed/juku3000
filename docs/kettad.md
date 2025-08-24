@@ -69,7 +69,7 @@ STAT             |  KULT              |  DOCTOR
 :-------------------------:|:-------------------------:|:-------------------------:
 ![STAT näitab 40 sektorit raja kohta](/images/disk.png) | ![KULT näitab ka paisktabelit](/images/disk4.png) | ![Software Soulutions DISK EDITOR & DIAGNOSTICS annab kõige põhjalikuma ülevaate (aga ei erista 32 baidiseid blokke)](/images/disk2.png)
 
-Juku CP/M-il põhinevale 128-baidisele sektorisuurusele truuks jäädes peaksime määrama `.libdiskrc` failis parameetrid ilmselt nii:
+Juku [CP/M-il põhinevale 128-baidisele sektorisuurusele](https://en.wikipedia.org/wiki/CP/M#Basic_Input_Output_System) truuks jäädes peaksime määrama `.libdiskrc` failis parameetrid ilmselt nii:
 
 ```
 [juku-origin]
