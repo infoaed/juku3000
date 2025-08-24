@@ -4,7 +4,7 @@ Juku 786/788 kB kettad on kahepoolsed topelttihedusega (DSDD) kettad, millel on 
 
 Töö teevad ära [cpmtools](http://www.moria.de/~michael/cpmtools/) ja [libdsk](https://www.seasip.info/Unix/LibDsk/) käsikäes ning vajalikud konfifailid on:
 
-* [diskdefs]([/src/diskdefs](https://github.com/infoaed/juku3000/blob/master/src/diskdefs)) (võib käia nt `/etc/cpmtools` või `/usr/local/share` alla)
+* [diskdefs](https://github.com/infoaed/juku3000/blob/master/src/diskdefs) (võib käia nt `/etc/cpmtools` või `/usr/local/share` alla)
 * [libdskrc](https://github.com/infoaed/juku3000/blob/master/src/libdskrc) (võib käia nt `/usr/local/share/LibDsk` alla või kodukataloogi kujul `.libdskrc`)
 
 Aga huvilistele veidi pikemalt köögipoolest...
