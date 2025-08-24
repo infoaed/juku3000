@@ -69,7 +69,7 @@ STAT             |  KULT              |  DOCTOR
 :-------------------------:|:-------------------------:|:-------------------------:
 ![STAT näitab 40 sektorit raja kohta](/images/disk.png) | ![KULT näitab ka paisktabelit](/images/disk4.png) | ![Software Soulutions DISK EDITOR & DIAGNOSTICS annab kõige põhjalikuma ülevaate (aga ei erista 32 baidiseid blokke)](/images/disk2.png)
 
-Juku algupärasele füüsilisele laotusele truuks jäädes peaksime määrama `.libdiskrc` failis parameetrid ilmselt nii:
+Juku CP/M-il põhinevale 128-baidisele sektorisuurusele truuks jäädes peaksime määrama `.libdiskrc` failis parameetrid ilmselt nii:
 
 ```
 [juku-origin]
@@ -99,7 +99,7 @@ diskdef juku-origin
 end
 ```
 
-Kui lihtsustame aga paisktabeli ja ignoreerime ajaloolisi füüsilisi blokke, siis peaks sobima vastavalt:
+Kui lihtsustame aga paisktabeli ja ühendame CP/M-i 128-baidised sektorid neljakaupa üheks 512-baidiseks füüsiliseks sektoriks, siis peaks sobima vastavalt:
 
 ```
 [juku]
