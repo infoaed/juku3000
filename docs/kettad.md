@@ -15,6 +15,8 @@ FDMAINT             |  DEC Rainbow 100
 
 Ketta loogilise bloki suurus on 4096, igasse sellisesse blokki mahub 32 sektorit, loogilissi blokke mahub kogu ketta mahu sisse 819200/4096 = 200. Kui eeldada, et neist üks on kasutusel failide kataloogimise blokiks ja kaks reserveeritud süsteemi buutimiseks, siis jääb järgi 200-3 = 197. Seega on Juku ketta kasutatav maht 197x4096 = 806 912 baiti, mis on omakorda 806912/1024 = 788 kB.
 
+Kuna loogilise bloki maht on 32x128 = 4096 baiti ja füüsilise raja maht on 40x128 = 5120 baiti, siis isegi kui üks on neist on lihtsalt 4 kB ja teine 5 kB, siis kettaga toimetamise eri tasmetel eri ühikutega opereerimine loob hulga segadust ning muudab keerukamaks andmete struktuuri tuletamise andmete sisust.
+
 ## Juku ketaste spetsiifiline topeltsegadus
 
 Juku EKDOS 2.30 lähtekoodi päises on [dokumenteeritud rasvases kirjas](https://github.com/infoaed/juku3000/blob/master/src/EKDOS30.ASM), et ketta formaadi aluseks on [DEC Rainbow 100](http://www.bitsavers.org/pdf/dec/rainbow/QV069-GZ_Rainbow_100+_100B_Technical_Documentation_Apr85.pdf) flopiformaat. Lähtekood annab ka teada ülejäänud [juba mainitud parameetrid](https://github.com/infoaed/juku3000/blob/master/src/EKDOS30.ASM#L51-L57):
