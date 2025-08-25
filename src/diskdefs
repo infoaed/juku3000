@@ -1,4 +1,4 @@
-# Juku E5101 \w optimized skew (DEC Rainbow 100 feat DSDD)
+# JUKU E5101 \w optimized skew (DEC Rainbow 100 feat DSDD)
 diskdef juku
   seclen 512
   tracks 160
@@ -12,7 +12,7 @@ diskdef juku
   libdsk:format juku
 end
 
-# Juku E5101 original (DEC Rainbow 100 feat DSDD)
+# JUKU E5101 original (DEC Rainbow 100 feat DSDD)
 diskdef juku-origin
   seclen 128
   tracks 160
