@@ -1,5 +1,7 @@
 # Kuidas lugeda/kirjutada JUKU ketaste sisu?
 
+__Aastal 2022 ei olnud veel avalikult dokumenteeritud, millega ja kuidas lugeda JUKU kahepoolseid flopikettaid, ja huvilised katsetasid lugemist eri tööriistadega, saavutades mõnedega neist ka osalist edu. Allolev on kogemuslugu sellest, kuidas võtsin ette, närisin end läbi JUKU flopiketta andmevormingust ja mida ma selle käigus õppisin ja pidasin vajalikuks avalikkusega jagada. Lugu on hiljem täiendatud natuke üldisema raamistusega ja tehniliste soovitustega lõpuosas.__
+
 JUKU 786/788 kB kettad on kahepoolsed topelttihedusega (DSDD) kettad, millel on kummalgi poolel 80 rada, mis on jaotatud 40 sektorisse, millest igaüks mahutab 128 baiti. See teeb kokku 2x80 = 160 rada, 40x128 = 5120 baiti ehk 5 kB ja kokku ketta suuruseks 160x5120 = 819 200 baiti ehk 819 kB. Lugemise teeb keerukaks, et need baidid pole talletatud sisu mõttes mitte järjest, vaid "[segamini paisatud](https://www.seasip.info/Cpm/skew.html)". Seetõttu ei või seda võtta järjestikuse 819 kB andmekogumina ja selle osiste olemasolu ignoreerida, vaid tuleb segadus selle eri taseme põhjusest lähtuvalt likvideerida.
 
 Töö teevad ära [cpmtools](http://www.moria.de/~michael/cpmtools/) ja [libdsk](https://www.seasip.info/Unix/LibDsk/) käsikäes ning vajalikud konfifailid on:
