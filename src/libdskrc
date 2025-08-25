@@ -1,5 +1,5 @@
 [juku]
-description = Juku E5101 5.25" DSDD (2 x 80 x 10 * 512)
+description = JUKU E5101 5.25" DSDD (2 x 80 x 10 * 512)
 sides = outout
 cylinders = 80
 heads = 2
@@ -8,7 +8,7 @@ sectors = 10
 datarate = DD
 
 [juku-origin]
-description = Juku E5101 5.25" DSDD (2 x 80 x 40 * 40 * 32)
+description = JUKU E5101 5.25" DSDD (2 x 80 x 40 * 40 * 32)
 sides = outout
 cylinders = 80
 heads = 2
