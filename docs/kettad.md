@@ -4,7 +4,7 @@ __Aastal 2022 ei olnud veel dokumenteeritud, millega ja kuidas lugeda JUKU kahep
 
 JUKU 786/788 kB kettad on kahepoolsed topelttihedusega (DSDD) kettad, millel on kummalgi poolel 80 rada, mis on jaotatud 40 sektorisse, millest igaüks mahutab 128 baiti. See teeb kokku 2x80 = 160 rada, 40x128 = 5120 baiti ehk 5 kB ja kokku ketta suuruseks 160x5120 = 819 200 baiti ehk 819 kB. Lugemise teeb keerukaks, et need baidid pole talletatud sisu mõttes mitte järjest, vaid "[segamini paisatud](https://www.seasip.info/Cpm/skew.html)". Seetõttu ei või seda võtta järjestikuse 819 kB andmekogumina ja selle osiste olemasolu ignoreerida, vaid tuleb segadus selle eri taseme põhjusest lähtuvalt likvideerida.
 
-Töö teevad ära [cpmtools](http://www.moria.de/~michael/cpmtools/) ja [libdsk](https://www.seasip.info/Unix/LibDsk/) käsikäes ning vajalikud konfifailid on:
+Töö teevad ära [_cpmtools_](http://www.moria.de/~michael/cpmtools/) ja [_libdsk_](https://www.seasip.info/Unix/LibDsk/) käsikäes ning vajalikud konfifailid on:
 
 * [diskdefs](https://github.com/infoaed/juku3000/blob/master/src/diskdefs) (võib käia nt `/etc/cpmtools` või `/usr/local/share` alla)
 * [libdskrc](https://github.com/infoaed/juku3000/blob/master/src/libdskrc) (võib käia nt `/usr/local/share/LibDsk` alla või kodukataloogi kujul `.libdskrc`)
@@ -57,17 +57,17 @@ Kui lähemalt vaadata, siis on näha, et selline paisktabel ehk _skew table_ koo
 
 > "Standard CP/M systems are shipped with a skew factor of 6, where six physical sectors are skipped between each logical read operation. This skew factor allows enough time between sectors for most programs to load their buffers without missing the next sector. In particular computer systems that use fast processors, memory, and disk subsystems, the skew factor might be changed to improve overall response."
 
-Pole teada, kas sellist aeglustamist oli JUKU flopiseadmete puhul reaalselt vaja, aga tänapäeva mõistes on ilmselt tegu tarbetu abinõuga ning seetõttu ei tee me kindlasti midagi halba, kui paisktabelit loetavuse mõttes lihtsustame. Küll aga ei piisa, kui söödame oma lihtsustatud või ka lihtsustamata paisktabeli [cpmtoolsile](https://www.mankier.com/5/diskdefs), sest kuigi ketta algus loetakse enam-vähem, siis esimestest failidest edasi läheb kõik juba parajaks segapudruks.
+Pole teada, kas sellist aeglustamist oli JUKU flopiseadmete puhul reaalselt vaja, aga tänapäeva mõistes on ilmselt tegu tarbetu abinõuga ning seetõttu ei tee me kindlasti midagi halba, kui paisktabelit loetavuse mõttes lihtsustame. Küll aga ei piisa, kui söödame oma lihtsustatud või ka lihtsustamata paisktabeli [_cpmtools_'ile](https://www.mankier.com/5/diskdefs), sest kuigi ketta algus loetakse enam-vähem, siis esimestest failidest edasi läheb kõik juba parajaks segapudruks.
 
 Kui seda valminud putru lähemalt vaadelda, selgub et JUKU kettaformaadil veel teine standardist hälbiv iseärasus, mis ei seostu üldse paisktabelitega ja muudab kettad tavalisi CP/Mi kettalid lugevatele tööriistadele arusaamatuks. Nimelt kirjutatakse JUKU ketta ühe poole rajad täis ja siis minnakse teise poole radu kirjutama uuesti algusest, st ketta teisest servast. [Tavapärane on kirjutada radu](https://www.mankier.com/5/libdskrc) kordamööda ühele ja teisele poolele või hakata rajanumbritega ühte kettaserva jõudes nendega teiselt poolelt tagasi tulema. Seega on JUKU flopidel tavapäraste ketaste suhtes segadus kahes mõttes, esiteks paisktabeli tõttu ja teiseks radade paigutuse tõttu kettal. Ette rutates võib ütelda, et algse hüpoteesi kohaselt kurja juureks oletatud paisktabel osutub radade segaduse lahendamise järel õigupoolest täiesti standardseks.
 
 ## Millega ja mispidi neid siis lugeda?
 
-Tegelikult [cpmtools](http://www.moria.de/~michael/cpmtools/) koos [libdsk](https://www.seasip.info/Unix/LibDsk/) kettaseadetega loeb JUKU diskid edukalt välja. Mõlemad on olemas kõigile viisakatele tänapäeva opsüsteemidele, aga peab veenduma, kas cpmtoolsi seadetes ehk ülal viidatud `diskdef` failis saab viidata libdski seadetes määratletud `.libdskrc` kirjetele. Sisuliselt on vaja teha kahte asja:
+Tegelikult [_cpmtools_](http://www.moria.de/~michael/cpmtools/) koos [_libdsk_'i](https://www.seasip.info/Unix/LibDsk/) kettaseadetega loeb JUKU diskid edukalt välja. Mõlemad on olemas kõigile viisakatele tänapäeva opsüsteemidele, aga peab veenduma, kas _cpmtools_'i seadetes ehk ülal viidatud `diskdef` failis saab viidata _libdsk_'i seadetes määratletud `.libdskrc` kirjetele. Sisuliselt on vaja teha kahte asja:
 
 1. Tuleb `.libdiskrc` failis määratleda kettatõmmis kui kahe lugemispeaga loetav, st parameeter `heads = 2` ja silindrite arvuks määrata ühe poole radade arv `cylinders = 80`. Kettapooltele kirjutatavate radade järjekorra kohta peab ütlema, et neid kirjutatakse ketta väljast sissepoole liikudes järjest ning kui üks pool saab täis, siis jätkatakse teise poolega uuesti väljast sissepoole ehk parameeter `sides = outout`. Kettatõmmise tüübi nimeks määrame JUKU ehk paneme pealkirjaks `[juku]`.
 
-2. Tuleb cpmtoolsi `diskdefs` failis määratleda sobiv radade ja sektorite arv, määratleda eriotstarbelised rajad nagu süsteemile määratud kaks rada parameetriga `boottrk 2` ja failide asukohti kettal kirjeldav rada parameetriga `maxdir 128`. Ütlasi tuleb `diskdefs` failis osutada, et kasutataks libdsk geomeetriat kettapoolte lugemiseks ning seda teeb parameeter `libdsk:format juku`. Siin tuleb nüüd määratleda ka paisktabel ja seda on võimalik määratleda EKDOSi lähtekoodi viisil või lihtsustada nii, nagu ülal osutasin.
+2. Tuleb _cpmtools_'i `diskdefs` failis määratleda sobiv radade ja sektorite arv, määratleda eriotstarbelised rajad nagu süsteemile määratud kaks rada parameetriga `boottrk 2` ja failide asukohti kettal kirjeldav rada parameetriga `maxdir 128`. Ütlasi tuleb `diskdefs` failis osutada, et kasutataks _libdsk_'i geomeetriat kettapoolte lugemiseks ning seda teeb parameeter `libdsk:format juku`. Siin tuleb nüüd määratleda ka paisktabel ja seda on võimalik määratleda EKDOSi lähtekoodi viisil või lihtsustada nii, nagu ülal osutasin.
 
 Kui alustuseks vaadata JUKU enda utiliite, siis need näitavad ketta eri parameetreid samuti üpris erinevalt:
 
@@ -118,7 +118,7 @@ sectors = 10
 datarate = DD
 ```
 
-Ja cpmtoolsi `diskdefs` lühendatud paisktabeliga on lõpuks ketta poolte lugemise segaduse eemaldamise järel täiesti tavaline paiskfaktor väärtusega 2 ehk `skew 2`:
+Ja _cpmtools_'i `diskdefs` lühendatud paisktabeliga on lõpuks ketta poolte lugemise segaduse eemaldamise järel täiesti tavaline paiskfaktor väärtusega 2 ehk `skew 2`:
 
 ```
 # JUKU E5101 \w optimized skew (DEC Rainbow 100 feat DSDD)
@@ -136,17 +136,17 @@ diskdef juku
 end
 ```
 
-Kuna cpmtoolski kõik versioonid libdski kõigi versioonidega praktikas ei ühildu, siis pole välistatud ka `libdsk` geomeetria ignoreerimine, aga sel juhul tuleks kirjeldada kõik sektorid ja plokid ühel rajal ning paisktabelis ära tuua need kõigi sektorite kohta. Selline häkk teeks tabeli umbes 160x10x4 ≈ 6 kB pikkuseks, mis ei ole küll tänapeäva mõistes päris maailmalõpp, aga cpmtools ei pruugi vaikimisi nii pikka tabelit seedida. Libdski seadistamisel võiks doonoriks sobida ka mõne _acorn_ flopi geomeetria, mis on üks väheseid, milles `outout` lugemisviis kasutusel olla olnud (vt ["used by some Acorn formats [and JUKU]"](https://www.mankier.com/5/libdskrc#Parameters)). Lõppeks võib lihtsaim viis Gordioni sõlme raiumiseks olla, kui teha elementaarsed muudatused otse cpmtoolsi lähtekoodi ja kompileerida see ise.
+Kuna _cpmtools_'i kõik versioonid kõigi _libdsk_'i versioonidega praktikas ei ühildu, siis pole välistatud ka _libdsk_'i seadistustes määratletud geomeetria ignoreerimine, aga sel juhul võiks saada näiteks kirjeldada kõik sektorid ja plokid ühel rajal üheainsa suure paisktabelina. Selline häkk teeks tabeli umbes 160x10x4 ≈ 6 kB pikkuseks, mis ei ole küll tänapeäva mõistes päris maailmalõpp, aga _cpmtools_ ei pruugi vaikimisi nii pikka tabelit seedida. _Libdsk_'i seadistamisel võiks doonoriks sobida ka mõne _acorn_ flopi geomeetria, mis on üks väheseid, milles `outout` lugemisviis kasutusel olla olnud (vt ["used by some Acorn formats [and JUKU]"](https://www.mankier.com/5/libdskrc#Parameters)). Lõppeks võib lihtsaim viis Gordioni sõlme raiumiseks olla, kui teha elementaarsed muudatused otse _cpmtools_'i lähtekoodi ja kompileerida see ise.
 
 ## Lõppseis ja töö viljad
 
-Lõpptulemus näeb cpmtoolsi `fsed.cpm -f juku-origin ORIG.CPM` ekraanil välja nii:
+Lõpptulemus näeb _cpmtools_'i `fsed.cpm -f juku-origin ORIG.CPM` ekraanil välja nii:
 
 Info (I)             |  Datamap (M)              |  Kataloogikirje (0x5000)
 :-------------------------:|:-------------------------:|:-------------------------:
 ![JUKU E5101 algupärase laotuse infotabel](/images/info-origin.png) | ![Algupärase laotuse andmekaart](/images/datamap-origin.png) | ![Ketta sisu peaks aga algupärase/optimeeritud versiooni puhul juhul sama olema](/images/data.png)
 
-Ühtlasi peaks töötama kõik [cpmtoolsi käsud](http://www.moria.de/~michael/cpmtools/), millega brausida ketaste sisu ning teha failioperatsioone kopeerimisest kustutamiseni:
+Ühtlasi peaks töötama kõik [_cpmtools_'i käsud](http://www.moria.de/~michael/cpmtools/), millega brausida ketaste sisu ning teha failioperatsioone kopeerimisest kustutamiseni:
 
 ```
 cpmls -f juku DISK.CPM
@@ -162,7 +162,7 @@ CPMTOOLSFMT="juku"
 export CPMTOOLSFMT
 ```
 
-Toetatud kettatüüpide ja -vormingute nimekirju _libdsk_ poolel näitavad `dskutil -types` ja `dskutil -formats`, _cpmtools_ lubatud formaatide nimekirja ei paista väljastavat ja nendega tuleb tutvuda `diskdefs` seadistusfaili tasemel. Õigupoolest on JUKU ketaste lugemiseks täiendavate _libdsk_ vahenditeta vaja _cpmtoolsi_ lähtekoodi täiendada vaid ühe reaga kahes funktsioons, mis juhendaks neid otsima radu kettatõmmisel õigest kohast ja sellise täiendusega [CpmtoolsGUI](http://star.gmobb.jp/koji/cgi/wiki.cgi?page=CpmtoolsGUI) eksperimentaalse JUKU versiooni leiab [siit](http://infoaed.ee/juku/CpmtoolsGUI_JUKU.zip).
+Toetatud kettatüüpide ja -vormingute nimekirju _libdsk_'i poolel näitavad `dskutil -types` ja `dskutil -formats`, _cpmtools_ lubatud formaatide nimekirja ei paista väljastavat ja nendega tuleb tutvuda `diskdefs` seadistusfaili tasemel. Õigupoolest on JUKU ketaste lugemiseks täiendavate _libdsk_'i vahenditeta vaja _cpmtools_'i lähtekoodi täiendada vaid ühe reaga kahes funktsioons, mis juhendaks neid otsima radu kettatõmmisel õigest kohast ja sellise täiendusega [CpmtoolsGUI](http://star.gmobb.jp/koji/cgi/wiki.cgi?page=CpmtoolsGUI) eksperimentaalse JUKU versiooni leiab [siit](http://infoaed.ee/juku/CpmtoolsGUI_JUKU.zip).
 
 Alates [2025. aasta juulist](https://github.com/davidgiven/fluxengine/pull/796) suudab aga lisapingutusteta töödelda JUKU kettaid ka [Fluxengine'i arendusversioon](https://github.com/davidgiven/fluxengine/releases/tag/dev).
 
