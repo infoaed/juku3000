@@ -119,7 +119,7 @@ SIZE: `800K` (`819200`) / SHA1: `2bd379212078b892ad07766007507b02bbda3703`
 
 ## HEIKITAPE
 
-Kassett oletatava JUKU lindiopsüsteemiga, mis kannab pealkirja `TAPE -HEIKI-`
+JUKU helikasseti kujul andmekandja, mis kannab pealkirja `TAPE -HEIKI-`
 ja mille on audiofailiks teisendanud Elektroonikamuuseumi asutaja Woldemar
 2023. aastal. Audacity `AUP3`-fail sisaldab 31 minutit ja 33 sekundit
 44100Hz 32-bitiste ujukomaarvude kujul salvestatud kahekanalist audiot,
