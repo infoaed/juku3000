@@ -131,7 +131,26 @@ paistab olevat algselt sisaldanud "Koorifestival Tallinn '88" materjali.
 
 SIZE: `422M` (`442472368`) / SHA1: `413897f282b622658e40932e0874143c3df6e0b5`
 
-``REC01   .AUP3  646M``    Lindiopsüsteem Heiki kassetilt  
+``B80T    .COM    24K``    BASIC-80 5.21/TAPE (Microsoft '81)  
+``SAL     .BAS   2,0K``      
+``TAR     .DAT    14K``      
+``TART    .DAT   6,0K``      
+``TARTU1  .DAT   4,0K``      
+``TARTU2  .DAT   8,0K``      
+``TARTU3  .DAT    16K``      
+``TARTU4  .DAT    16K``      
+``TARTU   .DAT   4,0K``      
+``T@@     .BAS   4,0K``      
+``T@@T    .BAS   4,0K``      
+``VAD     .DAT    10K``      
+``VADJA3  .DAT   6,0K``      
+``VADJA4  .DAT    14K``      
+``VADJA5  .DAT    14K``      
+``VADJA   .DAT   8,0K``      
+``VIL     .DAT   2,0K``      
+``V@RU1   .DAT    10K``      
+``V`RU2   .DAT    12K``      
+``V`RU    .DAT    10K``      
 
 ## INDY
 
