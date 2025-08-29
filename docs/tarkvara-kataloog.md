@@ -1,20 +1,21 @@
 ﻿# Ketastelt taastatud JUKU tarkvara üldnimekiri
 
-Kataloog väljendab ketastelt taastatud JUKU E5101-E5104 tarkvara 2025 kevade
-seisuga. Tarkvara lisandub ning kirjeldused võivad teadmiste täienedes muutuda.
-Nimekirja autoriteetne kontrollsummadega versioon on:
+Kataloog väljendab ketastelt, lintidelt ja mälukividelt taastatud
+JUKU E5101-E5104 tarkvara 2025. aasta hilissuve seisuga. Materjale
+lisandub ning kirjeldused võivad teadmiste täienedes muutuda. Nimekirja
+autoriteetne kontrollsummadega versioon on:
 
 * https://j3k.infoaed.ee/tarkvara-kataloog.txt
 
-Samast on leitavad ka kontrollsummadeta teisendused PDFi ja Markdowni. Enamik
-materjalist on allalaaditav aadressil:
+Samast on leitavad ka kontrollsummadeta teisendused PDFi ja Markdowni.
+Enamik materjalist on allalaaditav aadressil:
 
 * https://elektroonikamuuseum.ee/failid/juku/tarkvara/
 
-Kasutajasektsioonid on nummerdatud alates esimesest, kustutatud failid on
-sektsioonis `E5`. Osaliselt taastatud ketaste puhul märgib 0/0 vigaste sektorite
-hulka ketta kummalgi poolel, nt 0/32 märgib 32 vigast sektorit ketta teisel
-poolel.
+Kasutajasektsioonid on nummerdatud alates esimesest, kustutatud failid
+on sektsioonis `E5`. Osaliselt taastatud ketaste puhul märgib 0/0
+vigaste sektorite hulka ketta kummalgi poolel, nt 0/32 märgib 32 vigast
+sektorit ketta teisel poolel.
 
 ## EMUSYS1
 
