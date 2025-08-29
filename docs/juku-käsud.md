@@ -135,7 +135,7 @@ KP moodustab nendest parameetritest süsteemiparameetrite tsooni (ST) ühe või 
 >        | `FF46`: Süsteemiväljad
 >        | `FF68`: BIOSi põhifunktsioonid
 >
-> Tarbijatsoonis asuvad kasutajaprogrammid, mis on andmekandjalt mäl­lu laaditud. Näiteks teksti redigeerimise ajal sisaldab TT tekstitoimetit ja toimetatavat teksti ennast. Mälujaotus võib detailildes erineda sõltuvalt opsüsteemi tüübist ja versioonist, nt lindiopsüsteemi BLOS puhul lõpeb TT aadressil `BEFF`, `BFC0`-`C7BF` asetseb täiendav 2KB OMP puhver, `D200`-`D5FF` paikneb lindifailide kataloog ja ST #2 algab `D600`.[^1][^2]
+> Tarbijatsoonis asuvad kasutajaprogrammid, mis on andmekandjalt mäl­lu laaditud. Näiteks teksti redigeerimise ajal sisaldab TT tekstitoimetit ja toimetatavat teksti ennast. Mälujaotus võib detailildes erineda sõltuvalt opsüsteemi tüübist ja versioonist, nt lindiopsüsteemi püsivara ehk BLOSi puhul lõpeb TT aadressil `BEFF`, `BFC0`-`C7BF` asetseb täiendav 2KB OMP puhver, `D200`-`D5FF` paikneb lindifailide kataloog ja ST #2 algab `D600`.[^1][^2]
 
 ## Kasulikke juhtklahve
 
