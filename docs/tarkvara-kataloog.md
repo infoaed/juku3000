@@ -1,8 +1,8 @@
 ﻿# Ketastelt taastatud JUKU tarkvara üldnimekiri
 
 Kataloog väljendab ketastelt, lintidelt ja mälukividelt taastatud
-JUKU E5101-E5104 tarkvara 2025. aasta hilissuve seisuga. Materjale
-lisandub ning kirjeldused võivad teadmiste täienedes muutuda. Nimekirja
+JUKU E5101-E5104 tarkvara hilissuve 2025 seisuga. Materjale lisandub
+ning kirjeldused võivad teadmiste täienedes muutuda. Nimekirja
 autoriteetne kontrollsummadega versioon on:
 
 * https://j3k.infoaed.ee/tarkvara-kataloog.txt
