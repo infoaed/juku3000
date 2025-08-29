@@ -133,7 +133,7 @@ paistab olevat algselt sisaldanud "Koorifestival Tallinn '88" materjali.
 SIZE: `422M` (`442472368`) / SHA1: `413897f282b622658e40932e0874143c3df6e0b5`
 
 ``B80T    .COM    24K``    BASIC-80 5.21/TAPE (Microsoft '81)  
-``SAL     .BAS   2,0K``      
+``SAL     .BAS   2,0K``    Programm "Arheoloogi rõõm" ('88)  
 ``TAR     .DAT    14K``      
 ``TART    .DAT   6,0K``      
 ``TARTU1  .DAT   4,0K``      
@@ -142,7 +142,7 @@ SIZE: `422M` (`442472368`) / SHA1: `413897f282b622658e40932e0874143c3df6e0b5`
 ``TARTU4  .DAT    16K``      
 ``TARTU   .DAT   4,0K``      
 ``T@@     .BAS   4,0K``      
-``T@@T    .BAS   4,0K``      
+``T@@T    .BAS   4,0K``    "Arheoloogi rõõmu" andmetöötlus  
 ``VAD     .DAT    10K``      
 ``VADJA3  .DAT   6,0K``      
 ``VADJA4  .DAT    14K``      
