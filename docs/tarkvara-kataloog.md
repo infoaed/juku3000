@@ -575,9 +575,10 @@ SIZE: `800K` (`819200`) / SHA1: `7ac496b74bc5f0d6beeae5231b3f379b53ad8284`
 
 Mälukividelt taastatud JUKU püsimälu monitorid ja laiendused, eri aegadel sisse lugenud
 või kokku kogunud Pehka1985, Woldemar jt. Püsivara `2.*` seeria on üldiselt lindisüsteemi
-jaoks ja `3.*` seeria ümbrikketaste jaoks. RomBios 2.43m esimese kivi kontrollsumma ei klapi,
-Monitor 2.2 seitsmes kivi on loetud paari veaga ja kaheksas kivi kokku 50 lahknevusega seitsme
-lugemiskorra vahel.
+jaoks ja `3.*` seeria flopiajamite jaoks, sj enamik FD1793 jaoks, FD1791 tarvis on
+Monitor 3.3 ja EKTA seeria #0024. EKTA seeria #0043 esimese kivi kontrollsumma ei klapi,
+Monitor 2.2 seitsmes kivi on loetud paari veaga ja kaheksas kivi kokku 50 lahknevusega
+seitsme lugemiskorra vahel.
 
 SIZE: `83K` (`84655`) / SHA1: `3c941292e065fcc8eb2713d165fd4685a76a62ec`
 
