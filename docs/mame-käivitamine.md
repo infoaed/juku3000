@@ -16,7 +16,7 @@ JUKU E5104 opsüsteemi EKDOS alglaadimiseks tuleb vajutada `T`, `D`, `D`, täpse
 
 ## Tarkvara käivitamine
 
-Ent mis kasu on opsüsteemist tarkvarata? JUKU [3](https://elektroonikamuuseum.ee/juku_arvuti_tarkvara.html)+[1](ekdos230.md) süsteemiketast koos tarkvaraga on MAME tarkvaranimekirjast leitavad alates versioonist 0.274, täiendavat tarkvara leiab Elektroonikamuuseumi [JUKU failivaramust](https://elektroonikamuuseum.ee/failid/juku/tarkvara/).
+Ent mis kasu on opsüsteemist tarkvarata? JUKU [3](https://elektroonikamuuseum.ee/juku_arvuti_tarkvara.html)+[1](ekdos230.md) süsteemiketast koos tarkvaraga on MAME tarkvaranimekirjast leitavad alates versioonist 0.274, ajaloolisi flopisid leiab Elektroonikamuuseumi [JUKU failivaramust](https://elektroonikamuuseum.ee/failid/juku/tarkvara/), enamik tarkvarast on kirjeldatud [kataloogis](tarkvara-kataloog.md).
 
 Flopiketta kasutamiseks tuleb see emuleeritud JUKUsse sisestada. Selleks on vaja lahti lukustada MAME süsteemiklahvid `Scroll Lock` abiga (tuntud ka kui `MAME Lock`), mille järel saab avada [MAME süsteemimenüü](https://docs.mamedev.org/usingmame/mamemenus.html) vajutades `Tab`.
 
@@ -28,11 +28,10 @@ MAME flopimenüü | Mängude ketas 2024
 
 Aktiivset ketast saad EKDOSis vahetada viiba järele kettatähise ja kooloni kirjutamisega (nt `A:` või `B:`), tarkvara ehk `COM`-laadefaile saad käivitada sisestades viiba järele soovitud programmi nime. Failide nimekirja kettal näitab käsklus `DIR`. Süsteemi töökorras olemise kontrolliks võid proovida, kas saad `GAME1.JUK` kettalt käima [tuntud JUKU mängu INDY](https://et.wikipedia.org/wiki/Indy_looking_for_Jewels...).
 
-JUKU tarkvara kataloogi koos kirjeldustega leiad [siit](tarkvara-kataloog.md), ketastega ümberkäimise tehnilise juhendi [siit](kettad.md).
-
 Üldiselt on tark esimese asjana MAMEs lülitada JUKU puhul välja kõik _bilinear filtering_ sätted, mis sobivad udusema pildiga telekamängude jaoks, kuid mitte kooliarvutile (nt `General Settings` -> `Video Options` alt, ära unusta pärast üldmenüüst valida `Save Settings`).
 
-Kui teed JUKU mängudest või tarkvarast ekraanivideoid, siis [tee neid õigesti](videod.md)!
+* Kui teed JUKU mängudest või tarkvarast ekraanivideoid, siis [tee neid õigesti](videod.md)!
+* Kui soovid luua ise JUKU kettatõmmiseid, siis selleks on siin [tehniline juhend](kettad.md)!
 
 Kui soovid katsetada JUKUl programmeerimist, võid lapata läbi [slaidid JUKU tarkvara ökosüsteemist](https://p6drad-teel.net/~p6der/juku-hingeelu_2024_videota.pdf) ning seejärel proovida kompilaatorite-linkurite koondketast [`TERE.JUK`](https://github.com/infoaed/juku3000/raw/refs/heads/master/src/juhan/tere.juk).
 
