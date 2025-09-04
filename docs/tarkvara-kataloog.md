@@ -573,8 +573,11 @@ SIZE: `800K` (`819200`) / SHA1: `7ac496b74bc5f0d6beeae5231b3f379b53ad8284`
 
 ## JUKUROMS
 
-Mälukividelt taastatud JUKU püsimälu monitorid ja laiendused, eri aegadel sisse lugenud või kokku kogunud Pehka1985, Woldemar jt. Püsivara `2.*`
-seeria on üldiselt lindisüsteemi jaoks ja `3.*` seeria ümbrikketaste jaoks.
+Mälukividelt taastatud JUKU püsimälu monitorid ja laiendused, eri aegadel sisse lugenud
+või kokku kogunud Pehka1985, Woldemar jt. Püsivara `2.*` seeria on üldiselt lindisüsteemi
+jaoks ja `3.*` seeria ümbrikketaste jaoks. RomBios 2.43m esimese kivi kontrollsumma ei klapi,
+Monitor 2.2 seitsmes kivi on loetud paari veaga ja kaheksas kivi kokku 50 lahknevusega seitsme
+lugemiskorra vahel.
 
 SIZE: `83K` (`84655`) / SHA1: `3c941292e065fcc8eb2713d165fd4685a76a62ec`
 
@@ -585,7 +588,7 @@ SIZE: `83K` (`84655`) / SHA1: `3c941292e065fcc8eb2713d165fd4685a76a62ec`
 ``EKTA43  .BIN    16K``    RomBios 2.43m, AT keyb (#0043 '90)  
 ``JBASIC11.BIN   8,0K``    EKTA JBASIC 1.1? ('87)  
 ``JMON22  .BIN    16K``    Monitor 2.2, JBASIC ('85)  
-``JMON33  .BIN    16K``    Monitor 3.3, JBASIC ('85)  
+``JMON33  .BIN    16K``    Monitor/Bootstrap 3.3, JBASIC ('85)  
 
 ## JUKUSYS
 
