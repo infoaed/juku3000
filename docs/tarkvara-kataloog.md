@@ -2208,13 +2208,114 @@ SIZE: `800K` (`819200`) / SHA1: `b7efca324ddffc6c31476adff2228e3b5e2e792e`
 ``SEIN    .PCC   1,0K``      
 ``SIHTP   .PCC   1,0K``      
 
-## VAKSTU05
+## VAKSTU02
 
 Füüsilised flopid VAKSTU seeriast andis lugemiseks Kalle Tomingas detsembris 2024.
 Seitsmest flopist olid kolm JUKU omad, millest kaks loeti sisse probleemideta.
-Kettal on EKDOS 2.29, alglaadimisel kuvatakse kohandatud teadet `VSW tööketas (c)`
-ja `SKC-Floppy Disk`, käsk `DIR` on keelatud. Flopide lugemiseks kasutati
-Greaseweazle'it koos TEAC'i flopilugejaga.
+Ketas on loetud välja vigaselt, sj mõlemal poolel on kokku hinnanguliselt 133 halba sektorit,
+kettast on välja loetud 58%. Flopide lugemiseks kasutati Greaseweazle'it koos TEAC'i flopilugejaga.
+
+SIZE: `800K` (`819200`) / SHA1: `05cdb99b04b1972118acf95119cda4a7dd297c82`
+
+``3VMUSIC .COM   6,3K``      
+``ADDR    .ASM   1,0K``      
+``ASM     .      4,2K``      
+``AVTEST  .COM    14K``      
+``BEEP    .ASM    896``      
+``BOW     .COM    12K``      
+``CE      .ASM   1,2K``      
+``CODE    .ASM    640``      
+``COPY    .ASM   2,9K``      
+``CPFH80  .COM    512``      
+``DEMO    .      8,2K``      
+``DEMO    .COM   5,2K``    Audio-Video-Text demod (EKTA '88)  
+``DEMO    .HLP   3,5K``    DEMO abifail  
+``DIGGER  .COM   1,2K``    Residentne tähesadu?  
+``DISASM  .COM   8,3K``      
+``DTTEST  .COM    14K``      
+``EXER1   .CLG    128``      
+``GOLO    .COM    11K``      
+``GRAPH   .       896``      
+``GRDEMO  .COM    20K``      
+``H2      .ASM    384``      
+``HELP    .SYM   1,2K``      
+``HIIR    .COM    512``      
+``KAOTAJA .COM    12K``      
+``KAP     .COM    32K``    "Merelahing" (ed K.Koppel)  
+``KAPU    .BAS    19K``      
+``KETAS   .ASM   1,4K``      
+``KETAS   .COM    640``      
+``KULT    .COM    12K``      
+``KUMMARDA.PAS    640``      
+``KUVA    .COM    768``      
+``KYU     .      2,8K``      
+``L1      .ASM   9,9K``      
+``LADTAB  .COM    12K``      
+``LF      .ASM    15K``      
+``LF      .COM   2,0K``      
+``LISATEEK.       27K``      
+``LOAD1   .ASM   1,0K``      
+``LOAD2   .ASM   6,4K``      
+``LOGER   .      5,3K``      
+``LOGER   .COM    32K``      
+``LUKK    .$$$    128``      
+``M80     .COM    20K``      
+``MARGID  .PAS   1,5K``      
+``MAUMAU  .COM   2,5K``      
+``MODE    .ASM    896``      
+``MODX    .COM   3,5K``      
+``MOUSE   .ASM   2,7K``      
+``MR      .ASM   2,7K``      
+``MVDOS   .ASM    512``      
+``OP      .ASM   3,4K``      
+``PALL    .COM   1,7K``      
+``P       .ASM   9,5K``      
+``PLAY    .ASM   1,5K``      
+``PLAYER  .ASM   2,5K``      
+``PMOOD   .ASM   3,7K``      
+``PORKA   .COM    13K``      
+``POWER   .       28K``      
+``PRT     .COM   4,0K``      
+``PS      .COM    15K``      
+``RAKETT  .COM    11K``      
+``RALLY   .ASM    768``      
+``R       .ASM   1,3K``      
+``RCOPY   .COM    14K``      
+``RG      .ASM   1,9K``      
+``RS      .MAC   2,4K``      
+``S       .ASM    512``      
+``SEIKO   .COM   1,8K``    Seikosha SP-800 driver  
+``SP      .ASM    256``      
+``SPEED   .ASM   1,8K``      
+``SPEEDY  .PAS   1,2K``      
+``STJUKU  .COD    16K``      
+``STOP    .ASM    640``      
+``STOP    .COM    128``      
+``SY      .ASM    12K``      
+``SYMB    .PAS   1,5K``      
+``SYNT    .ASM    12K``      
+``SYSINFO .COM   1,2K``    Põhiteave süsteemi kohta (CP/M)  
+``TANK    .COM    15K``    Tank UFOde vastu (=Sabotage/Invaders)  
+``TEST    .COM    16K``      
+``TIMER   .ASM   1,3K``      
+``TRANS   .ASM    128``      
+``TRIPS   .COM    512``      
+``TURMIIT .COM   7,4K``      
+``V1      .ASM   1,2K``      
+``VIIR1   .ASM    768``      
+``VVV     .COM   7,5K``      
+``YL0     .LOG    256``      
+``YL1     .LOG    896``    LOGERi ülesanne #1  
+``YL2     .LOG    640``      
+``YL3     .LOG    896``      
+``YL4     .LOG   1,7K``    LOGERi ülesanne #4  
+``YL5     .LOG    768``      
+
+## VAKSTU05
+
+VAKSTU seeria flopi andis lugemiseks Kalle Tomingas detsembris 2024. Kettal on EKDOS 2.29,
+alglaadimisel kuvatakse kohandatud teadet `VSW tööketas (c)` ja `SKC-Floppy Disk`,
+käsk `DIR` on keelatud. Seeria kohta vt täpsemalt  eelmiste flopide kirjeldustest.
 
 SIZE: `800K` (`819200`) / SHA1: `b91edfdbee67cee8fed9429340f2a72140e576e3`
 

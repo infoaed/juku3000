@@ -2208,13 +2208,114 @@ e2544071af4e98c70e70b055b14278a43db6b8b2  RUUT    .PCC    1,0K
 e2544071af4e98c70e70b055b14278a43db6b8b2  SEIN    .PCC    1,0K  
 5f9c2b812c85af3544cecb8adf330bd1d4380d89  SIHTP   .PCC    1,0K  
 
-## VAKSTU05
+## VAKSTU02
 
 Füüsilised flopid VAKSTU seeriast andis lugemiseks Kalle Tomingas detsembris 2024.
 Seitsmest flopist olid kolm JUKU omad, millest kaks loeti sisse probleemideta.
-Kettal on EKDOS 2.29, alglaadimisel kuvatakse kohandatud teadet `VSW tööketas (c)`
-ja `SKC-Floppy Disk`, käsk `DIR` on keelatud. Flopide lugemiseks kasutati
-Greaseweazle'it koos TEAC'i flopilugejaga.
+Ketas on loetud välja vigaselt, sj mõlemal poolel on kokku hinnanguliselt 133 halba sektorit,
+kettast on välja loetud 58%. Flopide lugemiseks kasutati Greaseweazle'it koos TEAC'i flopilugejaga.
+
+SIZE: 800K (819200) / SHA1: 05cdb99b04b1972118acf95119cda4a7dd297c82
+
+8cf1e15b254ef2dd035927bd864f992c99dbfce9  3VMUSIC .COM    6,3K  
+155aaa3aa9d211806030308ebca20af916e95abd  ADDR    .ASM    1,0K  
+77fa408091b598eb0ea9f8d82e8482f24501910d  ASM     .       4,2K  
+edb6a412f5a30884b1952c9f4147c333084aa730  AVTEST  .COM     14K  
+caa029a25892c95c89c5fa78318168c3981beb3c  BEEP    .ASM     896  
+feacf91e071ca8550e7f7e948ef7f923906bb7a2  BOW     .COM     12K  
+3bb59ac490d81ba6fd10c2c4ead641b117063c32  CE      .ASM    1,2K  
+c73e7296ac11ccfbb0148850254d628112b91b07  CODE    .ASM     640  
+6935a36b312e3c7c35253ea1661c103360c26817  COPY    .ASM    2,9K  
+b4260c52f8b550bedfd66ee90c7e30fce2f456dd  CPFH80  .COM     512  
+111fcc3d5d91c8973b1b4f61b7aef43e52c28e25  DEMO    .       8,2K  
+0dec3d02617ed3fb77b98473bb8f8ee3749768aa  DEMO    .COM    5,2K  Audio-Video-Text demod (EKTA '88)
+cbe12c7b51dfcbf8107f072adf2100680878eb53  DEMO    .HLP    3,5K  DEMO abifail
+e6e113b0d8bbf3fd746db85c1f1d1d790e237a40  DIGGER  .COM    1,2K  Residentne tähesadu?
+39311c39ed2258f8c4da5f49e4cdd0448204e69a  DISASM  .COM    8,3K  
+eaf92fb700e0c929d429dc788e7c982590fb3863  DTTEST  .COM     14K  
+9ffe3f4eaa69b03795c30483356006fda556255c  EXER1   .CLG     128  
+088d6e3bd0bcda303bc013937a7314fe9efbc259  GOLO    .COM     11K  
+caa029a25892c95c89c5fa78318168c3981beb3c  GRAPH   .        896  
+933b44374e027d763f5e26036331e1e2fc0154d4  GRDEMO  .COM     20K  
+4f93e60ce27034c9c8ef0e0295faf24c2c64e4a8  H2      .ASM     384  
+3bb59ac490d81ba6fd10c2c4ead641b117063c32  HELP    .SYM    1,2K  
+6f737f91f66e9284c3ec0cc94cdfb61bd1041045  HIIR    .COM     512  
+7518f6749fad855f7c414b9b489fde00e97cb703  KAOTAJA .COM     12K  
+1fa5d560965f48259843a588dce3c4de38b2e570  KAP     .COM     32K  "Merelahing" (ed K.Koppel)
+afbe7e5ad3dca308a1877dd4bc999c0314470a6c  KAPU    .BAS     19K  
+47bcf2c536965330d688804b1d662bd4b242ff99  KETAS   .ASM    1,4K  
+c73e7296ac11ccfbb0148850254d628112b91b07  KETAS   .COM     640  
+5cf35e3f781757566226c7003369e3b4e9a0fd27  KULT    .COM     12K  
+30fe44898b421c9ba2612051b7a35a96cef1b7da  KUMMARDA.PAS     640  
+a81dd8fc75e67afa515e43de37dc95b7b56db90a  KUVA    .COM     768  
+a698eee4212edb84c877978c366efb72b878ce09  KYU     .       2,8K  
+39ac902a98ebebc0e110e489fc8b249a39340848  L1      .ASM    9,9K  
+744e48920eaf86808642ee5e8eae1bc64051ea07  LADTAB  .COM     12K  
+5ab607ecd2a4bca456592c3ca347c608ca836bd8  LF      .ASM     15K  
+f082fa1a897bc1aaa37cef38eaa1e42c378c66b4  LF      .COM    2,0K  
+2bb8ac91aab41fdd3721354f1959fede55212c3d  LISATEEK.        27K  
+155aaa3aa9d211806030308ebca20af916e95abd  LOAD1   .ASM    1,0K  
+a2d4a75b53db95e68677f7efb0047636f95ecf50  LOAD2   .ASM    6,4K  
+de0927c646911345dafb0493de5e0f05b40d10e6  LOGER   .       5,3K  
+a54e00f73574d2a03f3be7be65b21f689e37f04f  LOGER   .COM     32K  
+20cbbf2f09aa2f70d89d1602aef5af7863c40b0c  LUKK    .$$$     128  
+2c9d8b68142ee003ddc8e8be4d3f607ec82be510  M80     .COM     20K  
+04a324e877888021d74552a645aa10a545b5dd0e  MARGID  .PAS    1,5K  
+c6e38456d7938fd19de4db88c91be8995acd10d2  MAUMAU  .COM    2,5K  
+caa029a25892c95c89c5fa78318168c3981beb3c  MODE    .ASM     896  
+3808996bb3617daaebb2ad7f7c492adc9ea53f5c  MODX    .COM    3,5K  
+71228e8af7a947265197ab7d51940b28e7f9a19d  MOUSE   .ASM    2,7K  
+71228e8af7a947265197ab7d51940b28e7f9a19d  MR      .ASM    2,7K  
+6f737f91f66e9284c3ec0cc94cdfb61bd1041045  MVDOS   .ASM     512  
+94e8fe541e97aecd50ee701b960a840acd20e666  OP      .ASM    3,4K  
+82b250ca593dfe06bc5e63ff18c8695a7fbc4ffb  PALL    .COM    1,7K  
+6184e9640a2c7cb9586f6d159b90cdcc0e8678a3  P       .ASM    9,5K  
+0c3766786739a4dc839a8cf5abed32c9eab9729e  PLAY    .ASM    1,5K  
+cd942f2596ad06cec14fc6ef28f84474ea783891  PLAYER  .ASM    2,5K  
+079254eca01e0182cd6517440c1c0b757c618035  PMOOD   .ASM    3,7K  
+7b0760429060d02fbf4114d2f19b7e35ca698079  PORKA   .COM     13K  
+eadade8589391c89b5e2168d9c577e0df23241aa  POWER   .        28K  
+bf448fd1e6f6c9addf798f6068d4179755b4f4ec  PRT     .COM    4,0K  
+9276a319ce88027c739dd4aa8a0107d052e6409c  PS      .COM     15K  
+4dcb98f41a30013a804cb62dc8ba19210d7eb150  RAKETT  .COM     11K  
+a81dd8fc75e67afa515e43de37dc95b7b56db90a  RALLY   .ASM     768  
+bd162da0301e1db852f0f4471b851f9d2f211455  R       .ASM    1,3K  
+977e8c5a865eb41c996019eb4787552746b93f90  RCOPY   .COM     14K  
+35d4c4568da13fdb6d73eaa68c45bae9cfdd57ac  RG      .ASM    1,9K  
+2b7e211e0358f53d65f353d1063520f181bb7124  RS      .MAC    2,4K  
+6f737f91f66e9284c3ec0cc94cdfb61bd1041045  S       .ASM     512  
+71f0f0c17469af5938bff6e9e578d3a86821d0b3  SEIKO   .COM    1,8K  Seikosha SP-800 driver
+bfce8d900fa566174ae55ecbbfddb154c276d674  SP      .ASM     256  
+23d43d7a9be688b2432acfb45bbc1db950e6f54b  SPEED   .ASM    1,8K  
+c260c6095dca2f1f685a8ae3429855ff066738f6  SPEEDY  .PAS    1,2K  
+913c9a3066c5f533c156c5701ad9ef91767d98f3  STJUKU  .COD     16K  
+c73e7296ac11ccfbb0148850254d628112b91b07  STOP    .ASM     640  
+9ffe3f4eaa69b03795c30483356006fda556255c  STOP    .COM     128  
+667089e31937733bc2fb167b8631d2d43522082c  SY      .ASM     12K  
+e69d1b4b65a82ed7ed49d44cf813a9b1816824ce  SYMB    .PAS    1,5K  
+054ce80713c995de419c107c97dfbe92aaabe2f8  SYNT    .ASM     12K  
+d282f98615b478df4115dc480c62d2c6808645c0  SYSINFO .COM    1,2K  Põhiteave süsteemi kohta (CP/M)
+d31ad7cb404ab371d4b3e8dbe4bdf255dab42ff9  TANK    .COM     15K  Tank UFOde vastu (=Sabotage/Invaders)
+b97917c2cbefd1f28ebd893c4f90b06c3a601fae  TEST    .COM     16K  
+bd162da0301e1db852f0f4471b851f9d2f211455  TIMER   .ASM    1,3K  
+9ffe3f4eaa69b03795c30483356006fda556255c  TRANS   .ASM     128  
+f279eb24fabc9122d47944dbf9c98468ac9f100f  TRIPS   .COM     512  
+841f12b2c4563522c812198693de9c528e5facfb  TURMIIT .COM    7,4K  
+3bb59ac490d81ba6fd10c2c4ead641b117063c32  V1      .ASM    1,2K  
+a81dd8fc75e67afa515e43de37dc95b7b56db90a  VIIR1   .ASM     768  
+9062204596c341c247b83ddd00e1190f4cfd8b48  VVV     .COM    7,5K  
+bfce8d900fa566174ae55ecbbfddb154c276d674  YL0     .LOG     256  
+66a1f4adf7a4a2c01ac5273c2a7fda5bbc8c2d2a  YL1     .LOG     896  LOGERi ülesanne #1
+c73e7296ac11ccfbb0148850254d628112b91b07  YL2     .LOG     640  
+caa029a25892c95c89c5fa78318168c3981beb3c  YL3     .LOG     896  
+7f291f6bcc2751314fe925864094f0be54f5745f  YL4     .LOG    1,7K  LOGERi ülesanne #4
+a81dd8fc75e67afa515e43de37dc95b7b56db90a  YL5     .LOG     768  
+
+## VAKSTU05
+
+VAKSTU seeria flopi andis lugemiseks Kalle Tomingas detsembris 2024. Kettal on EKDOS 2.29,
+alglaadimisel kuvatakse kohandatud teadet `VSW tööketas (c)` ja `SKC-Floppy Disk`,
+käsk `DIR` on keelatud. Seeria kohta vt täpsemalt  eelmiste flopide kirjeldustest.
 
 SIZE: 800K (819200) / SHA1: b91edfdbee67cee8fed9429340f2a72140e576e3
 
