@@ -2211,9 +2211,10 @@ SIZE: `800K` (`819200`) / SHA1: `b7efca324ddffc6c31476adff2228e3b5e2e792e`
 ## VAKSTU02
 
 Füüsilised flopid VAKSTU seeriast andis lugemiseks Kalle Tomingas detsembris 2024.
-Seitsmest flopist olid kolm JUKU omad, millest kaks loeti sisse probleemideta.
-Ketas on loetud välja vigaselt, sj mõlemal poolel on kokku hinnanguliselt 133 halba sektorit,
-kettast on välja loetud 58%. Flopide lugemiseks kasutati Greaseweazle'it koos TEAC'i flopilugejaga.
+Seitsmest flopist olid kolm JUKU omad, millest kaks loeti välja probleemideta.
+Seeria teine ketas `VAKSTU02` opsüsteemi ei sisalda ja on loetud välja vigaselt,
+sj mõlemal poolel on kokku hinnanguliselt 133 halba sektorit, kettast on välja loetud 58%.
+Flopide lugemiseks kasutati Greaseweazle'it koos TEAC'i flopilugejaga.
 
 SIZE: `800K` (`819200`) / SHA1: `05cdb99b04b1972118acf95119cda4a7dd297c82`
 
