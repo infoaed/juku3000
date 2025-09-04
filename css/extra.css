@@ -1,0 +1,7 @@
+code, .rst-content tt,.rst-content code {
+  white-space:pre-wrap;
+}
+
+.md-nav__title .md-nav__button.md-logo img, .md-nav__title .md-nav__button.md-logo svg {
+  height: 3.8rem;
+}
