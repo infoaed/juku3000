@@ -1,0 +1,911 @@
+.OP
+.FO                   *****  N}o 1990  *****
+
+
+
+
+
+
+
+
+
+
+
+
+               PASCAL/MT+ LISATEEKIDE PAKETT
+
+                      ARVUTILE "JUKU".
+
+
+
+                                         Autor: I.Jentson
+
+                                                N}o KK AK
+.paä.PN 1
+.HE Pascal / MT+                                      Lisateegid
+.FO (c) 90 Jentson               - # -                N}o KK AK
+
+
+                          EESS`NA
+
+     PaketÈ kasutaminÂ eelda‚ algteadmisÈ keelesÙ PascaÏ† j· ç
+oskusÙ† t{{tad· Pascal/MT´ translaatorigaÆ† PascalÈ algteadç
+mistÂ† omandamisekÛ v}i‚ kasutad· n|itekÛ }ppevahendiÙ† [2]¨ ç
+ag· sobi‚ k· ~ksk}iÎ millinÂ PascaliÙ k|sitleˆ raamatÆ Arvuç
+tiÏ† "Juku¢ t{{tav· Pascal/MT´ kasutamisÂ koht·† oÓ† v|heseÏ ç
+m||raÏ informatsioonÈ teoseÛ [1]¨† t|pseÌ ~levaadÂ kasutamiç
+sesÙ† j· Pascal/MT´ erinevustesÙ standartsesÙ PascalisÙ† anç
+taksÂ teoseÛ [3].
+     PaketÈ† tegemiseÏ oÓ p~~tu‰ tagad· funktsiooninimetustÂ ç
+kokkulangevuÛ  TurbÔ PascalÈ sarnastÂ funktsioonidega.
+
+
+
+                   1. ^LEVAADE TEEKIDEST
+
+
+     Pascal/MT´ lisateegi‰ sisaldava‰ protseduurÂ j·  funktç
+sioonÂ† graafilisekÛ† t{{kÛ arvutÈ "JUKU¢† kuvarÈ† ekraanil¨ ç
+samutÈ tekstÈ kuvareziimÈ valimisekÛ ninÁ ketaste¨† taimeri¨ ç
+printerÈ, "hiirega¢ t{{tamisekÛ jm.
+
+     K}igÈ nendÂ protseduuridÂ j· funktsioonidÂ kasutamisekÛ ç
+veendu j|rgmistÂ failidÂ olemasoluÛ :
+
+     Graph.H        Graph.ERL
+     Screen.H       Screen.ERL
+     Utilit.H       Utilit.ERL
+     Sprite.H1      Sprite.H2      Sprite.ERL
+     Disk.H         Disk.ERL
+
+
+     FailiÛ SPRITE.H± oÓ t~~bikirjelduse‰† spraidiprotseduuç
+ridelÂ :
+
+Type _pointer = ^byte;         
+          pic = record             Spraiti iseloomustavad:
+                    x : integer;   asukoha x - koordinaat
+                    y : integer;           y - koordinaat
+                 xdim : byte;      x - m}}de ( pixelid/8+1 )
+                 ydim : byte;      y - m}}de
+                place : _pointer;  asukoht m|lus
+                shift : _pointer   nihe (|ra puutu!)
+               end;
+        bfail = file of byte;
+
+     ^lej||nu‰ .» laiendig· failideÛ hoitaksÂ paketiÛ olevaç
+tÂ funktsioonidÂ j· protseduuridÂ pascalkeelsei‰ kirjeldusi¨ ç
+failideÛ laiendig· .ERÃ hoitaksÂ nendÂ linkimisekÛ k}lblikkÂ ç
+mooduleid.
+
+ä     J|rgmised protseduurid ja funktsioonid on teekides :
+
+     Graafikateek:                           ( Graph )
+
+     BOX                 CIRCLE              INVSCR
+     LINE                LINETO              LINEREL             
+     MOVETO              MOVEREL             PUTPIXEL            
+     SETHGR              SETTEXT
+
+     Kuva vormingu teek:                     ( Screen )
+
+     CLREOLN             CLREOSCR            CLRSCR
+     CLOSEWND            CURSOFF             CURSON
+     DOWN                GOTOXY              HOME
+     INVERSE             KBEEPOFF            KBEEPON
+     LEFT                NORMAL              OPENWND
+     READKEY             RIGHT               SCREEN
+     SCROLOFF            SCROLON             UP
+     WHEREXY
+
+     Varia:                                  ( Utilit )
+
+     INITPR              MOUSE               PRCHR
+     RANDOM              RSTTIMER            SOUND
+     TIMER               VOLUME
+
+     Spraiditeek:                            ( Sprite )
+
+     GETMEM              GETPIC              LOADPIC
+     MOVEPIC             PUTPIC
+
+     Kettateek:                              ( Disk )
+
+     READDISK            SELECTDISK          SETDMA
+     SETSECTOR           SETTRACK            WRITEDISK
+.PAä
+
+                   2. TEEKIDE KASUTAMINE
+
+
+             2.1  T\IENDUSED KASUTAJAPROGRAMMIS 
+
+     Om·† programmÈ† tule‚† lisad·† lisateegÈ† protseduuridÂ ç
+jaokÛ t~~bi- j· protseduurikirjeldusedÆ† SellekÛ kasutataksÂ ç
+kompileerimisreziimÈ v}tiÙ $I¨ millÂ abiÏ lisataksÂ program-ç
+milÂ .HÇ laiendig· failidÂ pascalkeelse‰ tekstid.
+
+N\IDE:
+  program n|ide;
+  (*$I a:sprite.h1 *)          lisatakse t~~bikirjeldused
+
+  ......                       kasutajaprogrammi m|rgendite,
+  ......                       konstantide, t~~pide ja
+  ......                       muutujatÂ kirjeldamine
+
+  (*$I a:sprite.h2 *)          lisatakse protseduuride kir-
+  (*$I a:graph.h *)            jeldused
+
+  ......                       kasutaja protseduuride ja   
+  ......                       funktsioonide kirjeldused
+
+  begin
+  ......                       p}hiprogramm
+  ......
+  end.
+
+
+
+                       2.2 LINKIMINE
+
+     Tule‚† lisad·† vastaˆ .ERLÇ laiendig· faiÏ† linkimisk|sı ç
+parameetrite loetelusse:
+
+LINKMT N\IDE,SPRITE,GRAPH,PASLIB/S
+
+.PAä              3. PROTSEDUURID ja FUNKTSIOONID
+
+     Ig· funktsioonÈ j· protseduurÈ koht· oÓ esitatu‰ inforç
+matsiooÓ j|rgmiseÏ kujul:
+
+FUNKTSIOONI_NIMI                                TEEGI_NIMI
+
+     Kirjeldus:  Pascalkeelne fn-i kirjeldus.
+
+    Kasutamine:  Fn-È v|ljakutsumisÂ kujuÆ ParameetritÂ t~~-ç
+†††††††††††††††††bi‰ oÓ esitatu‰ kirjelduses¨ lisakÛ sellelÂ ç
+†††††††††††††††††oÓ kasutatu‰ j|rgmisÙ kodeeringuÙ parameetç
+†††††††††††††††††rÈ esit|hÂ j|rgi:
+††††††††††††††††† n - t|isarvuline avaldis;
+††††††††††††††††† c - m|rgit~~pi avaldis;
+††††††††††††††††† m - t|isarvuline muutuja;
+††††††††††††††††† l - loogiline muutuja;
+††††††††††††††††† b - baitidest koosneva faili muutuja;
+††††††††††††††††† p - spraidit~~pi ( pic ) muutuja.
+
+       Tegevus:  Fn-i tegevuse ja parameetrite selgitus.
+
+        M|rkus:  KuÈ fn-Ï oÓ mingisugusei‰ ise|rasusi¨† siiÛ ç
+†††††††††††††††††juhitaksÂ sellelÂ t|helepanuÆ SamutÈ viidaç
+†††††††††††††††††taksÂ vajadusÂ korraÏ teistelÂ funktsiooniç
+†††††††††††††††††dele.
+
+
+
+
+
+
+                3.1  G R A A F I K A T E E K
+
+
+
+SETHG“                                                GRAPH
+
+     Kirjeldus:  Procedure SetHgr;
+
+    Kasutamine:  SetHgr;
+
+       Tegevus∫† Graafik·reziimÈ valimine.
+
+        M|rkus∫† K}iÎ†protseduuri‰, miÛ kasutavad monitori-
+                 funktsioone, ei t{{ta selles reziimis.
+
+                 Vt. ka SetText.
+
+.pa                 äSETTEX‘                                               GRAPH
+
+     Kirjeldus: Procedure SetText;
+
+    Kasutamine: SetText;
+
+       Tegevus:†TekstireziimÈ valimineÆ SelleÛ reziimiÛ saa‚ ç
+††††††††††††††††kasutad· monitorifunktsioone.
+
+        M|rkus: Graafikaprotseduurid  ei t{{ta selles rezii-
+                mis.
+
+                Vt. ka SetHgr.
+
+
+
+PUTPIXEL                                              GRAPH
+
+     Kirjeldus: Procedure PutPixel( X,Y,Mood:Integer );
+
+    Kasutamine: PutPixel(nx,ny,nm);
+††††††††††††††††
+†††††††Tegevus:†^hÂ punktÈ kujutaminÂ  ekraanilÆ PunkÙ kuju
+††††††††††††††††tataksÂ ekraanilÂ vastavalÙ koordinaatidele
+                ÿ j· YÆ  MOOƒ  v}i‚ oll·  ∞ v}È 1Æ  EkraaniÏ 
+††††††††††††††††jub·† olevalÂ† punktilÂ† uuÂ† pealepanemiseÏ  ç
+††††††††††††††††moodig· ± korraÏ punkÙ kaob¨† ∞ korraÏ† j||‚ ç
+††††††††††††††††allesÆ X-koordinaaÙ v}i‚ omad· v||rtusÈ 0-sÙ ç
+††††††††††††††††kunÈ† 319-nÈ† j· y-koordinaaÙ v||rtusÈ† 0-sÙ ç
+††††††††††††††††kunÈ 239-niÆ EkraanÈ piiridesÙ ~les- v}È al-ç
+††††††††††††††††lapoolÂ j||vatÂ koordinaatidÂ korraÏ tegevuÛ  ç
+††††††††††††††††puudub¨† vasakulÂ v}È paremalÂ j||vatÂ koorç
+††††††††††††††††dinaatidÂ† korraÏ kujutataksÂ punkÙ† ekraanÈ ç
+††††††††††††††††vastasservaleÆ V||rtuse‰ ÿ j· Ÿ s|ilitataksÂ ç
+††††††††††††††††graafilisÂ kursori v||rtustena.
+
+        M|rkus: T{{tab graafikareziimis ja ekraanireziimides
+                0 ja 1 ( vt. SetHgr ja Screen ).
+
+
+
+LINE                                                  GRAPH
+
+     Kirjeldus: Procedure Line( X1,Y1,X2,Y2,Mood:Integer );
+
+    Kasutamine: Line(nx1,ny1,nx2,ny2,nm);
+
+       Tegevus∫†JoonÂ kujutaminÂ  ekraanilÆ JooÓ kujutataksÂ
+                alguspunktig·† X1,Y± j· l}pp-punktig· X2,Y≤.
+                ParameetrÈ†Mood t|henduÛt oÓ seletatud prot-
+                seduuri PutPixel juuresÆ 
+
+        M|rkus: T{{tab graafikareziimis ja ekraanireziimides
+                0 ja 1 ( vt. SetHgr ja Screen ).
+äCIRCLE                                                GRAPH
+
+     Kirjeldus: Procedure Circle( X,Y,R,Mood:Integer );
+
+    Kasutamine: Circle(nx,ny,nr,nm);
+
+       Tegevus: RingÈ kujutaminÂ ekraanilÆ† RinÁ kujutataksÂ
+                ekraanilÂ keskpunktig· X, Y j· raadiuseg· RÆ 
+                ParameetrÈ†Mood t|henduÛt oÓ seletatud prot-
+                seduuri PutPixel juuresÆ 
+
+        M|rkus: T{{tab graafikareziimis ja ekraanireziimides
+                0 ja 1 ( vt. SetHgr ja Screen ).
+
+
+
+BOX                                                   GRAPH
+
+     Kirjeldus: Procedure Box( X1,Y1,X2,Y2,Mood:Integer );
+
+    Kasutamine: Box(nx1,ny1,nx2,ny2,nm);
+
+       Tegevus: Ristk~likı kujutaminÂ  ekraanilÆ Ristk~likuÙ
+                kujutataksÂ ekraaniÏ nii¨ eÙ punktid koordi-
+                naatidega X±, Y± ja  X≤, Y≤ t|histavad rist-
+                k~liku  vastastikku  diagonaalis  asetsevaid
+                nurki.ç
+                ParameetrÈ†Mood t|henduÛt oÓ seletatud prot-
+                seduuri PutPixel juuresÆ 
+
+        M|rkus: T{{tab graafikareziimis ja ekraanireziimides
+                0 ja 1 ( vt. SetHgr ja Screen ).
+
+
+
+LINETO                                                GRAPH
+
+     Kirjeldus: Procedure LineTo( X,Y,Mood:Integer );
+
+    Kasutamine: LineTo(nx,ny,nm);
+
+       Tegevus: Joone kujutamine ekraanil.  Joon kujutatakse
+                ekraanile alguspunktiga, mille  m||rab graa-
+                filine kursor, ja l}pp-punktiga X, Y.
+                ParameetrÈ†Mood t|henduÛt oÓ seletatud prot-
+                seduuri PutPixel juuresÆ 
+
+        M|rkus: T{{tab graafikareziimis ja ekraanireziimides
+                0 ja 1 ( vt. SetHgr ja Screen ).
+
+                Vt. ka MoveTo, LineRel, MoveRel.
+
+
+
+äMOVETO                                                GRAPH
+
+     Kirjeldus: Procedure MoveTo( X,Y:Integer );
+
+    Kasutamine: MoveTo(nx,ny);
+
+       Tegevus: GraafikakursorÈ koordinaadi‰ saava‰† v||rtuç
+††††††††††††††††sekÛ X¨ Y.
+
+                Vt. ka LineTo, LineRel, MoveRel.
+
+
+LINEREL                                               GRAPH
+
+     Kirjeldus: Procedure LineRel( DX,DY,Mood:Integer );
+
+    Kasutamine: LineRel(ndx,ndy,nm);
+
+       Tegevus: Joone kujutamine  ekraanil. Joon kujutatakse
+                ekraanile  alguspunktiga, mille m||rab graa-
+                filine kursor, ja l}pp-punktiga, mille koor-
+                dinaadid saadakse  alguspunkti koordinaatide
+                ja parameetrite DX ja DY vastaval liitmisel.
+                ParameetrÈ†Mood t|henduÛt oÓ seletatud prot-
+                seduuri PutPixel juuresÆ 
+
+        M|rkus: T{{tab graafikareziimis ja ekraanireziimides
+                0 ja 1 ( vt. SetHgr ja Screen ).
+
+                Vt. ka LineTo, MoveTo, MoveRel.
+
+
+MOVEREL                                               GRAPH
+
+     Kirjeldus: Procedure MoveRel( DX,DY:Integer );
+
+    Kasutamine: MoveRel(ndx,ndy);
+
+       Tegevus: GraafikakursorÈ† koordinaatidÂ uutekÛ† v||rç
+††††††††††††††††tustekÛ  saava‰ vana‰ v||rtuse‰ liit· vastaç
+††††††††††††††††valÙ Dÿ j· DY.
+
+                Vt. ka LineTo, MoveTo, LineRel.
+
+
+INVSCR                                                GRAPH
+
+     Kirjeldus: Procedure InvScr;
+
+    Kasutamine: InvScr;
+
+       Tegevus: Ekraani inverteerimine.
+
+        M|rkus: T{{tab graafikareziimis.
+                ( vt. SetHgr ).ä                3.2   S P R A I D I T E E K
+
+LOADPIC                                               SPRITE
+
+     Kirjeldus∫†ProcedurÂ†LoadPic( VaÚ†Fail:Bfailª
+                                   VaÚ Buf:pic );
+    Kasutamine: LoadPic(bf,pb);
+
+       Tegevus: AndmetÂ lugemine  failisÙ spraidimuutujasseÆ
+                EelnevalÙ graafikaredaktorig·  GT“ loodu‰ j·
+              † spraidin·†salvestatu‰† ninÁ†antu‰†programmiÛ
+              † ASSIGŒ direktiivig· defÈneeritu‰ faiÏ ® lai-
+                endig· .PC√†© loetaksÂ m|lluÆ  PildÈ m}}tme‰
+                oÓ piiratu‰ vab· m|lı mahugaÆ†KuÈ†tagastatu‰
+              † spraidimuutuj·†  asukoht·  viitav·  elemendÈ
+                buf.placÂ  v||rtuÛ  oÓ  0¨ siiÛ  antu‰ pildÈ
+                jaokÛ j|È m|lusÙ puudu.
+
+
+GETPIC                                                SPRITE
+
+     Kirjeldus: Procedure GetPic( X,Y,DX,DY:Integer;
+                                  Var Buf:Pic );
+
+    Kasutamine: GetPic(nx,ny,ndx,ndy,pb);
+
+       Tegevus: SpraidÈ lugeminÂ ekraaniltÆ Spraidimuutujasç
+††††††††††††††††sÂ† loetaksÂ† ekraanilÙ†† ristk~likukujulinÂ ç
+††††††††††††††††ala¨† millÂ† vasaÎ ~leminÂ nurÎ asu‚ punktiÛ ç
+††††††††††††††††X,Ÿ j· k~ljepikkuse‰ oÓ vastavalÙ Dÿ j· DY.
+                ParameetrÈ†Mood t|henduÛt oÓ seletatud prot-
+                seduuri PutPixel juuresÆ 
+
+        M|rkus: T{{tab graafikareziimis ja ekraanireziimides
+                0 ja 1 ( vt. SetHgr ja Screen ).
+
+
+PUTPIC                                                SPRITE
+
+     Kirjeldus: Procedure PutPic( Buf:Pic;
+                                  X,Y,Delta,Mood:Integer );
+
+    Kasutamine: PutPic(pb,nx,ny,nd,nm);
+
+       Tegevus: Spraidi paigutamine ekraanile. SpraiÙ paigu-
+                tataksÂ† kuvarÈ ekraanilÂ† nii¨† eÙ† spraidÈ ç
+††††††††††††††††vasaÎ ~leminÂ nurÎ asu‚ punktiÛ koordinaatiç
+††††††††††††††††deg·† ÿ† j· YÆ† DELT¡† n|ita‚† taustkujutisÂ ç
+††††††††††††††††originaalÈ† asukoh·† niheÙ† ekraanÈ†† algusÂ ç
+††††††††††††††††suhteÛ (harilikulÙ DELTA=0)Æ 
+                ParameetrÈ†Mood t|henduÛt oÓ seletatud prot-
+                seduuri PutPixel juuresÆ 
+
+        M|rkus: T{{tab graafikareziimis ja ekraanireziimides
+                0 ja 1 ( vt. SetHgr ja Screen ).ä
+
+MOVEPIC                                               SPRITE
+
+     Kirjeldus: Procedure MovePic( Var Buf:Pic;
+                                   DX,DY,Mood:Integer );
+
+    Kasutamine: MovePic(nb,ndx,ndy,nm);
+
+       Tegevus: SpraidÈ liigutaminÂ ekraanilÆ† EelnevalÙ kuç
+††††††††††††††††varÈ† ekraanilÂ paigutatu‰ spraitÈ† liigutaç
+††††††††††††††††taksÂ† parameetriteg· Dÿ j· DŸ m||ratu‰ suuç
+††††††††††††††††nasÆ
+                ParameetrÈ†Mood t|henduÛt oÓ seletatud prot-
+                seduuri PutPixel juuresÆ 
+
+        M|rkus: T{{tab graafikareziimis ja ekraanireziimides
+                0 ja 1 ( vt. SetHgr ja Screen ).
+
+
+
+GETMEM                                                SPRITE
+
+     Kirjeldus: Function GetMem( N:Integer ):_Pointer;
+
+    Kasutamine: Var Pnt:_Pointer;
+                ...
+                Pnt:=GetMem(nx);
+
+       Tegevus: M|lı eraldamineÆ KuÈ leidu‚ Œ baitÈ vab· m|-ç
+††††††††††††††††lu¨† siiÛ reserveeritaksÂ seÂ j· funktsioonÈ ç
+††††††††††††††††v||rtusen·† tagastataksÂ† sellelÂ† m|luosalÂ ç
+††††††††††††††††osutaˆ viitÆ KuÈ vab· m|lı eÈ leidu¨ siiÛ oÓ ç
+††††††††††††††††viid· v||rtuÛ 0.
+
+
+
+
+           3.3  K U V A  V O R M I N G U  T E E K
+
+
+
+CL“SCR                                                SCREEN
+
+     Kirjeldus: Procedure ClrScr;
+
+    Kasutamine: ClrScr;
+
+       Tegevus: PuhastataksÂ† ekraaÓ j· viiaksÂ kursoÚ koorç
+††††††††††††††††dinaatidelÂ 0,0.
+.PAä
+CLREOSC“                                              SCREEN
+
+     Kirjeldus: Procedure ClrEoScr;
+
+    Kasutamine: ClrEoScr;
+
+       Tegevus: Puhastatakse ekraan alateÛ kursorÈ†asukohasÙ
+                kuni ekraanÈ l}puni.
+
+
+
+CLREOLŒ                                               SCREEN  
+
+     Kirjeldus: Procedure ClrEoLn;
+
+    Kasutamine: ClrEoLn;
+
+       Tegevus: Puhastatakse ekraan alateÛ kursorÈ†asukohasÙ
+                kuni re· l}puni.
+
+
+
+SCROLON                                               SCREEN
+
+     Kirjeldus: Procedure ScrolOn;
+
+    Kasutamine: ScrolOn;
+
+       Tegevus: Lubatakse kuva kerimine.
+
+
+
+SCROLOFF                                              SCREEN
+
+     Kirjeldus: Procedure ScrolOff;
+
+    Kasutamine: ScrolOff;
+
+       Tegevus: Keelatakse kuva kerimine.
+
+
+
+CURSON                                                SCREEN
+
+     Kirjeldus: Procedure CursOn;
+
+    Kasutamine: CursOn;
+
+       Tegevus: Lubada kursori n|itamine.
+
+.PAä
+CURSOFF                                               SCREEN
+
+     Kirjeldus: Procedure CursOff;
+
+    Kasutamine: CursOff;
+
+       Tegevus: Keelata kursori n|itamine.
+
+
+GOTOXY                                                SCREEN
+
+     Kirjeldus: Procedure GotoXY( X,Y:Integer );
+
+    Kasutamine: GotoXY(nx,ny);
+
+       Tegevus: Kursori paigutamine koordinaatidele X,Y.
+††††††††††††††††X-koordinaaÙ† v}i‚ omad· v||rtusÈ 0-sÙ† kunÈ ç
+††††††††††††††††(ekraanÈ†laiuÛ - 1)-nÈ j·  y-koordinaaÙ 0-sÙ ç
+††††††††††††††††kuni (ekraani k}rgus - 1)-ni.
+
+
+HOME                                                  SCREEN
+
+     Kirjeldus: Procedure Home;
+
+    Kasutamine: Home;
+
+       Tegevus: KursorÈ paigutaminÂ koordinaatidelÂ 0,∞† ehÎ ç
+††††††††††††††††ekraani vasakusse ~lemisse nurka.
+
+
+
+LEFT                                                  SCREEN
+
+     Kirjeldus: Procedure Left;
+
+    Kasutamine: Left;
+
+       Tegevus: KursoriÙ† liigutataksÂ ~hÂ m|rgÈ v}rr· vasaç
+††††††††††††††††kule.
+
+
+
+RIGHT                                                 SCREEN
+
+     Kirjeldus: Procedure Right;
+
+    Kasutamine: Right;
+
+       Tegevus: KursoriÙ liigutataksÂ ~hÂ m|rgÈ v}rr·† pareç
+††††††††††††††††male.
+
+
+äUP                                                    SCREEN
+
+     Kirjeldus: Procedure Up;
+
+    Kasutamine: Up;
+
+       Tegevus: Kursorit liigutatakse ~he rea v}rra ~lesse.
+
+
+
+DOWN                                                  SCREEN
+
+     Kirjeldus: Procedure Down;
+
+    Kasutamine: Down;
+
+       Tegevus: Kursorit liigutatakse ~he rea v}rra alla.
+
+
+
+WHEREXY                                               SCREEN
+
+     Kirjeldus: Procedure WhereXY( Var X,Y:Integer );
+
+    Kasutamine: WhereXY(mx,my);
+
+       Tegevus: Tagastatakse kursori koordinaadid.
+
+
+
+INVERSE                                               SCREEN
+
+     Kirjeldus: Procedure Inverse;
+
+    Kasutamine: Inverse;
+
+       Tegevus: J|rgnev tekst kujutatakse inversioonis.
+
+
+
+NORMAL                                                SCREEN
+
+     Kirjeldus: Procedure Normal;
+
+    Kasutamine: Normal;
+
+       Tegevus: J|rgnev tekst kujutatakse normaalselt.
+.paä
+SCREEN                                                SCREEN
+
+     Kirjeldus: Procedure Screen( N:Integer );
+
+    Kasutamine: Screen(nn);
+
+       Tegevus: Valitakse reziim teksti kuvamiseks:
+                    N = 0  ->  40x24 m|rki
+                    N = 1  ->  53x24 m|rki
+                    N = 2  ->  64x20 m|rki 
+
+
+
+OPENWND                                               SCREEN
+
+     Kirjeldus: Procedure OpenWnd( X1,Y1,X2,Y2:Integer );
+
+    Kasutamine: OpenWnd(nx1,ny1,nx2,ny2);
+
+       Tegevus: "Akna¢† avamineÆ† EkraanÈ  reziimideÛ ± j·†≤ ç
+††††††††††††††††peavad X1 ja (X2+1) jaguma 4-ga. 
+††††††††††††††††( Vt. Screen )
+
+
+
+CLOSEWND                                              SCREEN
+
+     Kirjeldus: Procedure CloseWnd;
+
+    Kasutamine: CloseWnd;
+
+       Tegevus: "Akna" sulgemine.
+
+
+
+READKEY                                               SCREEN
+
+     Kirjeldus: Function ReadKey:Integer;
+
+    Kasutamine: Var Code:Integer;
+                ...
+                Code:=ReadKey;
+
+       Tegevus: KlaviatuurilÙ lugemisÂ funktsioonÆ† KuÈ klaç
+††††††††††††††††viatuuriÏ† oÓ† vajutatu‰† m}nelÂ† s}rmisele¨ ç
+††††††††††††††††siiÛ funktsioonÈ v||rtusekÛ oÓ vastav· m|rgÈ ç
+††††††††††††††††kood¨ vastaseÏ juhuÏ oÓ v||rtusekÛ 0.
+.paä
+KBEEPOŒ†††††††††                                      SCREEN
+
+     Kirjeldus: Procedure KBeepOn;
+
+    Kasutamine: KBeepOn;
+
+       Tegevus: LubataksÂ† s}rmistÂ vajutamistÂ helig·† kviç
+††††††††††††††††teerimine.
+
+
+
+KBEEPOFF                                              SCREEN
+
+     Kirjeldus: Procedure KBeepOff;
+
+    Kasutamine: KBeepOff;
+
+       Tegevus: KeelataksÂ† s}rmistÂ vajutamistÂ helig· kviç
+††††††††††††††††teerimine.
+
+
+
+
+                       3.4  V A R I A
+
+
+†††††††††††††††
+RSTTIME“                                              UTILIT
+
+     Kirjeldus: Procedure RstTimer;
+
+    Kasutamine: RstTimer;
+
+       Tegevus: TaimerÈ nullimine  j·† k|ivitamine stopperi-
+                reziimis.
+
+
+
+TIMER                                                 UTILIT
+
+     Kirjeldus: Function Timer:Integer;
+
+    Kasutamine: Var Clock:Integer;
+                ...
+                Clock:=Timer;
+
+       Tegevus: FunktsiooÓ taimerÈ seisı lugemiseksÆ† Funktç
+††††††††††††††††siooÓ† tagasta‚ stopperireziimiÛ† k|ivitatu‰ ç
+††††††††††††††††taimerÈ (vtÆ† RstTimeÚ © registrÈ† v||rtuse¨ ç
+††††††††††††††††millÂ ± ~hiÎ Ω 2∞ millisekundiga.
+
+
+
+äMOUSE                                                 UTILIT
+
+     Kirjeldus: Procedure Mouse( Var Ud,Rud,Rl,Rrl,
+                                     Lsw,Rsw:Boolean );
+
+    Kasutamine: Mouse(lud,lrud,lrl,lrrl,llsw,lrsw);
+
+       Tegevus: "Hiire" info lugemine. 
+                Ud  - viimane liikumine ~les-alla sihis;
+                         ( T - alla, F - ~les )
+                Rud - jooksev liikumine ~les-alla sihis;
+                         ( T - liigub, F - ei liigu )
+                Rl††- viimanÂ†liikuminÂ horisontaalsihis;
+                         ( T - paremale, F - vasakule )
+                Rrl - jooksev liikumine horisontaalis;
+                Rsw - parema nupu olek;
+                Lsw - vasaku nupu olek.
+
+        M|rkus: KuÈ† "hiir¢ eÈ olÂ arvutÈ konfiguratsioonis¨ ç
+††††††††††††††††siiÛ p}hjusta‚ sellÂ protseduurÈ poolÂ p{{rç
+††††††††††††††††duminÂ arvutÈ "kinnÈ jooksmise".
+
+
+
+INITPR                                                UTILIT
+
+     Kirjeldus: Function InitPr:Boolean;
+
+    Kasutamine: if Not InitPr then WriteLn('Viga!');
+
+       Tegevus: Initsialiseerib  paralleelv|rati  printeriga
+                suhtlemisekÛ† j· kontrolli‚ printerÈ t{{valç
+††††††††††††††††midustÆ† KuÈ printeÚ eÈ olÂ k~lgÂ† ~hendatu‰ ç
+††††††††††††††††v}È sissÂ l~litatud¨ tagastataksÂ t}ev||rtuÛ ç
+††††††††††††††††FALSE.
+
+
+
+PRCHR                                                 UTILIT
+
+     Kirjeldus: Procedure PrChr( Ch:Char );
+
+    Kasutamine: PrChr('a'); PrChr(chr(13)); PrChr(cc);
+
+       Tegevus: Printerile saadetakse  parameetriga m||ratud
+                m|rk.
+
+        M|rkus: Eelnevalt on  vajalik  kasutada  funktsiooni
+                InitPr.
+.paä
+SOUND                                                 UTILIT
+
+     Kirjeldus: Procedure Sound( Freq,Delay:Integer );
+
+    Kasutamine: Sound(nf,nd);
+
+       Tegevus: K|ivita‚  helisagedusgeneraatorÈ parameetri-
+                g·† FreÒ m||ratu‰ sageduseÏ j· Delay-g· m||-ç
+††††††††††††††††ratu‰ kestvuseg· millisekundites.
+
+
+
+VOLUME                                                UTILIT
+
+     Kirjeldus: Procedure Volume( V:Integer );
+
+    Kasutamine: Volume(nv);
+
+       Tegevus: M||rab helisignaali tugevuse. Kui V=0, siis
+                on heli n}rk, kui V>0, siis tugev.
+
+
+
+
+RANDOM                                                UTILIT
+
+     Kirjeldus: Function Random( Range:Integer ):Integer;
+
+    Kasutamine: Var Arv:Integer;
+                ...
+                Arv:=Random(Random(nr));
+
+       Tegevus: FunktsiooÓ tagasta‚ arvu¨  miÛ oma‚ v||rtusÙ ç
+††††††††††††††††0-sÙ kunÈ (RangÂ - 1)-niÆ ArvudÂ juhuslikkuÛ ç
+††††††††††††††††s}ltu‚ parameetrisÙ RangÂ j· funktsioonÈ ka-ç
+††††††††††††††††sutamisÂ ajast.
+
+
+
+                   3.5  K E T T A T E E K
+
+
+†††††††††††††††
+SELECTDISK                                              DISK
+
+     Kirjeldus: Procedure SelectDisk( Ds:Char );
+
+    Kasutamine: SelectDisc('B');
+
+       Tegevus: Muudab aktiivseks parameetriga n|idatud 
+                kettaseadme.
+
+
+äSETTRACK                                                DISK
+
+     Kirjeldus: Procedure SetTrack( Tr:Integer );
+
+    Kasutamine: SetTrack(ntr);
+
+       Tegevus∫ M||ra‚ kettaÏ raja¨ milleg· opereeritakse.
+
+
+
+SETSECTOR                                               DISK
+
+     Kirjeldus: Procedure SetSector( Sc:Integer );
+
+    Kasutamine: SetSector(nsc);
+
+       Tegevus: M||ra‚† kettaÏ† loogilisÂ† sektori¨† milleg· ç
+††††††††††††††††opereeritakse.
+
+
+
+SETDMA                                                  DISK
+
+     Kirjeldus: Procedure SetDma( M:Integer );
+
+    Kasutamine: Var Buf:Array [ 0..127 ] of Byte;
+                ...
+                SetDma( Addr(Buf) );
+
+†††††††Tegevus: M||ra‚ aadressi¨ mid· kasutataksÂ infÔ puhvç
+††††††††††††††††rin·† kett· lugemis- j· salvestamisoperatsiç
+††††††††††††††††oonidesÆ† PuhvrÈ suuruÛ pea‚ olem·† v|hemalÙ ç
+††††††††††††††††12∏ baiti.
+
+
+               
+READDISK                                                DISK
+
+     Kirjeldus: Procedure ReadDisk;
+
+    Kasutamine: ReadDisk;
+
+       Tegevus: Protseduurideg· SetTracÎ j· SetSectoÚ m||raç
+††††††††††††††††tu‰† kohasÙ kettaÏ loetaksÂ 12∏ baitÈ† infoÙ ç
+††††††††††††††††j·† salvestataksÂ m|llı protseduurig· SetDm· ç
+††††††††††††††††m||ratu‰ kohta.
+
+.paä
+WRITEDISK                                               DISK
+
+     Kirjeldus: Procedure WriteDisk;
+
+    Kasutamine: WriteDisk;
+
+       Tegevus: Protseduurig·† SetDm· m||ratu‰ kohasÙ† m|luÛ ç
+††††††††††††††††loetaksÂ† 12∏† baitÈ infoÙ j·† salvestataksÂ ç
+††††††††††††††††kettalÂ protseduurideg· SetTracÎ j·† SetSecç
+††††††††††††††††toÚ m||ratu‰ kohta.
+
+
+
+============================================================
+
+     Kasutatud kirjandus:
+
+     1. 8]BU[[UZbcP[l]kX† bU`\X]P[ T[o aXabU\ `UP[l]^S^ R`Uç
+†††††††\U]X E5104Æ ?`^S`P\\]^U ^QUa_UgU]XUÆ :]XSP3.
+
+†††††2. Rein J~rgenson. Programmeerimine Pascalkeeles. 
+†††††††Tln.Valgus 1985.
+
+†††††3. Pascal/MT+ Release 5 User's Guide. Third Edition.
+†††††††(c) 1980,1981 by MT MicroSYSTEMS.
+
+
+============================================================
+
+     KuÈ† k|esolev·† paketig· t{{tadeÛ tekki‚† k~simusÈ† v}È ç
+leiatÂ vigu¨ paluÓ p{{rduge:
+
+                    202440 Tartumaa N}o
+                N}o Keskkooli Arvutuskeskus
+                       Indrek Jentson
+
