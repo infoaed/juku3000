@@ -2397,7 +2397,7 @@ SIZE: `800K` (`819200`) / SHA1: `b91edfdbee67cee8fed9429340f2a72140e576e3`
 ``STOP    .ASM    640``      
 ``STOP    .COM    128``      
 ``SYMBOL  .KEM   5,3K``      
-``ZOKOBAN .COM    16K``      
+``ZOKOBAN .COM    16K``    Zokoban (Errorsoft/Syntax '91)  
 ``ZOKOBAN .SIR    128``      
 ``ZOO1    .COM    16K``    ZOO esialgne versioon ('91)  
 ``ZOO     .COM    35K``      
