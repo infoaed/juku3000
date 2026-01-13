@@ -1,7 +1,7 @@
 ﻿# Ketastelt taastatud JUKU tarkvara üldnimekiri
 
 Kataloog väljendab ketastelt, lintidelt ja mälukividelt taastatud
-JUKU E5101-E5104 tarkvara hilissuve 2025 seisuga. Materjale lisandub
+JUKU E5101-E5104 tarkvara 2025 lõpu seisuga. Materjale lisandub
 ning kirjeldused võivad teadmiste täienedes muutuda. Nimekirja
 autoriteetne kontrollsummadega versioon on:
 
@@ -244,6 +244,68 @@ SIZE: `800K` (`819200`) / SHA1: `4c864901be28e2d075ad9c73040003ce2a1ca069`
 ``YL3     .LOG    896``    LOGERi ülesanne #3  
 ``YL4     .LOG   1,7K``    LOGERi ülesanne #4  
 
+## J3KGAME2
+
+Juku 3000 mängude ketas 2025 on pühendatud porditud mängudele, millest
+esimene on ilmselt XONIX ja kuulsaim ZOO. Kettal on valik unarvara koos
+uusversioonidega, enamiku värskete portide autor on Pehka1985, välja arvatud
+Pöidlaküüdi reisijuht ja Totrus, mille on portinud Tramm. Kõige rohkem on
+JUKU peal uuesti kirjutatud TETRISt ja SOKOBANi -- kumbagi 3x. Ketast kasutab
+anno 2026 veebiemulaator https://infoaed.ee/juku/ ja selle saab alla
+laadida https://elektroonikamuuseum.ee/failid/juku/tarkvara/J3KGAME1.JUK.
+
+
+SIZE: `800K` (`819200`) / SHA1: `504559622dbb951ca5de0b6dd1fcae0769153000`
+
+``1       .       896``    LAOLEO andmefail  
+``2       .       896``    LAOLEO andmefail  
+``3       .       896``    LAOLEO andmefail  
+``4       .       896``    LAOLEO andmefail  
+``5       .       896``    LAOLEO andmefail  
+``ARKANOID.COM    17K``    Arkanoid 1.0 (Brick '90/'25)  
+``BINLAND .COM    30K``    Binary Land (Hudson '83/'24)  
+``BOMB    .COM    12K``    Bomber Man (Hudson '83/'24)  
+``BOULDER .COM    21K``    Boulder Dash (First Star '84/'25)  
+``BRUN    .COM    16K``    BASIC runtime 5.30 (Microsoft)  
+``CBALL   .COM   9,4K``    Cannon Ball (Hudson '83/'25)  
+``CLRBALL .COM    10K``    Color Ball (Hudson '84/'25)  
+``DIGGER  .COM   1,2K``    Viiruslik tähesadu (K.Tomingas '91)  
+``DTANK   .COM    14K``    Driller Tanks (Hudson '83/'24)  
+``FIRE    .COM    17K``    Fire Rescue (Hudson '84/'25)  
+``HITCH   .COM   8,7K``    Pöidlaküüdi reisijuht (80x24, IC '85)  
+``HITCHHIK.DAT   111K``      
+``INDIAN  .COM    21K``    Indian no Bouken (Hudson '83/'25)  
+``LAD     .       896``    Ladderi graafika fonditabelina  
+``LAD2    .DAT    512``      
+``LADDER2 .COM    40K``    Platvormimäng Ladder 2 (Yahoo '83)  
+``LAOLEO  .COM    32K``    "Laoleo" (=Sokoban, Kompuuter '91 H)  
+``LF      .COM   2,0K``    Fondi laadija MODXi jaoks  
+``LL0     .      6,4K``    LAOLEO andmefail  
+``LODEGEN .COM   1,3K``    Zoo leveliredaktor (V.Zverkov '90)  
+``LR      .COM    13K``    Zoo demoversioon\* (üks level)  
+``MADUOK  .COM   9,3K``    Klassikaline ussimäng (=Snake)  
+``MODX    .COM   3,5K``    80x24 kuvalaotuse draiver  
+``NINJA   .COM    32K``    Ninjya Kage (Hudson '84/'24)  
+``PUSHER  .COM    23K``    Nügiline\* (=Sokoban, A.Mett '91)  
+``PUSHER  .LEV   6,3K``      
+``PUSHERPK.COM    16K``    Nügilise levelite pakkija  
+``PUSHER  .TXT   1,2K``    Nügilise saatesõna (A.Mett '90)  
+``PUTUP   .COM    18K``    Put Up (Y.Ago/MSX Magazine '87/'25)  
+``READ    .ME    2,5K``    J3K mängude ketta '25 lühitutvustus  
+``ROBBO   .COM    31K``    Robbo (LK Avalon '89/'25)  
+``STOP    .COM    30K``    Stop the Train (Hudson '83/'24)  
+``ZOKOBAN .COM    16K``    Zokoban (Errorsoft/Syntax '91)  
+``ZOKOBAN .SIR    128``      
+``ZOO1    .COM    16K``    Zoo algversioon\* (9 levelit, VSW '91)  
+``TANK    .COM    18K``    Tank Battalion (Namco '84/'25)  
+``TET2    .COM    23K``    "Tetris" 1.1 (A.Mett '90)  
+``TETRIS  .COM   1,9K``    Graafiline "Tetris" (T.Ainsaar '90)  
+``TKUK    .COM   2,0K``    Tähtede kukkumine (Tramm '90/'25)  
+``TOTDEM  .COM   4,8K``    Totruse demo (Joga/Mamsoft '90/'25)  
+``USSIKE  .COM   3,3K``    Zmejka (A.Alekseev '24/'25)  
+``WARP    .COM    38K``    Warp & Warp (Namco '84/'24)  
+``XONIX   .COM   3,8K``    "Xonix"\* (=Qix, E.Jürviste/EKTA '87)  
+
 ## J3KUTIL4
 
 Juku 3000 rekonstrueeritud EKTA JUKU PC UTILITIES DISK #4 detsembrist 1989.
@@ -281,7 +343,7 @@ SIZE: `800K` (`819200`) / SHA1: `fb8a5239cdd74eced3b0bb7ab8ec6e8b2092f4c3`
 ``KULT    .COM    12K``    EKDOS Disk Test util 1.0 (EKTA '89)  
 ``KULT    .HLP   8,7K``    KULT juhend  
 ``KUVA    .COM    768``    Kuva asetus ekraanil 1.1 (K.Kevvai)  
-``LADDER  .COM    40K``    Tuntud CP/Mi platvormimäng (80x24)  
+``LADDER  .COM    40K``    Platvormer LADDER (80x24, Yahoo '82)  
 ``LADDER  .DAT    512``      
 ``LF      .COM   2,0K``    Fondi laadija MODXi jaoks  
 ``LINK    .COM    16K``    Objektmoodulite linkur 1.3 (CP/M '80)  
@@ -404,7 +466,7 @@ SIZE: `800K` (`819200`) / SHA1: `32708fd095be8ea50bf2ba185c6d5654e0ca3255`
 ``DEMO    .HLP   3,5K``    DEMO abifail  
 ``DEMOS   .COM   8,3K``    A-V-T demode ettevalmistus (EKTA)  
 ``DEMOS   .DOC    16K``    DEMOS juhend  
-``DIGGER  .COM   1,2K``    Residentne tähesadu?  
+``DIGGER  .COM   1,2K``    Viiruslik tähesadu (K.Tomingas '91)  
 ``DOCTOR  .COM    36K``    Disk Editor & Diagnostics 1.11 ('83)  
 ``DOSGEN  .COM    896``    Süsteemiketta generaator 3.4 (CP/M)  
 ``EST     .       896``    Eesti tähestiku font (JUKU)  
@@ -2116,7 +2178,7 @@ SIZE: `800K` (`819200`) / SHA1: `b7efca324ddffc6c31476adff2228e3b5e2e792e`
 ``DISASM  .COM   8,3K``    Super CP/M disassembler 4.00 ('78)  
 ``EASYSTR .LAD   1,5K``      
 ``FUNDSK  .ASM    768``      
-``GAMEPRAC.ASM    20K``      
+``GAMEPRAC.ASM    20K``    SPACE ATTACKi lähtekood (Vakstu '91)  
 ``GAMEPRAC.COM   4,5K``      
 ``GRBASIC .COM   7,8K``      
 ``GRMOOD  .ASM   3,0K``      
@@ -2138,13 +2200,13 @@ SIZE: `800K` (`819200`) / SHA1: `b7efca324ddffc6c31476adff2228e3b5e2e792e`
 ``KETAS   .COM    640``      
 ``L80     .COM    11K``    LINK-80 3.44 (Microsoft '81)  
 ``LADDER  .COM    40K``    Tuntud CP/Mi platvormimäng (80x24)  
-``LADTAB  .COM    12K``      
-``LADTAB  .PAS   2,7K``      
+``LADTAB  .COM    12K``    Ladderi leveliredaktor (VAKSTU '90)  
+``LADTAB  .PAS   2,7K``    Ladderi redaktori lähtekood  
 ``LASER   .MAC    128``      
 ``LINK    .COM    16K``    Objektmoodulite linkur 1.3 (CP/M '80)  
 ``LIST    .ASM   1,8K``      
 ``LOAD    .COM   1,8K``    HEX to COM converter (CP/M)  
-``LODEGEN .MAC   6,5K``      
+``LODEGEN .MAC   6,5K``    ZOO redaktori lähtekood (VAKSTU '91)  
 ``LODERUN .MAC    20K``    ZOO assembleri lähtekood (VAKSTU '91)  
 ``M80     .COM    20K``    Macro-80 3.44 (Microsoft '81)  
 ``MAC     .COM    12K``    Macro Assembler 2.0 (CP/M)  
@@ -2162,7 +2224,7 @@ SIZE: `800K` (`819200`) / SHA1: `b7efca324ddffc6c31476adff2228e3b5e2e792e`
 ``PIP     .COM   7,3K``    Failide kopeerija (CP/M)  
 ``PLAYER  .ASM   2,4K``      
 ``PLAYER  .COM    384``      
-``PMOOD   .ASM   3,7K``      
+``PMOOD   .ASM   3,7K``    GTRi pildilugemismoodul  
 ``PMOOD   .COM   1,0K``      
 ``PMOOD   .MAC   3,7K``      
 ``READ    .COM   7,8K``      
@@ -2235,7 +2297,7 @@ SIZE: `800K` (`819200`) / SHA1: `05cdb99b04b1972118acf95119cda4a7dd297c82`
 ``DEMO    .      8,2K``      
 ``DEMO    .COM   5,2K``    Audio-Video-Text demod (EKTA '88)  
 ``DEMO    .HLP   3,5K``    DEMO abifail  
-``DIGGER  .COM   1,2K``    Residentne tähesadu?  
+``DIGGER  .COM   1,2K``    Viiruslik tähesadu (K.Tomingas '91)  
 ``DISASM  .COM   8,3K``      
 ``DTTEST  .COM    14K``      
 ``EXER1   .CLG    128``      
@@ -2247,7 +2309,7 @@ SIZE: `800K` (`819200`) / SHA1: `05cdb99b04b1972118acf95119cda4a7dd297c82`
 ``HIIR    .COM    512``      
 ``KAOTAJA .COM    12K``      
 ``KAP     .COM    32K``    "Merelahing" (ed K.Koppel)  
-``KAPU    .BAS    19K``      
+``KAPU    .BAS    19K``    "Merelahingu" lähtekood  
 ``KETAS   .ASM   1,4K``      
 ``KETAS   .COM    640``      
 ``KULT    .COM    12K``      
@@ -2255,7 +2317,7 @@ SIZE: `800K` (`819200`) / SHA1: `05cdb99b04b1972118acf95119cda4a7dd297c82`
 ``KUVA    .COM    768``      
 ``KYU     .      2,8K``      
 ``L1      .ASM   9,9K``      
-``LADTAB  .COM    12K``      
+``LADTAB  .COM    12K``    Ladderi leveliredaktor (VAKSTU '90)  
 ``LF      .ASM    15K``      
 ``LF      .COM   2,0K``      
 ``LISATEEK.       27K``      
@@ -2332,7 +2394,7 @@ SIZE: `800K` (`819200`) / SHA1: `b91edfdbee67cee8fed9429340f2a72140e576e3`
 ``ABI     .TAB    16K``      
 ``AEG     .COM   9,4K``      
 ``ARVUTA  .COM    14K``      
-``ASM     .      4,2K``      
+``ASM     .      4,2K``    Assembleri käskude tabel  
 ``BIORYTM .COM    18K``      
 ``BOWLING .COM   3,5K``    Keegel (Maxway & I.K.S. '91)  
 ``COF     .COM    640``    Copy files 6.6 (I.Käär)  
@@ -2356,14 +2418,14 @@ SIZE: `800K` (`819200`) / SHA1: `b91edfdbee67cee8fed9429340f2a72140e576e3`
 ``KUMMARDA.PAS    640``      
 ``KUM     .PCC   1,0K``      
 ``LAD2    .DAT    512``      
-``LADDER2 .COM    40K``      
-``LADDER2 .FNT    896``      
-``LADTAB  .PAS   2,7K``      
+``LADDER2 .COM    40K``    Platvormimäng Ladder 2 (Yahoo '83)  
+``LADDER2 .FNT    896``    Ladderi graafika fonditabelina  
+``LADTAB  .PAS   2,7K``    Ladderi redaktori lähtekood  
 ``LA      .TAB    128``      
 ``LI      .      1,9K``      
 ``LINNAD  .COM    18K``      
-``LODEGEN .COM   1,3K``      
-``LR      .COM    13K``      
+``LODEGEN .COM   1,3K``    Zoo leveliredaktor (V.Zverkov '90)  
+``LR      .COM    13K``    ZOO esialgne versioon (üks level)  
 ``MAT     .       384``      
 ``MATICO  .COM    19K``      
 ``MEES    .PCC   1,0K``      
@@ -2384,7 +2446,7 @@ SIZE: `800K` (`819200`) / SHA1: `b91edfdbee67cee8fed9429340f2a72140e576e3`
 ``PUSHER  .COM    23K``    "Nügiline" (=Sokoban, A.Mett '91)  
 ``PUSHER  .DAT    17K``      
 ``PUSHER  .LEV   6,3K``      
-``PUSHERPK.COM    16K``      
+``PUSHERPK.COM    16K``    Nügilise levelite pakkija  
 ``REI     .PCC   1,0K``      
 ``RUUT    .PCC   1,0K``      
 ``SCREEN  .H     1,0K``      
@@ -2399,8 +2461,8 @@ SIZE: `800K` (`819200`) / SHA1: `b91edfdbee67cee8fed9429340f2a72140e576e3`
 ``SYMBOL  .KEM   5,3K``      
 ``ZOKOBAN .COM    16K``    Zokoban (Errorsoft/Syntax '91)  
 ``ZOKOBAN .SIR    128``      
-``ZOO1    .COM    16K``    ZOO esialgne versioon ('91)  
-``ZOO     .COM    35K``      
+``ZOO1    .COM    16K``    ZOO algupärane versioon (9 levelit)  
+``ZOO     .COM    35K``    ZOO pakkimata arendusversioon  
 ``TEST2   .       384``      
 ``TETRIS  .COM    17K``    Hiirega "Tetris" (A.Mett '90 H)  
 ``UTILIT  .H      640``      
@@ -2459,7 +2521,7 @@ SIZE: `800K` (`819200`) / SHA1: `8338f674672f38fa9128377f850186c429025835`
 ``KRAKOUT .SYM    768``      
 ``KUM     .PCC   1,0K``      
 ``KUVA    .COM    768``      
-``LAD     .       896``      
+``LAD     .       896``    Ladderi graafika fonditabelina  
 ``LADD    .COM   7,5K``      
 ``LADDEN  .COM    40K``      
 ``LADDEN  .DAT    512``      

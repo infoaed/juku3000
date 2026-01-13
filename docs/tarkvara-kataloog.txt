@@ -1,7 +1,7 @@
 ﻿# Ketastelt taastatud JUKU tarkvara üldnimekiri
 
 Kataloog väljendab ketastelt, lintidelt ja mälukividelt taastatud
-JUKU E5101-E5104 tarkvara hilissuve 2025 seisuga. Materjale lisandub
+JUKU E5101-E5104 tarkvara 2025 lõpu seisuga. Materjale lisandub
 ning kirjeldused võivad teadmiste täienedes muutuda. Nimekirja
 autoriteetne kontrollsummadega versioon on:
 
@@ -244,6 +244,68 @@ b7f7e9b8eeab6821b29b68dbeccd1886eba949d6  YL2     .LOG     640  LOGERi ülesanne
 267b869eca66228139983f07b5fcbc043b213b7c  YL3     .LOG     896  LOGERi ülesanne #3
 7f291f6bcc2751314fe925864094f0be54f5745f  YL4     .LOG    1,7K  LOGERi ülesanne #4
 
+## J3KGAME2
+
+Juku 3000 mängude ketas 2025 on pühendatud porditud mängudele, millest
+esimene on ilmselt XONIX ja kuulsaim ZOO. Kettal on valik unarvara koos
+uusversioonidega, enamiku värskete portide autor on Pehka1985, välja arvatud
+Pöidlaküüdi reisijuht ja Totrus, mille on portinud Tramm. Kõige rohkem on
+JUKU peal uuesti kirjutatud TETRISt ja SOKOBANi -- kumbagi 3x. Ketast kasutab
+anno 2026 veebiemulaator https://infoaed.ee/juku/ ja selle saab alla
+laadida https://elektroonikamuuseum.ee/failid/juku/tarkvara/J3KGAME1.JUK.
+
+
+SIZE: 800K (819200) / SHA1: 504559622dbb951ca5de0b6dd1fcae0769153000
+
+8804ca55d5ab88a60eaec47c0181fd6a40607fdd  1       .        896  LAOLEO andmefail
+2a7e9c8444d9c3de7f7bacbe1d1af15e58dffe1a  2       .        896  LAOLEO andmefail
+a561d04f40989fcfd43ccaaa27d31a13c73ae827  3       .        896  LAOLEO andmefail
+ca5ae9f88bf3452c2e9507b79f26362429a0eea0  4       .        896  LAOLEO andmefail
+86a663082236d3df01be9f378c71476c9f5ec791  5       .        896  LAOLEO andmefail
+00566fa63bc717e4443adc1a09ab18f29ef7e13a  ARKANOID.COM     17K  Arkanoid 1.0 (Brick '90/'25)
+2b9f1523b102f4e05a5aa67b5ce313223038b39c  BINLAND .COM     30K  Binary Land (Hudson '83/'24)
+a1b73c4f4940bcf47ac6680ae1a5b0b8cfe18d24  BOMB    .COM     12K  Bomber Man (Hudson '83/'24)
+a2442e049a7b93b96df4f71ac73b4751c0e43044  BOULDER .COM     21K  Boulder Dash (First Star '84/'25)
+8e67ba4190e6078c43f7881ee4393af8ae26f359  BRUN    .COM     16K  BASIC runtime 5.30 (Microsoft)
+b889ad95d0ee212e2716dc9a499c2dd29af22f99  CBALL   .COM    9,4K  Cannon Ball (Hudson '83/'25)
+3033a05600452baf0dc661bc1baeb141eba22afc  CLRBALL .COM     10K  Color Ball (Hudson '84/'25)
+e6e113b0d8bbf3fd746db85c1f1d1d790e237a40  DIGGER  .COM    1,2K  Viiruslik tähesadu (K.Tomingas '91)
+ba747ea3663f5a011a828859c619726599bf9f54  DTANK   .COM     14K  Driller Tanks (Hudson '83/'24)
+921365d963d86907c057228190509772c0c7fd99  FIRE    .COM     17K  Fire Rescue (Hudson '84/'25)
+adfec4ef7281cf1d0a36b25656fdb19b37acfd85  HITCH   .COM    8,7K  Pöidlaküüdi reisijuht (80x24, IC '85)
+fe6f5606a7c3976cdd251cf9db57a7dbc2d0e7b7  HITCHHIK.DAT    111K  
+ac45742bfc6e93e57b85730f88c7f955217217df  INDIAN  .COM     21K  Indian no Bouken (Hudson '83/'25)
+aad8d54d4cc5f4a345b155736b328349350a8bbf  LAD     .        896  Ladderi graafika fonditabelina
+1cf8534ae837bd45d2bab3f0577128c732066bf0  LAD2    .DAT     512  
+dcdac2adc015d956e806abdb847b87754bda4053  LADDER2 .COM     40K  Platvormimäng Ladder 2 (Yahoo '83)
+dc58b4526fba01edf4421062fe69e1cdf5e26d70  LAOLEO  .COM     32K  "Laoleo" (=Sokoban, Kompuuter '91 H)
+049892cce5372a8cdf249db4d023798565ae9c79  LF      .COM    2,0K  Fondi laadija MODXi jaoks
+e5dd15e9e058e11bf51a8de00e9438fd5905320b  LL0     .       6,4K  LAOLEO andmefail
+d64904df371a14caf823ca2ded43f021f7343354  LODEGEN .COM    1,3K  Zoo leveliredaktor (V.Zverkov '90)
+16341d385fc589cbadb653d5477725f99f861b51  LR      .COM     13K  Zoo demoversioon* (üks level)
+40291582344cb3342c78a55f9fc4e22b4eb8db21  MADUOK  .COM    9,3K  Klassikaline ussimäng (=Snake)
+e0b5c4e59b6b4223258717836fb723bd75dd9e6d  MODX    .COM    3,5K  80x24 kuvalaotuse draiver
+3e83478907139f7b83a8ec5fda31574d16b33554  NINJA   .COM     32K  Ninjya Kage (Hudson '84/'24)
+4f2ff199f261d110132feea016a4b487d22af3b1  PUSHER  .COM     23K  Nügiline* (=Sokoban, A.Mett '91)
+033de6f0d4a5a53dd5acad01f67749f8efdef909  PUSHER  .LEV    6,3K  
+81d8c34338ca49caf1a80a0f4b8653623de041c1  PUSHERPK.COM     16K  Nügilise levelite pakkija
+cbb37037eea24a1f5572b3ff7c0805bce1d68faf  PUSHER  .TXT    1,2K  Nügilise saatesõna (A.Mett '90)
+972d4020f87d9c319d20dc8b396a009896136d20  PUTUP   .COM     18K  Put Up (Y.Ago/MSX Magazine '87/'25)
+24ccd643fc2319c54860dfdc26da77b9d754bc54  READ    .ME     2,5K  J3K mängude ketta '25 lühitutvustus
+57bfdd40de166a7636d83eed21c5ecdde896f281  ROBBO   .COM     31K  Robbo (LK Avalon '89/'25)
+ec81e8736acf85a455ff819efc52b102027655a0  STOP    .COM     30K  Stop the Train (Hudson '83/'24)
+b110974ccb3068e10cfe32e7494eea2d324e51b1  ZOKOBAN .COM     16K  Zokoban (Errorsoft/Syntax '91)
+07b6d9241084c7dc1f1e74ea8de769622529c9a3  ZOKOBAN .SIR     128  
+8612baa1b3d3896be344f277024448320f43044b  ZOO1    .COM     16K  Zoo algversioon* (9 levelit, VSW '91)
+a188e05a501455bcc879e1a78f78b1b597bfd690  TANK    .COM     18K  Tank Battalion (Namco '84/'25)
+a39eb160202e8284f557d3a186142244026920df  TET2    .COM     23K  "Tetris" 1.1 (A.Mett '90)
+f400c064f077255468c26268078852380509448d  TETRIS  .COM    1,9K  Graafiline "Tetris" (T.Ainsaar '90)
+f121f6f06f0559e8dec89862661830d0fce9dbb1  TKUK    .COM    2,0K  Tähtede kukkumine (Tramm '90/'25)
+a20cde292eb903d5b64e143fb61d08ec1603f61a  TOTDEM  .COM    4,8K  Totruse demo (Joga/Mamsoft '90/'25)
+5a25f03c33e9442b865a6e078bf9d80d11d48d46  USSIKE  .COM    3,3K  Zmejka (A.Alekseev '24/'25)
+ea419795cc320badf39c6414bb9c8a56ebf87b43  WARP    .COM     38K  Warp & Warp (Namco '84/'24)
+f0da50a0de0c005bdb1d949841ae8f116836286d  XONIX   .COM    3,8K  "Xonix"* (=Qix, E.Jürviste/EKTA '87)
+
 ## J3KUTIL4
 
 Juku 3000 rekonstrueeritud EKTA JUKU PC UTILITIES DISK #4 detsembrist 1989.
@@ -281,7 +343,7 @@ eaa47cb96feb06792df936b76f1f4ba61680b397  JCM     .HLP    7,4K  JCM juhend tiite
 8d2156156ecedb9cc6e3eb33d49e1adc334ed8ad  KULT    .COM     12K  EKDOS Disk Test util 1.0 (EKTA '89)
 6312ba788ca6020f6caf7d4c3483d980f874f5f8  KULT    .HLP    8,7K  KULT juhend
 bfe93f568d6d84bd1f5b0e91fa9e5aec471b60f2  KUVA    .COM     768  Kuva asetus ekraanil 1.1 (K.Kevvai)
-c04aaa52fb2102197eac9c874ec302bdf6494a80  LADDER  .COM     40K  Tuntud CP/Mi platvormimäng (80x24)
+c04aaa52fb2102197eac9c874ec302bdf6494a80  LADDER  .COM     40K  Platvormer LADDER (80x24, Yahoo '82)
 fa04059784c29b58725fe4ea4f4ebe363eb13138  LADDER  .DAT     512  
 049892cce5372a8cdf249db4d023798565ae9c79  LF      .COM    2,0K  Fondi laadija MODXi jaoks
 d5600102b26a159193266b7c4cab5aca57a22439  LINK    .COM     16K  Objektmoodulite linkur 1.3 (CP/M '80)
@@ -404,7 +466,7 @@ f68aabf715395a3dadd524f14b28d8e1b263deba  DEMO    .DOK    8,0K  DEMO juhend
 cbe12c7b51dfcbf8107f072adf2100680878eb53  DEMO    .HLP    3,5K  DEMO abifail
 e58e8e0e2cc8958bfcc966d7d5767b0097666c24  DEMOS   .COM    8,3K  A-V-T demode ettevalmistus (EKTA)
 9de4d0ecdb4c6903e1098716ed469368c5e97523  DEMOS   .DOC     16K  DEMOS juhend
-e6e113b0d8bbf3fd746db85c1f1d1d790e237a40  DIGGER  .COM    1,2K  Residentne tähesadu?
+e6e113b0d8bbf3fd746db85c1f1d1d790e237a40  DIGGER  .COM    1,2K  Viiruslik tähesadu (K.Tomingas '91)
 40c1c0a2402c979291d24667e4a81f61933652eb  DOCTOR  .COM     36K  Disk Editor & Diagnostics 1.11 ('83)
 d08f33a5d8cb43169a2014d484b722dcd478ccf6  DOSGEN  .COM     896  Süsteemiketta generaator 3.4 (CP/M)
 ee5bd8a54d5a94afcfd29401b28f98a2f51f0164  EST     .        896  Eesti tähestiku font (JUKU)
@@ -2116,7 +2178,7 @@ b31e7a1eb63a6557c7ed06ce66dfc1000f50b3d4  ASCII   .        896
 e4cf274f3e6c5b0066d485eefec8952ec8bf3c03  DISASM  .COM    8,3K  Super CP/M disassembler 4.00 ('78)
 c1df6d3bec46deba2d94995896507f03b3412fe7  EASYSTR .LAD    1,5K  
 ea30a149900b95a464635850f4ba87265eee6bac  FUNDSK  .ASM     768  
-15b9cd4c0cdfe16ff99402c27d6338d367517b6d  GAMEPRAC.ASM     20K  
+15b9cd4c0cdfe16ff99402c27d6338d367517b6d  GAMEPRAC.ASM     20K  SPACE ATTACKi lähtekood (Vakstu '91)
 5c04192d3f30684b6a855fbc62ff91d1b2db96b6  GAMEPRAC.COM    4,5K  
 229e8d3a2531d9276fa178e1a0ca7cb3369b2af9  GRBASIC .COM    7,8K  
 5c6be18a9d1c61c0bc54cb74defa3a9089afe86e  GRMOOD  .ASM    3,0K  
@@ -2138,13 +2200,13 @@ f1fcd05ba75bb78c016f9c713da54a76cd7d4429  HIIR    .ASM    1,8K
 124c0de4e35d2b928fe94bb4b9c9c9792a009fb4  KETAS   .COM     640  
 63db617c9b266d4288a18c1c917beef19472c181  L80     .COM     11K  LINK-80 3.44 (Microsoft '81)
 c04aaa52fb2102197eac9c874ec302bdf6494a80  LADDER  .COM     40K  Tuntud CP/Mi platvormimäng (80x24)
-744e48920eaf86808642ee5e8eae1bc64051ea07  LADTAB  .COM     12K  
-bd465e383007a819ee467da99c01e4aaccf1e2f7  LADTAB  .PAS    2,7K  
+744e48920eaf86808642ee5e8eae1bc64051ea07  LADTAB  .COM     12K  Ladderi leveliredaktor (VAKSTU '90)
+bd465e383007a819ee467da99c01e4aaccf1e2f7  LADTAB  .PAS    2,7K  Ladderi redaktori lähtekood
 549371c61e6e14817a47842b47e15d93405c3082  LASER   .MAC     128  
 d5600102b26a159193266b7c4cab5aca57a22439  LINK    .COM     16K  Objektmoodulite linkur 1.3 (CP/M '80)
 db55f7a4137942dc0cf82dae5a49c385ca2ad593  LIST    .ASM    1,8K  
 8ba5cf82f8e1ee411d06debbdecbe9fc8ba173ec  LOAD    .COM    1,8K  HEX to COM converter (CP/M)
-120ad9de8b7f75ba56e18d23ddd453d22c025bae  LODEGEN .MAC    6,5K  
+120ad9de8b7f75ba56e18d23ddd453d22c025bae  LODEGEN .MAC    6,5K  ZOO redaktori lähtekood (VAKSTU '91)
 1117cc2f3ed3495989f1c1d808d461a468614b29  LODERUN .MAC     20K  ZOO assembleri lähtekood (VAKSTU '91)
 0f5b131846ed3136e13ebc8a3bdeb725d2bd94c7  M80     .COM     20K  Macro-80 3.44 (Microsoft '81)
 ad196dcbd881ab45bae31bdf72cf3f7eecadb29e  MAC     .COM     12K  Macro Assembler 2.0 (CP/M)
@@ -2162,7 +2224,7 @@ d169e041436457dee9a862398005a742bdaa7e18  PILT    .PAS     896
 394d9b67fe587b1c587cbe79042db54a236eb7d3  PIP     .COM    7,3K  Failide kopeerija (CP/M)
 ec5b1c7adf5dd432b0fd0d879d4177e75e62f30b  PLAYER  .ASM    2,4K  
 50c4772dcd11767c7cf5b0a8febfbcdecdc34130  PLAYER  .COM     384  
-525a3a4ad94780c6dfc28d68d5b05c6ee2ba2747  PMOOD   .ASM    3,7K  
+525a3a4ad94780c6dfc28d68d5b05c6ee2ba2747  PMOOD   .ASM    3,7K  GTRi pildilugemismoodul
 3a79b362a8fb55c5b7ad5e6a050ee15334398513  PMOOD   .COM    1,0K  
 845f533335e3b791270b15b5b71b7ec77d2bc69f  PMOOD   .MAC    3,7K  
 fffe828122ffb589f10a7332bc7568cfc4fff20d  READ    .COM    7,8K  
@@ -2189,7 +2251,7 @@ a489a82d3fa4275325ff08cf4fe690f342964263  SPACE   .COM     17K  "Space Attack" (
 08ee69f1be4ccc9a7d3acf342f355140eaa37892  SPRITE  .ASM     128  
 60fa6dd131c93cb6745138e509be8f792a486959  SPRITE  .COM     256  
 0c7a738a368627818f7eb92bb9ce865b6111a532  SSBAS   .COM    7,5K  
-aa5e095480c51ac8535a8c2771a198ecf78dce28  ZOO     .PLT     22K  
+aa5e095480c51ac8535a8c2771a198ecf78dce28  ZOO     .PLT     22K    
 9a8eeb3a29699babd142f23dcae423b046f61728  ZOO     .TAB    4,3K  
 fe476603cef8deb722402fb85edaa4df81735dcd  TRAPS   .COM    2,5K  
 a960da067a9e15a74632d9402bab5bb7c95505c2  TRIPS   .COM     16K  
@@ -2235,7 +2297,7 @@ b4260c52f8b550bedfd66ee90c7e30fce2f456dd  CPFH80  .COM     512
 111fcc3d5d91c8973b1b4f61b7aef43e52c28e25  DEMO    .       8,2K  
 0dec3d02617ed3fb77b98473bb8f8ee3749768aa  DEMO    .COM    5,2K  Audio-Video-Text demod (EKTA '88)
 cbe12c7b51dfcbf8107f072adf2100680878eb53  DEMO    .HLP    3,5K  DEMO abifail
-e6e113b0d8bbf3fd746db85c1f1d1d790e237a40  DIGGER  .COM    1,2K  Residentne tähesadu?
+e6e113b0d8bbf3fd746db85c1f1d1d790e237a40  DIGGER  .COM    1,2K  Viiruslik tähesadu (K.Tomingas '91)
 39311c39ed2258f8c4da5f49e4cdd0448204e69a  DISASM  .COM    8,3K  
 eaf92fb700e0c929d429dc788e7c982590fb3863  DTTEST  .COM     14K  
 9ffe3f4eaa69b03795c30483356006fda556255c  EXER1   .CLG     128  
@@ -2247,7 +2309,7 @@ caa029a25892c95c89c5fa78318168c3981beb3c  GRAPH   .        896
 6f737f91f66e9284c3ec0cc94cdfb61bd1041045  HIIR    .COM     512  
 7518f6749fad855f7c414b9b489fde00e97cb703  KAOTAJA .COM     12K  
 1fa5d560965f48259843a588dce3c4de38b2e570  KAP     .COM     32K  "Merelahing" (ed K.Koppel)
-afbe7e5ad3dca308a1877dd4bc999c0314470a6c  KAPU    .BAS     19K  
+afbe7e5ad3dca308a1877dd4bc999c0314470a6c  KAPU    .BAS     19K  "Merelahingu" lähtekood
 47bcf2c536965330d688804b1d662bd4b242ff99  KETAS   .ASM    1,4K  
 c73e7296ac11ccfbb0148850254d628112b91b07  KETAS   .COM     640  
 5cf35e3f781757566226c7003369e3b4e9a0fd27  KULT    .COM     12K  
@@ -2255,7 +2317,7 @@ c73e7296ac11ccfbb0148850254d628112b91b07  KETAS   .COM     640
 a81dd8fc75e67afa515e43de37dc95b7b56db90a  KUVA    .COM     768  
 a698eee4212edb84c877978c366efb72b878ce09  KYU     .       2,8K  
 39ac902a98ebebc0e110e489fc8b249a39340848  L1      .ASM    9,9K  
-744e48920eaf86808642ee5e8eae1bc64051ea07  LADTAB  .COM     12K  
+744e48920eaf86808642ee5e8eae1bc64051ea07  LADTAB  .COM     12K  Ladderi leveliredaktor (VAKSTU '90)
 5ab607ecd2a4bca456592c3ca347c608ca836bd8  LF      .ASM     15K  
 f082fa1a897bc1aaa37cef38eaa1e42c378c66b4  LF      .COM    2,0K  
 2bb8ac91aab41fdd3721354f1959fede55212c3d  LISATEEK.        27K  
@@ -2332,7 +2394,7 @@ f88f6b5d85e12f95e52509213707a96f66218ae7  ABI     .COM     20K
 c34fa9ceeb628c009ea9a86a1ee377c63bfb6224  ABI     .TAB     16K  
 a7f4e31af48fc18035ca339bca46a5998505b1a3  AEG     .COM    9,4K  
 98e7a9709fc15cfdbf65dc19ecf0f7e9e4adc820  ARVUTA  .COM     14K  
-77fa408091b598eb0ea9f8d82e8482f24501910d  ASM     .       4,2K  
+77fa408091b598eb0ea9f8d82e8482f24501910d  ASM     .       4,2K  Assembleri käskude tabel
 2d299d08b62d8acdb8810b405fded2a1c4a9d808  BIORYTM .COM     18K  
 eddf1bf24794dd410a4eb1979e8fb7d7722e38de  BOWLING .COM    3,5K  Keegel (Maxway & I.K.S. '91)
 3e30bdeba84c6cd7b656aa526c8c90fdaf8ddac8  COF     .COM     640  Copy files 6.6 (I.Käär)
@@ -2356,14 +2418,14 @@ c14a6ac5ec1266aaaf34745afa30b0480133e9c3  KRAKOUT .PAS    1,8K
 276d21c4b9d17e7403c0d861407b952ed4b304f7  KUMMARDA.PAS     640  
 8e8f0dbc071002aa48839f030cf28d11b8f7b04c  KUM     .PCC    1,0K  
 29e6a054a63b480631eae01199fb6d9e1c1e43c3  LAD2    .DAT     512  
-dcdac2adc015d956e806abdb847b87754bda4053  LADDER2 .COM     40K  
-aad8d54d4cc5f4a345b155736b328349350a8bbf  LADDER2 .FNT     896  
-bd465e383007a819ee467da99c01e4aaccf1e2f7  LADTAB  .PAS    2,7K  
+dcdac2adc015d956e806abdb847b87754bda4053  LADDER2 .COM     40K  Platvormimäng Ladder 2 (Yahoo '83)
+aad8d54d4cc5f4a345b155736b328349350a8bbf  LADDER2 .FNT     896  Ladderi graafika fonditabelina
+bd465e383007a819ee467da99c01e4aaccf1e2f7  LADTAB  .PAS    2,7K  Ladderi redaktori lähtekood
 6793980ed7f2b8bdb5da4424aca9d7093614e893  LA      .TAB     128  
 1a5f35209a296e32616ca1e8a33c42ce4596b56d  LI      .       1,9K  
 fc8d93f5b31f9ee9e8917e99001996bcf8dfbc31  LINNAD  .COM     18K  
-d64904df371a14caf823ca2ded43f021f7343354  LODEGEN .COM    1,3K  
-49a7fb23795482a85afd7029312aca6b3c2e7019  LR      .COM     13K  
+d64904df371a14caf823ca2ded43f021f7343354  LODEGEN .COM    1,3K  Zoo leveliredaktor (V.Zverkov '90)
+49a7fb23795482a85afd7029312aca6b3c2e7019  LR      .COM     13K  ZOO esialgne versioon (üks level)
 b4a28960bce0b0325e70b8cfbddf5f5057ceeb7c  MAT     .        384  
 94152b520ce2a0fa623fd6ffefdc1d77b76d3c9b  MATICO  .COM     19K  
 8fcbdf2f8b47c984545ae1e650c7bdd0bfcb15c3  MEES    .PCC    1,0K  
@@ -2384,7 +2446,7 @@ fca972ce0171cc15e1b5561fecfcec6f42534976  PS1     .COM    7,0K
 84e8ee08ce144f79f95c756470bf7078ef7e13f6  PUSHER  .COM     23K  "Nügiline" (=Sokoban, A.Mett '91)
 99412f8ff84dd0614562849c7285090d38ba9289  PUSHER  .DAT     17K  
 033de6f0d4a5a53dd5acad01f67749f8efdef909  PUSHER  .LEV    6,3K  
-81d8c34338ca49caf1a80a0f4b8653623de041c1  PUSHERPK.COM     16K  
+81d8c34338ca49caf1a80a0f4b8653623de041c1  PUSHERPK.COM     16K  Nügilise levelite pakkija
 d14443bf3a926c008fc6afc8c899bda1e2e9c20f  REI     .PCC    1,0K  
 e84cdf1898cec0e5ff6aee97896178618d497265  RUUT    .PCC    1,0K  
 283f34f8d9b942214aa8bc7bf35c81d86605e209  SCREEN  .H      1,0K  
@@ -2399,8 +2461,8 @@ fbc766494d719decfe57813c46ec3185dfeb0c3b  SPRITE  .H2      640
 b7421a05f2468c944baa68256033978c75163620  SYMBOL  .KEM    5,3K  
 b110974ccb3068e10cfe32e7494eea2d324e51b1  ZOKOBAN .COM     16K  Zokoban (Errorsoft/Syntax '91)
 07b6d9241084c7dc1f1e74ea8de769622529c9a3  ZOKOBAN .SIR     128  
-13f2fae100c6cfcdd357522dd568c9380d5a7da3  ZOO1    .COM     16K  ZOO esialgne versioon ('91)
-c15fc75ac92bbb37afb9b1709664deccef977e78  ZOO     .COM     35K  
+13f2fae100c6cfcdd357522dd568c9380d5a7da3  ZOO1    .COM     16K  ZOO algupärane versioon (9 levelit)
+c15fc75ac92bbb37afb9b1709664deccef977e78  ZOO     .COM     35K  ZOO pakkimata arendusversioon
 fcb5454339c4d8162fb285d526bc36ef7f8a2e62  TEST2   .        384  
 7cc09746e4127fa848e2c933d07c9e24fcc03395  TETRIS  .COM     17K  Hiirega "Tetris" (A.Mett '90 H)
 b51c739456b15acc60373ab8811be363addcbaf0  UTILIT  .H       640  
@@ -2459,7 +2521,7 @@ ae388fa4dfd4e37f561ed90152a08ec3eba66c3c  KOMP    .PLR     256
 869494261048ff672e004f52c4f7d78f0b66ff16  KRAKOUT .SYM     768  
 8e8f0dbc071002aa48839f030cf28d11b8f7b04c  KUM     .PCC    1,0K  
 f8c9d70c71714408e15fd50c869b38e8e734791b  KUVA    .COM     768  
-aad8d54d4cc5f4a345b155736b328349350a8bbf  LAD     .        896  
+aad8d54d4cc5f4a345b155736b328349350a8bbf  LAD     .        896  Ladderi graafika fonditabelina
 6410055389e2e4d3a16255e655d0f6f0d588d10c  LADD    .COM    7,5K  
 ee6106a3fe916c90b1ac4c36aba2c42cb9ce8e17  LADDEN  .COM     40K  
 0d5bdcffa2096ca97fc6cde50aebe72efba54a7f  LADDEN  .DAT     512  
