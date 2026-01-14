@@ -9,10 +9,12 @@
 
 ```  
   
-JUKU E5104 peale kirjutatakse mänge ka aastal 2025,
-aga peamiselt neid siiski porditakse. Lisaks tuntud
-ja tundmatutele koopiatele leiad MMXXV kettalt
-unarvara uusversioone 2024-2025.
+JUKU E5104 peale kirjutatakse mänge ka
+aastal 2025, aga peamiselt neid siiski
+porditakse. Selle aasta  mängude ketas
+on pühendatud unarvara rohkem ja vähem
+tuntud koopiatele ja uusversioonidele.
+
 
 ``ARKANOID.COM`` - Arkanoid 1.0 (Brick '90/'25)  
 ``BINLAND .COM`` - Binary Land (Hudson '83/'24)  

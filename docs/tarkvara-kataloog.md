@@ -1,7 +1,7 @@
 ﻿# Ketastelt taastatud JUKU tarkvara üldnimekiri
 
 Kataloog väljendab ketastelt, lintidelt ja mälukividelt taastatud
-JUKU E5101-E5104 tarkvara 2025 lõpu seisuga. Materjale lisandub
+JUKU E5101-E5104 tarkvara jaanuari 2026 seisuga. Materjale lisandub
 ning kirjeldused võivad teadmiste täienedes muutuda. Nimekirja
 autoriteetne kontrollsummadega versioon on:
 
@@ -254,7 +254,7 @@ JUKU peal uuesti kirjutatud TETRISt ja SOKOBANi -- kumbagi 3x. Ketast kasutab
 anno 2026 veebiemulaator https://infoaed.ee/juku/ ja selle saab alla
 laadida https://elektroonikamuuseum.ee/failid/juku/tarkvara/J3KGAME2.JUK.
 
-SIZE: `800K` (`819200`) / SHA1: `504559622dbb951ca5de0b6dd1fcae0769153000`
+SIZE: `800K` (`819200`) / SHA1: `2e5703cf190f8e564bb1be844d5963711148e242`
 
 ``1       .       896``    LAOLEO andmefail  
 ``2       .       896``    LAOLEO andmefail  
