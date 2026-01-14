@@ -51,9 +51,7 @@ tuntud koopiatele ja uusversioonidele.
 ``WARP    .COM`` - Warp & Warp (Namco '84/'24)  
 ``XONIX   .COM`` - Xonix\* (=Qix, E.Jürviste/EKTA '87)  
 
-Enamiku värsketest portidest on teinud vanameister Pehka1985, kui pole märgitud teisiti.
-Totruse ja Pöidlaküüdi reisijuhi portis Tramm. Viimane ja Ladder vajavad 80x24 kuvalaotust,
-mille aitab sisse lülitada `MODX`. Ladderi jaoks on eraldi font. 
+Enamiku värsketest portidest on teinud vanameister Pehka1985, kui pole märgitud teisiti. Totruse ja Pöidlaküüdi reisijuhi portis Tramm. Viimane ja Ladder vajavad 80x24 kuvalaotust, mille aitab sisse lülitada `MODX`. Ladderi jaoks on eraldi font ja `*` tähistab emulaatorisõbralikuks muudetud klahvidega mänge.
 
 Ketta saab alla laadida [siit](https://elektroonikamuuseum.ee/failid/juku/tarkvara/J3KGAME2.JUK) ja esialgu kattub see veebiemulaatori `A:` kettaga. Põnevaid seiklusi retroraalimise imemaailmas!
 
