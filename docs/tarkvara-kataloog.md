@@ -214,7 +214,7 @@ SIZE: `800K` (`819200`) / SHA1: `4c864901be28e2d075ad9c73040003ce2a1ca069`
 ``INDY    .DAT    12K``      
 ``INDY    .TXT   1,7K``    INDY saatesõna (I.Käär/R.Mägi '22)  
 ``KAPTEN  .COM    32K``    "Merelahing" (ed K.Koppel)  
-``LADDER  .COM    40K``    Tuntud CP/Mi platvormimäng (80x24)  
+``LADDER  .COM    40K``    Platvormer LADDER (80x24, Yahoo '83)  
 ``LADDER  .DAT    512``      
 ``LAOLEO  .COM    32K``    "Laoleo" (=Sokoban, Kompuuter '91 H)  
 ``LL0     .      6,4K``    LAOLEO andmefail  
@@ -252,8 +252,7 @@ uusversioonidega, enamiku värskete portide autor on Pehka1985, välja arvatud
 Pöidlaküüdi reisijuht ja Totrus, mille on portinud Tramm. Kõige rohkem on
 JUKU peal uuesti kirjutatud TETRISt ja SOKOBANi -- kumbagi 3x. Ketast kasutab
 anno 2026 veebiemulaator https://infoaed.ee/juku/ ja selle saab alla
-laadida https://elektroonikamuuseum.ee/failid/juku/tarkvara/J3KGAME1.JUK.
-
+laadida https://elektroonikamuuseum.ee/failid/juku/tarkvara/J3KGAME2.JUK.
 
 SIZE: `800K` (`819200`) / SHA1: `504559622dbb951ca5de0b6dd1fcae0769153000`
 
@@ -343,7 +342,7 @@ SIZE: `800K` (`819200`) / SHA1: `fb8a5239cdd74eced3b0bb7ab8ec6e8b2092f4c3`
 ``KULT    .COM    12K``    EKDOS Disk Test util 1.0 (EKTA '89)  
 ``KULT    .HLP   8,7K``    KULT juhend  
 ``KUVA    .COM    768``    Kuva asetus ekraanil 1.1 (K.Kevvai)  
-``LADDER  .COM    40K``    Platvormer LADDER (80x24, Yahoo '82)  
+``LADDER  .COM    40K``    Platvormer LADDER (80x24, Yahoo '83)  
 ``LADDER  .DAT    512``      
 ``LF      .COM   2,0K``    Fondi laadija MODXi jaoks  
 ``LINK    .COM    16K``    Objektmoodulite linkur 1.3 (CP/M '80)  
@@ -415,7 +414,7 @@ SIZE: `800K` (`819200`) / SHA1: `efd6e83669777966d523d323ea61e0352eea88ff`
 ``INDY    .DAT    12K``      
 ``KAP     .COM    32K``    "Merelahing" (ed K.Koppel)  
 ``KAPTEN  .COM    32K``    "Merelahing"  
-``LADDER  .COM    40K``    Tuntud CP/Mi platvormimäng (80x24)  
+``LADDER  .COM    40K``    Platvormer LADDER (80x24, Yahoo '83)  
 ``LADDER  .DAT    512``      
 ``LAND    .COM    31K``      
 ``LAND    .DAT    640``      
@@ -776,7 +775,7 @@ SIZE: `800K` (`819200`) / SHA1: `64b16291e7fdf850a1e3d6aabbd464b760aa3f88`
 ``INDY    .COM    27K``    Indy Looking for Jewels (I.Käär '91)  
 ``INDY    .DAT    12K``      
 ``KAP     .COM    32K``    "Merelahing" (ed K.Koppel)  
-``LADDER  .COM    40K``    Tuntud CP/Mi platvormimäng (80x24)  
+``LADDER  .COM    40K``    Platvormer LADDER (80x24, Yahoo '83)  
 ``LADDER  .DAT    512``      
 ``LAOLEO  .COM    32K``    "Laoleo" (=Sokoban, Kompuuter '91 H)  
 ``LOGER   .COM    32K``    Lülitiloogika v1.1 (Nost Neji '90 H)  
@@ -913,7 +912,7 @@ SIZE: `800K` (`819200`) / SHA1: `ce3509c93b718c982f228e99b713ce87a965bb0c`
 ``INDY    .DAT    12K``      
 ``JCM     .COM    12K``    JUKU File/Copy Master 1.0 (EKTA '89)  
 ``KAP     .COM    32K``    "Merelahing" (ed K.Koppel)  
-``LADDER  .COM    40K``    Tuntud CP/Mi platvormimäng (80x24)  
+``LADDER  .COM    40K``    Platvormer LADDER (80x24, Yahoo '83)  
 ``LADDER  .DAT    512``      
 ``LAND    .COM    31K``      
 ``LAND    .DAT    640``      
@@ -1004,7 +1003,7 @@ SIZE: `800K` (`819200`) / SHA1: `e06467eafb906cdf21da1f896d4beb040f37302a`
 ``INDY    .COM    27K``    Indy Looking for Jewels (I.Käär '91)  
 ``INDY    .DAT    12K``      
 ``KAP     .COM    32K``    "Merelahing" (ed K.Koppel)  
-``LADDER  .COM    40K``    Tuntud CP/Mi platvormimäng (80x24)  
+``LADDER  .COM    40K``    Platvormer LADDER (80x24, Yahoo '83)  
 ``LADDER  .DAT    512``      
 ``LAND    .COM    31K``      
 ``LAND    .DAT    640``      
@@ -1052,7 +1051,7 @@ SIZE: `800K` (`819200`) / SHA1: `1bab084d9d7869327319fbc9cc3de245df9eab32`
 ``JCM     .COM    12K``    JUKU File/Copy Master 1.0 (EKTA '89)  
 ``KAP     .COM    32K``    "Merelahing" (ed K.Koppel)  
 ``KAPTEN  .COM    32K``    "Merelahing"  
-``LADDER  .COM    40K``    Tuntud CP/Mi platvormimäng (80x24)  
+``LADDER  .COM    40K``    Platvormer LADDER (80x24, Yahoo '83)  
 ``LAOLEO  .COM    32K``    "Laoleo" (=Sokoban, Kompuuter '91 H)  
 ``LLL     .COM    31K``      
 ``MODE    .COM    256``    40x24, 53x24 ja 64x20 lüliti  
@@ -1389,7 +1388,7 @@ SIZE: `800K` (`819200`) / SHA1: `9612a6d94a2587848cafc342bc1706e83c9e0ed3`
 ``FORMAT  .COM   1,3K``    EKDOS 786K flopide vormindaja 3.4  
 ``GTR     .COM    27K``    Turbo GTR 2.5B (M.Gladin/EKTA '87)  
 ``JCM     .COM    12K``    JUKU File/Copy Master 1.0 (EKTA '89)  
-``LADDER  .COM    40K``    Tuntud CP/Mi platvormimäng (80x24)  
+``LADDER  .COM    40K``    Platvormer LADDER (80x24, Yahoo '83)  
 ``LADDER  .DAT    512``      
 ``LAOLEO  .COM    32K``    "Laoleo" (=Sokoban, Kompuuter '91 H)  
 ``ME      .COM    32K``    Heliredaktor "Music Editor" 2.4 ('89)  
@@ -1540,7 +1539,7 @@ SIZE: `800K` (`819200`) / SHA1: `11e18ae89b5943386a538cbff53d18c46dcb4798`
 ``INDY    .COM    27K``    Indy Looking for Jewels (I.Käär '91)  
 ``INDY    .DAT    12K``      
 ``KAP     .COM    32K``    "Merelahing" (ed K.Koppel)  
-``LADDER  .COM    40K``    Tuntud CP/Mi platvormimäng (80x24)  
+``LADDER  .COM    40K``    Platvormer LADDER (80x24, Yahoo '83)  
 ``LADDER  .DAT    512``      
 ``LAND    .COM    31K``      
 ``LAND    .DAT    640``      
@@ -1596,7 +1595,7 @@ SIZE: `800K` (`819200`) / SHA1: `58c157f28a3a49ce7b0f0fbffba939ee2a851116`
 ``­ K`RVITS.PIC   2,9K``      
 ``K`RVITS .PIC   2,5K``      
 ``KUTSE   .PIC   1,0K``      
-``LADDER  .COM    40K``    Tuntud CP/Mi platvormimäng (80x24)  
+``LADDER  .COM    40K``    Platvormer LADDER (80x24, Yahoo '83)  
 ``LADDER  .DAT    512``      
 ``LAEVADEP.PIC   2,2K``      
 ``LL0     .      6,4K``    LAOLEO andmefail  
@@ -2199,7 +2198,7 @@ SIZE: `800K` (`819200`) / SHA1: `b7efca324ddffc6c31476adff2228e3b5e2e792e`
 ``KETAS   .ASM   1,4K``      
 ``KETAS   .COM    640``      
 ``L80     .COM    11K``    LINK-80 3.44 (Microsoft '81)  
-``LADDER  .COM    40K``    Tuntud CP/Mi platvormimäng (80x24)  
+``LADDER  .COM    40K``    Platvormer LADDER (80x24, Yahoo '83)  
 ``LADTAB  .COM    12K``    Ladderi leveliredaktor (VAKSTU '90)  
 ``LADTAB  .PAS   2,7K``    Ladderi redaktori lähtekood  
 ``LASER   .MAC    128``      
@@ -2525,7 +2524,7 @@ SIZE: `800K` (`819200`) / SHA1: `8338f674672f38fa9128377f850186c429025835`
 ``LADD    .COM   7,5K``      
 ``LADDEN  .COM    40K``      
 ``LADDEN  .DAT    512``      
-``LADDER  .COM    40K``    Tuntud CP/Mi platvormimäng (80x24)  
+``LADDER  .COM    40K``    Platvormer LADDER (80x24, Yahoo '83)  
 ``LADDER  .DAT    512``      
 ``LAEV    .PCC   1,0K``      
 ``LAMBA   .PLR    384``      
