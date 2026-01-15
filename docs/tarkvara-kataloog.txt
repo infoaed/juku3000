@@ -275,7 +275,7 @@ adfec4ef7281cf1d0a36b25656fdb19b37acfd85  HITCH   .COM    8,7K  Pöidlaküüdi r
 fe6f5606a7c3976cdd251cf9db57a7dbc2d0e7b7  HITCHHIK.DAT    111K  
 ac45742bfc6e93e57b85730f88c7f955217217df  INDIAN  .COM     21K  Indian no Bouken (Hudson '83/'25)
 aad8d54d4cc5f4a345b155736b328349350a8bbf  LAD     .        896  Ladderi graafika fonditabelina
-1cf8534ae837bd45d2bab3f0577128c732066bf0  LAD2    .DAT     512  
+1cf8534ae837bd45d2bab3f0577128c732066bf0  LAD2    .DAT     512  Muudetud nooleklahvid (J3K '25)
 dcdac2adc015d956e806abdb847b87754bda4053  LADDER2 .COM     40K  Platvormimäng Ladder 2 (Yahoo '83)
 dc58b4526fba01edf4421062fe69e1cdf5e26d70  LAOLEO  .COM     32K  "Laoleo" (=Sokoban, Kompuuter '91 H)
 049892cce5372a8cdf249db4d023798565ae9c79  LF      .COM    2,0K  Fondi laadija MODXi jaoks
@@ -641,14 +641,15 @@ Monitor 3.3 ja EKTA seeria #0024. EKTA seeria #0043 esimese kivi kontrollsumma e
 Monitor 2.2 seitsmes kivi on loetud paari veaga ja kaheksas kivi kokku 50 lahknevusega
 seitsme lugemiskorra vahel.
 
-SIZE: 83K (84655) / SHA1: 3c941292e065fcc8eb2713d165fd4685a76a62ec
+SIZE: 94K (95634) / SHA1: 32eb55be835dccb84e24ee36522bb4014fd0d845
 
 a7185d747c94cd519868692ed3d10fade90dd6d5  EKTA24  .BIN     16K  RomBios 3.42, JUSS keyb (#0024 '88)
+73d62c032be1de06c0dd5618f4abccd4d0f3a329  EKTA31  .BIN     16K  RomBios 3.43 (#0031 '88)
 57311d53f6fe1e87e0755990f400253caccd4795  EKTA32  .BIN     16K  RomBios 2.43m (#0032 '88)
 7aa03497d88cfab9315aa3987765bc06ecb70013  EKTA35  .BIN     16K  RomBios 3.43m, JUSS keyb (#0035 '88)
 29366d74c0e27129f2484a973f7a6de659b90cf4  EKTA37  .BIN     16K  RomBios 3.43m, Baltijets (#0037 '88)
 a7419bfd8249871cc7dbf5c6ea85022d6963fc9a  EKTA43  .BIN     16K  RomBios 2.43m, AT keyb (#0043 '90)
-3d96ba589aa21d44412efb099a144fbe23a2f52f  JBASIC11.BIN    8,0K  EKTA JBASIC 1.1? ('87)
+27e40395e8b49e2f9febf2b23773fbfe251befcf  JBASIC11.BIN    8,0K  EKTA JBASIC 1.1? ('87)
 dee46441f6beeece3e2dfe897c8b1547939c7b1f  JMON22  .BIN     16K  Monitor 2.2, JBASIC ('85)
 76407d99bf83035ef526d980c9468cb04972608c  JMON33  .BIN     16K  Monitor/Bootstrap 3.3, JBASIC ('85)
 

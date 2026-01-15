@@ -275,7 +275,7 @@ SIZE: `800K` (`819200`) / SHA1: `2e5703cf190f8e564bb1be844d5963711148e242`
 ``HITCHHIK.DAT   111K``      
 ``INDIAN  .COM    21K``    Indian no Bouken (Hudson '83/'25)  
 ``LAD     .       896``    Ladderi graafika fonditabelina  
-``LAD2    .DAT    512``      
+``LAD2    .DAT    512``    Muudetud nooleklahvid (J3K '25)  
 ``LADDER2 .COM    40K``    Platvormimäng Ladder 2 (Yahoo '83)  
 ``LAOLEO  .COM    32K``    "Laoleo" (=Sokoban, Kompuuter '91 H)  
 ``LF      .COM   2,0K``    Fondi laadija MODXi jaoks  
@@ -641,9 +641,10 @@ Monitor 3.3 ja EKTA seeria #0024. EKTA seeria #0043 esimese kivi kontrollsumma e
 Monitor 2.2 seitsmes kivi on loetud paari veaga ja kaheksas kivi kokku 50 lahknevusega
 seitsme lugemiskorra vahel.
 
-SIZE: `83K` (`84655`) / SHA1: `3c941292e065fcc8eb2713d165fd4685a76a62ec`
+SIZE: `94K` (`95634`) / SHA1: `32eb55be835dccb84e24ee36522bb4014fd0d845`
 
 ``EKTA24  .BIN    16K``    RomBios 3.42, JUSS keyb (#0024 '88)  
+``EKTA31  .BIN    16K``    RomBios 3.43 (#0031 '88)  
 ``EKTA32  .BIN    16K``    RomBios 2.43m (#0032 '88)  
 ``EKTA35  .BIN    16K``    RomBios 3.43m, JUSS keyb (#0035 '88)  
 ``EKTA37  .BIN    16K``    RomBios 3.43m, Baltijets (#0037 '88)  
