@@ -34,6 +34,7 @@ Asjassepuutuvaid ettevõtmisi:
 * [Mängime?! Arvutimängud Prantsusmaalt ja Saksamaalt](https://web.archive.org/web/20170825094230/https://kumu.ekm.ee/arhiiv/naitused-2013/mangime-arvutimangud-prantsusmaalt-ja-saksamaalt/) (Kumu arvutimängude näitus)
 * [RAM. Eesti varane arvutikunst](https://kumu.ekm.ee/syndmus/ram-eesti-varane-arvutikunst/) (Kumu arvutigraafika näitus)
 * [Näiteid Eesti varasest arvutikunstist](https://bluecat.ee/2013/06/naiteid-eesti-varasest-arvutikunstist/) (Tuuli Lepik/Bluecat)
+* [END IF ehk varane arvutikunst ja uute meediate algus Eestis 1960.-1995. a](https://web.archive.org/web/20070609112438/http://e-media.artun.ee/inimesed/magistritood/TuuliLepikMA.pdf) (Tuuli Lepiku magistritöö)
 * [Eestikeelete mängude Discord](https://discord.gg/nQvCGeNPhr) (Pait Gaming jt)
 * [Kassettilamerit](https://kasettilamerit.fi/en/about/) (Soome unarvara taastajate sait)
 * [Kallion tietokonemuseo](https://www.kalliontietokonemuseo.fi/en/) (Arvutimuuseum Helsingis)
