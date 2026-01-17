@@ -1,0 +1,745 @@
+
+<!doctype html>
+<html lang="et" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Kooliarvuti JUKU igavene digitaalne elu">
+      
+      
+        <meta name="author" content="juku3000">
+      
+      
+        <link rel="canonical" href="https://j3k.infoaed.ee/mame-k%C3%A4ivitamine/">
+      
+      
+        <link rel="prev" href="../juku-k%C3%A4sud/">
+      
+      
+        <link rel="next" href="../videod/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../images/favicon.svg">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>MAME käivitamine - juku3000</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../css/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  
+<meta property="og:type" content="website" />
+<meta property="og:title" content="MAME käivitamine - juku3000" />
+<meta property="og:description" content="Kooliarvuti JUKU igavene digitaalne elu" />
+<meta property="og:image" content="https://j3k.infoaed.ee/assets/images/social/mame-k%C3%A4ivitamine.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:url" content="https://j3k.infoaed.ee/mame-k%C3%A4ivitamine/" />
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:title" content="MAME käivitamine - juku3000" />
+<meta property="twitter:description" content="Kooliarvuti JUKU igavene digitaalne elu" />
+<meta property="twitter:image" content="https://j3k.infoaed.ee/assets/images/social/mame-k%C3%A4ivitamine.png" />
+</head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#juku-kaivitamine-mame-emulaatoris" class="md-skip">
+          Keri sisuni
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Päis">
+    <a href=".." title="juku3000" class="md-header__button md-logo" aria-label="juku3000" data-md-component="logo">
+      
+  <img src="../images/juku3000_small.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            juku3000
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              MAME käivitamine
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="indigo"  aria-label="Automaatne heledus"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Automaatne heledus" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.3 16-.7-2h-3.2l-.7 2H7.8L11 7h2l3.2 9zM20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12zm-9.15 3.96h2.3L12 9z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="indigo"  aria-label="Tekst tumedal tasutal"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Tekst tumedal tasutal" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 2.38 1.19 4.47 3 5.74V17a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2.26c1.81-1.27 3-3.36 3-5.74a7 7 0 0 0-7-7M9 21a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-1H9z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="deep-purple" data-md-color-accent="indigo"  aria-label="Tekst heledal taustal"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Tekst heledal taustal" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 1 7 7c0 2.38-1.19 4.47-3 5.74V17a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2.26C6.19 13.47 5 11.38 5 9a7 7 0 0 1 7-7M9 21v-1h6v1a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1m3-17a5 5 0 0 0-5 5c0 2.05 1.23 3.81 3 4.58V16h4v-2.42c1.77-.77 3-2.53 3-4.58a5 5 0 0 0-5-5"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/infoaed/juku3000" title="Ava repositooriumis" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    infoaed/juku3000
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<!-- Determine classes -->
+
+
+
+
+<!-- Navigation -->
+<nav
+  class="md-nav md-nav--primary"
+  aria-label="Navigatsioon"
+  data-md-level="0"
+>
+
+  <!-- Site title -->
+  <label class="md-nav__title" for="__drawer">
+    <a
+      href=".."
+      title="juku3000"
+      class="md-nav__button md-logo"
+      aria-label="juku3000"
+      data-md-component="logo"
+    >
+      <!--
+  <img src="../images/juku3000_small.svg" alt="logo">
+-->
+      <img src="/images/juku3000_2.svg" alt="logo">
+    </a>
+    <!--juku3000-->
+  </label>
+
+  <!-- Repository information -->
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/infoaed/juku3000" title="Ava repositooriumis" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    infoaed/juku3000
+  </div>
+</a>
+    </div>
+  
+
+  <!-- Navigation list -->
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tere, Juhan!
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ajajoon/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    JUKU elutsükkel
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../juku-k%C3%A4sud/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EKDOSi kasutamine
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MAME käivitamine
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MAME käivitamine
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Sisukord">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Sisukord
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tarkvara-kaivitamine" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tarkvara käivitamine
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../videod/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Videote salvestamine
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kettad/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ketaste lugemine
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../m%C3%A4ngude-ketas-2024/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mängude ketas 2024
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../porditud-m%C3%A4ngud-2025/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mängude ketas 2025
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tarkvara-kataloog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tarkvara kataloog
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://infoaed.ee/juku" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    👾 Proovi JUKUt veebis! 👾
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Sisukord">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Sisukord
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tarkvara-kaivitamine" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tarkvara käivitamine
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="juku-kaivitamine-mame-emulaatoris">JUKU käivitamine MAME emulaatoris<a class="headerlink" href="#juku-kaivitamine-mame-emulaatoris" title="Permanent link">&para;</a></h1>
+<p>Alates <a href="https://github.com/mamedev/mame/releases/tag/mame0272">MAME versioonist 0.272</a> on JUKU töökorras unarvara auväärses nimekirjas<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> ning saad Eesti legendaarse kooliarvuti suurema jukerdamiseta oma töölaual käima lasta (veebiversioon proovimiseks <a href="https://infoaed.ee/juku/">siin</a>). Selleks tuleb:</p>
+<ol>
+<li>Laadida alla <a href="https://www.mamedev.org/release.html">MAME emulaatori töölauaversioon</a></li>
+<li>Paigutada <a href="https://github.com/infoaed/juku3000/raw/refs/heads/master/roms/juku.zip">JUKU püsivara ZIP</a> allalaaditud MAME <code>roms</code> kataloogi</li>
+<li>Käivitada MAME, valida süsteemiks JUKU E5104 ja EKDOS 2.30</li>
+<li>Kinnitada, et JUKU käivitatakse vaikimisi püsivaraga RomBios 3.43m</li>
+<li>Süsteemi omaduste kuvamise järel lastakse uunikumile vool sisse</li>
+</ol>
+<p>Kuvarile ilmub püsimonitori teade <code>RomBios</code>, monitori versiooninumber ja viip <code>∗</code>, mille järel kutsuvalt vilgub sisestuskursor:</p>
+<p><a href="https://commons.wikimedia.org/wiki/File:Juku_E5101_booting_up_EKDOS_2.30,_displaying_readme_file_on_screen.webm"><img alt="EKDOS 2.30 alglaadimine püsimonitorist Rombios 3.43m juhtklahvidega «T», «D», «D»" src="/images/jukubuut.gif" /></a></p>
+<p>JUKU E5104 opsüsteemi EKDOS alglaadimiseks tuleb vajutada <code>T</code>, <code>D</code>, <code>D</code>, täpsemad opsüsteemi juhised <a href="../juku-k%C3%A4sud/">leiad siit</a>.</p>
+<h2 id="tarkvara-kaivitamine">Tarkvara käivitamine<a class="headerlink" href="#tarkvara-kaivitamine" title="Permanent link">&para;</a></h2>
+<p>Ent mis kasu on opsüsteemist tarkvarata? JUKU <a href="https://elektroonikamuuseum.ee/juku_arvuti_tarkvara.html">3</a>+<a href="../ekdos230/">1</a> süsteemiketast koos tarkvaraga on MAME tarkvaranimekirjast leitavad alates versioonist 0.274, ajaloolisi flopisid leiab Elektroonikamuuseumi <a href="https://elektroonikamuuseum.ee/failid/juku/tarkvara/">JUKU failivaramust</a>, enamik tarkvarast on kirjeldatud <a href="../tarkvara-kataloog/">kataloogis</a>.</p>
+<p>Flopiketta kasutamiseks tuleb see emuleeritud JUKUsse sisestada. Selleks on vaja lahti lukustada MAME süsteemiklahvid <code>Scroll Lock</code> abiga (tuntud ka kui <code>MAME Lock</code>), mille järel saab avada <a href="https://docs.mamedev.org/usingmame/mamemenus.html">MAME süsteemimenüü</a> vajutades <code>Tab</code>.</p>
+<p>Flopisid ehk <code>JUK</code>-faile saab lisada <code>File Manageri</code> alt ja vaikimisi saab valida eri JUKU süsteemikettaid MAME tarkvaranimekirjast (<em>software list</em>), rohkem tarkvara ja mänge leiab <code>JUKGAME</code>/<code>JUKPROG</code> seeriast. Emulaatori valmimise puhul andsime välja ka <a href="../m%C3%A4ngude-ketas-2024/">JUKU 3000 mängude ketta 2024</a>, mis jäädvustab 2024. aasta novembri veebiemulaatori <a href="https://infoaed.ee/juku/game1.juk"><code>GAME1.JUK</code></a> ketta seisu. JUKU-aegset pildimaterjali ja kasutajaprogramme leiab veebiemulaatori kettalt <a href="https://infoaed.ee/juku/prog1.juk"><code>PROG1.JUK</code></a>.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">MAME flopimenüü</th>
+<th style="text-align: center;">Mängude ketas 2024</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><a href="https://docs.mamedev.org/usingmame/mamemenus.html"><img alt="Scroll Locki (tuntud ka kui MAME Lock) vajutamise järel saab TABiga avada MAME flopimenüü" src="/images/mame-flopimenyy.png" /></a></td>
+<td style="text-align: center;"><a href="../m%C3%A4ngude-ketas-2024/"><img alt="Emulaatori valmimise puhul anti välja Juku 3000 mängude ketas 2024" src="/images/j3k-games2024f.png" /></a></td>
+</tr>
+</tbody>
+</table>
+<p>Aktiivset ketast saad EKDOSis vahetada viiba järele kettatähise ja kooloni kirjutamisega (nt <code>A:</code> või <code>B:</code>), tarkvara ehk <code>COM</code>-laadefaile saad käivitada sisestades viiba järele soovitud programmi nime. Failide nimekirja kettal näitab käsklus <code>DIR</code>. Süsteemi töökorras olemise kontrolliks võid proovida, kas saad <code>GAME1.JUK</code> kettalt käima <a href="https://et.wikipedia.org/wiki/Indy_looking_for_Jewels...">tuntud JUKU mängu INDY</a>.</p>
+<p>Üldiselt on tark esimese asjana MAMEs lülitada JUKU puhul välja kõik <em>bilinear filtering</em> sätted, mis sobivad udusema pildiga telekamängude jaoks, kuid mitte kooliarvutile (nt <code>General Settings</code> -&gt; <code>Video Options</code> alt, ära unusta pärast üldmenüüst valida <code>Save Settings</code>).</p>
+<ul>
+<li>Kui teed JUKU mängudest või tarkvarast ekraanivideoid, siis <a href="../videod/">tee neid õigesti</a>!</li>
+<li>Kui soovid luua ise JUKU kettatõmmiseid, siis selleks on siin <a href="../kettad/">tehniline juhend</a>!</li>
+</ul>
+<p>Kui soovid katsetada JUKUl programmeerimist, võid lapata läbi <a href="https://p6drad-teel.net/~p6der/juku-hingeelu_2024_videota.pdf">slaidid JUKU tarkvara ökosüsteemist</a> ning seejärel proovida kompilaatorite-linkurite koondketast <a href="https://github.com/infoaed/juku3000/raw/refs/heads/master/src/juhan/tere.juk"><code>TERE.JUK</code></a>.</p>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p><em>Kes minevikku ei mäleta, elab tulevikuta!</em> -- Juhan Liiv&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.sections", "header.autohide", "content.code.copy", "content.footnote.tooltips"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Kopeeritud", "clipboard.copy": "Kopeeri l\u00f5ikelauale", "search.result.more.one": "1 veel sellel lehel", "search.result.more.other": "# veel sellel lehel", "search.result.none": "Otsingule ei leitud \u00fchtegi vastet", "search.result.one": "Leiti \u00fcks tulemus", "search.result.other": "Leiti # tulemust", "search.result.placeholder": "Otsimiseks kirjuta siia", "search.result.term.missing": "Puudub", "select.version": "Vali versioon"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

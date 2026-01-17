@@ -1,0 +1,2167 @@
+
+<!doctype html>
+<html lang="et" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Kooliarvuti JUKU igavene digitaalne elu">
+      
+      
+        <meta name="author" content="juku3000">
+      
+      
+        <link rel="canonical" href="https://j3k.infoaed.ee/pascal/lisateek/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../images/favicon.svg">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>Pascal/MT+ lisateekide pakett arvutile "JUKU" - juku3000</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Pascal/MT+ lisateekide pakett arvutile "JUKU" - juku3000" />
+<meta property="og:description" content="Kooliarvuti JUKU igavene digitaalne elu" />
+<meta property="og:image" content="https://j3k.infoaed.ee/assets/images/social/pascal/lisateek.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:url" content="https://j3k.infoaed.ee/pascal/lisateek/" />
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:title" content="Pascal/MT+ lisateekide pakett arvutile "JUKU" - juku3000" />
+<meta property="twitter:description" content="Kooliarvuti JUKU igavene digitaalne elu" />
+<meta property="twitter:image" content="https://j3k.infoaed.ee/assets/images/social/pascal/lisateek.png" />
+</head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#pascalmt-lisateekide-pakett-arvutile-juku" class="md-skip">
+          Keri sisuni
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Päis">
+    <a href="../.." title="juku3000" class="md-header__button md-logo" aria-label="juku3000" data-md-component="logo">
+      
+  <img src="../../images/juku3000_small.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            juku3000
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Pascal/MT+ lisateekide pakett arvutile "JUKU"
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="indigo"  aria-label="Automaatne heledus"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Automaatne heledus" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.3 16-.7-2h-3.2l-.7 2H7.8L11 7h2l3.2 9zM20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12zm-9.15 3.96h2.3L12 9z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="indigo"  aria-label="Tekst tumedal tasutal"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Tekst tumedal tasutal" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 2.38 1.19 4.47 3 5.74V17a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2.26c1.81-1.27 3-3.36 3-5.74a7 7 0 0 0-7-7M9 21a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-1H9z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="deep-purple" data-md-color-accent="indigo"  aria-label="Tekst heledal taustal"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Tekst heledal taustal" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 1 7 7c0 2.38-1.19 4.47-3 5.74V17a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2.26C6.19 13.47 5 11.38 5 9a7 7 0 0 1 7-7M9 21v-1h6v1a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1m3-17a5 5 0 0 0-5 5c0 2.05 1.23 3.81 3 4.58V16h4v-2.42c1.77-.77 3-2.53 3-4.58a5 5 0 0 0-5-5"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/infoaed/juku3000" title="Ava repositooriumis" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    infoaed/juku3000
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<!-- Determine classes -->
+
+
+
+
+<!-- Navigation -->
+<nav
+  class="md-nav md-nav--primary"
+  aria-label="Navigatsioon"
+  data-md-level="0"
+>
+
+  <!-- Site title -->
+  <label class="md-nav__title" for="__drawer">
+    <a
+      href="../.."
+      title="juku3000"
+      class="md-nav__button md-logo"
+      aria-label="juku3000"
+      data-md-component="logo"
+    >
+      <!--
+  <img src="../../images/juku3000_small.svg" alt="logo">
+-->
+      <img src="/images/juku3000_2.svg" alt="logo">
+    </a>
+    <!--juku3000-->
+  </label>
+
+  <!-- Repository information -->
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/infoaed/juku3000" title="Ava repositooriumis" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    infoaed/juku3000
+  </div>
+</a>
+    </div>
+  
+
+  <!-- Navigation list -->
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tere, Juhan!
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ajajoon/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    JUKU elutsükkel
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../juku-k%C3%A4sud/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EKDOSi kasutamine
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mame-k%C3%A4ivitamine/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MAME käivitamine
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../videod/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Videote salvestamine
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kettad/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ketaste lugemine
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../m%C3%A4ngude-ketas-2024/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mängude ketas 2024
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../porditud-m%C3%A4ngud-2025/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mängude ketas 2025
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tarkvara-kataloog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tarkvara kataloog
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://infoaed.ee/juku" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    👾 Proovi JUKUt veebis! 👾
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Sisukord">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Sisukord
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#eessona" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Eessõna
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-ulevaade-teekidest" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Ülevaade teekidest
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-teekide-kasutamine" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Teekide kasutamine
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Teekide kasutamine">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-taiendused-kasutajaprogrammis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1 Täiendused kasutajaprogrammis
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-linkimine" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2 Linkimine
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-protseduurid-ja-funktsioonid" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Protseduurid ja funktsioonid
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Protseduurid ja funktsioonid">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-graafikateek-graph" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1 Graafikateek (GRAPH)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.1 Graafikateek (GRAPH)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sethgr" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SETHGR
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#settext" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SETTEXT
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#putpixel" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PUTPIXEL
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#line" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        LINE
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#circle" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CIRCLE
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#box" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        BOX
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lineto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        LINETO
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#moveto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MOVETO
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#linerel" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        LINEREL
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#moverel" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MOVEREL
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#invscr" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        INVSCR
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-spraiditeek-sprite" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.2 Spraiditeek (SPRITE)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.2 Spraiditeek (SPRITE)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#loadpic" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        LOADPIC
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getpic" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GETPIC
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#putpic" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PUTPIC
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#movepic" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MOVEPIC
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getmem" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GETMEM
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-kuvavorminguteek-screen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.3 Kuvavorminguteek (SCREEN)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.3 Kuvavorminguteek (SCREEN)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#clrscr" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CLRSCR
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#clreoscr" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CLREOSCR
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#clreoln" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CLREOLN
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scrolon" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SCROLON
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scroloff" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SCROLOFF
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#curson" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CURSON
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cursoff" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CURSOFF
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gotoxy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GOTOXY
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#home" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        HOME
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#left" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        LEFT
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#right" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        RIGHT
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#up" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        UP
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#down" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DOWN
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wherexy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        WHEREXY
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inverse" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        INVERSE
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#normal" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        NORMAL
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#screen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SCREEN
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#openwnd" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        OPENWND
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#closewnd" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CLOSEWND
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#readkey" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        READKEY
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kbeepon" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        KBEEPON
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kbeepoff" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        KBEEPOFF
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#34-varia-utilit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.4 Varia (UTILIT)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.4 Varia (UTILIT)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rsttimer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        RSTTIMER
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#timer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        TIMER
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mouse" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MOUSE
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#initpr" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        INITPR
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prchr" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PRCHR
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sound" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SOUND
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#volume" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        VOLUME
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#random" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        RANDOM
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#35-kettateek-disk" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.5 Kettateek (DISK)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.5 Kettateek (DISK)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#selectdisk" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SELECTDISK
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#settrack" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SETTRACK
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setsector" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SETSECTOR
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setdma" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SETDMA
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#readdisk" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        READDISK
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#writedisk" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        WRITEDISK
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kasutatud-kirjandus" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kasutatud kirjandus
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="pascalmt-lisateekide-pakett-arvutile-juku">Pascal/MT+ lisateekide pakett arvutile "JUKU"<a class="headerlink" href="#pascalmt-lisateekide-pakett-arvutile-juku" title="Permanent link">&para;</a></h1>
+<div class="codehilite"><pre><span></span><code>                   *****  Nõo 1990  *****
+
+
+
+
+
+
+               PASCAL/MT+ LISATEEKIDE PAKETT
+
+                      ARVUTILE &quot;JUKU&quot;.
+
+
+
+                                         Autor: I.Jentson
+
+                                                Nõo KK AK
+</code></pre></div>
+
+<h2 id="eessona">Eessõna<a class="headerlink" href="#eessona" title="Permanent link">&para;</a></h2>
+<p>Paketi kasutamine eeldab algteadmisi keelest Pascal ja oskust
+töötada Pascal/MT+ translaatoriga.  Pascali algteadmiste
+omandamiseks võib kasutada näiteks õppevahendit<sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup>,
+aga sobib ka ükskõik milline Pascalit käsitlev raamat. Arvutil
+"Juku" töötava Pascal/MT+ kasutamise kohta  on  vähesel 
+määral informatsiooni teoses<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup>, täpsem ülevaade kasutamisest ja
+Pascal/MT+ erinevustest standartsest Pascalist antakse teoses<sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup>.</p>
+<p>Paketi  tegemisel on püütud tagada funktsiooninimetuste 
+kokkulangevus  Turbo Pascali sarnaste funktsioonidega.</p>
+<h2 id="1-ulevaade-teekidest">1. Ülevaade teekidest<a class="headerlink" href="#1-ulevaade-teekidest" title="Permanent link">&para;</a></h2>
+<p>Pascal/MT+ lisateegid sisaldavad protseduure ja  funktsioone
+graafiliseks  tööks arvuti "JUKU"  kuvari  ekraanil, 
+samuti teksti kuvareziimi valimiseks ning ketaste,  taimeri, 
+printeri, "hiirega" töötamiseks jm.</p>
+<p>Kõigi nende protseduuride ja funktsioonide kasutamiseks 
+veendu järgmiste failide olemasolus:</p>
+<div class="codehilite"><pre><span></span><code> Graph.H        Graph.ERL
+ Screen.H       Screen.ERL
+ Utilit.H       Utilit.ERL
+ Sprite.H1      Sprite.H2      Sprite.ERL
+ Disk.H         Disk.ERL
+</code></pre></div>
+
+<p>Failis <code>SPRITE.H1</code> on tüübikirjeldused  spraidiprotseduuridele:</p>
+<div class="codehilite"><pre><span></span><code><span class="nt">Type</span><span class="w"> </span><span class="nt">_pointer</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="o">^</span><span class="nt">byte</span><span class="o">;</span><span class="w">         </span>
+<span class="w">          </span><span class="nt">pic</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nt">record</span><span class="w">             </span><span class="nt">Spraiti</span><span class="w"> </span><span class="nt">iseloomustavad</span><span class="o">:</span>
+<span class="w">                    </span><span class="nt">x</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="nt">integer</span><span class="o">;</span><span class="w">   </span><span class="nt">asukoha</span><span class="w"> </span><span class="nt">x</span><span class="w"> </span><span class="nt">-</span><span class="w"> </span><span class="nt">koordinaat</span>
+<span class="w">                    </span><span class="nt">y</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="nt">integer</span><span class="o">;</span><span class="w">           </span><span class="nt">y</span><span class="w"> </span><span class="nt">-</span><span class="w"> </span><span class="nt">koordinaat</span>
+<span class="w">                 </span><span class="nt">xdim</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="nt">byte</span><span class="o">;</span><span class="w">      </span><span class="nt">x</span><span class="w"> </span><span class="nt">-</span><span class="w"> </span><span class="nt">mõõde</span><span class="w"> </span><span class="o">(</span><span class="w"> </span><span class="nt">pixelid</span><span class="o">/</span><span class="nt">8</span><span class="o">+</span><span class="nt">1</span><span class="w"> </span><span class="o">)</span>
+<span class="w">                 </span><span class="nt">ydim</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="nt">byte</span><span class="o">;</span><span class="w">      </span><span class="nt">y</span><span class="w"> </span><span class="nt">-</span><span class="w"> </span><span class="nt">mõõde</span>
+<span class="w">                </span><span class="nt">place</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="nt">_pointer</span><span class="o">;</span><span class="w">  </span><span class="nt">asukoht</span><span class="w"> </span><span class="nt">mälus</span>
+<span class="w">                </span><span class="nt">shift</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="nt">_pointer</span><span class="w">   </span><span class="nt">nihe</span><span class="w"> </span><span class="o">(</span><span class="nt">ära</span><span class="w"> </span><span class="nt">puutu</span><span class="o">!)</span>
+<span class="w">               </span><span class="nt">end</span><span class="o">;</span>
+<span class="w">        </span><span class="nt">bfail</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nt">file</span><span class="w"> </span><span class="nt">of</span><span class="w"> </span><span class="nt">byte</span><span class="o">;</span>
+</code></pre></div>
+
+<p>Ülejäänud <code>.H</code> laiendiga failides hoitakse paketis olevate
+funktsioonide ja protseduuride pascalkeelseid kirjeldusi, 
+failides laiendiga <code>.ERL</code> hoitakse nende linkimiseks kõlblikke 
+mooduleid.</p>
+<p>Järgmised protseduurid ja funktsioonid on teekides:</p>
+<div class="codehilite"><pre><span></span><code><span class="w"> </span><span class="nv">Graafikateek</span>:<span class="w">                           </span><span class="ss">(</span><span class="w"> </span><span class="nv">Graph</span><span class="w"> </span><span class="ss">)</span>
+
+<span class="w"> </span><span class="nv">BOX</span><span class="w">                 </span><span class="nv">CIRCLE</span><span class="w">              </span><span class="nv">INVSCR</span>
+<span class="w"> </span><span class="nv">LINE</span><span class="w">                </span><span class="nv">LINETO</span><span class="w">              </span><span class="nv">LINEREL</span><span class="w">             </span>
+<span class="w"> </span><span class="nv">MOVETO</span><span class="w">              </span><span class="nv">MOVEREL</span><span class="w">             </span><span class="nv">PUTPIXEL</span><span class="w">            </span>
+<span class="w"> </span><span class="nv">SETHGR</span><span class="w">              </span><span class="nv">SETTEXT</span>
+
+<span class="w"> </span><span class="nv">Kuva</span><span class="w"> </span><span class="nv">vormingu</span><span class="w"> </span><span class="nv">teek</span>:<span class="w">                     </span><span class="ss">(</span><span class="w"> </span><span class="nv">Screen</span><span class="w"> </span><span class="ss">)</span>
+
+<span class="w"> </span><span class="nv">CLREOLN</span><span class="w">             </span><span class="nv">CLREOSCR</span><span class="w">            </span><span class="nv">CLRSCR</span>
+<span class="w"> </span><span class="nv">CLOSEWND</span><span class="w">            </span><span class="nv">CURSOFF</span><span class="w">             </span><span class="nv">CURSON</span>
+<span class="w"> </span><span class="nv">DOWN</span><span class="w">                </span><span class="nv">GOTOXY</span><span class="w">              </span><span class="nv">HOME</span>
+<span class="w"> </span><span class="nv">INVERSE</span><span class="w">             </span><span class="nv">KBEEPOFF</span><span class="w">            </span><span class="nv">KBEEPON</span>
+<span class="w"> </span><span class="nv">LEFT</span><span class="w">                </span><span class="nv">NORMAL</span><span class="w">              </span><span class="nv">OPENWND</span>
+<span class="w"> </span><span class="nv">READKEY</span><span class="w">             </span><span class="nv">RIGHT</span><span class="w">               </span><span class="nv">SCREEN</span>
+<span class="w"> </span><span class="nv">SCROLOFF</span><span class="w">            </span><span class="nv">SCROLON</span><span class="w">             </span><span class="nv">UP</span>
+<span class="w"> </span><span class="nv">WHEREXY</span>
+
+<span class="w"> </span><span class="nv">Varia</span>:<span class="w">                                  </span><span class="ss">(</span><span class="w"> </span><span class="nv">Utilit</span><span class="w"> </span><span class="ss">)</span>
+
+<span class="w"> </span><span class="nv">INITPR</span><span class="w">              </span><span class="nv">MOUSE</span><span class="w">               </span><span class="nv">PRCHR</span>
+<span class="w"> </span><span class="k">RANDOM</span><span class="w">              </span><span class="nv">RSTTIMER</span><span class="w">            </span><span class="nv">SOUND</span>
+<span class="w"> </span><span class="nv">TIMER</span><span class="w">               </span><span class="nv">VOLUME</span>
+
+<span class="w"> </span><span class="nv">Spraiditeek</span>:<span class="w">                            </span><span class="ss">(</span><span class="w"> </span><span class="nv">Sprite</span><span class="w"> </span><span class="ss">)</span>
+
+<span class="w"> </span><span class="nv">GETMEM</span><span class="w">              </span><span class="nv">GETPIC</span><span class="w">              </span><span class="nv">LOADPIC</span>
+<span class="w"> </span><span class="nv">MOVEPIC</span><span class="w">             </span><span class="nv">PUTPIC</span>
+
+<span class="w"> </span><span class="nv">Kettateek</span>:<span class="w">                              </span><span class="ss">(</span><span class="w"> </span><span class="nv">Disk</span><span class="w"> </span><span class="ss">)</span>
+
+<span class="w"> </span><span class="nv">READDISK</span><span class="w">            </span><span class="nv">SELECTDISK</span><span class="w">          </span><span class="nv">SETDMA</span>
+<span class="w"> </span><span class="nv">SETSECTOR</span><span class="w">           </span><span class="nv">SETTRACK</span><span class="w">            </span><span class="nv">WRITEDISK</span>
+</code></pre></div>
+
+<h2 id="2-teekide-kasutamine">2. Teekide kasutamine<a class="headerlink" href="#2-teekide-kasutamine" title="Permanent link">&para;</a></h2>
+<h3 id="21-taiendused-kasutajaprogrammis">2.1  Täiendused kasutajaprogrammis<a class="headerlink" href="#21-taiendused-kasutajaprogrammis" title="Permanent link">&para;</a></h3>
+<p>Oma  programmi  tuleb  lisada  lisateegi  protseduuride 
+jaoks tüübi- ja protseduurikirjeldused.  Selleks kasutatakse 
+kompileerimisreziimi võtit <code>$I</code>, mille abil lisatakse programmile
+<code>.H</code> laiendiga failide pascalkeelsed tekstid.</p>
+<p>NÄIDE:</p>
+<div class="codehilite"><pre><span></span><code>  program näide;
+  (*$I a:sprite.h1 <span class="gs">*)          lisatakse tüübikirjeldused</span>
+
+<span class="gs">  ......                       kasutajaprogrammi märgendite,</span>
+<span class="gs">  ......                       konstantide, tüüpide ja</span>
+<span class="gs">  ......                       muutujate kirjeldamine</span>
+
+<span class="gs">  (*</span>$I a:sprite.h2 <span class="gs">*)          lisatakse protseduuride kir-</span>
+<span class="gs">  (*</span>$I a:graph.h *)            jeldused
+
+  <span class="k">......</span>                       kasutaja protseduuride ja   
+  <span class="k">......</span>                       funktsioonide kirjeldused
+
+  begin
+  <span class="k">......</span>                       põhiprogramm
+  ......
+  end.
+</code></pre></div>
+
+<h3 id="22-linkimine">2.2 Linkimine<a class="headerlink" href="#22-linkimine" title="Permanent link">&para;</a></h3>
+<p>Tuleb  lisada  vastav <code>.ERL</code> laiendiga fail  linkimiskäsu 
+parameetrite loetelusse:</p>
+<div class="codehilite"><pre><span></span><code>LINKMT NÄIDE,SPRITE,GRAPH,PASLIB/S
+</code></pre></div>
+
+<h2 id="3-protseduurid-ja-funktsioonid">3. Protseduurid ja funktsioonid<a class="headerlink" href="#3-protseduurid-ja-funktsioonid" title="Permanent link">&para;</a></h2>
+<p>Iga funktsiooni ja protseduuri kohta on esitatud informatsioon
+järgmisel kujul:</p>
+<div class="codehilite"><pre><span></span><code><span class="nt">FUNKTSIOONI_NIMI</span>
+
+<span class="w"> </span><span class="nt">Kirjeldus</span><span class="o">:</span><span class="w">  </span><span class="nt">Pascalkeelne</span><span class="w"> </span><span class="nt">fn-i</span><span class="w"> </span><span class="nt">kirjeldus</span><span class="o">.</span>
+
+<span class="nt">Kasutamine</span><span class="o">:</span><span class="w">  </span><span class="nt">Fn-i</span><span class="w"> </span><span class="nt">väljakutsumise</span><span class="w"> </span><span class="nt">kuju</span><span class="o">.</span><span class="w"> </span><span class="nt">Parameetrite</span><span class="w"> </span><span class="nt">tüü-</span>
+<span class="w">             </span><span class="nt">bid</span><span class="w"> </span><span class="nt">on</span><span class="w"> </span><span class="nt">esitatud</span><span class="w"> </span><span class="nt">kirjelduses</span><span class="o">,</span><span class="w"> </span><span class="nt">lisaks</span><span class="w"> </span><span class="nt">sellele</span><span class="w"> </span>
+<span class="w">             </span><span class="nt">on</span><span class="w"> </span><span class="nt">kasutatud</span><span class="w"> </span><span class="nt">järgmist</span><span class="w"> </span><span class="nt">kodeeringut</span><span class="w"> </span><span class="nt">parameet-</span>
+<span class="w">             </span><span class="nt">ri</span><span class="w"> </span><span class="nt">esitähe</span><span class="w"> </span><span class="nt">järgi</span><span class="o">:</span>
+<span class="w">              </span><span class="nt">n</span><span class="w"> </span><span class="nt">-</span><span class="w"> </span><span class="nt">täisarvuline</span><span class="w"> </span><span class="nt">avaldis</span><span class="o">;</span>
+<span class="w">              </span><span class="nt">c</span><span class="w"> </span><span class="nt">-</span><span class="w"> </span><span class="nt">märgitüüpi</span><span class="w"> </span><span class="nt">avaldis</span><span class="o">;</span>
+<span class="w">              </span><span class="nt">m</span><span class="w"> </span><span class="nt">-</span><span class="w"> </span><span class="nt">täisarvuline</span><span class="w"> </span><span class="nt">muutuja</span><span class="o">;</span>
+<span class="w">              </span><span class="nt">l</span><span class="w"> </span><span class="nt">-</span><span class="w"> </span><span class="nt">loogiline</span><span class="w"> </span><span class="nt">muutuja</span><span class="o">;</span>
+<span class="w">              </span><span class="nt">b</span><span class="w"> </span><span class="nt">-</span><span class="w"> </span><span class="nt">baitidest</span><span class="w"> </span><span class="nt">koosneva</span><span class="w"> </span><span class="nt">faili</span><span class="w"> </span><span class="nt">muutuja</span><span class="o">;</span>
+<span class="w">              </span><span class="nt">p</span><span class="w"> </span><span class="nt">-</span><span class="w"> </span><span class="nt">spraiditüüpi</span><span class="w"> </span><span class="o">(</span><span class="w"> </span><span class="nt">pic</span><span class="w"> </span><span class="o">)</span><span class="w"> </span><span class="nt">muutuja</span><span class="o">.</span>
+
+<span class="w">   </span><span class="nt">Tegevus</span><span class="o">:</span><span class="w">  </span><span class="nt">Fn-i</span><span class="w"> </span><span class="nt">tegevuse</span><span class="w"> </span><span class="nt">ja</span><span class="w"> </span><span class="nt">parameetrite</span><span class="w"> </span><span class="nt">selgitus</span><span class="o">.</span>
+
+<span class="w">    </span><span class="nt">Märkus</span><span class="o">:</span><span class="w">  </span><span class="nt">Kui</span><span class="w"> </span><span class="nt">fn-l</span><span class="w"> </span><span class="nt">on</span><span class="w"> </span><span class="nt">mingisuguseid</span><span class="w"> </span><span class="nt">iseärasusi</span><span class="o">,</span><span class="w">  </span><span class="nt">siis</span><span class="w"> </span>
+<span class="w">             </span><span class="nt">juhitakse</span><span class="w"> </span><span class="nt">sellele</span><span class="w"> </span><span class="nt">tähelepanu</span><span class="o">.</span><span class="w"> </span><span class="nt">Samuti</span><span class="w"> </span><span class="nt">viida-</span>
+<span class="w">             </span><span class="nt">takse</span><span class="w"> </span><span class="nt">vajaduse</span><span class="w"> </span><span class="nt">korral</span><span class="w"> </span><span class="nt">teistele</span><span class="w"> </span><span class="nt">funktsiooni-</span>
+<span class="w">             </span><span class="nt">dele</span><span class="o">.</span>
+</code></pre></div>
+
+<h3 id="31-graafikateek-graph">3.1 Graafikateek (<code>GRAPH</code>)<a class="headerlink" href="#31-graafikateek-graph" title="Permanent link">&para;</a></h3>
+<h4 id="sethgr"><code>SETHGR</code><a class="headerlink" href="#sethgr" title="Permanent link">&para;</a></h4>
+<div class="codehilite"><pre><span></span><code><span class="w"> </span><span class="nt">Kirjeldus</span><span class="o">:</span><span class="w">  </span><span class="nt">Procedure</span><span class="w"> </span><span class="nt">SetHgr</span><span class="o">;</span>
+
+<span class="nt">Kasutamine</span><span class="o">:</span><span class="w">  </span><span class="nt">SetHgr</span><span class="o">;</span>
+
+<span class="w">   </span><span class="nt">Tegevus</span><span class="o">:</span><span class="w">  </span><span class="nt">Graafikareziimi</span><span class="w"> </span><span class="nt">valimine</span><span class="o">.</span>
+
+<span class="w">    </span><span class="nt">Märkus</span><span class="o">:</span><span class="w">  </span><span class="nt">Kõik</span><span class="w"> </span><span class="nt">protseduurid</span><span class="o">,</span><span class="w"> </span><span class="nt">mis</span><span class="w"> </span><span class="nt">kasutavad</span><span class="w"> </span><span class="nt">monitori-</span>
+<span class="w">             </span><span class="nt">funktsioone</span><span class="o">,</span><span class="w"> </span><span class="nt">ei</span><span class="w"> </span><span class="nt">tööta</span><span class="w"> </span><span class="nt">selles</span><span class="w"> </span><span class="nt">reziimis</span><span class="o">.</span>
+
+<span class="w">             </span><span class="nt">Vt</span><span class="o">.</span><span class="w"> </span><span class="nt">ka</span><span class="w"> </span><span class="nt">SetText</span><span class="o">.</span>
+</code></pre></div>
+
+<h4 id="settext"><code>SETTEXT</code><a class="headerlink" href="#settext" title="Permanent link">&para;</a></h4>
+<div class="codehilite"><pre><span></span><code><span class="w"> </span><span class="nt">Kirjeldus</span><span class="o">:</span><span class="w"> </span><span class="nt">Procedure</span><span class="w"> </span><span class="nt">SetText</span><span class="o">;</span>
+
+<span class="nt">Kasutamine</span><span class="o">:</span><span class="w"> </span><span class="nt">SetText</span><span class="o">;</span>
+
+<span class="w">   </span><span class="nt">Tegevus</span><span class="o">:</span><span class="w"> </span><span class="nt">Tekstireziimi</span><span class="w"> </span><span class="nt">valimine</span><span class="o">.</span><span class="w"> </span><span class="nt">Selles</span><span class="w"> </span><span class="nt">reziimis</span><span class="w"> </span><span class="nt">saab</span><span class="w"> </span>
+<span class="w">            </span><span class="nt">kasutada</span><span class="w"> </span><span class="nt">monitorifunktsioone</span><span class="o">.</span>
+
+<span class="w">    </span><span class="nt">Märkus</span><span class="o">:</span><span class="w"> </span><span class="nt">Graafikaprotseduurid</span><span class="w">  </span><span class="nt">ei</span><span class="w"> </span><span class="nt">tööta</span><span class="w"> </span><span class="nt">selles</span><span class="w"> </span><span class="nt">rezii-</span>
+<span class="w">            </span><span class="nt">mis</span><span class="o">.</span>
+
+<span class="w">            </span><span class="nt">Vt</span><span class="o">.</span><span class="w"> </span><span class="nt">ka</span><span class="w"> </span><span class="nt">SetHgr</span><span class="o">.</span>
+</code></pre></div>
+
+<h4 id="putpixel"><code>PUTPIXEL</code><a class="headerlink" href="#putpixel" title="Permanent link">&para;</a></h4>
+<div class="codehilite"><pre><span></span><code><span class="w"> </span><span class="nt">Kirjeldus</span><span class="o">:</span><span class="w"> </span><span class="nt">Procedure</span><span class="w"> </span><span class="nt">PutPixel</span><span class="o">(</span><span class="w"> </span><span class="nt">X</span><span class="o">,</span><span class="nt">Y</span><span class="o">,</span><span class="nt">Mood</span><span class="p">:</span><span class="nd">Integer</span><span class="w"> </span><span class="o">);</span>
+
+<span class="nt">Kasutamine</span><span class="o">:</span><span class="w"> </span><span class="nt">PutPixel</span><span class="o">(</span><span class="nt">nx</span><span class="o">,</span><span class="nt">ny</span><span class="o">,</span><span class="nt">nm</span><span class="o">);</span>
+
+<span class="w">   </span><span class="nt">Tegevus</span><span class="o">:</span><span class="w"> </span><span class="nt">Ühe</span><span class="w"> </span><span class="nt">punkti</span><span class="w"> </span><span class="nt">kujutamine</span><span class="w">  </span><span class="nt">ekraanil</span><span class="o">.</span><span class="w"> </span><span class="nt">Punkt</span><span class="w"> </span><span class="nt">kuju</span>
+<span class="w">            </span><span class="nt">tatakse</span><span class="w"> </span><span class="nt">ekraanile</span><span class="w"> </span><span class="nt">vastavalt</span><span class="w"> </span><span class="nt">koordinaatidele</span>
+<span class="w">            </span><span class="nt">X</span><span class="w"> </span><span class="nt">ja</span><span class="w"> </span><span class="nt">Y</span><span class="o">.</span><span class="w">  </span><span class="nt">MOOD</span><span class="w">  </span><span class="nt">võib</span><span class="w"> </span><span class="nt">olla</span><span class="w">  </span><span class="nt">0</span><span class="w"> </span><span class="nt">või</span><span class="w"> </span><span class="nt">1</span><span class="o">.</span><span class="w">  </span><span class="nt">Ekraanil</span><span class="w"> </span>
+<span class="w">            </span><span class="nt">juba</span><span class="w">  </span><span class="nt">olevale</span><span class="w">  </span><span class="nt">punktile</span><span class="w">  </span><span class="nt">uue</span><span class="w">  </span><span class="nt">pealepanemisel</span><span class="w">  </span>
+<span class="w">            </span><span class="nt">moodiga</span><span class="w"> </span><span class="nt">1</span><span class="w"> </span><span class="nt">korral</span><span class="w"> </span><span class="nt">punkt</span><span class="w"> </span><span class="nt">kaob</span><span class="o">,</span><span class="w">  </span><span class="nt">0</span><span class="w"> </span><span class="nt">korral</span><span class="w">  </span><span class="nt">jääb</span><span class="w"> </span>
+<span class="w">            </span><span class="nt">alles</span><span class="o">.</span><span class="w"> </span><span class="nt">X-koordinaat</span><span class="w"> </span><span class="nt">võib</span><span class="w"> </span><span class="nt">omada</span><span class="w"> </span><span class="nt">väärtusi</span><span class="w"> </span><span class="nt">0-st</span><span class="w"> </span>
+<span class="w">            </span><span class="nt">kuni</span><span class="w">  </span><span class="nt">319-ni</span><span class="w">  </span><span class="nt">ja</span><span class="w"> </span><span class="nt">y-koordinaat</span><span class="w"> </span><span class="nt">väärtusi</span><span class="w">  </span><span class="nt">0-st</span><span class="w"> </span>
+<span class="w">            </span><span class="nt">kuni</span><span class="w"> </span><span class="nt">239-ni</span><span class="o">.</span><span class="w"> </span><span class="nt">Ekraani</span><span class="w"> </span><span class="nt">piiridest</span><span class="w"> </span><span class="nt">üles-</span><span class="w"> </span><span class="nt">või</span><span class="w"> </span><span class="nt">al-</span>
+<span class="w">            </span><span class="nt">lapoole</span><span class="w"> </span><span class="nt">jäävate</span><span class="w"> </span><span class="nt">koordinaatide</span><span class="w"> </span><span class="nt">korral</span><span class="w"> </span><span class="nt">tegevus</span><span class="w">  </span>
+<span class="w">            </span><span class="nt">puudub</span><span class="o">,</span><span class="w">  </span><span class="nt">vasakule</span><span class="w"> </span><span class="nt">või</span><span class="w"> </span><span class="nt">paremale</span><span class="w"> </span><span class="nt">jäävate</span><span class="w"> </span><span class="nt">koor-</span>
+<span class="w">            </span><span class="nt">dinaatide</span><span class="w">  </span><span class="nt">korral</span><span class="w"> </span><span class="nt">kujutatakse</span><span class="w"> </span><span class="nt">punkt</span><span class="w">  </span><span class="nt">ekraani</span><span class="w"> </span>
+<span class="w">            </span><span class="nt">vastasservale</span><span class="o">.</span><span class="w"> </span><span class="nt">Väärtused</span><span class="w"> </span><span class="nt">X</span><span class="w"> </span><span class="nt">ja</span><span class="w"> </span><span class="nt">Y</span><span class="w"> </span><span class="nt">säilitatakse</span><span class="w"> </span>
+<span class="w">            </span><span class="nt">graafilise</span><span class="w"> </span><span class="nt">kursori</span><span class="w"> </span><span class="nt">väärtustena</span><span class="o">.</span>
+
+<span class="w">    </span><span class="nt">Märkus</span><span class="o">:</span><span class="w"> </span><span class="nt">Töötab</span><span class="w"> </span><span class="nt">graafikareziimis</span><span class="w"> </span><span class="nt">ja</span><span class="w"> </span><span class="nt">ekraanireziimides</span>
+<span class="w">            </span><span class="nt">0</span><span class="w"> </span><span class="nt">ja</span><span class="w"> </span><span class="nt">1</span><span class="w"> </span><span class="o">(</span><span class="w"> </span><span class="nt">vt</span><span class="o">.</span><span class="w"> </span><span class="nt">SetHgr</span><span class="w"> </span><span class="nt">ja</span><span class="w"> </span><span class="nt">Screen</span><span class="w"> </span><span class="o">).</span>
+</code></pre></div>
+
+<h4 id="line"><code>LINE</code><a class="headerlink" href="#line" title="Permanent link">&para;</a></h4>
+<div class="codehilite"><pre><span></span><code><span class="w"> </span><span class="nt">Kirjeldus</span><span class="o">:</span><span class="w"> </span><span class="nt">Procedure</span><span class="w"> </span><span class="nt">Line</span><span class="o">(</span><span class="w"> </span><span class="nt">X1</span><span class="o">,</span><span class="nt">Y1</span><span class="o">,</span><span class="nt">X2</span><span class="o">,</span><span class="nt">Y2</span><span class="o">,</span><span class="nt">Mood</span><span class="p">:</span><span class="nd">Integer</span><span class="w"> </span><span class="o">);</span>
+
+<span class="nt">Kasutamine</span><span class="o">:</span><span class="w"> </span><span class="nt">Line</span><span class="o">(</span><span class="nt">nx1</span><span class="o">,</span><span class="nt">ny1</span><span class="o">,</span><span class="nt">nx2</span><span class="o">,</span><span class="nt">ny2</span><span class="o">,</span><span class="nt">nm</span><span class="o">);</span>
+
+<span class="w">   </span><span class="nt">Tegevus</span><span class="o">:</span><span class="w"> </span><span class="nt">Joone</span><span class="w"> </span><span class="nt">kujutamine</span><span class="w">  </span><span class="nt">ekraanil</span><span class="o">.</span><span class="w"> </span><span class="nt">Joon</span><span class="w"> </span><span class="nt">kujutatakse</span>
+<span class="w">            </span><span class="nt">alguspunktiga</span><span class="w">  </span><span class="nt">X1</span><span class="o">,</span><span class="nt">Y1</span><span class="w"> </span><span class="nt">ja</span><span class="w"> </span><span class="nt">lõpp-punktiga</span><span class="w"> </span><span class="nt">X2</span><span class="o">,</span><span class="nt">Y2</span><span class="o">.</span>
+<span class="w">            </span><span class="nt">Parameetri</span><span class="w"> </span><span class="nt">Mood</span><span class="w"> </span><span class="nt">tähendust</span><span class="w"> </span><span class="nt">on</span><span class="w"> </span><span class="nt">seletatud</span><span class="w"> </span><span class="nt">prot-</span>
+<span class="w">            </span><span class="nt">seduuri</span><span class="w"> </span><span class="nt">PutPixel</span><span class="w"> </span><span class="nt">juures</span><span class="o">.</span>
+
+<span class="w">    </span><span class="nt">Märkus</span><span class="o">:</span><span class="w"> </span><span class="nt">Töötab</span><span class="w"> </span><span class="nt">graafikareziimis</span><span class="w"> </span><span class="nt">ja</span><span class="w"> </span><span class="nt">ekraanireziimides</span>
+<span class="w">            </span><span class="nt">0</span><span class="w"> </span><span class="nt">ja</span><span class="w"> </span><span class="nt">1</span><span class="w"> </span><span class="o">(</span><span class="w"> </span><span class="nt">vt</span><span class="o">.</span><span class="w"> </span><span class="nt">SetHgr</span><span class="w"> </span><span class="nt">ja</span><span class="w"> </span><span class="nt">Screen</span><span class="w"> </span><span class="o">).</span>
+</code></pre></div>
+
+<h4 id="circle"><code>CIRCLE</code><a class="headerlink" href="#circle" title="Permanent link">&para;</a></h4>
+<div class="codehilite"><pre><span></span><code><span class="w"> </span><span class="nt">Kirjeldus</span><span class="o">:</span><span class="w"> </span><span class="nt">Procedure</span><span class="w"> </span><span class="nt">Circle</span><span class="o">(</span><span class="w"> </span><span class="nt">X</span><span class="o">,</span><span class="nt">Y</span><span class="o">,</span><span class="nt">R</span><span class="o">,</span><span class="nt">Mood</span><span class="p">:</span><span class="nd">Integer</span><span class="w"> </span><span class="o">);</span>
+
+<span class="nt">Kasutamine</span><span class="o">:</span><span class="w"> </span><span class="nt">Circle</span><span class="o">(</span><span class="nt">nx</span><span class="o">,</span><span class="nt">ny</span><span class="o">,</span><span class="nt">nr</span><span class="o">,</span><span class="nt">nm</span><span class="o">);</span>
+
+<span class="w">   </span><span class="nt">Tegevus</span><span class="o">:</span><span class="w"> </span><span class="nt">Ringi</span><span class="w"> </span><span class="nt">kujutamine</span><span class="w"> </span><span class="nt">ekraanil</span><span class="o">.</span><span class="w">  </span><span class="nt">Ring</span><span class="w"> </span><span class="nt">kujutatakse</span>
+<span class="w">            </span><span class="nt">ekraanile</span><span class="w"> </span><span class="nt">keskpunktiga</span><span class="w"> </span><span class="nt">X</span><span class="o">,</span><span class="w"> </span><span class="nt">Y</span><span class="w"> </span><span class="nt">ja</span><span class="w"> </span><span class="nt">raadiusega</span><span class="w"> </span><span class="nt">R</span><span class="o">.</span><span class="w"> </span>
+<span class="w">            </span><span class="nt">Parameetri</span><span class="w"> </span><span class="nt">Mood</span><span class="w"> </span><span class="nt">tähendust</span><span class="w"> </span><span class="nt">on</span><span class="w"> </span><span class="nt">seletatud</span><span class="w"> </span><span class="nt">prot-</span>
+<span class="w">            </span><span class="nt">seduuri</span><span class="w"> </span><span class="nt">PutPixel</span><span class="w"> </span><span class="nt">juures</span><span class="o">.</span>
+
+<span class="w">    </span><span class="nt">Märkus</span><span class="o">:</span><span class="w"> </span><span class="nt">Töötab</span><span class="w"> </span><span class="nt">graafikareziimis</span><span class="w"> </span><span class="nt">ja</span><span class="w"> </span><span class="nt">ekraanireziimides</span>
+<span class="w">            </span><span class="nt">0</span><span class="w"> </span><span class="nt">ja</span><span class="w"> </span><span class="nt">1</span><span class="w"> </span><span class="o">(</span><span class="w"> </span><span class="nt">vt</span><span class="o">.</span><span class="w"> </span><span class="nt">SetHgr</span><span class="w"> </span><span class="nt">ja</span><span class="w"> </span><span class="nt">Screen</span><span class="w"> </span><span class="o">).</span>
+</code></pre></div>
+
+<h4 id="box"><code>BOX</code><a class="headerlink" href="#box" title="Permanent link">&para;</a></h4>
+<div class="codehilite"><pre><span></span><code><span class="w"> </span><span class="nt">Kirjeldus</span><span class="o">:</span><span class="w"> </span><span class="nt">Procedure</span><span class="w"> </span><span class="nt">Box</span><span class="o">(</span><span class="w"> </span><span class="nt">X1</span><span class="o">,</span><span class="nt">Y1</span><span class="o">,</span><span class="nt">X2</span><span class="o">,</span><span class="nt">Y2</span><span class="o">,</span><span class="nt">Mood</span><span class="p">:</span><span class="nd">Integer</span><span class="w"> </span><span class="o">);</span>
+
+<span class="nt">Kasutamine</span><span class="o">:</span><span class="w"> </span><span class="nt">Box</span><span class="o">(</span><span class="nt">nx1</span><span class="o">,</span><span class="nt">ny1</span><span class="o">,</span><span class="nt">nx2</span><span class="o">,</span><span class="nt">ny2</span><span class="o">,</span><span class="nt">nm</span><span class="o">);</span>
+
+<span class="w">   </span><span class="nt">Tegevus</span><span class="o">:</span><span class="w"> </span><span class="nt">Ristküliku</span><span class="w"> </span><span class="nt">kujutamine</span><span class="w">  </span><span class="nt">ekraanil</span><span class="o">.</span><span class="w"> </span><span class="nt">Ristkülikut</span>
+<span class="w">            </span><span class="nt">kujutatakse</span><span class="w"> </span><span class="nt">ekraanil</span><span class="w"> </span><span class="nt">nii</span><span class="o">,</span><span class="w"> </span><span class="nt">et</span><span class="w"> </span><span class="nt">punktid</span><span class="w"> </span><span class="nt">koordi-</span>
+<span class="w">            </span><span class="nt">naatidega</span><span class="w"> </span><span class="nt">X1</span><span class="o">,</span><span class="w"> </span><span class="nt">Y1</span><span class="w"> </span><span class="nt">ja</span><span class="w">  </span><span class="nt">X2</span><span class="o">,</span><span class="w"> </span><span class="nt">Y2</span><span class="w"> </span><span class="nt">tähistavad</span><span class="w"> </span><span class="nt">rist-</span>
+<span class="w">            </span><span class="nt">küliku</span><span class="w">  </span><span class="nt">vastastikku</span><span class="w">  </span><span class="nt">diagonaalis</span><span class="w">  </span><span class="nt">asetsevaid</span>
+<span class="w">            </span><span class="nt">nurki</span><span class="o">.</span>
+<span class="w">            </span><span class="nt">Parameetri</span><span class="w"> </span><span class="nt">Mood</span><span class="w"> </span><span class="nt">tähendust</span><span class="w"> </span><span class="nt">on</span><span class="w"> </span><span class="nt">seletatud</span><span class="w"> </span><span class="nt">prot-</span>
+<span class="w">            </span><span class="nt">seduuri</span><span class="w"> </span><span class="nt">PutPixel</span><span class="w"> </span><span class="nt">juures</span><span class="o">.</span>
+
+<span class="w">    </span><span class="nt">Märkus</span><span class="o">:</span><span class="w"> </span><span class="nt">Töötab</span><span class="w"> </span><span class="nt">graafikareziimis</span><span class="w"> </span><span class="nt">ja</span><span class="w"> </span><span class="nt">ekraanireziimides</span>
+<span class="w">            </span><span class="nt">0</span><span class="w"> </span><span class="nt">ja</span><span class="w"> </span><span class="nt">1</span><span class="w"> </span><span class="o">(</span><span class="w"> </span><span class="nt">vt</span><span class="o">.</span><span class="w"> </span><span class="nt">SetHgr</span><span class="w"> </span><span class="nt">ja</span><span class="w"> </span><span class="nt">Screen</span><span class="w"> </span><span class="o">).</span>
+</code></pre></div>
+
+<h4 id="lineto"><code>LINETO</code><a class="headerlink" href="#lineto" title="Permanent link">&para;</a></h4>
+<div class="codehilite"><pre><span></span><code><span class="w"> </span><span class="nt">Kirjeldus</span><span class="o">:</span><span class="w"> </span><span class="nt">Procedure</span><span class="w"> </span><span class="nt">LineTo</span><span class="o">(</span><span class="w"> </span><span class="nt">X</span><span class="o">,</span><span class="nt">Y</span><span class="o">,</span><span class="nt">Mood</span><span class="p">:</span><span class="nd">Integer</span><span class="w"> </span><span class="o">);</span>
+
+<span class="nt">Kasutamine</span><span class="o">:</span><span class="w"> </span><span class="nt">LineTo</span><span class="o">(</span><span class="nt">nx</span><span class="o">,</span><span class="nt">ny</span><span class="o">,</span><span class="nt">nm</span><span class="o">);</span>
+
+<span class="w">   </span><span class="nt">Tegevus</span><span class="o">:</span><span class="w"> </span><span class="nt">Joone</span><span class="w"> </span><span class="nt">kujutamine</span><span class="w"> </span><span class="nt">ekraanil</span><span class="o">.</span><span class="w">  </span><span class="nt">Joon</span><span class="w"> </span><span class="nt">kujutatakse</span>
+<span class="w">            </span><span class="nt">ekraanile</span><span class="w"> </span><span class="nt">alguspunktiga</span><span class="o">,</span><span class="w"> </span><span class="nt">mille</span><span class="w">  </span><span class="nt">määrab</span><span class="w"> </span><span class="nt">graa-</span>
+<span class="w">            </span><span class="nt">filine</span><span class="w"> </span><span class="nt">kursor</span><span class="o">,</span><span class="w"> </span><span class="nt">ja</span><span class="w"> </span><span class="nt">lõpp-punktiga</span><span class="w"> </span><span class="nt">X</span><span class="o">,</span><span class="w"> </span><span class="nt">Y</span><span class="o">.</span>
+<span class="w">            </span><span class="nt">Parameetri</span><span class="w"> </span><span class="nt">Mood</span><span class="w"> </span><span class="nt">tähendust</span><span class="w"> </span><span class="nt">on</span><span class="w"> </span><span class="nt">seletatud</span><span class="w"> </span><span class="nt">prot-</span>
+<span class="w">            </span><span class="nt">seduuri</span><span class="w"> </span><span class="nt">PutPixel</span><span class="w"> </span><span class="nt">juures</span><span class="o">.</span>
+
+<span class="w">    </span><span class="nt">Märkus</span><span class="o">:</span><span class="w"> </span><span class="nt">Töötab</span><span class="w"> </span><span class="nt">graafikareziimis</span><span class="w"> </span><span class="nt">ja</span><span class="w"> </span><span class="nt">ekraanireziimides</span>
+<span class="w">            </span><span class="nt">0</span><span class="w"> </span><span class="nt">ja</span><span class="w"> </span><span class="nt">1</span><span class="w"> </span><span class="o">(</span><span class="w"> </span><span class="nt">vt</span><span class="o">.</span><span class="w"> </span><span class="nt">SetHgr</span><span class="w"> </span><span class="nt">ja</span><span class="w"> </span><span class="nt">Screen</span><span class="w"> </span><span class="o">).</span>
+
+<span class="w">            </span><span class="nt">Vt</span><span class="o">.</span><span class="w"> </span><span class="nt">ka</span><span class="w"> </span><span class="nt">MoveTo</span><span class="o">,</span><span class="w"> </span><span class="nt">LineRel</span><span class="o">,</span><span class="w"> </span><span class="nt">MoveRel</span><span class="o">.</span>
+</code></pre></div>
+
+<h4 id="moveto"><code>MOVETO</code><a class="headerlink" href="#moveto" title="Permanent link">&para;</a></h4>
+<div class="codehilite"><pre><span></span><code><span class="w"> </span><span class="nt">Kirjeldus</span><span class="o">:</span><span class="w"> </span><span class="nt">Procedure</span><span class="w"> </span><span class="nt">MoveTo</span><span class="o">(</span><span class="w"> </span><span class="nt">X</span><span class="o">,</span><span class="nt">Y</span><span class="p">:</span><span class="nd">Integer</span><span class="w"> </span><span class="o">);</span>
+
+<span class="nt">Kasutamine</span><span class="o">:</span><span class="w"> </span><span class="nt">MoveTo</span><span class="o">(</span><span class="nt">nx</span><span class="o">,</span><span class="nt">ny</span><span class="o">);</span>
+
+<span class="w">   </span><span class="nt">Tegevus</span><span class="o">:</span><span class="w"> </span><span class="nt">Graafikakursori</span><span class="w"> </span><span class="nt">koordinaadid</span><span class="w"> </span><span class="nt">saavad</span><span class="w">  </span><span class="nt">väärtu-</span>
+<span class="w">            </span><span class="nt">seks</span><span class="w"> </span><span class="nt">X</span><span class="o">,</span><span class="w"> </span><span class="nt">Y</span><span class="o">.</span>
+
+<span class="w">            </span><span class="nt">Vt</span><span class="o">.</span><span class="w"> </span><span class="nt">ka</span><span class="w"> </span><span class="nt">LineTo</span><span class="o">,</span><span class="w"> </span><span class="nt">LineRel</span><span class="o">,</span><span class="w"> </span><span class="nt">MoveRel</span><span class="o">.</span>
+</code></pre></div>
+
+<h4 id="linerel"><code>LINEREL</code><a class="headerlink" href="#linerel" title="Permanent link">&para;</a></h4>
+<div class="codehilite"><pre><span></span><code><span class="w"> </span><span class="nt">Kirjeldus</span><span class="o">:</span><span class="w"> </span><span class="nt">Procedure</span><span class="w"> </span><span class="nt">LineRel</span><span class="o">(</span><span class="w"> </span><span class="nt">DX</span><span class="o">,</span><span class="nt">DY</span><span class="o">,</span><span class="nt">Mood</span><span class="p">:</span><span class="nd">Integer</span><span class="w"> </span><span class="o">);</span>
+
+<span class="nt">Kasutamine</span><span class="o">:</span><span class="w"> </span><span class="nt">LineRel</span><span class="o">(</span><span class="nt">ndx</span><span class="o">,</span><span class="nt">ndy</span><span class="o">,</span><span class="nt">nm</span><span class="o">);</span>
+
+<span class="w">   </span><span class="nt">Tegevus</span><span class="o">:</span><span class="w"> </span><span class="nt">Joone</span><span class="w"> </span><span class="nt">kujutamine</span><span class="w">  </span><span class="nt">ekraanil</span><span class="o">.</span><span class="w"> </span><span class="nt">Joon</span><span class="w"> </span><span class="nt">kujutatakse</span>
+<span class="w">            </span><span class="nt">ekraanile</span><span class="w">  </span><span class="nt">alguspunktiga</span><span class="o">,</span><span class="w"> </span><span class="nt">mille</span><span class="w"> </span><span class="nt">määrab</span><span class="w"> </span><span class="nt">graa-</span>
+<span class="w">            </span><span class="nt">filine</span><span class="w"> </span><span class="nt">kursor</span><span class="o">,</span><span class="w"> </span><span class="nt">ja</span><span class="w"> </span><span class="nt">lõpp-punktiga</span><span class="o">,</span><span class="w"> </span><span class="nt">mille</span><span class="w"> </span><span class="nt">koor-</span>
+<span class="w">            </span><span class="nt">dinaadid</span><span class="w"> </span><span class="nt">saadakse</span><span class="w">  </span><span class="nt">alguspunkti</span><span class="w"> </span><span class="nt">koordinaatide</span>
+<span class="w">            </span><span class="nt">ja</span><span class="w"> </span><span class="nt">parameetrite</span><span class="w"> </span><span class="nt">DX</span><span class="w"> </span><span class="nt">ja</span><span class="w"> </span><span class="nt">DY</span><span class="w"> </span><span class="nt">vastaval</span><span class="w"> </span><span class="nt">liitmisel</span><span class="o">.</span>
+<span class="w">            </span><span class="nt">Parameetri</span><span class="w"> </span><span class="nt">Mood</span><span class="w"> </span><span class="nt">tähendust</span><span class="w"> </span><span class="nt">on</span><span class="w"> </span><span class="nt">seletatud</span><span class="w"> </span><span class="nt">prot-</span>
+<span class="w">            </span><span class="nt">seduuri</span><span class="w"> </span><span class="nt">PutPixel</span><span class="w"> </span><span class="nt">juures</span><span class="o">.</span>
+
+<span class="w">    </span><span class="nt">Märkus</span><span class="o">:</span><span class="w"> </span><span class="nt">Töötab</span><span class="w"> </span><span class="nt">graafikareziimis</span><span class="w"> </span><span class="nt">ja</span><span class="w"> </span><span class="nt">ekraanireziimides</span>
+<span class="w">            </span><span class="nt">0</span><span class="w"> </span><span class="nt">ja</span><span class="w"> </span><span class="nt">1</span><span class="w"> </span><span class="o">(</span><span class="w"> </span><span class="nt">vt</span><span class="o">.</span><span class="w"> </span><span class="nt">SetHgr</span><span class="w"> </span><span class="nt">ja</span><span class="w"> </span><span class="nt">Screen</span><span class="w"> </span><span class="o">).</span>
+
+<span class="w">            </span><span class="nt">Vt</span><span class="o">.</span><span class="w"> </span><span class="nt">ka</span><span class="w"> </span><span class="nt">LineTo</span><span class="o">,</span><span class="w"> </span><span class="nt">MoveTo</span><span class="o">,</span><span class="w"> </span><span class="nt">MoveRel</span><span class="o">.</span>
+</code></pre></div>
+
+<h4 id="moverel"><code>MOVEREL</code><a class="headerlink" href="#moverel" title="Permanent link">&para;</a></h4>
+<div class="codehilite"><pre><span></span><code><span class="w"> </span><span class="nt">Kirjeldus</span><span class="o">:</span><span class="w"> </span><span class="nt">Procedure</span><span class="w"> </span><span class="nt">MoveRel</span><span class="o">(</span><span class="w"> </span><span class="nt">DX</span><span class="o">,</span><span class="nt">DY</span><span class="p">:</span><span class="nd">Integer</span><span class="w"> </span><span class="o">);</span>
+
+<span class="nt">Kasutamine</span><span class="o">:</span><span class="w"> </span><span class="nt">MoveRel</span><span class="o">(</span><span class="nt">ndx</span><span class="o">,</span><span class="nt">ndy</span><span class="o">);</span>
+
+<span class="w">   </span><span class="nt">Tegevus</span><span class="o">:</span><span class="w"> </span><span class="nt">Graafikakursori</span><span class="w">  </span><span class="nt">koordinaatide</span><span class="w"> </span><span class="nt">uuteks</span><span class="w">  </span><span class="nt">väär-</span>
+<span class="w">            </span><span class="nt">tusteks</span><span class="w">  </span><span class="nt">saavad</span><span class="w"> </span><span class="nt">vanad</span><span class="w"> </span><span class="nt">väärtused</span><span class="w"> </span><span class="nt">liita</span><span class="w"> </span><span class="nt">vasta-</span>
+<span class="w">            </span><span class="nt">valt</span><span class="w"> </span><span class="nt">DX</span><span class="w"> </span><span class="nt">ja</span><span class="w"> </span><span class="nt">DY</span><span class="o">.</span>
+
+<span class="w">            </span><span class="nt">Vt</span><span class="o">.</span><span class="w"> </span><span class="nt">ka</span><span class="w"> </span><span class="nt">LineTo</span><span class="o">,</span><span class="w"> </span><span class="nt">MoveTo</span><span class="o">,</span><span class="w"> </span><span class="nt">LineRel</span><span class="o">.</span>
+</code></pre></div>
+
+<h4 id="invscr"><code>INVSCR</code><a class="headerlink" href="#invscr" title="Permanent link">&para;</a></h4>
+<div class="codehilite"><pre><span></span><code><span class="w"> </span><span class="nt">Kirjeldus</span><span class="o">:</span><span class="w"> </span><span class="nt">Procedure</span><span class="w"> </span><span class="nt">InvScr</span><span class="o">;</span>
+
+<span class="nt">Kasutamine</span><span class="o">:</span><span class="w"> </span><span class="nt">InvScr</span><span class="o">;</span>
+
+<span class="w">   </span><span class="nt">Tegevus</span><span class="o">:</span><span class="w"> </span><span class="nt">Ekraani</span><span class="w"> </span><span class="nt">inverteerimine</span><span class="o">.</span>
+
+<span class="w">    </span><span class="nt">Märkus</span><span class="o">:</span><span class="w"> </span><span class="nt">Töötab</span><span class="w"> </span><span class="nt">graafikareziimis</span><span class="o">.</span>
+<span class="w">            </span><span class="o">(</span><span class="w"> </span><span class="nt">vt</span><span class="o">.</span><span class="w"> </span><span class="nt">SetHgr</span><span class="w"> </span><span class="o">).</span>
+</code></pre></div>
+
+<h3 id="32-spraiditeek-sprite">3.2 Spraiditeek (<code>SPRITE</code>)<a class="headerlink" href="#32-spraiditeek-sprite" title="Permanent link">&para;</a></h3>
+<h4 id="loadpic"><code>LOADPIC</code><a class="headerlink" href="#loadpic" title="Permanent link">&para;</a></h4>
+<div class="codehilite"><pre><span></span><code><span class="w"> </span><span class="nt">Kirjeldus</span><span class="o">:</span><span class="w"> </span><span class="nt">Procedure</span><span class="w"> </span><span class="nt">LoadPic</span><span class="o">(</span><span class="w"> </span><span class="nt">Var</span><span class="w"> </span><span class="nt">Fail</span><span class="p">:</span><span class="nd">Bfail</span><span class="o">;</span>
+<span class="w">                               </span><span class="nt">Var</span><span class="w"> </span><span class="nt">Buf</span><span class="p">:</span><span class="nd">pic</span><span class="w"> </span><span class="o">);</span>
+<span class="nt">Kasutamine</span><span class="o">:</span><span class="w"> </span><span class="nt">LoadPic</span><span class="o">(</span><span class="nt">bf</span><span class="o">,</span><span class="nt">pb</span><span class="o">);</span>
+
+<span class="w">   </span><span class="nt">Tegevus</span><span class="o">:</span><span class="w"> </span><span class="nt">Andmete</span><span class="w"> </span><span class="nt">lugemine</span><span class="w">  </span><span class="nt">failist</span><span class="w"> </span><span class="nt">spraidimuutujasse</span><span class="o">.</span>
+<span class="w">            </span><span class="nt">Eelnevalt</span><span class="w"> </span><span class="nt">graafikaredaktoriga</span><span class="w">  </span><span class="nt">GTR</span><span class="w"> </span><span class="nt">loodud</span><span class="w"> </span><span class="nt">ja</span>
+<span class="w">            </span><span class="nt">spraidina</span><span class="w"> </span><span class="nt">salvestatud</span><span class="w">  </span><span class="nt">ning</span><span class="w"> </span><span class="nt">antud</span><span class="w"> </span><span class="nt">programmis</span>
+<span class="w">            </span><span class="nt">ASSIGN</span><span class="w"> </span><span class="nt">direktiiviga</span><span class="w"> </span><span class="nt">defineeritud</span><span class="w"> </span><span class="nt">fail</span><span class="w"> </span><span class="o">(</span><span class="w"> </span><span class="nt">lai-</span>
+<span class="w">            </span><span class="nt">endiga</span><span class="w"> </span><span class="p">.</span><span class="nc">PCC</span><span class="w"> </span><span class="o">)</span><span class="w"> </span><span class="nt">loetakse</span><span class="w"> </span><span class="nt">mällu</span><span class="o">.</span><span class="w">  </span><span class="nt">Pildi</span><span class="w"> </span><span class="nt">mõõtmed</span>
+<span class="w">            </span><span class="nt">on</span><span class="w"> </span><span class="nt">piiratud</span><span class="w"> </span><span class="nt">vaba</span><span class="w"> </span><span class="nt">mälu</span><span class="w"> </span><span class="nt">mahuga</span><span class="o">.</span><span class="w"> </span><span class="nt">Kui</span><span class="w"> </span><span class="nt">tagastatud</span>
+<span class="w">            </span><span class="nt">spraidimuutuja</span><span class="w">   </span><span class="nt">asukohta</span><span class="w">  </span><span class="nt">viitava</span><span class="w">  </span><span class="nt">elemendi</span>
+<span class="w">            </span><span class="nt">buf</span><span class="p">.</span><span class="nc">place</span><span class="w">  </span><span class="nt">väärtus</span><span class="w">  </span><span class="nt">on</span><span class="w">  </span><span class="nt">0</span><span class="o">,</span><span class="w"> </span><span class="nt">siis</span><span class="w">  </span><span class="nt">antud</span><span class="w"> </span><span class="nt">pildi</span>
+<span class="w">            </span><span class="nt">jaoks</span><span class="w"> </span><span class="nt">jäi</span><span class="w"> </span><span class="nt">mälust</span><span class="w"> </span><span class="nt">puudu</span><span class="o">.</span>
+</code></pre></div>
+
+<h4 id="getpic"><code>GETPIC</code><a class="headerlink" href="#getpic" title="Permanent link">&para;</a></h4>
+<div class="codehilite"><pre><span></span><code><span class="w"> </span><span class="nt">Kirjeldus</span><span class="o">:</span><span class="w"> </span><span class="nt">Procedure</span><span class="w"> </span><span class="nt">GetPic</span><span class="o">(</span><span class="w"> </span><span class="nt">X</span><span class="o">,</span><span class="nt">Y</span><span class="o">,</span><span class="nt">DX</span><span class="o">,</span><span class="nt">DY</span><span class="p">:</span><span class="nd">Integer</span><span class="o">;</span>
+<span class="w">                              </span><span class="nt">Var</span><span class="w"> </span><span class="nt">Buf</span><span class="p">:</span><span class="nd">Pic</span><span class="w"> </span><span class="o">);</span>
+
+<span class="nt">Kasutamine</span><span class="o">:</span><span class="w"> </span><span class="nt">GetPic</span><span class="o">(</span><span class="nt">nx</span><span class="o">,</span><span class="nt">ny</span><span class="o">,</span><span class="nt">ndx</span><span class="o">,</span><span class="nt">ndy</span><span class="o">,</span><span class="nt">pb</span><span class="o">);</span>
+
+<span class="w">   </span><span class="nt">Tegevus</span><span class="o">:</span><span class="w"> </span><span class="nt">Spraidi</span><span class="w"> </span><span class="nt">lugemine</span><span class="w"> </span><span class="nt">ekraanilt</span><span class="o">.</span><span class="w"> </span><span class="nt">Spraidimuutujas-</span>
+<span class="w">            </span><span class="nt">se</span><span class="w">  </span><span class="nt">loetakse</span><span class="w">  </span><span class="nt">ekraanilt</span><span class="w">   </span><span class="nt">ristkülikukujuline</span><span class="w"> </span>
+<span class="w">            </span><span class="nt">ala</span><span class="o">,</span><span class="w">  </span><span class="nt">mille</span><span class="w">  </span><span class="nt">vasak</span><span class="w"> </span><span class="nt">ülemine</span><span class="w"> </span><span class="nt">nurk</span><span class="w"> </span><span class="nt">asub</span><span class="w"> </span><span class="nt">punktis</span><span class="w"> </span>
+<span class="w">            </span><span class="nt">X</span><span class="o">,</span><span class="nt">Y</span><span class="w"> </span><span class="nt">ja</span><span class="w"> </span><span class="nt">küljepikkused</span><span class="w"> </span><span class="nt">on</span><span class="w"> </span><span class="nt">vastavalt</span><span class="w"> </span><span class="nt">DX</span><span class="w"> </span><span class="nt">ja</span><span class="w"> </span><span class="nt">DY</span><span class="o">.</span>
+<span class="w">            </span><span class="nt">Parameetri</span><span class="w"> </span><span class="nt">Mood</span><span class="w"> </span><span class="nt">tähendust</span><span class="w"> </span><span class="nt">on</span><span class="w"> </span><span class="nt">seletatud</span><span class="w"> </span><span class="nt">prot-</span>
+<span class="w">            </span><span class="nt">seduuri</span><span class="w"> </span><span class="nt">PutPixel</span><span class="w"> </span><span class="nt">juures</span><span class="o">.</span>
+
+<span class="w">    </span><span class="nt">Märkus</span><span class="o">:</span><span class="w"> </span><span class="nt">Töötab</span><span class="w"> </span><span class="nt">graafikareziimis</span><span class="w"> </span><span class="nt">ja</span><span class="w"> </span><span class="nt">ekraanireziimides</span>
+<span class="w">            </span><span class="nt">0</span><span class="w"> </span><span class="nt">ja</span><span class="w"> </span><span class="nt">1</span><span class="w"> </span><span class="o">(</span><span class="w"> </span><span class="nt">vt</span><span class="o">.</span><span class="w"> </span><span class="nt">SetHgr</span><span class="w"> </span><span class="nt">ja</span><span class="w"> </span><span class="nt">Screen</span><span class="w"> </span><span class="o">).</span>
+</code></pre></div>
+
+<h4 id="putpic"><code>PUTPIC</code><a class="headerlink" href="#putpic" title="Permanent link">&para;</a></h4>
+<div class="codehilite"><pre><span></span><code><span class="w"> </span><span class="n">Kirjeldus</span><span class="p">:</span><span class="w"> </span><span class="n">Procedure</span><span class="w"> </span><span class="n">PutPic</span><span class="p">(</span><span class="w"> </span><span class="n">Buf</span><span class="p">:</span><span class="n">Pic</span><span class="p">;</span>
+<span class="w">                              </span><span class="n">X</span><span class="p">,</span><span class="n">Y</span><span class="p">,</span><span class="n">Delta</span><span class="p">,</span><span class="n">Mood</span><span class="p">:</span><span class="n">Integer</span><span class="w"> </span><span class="p">);</span>
+
+<span class="n">Kasutamine</span><span class="p">:</span><span class="w"> </span><span class="n">PutPic</span><span class="p">(</span><span class="n">pb</span><span class="p">,</span><span class="n">nx</span><span class="p">,</span><span class="n">ny</span><span class="p">,</span><span class="n">nd</span><span class="p">,</span><span class="n">nm</span><span class="p">);</span>
+
+<span class="w">   </span><span class="n">Tegevus</span><span class="p">:</span><span class="w"> </span><span class="n">Spraidi</span><span class="w"> </span><span class="n">paigutamine</span><span class="w"> </span><span class="n">ekraanile</span><span class="o">.</span><span class="w"> </span><span class="n">Sprait</span><span class="w"> </span><span class="n">paigu</span><span class="o">-</span>
+<span class="w">            </span><span class="n">tatakse</span><span class="w">  </span><span class="n">kuvari</span><span class="w"> </span><span class="n">ekraanile</span><span class="w">  </span><span class="n">nii</span><span class="p">,</span><span class="w">  </span><span class="n">et</span><span class="w">  </span><span class="n">spraidi</span><span class="w"> </span>
+<span class="w">            </span><span class="n">vasak</span><span class="w"> </span><span class="err">ü</span><span class="n">lemine</span><span class="w"> </span><span class="n">nurk</span><span class="w"> </span><span class="n">asub</span><span class="w"> </span><span class="n">punktis</span><span class="w"> </span><span class="n">koordinaati</span><span class="o">-</span>
+<span class="w">            </span><span class="n">dega</span><span class="w">  </span><span class="n">X</span><span class="w">  </span><span class="n">ja</span><span class="w"> </span><span class="n">Y</span><span class="o">.</span><span class="w">  </span><span class="n">DELTA</span><span class="w">  </span><span class="n">näitab</span><span class="w">  </span><span class="n">taustkujutise</span><span class="w"> </span>
+<span class="w">            </span><span class="n">originaali</span><span class="w">  </span><span class="n">asukoha</span><span class="w">  </span><span class="n">nihet</span><span class="w">  </span><span class="n">ekraani</span><span class="w">   </span><span class="n">alguse</span><span class="w"> </span>
+<span class="w">            </span><span class="n">suhtes</span><span class="w"> </span><span class="p">(</span><span class="n">harilikult</span><span class="w"> </span><span class="n">DELTA</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="w"> </span>
+<span class="w">            </span><span class="n">Parameetri</span><span class="w"> </span><span class="n">Mood</span><span class="w"> </span><span class="n">tähendust</span><span class="w"> </span><span class="n">on</span><span class="w"> </span><span class="n">seletatud</span><span class="w"> </span><span class="n">prot</span><span class="o">-</span>
+<span class="w">            </span><span class="n">seduuri</span><span class="w"> </span><span class="n">PutPixel</span><span class="w"> </span><span class="n">juures</span><span class="o">.</span>
+
+<span class="w">    </span><span class="n">Märkus</span><span class="p">:</span><span class="w"> </span><span class="n">Töötab</span><span class="w"> </span><span class="n">graafikareziimis</span><span class="w"> </span><span class="n">ja</span><span class="w"> </span><span class="n">ekraanireziimides</span>
+<span class="w">            </span><span class="mi">0</span><span class="w"> </span><span class="n">ja</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="p">(</span><span class="w"> </span><span class="n">vt</span><span class="o">.</span><span class="w"> </span><span class="n">SetHgr</span><span class="w"> </span><span class="n">ja</span><span class="w"> </span><span class="n">Screen</span><span class="w"> </span><span class="p">)</span><span class="o">.</span>
+</code></pre></div>
+
+<h4 id="movepic"><code>MOVEPIC</code><a class="headerlink" href="#movepic" title="Permanent link">&para;</a></h4>
+<div class="codehilite"><pre><span></span><code><span class="w"> </span><span class="n">Kirjeldus</span><span class="p">:</span><span class="w"> </span><span class="n">Procedure</span><span class="w"> </span><span class="n">MovePic</span><span class="p">(</span><span class="w"> </span><span class="n">Var</span><span class="w"> </span><span class="n">Buf</span><span class="p">:</span><span class="n">Pic</span><span class="p">;</span>
+<span class="w">                               </span><span class="n">DX</span><span class="p">,</span><span class="n">DY</span><span class="p">,</span><span class="n">Mood</span><span class="p">:</span><span class="n">Integer</span><span class="w"> </span><span class="p">);</span>
+
+<span class="n">Kasutamine</span><span class="p">:</span><span class="w"> </span><span class="n">MovePic</span><span class="p">(</span><span class="n">nb</span><span class="p">,</span><span class="n">ndx</span><span class="p">,</span><span class="n">ndy</span><span class="p">,</span><span class="n">nm</span><span class="p">);</span>
+
+<span class="w">   </span><span class="n">Tegevus</span><span class="p">:</span><span class="w"> </span><span class="n">Spraidi</span><span class="w"> </span><span class="n">liigutamine</span><span class="w"> </span><span class="n">ekraanil</span><span class="o">.</span><span class="w">  </span><span class="n">Eelnevalt</span><span class="w"> </span><span class="n">ku</span><span class="o">-</span>
+<span class="w">            </span><span class="n">vari</span><span class="w">  </span><span class="n">ekraanile</span><span class="w"> </span><span class="n">paigutatud</span><span class="w"> </span><span class="n">spraiti</span><span class="w">  </span><span class="n">liiguta</span><span class="o">-</span>
+<span class="w">            </span><span class="n">takse</span><span class="w">  </span><span class="n">parameetritega</span><span class="w"> </span><span class="n">DX</span><span class="w"> </span><span class="n">ja</span><span class="w"> </span><span class="n">DY</span><span class="w"> </span><span class="n">määratud</span><span class="w"> </span><span class="n">suu</span><span class="o">-</span>
+<span class="w">            </span><span class="n">nas</span><span class="o">.</span>
+<span class="w">            </span><span class="n">Parameetri</span><span class="w"> </span><span class="n">Mood</span><span class="w"> </span><span class="n">tähendust</span><span class="w"> </span><span class="n">on</span><span class="w"> </span><span class="n">seletatud</span><span class="w"> </span><span class="n">prot</span><span class="o">-</span>
+<span class="w">            </span><span class="n">seduuri</span><span class="w"> </span><span class="n">PutPixel</span><span class="w"> </span><span class="n">juures</span><span class="o">.</span>
+
+<span class="w">    </span><span class="n">Märkus</span><span class="p">:</span><span class="w"> </span><span class="n">Töötab</span><span class="w"> </span><span class="n">graafikareziimis</span><span class="w"> </span><span class="n">ja</span><span class="w"> </span><span class="n">ekraanireziimides</span>
+<span class="w">            </span><span class="mi">0</span><span class="w"> </span><span class="n">ja</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="p">(</span><span class="w"> </span><span class="n">vt</span><span class="o">.</span><span class="w"> </span><span class="n">SetHgr</span><span class="w"> </span><span class="n">ja</span><span class="w"> </span><span class="n">Screen</span><span class="w"> </span><span class="p">)</span><span class="o">.</span>
+</code></pre></div>
+
+<h4 id="getmem"><code>GETMEM</code><a class="headerlink" href="#getmem" title="Permanent link">&para;</a></h4>
+<div class="codehilite"><pre><span></span><code><span class="w"> </span><span class="n">Kirjeldus</span><span class="o">:</span><span class="w"> </span><span class="n">Function</span><span class="w"> </span><span class="n">GetMem</span><span class="p">(</span><span class="w"> </span><span class="n">N</span><span class="o">:</span><span class="n">Integer</span><span class="w"> </span><span class="p">)</span><span class="o">:</span><span class="n">_Pointer</span><span class="p">;</span>
+
+<span class="n">Kasutamine</span><span class="o">:</span><span class="w"> </span><span class="n">Var</span><span class="w"> </span><span class="n">Pnt</span><span class="o">:</span><span class="n">_Pointer</span><span class="p">;</span>
+<span class="w">            </span><span class="o">...</span>
+<span class="w">            </span><span class="n">Pnt</span><span class="o">:=</span><span class="n">GetMem</span><span class="p">(</span><span class="n">nx</span><span class="p">);</span>
+
+<span class="w">   </span><span class="n">Tegevus</span><span class="o">:</span><span class="w"> </span><span class="n">M</span><span class="err">ä</span><span class="n">lu</span><span class="w"> </span><span class="n">eraldamine</span><span class="o">.</span><span class="w"> </span><span class="n">Kui</span><span class="w"> </span><span class="n">leidub</span><span class="w"> </span><span class="n">N</span><span class="w"> </span><span class="n">baiti</span><span class="w"> </span><span class="n">vaba</span><span class="w"> </span><span class="n">m</span><span class="err">ä</span><span class="o">-</span>
+<span class="w">            </span><span class="n">lu</span><span class="o">,</span><span class="w">  </span><span class="n">siis</span><span class="w"> </span><span class="n">reserveeritakse</span><span class="w"> </span><span class="n">see</span><span class="w"> </span><span class="n">ja</span><span class="w"> </span><span class="n">funktsiooni</span><span class="w"> </span>
+<span class="w">            </span><span class="n">v</span><span class="err">ää</span><span class="n">rtusena</span><span class="w">  </span><span class="n">tagastatakse</span><span class="w">  </span><span class="n">sellele</span><span class="w">  </span><span class="n">m</span><span class="err">ä</span><span class="n">luosale</span><span class="w"> </span>
+<span class="w">            </span><span class="n">osutav</span><span class="w"> </span><span class="n">viit</span><span class="o">.</span><span class="w"> </span><span class="n">Kui</span><span class="w"> </span><span class="n">vaba</span><span class="w"> </span><span class="n">m</span><span class="err">ä</span><span class="n">lu</span><span class="w"> </span><span class="n">ei</span><span class="w"> </span><span class="n">leidu</span><span class="o">,</span><span class="w"> </span><span class="n">siis</span><span class="w"> </span><span class="n">on</span><span class="w"> </span>
+<span class="w">            </span><span class="n">viida</span><span class="w"> </span><span class="n">v</span><span class="err">ää</span><span class="n">rtus</span><span class="w"> </span><span class="mf">0.</span>
+</code></pre></div>
+
+<h3 id="33-kuvavorminguteek-screen">3.3 Kuvavorminguteek (<code>SCREEN</code>)<a class="headerlink" href="#33-kuvavorminguteek-screen" title="Permanent link">&para;</a></h3>
+<h4 id="clrscr"><code>CLRSCR</code><a class="headerlink" href="#clrscr" title="Permanent link">&para;</a></h4>
+<div class="codehilite"><pre><span></span><code><span class="w"> </span><span class="nt">Kirjeldus</span><span class="o">:</span><span class="w"> </span><span class="nt">Procedure</span><span class="w"> </span><span class="nt">ClrScr</span><span class="o">;</span>
+
+<span class="nt">Kasutamine</span><span class="o">:</span><span class="w"> </span><span class="nt">ClrScr</span><span class="o">;</span>
+
+<span class="w">   </span><span class="nt">Tegevus</span><span class="o">:</span><span class="w"> </span><span class="nt">Puhastatakse</span><span class="w">  </span><span class="nt">ekraan</span><span class="w"> </span><span class="nt">ja</span><span class="w"> </span><span class="nt">viiakse</span><span class="w"> </span><span class="nt">kursor</span><span class="w"> </span><span class="nt">koor-</span>
+<span class="w">            </span><span class="nt">dinaatidele</span><span class="w"> </span><span class="nt">0</span><span class="o">,</span><span class="nt">0</span><span class="o">.</span>
+</code></pre></div>
+
+<h4 id="clreoscr"><code>CLREOSCR</code><a class="headerlink" href="#clreoscr" title="Permanent link">&para;</a></h4>
+<div class="codehilite"><pre><span></span><code><span class="w"> </span><span class="nt">Kirjeldus</span><span class="o">:</span><span class="w"> </span><span class="nt">Procedure</span><span class="w"> </span><span class="nt">ClrEoScr</span><span class="o">;</span>
+
+<span class="nt">Kasutamine</span><span class="o">:</span><span class="w"> </span><span class="nt">ClrEoScr</span><span class="o">;</span>
+
+<span class="w">   </span><span class="nt">Tegevus</span><span class="o">:</span><span class="w"> </span><span class="nt">Puhastatakse</span><span class="w"> </span><span class="nt">ekraan</span><span class="w"> </span><span class="nt">alates</span><span class="w"> </span><span class="nt">kursori</span><span class="w"> </span><span class="nt">asukohast</span>
+<span class="w">            </span><span class="nt">kuni</span><span class="w"> </span><span class="nt">ekraani</span><span class="w"> </span><span class="nt">lõpuni</span><span class="o">.</span>
+</code></pre></div>
+
+<h4 id="clreoln"><code>CLREOLN</code><a class="headerlink" href="#clreoln" title="Permanent link">&para;</a></h4>
+<div class="codehilite"><pre><span></span><code><span class="w"> </span><span class="nt">Kirjeldus</span><span class="o">:</span><span class="w"> </span><span class="nt">Procedure</span><span class="w"> </span><span class="nt">ClrEoLn</span><span class="o">;</span>
+
+<span class="nt">Kasutamine</span><span class="o">:</span><span class="w"> </span><span class="nt">ClrEoLn</span><span class="o">;</span>
+
+<span class="w">   </span><span class="nt">Tegevus</span><span class="o">:</span><span class="w"> </span><span class="nt">Puhastatakse</span><span class="w"> </span><span class="nt">ekraan</span><span class="w"> </span><span class="nt">alates</span><span class="w"> </span><span class="nt">kursori</span><span class="w"> </span><span class="nt">asukohast</span>
+<span class="w">            </span><span class="nt">kuni</span><span class="w"> </span><span class="nt">rea</span><span class="w"> </span><span class="nt">lõpuni</span><span class="o">.</span>
+</code></pre></div>
+
+<h4 id="scrolon"><code>SCROLON</code><a class="headerlink" href="#scrolon" title="Permanent link">&para;</a></h4>
+<div class="codehilite"><pre><span></span><code><span class="w"> </span><span class="nt">Kirjeldus</span><span class="o">:</span><span class="w"> </span><span class="nt">Procedure</span><span class="w"> </span><span class="nt">ScrolOn</span><span class="o">;</span>
+
+<span class="nt">Kasutamine</span><span class="o">:</span><span class="w"> </span><span class="nt">ScrolOn</span><span class="o">;</span>
+
+<span class="w">   </span><span class="nt">Tegevus</span><span class="o">:</span><span class="w"> </span><span class="nt">Lubatakse</span><span class="w"> </span><span class="nt">kuva</span><span class="w"> </span><span class="nt">kerimine</span><span class="o">.</span>
+</code></pre></div>
+
+<h4 id="scroloff"><code>SCROLOFF</code><a class="headerlink" href="#scroloff" title="Permanent link">&para;</a></h4>
+<div class="codehilite"><pre><span></span><code><span class="w"> </span><span class="nt">Kirjeldus</span><span class="o">:</span><span class="w"> </span><span class="nt">Procedure</span><span class="w"> </span><span class="nt">ScrolOff</span><span class="o">;</span>
+
+<span class="nt">Kasutamine</span><span class="o">:</span><span class="w"> </span><span class="nt">ScrolOff</span><span class="o">;</span>
+
+<span class="w">   </span><span class="nt">Tegevus</span><span class="o">:</span><span class="w"> </span><span class="nt">Keelatakse</span><span class="w"> </span><span class="nt">kuva</span><span class="w"> </span><span class="nt">kerimine</span><span class="o">.</span>
+</code></pre></div>
+
+<h4 id="curson"><code>CURSON</code><a class="headerlink" href="#curson" title="Permanent link">&para;</a></h4>
+<div class="codehilite"><pre><span></span><code><span class="w"> </span><span class="nt">Kirjeldus</span><span class="o">:</span><span class="w"> </span><span class="nt">Procedure</span><span class="w"> </span><span class="nt">CursOn</span><span class="o">;</span>
+
+<span class="nt">Kasutamine</span><span class="o">:</span><span class="w"> </span><span class="nt">CursOn</span><span class="o">;</span>
+
+<span class="w">   </span><span class="nt">Tegevus</span><span class="o">:</span><span class="w"> </span><span class="nt">Lubada</span><span class="w"> </span><span class="nt">kursori</span><span class="w"> </span><span class="nt">näitamine</span><span class="o">.</span>
+</code></pre></div>
+
+<h4 id="cursoff"><code>CURSOFF</code><a class="headerlink" href="#cursoff" title="Permanent link">&para;</a></h4>
+<div class="codehilite"><pre><span></span><code><span class="w"> </span><span class="nt">Kirjeldus</span><span class="o">:</span><span class="w"> </span><span class="nt">Procedure</span><span class="w"> </span><span class="nt">CursOff</span><span class="o">;</span>
+
+<span class="nt">Kasutamine</span><span class="o">:</span><span class="w"> </span><span class="nt">CursOff</span><span class="o">;</span>
+
+<span class="w">   </span><span class="nt">Tegevus</span><span class="o">:</span><span class="w"> </span><span class="nt">Keelata</span><span class="w"> </span><span class="nt">kursori</span><span class="w"> </span><span class="nt">näitamine</span><span class="o">.</span>
+</code></pre></div>
+
+<h4 id="gotoxy"><code>GOTOXY</code><a class="headerlink" href="#gotoxy" title="Permanent link">&para;</a></h4>
+<div class="codehilite"><pre><span></span><code><span class="w"> </span><span class="nt">Kirjeldus</span><span class="o">:</span><span class="w"> </span><span class="nt">Procedure</span><span class="w"> </span><span class="nt">GotoXY</span><span class="o">(</span><span class="w"> </span><span class="nt">X</span><span class="o">,</span><span class="nt">Y</span><span class="p">:</span><span class="nd">Integer</span><span class="w"> </span><span class="o">);</span>
+
+<span class="nt">Kasutamine</span><span class="o">:</span><span class="w"> </span><span class="nt">GotoXY</span><span class="o">(</span><span class="nt">nx</span><span class="o">,</span><span class="nt">ny</span><span class="o">);</span>
+
+<span class="w">   </span><span class="nt">Tegevus</span><span class="o">:</span><span class="w"> </span><span class="nt">Kursori</span><span class="w"> </span><span class="nt">paigutamine</span><span class="w"> </span><span class="nt">koordinaatidele</span><span class="w"> </span><span class="nt">X</span><span class="o">,</span><span class="nt">Y</span><span class="o">.</span>
+<span class="w">            </span><span class="nt">X-koordinaat</span><span class="w">  </span><span class="nt">võib</span><span class="w"> </span><span class="nt">omada</span><span class="w"> </span><span class="nt">väärtusi</span><span class="w"> </span><span class="nt">0-st</span><span class="w">  </span><span class="nt">kuni</span><span class="w"> </span>
+<span class="w">            </span><span class="o">(</span><span class="nt">ekraani</span><span class="w"> </span><span class="nt">laius</span><span class="w"> </span><span class="nt">-</span><span class="w"> </span><span class="nt">1</span><span class="o">)</span><span class="nt">-ni</span><span class="w"> </span><span class="nt">ja</span><span class="w">  </span><span class="nt">y-koordinaat</span><span class="w"> </span><span class="nt">0-st</span><span class="w"> </span>
+<span class="w">            </span><span class="nt">kuni</span><span class="w"> </span><span class="o">(</span><span class="nt">ekraani</span><span class="w"> </span><span class="nt">kõrgus</span><span class="w"> </span><span class="nt">-</span><span class="w"> </span><span class="nt">1</span><span class="o">)</span><span class="nt">-ni</span><span class="o">.</span>
+</code></pre></div>
+
+<h4 id="home"><code>HOME</code><a class="headerlink" href="#home" title="Permanent link">&para;</a></h4>
+<div class="codehilite"><pre><span></span><code><span class="w"> </span><span class="nt">Kirjeldus</span><span class="o">:</span><span class="w"> </span><span class="nt">Procedure</span><span class="w"> </span><span class="nt">Home</span><span class="o">;</span>
+
+<span class="nt">Kasutamine</span><span class="o">:</span><span class="w"> </span><span class="nt">Home</span><span class="o">;</span>
+
+<span class="w">   </span><span class="nt">Tegevus</span><span class="o">:</span><span class="w"> </span><span class="nt">Kursori</span><span class="w"> </span><span class="nt">paigutamine</span><span class="w"> </span><span class="nt">koordinaatidele</span><span class="w"> </span><span class="nt">0</span><span class="o">,</span><span class="nt">0</span><span class="w">  </span><span class="nt">ehk</span><span class="w"> </span>
+<span class="w">            </span><span class="nt">ekraani</span><span class="w"> </span><span class="nt">vasakusse</span><span class="w"> </span><span class="nt">ülemisse</span><span class="w"> </span><span class="nt">nurka</span><span class="o">.</span>
+</code></pre></div>
+
+<h4 id="left"><code>LEFT</code><a class="headerlink" href="#left" title="Permanent link">&para;</a></h4>
+<div class="codehilite"><pre><span></span><code><span class="w"> </span><span class="nt">Kirjeldus</span><span class="o">:</span><span class="w"> </span><span class="nt">Procedure</span><span class="w"> </span><span class="nt">Left</span><span class="o">;</span>
+
+<span class="nt">Kasutamine</span><span class="o">:</span><span class="w"> </span><span class="nt">Left</span><span class="o">;</span>
+
+<span class="w">   </span><span class="nt">Tegevus</span><span class="o">:</span><span class="w"> </span><span class="nt">Kursorit</span><span class="w">  </span><span class="nt">liigutatakse</span><span class="w"> </span><span class="nt">ühe</span><span class="w"> </span><span class="nt">märgi</span><span class="w"> </span><span class="nt">võrra</span><span class="w"> </span><span class="nt">vasa-</span>
+<span class="w">            </span><span class="nt">kule</span><span class="o">.</span>
+</code></pre></div>
+
+<h4 id="right"><code>RIGHT</code><a class="headerlink" href="#right" title="Permanent link">&para;</a></h4>
+<div class="codehilite"><pre><span></span><code><span class="w"> </span><span class="nt">Kirjeldus</span><span class="o">:</span><span class="w"> </span><span class="nt">Procedure</span><span class="w"> </span><span class="nt">Right</span><span class="o">;</span>
+
+<span class="nt">Kasutamine</span><span class="o">:</span><span class="w"> </span><span class="nt">Right</span><span class="o">;</span>
+
+<span class="w">   </span><span class="nt">Tegevus</span><span class="o">:</span><span class="w"> </span><span class="nt">Kursorit</span><span class="w"> </span><span class="nt">liigutatakse</span><span class="w"> </span><span class="nt">ühe</span><span class="w"> </span><span class="nt">märgi</span><span class="w"> </span><span class="nt">võrra</span><span class="w">  </span><span class="nt">pare-</span>
+<span class="w">            </span><span class="nt">male</span><span class="o">.</span>
+</code></pre></div>
+
+<h4 id="up"><code>UP</code><a class="headerlink" href="#up" title="Permanent link">&para;</a></h4>
+<div class="codehilite"><pre><span></span><code><span class="w"> </span><span class="nt">Kirjeldus</span><span class="o">:</span><span class="w"> </span><span class="nt">Procedure</span><span class="w"> </span><span class="nt">Up</span><span class="o">;</span>
+
+<span class="nt">Kasutamine</span><span class="o">:</span><span class="w"> </span><span class="nt">Up</span><span class="o">;</span>
+
+<span class="w">   </span><span class="nt">Tegevus</span><span class="o">:</span><span class="w"> </span><span class="nt">Kursorit</span><span class="w"> </span><span class="nt">liigutatakse</span><span class="w"> </span><span class="nt">ühe</span><span class="w"> </span><span class="nt">rea</span><span class="w"> </span><span class="nt">võrra</span><span class="w"> </span><span class="nt">ülesse</span><span class="o">.</span>
+</code></pre></div>
+
+<h4 id="down"><code>DOWN</code><a class="headerlink" href="#down" title="Permanent link">&para;</a></h4>
+<div class="codehilite"><pre><span></span><code><span class="w"> </span><span class="nt">Kirjeldus</span><span class="o">:</span><span class="w"> </span><span class="nt">Procedure</span><span class="w"> </span><span class="nt">Down</span><span class="o">;</span>
+
+<span class="nt">Kasutamine</span><span class="o">:</span><span class="w"> </span><span class="nt">Down</span><span class="o">;</span>
+
+<span class="w">   </span><span class="nt">Tegevus</span><span class="o">:</span><span class="w"> </span><span class="nt">Kursorit</span><span class="w"> </span><span class="nt">liigutatakse</span><span class="w"> </span><span class="nt">ühe</span><span class="w"> </span><span class="nt">rea</span><span class="w"> </span><span class="nt">võrra</span><span class="w"> </span><span class="nt">alla</span><span class="o">.</span>
+</code></pre></div>
+
+<h4 id="wherexy"><code>WHEREXY</code><a class="headerlink" href="#wherexy" title="Permanent link">&para;</a></h4>
+<div class="codehilite"><pre><span></span><code><span class="w"> </span><span class="nt">Kirjeldus</span><span class="o">:</span><span class="w"> </span><span class="nt">Procedure</span><span class="w"> </span><span class="nt">WhereXY</span><span class="o">(</span><span class="w"> </span><span class="nt">Var</span><span class="w"> </span><span class="nt">X</span><span class="o">,</span><span class="nt">Y</span><span class="p">:</span><span class="nd">Integer</span><span class="w"> </span><span class="o">);</span>
+
+<span class="nt">Kasutamine</span><span class="o">:</span><span class="w"> </span><span class="nt">WhereXY</span><span class="o">(</span><span class="nt">mx</span><span class="o">,</span><span class="nt">my</span><span class="o">);</span>
+
+<span class="w">   </span><span class="nt">Tegevus</span><span class="o">:</span><span class="w"> </span><span class="nt">Tagastatakse</span><span class="w"> </span><span class="nt">kursori</span><span class="w"> </span><span class="nt">koordinaadid</span><span class="o">.</span>
+</code></pre></div>
+
+<h4 id="inverse"><code>INVERSE</code><a class="headerlink" href="#inverse" title="Permanent link">&para;</a></h4>
+<div class="codehilite"><pre><span></span><code><span class="w"> </span><span class="nt">Kirjeldus</span><span class="o">:</span><span class="w"> </span><span class="nt">Procedure</span><span class="w"> </span><span class="nt">Inverse</span><span class="o">;</span>
+
+<span class="nt">Kasutamine</span><span class="o">:</span><span class="w"> </span><span class="nt">Inverse</span><span class="o">;</span>
+
+<span class="w">   </span><span class="nt">Tegevus</span><span class="o">:</span><span class="w"> </span><span class="nt">Järgnev</span><span class="w"> </span><span class="nt">tekst</span><span class="w"> </span><span class="nt">kujutatakse</span><span class="w"> </span><span class="nt">inversioonis</span><span class="o">.</span>
+</code></pre></div>
+
+<h4 id="normal"><code>NORMAL</code><a class="headerlink" href="#normal" title="Permanent link">&para;</a></h4>
+<div class="codehilite"><pre><span></span><code><span class="w"> </span><span class="nt">Kirjeldus</span><span class="o">:</span><span class="w"> </span><span class="nt">Procedure</span><span class="w"> </span><span class="nt">Normal</span><span class="o">;</span>
+
+<span class="nt">Kasutamine</span><span class="o">:</span><span class="w"> </span><span class="nt">Normal</span><span class="o">;</span>
+
+<span class="w">   </span><span class="nt">Tegevus</span><span class="o">:</span><span class="w"> </span><span class="nt">Järgnev</span><span class="w"> </span><span class="nt">tekst</span><span class="w"> </span><span class="nt">kujutatakse</span><span class="w"> </span><span class="nt">normaalselt</span><span class="o">.</span>
+</code></pre></div>
+
+<h4 id="screen"><code>SCREEN</code><a class="headerlink" href="#screen" title="Permanent link">&para;</a></h4>
+<div class="codehilite"><pre><span></span><code><span class="w"> </span><span class="nt">Kirjeldus</span><span class="o">:</span><span class="w"> </span><span class="nt">Procedure</span><span class="w"> </span><span class="nt">Screen</span><span class="o">(</span><span class="w"> </span><span class="nt">N</span><span class="p">:</span><span class="nd">Integer</span><span class="w"> </span><span class="o">);</span>
+
+<span class="nt">Kasutamine</span><span class="o">:</span><span class="w"> </span><span class="nt">Screen</span><span class="o">(</span><span class="nt">nn</span><span class="o">);</span>
+
+<span class="w">   </span><span class="nt">Tegevus</span><span class="o">:</span><span class="w"> </span><span class="nt">Valitakse</span><span class="w"> </span><span class="nt">reziim</span><span class="w"> </span><span class="nt">teksti</span><span class="w"> </span><span class="nt">kuvamiseks</span><span class="o">:</span>
+<span class="w">                </span><span class="nt">N</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nt">0</span><span class="w">  </span><span class="nt">-</span><span class="o">&gt;</span><span class="w">  </span><span class="nt">40x24</span><span class="w"> </span><span class="nt">märki</span>
+<span class="w">                </span><span class="nt">N</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nt">1</span><span class="w">  </span><span class="nt">-</span><span class="o">&gt;</span><span class="w">  </span><span class="nt">53x24</span><span class="w"> </span><span class="nt">märki</span>
+<span class="w">                </span><span class="nt">N</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nt">2</span><span class="w">  </span><span class="nt">-</span><span class="o">&gt;</span><span class="w">  </span><span class="nt">64x20</span><span class="w"> </span><span class="nt">märki</span>
+</code></pre></div>
+
+<h4 id="openwnd"><code>OPENWND</code><a class="headerlink" href="#openwnd" title="Permanent link">&para;</a></h4>
+<div class="codehilite"><pre><span></span><code><span class="w"> </span><span class="nt">Kirjeldus</span><span class="o">:</span><span class="w"> </span><span class="nt">Procedure</span><span class="w"> </span><span class="nt">OpenWnd</span><span class="o">(</span><span class="w"> </span><span class="nt">X1</span><span class="o">,</span><span class="nt">Y1</span><span class="o">,</span><span class="nt">X2</span><span class="o">,</span><span class="nt">Y2</span><span class="p">:</span><span class="nd">Integer</span><span class="w"> </span><span class="o">);</span>
+
+<span class="nt">Kasutamine</span><span class="o">:</span><span class="w"> </span><span class="nt">OpenWnd</span><span class="o">(</span><span class="nt">nx1</span><span class="o">,</span><span class="nt">ny1</span><span class="o">,</span><span class="nt">nx2</span><span class="o">,</span><span class="nt">ny2</span><span class="o">);</span>
+
+<span class="w">   </span><span class="nt">Tegevus</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Akna&quot;</span><span class="w">  </span><span class="nt">avamine</span><span class="o">.</span><span class="w">  </span><span class="nt">Ekraani</span><span class="w">  </span><span class="nt">reziimides</span><span class="w"> </span><span class="nt">1</span><span class="w"> </span><span class="nt">ja</span><span class="w"> </span><span class="nt">2</span><span class="w"> </span>
+<span class="w">            </span><span class="nt">peavad</span><span class="w"> </span><span class="nt">X1</span><span class="w"> </span><span class="nt">ja</span><span class="w"> </span><span class="o">(</span><span class="nt">X2</span><span class="o">+</span><span class="nt">1</span><span class="o">)</span><span class="w"> </span><span class="nt">jaguma</span><span class="w"> </span><span class="nt">4-ga</span><span class="o">.</span><span class="w"> </span>
+<span class="w">            </span><span class="o">(</span><span class="w"> </span><span class="nt">Vt</span><span class="o">.</span><span class="w"> </span><span class="nt">Screen</span><span class="w"> </span><span class="o">)</span>
+</code></pre></div>
+
+<h4 id="closewnd"><code>CLOSEWND</code><a class="headerlink" href="#closewnd" title="Permanent link">&para;</a></h4>
+<div class="codehilite"><pre><span></span><code><span class="w"> </span><span class="nt">Kirjeldus</span><span class="o">:</span><span class="w"> </span><span class="nt">Procedure</span><span class="w"> </span><span class="nt">CloseWnd</span><span class="o">;</span>
+
+<span class="nt">Kasutamine</span><span class="o">:</span><span class="w"> </span><span class="nt">CloseWnd</span><span class="o">;</span>
+
+<span class="w">   </span><span class="nt">Tegevus</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Akna&quot;</span><span class="w"> </span><span class="nt">sulgemine</span><span class="o">.</span>
+</code></pre></div>
+
+<h4 id="readkey"><code>READKEY</code><a class="headerlink" href="#readkey" title="Permanent link">&para;</a></h4>
+<div class="codehilite"><pre><span></span><code><span class="w"> </span><span class="n">Kirjeldus</span><span class="o">:</span><span class="w"> </span><span class="n">Function</span><span class="w"> </span><span class="n">ReadKey</span><span class="o">:</span><span class="n">Integer</span><span class="p">;</span>
+
+<span class="n">Kasutamine</span><span class="o">:</span><span class="w"> </span><span class="n">Var</span><span class="w"> </span><span class="n">Code</span><span class="o">:</span><span class="n">Integer</span><span class="p">;</span>
+<span class="w">            </span><span class="o">...</span>
+<span class="w">            </span><span class="n">Code</span><span class="o">:=</span><span class="n">ReadKey</span><span class="p">;</span>
+
+<span class="w">   </span><span class="n">Tegevus</span><span class="o">:</span><span class="w"> </span><span class="n">Klaviatuurilt</span><span class="w"> </span><span class="n">lugemise</span><span class="w"> </span><span class="n">funktsioon</span><span class="o">.</span><span class="w">  </span><span class="n">Kui</span><span class="w"> </span><span class="n">kla</span><span class="o">-</span>
+<span class="w">            </span><span class="n">viatuuril</span><span class="w">  </span><span class="n">on</span><span class="w">  </span><span class="n">vajutatud</span><span class="w">  </span><span class="n">m</span><span class="err">õ</span><span class="n">nele</span><span class="w">  </span><span class="n">s</span><span class="err">õ</span><span class="n">rmisele</span><span class="o">,</span><span class="w"> </span>
+<span class="w">            </span><span class="n">siis</span><span class="w"> </span><span class="n">funktsiooni</span><span class="w"> </span><span class="n">v</span><span class="err">ää</span><span class="n">rtuseks</span><span class="w"> </span><span class="n">on</span><span class="w"> </span><span class="n">vastava</span><span class="w"> </span><span class="n">m</span><span class="err">ä</span><span class="n">rgi</span><span class="w"> </span>
+<span class="w">            </span><span class="n">kood</span><span class="o">,</span><span class="w"> </span><span class="n">vastasel</span><span class="w"> </span><span class="n">juhul</span><span class="w"> </span><span class="n">on</span><span class="w"> </span><span class="n">v</span><span class="err">ää</span><span class="n">rtuseks</span><span class="w"> </span><span class="mf">0.</span>
+</code></pre></div>
+
+<h4 id="kbeepon"><code>KBEEPON</code><a class="headerlink" href="#kbeepon" title="Permanent link">&para;</a></h4>
+<div class="codehilite"><pre><span></span><code><span class="w"> </span><span class="nt">Kirjeldus</span><span class="o">:</span><span class="w"> </span><span class="nt">Procedure</span><span class="w"> </span><span class="nt">KBeepOn</span><span class="o">;</span>
+
+<span class="nt">Kasutamine</span><span class="o">:</span><span class="w"> </span><span class="nt">KBeepOn</span><span class="o">;</span>
+
+<span class="w">   </span><span class="nt">Tegevus</span><span class="o">:</span><span class="w"> </span><span class="nt">Lubatakse</span><span class="w">  </span><span class="nt">sõrmiste</span><span class="w"> </span><span class="nt">vajutamiste</span><span class="w"> </span><span class="nt">heliga</span><span class="w">  </span><span class="nt">kvi-</span>
+<span class="w">            </span><span class="nt">teerimine</span><span class="o">.</span>
+</code></pre></div>
+
+<h4 id="kbeepoff"><code>KBEEPOFF</code><a class="headerlink" href="#kbeepoff" title="Permanent link">&para;</a></h4>
+<div class="codehilite"><pre><span></span><code><span class="w"> </span><span class="nt">Kirjeldus</span><span class="o">:</span><span class="w"> </span><span class="nt">Procedure</span><span class="w"> </span><span class="nt">KBeepOff</span><span class="o">;</span>
+
+<span class="nt">Kasutamine</span><span class="o">:</span><span class="w"> </span><span class="nt">KBeepOff</span><span class="o">;</span>
+
+<span class="w">   </span><span class="nt">Tegevus</span><span class="o">:</span><span class="w"> </span><span class="nt">Keelatakse</span><span class="w">  </span><span class="nt">sõrmiste</span><span class="w"> </span><span class="nt">vajutamiste</span><span class="w"> </span><span class="nt">heliga</span><span class="w"> </span><span class="nt">kvi-</span>
+<span class="w">            </span><span class="nt">teerimine</span><span class="o">.</span>
+</code></pre></div>
+
+<h3 id="34-varia-utilit">3.4  Varia (<code>UTILIT</code>)<a class="headerlink" href="#34-varia-utilit" title="Permanent link">&para;</a></h3>
+<h4 id="rsttimer"><code>RSTTIMER</code><a class="headerlink" href="#rsttimer" title="Permanent link">&para;</a></h4>
+<div class="codehilite"><pre><span></span><code><span class="w"> </span><span class="nt">Kirjeldus</span><span class="o">:</span><span class="w"> </span><span class="nt">Procedure</span><span class="w"> </span><span class="nt">RstTimer</span><span class="o">;</span>
+
+<span class="nt">Kasutamine</span><span class="o">:</span><span class="w"> </span><span class="nt">RstTimer</span><span class="o">;</span>
+
+<span class="w">   </span><span class="nt">Tegevus</span><span class="o">:</span><span class="w"> </span><span class="nt">Taimeri</span><span class="w"> </span><span class="nt">nullimine</span><span class="w">  </span><span class="nt">ja</span><span class="w">  </span><span class="nt">käivitamine</span><span class="w"> </span><span class="nt">stopperi-</span>
+<span class="w">            </span><span class="nt">reziimis</span><span class="o">.</span>
+</code></pre></div>
+
+<h4 id="timer"><code>TIMER</code><a class="headerlink" href="#timer" title="Permanent link">&para;</a></h4>
+<div class="codehilite"><pre><span></span><code><span class="w"> </span><span class="n">Kirjeldus</span><span class="o">:</span><span class="w"> </span><span class="n">Function</span><span class="w"> </span><span class="n">Timer</span><span class="o">:</span><span class="n">Integer</span><span class="p">;</span>
+
+<span class="n">Kasutamine</span><span class="o">:</span><span class="w"> </span><span class="n">Var</span><span class="w"> </span><span class="n">Clock</span><span class="o">:</span><span class="n">Integer</span><span class="p">;</span>
+<span class="w">            </span><span class="o">...</span>
+<span class="w">            </span><span class="n">Clock</span><span class="o">:=</span><span class="n">Timer</span><span class="p">;</span>
+
+<span class="w">   </span><span class="n">Tegevus</span><span class="o">:</span><span class="w"> </span><span class="n">Funktsioon</span><span class="w"> </span><span class="n">taimeri</span><span class="w"> </span><span class="n">seisu</span><span class="w"> </span><span class="n">lugemiseks</span><span class="o">.</span><span class="w">  </span><span class="n">Funkt</span><span class="o">-</span>
+<span class="w">            </span><span class="n">sioon</span><span class="w">  </span><span class="n">tagastab</span><span class="w"> </span><span class="n">stopperireziimis</span><span class="w">  </span><span class="n">k</span><span class="err">ä</span><span class="n">ivitatud</span><span class="w"> </span>
+<span class="w">            </span><span class="n">taimeri</span><span class="w"> </span><span class="p">(</span><span class="n">vt</span><span class="o">.</span><span class="w">  </span><span class="n">RstTimer</span><span class="w"> </span><span class="p">)</span><span class="w"> </span><span class="n">registri</span><span class="w">  </span><span class="n">v</span><span class="err">ää</span><span class="n">rtuse</span><span class="o">,</span><span class="w"> </span>
+<span class="w">            </span><span class="n">mille</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="err">ü</span><span class="n">hik</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">20</span><span class="w"> </span><span class="n">millisekundiga</span><span class="o">.</span>
+</code></pre></div>
+
+<h4 id="mouse"><code>MOUSE</code><a class="headerlink" href="#mouse" title="Permanent link">&para;</a></h4>
+<div class="codehilite"><pre><span></span><code><span class="w"> </span><span class="nt">Kirjeldus</span><span class="o">:</span><span class="w"> </span><span class="nt">Procedure</span><span class="w"> </span><span class="nt">Mouse</span><span class="o">(</span><span class="w"> </span><span class="nt">Var</span><span class="w"> </span><span class="nt">Ud</span><span class="o">,</span><span class="nt">Rud</span><span class="o">,</span><span class="nt">Rl</span><span class="o">,</span><span class="nt">Rrl</span><span class="o">,</span>
+<span class="w">                                 </span><span class="nt">Lsw</span><span class="o">,</span><span class="nt">Rsw</span><span class="p">:</span><span class="nd">Boolean</span><span class="w"> </span><span class="o">);</span>
+
+<span class="nt">Kasutamine</span><span class="o">:</span><span class="w"> </span><span class="nt">Mouse</span><span class="o">(</span><span class="nt">lud</span><span class="o">,</span><span class="nt">lrud</span><span class="o">,</span><span class="nt">lrl</span><span class="o">,</span><span class="nt">lrrl</span><span class="o">,</span><span class="nt">llsw</span><span class="o">,</span><span class="nt">lrsw</span><span class="o">);</span>
+
+<span class="w">   </span><span class="nt">Tegevus</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Hiire&quot;</span><span class="w"> </span><span class="nt">info</span><span class="w"> </span><span class="nt">lugemine</span><span class="o">.</span><span class="w"> </span>
+<span class="w">            </span><span class="nt">Ud</span><span class="w">  </span><span class="nt">-</span><span class="w"> </span><span class="nt">viimane</span><span class="w"> </span><span class="nt">liikumine</span><span class="w"> </span><span class="nt">üles-alla</span><span class="w"> </span><span class="nt">sihis</span><span class="o">;</span>
+<span class="w">                     </span><span class="o">(</span><span class="w"> </span><span class="nt">T</span><span class="w"> </span><span class="nt">-</span><span class="w"> </span><span class="nt">alla</span><span class="o">,</span><span class="w"> </span><span class="nt">F</span><span class="w"> </span><span class="nt">-</span><span class="w"> </span><span class="nt">üles</span><span class="w"> </span><span class="o">)</span>
+<span class="w">            </span><span class="nt">Rud</span><span class="w"> </span><span class="nt">-</span><span class="w"> </span><span class="nt">jooksev</span><span class="w"> </span><span class="nt">liikumine</span><span class="w"> </span><span class="nt">üles-alla</span><span class="w"> </span><span class="nt">sihis</span><span class="o">;</span>
+<span class="w">                     </span><span class="o">(</span><span class="w"> </span><span class="nt">T</span><span class="w"> </span><span class="nt">-</span><span class="w"> </span><span class="nt">liigub</span><span class="o">,</span><span class="w"> </span><span class="nt">F</span><span class="w"> </span><span class="nt">-</span><span class="w"> </span><span class="nt">ei</span><span class="w"> </span><span class="nt">liigu</span><span class="w"> </span><span class="o">)</span>
+<span class="w">            </span><span class="nt">Rl</span><span class="w">  </span><span class="nt">-</span><span class="w"> </span><span class="nt">viimane</span><span class="w"> </span><span class="nt">liikumine</span><span class="w"> </span><span class="nt">horisontaalsihis</span><span class="o">;</span>
+<span class="w">                     </span><span class="o">(</span><span class="w"> </span><span class="nt">T</span><span class="w"> </span><span class="nt">-</span><span class="w"> </span><span class="nt">paremale</span><span class="o">,</span><span class="w"> </span><span class="nt">F</span><span class="w"> </span><span class="nt">-</span><span class="w"> </span><span class="nt">vasakule</span><span class="w"> </span><span class="o">)</span>
+<span class="w">            </span><span class="nt">Rrl</span><span class="w"> </span><span class="nt">-</span><span class="w"> </span><span class="nt">jooksev</span><span class="w"> </span><span class="nt">liikumine</span><span class="w"> </span><span class="nt">horisontaalis</span><span class="o">;</span>
+<span class="w">            </span><span class="nt">Rsw</span><span class="w"> </span><span class="nt">-</span><span class="w"> </span><span class="nt">parema</span><span class="w"> </span><span class="nt">nupu</span><span class="w"> </span><span class="nt">olek</span><span class="o">;</span>
+<span class="w">            </span><span class="nt">Lsw</span><span class="w"> </span><span class="nt">-</span><span class="w"> </span><span class="nt">vasaku</span><span class="w"> </span><span class="nt">nupu</span><span class="w"> </span><span class="nt">olek</span><span class="o">.</span>
+
+<span class="w">    </span><span class="nt">Märkus</span><span class="o">:</span><span class="w"> </span><span class="nt">Kui</span><span class="w">  </span><span class="s2">&quot;hiir&quot;</span><span class="w"> </span><span class="nt">ei</span><span class="w"> </span><span class="nt">ole</span><span class="w"> </span><span class="nt">arvuti</span><span class="w"> </span><span class="nt">konfiguratsioonis</span><span class="o">,</span><span class="w"> </span>
+<span class="w">            </span><span class="nt">siis</span><span class="w"> </span><span class="nt">põhjustab</span><span class="w"> </span><span class="nt">selle</span><span class="w"> </span><span class="nt">protseduuri</span><span class="w"> </span><span class="nt">poole</span><span class="w"> </span><span class="nt">pöör-</span>
+<span class="w">            </span><span class="nt">dumine</span><span class="w"> </span><span class="nt">arvuti</span><span class="w"> </span><span class="s2">&quot;kinni jooksmise&quot;</span><span class="o">.</span>
+</code></pre></div>
+
+<h4 id="initpr"><code>INITPR</code><a class="headerlink" href="#initpr" title="Permanent link">&para;</a></h4>
+<div class="codehilite"><pre><span></span><code><span class="w"> </span><span class="nt">Kirjeldus</span><span class="o">:</span><span class="w"> </span><span class="nt">Function</span><span class="w"> </span><span class="nt">InitPr</span><span class="p">:</span><span class="nd">Boolean</span><span class="o">;</span>
+
+<span class="nt">Kasutamine</span><span class="o">:</span><span class="w"> </span><span class="nt">if</span><span class="w"> </span><span class="nt">Not</span><span class="w"> </span><span class="nt">InitPr</span><span class="w"> </span><span class="nt">then</span><span class="w"> </span><span class="nt">WriteLn</span><span class="o">(</span><span class="s1">&#39;Viga!&#39;</span><span class="o">);</span>
+
+<span class="w">   </span><span class="nt">Tegevus</span><span class="o">:</span><span class="w"> </span><span class="nt">Initsialiseerib</span><span class="w">  </span><span class="nt">paralleelvärati</span><span class="w">  </span><span class="nt">printeriga</span>
+<span class="w">            </span><span class="nt">suhtlemiseks</span><span class="w">  </span><span class="nt">ja</span><span class="w"> </span><span class="nt">kontrollib</span><span class="w"> </span><span class="nt">printeri</span><span class="w"> </span><span class="nt">tööval-</span>
+<span class="w">            </span><span class="nt">midust</span><span class="o">.</span><span class="w">  </span><span class="nt">Kui</span><span class="w"> </span><span class="nt">printer</span><span class="w"> </span><span class="nt">ei</span><span class="w"> </span><span class="nt">ole</span><span class="w"> </span><span class="nt">külge</span><span class="w">  </span><span class="nt">ühendatud</span><span class="w"> </span>
+<span class="w">            </span><span class="nt">või</span><span class="w"> </span><span class="nt">sisse</span><span class="w"> </span><span class="nt">lülitatud</span><span class="o">,</span><span class="w"> </span><span class="nt">tagastatakse</span><span class="w"> </span><span class="nt">tõeväärtus</span><span class="w"> </span>
+<span class="w">            </span><span class="nt">FALSE</span><span class="o">.</span>
+</code></pre></div>
+
+<h4 id="prchr"><code>PRCHR</code><a class="headerlink" href="#prchr" title="Permanent link">&para;</a></h4>
+<div class="codehilite"><pre><span></span><code><span class="w"> </span><span class="nt">Kirjeldus</span><span class="o">:</span><span class="w"> </span><span class="nt">Procedure</span><span class="w"> </span><span class="nt">PrChr</span><span class="o">(</span><span class="w"> </span><span class="nt">Ch</span><span class="p">:</span><span class="nd">Char</span><span class="w"> </span><span class="o">);</span>
+
+<span class="nt">Kasutamine</span><span class="o">:</span><span class="w"> </span><span class="nt">PrChr</span><span class="o">(</span><span class="s1">&#39;a&#39;</span><span class="o">);</span><span class="w"> </span><span class="nt">PrChr</span><span class="o">(</span><span class="nt">chr</span><span class="o">(</span><span class="nt">13</span><span class="o">));</span><span class="w"> </span><span class="nt">PrChr</span><span class="o">(</span><span class="nt">cc</span><span class="o">);</span>
+
+<span class="w">   </span><span class="nt">Tegevus</span><span class="o">:</span><span class="w"> </span><span class="nt">Printerile</span><span class="w"> </span><span class="nt">saadetakse</span><span class="w">  </span><span class="nt">parameetriga</span><span class="w"> </span><span class="nt">määratud</span>
+<span class="w">            </span><span class="nt">märk</span><span class="o">.</span>
+
+<span class="w">    </span><span class="nt">Märkus</span><span class="o">:</span><span class="w"> </span><span class="nt">Eelnevalt</span><span class="w"> </span><span class="nt">on</span><span class="w">  </span><span class="nt">vajalik</span><span class="w">  </span><span class="nt">kasutada</span><span class="w">  </span><span class="nt">funktsiooni</span>
+<span class="w">            </span><span class="nt">InitPr</span><span class="o">.</span>
+</code></pre></div>
+
+<h4 id="sound"><code>SOUND</code><a class="headerlink" href="#sound" title="Permanent link">&para;</a></h4>
+<div class="codehilite"><pre><span></span><code><span class="w"> </span><span class="nt">Kirjeldus</span><span class="o">:</span><span class="w"> </span><span class="nt">Procedure</span><span class="w"> </span><span class="nt">Sound</span><span class="o">(</span><span class="w"> </span><span class="nt">Freq</span><span class="o">,</span><span class="nt">Delay</span><span class="p">:</span><span class="nd">Integer</span><span class="w"> </span><span class="o">);</span>
+
+<span class="nt">Kasutamine</span><span class="o">:</span><span class="w"> </span><span class="nt">Sound</span><span class="o">(</span><span class="nt">nf</span><span class="o">,</span><span class="nt">nd</span><span class="o">);</span>
+
+<span class="w">   </span><span class="nt">Tegevus</span><span class="o">:</span><span class="w"> </span><span class="nt">Käivitab</span><span class="w">  </span><span class="nt">helisagedusgeneraatori</span><span class="w"> </span><span class="nt">parameetri-</span>
+<span class="w">            </span><span class="nt">ga</span><span class="w">  </span><span class="nt">Freq</span><span class="w"> </span><span class="nt">määratud</span><span class="w"> </span><span class="nt">sagedusel</span><span class="w"> </span><span class="nt">ja</span><span class="w"> </span><span class="nt">Delay-ga</span><span class="w"> </span><span class="nt">mää-</span>
+<span class="w">            </span><span class="nt">ratud</span><span class="w"> </span><span class="nt">kestvusega</span><span class="w"> </span><span class="nt">millisekundites</span><span class="o">.</span>
+</code></pre></div>
+
+<h4 id="volume"><code>VOLUME</code><a class="headerlink" href="#volume" title="Permanent link">&para;</a></h4>
+<div class="codehilite"><pre><span></span><code><span class="w"> </span><span class="nt">Kirjeldus</span><span class="o">:</span><span class="w"> </span><span class="nt">Procedure</span><span class="w"> </span><span class="nt">Volume</span><span class="o">(</span><span class="w"> </span><span class="nt">V</span><span class="p">:</span><span class="nd">Integer</span><span class="w"> </span><span class="o">);</span>
+
+<span class="nt">Kasutamine</span><span class="o">:</span><span class="w"> </span><span class="nt">Volume</span><span class="o">(</span><span class="nt">nv</span><span class="o">);</span>
+
+<span class="w">   </span><span class="nt">Tegevus</span><span class="o">:</span><span class="w"> </span><span class="nt">Määrab</span><span class="w"> </span><span class="nt">helisignaali</span><span class="w"> </span><span class="nt">tugevuse</span><span class="o">.</span><span class="w"> </span><span class="nt">Kui</span><span class="w"> </span><span class="nt">V</span><span class="o">=</span><span class="nt">0</span><span class="o">,</span><span class="w"> </span><span class="nt">siis</span>
+<span class="w">            </span><span class="nt">on</span><span class="w"> </span><span class="nt">heli</span><span class="w"> </span><span class="nt">nõrk</span><span class="o">,</span><span class="w"> </span><span class="nt">kui</span><span class="w"> </span><span class="nt">V</span><span class="o">&gt;</span><span class="nt">0</span><span class="o">,</span><span class="w"> </span><span class="nt">siis</span><span class="w"> </span><span class="nt">tugev</span><span class="o">.</span>
+</code></pre></div>
+
+<h4 id="random"><code>RANDOM</code><a class="headerlink" href="#random" title="Permanent link">&para;</a></h4>
+<div class="codehilite"><pre><span></span><code><span class="w"> </span><span class="n">Kirjeldus</span><span class="o">:</span><span class="w"> </span><span class="n">Function</span><span class="w"> </span><span class="n">Random</span><span class="p">(</span><span class="w"> </span><span class="n">Range</span><span class="o">:</span><span class="n">Integer</span><span class="w"> </span><span class="p">)</span><span class="o">:</span><span class="n">Integer</span><span class="p">;</span>
+
+<span class="n">Kasutamine</span><span class="o">:</span><span class="w"> </span><span class="n">Var</span><span class="w"> </span><span class="n">Arv</span><span class="o">:</span><span class="n">Integer</span><span class="p">;</span>
+<span class="w">            </span><span class="o">...</span>
+<span class="w">            </span><span class="n">Arv</span><span class="o">:=</span><span class="n">Random</span><span class="p">(</span><span class="n">Random</span><span class="p">(</span><span class="n">nr</span><span class="p">));</span>
+
+<span class="w">   </span><span class="n">Tegevus</span><span class="o">:</span><span class="w"> </span><span class="n">Funktsioon</span><span class="w"> </span><span class="n">tagastab</span><span class="w"> </span><span class="n">arvu</span><span class="o">,</span><span class="w">  </span><span class="n">mis</span><span class="w"> </span><span class="n">omab</span><span class="w"> </span><span class="n">v</span><span class="err">ää</span><span class="n">rtust</span><span class="w"> </span>
+<span class="w">            </span><span class="mi">0</span><span class="o">-</span><span class="n">st</span><span class="w"> </span><span class="n">kuni</span><span class="w"> </span><span class="p">(</span><span class="n">Range</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="mi">1</span><span class="p">)</span><span class="o">-</span><span class="n">ni</span><span class="o">.</span><span class="w"> </span><span class="n">Arvude</span><span class="w"> </span><span class="n">juhuslikkus</span><span class="w"> </span>
+<span class="w">            </span><span class="n">s</span><span class="err">õ</span><span class="n">ltub</span><span class="w"> </span><span class="n">parameetrist</span><span class="w"> </span><span class="n">Range</span><span class="w"> </span><span class="n">ja</span><span class="w"> </span><span class="n">funktsiooni</span><span class="w"> </span><span class="n">ka</span><span class="o">-</span>
+<span class="w">            </span><span class="n">sutamise</span><span class="w"> </span><span class="n">ajast</span><span class="o">.</span>
+</code></pre></div>
+
+<h3 id="35-kettateek-disk">3.5  Kettateek (<code>DISK</code>)<a class="headerlink" href="#35-kettateek-disk" title="Permanent link">&para;</a></h3>
+<h4 id="selectdisk"><code>SELECTDISK</code><a class="headerlink" href="#selectdisk" title="Permanent link">&para;</a></h4>
+<div class="codehilite"><pre><span></span><code><span class="w"> </span><span class="nt">Kirjeldus</span><span class="o">:</span><span class="w"> </span><span class="nt">Procedure</span><span class="w"> </span><span class="nt">SelectDisk</span><span class="o">(</span><span class="w"> </span><span class="nt">Ds</span><span class="p">:</span><span class="nd">Char</span><span class="w"> </span><span class="o">);</span>
+
+<span class="nt">Kasutamine</span><span class="o">:</span><span class="w"> </span><span class="nt">SelectDisc</span><span class="o">(</span><span class="s1">&#39;B&#39;</span><span class="o">);</span>
+
+<span class="w">   </span><span class="nt">Tegevus</span><span class="o">:</span><span class="w"> </span><span class="nt">Muudab</span><span class="w"> </span><span class="nt">aktiivseks</span><span class="w"> </span><span class="nt">parameetriga</span><span class="w"> </span><span class="nt">näidatud</span><span class="w"> </span>
+<span class="w">            </span><span class="nt">kettaseadme</span><span class="o">.</span>
+</code></pre></div>
+
+<h4 id="settrack"><code>SETTRACK</code><a class="headerlink" href="#settrack" title="Permanent link">&para;</a></h4>
+<div class="codehilite"><pre><span></span><code><span class="w"> </span><span class="nt">Kirjeldus</span><span class="o">:</span><span class="w"> </span><span class="nt">Procedure</span><span class="w"> </span><span class="nt">SetTrack</span><span class="o">(</span><span class="w"> </span><span class="nt">Tr</span><span class="p">:</span><span class="nd">Integer</span><span class="w"> </span><span class="o">);</span>
+
+<span class="nt">Kasutamine</span><span class="o">:</span><span class="w"> </span><span class="nt">SetTrack</span><span class="o">(</span><span class="nt">ntr</span><span class="o">);</span>
+
+<span class="w">   </span><span class="nt">Tegevus</span><span class="o">:</span><span class="w"> </span><span class="nt">Määrab</span><span class="w"> </span><span class="nt">kettal</span><span class="w"> </span><span class="nt">raja</span><span class="o">,</span><span class="w"> </span><span class="nt">millega</span><span class="w"> </span><span class="nt">opereeritakse</span><span class="o">.</span>
+</code></pre></div>
+
+<h4 id="setsector"><code>SETSECTOR</code><a class="headerlink" href="#setsector" title="Permanent link">&para;</a></h4>
+<div class="codehilite"><pre><span></span><code><span class="w"> </span><span class="nt">Kirjeldus</span><span class="o">:</span><span class="w"> </span><span class="nt">Procedure</span><span class="w"> </span><span class="nt">SetSector</span><span class="o">(</span><span class="w"> </span><span class="nt">Sc</span><span class="p">:</span><span class="nd">Integer</span><span class="w"> </span><span class="o">);</span>
+
+<span class="nt">Kasutamine</span><span class="o">:</span><span class="w"> </span><span class="nt">SetSector</span><span class="o">(</span><span class="nt">nsc</span><span class="o">);</span>
+
+<span class="w">   </span><span class="nt">Tegevus</span><span class="o">:</span><span class="w"> </span><span class="nt">Määrab</span><span class="w">  </span><span class="nt">kettal</span><span class="w">  </span><span class="nt">loogilise</span><span class="w">  </span><span class="nt">sektori</span><span class="o">,</span><span class="w">  </span><span class="nt">millega</span><span class="w"> </span>
+<span class="w">            </span><span class="nt">opereeritakse</span><span class="o">.</span>
+</code></pre></div>
+
+<h4 id="setdma"><code>SETDMA</code><a class="headerlink" href="#setdma" title="Permanent link">&para;</a></h4>
+<div class="codehilite"><pre><span></span><code><span class="w"> </span><span class="nt">Kirjeldus</span><span class="o">:</span><span class="w"> </span><span class="nt">Procedure</span><span class="w"> </span><span class="nt">SetDma</span><span class="o">(</span><span class="w"> </span><span class="nt">M</span><span class="p">:</span><span class="nd">Integer</span><span class="w"> </span><span class="o">);</span>
+
+<span class="nt">Kasutamine</span><span class="o">:</span><span class="w"> </span><span class="nt">Var</span><span class="w"> </span><span class="nt">Buf</span><span class="p">:</span><span class="nd">Array</span><span class="w"> </span><span class="cp">[</span><span class="w"> </span><span class="mi">0</span><span class="nx">..127</span><span class="w"> </span><span class="cp">]</span><span class="w"> </span><span class="nt">of</span><span class="w"> </span><span class="nt">Byte</span><span class="o">;</span>
+<span class="w">            </span><span class="o">...</span>
+<span class="w">            </span><span class="nt">SetDma</span><span class="o">(</span><span class="w"> </span><span class="nt">Addr</span><span class="o">(</span><span class="nt">Buf</span><span class="o">)</span><span class="w"> </span><span class="o">);</span>
+
+<span class="w">   </span><span class="nt">Tegevus</span><span class="o">:</span><span class="w"> </span><span class="nt">Määrab</span><span class="w"> </span><span class="nt">aadressi</span><span class="o">,</span><span class="w"> </span><span class="nt">mida</span><span class="w"> </span><span class="nt">kasutatakse</span><span class="w"> </span><span class="nt">info</span><span class="w"> </span><span class="nt">puhv-</span>
+<span class="w">            </span><span class="nt">rina</span><span class="w">  </span><span class="nt">ketta</span><span class="w"> </span><span class="nt">lugemis-</span><span class="w"> </span><span class="nt">ja</span><span class="w"> </span><span class="nt">salvestamisoperatsi-</span>
+<span class="w">            </span><span class="nt">oonides</span><span class="o">.</span><span class="w">  </span><span class="nt">Puhvri</span><span class="w"> </span><span class="nt">suurus</span><span class="w"> </span><span class="nt">peab</span><span class="w"> </span><span class="nt">olema</span><span class="w">  </span><span class="nt">vähemalt</span><span class="w"> </span>
+<span class="w">            </span><span class="nt">128</span><span class="w"> </span><span class="nt">baiti</span><span class="o">.</span>
+</code></pre></div>
+
+<h4 id="readdisk"><code>READDISK</code><a class="headerlink" href="#readdisk" title="Permanent link">&para;</a></h4>
+<div class="codehilite"><pre><span></span><code><span class="w"> </span><span class="nt">Kirjeldus</span><span class="o">:</span><span class="w"> </span><span class="nt">Procedure</span><span class="w"> </span><span class="nt">ReadDisk</span><span class="o">;</span>
+
+<span class="nt">Kasutamine</span><span class="o">:</span><span class="w"> </span><span class="nt">ReadDisk</span><span class="o">;</span>
+
+<span class="w">   </span><span class="nt">Tegevus</span><span class="o">:</span><span class="w"> </span><span class="nt">Protseduuridega</span><span class="w"> </span><span class="nt">SetTrack</span><span class="w"> </span><span class="nt">ja</span><span class="w"> </span><span class="nt">SetSector</span><span class="w"> </span><span class="nt">määra-</span>
+<span class="w">            </span><span class="nt">tud</span><span class="w">  </span><span class="nt">kohast</span><span class="w"> </span><span class="nt">kettal</span><span class="w"> </span><span class="nt">loetakse</span><span class="w"> </span><span class="nt">128</span><span class="w"> </span><span class="nt">baiti</span><span class="w">  </span><span class="nt">infot</span><span class="w"> </span>
+<span class="w">            </span><span class="nt">ja</span><span class="w">  </span><span class="nt">salvestatakse</span><span class="w"> </span><span class="nt">mällu</span><span class="w"> </span><span class="nt">protseduuriga</span><span class="w"> </span><span class="nt">SetDma</span><span class="w"> </span>
+<span class="w">            </span><span class="nt">määratud</span><span class="w"> </span><span class="nt">kohta</span><span class="o">.</span>
+</code></pre></div>
+
+<h4 id="writedisk"><code>WRITEDISK</code><a class="headerlink" href="#writedisk" title="Permanent link">&para;</a></h4>
+<div class="codehilite"><pre><span></span><code><span class="w"> </span><span class="nt">Kirjeldus</span><span class="o">:</span><span class="w"> </span><span class="nt">Procedure</span><span class="w"> </span><span class="nt">WriteDisk</span><span class="o">;</span>
+
+<span class="nt">Kasutamine</span><span class="o">:</span><span class="w"> </span><span class="nt">WriteDisk</span><span class="o">;</span>
+
+<span class="w">   </span><span class="nt">Tegevus</span><span class="o">:</span><span class="w"> </span><span class="nt">Protseduuriga</span><span class="w">  </span><span class="nt">SetDma</span><span class="w"> </span><span class="nt">määratud</span><span class="w"> </span><span class="nt">kohast</span><span class="w">  </span><span class="nt">mälus</span><span class="w"> </span>
+<span class="w">            </span><span class="nt">loetakse</span><span class="w">  </span><span class="nt">128</span><span class="w">  </span><span class="nt">baiti</span><span class="w"> </span><span class="nt">infot</span><span class="w"> </span><span class="nt">ja</span><span class="w">  </span><span class="nt">salvestatakse</span><span class="w"> </span>
+<span class="w">            </span><span class="nt">kettale</span><span class="w"> </span><span class="nt">protseduuridega</span><span class="w"> </span><span class="nt">SetTrack</span><span class="w"> </span><span class="nt">ja</span><span class="w">  </span><span class="nt">SetSec-</span>
+<span class="w">            </span><span class="nt">tor</span><span class="w"> </span><span class="nt">määratud</span><span class="w"> </span><span class="nt">kohta</span><span class="o">.</span>
+</code></pre></div>
+
+<div class="codehilite"><pre><span></span><code>============================================================
+
+  Kui  käesoleva  paketiga töötades tekkib  küsimusi  või 
+               leiate vigu, palun pöörduge:
+
+                    202440 Tartumaa Nõo
+                Nõo Keskkooli Arvutuskeskus
+                       Indrek Jentson
+
+============================================================
+</code></pre></div>
+
+<h3 id="kasutatud-kirjandus">Kasutatud kirjandus<a class="headerlink" href="#kasutatud-kirjandus" title="Permanent link">&para;</a></h3>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p>Интеллектуальный терминал для систем реального времени E5104.
+Программное обеспеченйе. Кнйга 3.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p>Rein Jürgenson. Programmeerimine Pascalkeeles. Tln.Valgus 1985.&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p>Pascal/MT+ Release 5 User's Guide. Third Edition. (c) 1980,1981
+by MT MicroSYSTEMS.&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "header.autohide", "content.code.copy", "content.footnote.tooltips"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Kopeeritud", "clipboard.copy": "Kopeeri l\u00f5ikelauale", "search.result.more.one": "1 veel sellel lehel", "search.result.more.other": "# veel sellel lehel", "search.result.none": "Otsingule ei leitud \u00fchtegi vastet", "search.result.one": "Leiti \u00fcks tulemus", "search.result.other": "Leiti # tulemust", "search.result.placeholder": "Otsimiseks kirjuta siia", "search.result.term.missing": "Puudub", "select.version": "Vali versioon"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

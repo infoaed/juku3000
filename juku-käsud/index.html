@@ -1,0 +1,959 @@
+
+<!doctype html>
+<html lang="et" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Kooliarvuti JUKU igavene digitaalne elu">
+      
+      
+        <meta name="author" content="juku3000">
+      
+      
+        <link rel="canonical" href="https://j3k.infoaed.ee/juku-k%C3%A4sud/">
+      
+      
+        <link rel="prev" href="../ajajoon/">
+      
+      
+        <link rel="next" href="../mame-k%C3%A4ivitamine/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../images/favicon.svg">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>EKDOSi kasutamine - juku3000</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../css/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  
+<meta property="og:type" content="website" />
+<meta property="og:title" content="EKDOSi kasutamine - juku3000" />
+<meta property="og:description" content="Kooliarvuti JUKU igavene digitaalne elu" />
+<meta property="og:image" content="https://j3k.infoaed.ee/assets/images/social/juku-k%C3%A4sud.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:url" content="https://j3k.infoaed.ee/juku-k%C3%A4sud/" />
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:title" content="EKDOSi kasutamine - juku3000" />
+<meta property="twitter:description" content="Kooliarvuti JUKU igavene digitaalne elu" />
+<meta property="twitter:image" content="https://j3k.infoaed.ee/assets/images/social/juku-k%C3%A4sud.png" />
+</head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#juku-e5104-opsusteemi-kaitamine" class="md-skip">
+          Keri sisuni
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Päis">
+    <a href=".." title="juku3000" class="md-header__button md-logo" aria-label="juku3000" data-md-component="logo">
+      
+  <img src="../images/juku3000_small.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            juku3000
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              EKDOSi kasutamine
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="indigo"  aria-label="Automaatne heledus"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Automaatne heledus" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.3 16-.7-2h-3.2l-.7 2H7.8L11 7h2l3.2 9zM20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12zm-9.15 3.96h2.3L12 9z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="indigo"  aria-label="Tekst tumedal tasutal"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Tekst tumedal tasutal" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 2.38 1.19 4.47 3 5.74V17a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2.26c1.81-1.27 3-3.36 3-5.74a7 7 0 0 0-7-7M9 21a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-1H9z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="deep-purple" data-md-color-accent="indigo"  aria-label="Tekst heledal taustal"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Tekst heledal taustal" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 1 7 7c0 2.38-1.19 4.47-3 5.74V17a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2.26C6.19 13.47 5 11.38 5 9a7 7 0 0 1 7-7M9 21v-1h6v1a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1m3-17a5 5 0 0 0-5 5c0 2.05 1.23 3.81 3 4.58V16h4v-2.42c1.77-.77 3-2.53 3-4.58a5 5 0 0 0-5-5"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/infoaed/juku3000" title="Ava repositooriumis" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    infoaed/juku3000
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<!-- Determine classes -->
+
+
+
+
+<!-- Navigation -->
+<nav
+  class="md-nav md-nav--primary"
+  aria-label="Navigatsioon"
+  data-md-level="0"
+>
+
+  <!-- Site title -->
+  <label class="md-nav__title" for="__drawer">
+    <a
+      href=".."
+      title="juku3000"
+      class="md-nav__button md-logo"
+      aria-label="juku3000"
+      data-md-component="logo"
+    >
+      <!--
+  <img src="../images/juku3000_small.svg" alt="logo">
+-->
+      <img src="/images/juku3000_2.svg" alt="logo">
+    </a>
+    <!--juku3000-->
+  </label>
+
+  <!-- Repository information -->
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/infoaed/juku3000" title="Ava repositooriumis" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    infoaed/juku3000
+  </div>
+</a>
+    </div>
+  
+
+  <!-- Navigation list -->
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tere, Juhan!
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ajajoon/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    JUKU elutsükkel
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EKDOSi kasutamine
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EKDOSi kasutamine
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Sisukord">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Sisukord
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#opsusteemi-kasud" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Opsüsteemi käsud
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#programmifailide-kaivitamine" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Programmifailide käivitamine
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kasulikke-juhtklahve" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kasulikke juhtklahve
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mame-k%C3%A4ivitamine/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MAME käivitamine
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../videod/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Videote salvestamine
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kettad/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ketaste lugemine
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../m%C3%A4ngude-ketas-2024/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mängude ketas 2024
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../porditud-m%C3%A4ngud-2025/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mängude ketas 2025
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tarkvara-kataloog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tarkvara kataloog
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://infoaed.ee/juku" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    👾 Proovi JUKUt veebis! 👾
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Sisukord">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Sisukord
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#opsusteemi-kasud" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Opsüsteemi käsud
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#programmifailide-kaivitamine" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Programmifailide käivitamine
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kasulikke-juhtklahve" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kasulikke juhtklahve
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="juku-e5104-opsusteemi-kaitamine">Juku E5104 opsüsteemi käitamine<a class="headerlink" href="#juku-e5104-opsusteemi-kaitamine" title="Permanent link">&para;</a></h1>
+<p>«Juku» sisselülitamisel ilmub kuvarile püsimonitori teade <code>RomBios</code>, monitori versiooninumber ja viip <code>∗</code>, mille järel kutsuvalt vilgub sisestuskursor:</p>
+<p><a href="https://commons.wikimedia.org/wiki/File:Juku_E5101_booting_up_EKDOS_2.30,_displaying_readme_file_on_screen.webm"><img alt="EKDOS 2.30 alglaadimine püsimonitorist Rombios 3.43m juhtklahvidega «T», «D», «D»" src="/images/jukubuut.gif" /></a></p>
+<p>«Juku E5104» kettaopsüsteemi EKDOS alglaadimiseks tuleb vajutada <code>T</code>, <code>D</code>, <code>D</code>, mis pikemalt lahtiseletatuna on:</p>
+<ol>
+<li>paigutada lugemisseadmesse andmekandja opsüsteemiga</li>
+<li>anda püsimonitorile juhis <code>T</code> opsüsteemi laadimiseks</li>
+<li>sisestada opsüsteemi laadimiseks ümbrikkettalt <code>D</code>, võrgust <code>N</code> või lindilt <code>T</code></li>
+</ol>
+<p>Alglaadimise käigus loetakse opsüsteemi käsutöötlusprotsessor andmekandjalt muutmällu. Ümbrikkettalt laadimisel tuleb määrata ka süsteemiketta tüüp, milleks on kahepoolne ümbrikketas ehk juhis <code>D</code>. Eduka laadimise tulemusel ilmub ekraanile järgnevale sarnanev käivitusteade:</p>
+<div class="codehilite"><pre><span></span><code><span class="mf">52</span><span class="n">K</span><span class="w"> </span><span class="n">EKDOS</span><span class="w"> </span><span class="mf">2.30</span>
+
+<span class="n">Drive</span><span class="w"> </span><span class="n">assignments</span><span class="p">:</span><span class="w">  </span>
+
+<span class="o">&lt;</span><span class="n">A</span><span class="o">&gt;</span><span class="w"> </span><span class="err">—</span><span class="w"> </span><span class="mf">5</span><span class="s">&quot; 786K  </span>
+<span class="o">&lt;</span><span class="n">B</span><span class="o">&gt;</span><span class="w"> </span><span class="err">—</span><span class="w"> </span><span class="mf">5</span><span class="s">&quot; 786K</span>
+<span class="o">&lt;</span><span class="n">C</span><span class="o">&gt;</span><span class="w"> </span><span class="err">—</span><span class="w"> </span><span class="n">RAM</span><span class="w"> </span><span class="n">disk</span><span class="w"> </span><span class="mf">192</span><span class="n">K</span>
+</code></pre></div>
+
+<p>Seejärel kuvatakse opsüsteemi valmisolekut väljendav viip <code>A&gt;</code>, mis võimaldab <a href="#opsusteemi-kasud">sisestada käske</a> või <a href="#programmifailide-kaivitamine">käivitada programme</a>. Näiteks võib alustuseks olla tark vaadata kettal paiknevate failide kataloogi käsuga <code>DIR</code> või lugeda kaasa pandud teadet sisestades <code>TYPE READ.ME</code>.</p>
+<p>Viip on mistahes programmi poolt väljastatav teade, mis näitab, et programm ootab kasutaja edasisi juhiseid. Näiteks püsimonitori viiba <code>∗</code> järele <code>A</code> või <code>B</code> sisestamine käivitab miniassembleri või püsimälu BASIC-interpretaatori, <code>T</code> opsüsteemi alglaadimise<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup>. Eri programmidel on eri viibad, mille kasutamine on kirjeldatud nende juhendmaterjalis.</p>
+<blockquote>
+<p>Reaalaja süsteemide intellektuaalse terminali «Juku E5104»<sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup> püsimälus sisalduv tarkvara koosneb monitorist, BASIC-keele interpretaatorist, miniassemblerist, andmeside draiveritest ja opsüsteemide alglaaduritest:</p>
+<ol>
+<li>Püsimonitor juhib andmetöötlust, võimaldab kontrollida ja muuta arvuti registrite ning mälu sisu ja tagab graafika programmeerimise vahendid.  </li>
+<li>BASIC-keele interpretaator on vahend programmeerimise õppimiseks ja vähemnõudlike programmide kirjutamiseks.  </li>
+<li>Miniassembler on kompaktne translaator vilunud programmeerija jaoks, ühtlasi vahend programmide silumiseks. Ei mahu koos BASICu interpretaatoriga korraga püsimällu, mistõttu saab neist korraga valida vaid ühe.  </li>
+<li>Operatsioonisüsteemide alglaadurid on võimsama tarkvara eelpost püsimälus. Magnetofoni või diskett-salvesti ühendamisel saab sealt alglaadurite abil lugeda arvuti muutmällu vastavalt lindi-, võrgu- või kettaopsüsteemi.  </li>
+<li>Andmeside draiver on tarkvara arvutipoolseim osa. Ülejaanud osa loetakse mällu välissalvestilt, seega peab arvutivõrgus olema vähemalt üks magnetofon või diskettsalvesti.  </li>
+</ol>
+<p>Põhitarkvara suhtes täiendava opsüsteemi käitamine hõlbustab info talletamist välissalvestile ning pakub kasutajale vahendeid, mis püsimonitoris puuduvad.<sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup></p>
+</blockquote>
+<h2 id="opsusteemi-kasud">Opsüsteemi käsud<a class="headerlink" href="#opsusteemi-kasud" title="Permanent link">&para;</a></h2>
+<p>Käsuprotsessor (KP) vahetab infot kasutaja ja operatsioonisüsteemi vahel. KP loeb ja töötleb klahvistikult<sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup> sisestatud käsuridu. KP valmisolekut käsu sisestuseks väljendab viip <code>A&gt;</code>. KP sisaldab sõltuvalt opsüsteemi tüübist valiku sisefunktsioone või käsklusi:</p>
+<p><code>DIR</code> — mittesüsteemsete failide kataloogi esitus<br />
+<code>TYPE</code> — tekstifaili väljastus ekraanile<br />
+<code>REN</code> — failide ümbernimetamine (s: <code>REN uusnimi=failinimi</code>)<br />
+<code>ERA</code> — failide kustutamine<br />
+<code>USER</code> — kasutajanumbri valik (0-15)<br />
+<code>SAVE</code> — mälu sisu salvestamine faili (s: <code>SAVE n failinimi</code>)  </p>
+<p>Lindiopsüsteemi puhul on täiendavalt saadaval:</p>
+<p><code>MEM</code> — üldinfo lindi kohta<br />
+<code>OPEN</code> — lindi avamine<br />
+<code>CLOSE</code> — lindi sulgemine<br />
+<code>DIRS</code> — süsteemsete failide kataloogi esitus<br />
+<code>LOAD</code> — faili laadimine lindilt muutmällu<br />
+<code>RUN</code> — laaditud programmi käivitamine<br />
+<code>DUMP</code> — faili sisu väljastus 16-ndkoodis<br />
+<code>REST</code> — kustutatud failide taastamine<br />
+<code>BASIC</code> — püsimälus oleva BASICu käivitamine<br />
+<code>MONID</code> — väljumine monitori  </p>
+<p>Andmeid säilitatakse välissalvestil failidena, mille tähistused on kujul:</p>
+<p><code>failinimi.EXT</code></p>
+<p>Failinimi sisaldab kuni kaheksa ja laiend (<code>EXT</code>) kuni kolm tärki ning neid eraldab teineteisest punkt. Laiend võib ka puududa. Failinimes ja laiendis ei tohi esineda: koma (<code>,</code>), semikoolon (<code>;</code>), koolon (<code>:</code>), küsimärk (<code>?</code>), tärn (<code>∗</code>), noolsulg (<code>&lt;</code> või <code>&gt;</code>), nurksulg (<code>[</code> või <code>]</code>). Mõningad kasutatavamad laiendid:</p>
+<p><code>ASM</code>, <code>MAC</code> — assemblerkeele lähtefail<br />
+<code>BAS</code> — BASIC kompilaatori lähtefail<br />
+<code>PAS</code> — PASCAL/MT+ translaaatori lähtefail<br />
+<code>FOR</code> — F(ORTRAN)80 kompilaatori lähtefail<br />
+<code>TXT</code> — tekstifail<br />
+<code>BAK</code> — tekstitoimeti varundusfail<br />
+<code>DOC</code>, <code>DOK</code> — dokumentatsioon, juhised<br />
+<code>HLP</code> — juhised<br />
+<code>PRN</code>, <code>LST</code> — listingufail<br />
+<code>HEX</code> — masinkood 16-ndkujul<br />
+<code>$$$</code> — ajutine fail<br />
+<code>COM</code> — käsu- ehk programmi- ehk laadefail  </p>
+<p>Failid paiknevad lintidel või ketastel, mille lugemisseadme tähis on tähestiku täht koos seda failinimest eraldava kooloniga (nt <code>A:</code> või <code>B:</code>). Aktiivse lugemisseadme vahetamiseks tuleb käsklusena sisestada soovitud lugemisseadme tähis. Käskluse tulemusel muudetakse viibas osutatud aktiivset lugemisseadet <code>A&gt;</code>, <code>B&gt;</code>, <code>C&gt;</code> jne.</p>
+<p>Faili paiknemist lugemisseadmes oleval kettal märgitakse seadmetähise lisamisega failinime ette (<code>B:failinimi.EXT</code>).</p>
+<p>Sisefunktsioonide <code>ERA</code>, <code>REST</code>, <code>DIR</code>, <code>DIRS</code> kasutamisel võib failinime ja laiendi sisestada kas üheselt või mitmeselt määratuna. Mitmeselt määra­miseks kasutatakse tähiseid <code>∗</code> ja <code>?</code>:</p>
+<p><code>?</code> — asendab failinimes või laiendis ühte märki, tähenduses «mis tahes märk sellel kohal»</p>
+<p><code>∗</code> — asendab failinime või laiendit, tähenduses «mis tahes nimi (laiend)»; tärn nime (laiendi) algusosa järel asendab järgnevat lõpuosa, tähen­duses «mis tahes lõpuosaga nimi (laiend)»</p>
+<p>Vormingud <code>∗.∗</code> ja <code>????????.???</code> on sarnased. Siin ja edaspidi mõeldakse termini «failinimi» all üldiselt failinimest ja laiendist koosnevat faili identifikaatorit.</p>
+<p>Näide:</p>
+<blockquote>
+<p><code>A&gt;</code> <code>ERA A??.∗</code> — kustutamisele kuuluvad kõik failid, mille nimi on 3 märki pikk ja algab sõltumata laiendist tähega <code>A</code><br />
+<code>A&gt;</code> <code>ERA B:A∗.COM</code> — kustutamisele kuuluvad kettalt <code>B:</code> kõik failid, mille nimi algab tähega <code>A</code> ja mille laiendiks on <code>COM</code></p>
+</blockquote>
+<h2 id="programmifailide-kaivitamine">Programmifailide käivitamine<a class="headerlink" href="#programmifailide-kaivitamine" title="Permanent link">&para;</a></h2>
+<p>Valmisprogrammid on kirjutatud assembler- või kõrgkeeles ja transleeritud seejärel mikroprotsessori <a href="https://et.wikipedia.org/wiki/KR580VM80A">KR580VM80A</a> täidetavasse masinkoodi.</p>
+<p>Programmi- ehk laadefaile saab käivitada vastusena KP viibale <code>A&gt;</code> opsüsteemi käsklustega samadel alustel. Programmi käivitamisel programminime järgi otsitakse andmekandjalt fail antud nimega ja laiendiga <code>COM</code>. Näiteks:</p>
+<blockquote>
+<p><code>A&gt;</code> <code>INDY</code>  </p>
+</blockquote>
+<p>käivitab programmifaili, mis asub seadmesse <code>A:</code> sisestatud andmekandjal ja mille nimeks on <code>INDY.COM</code>. Programmifail laaditakse mällu alates tarbijaprogrammi tsooni (TT) algusest aadressil <code>100H</code> ning juhtimine antakse üle sellele aadressile, st programm alustab tööd. Kui programmifaili nimi kattub sisefunktsooni omaga, siis käivitatakse viimane. Olematu laadefaili puhul väljastatakse ekraanil järgmisele reale märk <code>?</code> ning programminimi.</p>
+<p>Programminime järel saab sisestada ühe või kaks parameetrit (tavali­selt on parameetriks failinimi), st opsüsteemi viibale käsureaga vastamisel on kolm võimalikku kuju:</p>
+<blockquote>
+<p><code>A&gt;</code> <code>programminimi</code><br />
+<code>A&gt;</code> <code>programminimi parameeter1</code><br />
+<code>A&gt;</code> <code>programminimi parameeter1 parameeter2</code>  </p>
+</blockquote>
+<p>KP moodustab nendest parameetritest süsteemiparameetrite tsooni (ST) ühe või kaks faili juhtplokki (FJP); parameetrite puudumisel täidetakse FJP-d tühikutega. Käsurea maksimaalne pikkus on 128 märki. Pärast sisestatud käsurea analüüsi salvestatakse 128-baidisesse otsemällupöörduse puhvrisse (OMP) programminimele järgnevast märgist algav käsurea osa. KP puhvri esimeses baidis (aadressil <code>80H</code>) on sisestatud sümbolite arv.</p>
+<blockquote>
+<p>Programmide silumisel ja katsetamisel on kasulik tunda süsteemi mälujaotust. JUKU opsüsteemide kasutamisel on see üldjoontes:</p>
+<table>
+<thead>
+<tr>
+<th>Aadress</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>0000</code></td>
+<td>Süsteemiparameetrite tsoon (ST) #1</td>
+</tr>
+<tr>
+<td> </td>
+<td><code>0000</code>: <code>JMP CA03</code> (KP algusaadress)</td>
+</tr>
+<tr>
+<td> </td>
+<td><code>0005</code>: <code>JMP BC06</code> (EKDOSi aadress)</td>
+</tr>
+<tr>
+<td> </td>
+<td><code>005C</code>: Faili juhtblokk (FJB) #1</td>
+</tr>
+<tr>
+<td> </td>
+<td><code>006C</code>: FJB #2</td>
+</tr>
+<tr>
+<td> </td>
+<td><code>0080</code>: 128B otsemällupöörduse (OMP) puhver</td>
+</tr>
+<tr>
+<td><code>0100</code></td>
+<td>Tarbijaprogrammide tsoon (TT)</td>
+</tr>
+<tr>
+<td><code>B400</code></td>
+<td>Käsuprotsessor (KP)</td>
+</tr>
+<tr>
+<td> </td>
+<td><code>BC06</code>: EKDOSi elik CP/Mi funktsioonid</td>
+</tr>
+<tr>
+<td> </td>
+<td><code>CA03</code>: KP viiba käivitamise aadress</td>
+</tr>
+<tr>
+<td><code>D400</code></td>
+<td>Süsteemiparameetrite tsoon (ST) #2</td>
+</tr>
+<tr>
+<td><code>D800</code></td>
+<td>Videomälu, mälurežiimides 1-2 püsimälu lugemine</td>
+</tr>
+<tr>
+<td><code>FD80</code></td>
+<td>Süsteemiparameetrite tsoon (ST) #3</td>
+</tr>
+<tr>
+<td> </td>
+<td><code>FF26</code>: Võrgufunktsioonid</td>
+</tr>
+<tr>
+<td> </td>
+<td><code>FF46</code>: Süsteemiväljad</td>
+</tr>
+<tr>
+<td> </td>
+<td><code>FF68</code>: BIOSi põhifunktsioonid</td>
+</tr>
+</tbody>
+</table>
+<p>Tarbijatsoonis asuvad kasutajaprogrammid, mis on andmekandjalt mäl­lu laaditud. Näiteks teksti redigeerimise ajal sisaldab TT tekstitoimetit ja toimetatavat teksti ennast. Mälujaotus võib detailildes erineda sõltuvalt opsüsteemi tüübist ja versioonist, nt lindiopsüsteemi püsivara ehk BLOSi puhul lõpeb TT aadressil <code>BEFF</code>, <code>BFC0</code>-<code>C7BF</code> asetseb täiendav 2KB OMP puhver, <code>D200</code>-<code>D5FF</code> paikneb lindifailide kataloog ja ST #2 algab <code>D600</code>.<sup id="fnref2:1"><a class="footnote-ref" href="#fn:1">1</a></sup><sup id="fnref2:2"><a class="footnote-ref" href="#fn:2">2</a></sup></p>
+</blockquote>
+<h2 id="kasulikke-juhtklahve">Kasulikke juhtklahve<a class="headerlink" href="#kasulikke-juhtklahve" title="Permanent link">&para;</a></h2>
+<p>Käsureaga opereerimisel saab kasutada järgmisi juhtkoode (klahv <code>CTRL</code> ja samaaegselt klahvid):</p>
+<p><code>CTRL</code>+<code>S</code> — kuva ajutine peatamine<br />
+<code>CTRL</code>+<code>C</code> — programmi töö katkestamine<br />
+<code>CTRL</code>+<code>ESC</code> — programmi töö katkestamine, juhtimine üle aktiivsele viibale<br />
+<code>CTRL</code>+<code>SHIFT</code>+<code>ESC</code> — programmi töö katkestamine, juhtimine üle monitorile<br />
+<code>CTRL</code>+<code>Z</code> — sisendi lõpp (<code>PIP</code> ja <code>ED</code>)<br />
+<code>CTRL</code>+<code>X</code> — rea kustutus ja kursor rea algusesse<br />
+<code>CTRL</code>+<code>H</code> — (= tagasinool) kursori tagasilüke, märgi kustutusega<br />
+<code>CTRL</code>+<code>J</code> — (= reavahetus) lõpetab sisestuse<br />
+<code>CTRL</code>+<code>M</code> — (= tagastus) lõpetab sisestuse<br />
+<code>RETURN</code> — tagastusklahv lõpetab sisestuse  </p>
+<p>Opsüsteemi vaikimisi käitumist saab lülitada paojadade abil (klahv <code>ESC</code>, seejärel klahvid ja <code>RETURN</code>):</p>
+<p><code>ESC</code> <code>M</code> <code>0</code> — 40x24 kuvalaotus<br />
+<code>ESC</code> <code>M</code> <code>1</code> — 53x24 kuvalaotus<br />
+<code>ESC</code> <code>M</code> <code>2</code> — 64x20 kuvalaotus (võimalik on ka 80x24 laotus<sup id="fnref:5"><a class="footnote-ref" href="#fn:5">5</a></sup>)<br />
+<code>ESC</code> <code>0</code> — klahvivajutuse helisignaali keelamine<br />
+<code>ESC</code> <code>1</code> — klahvivajutuse helisignaali lubamine<br />
+<code>ESC</code> <code>2</code> — ekraani kerimise keelamine<br />
+<code>ESC</code> <code>3</code> — ekraani kerimise lubamine<br />
+<code>ESC</code> <code>4</code> — kursori peitmine<br />
+<code>ESC</code> <code>5</code> — kursori näitamine<br />
+<code>ESC</code> <code>:</code> — ekraani sujuva kerimise režiim<br />
+<code>ESC</code> <code>;</code> — ekraani hüppelise kerimise režiim  </p>
+<p>Ekraanil oleva saab kustutada ja liikuda tagasi algusse paojadaga <code>ESC</code> <code>L</code> või juhtkoodiga <code>SHIFT</code>+<code>ERASE</code>.</p>
+<p><em>Ülalolev on peamiselt lühendatud ja üldistatud versioon esimeses viites toodud lindiopsüsteemi juhendist, kuhu on lisatud kettaopsüsteemi puutuvad osad, aga kust pole eemaldatud kõiki lindiopsüsteemi omi. Kohandatud juhend püüab võimaluste piires järgida algse juhendi stiili ja terminoloogiat.</em></p>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p><a href="https://elektroonikamuuseum.ee/failid/juku/Mikroarvuti_JUKU_kasutamisjuhend_1988.pdf">Mikroarvuti «JUKU» kasutamisjuhend</a> (1988), opsüsteemi üldkirjeldus lk 20jj, mälujaotus lk 31jj hälbib EKDOSi omast, aga on informatiivne, sellest ja opsüsteemi käsklustest täpsemalt lk 46jj&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://elektroonikafoorum.com/thread-690-post-4165.html#pid4165">Интеллектуальный терминал для систем реального времени E5104</a> (1988), ajakohaseim mälutabel 1. raamatus lk 25&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p><a href="../ekta_juku.pdf">Mikroarvuti JUKU</a> (1987), tarkvara kirjeldus lk 13jj&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+<li id="fn:4">
+<p><a href="https://infoaed.ee/juku/layout.html">JUKU E5104 klahvistik MAME emulaatoris</a> (2024)&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+</li>
+<li id="fn:5">
+<p><a href="https://github.com/infoaed/juku3000/blob/master/docs/ekdos230.txt#L91-L112">JUKU PC UTILITIES DISK #4</a> (1989), 80x24 ekraanirežiimi kohta märkus 1&#160;<a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 5 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.sections", "header.autohide", "content.code.copy", "content.footnote.tooltips"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Kopeeritud", "clipboard.copy": "Kopeeri l\u00f5ikelauale", "search.result.more.one": "1 veel sellel lehel", "search.result.more.other": "# veel sellel lehel", "search.result.none": "Otsingule ei leitud \u00fchtegi vastet", "search.result.one": "Leiti \u00fcks tulemus", "search.result.other": "Leiti # tulemust", "search.result.placeholder": "Otsimiseks kirjuta siia", "search.result.term.missing": "Puudub", "select.version": "Vali versioon"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
