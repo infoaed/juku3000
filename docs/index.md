@@ -33,6 +33,7 @@ Asjassepuutuvaid ettevõtmisi:
 * [Unistused ja tegelikkus. 90ndate lapsepõlv](https://web.archive.org/web/20180204224850/https://www.mm.ee/naitused/naitus-unistused-ja-tegelikkus-90ndate-lapsepolv) (Tartu Mänguasjamuuseumi näitus)
 * [Mängime?! Arvutimängud Prantsusmaalt ja Saksamaalt](https://web.archive.org/web/20170825094230/https://kumu.ekm.ee/arhiiv/naitused-2013/mangime-arvutimangud-prantsusmaalt-ja-saksamaalt/) (Kumu arvutimängude näitus)
 * [RAM. Eesti varane arvutikunst](https://kumu.ekm.ee/syndmus/ram-eesti-varane-arvutikunst/) (Kumu arvutigraafika näitus)
+* [Näiteid Eesti varasest arvutikunstist](https://bluecat.ee/2013/06/naiteid-eesti-varasest-arvutikunstist/) (Tuuli Lepik/Bluecat)
 * [Eestikeelete mängude Discord](https://discord.gg/nQvCGeNPhr) (Pait Gaming jt)
 * [Kassettilamerit](https://kasettilamerit.fi/en/about/) (Soome unarvara taastajate sait)
 * [Kallion tietokonemuseo](https://www.kalliontietokonemuseo.fi/en/) (Arvutimuuseum Helsingis)
