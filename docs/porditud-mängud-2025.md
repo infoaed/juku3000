@@ -15,7 +15,6 @@ porditakse. Selle aasta  mängude ketas
 on pühendatud unarvara rohkem ja vähem
 tuntud koopiatele ja uusversioonidele.
 
-
 ``ARKANOID.COM`` - Arkanoid 1.0 (Brick '90/'25)  
 ``BINLAND .COM`` - Binary Land (Hudson '83/'24)  
 ``BOMB    .COM`` - Bomber Man (Hudson '83/'24)  
@@ -57,6 +56,7 @@ Ketta saab alla laadida [siit](https://elektroonikamuuseum.ee/failid/juku/tarkva
 
 ## Vaata ka
 
+* [JUKU mängude ketas 2025 on pühendatud porditud mängudele](https://gafgaf.infoaed.ee/posts/m%C3%A4ngude-ketas-2025/)
 * [Ketas veebiemulaatoris](https://infoaed.ee/juku/) (2025 lõpu seisuga)
 * [Ketta failide täisnimekiri](tarkvara-kataloog.md#j3kgame2)
 * [Lühijuhend EKDOSis orienteerumiseks](juku-käsud.md)
