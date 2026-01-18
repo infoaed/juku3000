@@ -176,9 +176,8 @@ Juku 3000 mängude ketas 2024, millega tähistati 23. detsembril 2024
 kooliarvuti toe MAME emulaatorisse jõudmist (alates versioonist 0.272).
 Kettal on valik mänge, mida on kasutatud emulaatori testimiseks
 või mis on lihtsalt emulaatori arendamise lõbusamaks teinud, sj mõned
-mängudest on teistel JUKU ketastel tervikuna avaldamata. Ketast kasutab
-veebiemulaator https://infoaed.ee/juku/ ja selle saab alla laadida
-https://elektroonikamuuseum.ee/failid/juku/tarkvara/J3KGAME1.JUK.
+mängudest on teistel JUKU ketastel tervikuna avaldamata. Ketta saab alla
+laadida https://elektroonikamuuseum.ee/failid/juku/tarkvara/J3KGAME1.JUK.
 
 SIZE: `800K` (`819200`) / SHA1: `4c864901be28e2d075ad9c73040003ce2a1ca069`
 
@@ -2544,7 +2543,7 @@ SIZE: `800K` (`819200`) / SHA1: `8338f674672f38fa9128377f850186c429025835`
 ``MONALISA.      5,0K``      
 ``MOTA    .PIC   1,2K``      
 ``MOTO    .PIC   1,4K``      
-``MTEST   .COM   8,4K``      
+``MTEST   .COM   8,4K``    Mälutest 2.1 (K.Tomingas/VSW '91)  
 ``MTLLC   .PIC    256``      
 ``MTV     .PIC    768``      
 ``MUSAM   .COM   3,7K``    Klaver "Musa Master" (EKTA '89)  
@@ -2574,7 +2573,7 @@ SIZE: `800K` (`819200`) / SHA1: `8338f674672f38fa9128377f850186c429025835`
 ``SPACE   .PIC   3,0K``      
 ``SPRITES .PIC   2,2K``      
 ``SS      .PIC    384``      
-``TEST    .COM   5,2K``      
+``TEST    .COM   5,2K``    Mälutest 20 arvuga (K.Tomingas '91)  
 ``T       .PCC   1,0K``      
 ``TX      .PCC   1,0K``      
 ``VALGRE  .PLR    256``      

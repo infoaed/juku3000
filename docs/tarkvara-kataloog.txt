@@ -176,9 +176,8 @@ Juku 3000 mängude ketas 2024, millega tähistati 23. detsembril 2024
 kooliarvuti toe MAME emulaatorisse jõudmist (alates versioonist 0.272).
 Kettal on valik mänge, mida on kasutatud emulaatori testimiseks
 või mis on lihtsalt emulaatori arendamise lõbusamaks teinud, sj mõned
-mängudest on teistel JUKU ketastel tervikuna avaldamata. Ketast kasutab
-veebiemulaator https://infoaed.ee/juku/ ja selle saab alla laadida
-https://elektroonikamuuseum.ee/failid/juku/tarkvara/J3KGAME1.JUK.
+mängudest on teistel JUKU ketastel tervikuna avaldamata. Ketta saab alla
+laadida https://elektroonikamuuseum.ee/failid/juku/tarkvara/J3KGAME1.JUK.
 
 SIZE: 800K (819200) / SHA1: 4c864901be28e2d075ad9c73040003ce2a1ca069
 
@@ -2544,7 +2543,7 @@ da39a3ee5e6b4b0d3255bfef95601890afd80709  MODX    .PRN       0
 52601fdb77ab46d0e3f458a4643ba5a122df1307  MONALISA.       5,0K  
 e12b30fcc9bdd50b37a552934c2d2f3aa01c4438  MOTA    .PIC    1,2K  
 d0ac035072333bb5feae3ebf4e465c43e70f1acc  MOTO    .PIC    1,4K  
-6a8fa892d6b6bacada17e0232305ed7bfb2bc211  MTEST   .COM    8,4K  
+6a8fa892d6b6bacada17e0232305ed7bfb2bc211  MTEST   .COM    8,4K  Mälutest 2.1 (K.Tomingas/VSW '91)
 aa5e6dbf6290bb66614166d220900abe9a2ae101  MTLLC   .PIC     256  
 099d50b8bc27ca11cbff2a4da0a313a0a09d3b21  MTV     .PIC     768  
 7320a917113cc5b8601aaf765895cd7d670f369f  MUSAM   .COM    3,7K  Klaver "Musa Master" (EKTA '89)
@@ -2574,7 +2573,7 @@ a489a82d3fa4275325ff08cf4fe690f342964263  SPACE   .COM     17K  "Space Attack" (
 b21c225b638e1313ae55907f0ce18a8ce2844d70  SPACE   .PIC    3,0K  
 b96775037372df2ef658910c8e06f8be580f0ba7  SPRITES .PIC    2,2K  
 8063eee77cf7fc43da4b51933ee0dbf579fae59a  SS      .PIC     384  
-ba8a62fb004d07296a620b391f9691e5e10aef1a  TEST    .COM    5,2K  
+ba8a62fb004d07296a620b391f9691e5e10aef1a  TEST    .COM    5,2K  Mälutest 20 arvuga (K.Tomingas '91)
 4a64d8a12b25f1016bbe879a9815ca6e37c05d8a  T       .PCC    1,0K  
 45ff018b65df87f11a42ed39dc90ff866c691d77  TX      .PCC    1,0K  
 07912317bd23a817236e45ffbeb4361afd354488  VALGRE  .PLR     256  
