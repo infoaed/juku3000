@@ -22,6 +22,10 @@ Siiski võib olla jõudluse mõttes tark piirduda parameetriga `-snapsize auto`,
 ffmpeg -i mame_originaal.avi -vf scale=960:720 -sws_flags neighbor eksponeeritav_video.mp4
 ```
 
-FFMPEG parameetritest `-sws_flags neighbor` keelab skaleerimisel udustavate filtrite kasutamise samamoodi nagu MAME võti `-nosnapbilinear`. Sõltuvalt video kasutamise otstarbest võib olla vaja lisada muid parameetreid, nt Twitter/X tahab, et videod oleks kindlas värvirežiimis `-pix_fmt yuv420p`.
+FFMPEG parameetritest `-sws_flags neighbor` keelab skaleerimisel udustavate filtrite kasutamise samamoodi nagu MAME võti `-nosnapbilinear`. Sõltuvalt video kasutamise otstarbest võib olla vaja lisada muid parameetreid, nt Twitter/X tahab, et videod oleks kindlas värvirežiimis `-pix_fmt yuv420p`. Saab lasta ka FFMPEGil külgede korrutamise ka ise teha, vahelduseks nt käsurida kuvatõmmiste skaleerimiseks:
+
+```
+ffmpeg -i mame_kuvatõmmis.png -vf scale=iw*4:ih*4 -sws_flags neighbor -update 1 eksponeeritav_pilt.png
+```
 
 Ilmselt on enamikus tõsistest tööriistadest sarnased valikud olemas, kuid MAME enda vahendite kasutamine on kõige kindlam -- eriti head jõudlust vajavatel juhtudel saab kasutada ka [`record` ja `playback` vahendeid](https://docs.mamedev.org/commandline/commandline-all.html#core-state-playback-options).
