@@ -232,7 +232,7 @@ SIZE: `800K` (`819200`) / SHA1: `4c864901be28e2d075ad9c73040003ce2a1ca069`
 ``SNAKE   .COM    12K``    "Ussike"\* (M.Gladin/EKTA '87)  
 ``SNAKE   .DAT   1,0K``      
 ``SPACE   .COM    17K``    "Space Attack" (Vakstu/VSW '90)  
-``ZOO     .COM    25K``    "Lode Runner" loomaaias\* (Vakstu '91)  
+``ZOO     .COM    25K``    "Lode Runner" loomaaias\* (KATKI!)  
 ``ZOO     .TXT    426``    ZOO saatesõna (ed J3K/EMU '24)  
 ``TANK    .COM    15K``    Tank UFOde vastu (=Sabotage/Invaders)  
 ``TET     .COM    17K``    Hiirega "Tetris" (A.Mett '90 H)  
@@ -429,7 +429,7 @@ SIZE: `800K` (`819200`) / SHA1: `efd6e83669777966d523d323ea61e0352eea88ff`
 ``SHOT    .COM   2,3K``    "Shot Master 2000" v1.1 (I.Käär '91)  
 ``SNAKE   .COM    12K``    "Ussike" (M.Gladin/EKTA '87)  
 ``SNAKE   .DAT   1,0K``      
-``ZOO     .COM    25K``    "Lode Runner" loomaaias (Vakstu '91)  
+``ZOO     .COM    25K``    "Lode Runner" loomaaias (KATKI!)  
 ``TANK    .COM    15K``    Tank UFOde vastu (=Sabotage/Invaders)  
 ``TET     .COM    17K``    Hiirega "Tetris" (A.Mett '90 H)  
 ``TETRIS1 .COM   1,9K``    Graafiline "Tetris" (T.Ainsaar '90)  
@@ -830,7 +830,7 @@ SIZE: `800K` (`819200`) / SHA1: `e4223e2bba25dc4b2b3ba4de6a4f63b156566b8a`
 ``PIP     .COM   7,3K``    Failide kopeerija (CP/M)  
 ``POWER   .COM    16K``    Kettahaldur 3.03 (P.Breder '82)  
 ``SHOT    .COM   2,3K``    "Shot Master 2000" v1.1 (I.Käär '91)  
-``ZOO     .       25K``    "Lode Runner" loomaaias (Vakstu '91)  
+``ZOO     .       25K``    "Lode Runner" loomaaias (KATKI!)  
 ``ZOO     .COM    25K``      
 ``TANK    .       15K``    Tank UFOde vastu (=Sabotage/Invaders)  
 ``TANK    .COM    15K``      
@@ -1061,7 +1061,7 @@ SIZE: `800K` (`819200`) / SHA1: `1bab084d9d7869327319fbc9cc3de245df9eab32`
 ``PIP     .COM   7,3K``    Failide kopeerija (CP/M)  
 ``POWER   .COM    16K``    Kettahaldur 3.03 (P.Breder '82)  
 ``SNAKE   .COM    12K``    "Ussike" (M.Gladin/EKTA '87)  
-``ZOO     .COM    25K``    "Lode Runner" loomaaias (Vakstu '91)  
+``ZOO     .COM    25K``    "Lode Runner" loomaaias (KATKI!)  
 ``TANK    .COM    15K``    Tank UFOde vastu (=Sabotage/Invaders)  
 ``TET     .COM    17K``      
 ``TETRIS  .COM    23K``    "Tetris" 1.1 (A.Mett '90)  
@@ -1296,7 +1296,7 @@ SIZE: `800K` (`819200`) / SHA1: `e8e34c5ea5f643fae3045026f265cda57238e077`
 ``PALK    .      2,3K``      
 ``PULL    .PIC   1,7K``      
 ``SSSSSSSE.PIC    128``      
-``ZOO     .COM    25K``    "Lode Runner" loomaaias (Vakstu '91)  
+``ZOO     .COM    25K``    "Lode Runner" loomaaias (KATKI!)  
 ``TANK    .COM    15K``    Tank UFOde vastu (=Sabotage/Invaders)  
 ``TET     .COM    17K``    Hiirega "Tetris" (A.Mett '90 H)  
 ``TETRIS  .COM    23K``    "Tetris" 1.1 (A.Mett '90)  
@@ -1402,7 +1402,7 @@ SIZE: `800K` (`819200`) / SHA1: `9612a6d94a2587848cafc342bc1706e83c9e0ed3`
 ``SNAKE   .COM    12K``    "Ussike" (M.Gladin/EKTA '87)  
 ``SNAKE   .DAT   1,0K``      
 ``STIIL   .BAS    512``      
-``ZOO     .COM    25K``      
+``ZOO     .COM    25K``    "Lode Runner" loomaaias (VAKSTU '91)  
 ``WS      .COM    16K``    MicroPro WordStar 3.0 (64x20)  
 ``WSMSGS  .OVR    28K``      
 ``WSOVLY1 .OVR    34K``      
@@ -1701,7 +1701,7 @@ SIZE: `800K` (`819200`) / SHA1: `c695e5833d7aa7dd2bb161b6948819c027dac0b8`
 ``MODX    .COM   3,5K``    80x24 kuvalaotuse draiver  
 ``POWER   .COM    16K``    Kettahaldur 3.03 (P.Breder '82)  
 ``SARVIK  .PIC   2,9K``      
-``ZOO     .COM    25K``    "Lode Runner" loomaaias (Vakstu '91)  
+``ZOO     .COM    25K``    "Lode Runner" loomaaias (KATKI!)  
 ``TANK    .COM    15K``    Tank UFOde vastu (=Sabotage/Invaders)  
 ``TET     .COM    17K``      
 ``TETRIS  .COM    23K``    "Tetris" 1.1 (A.Mett '90)  
@@ -2154,7 +2154,7 @@ SIZE: `800K` (`819200`) / SHA1: `17eefcd63de191d00059516aacfc16d9abf56400`
 ### E5
 
 ``MOIS    .COM   6,8K``    Mõisavalitseja kasutegur (=Sumerian)  
-``ZOO     .COM    25K``      
+``ZOO     .COM    25K``    "Lode Runner" loomaaias (VAKSTU '91)  
 
 ## VAKSTU01
 

@@ -232,7 +232,7 @@ a6382e454963b3e7e679ee55db42a2773147d110  SHOT    .DAT    9,0K
 7920430747b1f10ea24a280d301f82a048bd2627  SNAKE   .COM     12K  "Ussike"* (M.Gladin/EKTA '87)
 21afeafd4d7356b07f1b88873727ee84644b5782  SNAKE   .DAT    1,0K  
 a489a82d3fa4275325ff08cf4fe690f342964263  SPACE   .COM     17K  "Space Attack" (Vakstu/VSW '90)
-975bb6c74cf7ebc74d7cbb762139d702033f8d51  ZOO     .COM     25K  "Lode Runner" loomaaias* (Vakstu '91)
+975bb6c74cf7ebc74d7cbb762139d702033f8d51  ZOO     .COM     25K  "Lode Runner" loomaaias* (KATKI!)
 05a6003389cad85a162834aa971f40ca4360da0c  ZOO     .TXT     426  ZOO saatesõna (ed J3K/EMU '24)
 d31ad7cb404ab371d4b3e8dbe4bdf255dab42ff9  TANK    .COM     15K  Tank UFOde vastu (=Sabotage/Invaders)
 7cc09746e4127fa848e2c933d07c9e24fcc03395  TET     .COM     17K  Hiirega "Tetris" (A.Mett '90 H)
@@ -429,7 +429,7 @@ e0b5c4e59b6b4223258717836fb723bd75dd9e6d  MODX    .COM    3,5K  80x24 kuvalaotus
 5afc6e9619f9b5fab038b779b6e8e140da440744  SHOT    .COM    2,3K  "Shot Master 2000" v1.1 (I.Käär '91)
 4ae08460a1ba7571a8645395770719541e73a217  SNAKE   .COM     12K  "Ussike" (M.Gladin/EKTA '87)
 42af545f18af15b4d2871f50b301f1a080f256b5  SNAKE   .DAT    1,0K  
-5834d93947cb74790ad7ad9a3d8e62221b1897e0  ZOO     .COM     25K  "Lode Runner" loomaaias (Vakstu '91)
+5834d93947cb74790ad7ad9a3d8e62221b1897e0  ZOO     .COM     25K  "Lode Runner" loomaaias (KATKI!)
 d31ad7cb404ab371d4b3e8dbe4bdf255dab42ff9  TANK    .COM     15K  Tank UFOde vastu (=Sabotage/Invaders)
 7cc09746e4127fa848e2c933d07c9e24fcc03395  TET     .COM     17K  Hiirega "Tetris" (A.Mett '90 H)
 f400c064f077255468c26268078852380509448d  TETRIS1 .COM    1,9K  Graafiline "Tetris" (T.Ainsaar '90)
@@ -830,7 +830,7 @@ e0b5c4e59b6b4223258717836fb723bd75dd9e6d  MODX    .COM    3,5K  80x24 kuvalaotus
 394d9b67fe587b1c587cbe79042db54a236eb7d3  PIP     .COM    7,3K  Failide kopeerija (CP/M)
 10af96f444d9dc9cfa979712cec611fb5b0b9d70  POWER   .COM     16K  Kettahaldur 3.03 (P.Breder '82)
 5afc6e9619f9b5fab038b779b6e8e140da440744  SHOT    .COM    2,3K  "Shot Master 2000" v1.1 (I.Käär '91)
-5834d93947cb74790ad7ad9a3d8e62221b1897e0  ZOO     .        25K  "Lode Runner" loomaaias (Vakstu '91)
+5834d93947cb74790ad7ad9a3d8e62221b1897e0  ZOO     .        25K  "Lode Runner" loomaaias (KATKI!)
 0bcc33ba534b872e6f377cee984c3ad89cd841e9  ZOO     .COM     25K  
 d31ad7cb404ab371d4b3e8dbe4bdf255dab42ff9  TANK    .        15K  Tank UFOde vastu (=Sabotage/Invaders)
 6c3388d10c64629a7790d4e3f25bc4c5e5ddacf7  TANK    .COM     15K  
@@ -1061,7 +1061,7 @@ da39a3ee5e6b4b0d3255bfef95601890afd80709  MP      .$$$       0
 394d9b67fe587b1c587cbe79042db54a236eb7d3  PIP     .COM    7,3K  Failide kopeerija (CP/M)
 10af96f444d9dc9cfa979712cec611fb5b0b9d70  POWER   .COM     16K  Kettahaldur 3.03 (P.Breder '82)
 4ae08460a1ba7571a8645395770719541e73a217  SNAKE   .COM     12K  "Ussike" (M.Gladin/EKTA '87)
-5834d93947cb74790ad7ad9a3d8e62221b1897e0  ZOO     .COM     25K  "Lode Runner" loomaaias (Vakstu '91)
+5834d93947cb74790ad7ad9a3d8e62221b1897e0  ZOO     .COM     25K  "Lode Runner" loomaaias (KATKI!)
 d31ad7cb404ab371d4b3e8dbe4bdf255dab42ff9  TANK    .COM     15K  Tank UFOde vastu (=Sabotage/Invaders)
 9864104bc95314b2da260121f64e04e3dac99bc9  TET     .COM     17K  
 a39eb160202e8284f557d3a186142244026920df  TETRIS  .COM     23K  "Tetris" 1.1 (A.Mett '90)
@@ -1296,7 +1296,7 @@ b675fb163bb084071d083b5e9b2c2d8d3645e209  MP80    .       6,3K
 bbc240b0fbb75a2c7f3b0e9e1314904a65fe4611  PALK    .       2,3K  
 1d5354d71298b24cbc0f44668f94131fce3679c3  PULL    .PIC    1,7K  
 4a93e9c2de4a25ed1d392069adfac559aaaa3ee3  SSSSSSSE.PIC     128  
-5834d93947cb74790ad7ad9a3d8e62221b1897e0  ZOO     .COM     25K  "Lode Runner" loomaaias (Vakstu '91)
+5834d93947cb74790ad7ad9a3d8e62221b1897e0  ZOO     .COM     25K  "Lode Runner" loomaaias (KATKI!)
 d31ad7cb404ab371d4b3e8dbe4bdf255dab42ff9  TANK    .COM     15K  Tank UFOde vastu (=Sabotage/Invaders)
 7cc09746e4127fa848e2c933d07c9e24fcc03395  TET     .COM     17K  Hiirega "Tetris" (A.Mett '90 H)
 a39eb160202e8284f557d3a186142244026920df  TETRIS  .COM     23K  "Tetris" 1.1 (A.Mett '90)
@@ -1402,7 +1402,7 @@ bc0b7315183126f1b5fec38d1a99670e6c5956fb  PACIUS  .PLR     256
 4ae08460a1ba7571a8645395770719541e73a217  SNAKE   .COM     12K  "Ussike" (M.Gladin/EKTA '87)
 8a3893b1c382bda8d04e26aa52eab2aaade16393  SNAKE   .DAT    1,0K  
 180f5a3b8b22ffb209eea0619cf8be98c835f04d  STIIL   .BAS     512  
-89e1b3d41232b1d249b74eeadfc008e3b7099c77  ZOO     .COM     25K  
+89e1b3d41232b1d249b74eeadfc008e3b7099c77  ZOO     .COM     25K  "Lode Runner" loomaaias (VAKSTU '91)
 683a11dc9e19e84a83a317d8f0be0437e8e5ebb0  WS      .COM     16K  MicroPro WordStar 3.0 (64x20)
 2be664be18f19939c0e5b9c5892d3942d62c064e  WSMSGS  .OVR     28K  
 28382c4b26d03ce15e56c12e79061e3123268f53  WSOVLY1 .OVR     34K  
@@ -1701,7 +1701,7 @@ eb2e72ee36d00f3c4c88942c9b46ee91dcc560ca  HAIGLA  .DBF     17K
 e0b5c4e59b6b4223258717836fb723bd75dd9e6d  MODX    .COM    3,5K  80x24 kuvalaotuse draiver
 10af96f444d9dc9cfa979712cec611fb5b0b9d70  POWER   .COM     16K  Kettahaldur 3.03 (P.Breder '82)
 50566113318ab0525f2018f85ab39e72524b740e  SARVIK  .PIC    2,9K  
-5834d93947cb74790ad7ad9a3d8e62221b1897e0  ZOO     .COM     25K  "Lode Runner" loomaaias (Vakstu '91)
+5834d93947cb74790ad7ad9a3d8e62221b1897e0  ZOO     .COM     25K  "Lode Runner" loomaaias (KATKI!)
 d31ad7cb404ab371d4b3e8dbe4bdf255dab42ff9  TANK    .COM     15K  Tank UFOde vastu (=Sabotage/Invaders)
 40c4a9e0ac6b314baaf970650ecf47dd502907ec  TET     .COM     17K  
 a39eb160202e8284f557d3a186142244026920df  TETRIS  .COM     23K  "Tetris" 1.1 (A.Mett '90)
@@ -2154,7 +2154,7 @@ da39a3ee5e6b4b0d3255bfef95601890afd80709  WARCRAFT.COM       0
 ### E5
 
 360467e44c66e5d1b1c26021970724f1e6b8bc62  MOIS    .COM    6,8K  Mõisavalitseja kasutegur (=Sumerian)
-89e1b3d41232b1d249b74eeadfc008e3b7099c77  ZOO     .COM     25K  
+89e1b3d41232b1d249b74eeadfc008e3b7099c77  ZOO     .COM     25K  "Lode Runner" loomaaias (VAKSTU '91)
 
 ## VAKSTU01
 
