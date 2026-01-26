@@ -2250,8 +2250,8 @@ SIZE: `800K` (`819200`) / SHA1: `b7efca324ddffc6c31476adff2228e3b5e2e792e`
 ``SPRITE  .ASM    128``      
 ``SPRITE  .COM    256``      
 ``SSBAS   .COM   7,5K``      
-``ZOO     .PLT    22K``      
-``ZOO     .TAB   4,3K``      
+``ZOO     .PLT    22K``    ZOO peanemüü taustapilt  
+``ZOO     .TAB   4,3K``    VAKSTU disain ja M-K levelid  
 ``TRAPS   .COM   2,5K``      
 ``TRIPS   .COM    16K``      
 ``TYPER   .ASM   1,4K``      
