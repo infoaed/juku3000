@@ -1,7 +1,7 @@
 ﻿# Ketastelt taastatud JUKU tarkvara üldnimekiri
 
 Kataloog väljendab ketastelt, lintidelt ja mälukividelt taastatud
-JUKU E5101-E5104 tarkvara jaanuari 2026 seisuga. Materjale lisandub
+JUKU E5101-E5104 tarkvara märtsi 2026 seisuga. Materjale lisandub
 ning kirjeldused võivad teadmiste täienedes muutuda. Nimekirja
 autoriteetne kontrollsummadega versioon on:
 
@@ -16,6 +16,31 @@ Kasutajasektsioonid on nummerdatud alates esimesest, kustutatud failid
 on sektsioonis `E5`. Osaliselt taastatud ketaste puhul märgib 0/0
 vigaste sektorite hulka ketta kummalgi poolel, nt 0/32 märgib 32 vigast
 sektorit ketta teisel poolel.
+
+## CASTOOLS
+
+Tartu Ülikooli arvutimuuseumile annetatud flopi helikassetilt käivitatava
+manuaalselt ja automaatselt juhitava lindiopsüsteemi (LOS) ning tööriistadega,
+vt täpsemalt https://github.com/UT-Arvutimuuseum/juku-kassett. Kettal on
+EKDOS 2.29 versioon, mis erineb veidi Baltijetsi `EMUSYS` 1-3 seeriast.
+
+SIZE: `800K` (`819200`) / SHA1: `8dbd941ee6241ab40ff012a8ecd83328cf24d9b9`
+
+``ATOS    .SYS   5,0K``    Juhitav LOS ehk ATOS 7.0 (EKTA '88)  
+``CF      .COM   1,0K``    Failide kopeerimine 1.0 (EKTA '89)  
+``CF      .HLP   1,5K``    CF lühijuhend  
+``COPA    .COM   6,0K``    COPY 3.0 for ATOS  
+``COPM    .COM   4,8K``    COPY 2.0 for MTOS  
+``EDIT    .COM   9,0K``    LOS EDIT 2.1 (EKTA   
+``FORM    .COM   5,9K``    FORMAT 3.0 for ATOS  
+``GENA    .COM   3,4K``    LSYSGEN 2.0 for ATOS  
+``GENM    .COM   2,8K``    LSYSGEN 2.0 for MTOS  
+``KOLL    .COM    18K``    Lintide kopeeriine 1.0 (EKTA '89)  
+``KOLL    .HLP   7,5K``    Lintide/flopide kopeerimise juhend  
+``MAKK    .HLP    10K``    Lindiopsüsteemi tööriistade juhend  
+``MTOS    .SYS   3,5K``    Manuaalne LOS ehk MTOS 2.0 (EKTA '88)  
+``SETS    .COM   1,4K``    Set file(s) status (SETS \*.* $r/o)  
+``TCOPY   .COM   2,7K``    Lindilt lindile kopeerimine  
 
 ## EMUSYS1
 
@@ -2250,7 +2275,7 @@ SIZE: `800K` (`819200`) / SHA1: `b7efca324ddffc6c31476adff2228e3b5e2e792e`
 ``SPRITE  .ASM    128``      
 ``SPRITE  .COM    256``      
 ``SSBAS   .COM   7,5K``      
-``ZOO     .PLT    22K``    ZOO peanemüü taustapilt  
+``ZOO     .PLT    22K``    ZOO peamenüü taustapilt  
 ``ZOO     .TAB   4,3K``    VAKSTU disain ja M-K levelid  
 ``TRAPS   .COM   2,5K``      
 ``TRIPS   .COM    16K``      
