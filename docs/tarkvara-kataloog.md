@@ -31,7 +31,7 @@ SIZE: `800K` (`819200`) / SHA1: `8dbd941ee6241ab40ff012a8ecd83328cf24d9b9`
 ``CF      .HLP   1,5K``    CF lühijuhend  
 ``COPA    .COM   6,0K``    COPY 3.0 for ATOS  
 ``COPM    .COM   4,8K``    COPY 2.0 for MTOS  
-``EDIT    .COM   9,0K``    LOS EDIT 2.1 (EKTA   
+``EDIT    .COM   9,0K``    LOS EDIT 2.1 (EKTA '88?)  
 ``FORM    .COM   5,9K``    FORMAT 3.0 for ATOS  
 ``GENA    .COM   3,4K``    LSYSGEN 2.0 for ATOS  
 ``GENM    .COM   2,8K``    LSYSGEN 2.0 for MTOS  
