@@ -20,9 +20,9 @@ sektorit ketta teisel poolel.
 ## CASTOOLS
 
 Tartu Ülikooli arvutimuuseumile annetatud flopi helikassetilt käivitatava
-manuaalselt ja automaatselt juhitava lindiopsüsteemi (LOS) ning tööriistadega,
-vt täpsemalt https://github.com/UT-Arvutimuuseum/juku-kassett. Kettal on
-EKDOS 2.29 versioon, mis erineb veidi Baltijetsi `EMUSYS` 1-3 seeriast.
+manuaalselt/automaatselt juhitava lindiopsüsteemi (MTOS/ATOS, LOS) ning
+tööriistadega, vt täpsemalt https://github.com/UT-Arvutimuuseum/juku-kassett.
+Kettal on EKDOS 2.29 versioon, mis erineb Baltijetsi `EMUSYS` 1-3 seeriast.
 
 SIZE: `800K` (`819200`) / SHA1: `8dbd941ee6241ab40ff012a8ecd83328cf24d9b9`
 
@@ -35,7 +35,7 @@ SIZE: `800K` (`819200`) / SHA1: `8dbd941ee6241ab40ff012a8ecd83328cf24d9b9`
 ``FORM    .COM   5,9K``    FORMAT 3.0 for ATOS  
 ``GENA    .COM   3,4K``    LSYSGEN 2.0 for ATOS  
 ``GENM    .COM   2,8K``    LSYSGEN 2.0 for MTOS  
-``KOLL    .COM    18K``    Lintide kopeeriine 1.0 (EKTA '89)  
+``KOLL    .COM    18K``    Lintide kopeerimine 1.0 (EKTA '89)  
 ``KOLL    .HLP   7,5K``    Lintide/flopide kopeerimise juhend  
 ``MAKK    .HLP    10K``    Lindiopsüsteemi tööriistade juhend  
 ``MTOS    .SYS   3,5K``    Manuaalne LOS ehk MTOS 2.0 (EKTA '88)  
@@ -46,7 +46,7 @@ SIZE: `800K` (`819200`) / SHA1: `8dbd941ee6241ab40ff012a8ecd83328cf24d9b9`
 
 Elektroonikamuuseumi levitatav Baltijetsi JUKU E5104 süsteemiketas #1,
 vt https://elektroonikamuuseum.ee/juku_arvuti_tarkvara_susteemiketas_1.html,
-kattub kettaga `MUSEUM01`.
+kattub kettaga `MUSEUM01`. Opsüsteemiks on kettal EKDOS 2.29.
 
 SIZE: `800K` (`819200`) / SHA1: `956c82e43e2b1f76a337190f78318428729e845f`
 
@@ -94,7 +94,7 @@ SIZE: `800K` (`819200`) / SHA1: `956c82e43e2b1f76a337190f78318428729e845f`
 
 Elektroonikamuuseumi levitatav Baltijetsi JUKU E5104 süsteemiketas #2,
 vt https://elektroonikamuuseum.ee/juku_arvuti_tarkvara_susteemiketas_2.html,
-kattub kettaga `MUSEUM02`.
+kattub kettaga `MUSEUM02`. Opsüsteemiks on kettal EKDOS 2.29.
 
 SIZE: `800K` (`819200`) / SHA1: `054b854a9bc58383794e74fdc2f778f746bdf55d`
 
@@ -118,7 +118,7 @@ SIZE: `800K` (`819200`) / SHA1: `054b854a9bc58383794e74fdc2f778f746bdf55d`
 
 Elektroonikamuuseumi levitatav Baltijetsi JUKU E5104 süsteemiketas #3,
 vt https://elektroonikamuuseum.ee/juku_arvuti_tarkvara_susteemiketas_3.html,
-kattub kettaga `MUSEUM03`.
+kattub kettaga `MUSEUM03`. Opsüsteemiks on kettal EKDOS 2.29.
 
 SIZE: `800K` (`819200`) / SHA1: `2bd379212078b892ad07766007507b02bbda3703`
 
@@ -334,6 +334,7 @@ SIZE: `800K` (`819200`) / SHA1: `2e5703cf190f8e564bb1be844d5963711148e242`
 Juku 3000 rekonstrueeritud EKTA JUKU PC UTILITIES DISK #4 detsembrist 1989.
 Failide valik lähtub kaasa pandud `READ.ME` nimekirjast ega pruugi olla täielik.
 Ketta saab alla laadida https://elektroonikamuuseum.ee/failid/juku/tarkvara/J3KUTIL4.JUK.
+Opsüsteemiks on kettal EKDOS 2.30.
 
 SIZE: `800K` (`819200`) / SHA1: `fb8a5239cdd74eced3b0bb7ab8ec6e8b2092f4c3`
 
