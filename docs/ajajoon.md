@@ -51,7 +51,7 @@ detsember | RomBios 3.4
 
 * Saab lõpliku kuju enamik [kettaopsüsteemiga JUKU](juku-k%C3%A4sud.md) tarkvarast
 * Valmivad 40 esimest 1986. aasta alguseks lubatud kooliarvutit JUKU
-* Venekeelne juhend-dokumentatsioon "[Интеллектуальный терминал для систем реального времени E5104](https://arti.ee/juku/JUKU%20E5104%20Kasutusjuhend%203%20osa%20%28286lk%2C%20vene%20k%29.pdf)"
+* Venekeelne juhend-dokumentatsioon "[Интеллектуальный терминал для систем реального времени E5104](https://elektroonikamuuseum.ee/failid/juku/kirjandus/juku_e5104_rus_2.pdf)"
 
 |||
 |-|-|
