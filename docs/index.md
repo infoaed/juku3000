@@ -28,7 +28,7 @@ Asjassepuutuvaid ettevõtmisi:
 * [Elektroonikamuuseum](https://elektroonikamuuseum.ee/)
 * [Tartu Ülikooli arvutimuuseuum](http://arvutimuuseum.ut.ee/)
 * [Tallinna arvutimuuseum](http://arvutimuuseum.ee/)
-* [Retroklubi/Retrocomputing Estonia](http://pushspace.com/)
+* [Retroklubi/Retrocomputing Estonia](http://pushspace.com/) (ka [Zuckerbergi reservaadis](https://www.facebook.com/groups/636411413155737))
 * [LVLup! videomängude muuseum](https://www.rara.ee/meist/asukohad/#lvlup-videomangude-muuseum)
 * [Unistused ja tegelikkus. 90ndate lapsepõlv](https://web.archive.org/web/20180204224850/https://www.mm.ee/naitused/naitus-unistused-ja-tegelikkus-90ndate-lapsepolv) (Tartu Mänguasjamuuseumi näitus)
 * [Mängime?! Arvutimängud Prantsusmaalt ja Saksamaalt](https://web.archive.org/web/20170825094230/https://kumu.ekm.ee/arhiiv/naitused-2013/mangime-arvutimangud-prantsusmaalt-ja-saksamaalt/) (Kumu arvutimängude näitus)
