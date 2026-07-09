@@ -1,0 +1,320 @@
+L~hendid:
+
+MLOS 	- mittejuhitav lindiop.s~steem
+JLOS	- juhitav lindiop.s~steem
+CP/M	- standardne kettaop.s~steem
+BLOS    - baaslindiop.s~steem
+
+Programmid:
+
+FORM  .COM - lindi formateerimine ja s~steemi salvestamine  
+
+COPA  .COM - kopeerimine CP/M -> JLOS, JLOS -> CP/M ja
+             CP/M -> CP/M
+
+COPM  .COM - kopeerimine CP/M -> MLOS, MLOS -> CP/M ja 
+             CP/M -> CP/M   
+             kui JLOS-i alt k|ivitatud,siis JLOS -> MLOS ja
+             MLOS -> JLOS
+
+GENA  .COM - JLOS-i genereerimine
+
+GENM  .COM - MLOS-i genereerimine
+
+ATOS  .SYS - juhitava lindi op.s~steem
+	     (ei ole laademoodul)
+
+MTOS  .SYS - mittejuhitava lindi op.s~steem
+	     (ei ole laademoodul)
+
+SETS  .COM - failide staatuste kuvamiseks ja muutmiseks
+
+.PA
+
+
+			FORM.COM 
+
+	Programm JLOS-i lintide formateerimiseks ja s~steemi
+kirjutamiseks.V}ib k|ivitada op.s~steemides CP/M,JLOS,MLOS.
+FORMAT - lindi formateerimine.
+ -mitu plokki kirjutada? Kui vastus=0,siis peavad plokid olema
+  juba varem kirjutatud.
+ -mitu plokki lugeda   ? Lugema peab v|hemalt 8 plokki.
+ -kataloog kontrollida ? P|rast kataloogi salvestamist lindile,
+  teostatakse selle lugemine ning v}rdlemine.Kui kontrollimisel
+  on vigu,siis on v}imalus kataloog uuesti salvestada lindile.
+ -s~steem kirjutada    ? Kui k|suga LOAD on laetud op.s~steem,
+  siis on kasutajal v}imalus p|rast formateerimist salvestada
+  lindile ka s~steem.
+ -s~steem kontrollida  ? Salvestatud s~steemi kontroll.
+
+SYSGEN - lindile s~steemi kirjutamine.
+ -kui s~steem on juba m|llu laaditud,siis tuleb magnetofoni ase-
+  tada lint,millele soovime s~steemi salvestada.
+ -kui s~steem ei ole laaditud,tuleb k}igepealt s~steemselt lin-
+  dilt lugeda s~steem,seej|rel vahetada linti ning salvestada.
+
+LOAD   - laadida lindiops~steem ketta/lindifailist m|llu.
+ - juhitava magnetofoniga op.s~steem failis ATOS.SYS
+ - mittejuhitava magnetofoniga op.s~steem failis MTOS.SYS
+
+EXIT   - v|ljumine programmist.
+
+	
+	* Ctrl-ESC viib alati programmi p}himen~~sse.   
+	* Selle programmiga v}ib teha ka MLOS-i s~steemseid linte:
+	  - formateerida lindist ainult 8 esimest plokki ja sal-
+	    vestada s~steem MLOS(fail MTOS.SYS).
+	* Programmi v}ib k|ivitada ka op.s~steemis MLOS,ning seal
+	  formateerida linte ning kanda nendele s~steeme.
+ NB!    * Kui programm on k|ivitatud op.s~steemis JLOS,siis v|l-
+	  jumisel programmist tuleb magnetofonile asetada lint,
+	  mis oli avatud programmi k|ivitamisel.
+
+    
+
+.PA
+
+
+			COPA.COM  
+
+	Programm failide kopeerimiseks kettalt juhitavale lindi-
+le,lindilt kettale ja kettalt kettale.Programm k|ivitatav ainult
+op.s~steemis CP/M.
+
+O - (OPEN )   lindi kataloogi avamine.
+L - (CLOSE)   lindi kataloogi sulgemine,kataloog j||b avatuks.
+D - (DIR  )   ketta/lindikataloogi kuvamine.
+	      A...D - kettaseade
+              T     - lint
+E - (EXIT )   v|ljumine programmist.Kui lint on avatud,siis toi-
+              mub k~simine lindi sulgemise kohta.
+R - (RESET)   lindi kerimine algusesse ja "reset" ketastele.
+C - (COPY )   failide kopeerimine.Esiteks sisestada l|htefaili
+              nimi.Kui sellist faili ei leita,siis ilmub ekraani-
+              le vastav teade.Kui failinime ei sisestata,toimub 
+              p``rdumine programmi p}himn~~sse.J|rgmisena sises-
+	      tada tulemusfaili nimi(v}ib sisestada ainult sead-
+              me t|hise,nimi kantakse automaatselt ~le l|htefai-
+              list).Kui selline fail juba eksisteerib,siis toi-
+              mub k~simine faili ~lekirjutamise kohta.Eitava vas-
+              tuse korral tuleb failinimi uuesti sisestada.Jaata-
+              va vastuse korral kirjutatakse antud fail ~le(ka
+              siis,kui on staatusega R/O).       
+	      Failinimes v}ib kasutada j|rgmisi seadmete t|his-
+              tusi:     A...D - kettaseade
+                        T     - lint
+	      Kui seadme t|his puudub,siis vaadeldakse vaikimisi
+              olevat seadet.
+
+
+
+			COPM.COM 
+
+	Programm failide kopeerimiseks kettalt mittejuhitavale
+lindile,lindilt kettale ja kettalt kettale.Programm k|ivitatav
+op.s~steemis CP/M ja oskuslikul kasutajal ka JLOS-s.Dialoog
+tarbijaga analoogne programmiga COPA.COM.
+
+
+.PA
+
+
+			GENA.COM 
+
+	Programm juhitava lindiop.s~steemi kirjutamiseks.Prog-
+ramm k|ivitatav op.s~steemis CP/M ja JLOS.
+	-asetada magnetofonile l|htelint(s.o. lint kus on s~s-
+         teem).
+	-kui s~steem on loetud,tuleb magnetofonile asetada lint,
+         millele soovitakse s~steemi kirjutada.
+
+ NB!	* Programmist v|ljumisel op.s~steemis JLOS tuleb magneto-
+          fonile asetada lint,mis oli avatud programmi k|ivitamisel.
+        * Ctrl-ESC viib alati juhtimise programmi tagasi.
+        * Ctrl-C   katkestab programmi t``.  
+       
+
+			GENM.COM 
+
+	Programm mittejuhitava lindiop.s~steemi kirjutamiseks.
+Programm k|ivitatav op.s~steemis CP/M,JLOS ja MLOS.
+
+
+
+	Programmidega COPM.COM ja GENM.COM t{{tamisel v|ljasta-
+takse teateid:
+
+Set to Mtos	- initsialiseerida mittejuhitav lindiop.s~steem
+                  s.t. magnetofoni juhtimiskaabel tuleb pesast
+                  X4 eemaldada. 
+Set to Atos     - initsialiseerida juhitav lindiop.s~steem s.t.
+                  magnetofoni juhtimiskaabel tuleb asetada pesa-
+                  sse X4.
+
+
+.PA
+
+
+			SETS.COM
+	
+	Programm failide staatuste v|ljastamiseks ja muut-
+miseks. Programm k|ivitatav op.s~steemis CP/M ja JLOS.
+JLOS-s failide staatuste v|ljastamisel kuvatakse andmed
+faili  paiknemise kohta(algus-ja l}pp-plokk ning pikkus).
+
+	A>SETS [failinimi] [staatus]   
+
+staatuse:	R/W  - fail lugemiseks ja kirjutamiseks
+                R/O  - fail ainult lugemiseks
+	        DIR  - mittes~steemne fail
+                SYS  - s~steemne fail
+
+.PA
+
+			JLOS-i funktsioonid
+
+
+DIR [f]		- failide nimekirja v|ljastamine 
+REN f1=f2 	- faili ~mbernimetamine
+		  f1 - uus  nimi
+		  f2 - vana nimi
+ERA f		- failide kustutamine
+REST f		- kustutatud faili taastamine
+MEM		- v|ljastatakse ~ldinfo lindi
+		  m|luh}ive kohta
+TYPE f 		- tekstifaili kuvamine
+DUMP f		- faili sisu kuvamine 16-s~steemis
+LOAD f [a]	- faili laadimine muutm|llu
+		  a - algusaadress(vaikimisi 100H)
+RUN  [p1] [p2]  - m|llu laaditud programmi k|ivi-
+		  tamine,parameetrid salvestatakse
+		  faili juhtplokkidesse
+SAVE n f [a]	- m|lusisu salvestamine faili
+		  n - 2K baidiste plokkide arv
+		  a - algusaadress(vaikimisi 100H) 
+CLOSE		- kataloogi kirjutamine lindile
+		  (kataloog j||b avatuks)
+OPEN		- kataloogi lugemine lindilt m|llu
+MONID		- v|ljumine op.s~steemist monitori
+HELP		- residentsete funktsioonide loetelu
+CHECK           - v|ljastab s~steemse info ja arvu-
+                  tatakse kataloogile uus kontroll-
+                  summa.
+DUMP ;a		- muutm|lu kuvamine 16-s~steemis
+		  a - algusaadress
+SAVE ;a 	- muutm|lu muutmine
+		  a - algusaadress
+
+
+	Ctrl-C katkestab funktsiooni t|itmise
+
+.PA
+
+			T{{tamine JLOS-ga
+
+	T{{tamine juhitava lindiop.s~steemiga toimub
+analoogselt standardse kettaop.s~steemiga CP/M.
+
+.PA
+
+			MLOS-i funktsioonid
+
+
+DIR    		- plokkide nimekirja v|ljastamine 
+TYPE f 		- tekstifaili kuvamine
+DUMP f		- faili sisu kuvamine 16-s~steemis
+LOAD f [a]	- faili laadimine muutm|llu
+		  a - algusaadress(vaikimisi 100H)
+BLOAD [a]       - plokkide laadimine muutm|llu
+		  a - algusaadress
+RUN  [p1] [p2]  - m|llu laaditud programmi k|ivi-
+		  tamine,parameetrid salvestatakse
+		  faili juhtplokkidesse
+SAVE n f [a]	- m|lusisu salvestamine faili
+		  n - 2K baidiste plokkide arv
+		  a - algusaadress(vaikimisi 100H) 
+MONID		- v|ljumine op.s~steemist monitori
+HELP		- residentsete funktsioonide loetelu
+
+DUMP ;a		- muutm|lu kuvamine 16-s~steemis
+		  a - algusaadress
+SAVE ;a 	- muutm|lu muutmine
+		  a - algusaadress
+
+
+	Ctrl-C katkestab funktsiooni t|itmise
+
+.PA
+
+			T{{tamine MLOS-ga
+
+	Kui toimub faili otsimine(LOAD,TYPE,DUMP v}i
+laademooduli k|ivitamisel),siis v|ljastatakse nende
+plokkide p|ised,mis antud faili ei kuulu.
+
+	Kui tarbijaprogrammis kasutatakse BLOS-i
+funktsioone nr.17(otsida faili) v}i nr.18(otdida
+j|rgmist faili),siis ekraani esimesele reale v|ljas-
+tatakse k~simus:
+	FILE EXIST(Y/N)		(Kas fail olemas?)
+Jaatava vastuse korral eeldatakse,et otsitava
+nimega fail on juba lindil olemas.
+	
+	Funktsioonide nr.20(lugeda 128-baidine plokk)
+v}i nr.42(lugeda 2K-baidine plokk) k|ivitamisel
+v|ljastatakse ekraani esimesele reale m}neks sekun-
+diks vilkuv tekst : SWITCH TO READING
+s.t. magnetofon tuleb l~litada lugemise reziimi.
+
+	Kui lindilt lugemise ajal v|ljastatakse vea-
+teade:	CHECKSUM ERROR,
+siis antud ploki lugemise kordamisel,tuleb linti 
+veidike tagasi kerida ja korrata lugemist.
+
+	Funktsioonide nr.21(kirjutada 128-baidine
+plokk) voi nr.43(kirjutada 2K-baidine plokk) k|ivi-
+tamisel v|ljastatakse ekraani esimesele reale m}neks
+sekundiks vilkuv tekst: SWITCH TO RECORDING
+s.t. magnetofon tuleb l~litada kirjutamise reziimi.
+
+	Kui ekraani esimesele reale v|ljastatakse
+vilkuv tekst: STOP THE TAPE ,siis tuleb lint peatada.
+
+
+DIR	- V|ljastatakse 2K baidiste plokkide p|is:
+		n  nimi  m
+	     n   - ploki number
+	     nimi- failinimi
+	     m   - faili algusploki number 
+	  Kui loetakse juhitavat linti,siis
+	     n   - absoluutne ploki number
+	     nimi- failinimi,kui see plokk kuulub faili
+		   lindinimi,kui t~hi plokk
+	     m   - kui plokk faili ei kuulu,siis 0
+		   kui plokk kuulub faili,siis
+		   faili esimese ploki number
+	  Kui loetakse mittejuhitavat linti,siis
+	     n   - ploki jrk.number failis(0-st alates)
+	     nimi- failinimi
+	     m   - alati 0
+	  Kui linti on loetud 1,5 minutit ja selle aja
+	     jooksul pole leitud ~htegi ploki p|ist,siis
+	     v|ljastatakse veateade:TIME OUT
+	     s.t. et tegemist on t~hja lindiga
+
+.PA	
+
+			Magnetofoni ^hendamine
+
+
+	Magnetofoni ~hendamiseks arvutiga on komp-
+lektis vastav kaabel.
+	Juhitava magnetofoni olemasolul kasutatakse
+arvuti pistukupesasid X5 ja X4 vastavalt andmesideks
+magnetofoniga ja magnetofoni juhtimiseks.Magnetofon
+ei tohi olla ajutise peatamise reziimis.
+	Mittejuhitava magnetofoni kasutamisel tuleb
+kaabel pistikupesast X4 eemaldada.
+	
+.PA	

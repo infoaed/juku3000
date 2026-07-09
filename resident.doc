@@ -1,0 +1,53 @@
+
+      Juhend residentsete programmide
+      laaduri JLOAD.LDR kasutamiseks.
+
+
+1 - Residentseks tehtav programm peab  sisaldama
+    unikaalset identifikaatorit, mille j|rgi te-
+    hakse kindlaks, kas  programm juba  pesitseb 
+    m|lus v}i mitte. Identifikaator peab paikne-
+    ma neljanda baidina programmis. N|iteks:
+   
+    START:: jmp   INIT
+    ID:     db    08h  ; Identifikaator
+    INIT:   mov .....  ; Programm ise
+            .
+            .
+            .
+
+2 - Programm transleerida  M80-ga, seej|rel lin-
+    kida LINK-iga, kasutades [op] v}tit.
+    N|it:  M80 DRIVER.ERL=DRIVER.MAC
+           LINK DRIVER.ERL [op]
+    Kui LINK on t{{ l}petanud, v}ib kettalt lei-
+    da .PRL laiendiga faili.
+
+3 - Saadud  .PRL laiendiga  fail tuleb  ~hendada 
+    residentsete programmide laaduriga JLOAD.LDR
+    SID-i abil. Selleks tuleb SID-i alt  laadida
+    JLOAD.LDR ja  seej|rel  residentne  programm
+    (.PRL laiendiga) aadressile 167h. N|iteks:
+
+    A>sid
+   
+    #ijload.ldr
+    #r
+    #idriver.prl
+    #r167
+    
+    N~~d on m|lus laadur koos laetava programmi-
+    ga st. l}plik  programm, mis tuleb salvesta-
+    da kettale CP/M k|su SAVE abil. Salvestatava
+    koguse v}ib teada saada,  vaadates SID-i alt
+    m|lu sisu.  Kuna .PRL fail l}peb suurema ko-
+    guse hex  1A-dega,  siis on programmi  l}ppu
+    ~sna lihtne kindlaks teha. Kui on selge, kui
+    palju on vaja kettale kirjutada, tuleb  SID- 
+    ist  v|ljuda  (CTRL-C) ja  salvestada l}plik 
+    programm kettale juba .COM laiendiga. N|it.:
+
+    A>save <n> driver.com
+
+
+
